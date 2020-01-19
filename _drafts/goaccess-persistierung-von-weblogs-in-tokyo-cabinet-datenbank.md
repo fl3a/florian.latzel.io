@@ -70,27 +70,28 @@ Ein guter Zeitpunkt wäre gegen kurz nach vier um via Cronjob den gestrigen Tag 
 Dieser Einzeiler bereitet die das gestrige *AccessLogFile* auf
 und persistiert es in der Datenbank:
 
-
-## Der Einzeiler zum prozessieren des AccessLogs
-
-Dieser Einzeiler bereitet die das gestrige *AccessLogFile* auf
-und persistiert es in der Datenbank:
-
 ```
 #!/bin/bash
-goaccess -p $HOME/etc/goaccess/goaccess.conf \
-  --process-and-exit $HOME/logs/webserver/access_log.1 \
+goaccess \
+  --log-file=$HOME/logs/webserver/access_log.1 \
+  --log-format=COMBINED \
+  --process-and-exit --agent-list \
   --keep-db-file --load-from-disk --db-path=$HOME/goaccess.db/ 
 ```  
+
+`LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fl3a/.toast/armed/lib`
+
 ## Der Einzeiler zur Generierung des HTML-Reports aus der Datenbank
 
 Dieser Einzeiler generiert einen *HTML Report* aus der Datenbank. 
 
 ```
 #!/bin/bash
-goaccess -p $HOME/etc/goaccess/goaccess.conf \
-  --load-from-disk --db-path=$HOME/goaccess.db/ --keep-db-files \
-  -a -o ~/html/index.html
+goaccess \
+  --log-format=COMBINED \
+  --agent-list \
+  --keep-db-file --load-from-disk --db-path=$HOME/goaccess.db/ 
+  --output  ~/html/index.html
 ```
 
 ### Verwendete Optionen mit Datenbank Bezug
@@ -160,7 +161,7 @@ echo $LD_LIBRARY_PATH
 /home/fl3a/.toast/armed/lib
 ```
 
-
+ `--with-openssl` fehlt, neu kompilieren
 ```
 make
 ./configure --enable-utf8 --enable-geoip=legacy --enable-tcb=btree  --prefix=$HOME
