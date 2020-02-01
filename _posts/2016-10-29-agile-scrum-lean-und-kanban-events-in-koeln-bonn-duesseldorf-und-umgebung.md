@@ -32,8 +32,8 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
 **Agile Community Köln**
 
 - [Scrumtisch Köln](https://www.xing.com/net/scrumtischkoeln), jeden dritten Mittwoch im Monat, Anmeldung über xing
-- [Lean Coffee Cologne](http://leancoffee.cologne), jeden Freitag von 08:00 – 09:00, wechselnde Locations.  
-  mehr auf [leancoffee.cologne](http://leancoffee.cologne/)
+- [Lean Coffee Cologne](http://leancoffee.cologne), jeden Freitag von 08:00 – 09:00, wechselnde Locations. 
+  Mehr auf [leancoffee.cologne](http://leancoffee.cologne/)
 - [Limited <acronym title="Work in progress">WIP</acronym> Society Cologne (Kanban)](http://lwscologne.wordpress.com/), 
   jeden zweiten Mittwoch im Monat, Infos und Anmeldung über die [xing Gruppe](https://www.xing.com/communities/groups/limited-wip-society-cologne-f66d-1045957/events)
 - [Agile Cologne](http://www.agilecologne.de/), die jährlich stattfindende (Un)Konferenz in Köln
@@ -42,7 +42,7 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
 - [Agile Intervision](https://agile-intervision.de/), kollegiale Fallberatung für Scrum Master und Agile Coaches,
   weiteres über die [accsv-cgn Mailingliste](https://www.freelists.org/list/accsv-cgn) 
   und auf [xing](https://www.xing.com/communities/groups/agile-intervision-90f0-1105436)
-- [Product Owner Meetup Köln/Product Owner Monthly](https://www.meetup.com/de-DE/Product-Owner-Meetup-Koeln/), jeden letzten Donnerstag im Monat
+- [Product Owner Meetup Köln/Product Owner Monthly](https://www.xing.com/communities/groups/product-owner-koeln-7be1-1083489/about), jeden letzten Donnerstag im Monat
 - [Agile QA Cologne](https://www.meetup.com/de-DE/agileqa-cologne/), Quality Assurance in Agilen Projekten
 - [Agile at Scale - Köln Meetup](https://www.meetup.com/de-DE/Agile-at-Scale-Koln-Meetup/)
 - [Köln Liberating Structures Meetup](https://www.meetup.com/de-DE/Koln-Liberating-Structures-Meetup/), 
