@@ -22,11 +22,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Gedanken, Notizen und Berichte über dies, das, verschiedene Dinge.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://netzaffe.de" # the base hostname & protocol for your site, e.g. http://example.com
-
+date_format: "%Y-%m-%d"
+last_modified_at: "Zuletzt geändert"
 defaults:
   -
     values:
       author: "Florian Latzel"
+
+
 
 # Drupal like teaser
 show_excerpts : true
