@@ -49,8 +49,7 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
   Meetup zum Ausprobieren und Erfahrungsaustausch der Liberating Structures Toolbox und Strings 
 - [Köln Teal](https://www.meetup.com/de-DE/Koln-Teal-Reinventing-Organizations-Meetup/) Reinventing Organizations - Meetup 
 - [Agile Ale](https://www.kernpunkt.de/agile-networking-event), 
-  präsentiert kernpunkt's Reise der agilen Unternehmenstransformation, 
-  Jeden dritten Mittwoch oder Donnerstag im Monat 
+  Agiles Netzwerken in Köln, jeden zweiten Donnerstag im Monat 
 - [Spielend begreifen - get it through games](https://www.xing.com/communities/groups/spielend-begreifen-get-it-through-games-90f0-1106969), 
   Spiele mit Mehrwert, alles was Verstehen fördert, 
   egal ob Simulationen/Planspiele, Teamspiele oder Ice-Breaker für Teams und Organisationen 
