@@ -11,7 +11,7 @@ tags:
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2019-05-17
+last_modified_at: 2020-02-02
 ---
 <figure>
   <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" 
@@ -30,8 +30,8 @@ läuft mit einer sogar recht ansprechenden Nucurse-Oberfläche[^ncurses] auf der
 und kann zudem noch Exporte nach JSON, CSV und HTML, was bedeutet, 
 dass die GoAccess auch wie Matomo(ehemals Piwik) oder Google-Analytics auch über den Browser bedienbar ist.
 
-Hier beschreibe ich die Installation von GoAccess aus dem Quellcode auf Uberspace 6, 
-bei U7 ist GoAccess per Default mit an Board(und alle so yeah)[^ureact]. 
+Hier beschreibe ich die Installation von GoAccess aus dem Quellcode auf Uberspace 6,  
+bei U7 ist GoAccess per Default mit an Board(und alle so yeah)[^ureact].  
 Zudem gebe dir neben der Konfiguration von GoAccess auch Einblick in die Nutzung auf der Shell,
 ein paar nette Tipps und nützliche Beispiele mit an die Hand.
 
@@ -62,8 +62,17 @@ autoreconf -fiv
 ```
 Es folgt der *Dreisatz*: 
 ```
-./configure --enable-geoip --enable-utf8 --prefix=$HOME
+./configure --enable-utf8 --enable-tcb=btree --prefix=$HOME
 ```
+Bis auf `--enable-utf8` und `--prefix=$HOME`, sofern als _Non-Root User_ ausgeführt,
+sind unter anderem die folgenden Parameter optional:
+- `--enable-tcb=btree` Kompiliere mit Tokyo Cabinet Datenbank für die  
+   [Persistierung von Access Logs in On-Disk Datenbank mit GoAccess](/2020/02/02/goaccess-persistierung-von-weblogs-in-tokyo-cabinet-on-disk-datenbank.html).
+- `--with-openssl` falls _Websocket Server_ verwendet werden soll.  
+  Da es auf U6 im Gegensatz U7 keine Echtzeit Logs gibt, 
+  ist das Feature hier uninteressant.
+- `--enable-geoip=legacy` GeoLocation Unterstützung durch die GeoIP Datenbank von MaxMind.
+
 ```
 make
 ```
@@ -77,17 +86,15 @@ Wenn `autoreconf -fiv` mit z.B. folgender Meldung abricht,
 dann ist das benötigte *gettext* auf dem System zu alt.
 Das war bei mir auf einer Uberspace 6 Instanz der Fall.
 
-```
-autoreconf: Entering directory `.'
-autoreconf: running: autopoint --force
-autopoint: *** The AM_GNU_GETTEXT_VERSION declaration in your configure.ac  
-file requires the infrastructure from gettext-0.18 but this version
-is older. Please upgrade to gettext-0.18 or newer.
-autopoint: *** Stop.
-autoreconf: autopoint failed with exit status: 1
-```
+> autoreconf: Entering directory `.'  
+> autoreconf: running: autopoint --force  
+> autopoint: *** The AM_GNU_GETTEXT_VERSION declaration in your configure.ac    
+> file requires the infrastructure from gettext-0.18 but this version  
+> is older. Please upgrade to gettext-0.18 or newer.  
+> autopoint: *** Stop.  
+> autoreconf: autopoint failed with exit status: 1
 
-Kein Problem, das lässt sich lösen mit toast[^toast1] [^toast2] lösen:
+Kein Problem, das lässt sich mit toast[^toast1] [^toast2] lösen:
 ```
 toast arm gettext
 ```
@@ -96,6 +103,58 @@ Jetzt könnt ihr euch einen Kaffee holen, das dauert ein wenig...
 Nachdem toast durchgelaufen ist, wiederholen wir `autoreconf -fiv` 
 und machen mit dem *Dreisatz*(s.o.) weiter. 
 
+### Fehlende Tokyo Cabinet Bibliothek
+
+Wenn configure abbricht, weil es die _Tokyo Cabinet Database_ nicht findet.
+
+> checking for tchdbnew in -ltokyocabinet... no  
+> configure: error: *** Missing development libraries for Tokyo Cabinet Database
+
+Auf _Uberspace 6_  können wir das ebenfalls via toast[^toast1] [^toast2] lösen.  
+Auf _Uberspace 7_ ist GoAccess gegen tokyocabinet kompiliert 
+und weiss auch wo die die Lib ist.
+
+Da toast sich bei mir während der Suche verschluckt hat,
+helfen wir etwas nach und sagen toast genau was wir wollen:
+
+```
+toast add https://fallabs.com/tokyocabinet/tokyocabinet-1.4.48.tar.gz
+```
+
+...jetzt wird toast fündig...
+
+```
+toast find tokyocabinet
+```
+```
+[...]
+
+tokyocabinet
+  version 1.4.48: found
+    urls:
+       https://fallabs.com/tokyocabinet/tokyocabinet-1.4.48.tar.gz
+```
+
+...jetzt kann _tokyocabinet_ via toast installiert werden:
+
+```
+toast arm tokyocabinet
+```
+
+Jetzt müssen wir nochmal obigen *Dreisatz* wiederholen.
+
+### Anpassung der Variablen MANPATH
+
+Damit der Aufruf von `man goaccess` auch die dazugehörige Manpage und nicht
+
+> Keine Handbuchseite für goaccess 
+
+anzeigt wird, müssen wir die Umgebungsvariable *MANPATH* anpassen.
+
+Dazu fügen wir in *.bash_profile* die folgende Zeile ein:
+```
+export MANPATH="$MANPATH:$HOME/share/man/"
+```
 ## Konfiguration von GoAccess
 
 ### ~/etc/goaccess/goaccess.conf
@@ -107,8 +166,8 @@ unter `etc/goaccess/goaccess.conf` in deinem Home-Verezeichnis.
 vi ~/etc/goaccess/goaccess.conf
 ```
 
-Es gibt nur eine Einstellung, die für GoAccess wirklich zwingend ist 
-und zwar die des Aufbaus des *Access-Logs*[^logs]
+Es gibt nur eine Einstellung, die für GoAccess wirklich zwingend ist  
+und zwar die für den Aufbau des *Access-Logs*[^logs]
 ```
 log-format COMBINED
 ```
@@ -127,18 +186,8 @@ gleiches wiederholen wir für die Referrer.
 #ignore-panel REFERRERS
 ```
 
-### Anpassung der Variablen MANPATH
-
-Damit der Aufruf von `man goaccess` auch die dazugehörige Manpage und nicht
-
-> Keine Handbuchseite für goaccess 
-
-anzeigt wird, müssen wir die Umgebungsvariable *MANPATH* anpassen.
-
-Dazu fügen wir in *.bash_profile* die folgende Zeile ein:
-```
-export MANPATH="$MANPATH:$HOME/share/man/"
-```
+Im Artikel über die [inkrementelle Persistierung von Access Logs in einer Tokyo Cabinet On-Disk Datenbank mit GoAcess](2020/02/02/goaccess-persistierung-von-weblogs-in-tokyo-cabinet-on-disk-datenbank.html)
+beschreibe ich detailiert die [Tokyo Cabinet Optionen in goaccess.conf](/2020/02/02/goaccess-persistierung-von-weblogs-in-tokyo-cabinet-on-disk-datenbank.html#tokyo-cabinet-optionen-in-goaccessconf).
 
 ## Nutzung von GoAccess
 
@@ -187,7 +236,7 @@ Noch mehr Beispiele findest du via `goaccess --help` oder in der Manpage[^man].
 
 * * *
 [^ncurses]: [Ncurses](https://de.wikipedia.org/wiki/Ncurses)
-[^ureact]: [https://twitter.com/ubernauten/status/1124018556922888196](https://twitter.com/ubernauten/status/1124018556922888196)
+[^ureact]: <https://twitter.com/ubernauten/status/1124018556922888196>
 [^toast1]: [toast - packageless package manager for Unix systems and non-root users](https://wiki.uberspace.de/system:toast) 
 [^toast2]: [toast homepage]([http://www.toastball.net/toast/)
 [^logs]: [Webserver Logs, access_log](https://wiki.uberspace.de/webserver:logs#access_log)
