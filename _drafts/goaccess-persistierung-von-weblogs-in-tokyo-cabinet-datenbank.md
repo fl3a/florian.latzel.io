@@ -12,9 +12,21 @@ tags:
 - Logs
 - Analytics
 - Datenbank 
-title: "GoAccess: Inkrementelle Persistierung von Access Logs in Tokyo Cabinet Datenbank"
+title: "GoAccess: Inkrementelle Persistierung von Access Logs in On-Disk B+Tree Datenbank"
 ---
-Tokyo Cabinet On-Disk B+ Tree[^tcb] DBM[^dbm]
+GoAccess bietet die Möglichkeit die _flüchtigen_ _Access Logs_ des Webservers
+dauerhaft in einem _dateibasierter Datenbankmanagementsystem_[^dbm], 
+hier einer _Tokyo Cabinet On-Disk B+ Tree Datenbank_[^tcb] zu speichern. 
+So lassen sich auch längere Zeitspannen mit GoAccess auswerten.
+
+Dieser Artikel beschreibt, wie Du mit einem Cronjob die Logfiles 
+wiederholend in einer solchen Datenbank persistierst[^persistenz1] [^persistenz2] 
+und wie auch noch ein ansehnlicher _HTML Report_,
+der auf unser erzeugtes DBM zugreift hinten rausfällt.
+
+In meinem Artikel über den [GoAccess Web Log Analyzer](/2019/05/02/goaccess-auf-uberspace.html) 
+habe ich den Abschnitt [Installation von GoAccess](/2019/05/02/goaccess-auf-uberspace.html#installation-von-goaccess) 
+um die Abhängigkeit zur _Tokyo Cabinet Datenbank_ entsprechend ergänzt. 
 <!--break-->
 ## Vorbereitungen
 
@@ -91,7 +103,7 @@ auf u7 werden die ersten 16 Bits einer _IPv4 Addresse_
 und die ersten 32 Bits einer _IPv6 Adresse_ protokolliert.
 
 Wäre das nicht der Fall, 
-dann solltest du zusätzlich noch die Option `--anonymize-ip` verwenden.
+dann solltest du auf die Option `--anonymize-ip` von GoAccess zurückgreifen.
 
 ## Der Einzeiler zur Generierung des HTML-Reports aus der Datenbank
 
@@ -107,18 +119,20 @@ goaccess \
   --log-format=COMBINED \
   --agent-list \
   --keep-db-file --load-from-disk --db-path=$HOME/goaccess.db/ \
-  --output  ~/html/index.html
+  --output $HOME/index.html
 ```
 Dein HTML-Report ist nun über <https://deinusername.uber.space> erreichbar.
 
-Gegebenenfall magst du das Verzeichnis _~/html_ mit einen Passwortschutz[^htaccess] versehen
-um es gegen fremde Blicke zu schützen.
+Gegebenenfall möchtest du das Verzeichnis _~/html_ mit einen Passwortschutz[^htaccess] 
+via _.htaccess_ versehen
+um es vor fremden Blicken zu schützen.
 
 ### Verwendete Optionen mit Datenbank Bezug
 
-- `--process-and-exit`, Ideal für Cronjobs: Parsen und Ende, keine Ausgabe via ncurses oder in eine Datei.
+- `--process-and-exit`, Ideal für Cronjobs: Parsen und Ende,  
+  keine Ausgabe via ncurses oder in eine Datei.
 - `--keep-db-file`, persistiere die geparsten Daten in der Datenbank.
-- `--load-from-disk`, lade die vormals persistierten Daten um neue Daten anzuhängen.
+- `--load-from-disk`, lade die Datenbank um neue Daten hinzuzufügen.
 - `--db-path=$HOME/goaccess.db/`, der Ort an dem die _On-Disk-Datenbank_ leben und wachsen soll. 
 
 #### Tokyo Cabinet Options in goaccess.conf
@@ -139,19 +153,32 @@ dauerhafte Speicherung der _Access Logs_ in der Datenbank
 und einen darauf basierend aktuellen _HTML Report_.
 
 ```
-5 4 * * * $USER/bin/goaccess_process_log_into_db.sh
-10 4 * * * $USER/goaccess_db_to_html.sh
+5 4 * * * $HOME/bin/goaccess_process_log_into_db.sh
+10 4 * * * $HOME/bin/goaccess_db_to_html.sh
 ```
 # Fallstricke
 
-Pitfalls aka _Lessons learned_ oder Erfahrungen, die ihr nicht unbedingt auch machen müsst: 
+Pitfalls aka _Lessons learned_ oder Erfahrungen, 
+die ihr nicht unbedingt auch machen wollt. 
 - Bei einer mehrfachen Ausführung auf das gleiche Logfile merkt sich GoAccess nicht, 
 das die Datei schonmal geparst wurde. Ergo: Die Daten für den jeweiligen Zeitraum sind n mal aufgenommen worden.
-- Auf U6 kennt GoAccess nicht mehr den Pfad zur selbstinstallierten _libtokyocabinet.so.9_ Bibliothek, 
- wenn via Cron aufgerufen: 
- `goaccess: error while loading shared libraries: libtokyocabinet.so.9: cannot open shared object file: No such file or directory`.
- Ein `source $HOME/.bash_profile` im Skript zur Persistierung 
- macht alle nötigen Umgebungsvariablen verfügbar und schafft Abhilfe.
+- Wenn GoAccess auf _uberspace 6_ via Cron aufgerufen wird, 
+dann kennt GoAccess nicht mehr den Pfad zur selbstinstallierten _libtokyocabinet.so.9_ Bibliothek: 
+> goaccess: error while loading shared libraries: libtokyocabinet.so.9: 
+> cannot open shared object file: No such file or directory.
+Ein längerer Weg zu einer schönen Lösung...
+  - `source $HOME/.bash_profile` 
+  in den Skripten macht alle nötigen Umgebungsvariablen verfügbar. 
+  Finde ich hässlich, 
+  denn es hat nichts mit der Funktion zu tun, zudem ist es zwei mal nötig.
+  - Etwas schöner, aber immer noch zwei mal nötig: 
+  Dem Cron Command vorangestellt[^cronEnv]:  
+  `5 4 * * * source $HOME/.bash_profile ; HOME/bin/goaccess_process_log_into_db.sh`
+  - BASH_ENV[^bash_env1]! Sofern die _BASH_, wie bei _Shell Skripten_ **nicht interaktiv** gestartet wird, wird versucht auf diese Variable zuzugreifen und sie entsprechend zu erweitern[^bash_env2].
+```
+SHELL=/bin/bash
+BASH_ENV=$HOME/.bash_profile
+```
 - Einmal das `--keep-db-file` vergessen, schon ist die mühsam angelegt Datenbank futsch.
 - Der Trailing Slash bei der Angabe von `--db-path` ist wichtig, sonst gehts nicht.
 
@@ -221,9 +248,13 @@ Your build configuration:
 ```
 * * * 
 
-
-[^tcb]: [Tokyo Cabinet DBM] (https://fallabs.com/tokyocabinet/)
-[^dbm]: [DBM \(Datenbank\)](https://de.wikipedia.org/wiki/DBM_(Datenbank))
+[^dbm]: [DBM (Datenbank)](https://de.wikipedia.org/wiki/DBM_(Datenbank))
+[^tcb]: [Tokyo Cabinet DBM](https://fallabs.com/tokyocabinet/)
+[^persistenz1]: [persistieren](https://de.wiktionary.org/wiki/persistieren)
+[^persistenz2]: [Persistenz (Informatik)](https://de.wikipedia.org/wiki/Persistenz_(Informatik))
 [^u7logs]: [uberspace 7: Web server logs](https://manual.uberspace.de/web-logs.html)
 [^logrotate]: [logrotate(8) - Linux man page](https://linux.die.net/man/8/logrotate)
 [^htaccess]: [Password protecting a directory and all of it's subfolders using .htaccess](https://stackoverflow.com/questions/5229656/password-protecting-a-directory-and-all-of-its-subfolders-using-htaccess)
+[^cronEnv]: [How can I run a cron command with existing environmental variables? : unix.stackexchange.com](https://unix.stackexchange.com/questions/27289/how-can-i-run-a-cron-command-with-existing-environmental-variables)
+[^bash_env1]: [Crontab, environment and BASH_ENV](http://heikok.blogspot.com/2016/09/crontab-environment-and-bashenv.html)
+[^bash_env2]: [BASH_ENV and cron jobs](https://unix.stackexchange.com/questions/130941/bash-env-and-cron-jobs)
