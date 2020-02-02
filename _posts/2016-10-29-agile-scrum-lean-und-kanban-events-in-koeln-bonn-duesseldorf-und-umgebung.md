@@ -15,10 +15,10 @@ nid: 1642
 permalink: "/agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html"
 created: 1477757270
 layout: post
-last_modified_at: 2020-02-01
+last_modified_at: 2020-02-02
 ---
-Was für regelmäßigen Meetups zu Agile Themen wie Scrum, KANBAN, eXtreme Programming, Lean 
-und Arbeit auf Augenhöhe gibt in Köln und Umgebung? 
+Welche regelmäßigen Meetups zu Themen wie Scrum, Agile, KANBAN, eXtreme Programming, Lean 
+und Arbeit auf Augenhöhe gibt es in Köln und Umgebung? 
 Welche (Un)Konferenzen finden in NRW statt? 
 Wo kann ich mich über Agiles Projektmanagement austauschen oder einfach nur Gleichgesinnte treffen 
 und wo ist die nächste Selbsthilfegruppe der Anonymen Agilisten[^anon-agile]?
