@@ -12,17 +12,22 @@ tags:
 - Logs
 - Analytics
 - Datenbank 
-title: "GoAccess: Inkrementelle Persistierung von Access Logs in On-Disk B+Tree Datenbank"
+title: "GoAccess: Inkrementelle Persistierung von Access Logs in Tokyo Cabinet On-Disk Datenbank"
+image: /assets/imgs/goaccess-web-frontend.png
 ---
+<figure role="group">
+  <img src="/assets/imgs/goaccess-web-frontend.png" alt="GoAccess Web Frontend" />
+  <figcaption>Das "ansehnliche" Web Frontend von GoAccess mit Daten aus einem Monat</figcaption>
+</figure>
 GoAccess bietet die Möglichkeit die _flüchtigen_ _Access Logs_ des Webservers
-dauerhaft in einem _dateibasierter Datenbankmanagementsystem_[^dbm], 
+dauerhaft in einem _dateibasierten Datenbankmanagementsystem_[^dbm], 
 hier einer _Tokyo Cabinet On-Disk B+ Tree Datenbank_[^tcb] zu speichern. 
 So lassen sich auch längere Zeitspannen mit GoAccess auswerten.
 
-Dieser Artikel beschreibt, wie Du mit einem Cronjob die Logfiles 
+Dieser Artikel beschreibt, wie du mit einem Cronjob die Logfiles 
 wiederholend in einer solchen Datenbank persistierst[^persistenz1] [^persistenz2] 
 und wie auch noch ein ansehnlicher _HTML Report_,
-der auf unser erzeugtes DBM zugreift hinten rausfällt.
+der auf unser erzeugtes DBM zugreift, hinten rausfällt.
 
 In meinem Artikel über den [GoAccess Web Log Analyzer](/2019/05/02/goaccess-auf-uberspace.html) 
 habe ich den Abschnitt [Installation von GoAccess](/2019/05/02/goaccess-auf-uberspace.html#installation-von-goaccess) 
@@ -30,10 +35,10 @@ um die Abhängigkeit zur _Tokyo Cabinet Datenbank_ entsprechend ergänzt.
 <!--break-->
 ## Vorbereitungen
 
-### Anknipsen der AccessLogs auf U7
+### Anknipsen der Access Logs auf U7
 
-Wenn du, wie ich auf *Uberspace 7* unterwegs bist, 
-dann musst du die AccessLogs erst aktivieren[^u7logs], 
+Wenn du auch _Uberspace 7_ nutzt, 
+dann musst du die Access Logs erst aktivieren[^u7logs], 
 da per Default gar keine *Webserver Logs* geschrieben werden,
 was aus Gründen der Datensparsamkeit schon ziemlich cool ist.
 
@@ -43,10 +48,10 @@ uberspace web log access enable
 
 ### Zukünftige Heimat der Datenbank
 
-Da GoAccess seine Datenbank per Default nach `/tmp` schreibt, 
-wo a), die Dateien flüchtig sind 
-und b), von jedem lesbar sind, 
-legen wir in unserem `$HOME` ein Verzeichnis dafür an.
+Da GoAccess seine Datenbank per Default nach `/tmp` schreibt,  
+wo a), die Dateien flüchtig sind  
+und b), von jedem lesbar sind,  
+legen wir in unserem `$HOME` extra ein Verzeichnis dafür an.
 
 ```
 mkdir $HOME/goaccess.db
@@ -60,8 +65,8 @@ Wann erfolgt die Rotation[^logrotate] der Webserver Logfiles?
 ls -l logs/webserver/
 ```
 
-Am Beispiel eines U7 Accounts werden 7 _Web Access Logs_ vorgehalten. 
-Hier wird um 03:54 das aktuelle Logfile _access.log_ nach _access_log.1_ rotiert.
+Am Beispiel eines U7 Accounts werden sieben _Web Access Logs_ vorgehalten. 
+Hier wird um 03:54 das aktuellste Logfile _access.log_ nach _access_log.1_ rotiert.
 
 
 ```
@@ -80,13 +85,13 @@ Somit enthält _access_log.1_ die Zugriffe von Vorgestern ab 03:54 bis Gestern u
 
 Ein guter Zeitpunkt wäre diese Datei gegen Vier Uhr in der Datenbank zu persistieren.
 
-## Der Einzeiler zum prozessieren des AccessLogs
+## Der Einzeiler zum Prozessieren des Access Logs
 
 Dieser Einzeiler, 
 den wir als _$USER/bin/goaccess_process_log_into_db.sh_ speichern
-und via `chmod u+x $USER/bin/goaccess_process_log_into_db.sh` ausführbar machen
+und via `chmod u+x $USER/bin/goaccess_process_log_into_db.sh` ausführbar machen,
 bereitet das obige *AccessLogFile* auf
-und persistiert diese in der Datenbank:
+und persistiert es in der Datenbank:
 
 ```
 #!/bin/bash
@@ -94,7 +99,8 @@ und persistiert diese in der Datenbank:
 goaccess \
   --log-file=$HOME/logs/webserver/access_log.1 \
   --log-format=COMBINED \
-  --process-and-exit --agent-list \
+  --process-and-exit \
+  --agent-list \
   --keep-db-file --load-from-disk --db-path=$HOME/goaccess.db/ 
 ```
 
@@ -109,7 +115,7 @@ dann solltest du auf die Option `--anonymize-ip` von GoAccess zurückgreifen.
 
 Dieser Einzeiler,
 den wir als _$USER/bin/goaccess_db_to_html.sh_ speichern 
-und via `chmod u+x $USER/bin/goaccess_db_to_html.sh` ausführbar machen
+und via `chmod u+x $USER/bin/goaccess_db_to_html.sh` ausführbar machen,
 generiert einen *HTML Report* aus der Datenbank. 
 
 ```
@@ -127,7 +133,7 @@ Gegebenenfall möchtest du das Verzeichnis _~/html_ mit einen Passwortschutz[^ht
 via _.htaccess_ versehen
 um es vor fremden Blicken zu schützen.
 
-### Verwendete Optionen mit Datenbank Bezug
+### Verwendete Optionen mit Datenbankbezug
 
 - `--process-and-exit`, Ideal für Cronjobs: Parsen und Ende,  
   keine Ausgabe via ncurses oder in eine Datei.
@@ -135,7 +141,7 @@ um es vor fremden Blicken zu schützen.
 - `--load-from-disk`, lade die Datenbank um neue Daten hinzuzufügen.
 - `--db-path=$HOME/goaccess.db/`, der Ort an dem die _On-Disk-Datenbank_ leben und wachsen soll. 
 
-#### Tokyo Cabinet Options in goaccess.conf
+#### Tokyo Cabinet Optionen in goaccess.conf
 
 Die obigen Optionen hier analog für die unsere _~/etc/goaccess/goaccess.conf_:
 
@@ -150,7 +156,11 @@ Für eine Minimalkonfiguration siehe auch [GoAccess Web Log Analyzer: ~/etc/goac
 
 Mit den folgenden Jobs sorgen wir für eine wiederholende, 
 dauerhafte Speicherung der _Access Logs_ in der Datenbank 
-und einen darauf basierend aktuellen _HTML Report_.
+und einen auf der Datenbank basierenden _HTML Report_:
+
+```
+crontab -e
+```
 
 ```
 5 4 * * * $HOME/bin/goaccess_process_log_into_db.sh
@@ -159,93 +169,36 @@ und einen darauf basierend aktuellen _HTML Report_.
 # Fallstricke
 
 Pitfalls aka _Lessons learned_ oder Erfahrungen, 
-die ihr nicht unbedingt auch machen wollt. 
+die ihr nicht unbedingt auch machen wollt: 
 - Bei einer mehrfachen Ausführung auf das gleiche Logfile merkt sich GoAccess nicht, 
-das die Datei schonmal geparst wurde. Ergo: Die Daten für den jeweiligen Zeitraum sind n mal aufgenommen worden.
-- Wenn GoAccess auf _uberspace 6_ via Cron aufgerufen wird, 
-dann kennt GoAccess nicht mehr den Pfad zur selbstinstallierten _libtokyocabinet.so.9_ Bibliothek: 
-> goaccess: error while loading shared libraries: libtokyocabinet.so.9: 
-> cannot open shared object file: No such file or directory.
-Ein längerer Weg zu einer schönen Lösung...
-  - `source $HOME/.bash_profile` 
+das die Datei schonmal geparst wurde. 
+Ergo: Die Daten für den jeweiligen Zeitraum sind n mal aufgenommen worden.
+- Der Weg zu einer schönen Lösung:  
+Wenn GoAccess auf _uberspace 6_ via Cron aufgerufen wird, 
+dann kennt GoAccess nicht mehr den Pfad zur selbstinstallierten 
+_libtokyocabinet.so.9_ Bibliothek.  
+> goaccess: error while loading shared libraries: libtokyocabinet.so.9:  
+> cannot open shared object file: No such file or directory.  
+
+  - Ein `source $HOME/.bash_profile` 
   in den Skripten macht alle nötigen Umgebungsvariablen verfügbar. 
-  Finde ich hässlich, 
-  denn es hat nichts mit der Funktion zu tun, zudem ist es zwei mal nötig.
+  Finde ich hässlich und es hat nichts mit der Funktion zu tun, 
+  zudem ist es in beiden Skripten nötig.
   - Etwas schöner, aber immer noch zwei mal nötig: 
   Dem Cron Command vorangestellt[^cronEnv]:  
-  `5 4 * * * source $HOME/.bash_profile ; HOME/bin/goaccess_process_log_into_db.sh`
-  - BASH_ENV[^bash_env1]! Sofern die _BASH_, wie bei _Shell Skripten_ **nicht interaktiv** gestartet wird, wird versucht auf diese Variable zuzugreifen und sie entsprechend zu erweitern[^bash_env2].
-```
-SHELL=/bin/bash
-BASH_ENV=$HOME/.bash_profile
-```
-- Einmal das `--keep-db-file` vergessen, schon ist die mühsam angelegt Datenbank futsch.
+  `5 4 * * * source $HOME/.bash_profile ; $HOME/bin/goaccess_process_log_into_db.sh`
+  - BASH_ENV[^bash_env1]! Sofern die _BASH_, 
+  wie bei _Shell Skripten_ und Cronjobs nicht interaktiv 
+  gestartet wird, wird versucht auf diese Variable _BASH_ENV_ zuzugreifen 
+  und die angegebene Datei (_$HOME/.bash_profile_) auszuwerten[^bash_env2].  
+  Füge die folgenden zwei Zeilen vor den Cronjobs ein:
+  ```
+  SHELL=/bin/bash
+  BASH_ENV=$HOME/.bash_profile
+  ```
+- Einmal das `--keep-db-file` vergessen, schon ist die mühsam angelegte Datenbank futsch.
 - Der Trailing Slash bei der Angabe von `--db-path` ist wichtig, sonst gehts nicht.
 
-
-```  
-checking for tchdbnew in -ltokyocabinet... no
-configure: error: *** Missing development libraries for Tokyo Cabinet Database
-```  
-  
-```  
-toast add https://fallabs.com/tokyocabinet/tokyocabinet-1.4.48.tar.gz
-```  
-
-```  
-toast find tokyocabinet
-```  
-```  
-wget -O- https://fallabs.com/tokyocabinet/
---2020-01-07 23:05:25--  https://fallabs.com/tokyocabinet/
-Auflösen des Hostnamen »fallabs.com«.... 49.212.133.108
-Verbindungsaufbau zu fallabs.com|49.212.133.108|:443... verbunden.
-HTTP Anforderung gesendet, warte auf Antwort... 200 OK
-Länge: 6819 (6,7K) [text/html]
-In »»STDOUT«« speichern.
-
-100%[===================================================================================================================>] 6.819       --.-K/s   in 0s      
-
-2020-01-07 23:05:26 (127 MB/s) - auf die Standardausgabe geschrieben [6819/6819]
-
-
-tokyocabinet
-  version 1.4.48: found
-    urls:
-       https://fallabs.com/tokyocabinet/tokyocabinet-1.4.48.tar.gz
-```  
-
-
-```
-toast arm tokyocabinet
-```
-
-
-```
-echo $LD_LIBRARY_PATH 
-/home/fl3a/.toast/armed/lib
-```
-
- `--with-openssl` fehlt, neu kompilieren
-```
-make
-./configure --enable-utf8 --enable-geoip=legacy --enable-tcb=btree  --prefix=$HOME
-```
-
-```
-Your build configuration:
-
-  Prefix         : /home/fl3a
-  Package        : goaccess
-  Version        : 1.3
-  Compiler flags :  -pthread
-  Linker flags   : -lnsl -ltokyocabinet -lncursesw -lGeoIP -lpthread   -lz -lbz2 -ltokyocabinet -lrt -lc
-  Dynamic buffer : no
-  Geolocation    : GeoIP Legacy
-  Storage method : On-disk B+ Tree Database (Tokyo Cabinet)
-  TLS/SSL        : no
-  Bugs           : goaccess@prosoftcorp.com
-```
 * * * 
 
 [^dbm]: [DBM (Datenbank)](https://de.wikipedia.org/wiki/DBM_(Datenbank))
