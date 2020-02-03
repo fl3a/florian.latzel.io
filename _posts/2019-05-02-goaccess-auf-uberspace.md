@@ -1,6 +1,7 @@
 ---
 title: GoAccess auf Uberspace
 tags:
+- GoAccess
 - Linux
 - uberspace
 - howto
@@ -11,7 +12,7 @@ tags:
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2020-02-02
+last_modified_at: 2020-02-03
 ---
 <figure>
   <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" 
