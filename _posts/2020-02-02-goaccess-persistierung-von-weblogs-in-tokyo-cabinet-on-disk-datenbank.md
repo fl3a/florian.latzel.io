@@ -14,10 +14,12 @@ tags:
 - Datenbank 
 title: "GoAccess: Inkrementelle Persistierung von Access Logs in Tokyo Cabinet On-Disk Datenbank"
 image: /assets/imgs/goaccess-web-frontend.png
+last_modified_at: 2020-02-03
 ---
 <figure role="group">
-  <img src="/assets/imgs/goaccess-web-frontend.png" alt="GoAccess Web Frontend" />
-  <figcaption>Das "ansehnliche" Web Frontend von GoAccess mit Daten aus einem Monat</figcaption>
+  <img src="/assets/imgs/goaccess-web-frontend.png" 
+  alt="Der ansehnliche HTML-Report von GoAccess mit Daten aus einem Monat, hier mit den Panels Overall Analyzed Requests, Requested Files und Unique visitors per day" />
+  <figcaption>Der "ansehnliche" HTML-Report von GoAccess mit Daten aus einem Monat, hier mit den Panels "Overall Analyzed Requests", "Requested Files" und "Unique visitors per day"</figcaption>
 </figure>
 GoAccess bietet die Möglichkeit die _flüchtigen_ _Access Logs_ des Webservers
 dauerhaft in einem _dateibasierten Datenbankmanagementsystem_[^dbm], 
@@ -48,7 +50,7 @@ uberspace web log access enable
 
 ### Zukünftige Heimat der Datenbank
 
-Da GoAccess seine Datenbank per Default nach `/tmp` schreibt,  
+Da GoAccess seine Datenbank per Default nach _/tmp_ schreibt,  
 wo a), die Dateien flüchtig sind  
 und b), von jedem lesbar sind,  
 legen wir in unserem `$HOME` extra ein Verzeichnis dafür an.
@@ -88,7 +90,7 @@ Ein guter Zeitpunkt wäre diese Datei gegen Vier Uhr in der Datenbank zu persist
 ## Der Einzeiler zum Prozessieren des Access Logs
 
 Dieser Einzeiler, 
-den wir als _$USER/bin/goaccess_process_log_into_db.sh_ speichern
+den wir als _$HOME/bin/goaccess_process_log_into_db.sh_ speichern  
 und via `chmod u+x $USER/bin/goaccess_process_log_into_db.sh` ausführbar machen,
 bereitet das obige *AccessLogFile* auf
 und persistiert es in der Datenbank:
@@ -114,7 +116,7 @@ dann solltest du auf die Option `--anonymize-ip` von GoAccess zurückgreifen.
 ## Der Einzeiler zur Generierung des HTML-Reports aus der Datenbank
 
 Dieser Einzeiler,
-den wir als _$USER/bin/goaccess_db_to_html.sh_ speichern 
+den wir als _$HOME/bin/goaccess_db_to_html.sh_ speichern  
 und via `chmod u+x $USER/bin/goaccess_db_to_html.sh` ausführbar machen,
 generiert einen *HTML Report* aus der Datenbank. 
 
