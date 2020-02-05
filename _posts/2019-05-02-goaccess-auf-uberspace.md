@@ -9,6 +9,7 @@ tags:
 - apache2
 - Logs
 - Analytics
+- cron
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
