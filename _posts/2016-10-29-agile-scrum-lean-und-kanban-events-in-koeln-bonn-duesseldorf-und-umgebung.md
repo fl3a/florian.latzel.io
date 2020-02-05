@@ -41,7 +41,7 @@ Zudem findet alle 2 Wochen Freitags das _Lean Coffee für Product Owner_ statt.
 - [Agile Cologne](http://www.agilecologne.de/), die jährlich stattfindende (Un)Konferenz in Köln
 - [CoRe, Coach Reflection Day](https://www.coachreflectionday.org/), 
   Bundesweite Veranstaltungsreihe, findet seit 2017 auch in Köln statt<!--break-->
-- [Agile Intervision](https://agile-intervision.de/), kollegiale Fallberatung für Scrum Master und Agile Coaches,
+- Agile Intervision, kollegiale Fallberatung für Scrum Master und Agile Coaches,
   weiteres über die [accsv-cgn Mailingliste](https://www.freelists.org/list/accsv-cgn) 
   und auf [xing](https://www.xing.com/communities/groups/agile-intervision-90f0-1105436)
 - [Product Owner Monthly / Tacheles Meetup](https://www.xing.com/communities/groups/product-owner-koeln-7be1-1083489/about), 
