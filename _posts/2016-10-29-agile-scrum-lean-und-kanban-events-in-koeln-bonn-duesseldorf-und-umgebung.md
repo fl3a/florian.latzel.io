@@ -16,7 +16,7 @@ nid: 1642
 permalink: "/agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html"
 created: 1477757270
 layout: post
-last_modified_at: 2020-02-05
+last_modified_at: 2020-02-06
 ---
 Welche regelmäßigen Meetups zu Themen wie Scrum, Agile, KANBAN, eXtreme Programming, Lean 
 und Arbeit auf Augenhöhe gibt es in Köln und Umgebung? 
@@ -79,6 +79,7 @@ Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com
 - [Scrum Deutschland](https://www.scrumdeutschland.de/), eine von Prowareness organisierte, jährlich stattfindende Konferenz
 - [Lean Coffee Düsseldorf](https://www.xing.com/communities/groups/lean-coffee-90f0-1066150)
 - [Düsseldorf Liberating Structures](https://www.meetup.com/de-DE/meetup-group-JUAeEreA/)
+- [Agile DUS](https://www.meetup.com/de-DE/Agile-DUS/), ein Format von Valtech
 
 ## Agile Events und Meetups in Solingen
 
@@ -97,6 +98,10 @@ Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com
 jeden vierten Donnerstag im Monat, Anmeldung über xing
 - [agile.ruhr](http://agile.ruhr), die zweitägige (Un)Konferenz im zu Agile, Lean und Arbeit auf Augenhöhe im Ruhrgebiet, seit 2018 gibts auch noch den agile-ruhr Day
 - [Liberating Structures RUHR](https://www.meetup.com/de-DE/Liberating-Structures-in-RUHR/)
+- [Scrumtisch Dortmund](https://www.meetup.com/de-DE/Scrumtisch-Dortmund/), ein Format von Adesso
+- [Der Agile Pott](https://www.meetup.com/de-DE/der-agile-pott/), 
+  findet im Duisburger Innenhafen oder auf Zeche Zollverein (Triple-Z) in Essen statt
+- [Agiles Arbeiten & New Work im Ruhrgebiet](https://www.meetup.com/de-DE/Agiles-Arbeiten-im-Ruhrgebiet/events/259932203/), macht am 10. April 2020 den Auftakt mit einem Kennenlernabend
 
 **Dein Agile Event oder Meetup fehlt?**
 
