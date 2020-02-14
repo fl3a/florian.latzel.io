@@ -18,6 +18,9 @@ created: 1477757270
 layout: post
 last_modified_at: 2020-02-14
 ---
+
+## Agile Meetups & Events in NRW
+
 Welche regelmäßigen Meetups zu Themen wie Scrum, Agile, KANBAN, eXtreme Programming, Lean 
 und Arbeit auf Augenhöhe gibt es in Köln und Umgebung? 
 Welche (Un)Konferenzen finden in NRW statt? 
@@ -25,12 +28,12 @@ Wo kann ich mich über Agiles Projektmanagement austauschen oder einfach nur Gle
 und wo ist die nächste Selbsthilfegruppe der Anonymen Agilisten[^anon-agile]?
 
 Ich habe mal eine Liste von Scrumtischen, Agile- und KANBAN- und Artverwandten-Meetups 
-und Konferenzen in der Region zusammengetragen.
-Hier findest Du Termine, wo die *Agile Community* in Köln, Bonn, Düsseldorf, Aachen und dem Ruhrgebiet zusammenkommt.
+und Konferenzen in der Region zusammengetragen,  
+wo die *Agile Community* in Nordrhein-Westfalen zusammenkommt.
 
 Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, dass heisst ein Benutzerkonto dort ist obligatorisch.
 
-## Agile Meetups & Events in Köln
+### Agile Meetups & Events in Köln
 
 - [Scrumtisch Köln](https://www.xing.com/net/scrumtischkoeln), jeden dritten Mittwoch im Monat, Anmeldung über xing
 - [Lean Coffee](https://www.xing.com/communities/groups/lean-coffee-7be1-1066150/posts), jeden Freitag von 08:00 – 09:00, wechselnde Locations.
@@ -60,9 +63,9 @@ Zudem findet alle 2 Wochen Freitags das _Lean Coffee für Product Owner_ statt.
 - [Product People](http://productpeople.net/), seit 2017 stattfindende (Un-)Konferenz für Product Owner, 
   Produkt‑Manager und Business‑Analysten
 - [New Work, Agilität und Co](https://www.eventbrite.de/o/freischwimmer-organisationsentwicklung-20179574093) ein Format von und mit Freischwimmer Organisationsenwicklung
-- [WOL Köln](https://www.meetup.com/de-DE/Working-out-Loud-Leadership-Digitalisierung-Innovationen/), Working Out Loud - Leadership, Digitalisierung, Innovationen, [#WOL0221](https://twitter.com/hashtag/WOL0221?src=hashtag_click)
+- [WOL Köln](https://www.meetup.com/de-DE/Working-out-Loud-Leadership-Digitalisierung-Innovationen/), Working Out Loud - Leadership, Digitalisierung, Innovationen, [#WOL0221](https://twitter.com/hashtag/WOL0221?src=hashtag_click)<!--break-->
 
-## Agile Meetups und Events in Bonn
+### Agile Meetups und Events in Bonn
 
 - [Bonn Agile Meetup](https://www.meetup.com/de-DE/Bonn-Agile/), am ersten Dienstag des Monats in wechselden Locations, Anmeldung über meetup
 - [Bonner Scrumtisch](https://www.xing.com/communities/groups/scrumtisch-bonn-380f-1077974), am zweiten Dienstag des Monats in wechselnden Locations, 
@@ -70,7 +73,7 @@ Anmeldung über xing
 - [Lean Coffee Bonn](https://www.xing.com/communities/groups/lean-coffee-90f0-1066150)
 - [Agile People Cologne / Bonn](https://www.meetup.com/de-DE/Agile-People-Cologne-Bonn)
 
-## Agile Meetups und Events in Düsselorf
+### Agile Meetups und Events in Düsselorf
 
 - [Agiler Stammtisch Düsseldorf aka Lean Altbier](https://www.meetup.com/de-DE/Agiler-Stammtisch-Duesseldorf/),
   findet jeden ersten Donnerstag im Monat in der Brauerei "Zum Schlüssel" statt. Mehr Informationen und Anmeldung über Meetup
@@ -82,16 +85,16 @@ Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com
 - [Düsseldorf Liberating Structures](https://www.meetup.com/de-DE/meetup-group-JUAeEreA/)
 - [Agile DUS](https://www.meetup.com/de-DE/Agile-DUS/), ein Format von Valtech
 
-## Agile Events und Meetups in Solingen
+### Agile Events und Meetups in Solingen
 
 - [Agiler Stammtisch Solingen](https://www.meetup.com/de-DE/Agiler-Stammtisch-Duesseldorf/), bei der codecentric AG
 
-## Agile Meetups und Events in Aachen
+### Agile Meetups und Events in Aachen
 
 - [Scrumtisch Aachen](http://www.scrumtisch-aachen.de/), findet monatlich in wechselnden Locations statt, 
   Anmeldung über [xing](https://www.xing.com/communities/groups/scrumtisch-aachen-f66d-1002514)
 
-## Agile Meetups und Events im Ruhrgebiet
+### Agile Meetups und Events im Ruhrgebiet
 
 - [Agile Stammtisch Ruhr in Dortmund aka Lean Pils](http://www.meetup.com/de-DE/Agiler-Stammtisch-Ruhr/) 
   findet jeden dritten Donnerstag im Monat statt in wechselnden Locations statt, Anmeldung über Meetup
@@ -104,7 +107,7 @@ jeden vierten Donnerstag im Monat, Anmeldung über xing
   findet im Duisburger Innenhafen oder auf Zeche Zollverein (Triple-Z) in Essen statt
 - [Agiles Arbeiten & New Work im Ruhrgebiet](https://www.meetup.com/de-DE/Agiles-Arbeiten-im-Ruhrgebiet/events/259932203/), macht am 10. April 2020 den Auftakt mit einem Kennenlernabend
 
-## Agile Meetups und Events in Mönchengladbach
+### Agile Meetups und Events in Mönchengladbach
 
 - [Agile MG](https://www.meetup.com/de-DE/Agile-MG/)
 
