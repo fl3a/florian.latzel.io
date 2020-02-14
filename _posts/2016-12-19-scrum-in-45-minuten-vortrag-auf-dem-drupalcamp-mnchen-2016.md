@@ -26,7 +26,6 @@ Scrum ist einer der bekanntesten Vertreter aus dem Umfeld des Agilen Produkt- un
 <br />
 Scrum ist immer noch Bestandteil der meisten Buzzword-Bingos,<br />
 gehört neben Agile ins Vokabular des klassischen Projektmanagers und ist auch noch nach über 20 Jahren hip und gefragt.<br />
-<!--break-->
 <br />
 In dieser Session wollen Roger und ich euch das agile Framework vorstellen und werden unter anderem auf die folgenden Fragen eingehen:<br />
 <br />
@@ -37,6 +36,7 @@ Was sind Scrum-Zeremonien und wie werden diese abgehalten?<br />
 Was sind Scrum-Artefakte?<br />
 Welche Werkzeuge gibt es und welche eignen sich für Verteilte-/Remote-/Distributed-Teams?
 </blockquote>
+<!--break-->
 
 Während die vergangenen Sessions, wie [Scrum aus der Praxis](/2010/05/12/scrum-aus-der-praxis-drupaldevdays-2010.html) 
 eher ein Augenmerk auf das Rahmenwerk, 
