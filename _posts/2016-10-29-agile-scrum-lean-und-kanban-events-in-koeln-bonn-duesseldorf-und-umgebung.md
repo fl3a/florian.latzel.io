@@ -60,6 +60,7 @@ Zudem findet alle 2 Wochen Freitags das _Lean Coffee für Product Owner_ statt.
 - [Product People](http://productpeople.net/), seit 2017 stattfindende (Un-)Konferenz für Product Owner, 
   Produkt‑Manager und Business‑Analysten
 - [New Work, Agilität und Co](https://www.eventbrite.de/o/freischwimmer-organisationsentwicklung-20179574093) ein Format von und mit Freischwimmer Organisationsenwicklung
+- [WOL Köln](https://www.meetup.com/de-DE/Working-out-Loud-Leadership-Digitalisierung-Innovationen/), Working Out Loud - Leadership, Digitalisierung, Innovationen, [#WOL0221](https://twitter.com/hashtag/WOL0221?src=hashtag_click)
 
 ## Agile Meetups und Events in Bonn
 
