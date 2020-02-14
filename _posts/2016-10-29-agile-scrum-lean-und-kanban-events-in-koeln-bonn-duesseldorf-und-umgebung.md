@@ -104,6 +104,10 @@ jeden vierten Donnerstag im Monat, Anmeldung über xing
   findet im Duisburger Innenhafen oder auf Zeche Zollverein (Triple-Z) in Essen statt
 - [Agiles Arbeiten & New Work im Ruhrgebiet](https://www.meetup.com/de-DE/Agiles-Arbeiten-im-Ruhrgebiet/events/259932203/), macht am 10. April 2020 den Auftakt mit einem Kennenlernabend
 
+## Agile Meetups und Events in Mönchengladbach
+
+- [Agile MG](https://www.meetup.com/de-DE/Agile-MG/)
+
 **Dein Agile Event oder Meetup fehlt?**
 
 Diese Liste ist wahrscheinlich nicht komplett.  
