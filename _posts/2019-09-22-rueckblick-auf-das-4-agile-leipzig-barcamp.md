@@ -10,6 +10,7 @@ tags:
 - Kanban
 - Holacracy
 - Draussen
+- Session
 image: /assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg
 toc: true
 last_modified_at: 2019-10-21

@@ -10,6 +10,7 @@ tags:
 - Kanban
 - Personal Maps
 - just me
+- Session
 toc: true
 image: /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg
 last_modified_at: 2019-04-23
