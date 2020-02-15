@@ -19,7 +19,7 @@ email: florian.latzel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Mein Name ist Florian Latzel. Hier schreibe ich 
   über meine Abenteuer als Scrum Master im Taka-VUCA-Land + 
-  Gedanken, Notizen und Berichte über dies, das, verschiedene Dinge.
+  Notizen über dies, das, verschiedene Dinge.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://netzaffe.de" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y-%m-%d"
@@ -28,8 +28,6 @@ defaults:
   -
     values:
       author: "Florian Latzel"
-
-
 
 # Drupal like teaser
 show_excerpts : true
@@ -71,7 +69,6 @@ autopages:
       cased: true
     layouts:
       - "home.html"
-    title      : ":tag" 
     permalink  : "/tags/:tag"
 
 # jekyll-seo-tag 
