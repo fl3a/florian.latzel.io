@@ -9,6 +9,7 @@ tags:
 - Management 3.0
 - Drupalcamp
 - Agile
+- Session
 nid: 1650
 permalink: /neues-team-was-nun.html
 title: Neues Team - Was nun?
