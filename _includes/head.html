@@ -2,10 +2,67 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
+  {%- if paginator -%}
+    {%- if page.url contains "/page/" -%}
+      {%- capture title -%}
+      Blog, Seite {{ paginator.page }} von {{ paginator.total_pages }} - {{ site.title | escape }}
+      {%- endcapture -%}
+    {%- endif -%}
+    {%- if page.url contains "/tags/" -%}
+      {%- if paginator.page and paginator.total_pages > 1 and paginator.page > 1  -%}
+        {%- capture title -%}
+        {{ page.autopages.display_name }}, Seite {{ paginator.page }} von {{ paginator.total_pages }} - {{ site.title | escape }}
+        {%- endcapture -%}
+      {%- else -%}
+        {%- capture title -%}
+        {{ page.autopages.display_name }} - {{ site.title | escape }}
+        {%- endcapture -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {% comment %}
+
+  {{ include title }}
+
+  {%- if page.url contains "/tags/" -%}
+  <title>{{ title }}</title>
+  {{ include tags_meta }}
+  {%- else -%}
+    {%- if title -%}
+      <title>{{ title }}</title>
+      {%- seo title=false  -%}  
+    {%- else -%}
+      {%- seo -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {% endcomment %}
+
+  {%- if title -%}
+  <title>{{ title }}</title>
+  {%- endif -%}
+  {%- if page.url contains "/tags/" -%}
+  {% comment %} tags_meta: For Tag pages {% endcomment %}
+  <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+  <meta property="og:title" content="{{ page.autopages.display_name }}" />
+  <meta name="author" content="{{ site.author }}" />
+  <meta property="og:locale" content="{{ site.lang }}" />
+  <meta name="description" content="Artikel mit dem Tag {{page.autopages.display_name }}" />
+  <meta property="og:description" content="Artikel mit dem Tag {{page.autopages.display_name }}" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  {% comment %}
+  <link rel="prev" href="http://localhost:4000/" />
+  <link rel="next" href="http://localhost:4000/page/3/" />
+  {% endcomment %}
+  {%- else -%}
+    {%- seo -%}
+  {%- endif -%}
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if page.url == "/index.html" and paginator.page == 1 -%}
   <meta property="og:image" content="{{ "/assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg" | absolute_url }}">
   {%- endif -%}
+
 </head>
