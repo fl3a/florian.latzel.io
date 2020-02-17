@@ -73,7 +73,7 @@ autopages:
 
 # jekyll-seo-tag 
 # https://github.com/jekyll/jekyll-seo-tag
-lang: "de_DE"
+lang: "de"
 social:
   name: Florian Latzel
   links:
