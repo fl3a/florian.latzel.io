@@ -17,7 +17,12 @@ permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
 last_modified_at: 2020-02-17
+image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
+<figure>
+<img src="/assets/imgs/Flag_of_North_Rhine-Westphalia.svg" alt="Flagge von Nordrhein-Westfalen" />
+<figcaption>Flagge Nordrhein-Westfalens, Quelle <a href="https://commons.wikimedia.org/wiki/File:Flag_of_North_Rhine-Westphalia.svg">Wikipedia</a>, Public Domain</figcaption>
+</figure>
 
 ## Agile Meetups & Events in NRW
 
