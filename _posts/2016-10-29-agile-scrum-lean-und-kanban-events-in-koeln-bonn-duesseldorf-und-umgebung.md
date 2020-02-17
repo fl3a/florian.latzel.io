@@ -13,10 +13,10 @@ tags:
 - Community
 - Scrumtisch Köln
 nid: 1642
-permalink: "/agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html"
+permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2020-02-14
+last_modified_at: 2020-02-17
 ---
 
 ## Agile Meetups & Events in NRW
@@ -55,7 +55,7 @@ Zudem findet alle 2 Wochen Freitags das _Lean Coffee für Product Owner_ statt.
   Meetup zum Ausprobieren und Erfahrungsaustausch der Liberating Structures Toolbox und Strings 
 - [Köln Teal](https://www.meetup.com/de-DE/Koln-Teal-Reinventing-Organizations-Meetup/) Reinventing Organizations - Meetup 
 - [Agile Ale](https://www.kernpunkt.de/agile-networking-event), 
-  Agiles Netzwerken in Köln, jeden zweiten Donnerstag im Monat 
+  Agiles Netzwerken in Köln, jeden zweiten Donnerstag im Monat ein Format von kernpunkt 
 - [Spielend begreifen - get it through games](https://www.xing.com/communities/groups/spielend-begreifen-get-it-through-games-90f0-1106969), 
   Spiele mit Mehrwert, alles was Verstehen fördert, 
   egal ob Simulationen/Planspiele, Teamspiele oder Ice-Breaker für Teams und Organisationen 
@@ -64,7 +64,10 @@ Zudem findet alle 2 Wochen Freitags das _Lean Coffee für Product Owner_ statt.
   Produkt‑Manager und Business‑Analysten
 - [New Work, Agilität und Co](https://www.eventbrite.de/o/freischwimmer-organisationsentwicklung-20179574093) ein Format von und mit Freischwimmer Organisationsenwicklung
 - [WOL Köln](https://www.meetup.com/de-DE/Working-out-Loud-Leadership-Digitalisierung-Innovationen/), Working Out Loud - Leadership, Digitalisierung, Innovationen, [#WOL0221](https://twitter.com/hashtag/WOL0221?src=hashtag_click)<!--break-->
-
+- [Agile HR Conference](https://hr-pioneers.com/leistungen/events/agile-hr-conference/), 
+  jährliche stattfindende Konferenz zu Agile Transformation, Agile Leadership und Agile HR. Wird von HR Pioneers organisiert.
+- [Der Westen Agil](https://www.it-agile.de/der-westen-agil/), eine Abendveranstaltungsreihe von it-agile
+<!--break-->
 ### Agile Meetups und Events in Bonn
 
 - [Bonn Agile Meetup](https://www.meetup.com/de-DE/Bonn-Agile/), am ersten Dienstag des Monats in wechselden Locations, Anmeldung über meetup
