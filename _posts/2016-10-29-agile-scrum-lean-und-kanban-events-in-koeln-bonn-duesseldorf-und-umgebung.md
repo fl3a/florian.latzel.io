@@ -121,9 +121,9 @@ jeden vierten Donnerstag im Monat, Anmeldung über xing
 
 **Dein Agile Event oder Meetup fehlt?**
 
-Kennst Du noch weitere regelmäßig stattfindende *Agile Veranstaltungen* in Nordrhein-Westfalen?
-
 Diese [mit viel Liebe und Mühe kuratierte Liste](https://github.com/fl3a/netzaffe.de/commits/master/_posts/2016-10-29-agile-scrum-lean-und-kanban-events-in-koeln-bonn-duesseldorf-und-umgebung.md) ist wahrscheinlich nicht komplett.
+
+Kennst Du noch weitere regelmäßig stattfindende *Agile Veranstaltungen* in Nordrhein-Westfalen?
 
 Lass es mich bitte durch eine kurze Mail wissen, dann aktualisiere ich gerne die Liste!  
 Alternativ kannst Du auch gerne einen *Pull Request* auf [diese Seite](https://github.com/fl3a/netzaffe.de/blob/master/_posts/2016-10-29-agile-scrum-lean-und-kanban-events-in-koeln-bonn-duesseldorf-und-umgebung.md) stellen!
