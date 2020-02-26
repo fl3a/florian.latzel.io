@@ -32,9 +32,12 @@ group :jekyll_plugins do
   # https://github.com/toshimaru/jekyll-toc
   gem 'jekyll-toc'
 
-  # Pagination
+  # Pagination & Tags
   # https://jekyllrb.com/docs/pagination/
   gem 'jekyll-paginate-v2', '2.0.0'
+
+  # https://github.com/wildlyinaccurate/jekyll-responsive-image
+  gem 'jekyll-responsive-image'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
