@@ -17,8 +17,8 @@ image: /assets/imgs/goaccess-web-frontend.png
 last_modified_at: 2020-02-03
 ---
 <figure role="group">
-  <img src="/assets/imgs/goaccess-web-frontend.png" 
-  alt="Der ansehnliche HTML-Report von GoAccess mit Daten aus einem Monat, hier mit den Panels Overall Analyzed Requests, Requested Files und Unique visitors per day" />
+ {% responsive_image path: assets/imgs/goaccess-web-frontend.png 
+ alt: "Der ansehnliche HTML-Report von GoAccess mit Daten aus einem Monat, hier mit den Panels Overall Analyzed Requests, Requested Files und Unique visitors per day" %}
   <figcaption>Der "ansehnliche" HTML-Report von GoAccess mit Daten aus einem Monat, hier mit den Panels "Overall Analyzed Requests", "Requested Files" und "Unique visitors per day"</figcaption>
 </figure>
 GoAccess bietet die Möglichkeit die _flüchtigen_ _Access Logs_ des Webservers
