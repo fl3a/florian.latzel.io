@@ -16,8 +16,7 @@ image: /assets/imgs/goaccess-ncurces-console-screenshot.png
 last_modified_at: 2020-02-03
 ---
 <figure>
-  <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" 
-  alt="Screenshot: GoAccess Web-Analytics auf der Konsole" />
+  {% responsive_image path: assets/imgs/goaccess-ncurces-console-screenshot.png alt: "Screenshot: GoAccess Web-Analytics auf der Konsole" %}
   <figcaption>Screenshot: GoAccess Web-Log-Analytics auf der Konsole</figcaption>
 </figure>
 Nach einer längeren Suche nach einem *Apache Log Viewer* bzw. *Web Log Analyzer*, 
