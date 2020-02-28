@@ -13,7 +13,7 @@ last_modified_at: 2019-11-10 11:48
 image: /assets/imgs/jekyll-logo-dark-solid.png
 ---
 <figure role="group">
-  <img src="/assets/imgs/jekyll-logo-dark-solid.png" alt="Jekyll Logo, dark solid " />
+  {% responsive_image path: assets/imgs/jekyll-logo-dark-solid.png alt:"Jekyll Logo, dark solid " %}
   <figcaption>Jekyll Logo, CC-BY 4.0</figcaption>
 </figure>
 tl;dr Von Drupal[^drupal] nach Jekyll[^jekyll].   
