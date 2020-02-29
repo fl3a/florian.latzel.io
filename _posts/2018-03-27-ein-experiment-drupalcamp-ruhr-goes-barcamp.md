@@ -14,7 +14,7 @@ created: 1522137428
 image: /assets/imgs/dcruhr18/haben-alle-das-session-board-fotografiert-tag2-rokr-dcruhr18.jpg
 ---
 <figure role="group">
-  <img alt="Teilnehmer fotografieren das Session Board #dcruhr18 an Tag 2" src="/assets/imgs/dcruhr18/haben-alle-das-session-board-fotografiert-tag2-rokr-dcruhr18.jpg" title="hat jeder das sessionboard fotografiert?" />
+{% responsive_image alt: "Teilnehmer fotografieren das Session Board #dcruhr18 an Tag 2" path: assets/imgs/dcruhr18/haben-alle-das-session-board-fotografiert-tag2-rokr-dcruhr18.jpg %}
   <figcaption>hat jeder das sessionboard fotografiert? #dcruhr18, © Ronald Krentz, https://twitter.com/rokr/status/975309942579236864</figcaption>
 </figure>  
 
