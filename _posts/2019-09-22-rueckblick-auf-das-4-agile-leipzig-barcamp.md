@@ -16,7 +16,7 @@ toc: true
 last_modified_at: 2019-10-21
 ---
 <figure>
- <img src="/assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg" alt="Stecktafel, Aufschrift: Welcome to Barcamp #4⭐😘😄"/>
+{% responsive_image path: assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg alt: "Stecktafel, Aufschrift: Welcome to Barcamp #4⭐😘😄" %}
  <figcaption>Welcome to Barcamp #4⭐😘😄, &copy; Thomas Steinert, Quelle <a href="https://twitter.com/le_steinert/status/1173256417068879872">https://twitter.com/le_steinert/status/1173256417068879872</a></figcaption>
 </figure>
 
