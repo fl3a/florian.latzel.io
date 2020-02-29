@@ -16,7 +16,7 @@ title: Neues Team - Was nun?
 created: 1526567413
 ---
 <figure role="group">
-  <img alt="" src="/assets/imgs/dcruhr18/florian-latzel-neues-team-was-nun-dcruhr18-jkl.jpg" />
+{% responsive_image alt: "Flipchart Tuckman Phasenmodell, Teambildung" path: assets/imgs/dcruhr18/florian-latzel-neues-team-was-nun-dcruhr18-jkl.jpg %}
   <figcaption>©Julia Kliemann, https://twitter.com/reinblau/status/975360382188642305</figcaption>
 </figure>
 Ich habe Sonntags im [BarCamp Track des drupalcamp.ruhr 2018](/2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html) zu einer Session mit dem Titel ___Neues Team - Was nun? (Und was tun?)___ eingeladen.
