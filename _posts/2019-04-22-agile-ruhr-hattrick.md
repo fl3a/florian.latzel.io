@@ -16,7 +16,7 @@ image: /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.j
 last_modified_at: 2019-04-23
 ---
 <figure role="group">
-  <img alt="Vorstellung der Sessions, Open Space, agile.ruhr 19" src="/assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg" />
+{% responsive_image alt: "Vorstellung der Sessions, Open Space, agile.ruhr 19" path: assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg %}
   <figcaption>Vorstellung der Sessions, Open Space, agile.ruhr 19</figcaption>
 </figure>
 Am Wochenende vom 06. und 07. April 2019 fand die diesjährige agile.ruhr, 
