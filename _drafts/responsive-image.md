@@ -42,8 +42,7 @@ So empfahl mir *Google PageSpeed Insights* zur Verbesserung der Performance auch
 
 Diese Howto beschreibt die Installtion und Konfiguration von *jekyll-responsive-images*
 und Zusammenspiel mit Lazyload im Zusammenspiel mit Jekylls *Standardtheme* miminma 
-unter Linux, hier auf uberspace   
-mit dem Ziel die übertragene Datenmenge von Bildern und somit CO2 einzusparen.
+unter Linux, hier auf uberspace mit dem Ziel die übertragene Datenmenge von Bildern und somit CO2 einzusparen.
 <!--break-->
 
 ## Installation
@@ -56,8 +55,15 @@ gem 'jekyll-responsive-image'
 
 ### ERROR: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h.
 
-> ERROR: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h.[^rmagick]
+Beim Versuch *jekyll-responsive-image* zu installieren brach Bundler 
+mit der folgenden Meldung ab.
 
+> ERROR: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h.
+
+Das via Default verlangte rmagic Gem kann nicht mit ImageMagick in der Versison 7[^rmagick],
+bei u7 ist Version ImageMagick in der Version 7.0.9-26.
+
+Tipp war beim rmagick Gem auf Version 4.1.0.rc2, das hat bei mir geklappt.[^rmagick].
 
 Im Gemfile, vor `group :jekyll_plugins do`:
 
@@ -65,7 +71,7 @@ Im Gemfile, vor `group :jekyll_plugins do`:
 gem "rmagick", "4.1.0.rc2"
 ```
 
-Gemile
+Die Einbindung erfolgt im Gemile vor den *jekyll_plugins*:
 
 ```ruby
 ...
@@ -80,6 +86,8 @@ group :jekyll_plugins do
   gem 'jekyll-responsive-image'
 end
 ```
+
+Jetzt nochmal den Bundler bemühen und die Installation läuft durch:
 
 ```bash
 bundle install
