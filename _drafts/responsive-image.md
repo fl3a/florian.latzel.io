@@ -27,9 +27,6 @@ Nachher, mit jekyll-responsive-images und Lazyload: [^fnet] [^front] [^conf]
 | 1      |css    |    11,60 KB |     3,65 KB |
 | 1      |js     |        0 KB |    28,06 KB |
 
-
-Mich hat der Artikel von Reiblau eG, 
-
 > Reduzierte Inhalte sparen Ressourcen und damit auch Emissionen bei jedem Seitenaufruf.[^rbklima]    
 
 Das ist nicht nur Nachhaltig im Sinne von Resourcenschonend und gut fürs Klima
@@ -43,7 +40,10 @@ So empfahl mir *Google PageSpeed Insights* zur Verbesserung der Performance auch
 - Bilder in modernen Formaten bereitstellen
 
 
-
+Diese Howto beschreibt die Installtion und Konfiguration von *jekyll-responsive-images*
+und Zusammenspiel mit Lazyload im Zusammenspiel mit Jekylls *Standardtheme* miminma 
+unter Linux, hier auf uberspace   
+mit dem Ziel die übertragene Datenmenge von Bildern und somit CO2 einzusparen.
 <!--break-->
 
 ## Installation
