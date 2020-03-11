@@ -72,6 +72,11 @@ Zudem findet alle 2 Wochen Freitags das _Lean Coffee für Product Owner_ statt.
 - [Agile HR Conference](https://hr-pioneers.com/leistungen/events/agile-hr-conference/), 
   jährliche stattfindende Konferenz zu Agile Transformation, Agile Leadership und Agile HR. Wird von HR Pioneers organisiert.
 - [Der Westen Agil](https://www.it-agile.de/der-westen-agil/), eine Abendveranstaltungsreihe von it-agile
+- [BetaCodex Meetup Cologne](https://www.xing.com/communities/groups/betacodex-meetup-cologne-11d2-1108620/about), 
+das Kölner Meetup rund um das Thema BetaCodex und Unternehmenstransformation. Jeden ersten Montag im Monat.
+- [SCRUM MASTER Networking²](https://www.xing.com/communities/groups/scrum-master-networking2-um-piazzablu-11d2-1126652/about), Networking speziell für Scrum Master und Agile Coaches. 
+Ein Format von piazzablu.
+
 <!--break-->
 ### Agile Meetups und Events in Bonn
 
