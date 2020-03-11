@@ -6,4 +6,11 @@
 
 {% assign smallest = resized | sort: 'width' | first %}
 
-<img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes = "(min-width: 800px) 740px, (min-width: 400px) 370px" class="blur-up lazyautosizes lazyload {{ class }}">
+{% if figure %}
+<figure role="group">
+  <img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="(min-width: 800px) 740px, (min-width: 400px) 370px" class="blur-up lazyautosizes lazyload {{ class }}" />
+<figcaption>{% if caption %}{{ caption }}{% else %}{{ alt }}{% endif %}</figcaption>
+</figure>
+{% else %}
+<img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes = "(min-width: 800px) 740px, (min-width: 400px) 370px" class="blur-up lazyautosizes lazyload {{ class }}" />
+{% endif %}
