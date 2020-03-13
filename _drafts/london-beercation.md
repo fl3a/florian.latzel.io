@@ -13,8 +13,7 @@ title: "Beercation in London"
 image: "/assets/imgs/london-2020-01/asterix-bei-den-briten-grafitti-hanbury-st-london.jpg"
 ---
 <figure>
-<img src="/assets/imgs/london-2020-01/asterix-bei-den-briten-grafitti-hanbury-st-london.jpg" 
-alt="Grafitti &quot;Asterix bei den Briten&quot;, Hanbury St., London, Januar 2020" />
+{% responsive_image path: assets/imgs/london-2020-01/asterix-bei-den-briten-grafitti-hanbury-st-london.jpg alt: "Grafitti Asterix bei den Briten, Hanbury St., London, Januar 2020" %}
 <figcaption>Grafitti &quot;Asterix bei den Briten&quot;, Hanbury St., nähe Brick Lane, London, Januar 2020</figcaption>
 </figure>
 Monique und ich haben über ihren Geburtstag einen sechstägigen Trip nach London unternommen.
@@ -29,8 +28,8 @@ Hier die Essenz aus sechs tollen und sehr bierlastigen Tagen in London.
 ## Tag 1 - Meet Mauritz
 
 <figure>
-<img src="/assets/imgs/london-2020-01/mauritz-monique-flo-kernel-arch-7-london.jpg" 
-alt="vlnr.: Mauritz Borg, Monique und ich im Kernel Taproom Arch 7, London" />
+{% responsive_image path: assets/imgs/london-2020-01/mauritz-monique-flo-kernel-arch-7-london.jpg
+alt="vlnr.: Mauritz Borg, Monique und ich im Kernel Taproom Arch 7, London" %}
 <figcaption>Mauritz Borg, Monique und ich im Kernel Taproom Arch 7, London</figcaption>
 </figure>
 Nach unserer Anreise mit dem Zug, loswerden des Gepäcks 
@@ -75,16 +74,16 @@ auf Whitechapel Road ging es zu Fuß zum *London Skygarden*[^skygarden].
 Der Skygarden ist ein öffentlicher Garten im 35.(bis 37.) Stockwerk eines Hochhauses,
 von hier aus hat man einen tollen Rundumblick auf London. 
 Unsere zweiimportierten Flaschen Kölsch  
-konnten wir beim Empfang vor den Taschenkontrollen sichern.
+konnten wir beim Empfang vor den Taschenkontrollen in Sicherheit bringen.  
+Von Skygarden ging es wieder zu Fuß zurück nach Whitechapel, wo wir uns mit Mauritz trafen
 
-
-
-### Kill the cat
+Wir steuerten die *Brick Lane* an, kehrten dort erst mal im *Kill the cat* Bottle Store ein.
+Anscließend führte Mauritz uns zu seinen *Lieblings Pieces*, 
+denn an fast jeder Ecke, in fast jeder Nische 
+und Seitenstraße entlang der Brick Lane gibt es Street-Art zu entdecken.
 
 ### Beigel bake
 
-https://commons.wikimedia.org/wiki/File:Beigel_Bake,_Brick_Lane_(33936265604).jpg
-https://de.wikipedia.org/wiki/Datei:Beigel_Bake_front.jpg / https://www.flickr.com/photos/alanstanton/5946496488/
 
 
 White beigel, Salted beef, Gurke Senf, Cash only
@@ -112,7 +111,7 @@ Pressure Drop x Verdant
 ### Brewdog Shoreditch
 
 Bilanz des Tages
-- 1 Bottle Shop
+- 1 Bottle Store
 - Viel Street Art & Gafitties
 - 1 Pub
 - 7 Tap Houses
@@ -197,7 +196,7 @@ https://thekraytwins.fandom.com/wiki/E._Pellicci Kray Twins, Legend (2015)
 
 Klare Empfehlungen für einen *London Trip*:
 
-- London mit dem Zug
+- London mit dem Zug, p.P 165 Hin ud zurück 
 - Beigel
 - E.Pellicci
 - Sky Garden
@@ -208,8 +207,7 @@ Klare Empfehlungen für einen *London Trip*:
 [^mauritz]: Mauritz Borg, [@mauritzborg](https://www.instagram.com/mauritzborg/), [mattthelist.com: Beer People #1 | Mauritz Borg](http://www.mattthelist.com/2018/08/25/beer-people-1-mauritz-borg/)
 [^skygarden]: [Sky Garden, London's highest public garden](https://skygarden.london/)
 [^cat]: [Kill the Cat, Bricklane](https://www.killthecat.co.uk/)
-[^beigel]: [Bagel Bake aka White Bagel, <https://londonist.com/london/food/things-you-probably-didn-t-know-about-beigel-bake>
-, <https://en.wikipedia.org/wiki/Beigel_Bake>
+[^beigel]: [Bagel Bake aka White Bagel, <https://londonist.com/london/food/things-you-probably-didn-t-know-about-beigel-bake> <https://commons.wikimedia.org/wiki/File:Beigel_Bake,_Brick_Lane_(33936265604).jpg> <https://de.wikipedia.org/wiki/Datei:Beigel_Bake_front.jpg / https://www.flickr.com/photos/alanstanton/5946496488/> , <https://en.wikipedia.org/wiki/Beigel_Bake>
 [^epellicci]: [E. Pellicci, Bethnal Green Road](https://epellicci.co.uk/)
 [^40ft]: [40ft Brewery, Dalston](https://www.40ftbrewery.com/)
 [^deepa]: <https://www.airbnb.de/rooms/596013?source_impression_id=p3_1579025855_hJCvKwyHxVxyx1mE>
