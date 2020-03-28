@@ -71,29 +71,67 @@ Ich habe es mit einer Kombination aus Kräuterzigaretten und Nikotinkaugummis ge
 ### Kräuterzigaretten
 
 In meinem Fall waren es *NTB (No tobacco) Zigaretten*[^ntb1] [^ntb2] aus der Apotheke.
-Die waren gefühlt sauteuer und ich musste hier schon mal auf das *Selber drehen* verzichten.
+Die waren gefühlt sauteuer und ich musste hier schon mal auf das *Selber drehen*,
+was für mich ein Bestandteil des Rauchens war verzichten.
 Abgesehen davon, mochte ich Filterzigaretten eh nicht so gerne. 
 
 Der Unterschied zu normalen Zigaretten abgesehen vom fehlenden Nikotin 
 war nicht sonderlich groß, gemeinsam hatten sie auf jeden Fall 
 stinkende Finger, Mund + Hals und Husten durch die Verbrennung und Inhalation.
-
-Nur alles ohne Tabak, ich kam mir schon dumm beim rauchen vor, 
-da ich alle negativen Aspeke habe, 
-aber der Effekt des Nikotins fehlt 
-und die Dinger noch mehr kosten als normale Zigaretten.
+Das alles nur ohne Tabak, ich kam mir schon dumm beim rauchen vor, 
+da ich alle negativen Aspeke habe, aber ohne den Effekt des Nikotins. 
+Zudem kosten die Dinger noch mehr als normale Zigaretten.
 
 
 ### Nikotinkaugummis
 
-Ich habe es in Form eines Nikotinkaugummis, zwei Minigramm hinzugefügt.
+Ich gleichen Schub mit den NTB's habe ich mir Nikotinkaugummis besorgt, 4 Minigramm.
+Hier habe ich penibel darauf geachtet, dass ich NTB's 
+und die Nikotinkaugummis nicht parallel konsumiere.
 
-## Neue Hobbies
+Nachdem ich die erste Packung leer hatte, 
+fuhr ich mit der zweiten Packung die Dosierung auf 4 Minigramm runter.
 
-Geld
+Den Montag, 21. März startete ich erstmals ohne Nikotin und Kräuterzigarette,
+gegen eine *Jieper* hatte ich NTB's und Nikotinkaugummis in der Bürotasche.
 
-BTW: Seit Jahren trinke ich meinen Kaffee ohne Zucker.
+## Sport
+
+Nicht nur wegen einer möglicher Gewichtszunahme, 
+die glücklicherweise an mir vorbei ging,
+sondern auch weil ich meinem Körper zur Abwechslung etwas Gutes tun wollte,
+körperliche Betätigung, Aufbau von Kondition, 
+habe ich in dieser Phase, meinem neuen Lebensabschnitt 
+wieder regelmäßigen Sport für mich erwägt.
+
+Das *Vorhaben Sport* war schon alt, 
+entsprechende Bookmarklisten mit potenziellen Kick- und Thaiboxen, Escrima 
+Anbietern habe ich Jahre vorher schon mit Kippe im Mundwinkel vorm Laptop angelegt.
+Ein paar Wochen später hatte ich mein Probetraining bei [*JKD Cologne*](https://www.jkdcologne.de/). 
+Mittlerweile ist JKD in meinem Leben integriert.
+Meine Mitgliedschaft dort hat auch bald sein fünfjähriges.  
+Trotzdem kann ich mich noch sehr gut daran erinnern, 
+wie ich mich damals als Anfänger angestellt habe. 
+
+## Auf das Nichtrauchen stolz sein
+
+Den 21. März habe ich im Kalender als *Nichtrauchertag* als Termin, 
+der sich monatlich wiederholt eingetragen. 
+Ich werde jeden Monat daran erinnert, 
+dass ich mal ein starker Raucher war und es jetzt nicht mehr bin.
+
+## Was hat sich geändert?
+
+- Mit Rauchern
+- Raucher küssen
+- Geruch und Geschmack
+- Stimme 
+- Muskelkater
+- Traum
+- Zucker im Kaffee
+
 
 [^ntb1]: [Stop-tabak.ch: FAQ Zigaretten und Folgeprodukte](https://www.stop-tabak.ch/de/zigaretten-und-folgeprodukte)
-https://www.rauchfrei-info.de/
 [^ntb2]: [Utopia.de - Kräuterzigarette: Wieso du auf den Tabakersatz verzichten solltest](https://utopia.de/ratgeber/kraeuterzigarette-wieso-du-auf-den-tabakersatz-verzichten-solltest/)
+[^rauchfrei]: [rauchfrei-info.de, ein Angebot der BZgA](https://www.rauchfrei-info.de/)
+*[JKD]: Jeet Kune Do
