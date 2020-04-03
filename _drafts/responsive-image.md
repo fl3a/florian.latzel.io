@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Responsive Images und Lazyload bei Jekyll
+title: 'C02 sparen: Responsive Images und Lazyload bei Jekyll'
 toc: true
 tags:
 - Jekyll
@@ -10,7 +10,7 @@ tags:
 - uberspace
 ---
 
-Vorher:[^fnet] [^front]
+Netzwerkdaten vorher:[^fnet] [^front]
 
 |Dateien | Typ   | Größe       | Übertragen  |
 |:------:|:-----:|------------:|------------:|
@@ -18,7 +18,7 @@ Vorher:[^fnet] [^front]
 |3       |html   |    50,54 KB |    18,27 KB |
 |1       |css    |   11,26 KB  |     3,49 KB |
 
-Nachher, mit jekyll-responsive-images und Lazyload: [^fnet] [^front] [^conf] 
+Netzwerkdaten, nachher (mit jekyll-responsive-images und Lazyload): [^fnet] [^front] [^conf] 
 
 |Dateien | Typ   | Größe       | Übertragen  |
 |:------:|:-----:|------------:|------------:|
@@ -29,29 +29,28 @@ Nachher, mit jekyll-responsive-images und Lazyload: [^fnet] [^front] [^conf]
 
 > Reduzierte Inhalte sparen Ressourcen und damit auch Emissionen bei jedem Seitenaufruf.[^rbklima]    
 
-Das ist nicht nur Nachhaltig im Sinne von Resourcenschonend und gut fürs Klima
+Das ist nicht nur nachhaltig im Sinne von resourcenschonend und gut fürs Klima,    
 sondern Google mag es auch noch gerne.
 
 > Zudem fließt die Performance der Website auch in die Ranking-Kriterien 
 > von Google ein, sodass auch die Auffindbarkeit über die Suchmaschine davon profitiert.[^rbklima]
 
-So empfahl mir *Google PageSpeed Insights* zur Verbesserung der Performance auch folgendes:
-- Bilder richtig dimensionieren
-- Bilder in modernen Formaten bereitstellen
+So empfahl mir *Google PageSpeed Insights* zur Verbesserung der Performance 
+auch die richtige Dimensionierung vom Bildern.
 
+Dieses Howto hat das Ziel die übertragene Datenmenge von Bildern
+und somit den CO2 Austoss dieser Website mimimieren.
 
-Diese Howto beschreibt die Installtion und Konfiguration von *jekyll-responsive-images*
-und Zusammenspiel mit einem Lazyload Skript im Zusammenspiel mit Jekylls *Standardtheme* miminma 
-unter Linux, hier auf uberspace mit dem Ziel die übertragene Datenmenge von Bildern und somit CO2 einzusparen.
-<!--break-->
+Ich beschreibe die Installation und Konfiguration von *jekyll-responsive-images[^resp]*,
+im Zusammenspiel mit einem neuen Template und einen Lazyload Skript, 
+eingebunden in Jekylls *Standardtheme* miminma[^minima] 
+unter Linux, hier CentOS auf uberspace 7.<!--break-->
 
 ## Installation
 
-Die Installation des *jekyll-responsive-image Gems*.
+Die Installation des *jekyll-responsive-image Gems* ist zweisschrittig.
 
-### jekyll-responsive-image 
-
-Hier muss *jekyll-responsive-image* im *Gemfile* vermerkt werden.
+Zuerst muss *jekyll-responsive-image* im *Gemfile* vermerkt werden.
 
 ```ruby
 gem 'jekyll-responsive-image'
@@ -64,10 +63,10 @@ mit der folgenden Meldung ab.
 
 > ERROR: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h.
 
-Das via Default verlangte rmagic Gem kann nicht mit ImageMagick in der Versison 7[^rmagick],
-bei u7 ist Version ImageMagick in der Version 7.0.9-26.
+Das via Default verlangte *Gem rmagick* kann nicht mit ImageMagick in der Versison 7[^rmagick],
+bei u7 war aber ImageMagick in der Version 7.0.9-26 an Board.
 
-Tipp war beim rmagick Gem auf Version 4.1.0.rc2, das hat bei mir geklappt.[^rmagick].
+Tipp war beim *rmagick Gem* auf Version 4.1.0.rc2, das hat bei mir geklappt.[^rmagick].
 
 Im *Gemfile*, vor `group :jekyll_plugins do` muss *rmagick* 
 mit Versionsnummer *4.1.0.rc2* spezifiziert werden.
@@ -88,7 +87,7 @@ group :jekyll_plugins do
 end
 ```
 
-Jetzt nochmal den Bundler bemühen und die Installation läuft durch:
+Jetzt nochmal den Bundler als zweiten Schritt bemühen und die Installation läuft durch:
 
 ```bash
 bundle install
@@ -101,15 +100,92 @@ Die Settings erfolgen wie gewohnt in *_config*.
 ### _config
 
 Ich habe Ratans[^ratan] Angaben um *strip* ergänzt, 
-so lässt sich nochmal die Bildgröße Daten durch ein *strip* 
-von  EXIF und JPEG Profilen minimieren. Google mags.
+so lässt sich nochmal die Dateigröße 
+von EXIF und JPEG Profilen weiter minimieren. 
+Google mags.
 
-## Image templates anlegen
+Die folgenden Zeilen müssen in *_config* hinzugefügt werden.
+
+Hint: Damit die Konfigurationsänderungen greifen muss `bundle exec jekyll serve`
+erneut gestartet werden.
+
+```yaml
+{% raw %}
+# jekyll-responsive-image
+# https://github.com/wildlyinaccurate/jekyll-responsive-image
+responsive_image:
+  # Path to the image template.
+  template: _includes/responsive-image.html
+
+  # [Optional, Default: 85]
+  # Quality to use when resizing images.
+  default_quality: 90
+
+  # [Optional, Default: []]
+  # An array of resize configuration objects. Each object must contain at least
+  # a `width` value.
+  sizes:
+    - width: 370  # [Required] How wide the resized image will be.
+      quality: 80  # [Optional] Overrides default_quality for this size.
+    - width: 740
+
+  # [Optional, Default: false]
+  # Rotate resized images depending on their EXIF rotation attribute. Useful for
+  # working with JPGs directly from digital cameras and smartphones
+  auto_rotate: false
+
+  # [Optional, Default: false]
+  # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size and win friends
+  # at Google PageSpeed.
+  strip: true
+
+  # [Optional, Default: assets]
+  # The base directory where assets are stored. This is used to determine the
+  # `dirname` value in `output_path_format` below.
+  base_path: assets/imgs
+
+  # [Optional, Default: assets/resized/%{filename}-%{width}x%{height}.%{extension}]
+  # The template used when generating filenames for resized images. Must be a
+  # relative path.
+  #
+  # Parameters available are:
+  #   %{dirname}     Directory of the file relative to `base_path` (assets/sub/dir/some-file.jpg => sub/dir)
+  #   %{basename}    Basename of the file (assets/some-file.jpg => some-file.jpg)
+  #   %{filename}    Basename without the extension (assets/some-file.jpg => some-file)
+  #   %{extension}   Extension of the file (assets/some-file.jpg => jpg)
+  #   %{width}       Width of the resized image
+  #   %{height}      Height of the resized image
+  #
+  output_path_format: assets/imgs/resized/%{width}/%{basename}
+
+  # [Optional, Default: true]
+  # Whether or not to save the generated assets into the source folder.
+  save_to_source: false
+
+  # [Optional, Default: false]
+  # Cache the result of {% responsive_image %} and {% responsive_image_block %} 
+  # tags. See the "Caching" section of the README for more information.
+  cache: false
+
+  #/ [Optional, Default: []]
+  # By default, only images referenced by the responsive_image and responsive_image_block
+  # tags are resized. Here you can set a list of paths or path globs to resize other
+  # images. This is useful for resizing images which will be referenced from stylesheets.
+  extra_images:
+    - assets/foo/bar.png
+    - assets/bgs/*.png
+    - assets/avatars/*.{jpeg,jpg}
+{% endraw %}
+```
+
+## Image Template anlegen
 
 Die Templates benutzten `srcset` innerhalb von des Img-Tags. 
-Das Entscheidende ist das `sizes` Attribut[^sizes].
+
+Das Entscheidende ist aber das `sizes` Attribut[^sizes].  
 Bei der Verwendung von `sizes` entscheidet der Browser via *Media Queries*
-welche der in `srcset` angegebene Bilder geladen werden soll 
+welche der in `srcset` angegebene Bilder geladen werden soll. 
+Die geschieht hier nach der Größe des umgebenden Elements in Pixeln 
 und nicht nach Breite des Viewports.
 
 Ich habe auf 800px und 400px *min-width* die verkleinerten Bilder
@@ -117,27 +193,13 @@ mit 740px und 370px gemappt (sog. *media conditions*).
 Das entspricht exakt der Größe,
 die ein Bild bei Desktop- und Mobileansicht einnimmt.
 
-Ein Template für normale Bilder.
-
 ### _includes/responsive-image.html
 
-```liquid
-{% raw %}
-{% capture srcset %}
-{% for i in resized %}
-    /{{ i.path }} {{ i.width }}w,
-{% endfor %}
-{% endcapture %}
+Ein Template für Bilder in `<figure>` und standalone `<img>` Tags.
 
-{% assign smallest = resized | sort: 'width' | first %}
-
-<img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes = "(min-width: 800px) 740px, (min-width: 400px) 370px" class="blur-up lazyautosizes lazyload {{ class }}">
-{% endraw %}
-```
-
-Ein Template für Bilder im `<figure>` Tag.
-
-### _includes/figure.html
+Innerhalb der Figure-Variante wird per Default das Alt-Attribute 
+als `<figcaption>` genutzt, 
+kann aber via Belegung der Variable `caption` überschrieben werden.
 
 ```liquid
 {% raw %}
@@ -149,18 +211,25 @@ Ein Template für Bilder im `<figure>` Tag.
 
 {% assign smallest = resized | sort: 'width' | first %}
 
-<img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes = "(min-width: 800px) 740px, (min-width: 400px) 370px" class="blur-up lazyautosizes lazyload {{ class }}">
+{% if figure %}
+<figure role="group">
+  <img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="(min-width: 800px) 740px, (min-width: 400px) 370px" class="blur-up lazyautosizes lazyload {{ class }}" />
+<figcaption>{% if caption %}{{ caption }}{% else %}{{ alt }}{% endif %}</figcaption>
+</figure>
+{% else %}
+<img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes = "(min-width: 800px) 740px, (min-width: 400px) 370px" class="blur-up lazyautosizes lazyload {{ class }}" />
+{% endif %}
 {% endraw %}
 ```
 
 ## lazysizes.js
 
-Wir nutzten zusätzlich noch  lazysizes.js, 
+Wir nutzten zusätzlich noch lazysizes.js, 
 einen hochperformanten und SEO freundlicher Lazy-Loader von aFarkas[^lazysizes].
 
 ### Installation
 
-Anlegen des *js* Ordners, sofern nicht da, wechsel dorthin und Download via Curl:
+Anlegen des *js* Ordners, wechsel hinein und Download des Java-Scripts via Curl:
 
 ```
 mkdir assets/js
@@ -190,9 +259,20 @@ so wird nicht auf `config.url`, wie bei `absolute_url` zugegriffen.
 
 Dieser Ansatz funktioniert dann auch bei Subdomains.
 
-relative_url
-
 ### CSS Anpassung
+
+Am Ende der *_scss/minima.scss* habe `"netzaffe"` angehangen 
+um Style Änderungen ohne Modifikation am Minima-Themes vornehmen zu können.
+```
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting",
+  "netzaffe"
+;
+```
+
+Das folgende Snippet für den Lazyloader fügst du *_scss/netzaffe.scss* hinzu:
 
 ```css
 .no-js img.lazyload {
@@ -220,9 +300,31 @@ relative_url
 
 ## Benutzung
 
+Hier exemplarisch das Teaserbild in [Fünf Jahre Nichtraucher, mein Weg dorthin](/2020/03/29/fuenf-jahre-nichtraucher-mein-weg-dorthin.html):
+- durch `figure: true` wird die Figure-Variante im Template genutzt
+- `path:`, gefolgt vom Pfad zum Bild, **ohne** führenden `/`
+- Dediziertes caption, welches das Alt-Attribut mit Name des Werkes, Künstler, Quelle und Lizenz überschreibt
+
+```liquid
+{% raw %}
+{% responsive_image figure: true path: assets/imgs/voller-aschenbecher-brinkhoffs.jpg alt: 'Aschenbecher voll mit Wasser, Zigarettenkippen und Brinkhoffs No1 Kronkorken' caption: '<a href="https://www.flickr.com/photos/erix/8441122874/in/photostream/">circular misery</a> von Erich Ferdinand, CC BY 2.0' %}
+{% endraw %}
+```
+
 ## Fazit
 
-Bei Mobile Devices wird richtig deutlich[^fnet] [^frontm] [^confm]:
+Bei Mobile Devices wird die Einsparung 
+der übertragenen Daten richtig deutlich.
+
+Netzwerkdaten vorher:[^fnet] [^front]
+
+|Dateien | Typ   | Größe       | Übertragen  |
+|:------:|:-----:|------------:|------------:|
+| 9      |images | 1.357,97 KB | 1.360,75 KB |
+|3       |html   |    50,54 KB |    18,27 KB |
+|1       |css    |   11,26 KB  |     3,49 KB |
+
+Netzwerkdaten, nachher (mit jekyll-responsive-images und Lazyload):[^fnet] [^frontm] [^confm]:
 
 |Dateien | Typ   | Größe       | Übertragen  |
 |:------:|:-----:|------------:|------------:|
@@ -235,35 +337,40 @@ Bei der Desktop Ansicht haben wir eine Dateneinsparung um den Faktor 2.1 (1.360,
 
 Bei der Mobile Ansicht haben wir sogar eine Dateneinsparung um den Faktor 6,6 (1.360,75 KB / 205,83 KB = 6,611).
 
-{% responsive_image figure: true path: assets/imgs/carbon-calculator-netzaffe-76-percent.png 
-alt: "Website Carbon Calculator Ergebniss für netzaffe.de" %} 
+{% responsive_image figure: true path: assets/imgs/carbon-calculator-netzaffe-76-percent.png  alt: 'Website Carbon Calculator Ergebniss für netzaffe.de nach Optimierung durch Responsive Images' %} 
 
 Durch die Nutzung von *Responsive Images* in Kombination mit Lazyloading 
-konnte ich die *Carbon results* von netzaffe.de von 56% auf 76% erhöhen. 
+konnte ich die Ergebnisse des *Website Carbon Calculators[^ccalc]* von netzaffe.de 
+um 20% verbessern. 
+
+{% responsive_image figure: true path: assets/imgs/screenshot-google-pagespeed-netzaffe-de-desktop.png alt: "Google PageSpeed für netzaffe.de, Desktop, Score 100 von 100" %}
+Das Google es auch gerne mag, 
+quittert mir *Google PageSpeed* jetzt mit einem Score von 100 bei Desktop
+und 99 auf Mobile
+nachdem ich die Bilder in den richtigen Dimensionen anbiete.
+Hier habe ich leider keine Vorher-Nachher-Vergleiche...  
+Mehr Datenersparnis wäre bei den Bildern nur nur noch mit Googles WebP[^webp] Format zu erreichen.
 
 ## Danke
 
-Die Inspiration für diesen Artikel lieferte Dietmar vom Reinblau mit seinem Artikel 
-*Klimaschutz und Webentwicklung*[^rbklima], danke dafür.
-
+Die Inspiration für diesen Artikel und etwas mehr Awareness für das Thema
+lieferte Dietmar vom Reinblau mit seinem Artikel 
+*Klimaschutz und Webentwicklung*[^rbklima], danke dafür!
 
 Ein großer Dank geht an Ratan Parai, mein erster Anlauf war sein Howto 
-*Responsive image on jekyll*[^ratan], auf dem diese Anleitung basiert.
-
-
-jpegtran
-
-```
-jpegtran -copy none -optimize -progressive -outfile asterix-bei-den-briten-grafitti-hanbury-st-london.jpg asterix-bei-den-briten-grafitti-hanbury-st-london.jpg
-```
+*Responsive image on jekyll*[^ratan], auf dem dieses Howto basiert!
 
 ## Fußnoten
 
-[^front]: Startseite, Minima Theme mit Desktop Auflösung  
+[reset.to: So verkleinerst du deinen digitalen Fußabdruck](https://reset.org/act/so-verkleinerst-du-deinen-digitalen-fussabdruck-08162019)
+
 [^fnet]: Gemessen mit dem Firefox Netzwerkanalyse Werkzeug  
-[^conf]: Konfiguration: *width: 740px* bei *quality: 90* und *strip: true*
+[^front]: Startseite, Minima Theme mit Desktop Auflösung  
+[^conf]: jekyll-responsive-images Konfigurationsparameter: *width: 740px, quality: 90, strip: true*
+[^resp]: [jekyll-responsive-image](https://github.com/wildlyinaccurate/jekyll-responsive-image)
 [^rmagick]: [Installation issue: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h. #806](https://github.com/rmagick/rmagick/issues/806#issuecomment-535301931)
 [^rbklima]: [reinblau: Klimaschutz und Webentwicklung](https://reinblau.coop/blog/klimaschutz-und-webentwicklung/)
+[^minima]: [Minima Theme](https://github.com/jekyll/minima)
 [^ratan]: [Ratan Sunder Parai, Responsive image on jekyll](https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/)
 [^lazysizes]: <https://github.com/aFarkas/lazysizes>
 [^head]: [minima/_includes/head.html](https://github.com/jekyll/minima/blob/master/_includes/head.html)
@@ -271,4 +378,5 @@ jpegtran -copy none -optimize -progressive -outfile asterix-bei-den-briten-grafi
 [^filter]: [Liquid Filters](https://jekyllrb.com/docs/liquid/filters/)
 [^ccalc]: [Website Carbon Calculator](https://www.websitecarbon.com/)
 [^frontm]: Startseite, Minima Theme mit Galaxy 9/S9+ (360x740) Auflösung 
-[^confm]: Konfiguration: *width: 370px* bei *quality: 80* und *strip: true*
+[^confm]: jekyll-responsive-images Konfigurationsparameter: *width: 370px, quality: 80, strip: true*
+[^webp]: [Serve images in next-gen formats](https://web.dev/uses-webp-images/?utm_source=lighthouse&utm_medium=unknown)
