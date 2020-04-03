@@ -10,7 +10,7 @@ tags:
 - Gesundheit
 image: /assets/imgs/voller-aschenbecher-brinkhoffs.jpg
 ---
-{% responsive_image figure: true path: assets/imgs/voller-aschenbecher-brinkhoffs.jpg alt: foo caption: '<a href="https://www.flickr.com/photos/erix/8441122874/in/photostream/">circular misery</a> von Erich Ferdinand, CC BY 2.0' %}
+{% responsive_image figure: true path: assets/imgs/voller-aschenbecher-brinkhoffs.jpg alt: 'Aschenbecher voll mit Wasser, Zigarettenkippen und Brinkhoffs No1 Kronkorken' caption: '<a href="https://www.flickr.com/photos/erix/8441122874/in/photostream/">circular misery</a> von Erich Ferdinand, CC BY 2.0' %}
 Ich war ein richtig guter Raucher in meiner Selbstständigkeit, 
 gerade in stressigen Auftragslagen oder bei kniffligen Problemen, 
 stand der Aschenbecher im *Home Office*, manchmal auch  direkt neben der Maus. 
