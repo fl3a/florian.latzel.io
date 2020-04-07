@@ -29,32 +29,34 @@ Netzwerkdaten, nachher (mit jekyll-responsive-images und Lazyload): [^fnet] [^fr
 
 > Reduzierte Inhalte sparen Ressourcen und damit auch Emissionen bei jedem Seitenaufruf.[^rbklima]    
 
-Das ist nicht nur nachhaltig im Sinne von resourcenschonend und gut fürs Klima,    
+Das ist nicht nur nachhaltig im Sinne von ressourcenschonend und gut fürs Klima,    
 sondern Google mag es auch noch gerne.
 
 > Zudem fließt die Performance der Website auch in die Ranking-Kriterien 
 > von Google ein, sodass auch die Auffindbarkeit über die Suchmaschine davon profitiert.[^rbklima]
 
-So empfahl mir *Google PageSpeed Insights* zur Verbesserung der Performance 
+So empfahl mir *Google PageSpeed Insights* zur Verbesserung der Performance von netzaffe.de
 auch die richtige Dimensionierung vom Bildern.
 
-Dieses Howto hat das Ziel die übertragene Datenmenge von Bildern
-und somit den CO2 Austoss dieser Website mimimieren.
+Dieses *[Howto](/tags/howto.html)* hat das Ziel die übertragene Datenmenge von Bildern
+und somit den CO2-Ausstoß dieser Website mimimieren.
 
 Ich beschreibe die Installation und Konfiguration von *jekyll-responsive-images[^resp]*,
 im Zusammenspiel mit einem neuen Template und einen Lazyload Skript, 
-eingebunden in Jekylls *Standardtheme* miminma[^minima] 
-unter Linux, hier CentOS auf uberspace 7.<!--break-->
+eingebunden in [Jekylls](/tags/jekyll.html) *Standardtheme* miminma[^minima] 
+unter [Linux](/tags/linux.html), hier CentOS auf [uberspace](/tags/uberspace) 7.<!--break-->
 
 ## Installation
 
 Die Installation des *jekyll-responsive-image Gems* ist zweisschrittig.
 
-Zuerst muss *jekyll-responsive-image* im *Gemfile* vermerkt werden.
+Zuerst muss *jekyll-responsive-image* im *Gemfile* vermerkt werden...
 
 ```ruby
 gem 'jekyll-responsive-image'
 ```
+
+...dann wird Bundler auf das Gemfile losgelassen.
 
 ### ERROR: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h.
 
@@ -63,10 +65,11 @@ mit der folgenden Meldung ab.
 
 > ERROR: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h.
 
-Das via Default verlangte *Gem rmagick* kann nicht mit ImageMagick in der Versison 7[^rmagick],
-bei u7 war aber ImageMagick in der Version 7.0.9-26 an Board.
+Das via Default verlangte *Gem rmagick* kann nicht mit ImageMagick in der Version 7[^rmagick],
+bei *uberspace 7* war aber ImageMagick in der Version 7.0.9-26 an Board.
 
-Tipp war beim *rmagick Gem* auf Version 4.1.0.rc2, das hat bei mir geklappt.[^rmagick].
+Ein Tipp[^rmagick] war beim *rmagick Gem* auf Version 4.1.0.rc2 zu *pinnen*, 
+das hat bei mir geklappt.
 
 Im *Gemfile*, vor `group :jekyll_plugins do` muss *rmagick* 
 mit Versionsnummer *4.1.0.rc2* spezifiziert werden.
@@ -105,9 +108,6 @@ von EXIF und JPEG Profilen weiter minimieren.
 Google mags.
 
 Die folgenden Zeilen müssen in *_config* hinzugefügt werden.
-
-Hint: Damit die Konfigurationsänderungen greifen muss `bundle exec jekyll serve`
-erneut gestartet werden.
 
 ```yaml
 {% raw %}
@@ -178,6 +178,9 @@ responsive_image:
 {% endraw %}
 ```
 
+Hint: Damit die Konfigurationsänderungen greifen,
+ muss `bundle exec jekyll serve` erneut gestartet werden.
+
 ## Image Template anlegen
 
 Die Templates benutzten `srcset` innerhalb von des Img-Tags. 
@@ -200,6 +203,8 @@ Ein Template für Bilder in `<figure>` und standalone `<img>` Tags.
 Innerhalb der Figure-Variante wird per Default das Alt-Attribute 
 als `<figcaption>` genutzt, 
 kann aber via Belegung der Variable `caption` überschrieben werden.
+
+Siehe auch [Benutzung des Templates](/2020/04/07/responsive-image.html#benutzung).
 
 ```liquid
 {% raw %}
@@ -301,9 +306,12 @@ Das folgende Snippet für den Lazyloader fügst du *_scss/netzaffe.scss* hinzu:
 ## Benutzung
 
 Hier exemplarisch das Teaserbild in [Fünf Jahre Nichtraucher, mein Weg dorthin](/2020/03/29/fuenf-jahre-nichtraucher-mein-weg-dorthin.html):
-- durch `figure: true` wird die Figure-Variante im Template genutzt
+- durch `figure: true` wird die Figure-Variante im Template genutzt. Fallback ist img.
 - `path:`, gefolgt vom Pfad zum Bild, **ohne** führenden `/`
-- Dediziertes caption, welches das Alt-Attribut mit Name des Werkes, Künstler, Quelle und Lizenz überschreibt
+- Alternativer Text: `alt: 'Aschenbecher voll mit Wasser, Zigarettenkippen und Brinkhoffs No1 Kronkorken'`
+- Das dedizierte `caption` wird für das `<figcaption>` genutzt, 
+hier für Name des Werkes, Künstler, Quelle und Lizenz. 
+Wenn nicht spezifizert, wird der Inhalt von *alt* hierfür genutzt.
 
 ```liquid
 {% raw %}
@@ -311,7 +319,30 @@ Hier exemplarisch das Teaserbild in [Fünf Jahre Nichtraucher, mein Weg dorthin]
 {% endraw %}
 ```
 
+## bundle install
+
+Bei Updates des zu Grunde liegenden Systems kann es 
+bei den Deployments, die auch Aktualisierungen des Gemfiles
+berücksichtigen, gelegentlich rumpeln.
+
+So ist auf uberspace zwischenzeitlich Imagemagick aktualisiert worden, 
+dadurch ist mein Post-Receive Hook für das Jekyll Deployment[^post]
+beim `bundle install` ausgestiegen:
+
+> Gem Load Error is:  
+> This installation of RMagick was configured with ImageMagick 7.0.9  
+> but ImageMagick 7.0.10-0 is in use.[^redownload]
+
+Abhilfe ist ein erneutes Ausführen von `bundle install` 
+mit der Option `--redownload` wenn der vorige Befehl 
+einen *Exit Status* != 0 liefert. 
+So werden die Gems runtergeladen und neu gebaut.
+
+`bundle install --path=~/.gem || bundle install --path=~/.gem --redownload`[^redownload]
+
 ## Fazit
+
+### Netzwerkdaten
 
 Bei Mobile Devices wird die Einsparung 
 der übertragenen Daten richtig deutlich.
@@ -333,9 +364,13 @@ Netzwerkdaten, nachher (mit jekyll-responsive-images und Lazyload):[^fnet] [^fro
 |1       |css    |    11,60 KB |     3,65 KB |
 |1       |js     |        0 KB |    28,06 KB |
 
-Bei der Desktop Ansicht haben wir eine Dateneinsparung um den Faktor 2.1 (1.360,75 KB / 648,95 KB = 2,0968).
+Bei der Desktop Ansicht haben wir eine Dateneinsparung um den Faktor 2.1,  
+1.360,75 KB / 648,95 KB = 2,0968.
 
-Bei der Mobile Ansicht haben wir sogar eine Dateneinsparung um den Faktor 6,6 (1.360,75 KB / 205,83 KB = 6,611).
+Bei der Mobile Ansicht haben wir sogar eine Dateneinsparung um den Faktor 6,6,  
+1.360,75 KB / 205,83 KB = 6,611.
+
+### Website Carbon Calculator
 
 {% responsive_image figure: true path: assets/imgs/carbon-calculator-netzaffe-76-percent.png  alt: 'Website Carbon Calculator Ergebniss für netzaffe.de nach Optimierung durch Responsive Images' %} 
 
@@ -343,10 +378,12 @@ Durch die Nutzung von *Responsive Images* in Kombination mit Lazyloading
 konnte ich die Ergebnisse des *Website Carbon Calculators[^ccalc]* von netzaffe.de 
 um 20% verbessern. 
 
+### Google Page Speed
+
 {% responsive_image figure: true path: assets/imgs/screenshot-google-pagespeed-netzaffe-de-desktop.png alt: "Google PageSpeed für netzaffe.de, Desktop, Score 100 von 100" %}
 Das Google es auch gerne mag, 
-quittert mir *Google PageSpeed* jetzt mit einem Score von 100 bei Desktop
-und 99 auf Mobile
+quittert mir *Google PageSpeed* jetzt mit einem Score von 100 bei der *Desktop Ansicht*
+und 99 bei der *Mobil Ansicht*
 nachdem ich die Bilder in den richtigen Dimensionen anbiete.
 Hier habe ich leider keine Vorher-Nachher-Vergleiche...  
 Mehr Datenersparnis wäre bei den Bildern nur nur noch mit Googles WebP[^webp] Format zu erreichen.
@@ -354,11 +391,22 @@ Mehr Datenersparnis wäre bei den Bildern nur nur noch mit Googles WebP[^webp] F
 ## Danke
 
 Die Inspiration für diesen Artikel und etwas mehr Awareness für das Thema
-lieferte Dietmar vom Reinblau mit seinem Artikel 
+lieferte mir Dietmar vom Reinblau mit seinem Artikel 
 *Klimaschutz und Webentwicklung*[^rbklima], danke dafür!
 
 Ein großer Dank geht an Ratan Parai, mein erster Anlauf war sein Howto 
 *Responsive image on jekyll*[^ratan], auf dem dieses Howto basiert!
+
+Ich werde selbst noch ein wenig mit den Parametern bei `quality` spielen
+und schauen, wie weit man ohne Qualitätseinbuße gehen kann.
+
+Vielleicht konnte ich euch inspirieren, auch wenn ihr ein anderes System nutzt.
+Selbst mit Bordmitteln, wie das hier genutzte *convert* von Imagemagick
+sind bereits Dateneinsparungen realisierbar. 
+Vergleichbar wäre z.B. jpegtran.
+```
+jpegtran -copy none -optimize -progressive -outfile example.jpg example-opt.jpg
+```
 
 ## Fußnoten
 
@@ -375,6 +423,8 @@ Ein großer Dank geht an Ratan Parai, mein erster Anlauf war sein Howto
 [^lazysizes]: <https://github.com/aFarkas/lazysizes>
 [^head]: [minima/_includes/head.html](https://github.com/jekyll/minima/blob/master/_includes/head.html)
 [^sizes]: [selfhtml: Gestaltung mit sizes](https://wiki.selfhtml.org/wiki/HTML/Multimedia_und_Grafiken/picture)
+[^post]: [jekyll_uberspace_deployment](https://github.com/fl3a/jekyll_uberspace_deployment)
+[^redownload]: [Commit: Fallback für bundle install](https://github.com/fl3a/jekyll_uberspace_deployment/commit/d91452052d67f298366037726df0f13cb3b165f4)
 [^filter]: [Liquid Filters](https://jekyllrb.com/docs/liquid/filters/)
 [^ccalc]: [Website Carbon Calculator](https://www.websitecarbon.com/)
 [^frontm]: Startseite, Minima Theme mit Galaxy 9/S9+ (360x740) Auflösung 
