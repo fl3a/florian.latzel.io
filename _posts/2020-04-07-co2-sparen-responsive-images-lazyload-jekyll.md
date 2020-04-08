@@ -8,6 +8,7 @@ tags:
 - Nachhaltigkeit
 - SEO
 - uberspace
+image: /assets/imgs/carbon-calculator-netzaffe-76-percent.png
 ---
 
 Netzwerkdaten vorher:[^fnet] [^front]
