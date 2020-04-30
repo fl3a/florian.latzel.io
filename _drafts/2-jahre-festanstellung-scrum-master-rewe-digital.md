@@ -31,9 +31,11 @@ alt: 'Drupal@Linuxtag09 - Open Source, Drupal, Linux und Ballons.
 Standparty @ DUG Berlin. Valentin Vago, CC-by' 
 caption: '<a href="/2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html">Drupal@Linuxtag09 - Open Source, Drupal, Linux und Ballons.</a> Standparty @ DUG Berlin. Valentin Vago, CC-by' %}
 
-Das *CMS Framework [Drupal](/tags/drupal/index.html)* 
+Das *CMS Framework Drupal[^drupal]* 
 hat mich über 15 Jahre lang begleitet und stellte ein wesentliches Fundament 
 meiner Selbstständigkeit dar. 
+Das was mich am meisten beschäftigt, darüber habe ich hier auch am meisten geschrieben -
+56 [mit Drupal getaggte Posts](/tags/drupal/index.html).
 Stand heute sind noch drei Drupal-Referenzen an denen ich mitgewirkt habe 
 auf <https://drupal.de> zu finden, und zwar <https://berliner.de> 2009, 
 der Relaunch von <https://visitberlin.de> 2010 
@@ -68,42 +70,81 @@ Zuletzt habe ich das [Drupal 8 Howto im uberspace Lab](https://lab.uberspace.de/
 
 Die Community habe ich nur getauscht[^agile].
 
-## Hast du noch dein Büro in der Gasmotorenfabrik?
+## Hast du noch dein Büro in der Alten Gasmotorenfabrik?
 
 {% responsive_image figure: true path: assets/imgs/alte-gasmotorenfabrik-muelheim-blick-aus-dem-fenster-skyline-koeln.jpg alt: 'Blick aus dem Fenster meines ehemaligen Büros: Gebäude 9, Kunstwerk, Zoobrücke, Messehallen und Kölner Dom' %}
 
-Das Kapitel Gasmotorenfabrik begann kurz vor Weihnachten 2011, 
-nach ein paar Tagen Coworking bei und mit Kay 
-in seinem frisch bezogenen Büro in der *alten Gasmotorenfabrik[^gas1] [^gas2]*.
-Kurz danach bin ich von einer kleinen Kommunikationsdesignagentur auf der Luxemburger Straße
-auf die Deutz-Mülheimer, neben das Gebäude 9 nach Köln-Mülheim gezogen.
+Das Kapitel *Alte Gasmotorenfabrik* begann kurz vor Weihnachten 2011, 
+nach ein paar Tagen Coworking bei und mit Kay, 
+der kurz zuvor ein Büro in der *alten Gasmotorenfabrik[^gas1] [^gas2]* frisch bezogen hat.
+Wenige Tage nach dem Coworking bin ich recht spontan 
+von einer kleinen Kommunikationsdesignagentur  auf der Luxemburger 
+zu Kay nach Köln-Mülheim auf die Deutz-Mülheimer neben das Gebäude 9 gezogen.
+Von da an nahm starteten wir mit unserem Büro, 
+welches zu diesem Zeitpunkt nur 3 Tischen, 2 Stühle, 2 Tischlampen und uns bestand.
+Telefon und Internet hatten wir noch kein eigenes, 
+WLAN kam von Konbinat, ein Etage über uns.
 
 Bei meinem ersten Besuch dort ist bei mir der Funke direkt über gesprungen, 
 die Energie, die dieser Gebäudekomplex versprühte 
 kann ich nicht besser beschreiben als Martin von enbreeze[^enbreeze].
+Hier war die Wiege der Motorisierung 
+und hier wurde auch die erste Schwebebahn[^schweb] konstruiert.
+Verständlich, dass sich an so einen inspirierendem Ort 
+mit sehr erschwinglicher Miete neben einigen Künstlern und Kreativen auch 
+Kölns erster Coworking Space sowie das erste FabLab, die Dingsfabrik ansiedelten.
+Wo vor Dekaden noch Motoren und Fahrzeuge produziert wurden,  
+entstanden dort zu meiner Zeit unter anderem Kunst, Dienstleistungen oder Software, 
+wie zum Beispiel [pageflow](https://www.pageflow.io/).
+Egal ob zur Raucherpause, für einen Kaffee oder ein Feierabendbier,
+hier traf ich immer jemand interessanten für den gemeinsamen Augenblick.
 
+Als Ende März 2014 die Pläne zu „Euroforum Nord“, 
+auf denen weder Gebäude 9 noch die *Alte Gasmotorenfabrik* auftauchten,
+war unser Plan eine Genosenschaft zu gründen und den Gebäudekomplex zu erwerben.
+Nachdem die Gasmotorenfabrik wieder sicher schien, verliefen sich die Pläne.
+Zwischenzeitlich erwarb die CG Gruppe das Areal und auf den überarbeiteten Plänen,
+tauchte nir noch ein Teil des Gebäudes auf.
 
-Buzzwords: Wiege der Motorisierung und Schwebebahn[^schweb].
-Erster Coworking Space in Köln, erstes FabLab Dingsfabrik,
-<https://www.pageflow.io/>, Idee Genosenschaft wg Abriss
-Nachbarn.
+Ende Juni 2016, nachdem mir Kay das Untermietverhältnis kündigte,
+er war mittlerweile ebenfalls in Festanstellung,
+zog ich eine Etage höher in mein eigenes, mit Holz getäfeltes Büro mit Domblick,
+wo ich mir von dortan mit Kombinat Postproduction die Infrastuktur teilte.
 
-Umzug Sommer Ende Juni 2016 nach oben.
+Nachdem ich seit Juli 2017 gefühlt nur noch einmal im Monat 
+zum Steuern machen ins Büro kam, 
+entschied ich mich im Frühjahr 2018 mein Büro zu kündigen.
 
-
-Ende juli 2018 Schlüsselübergabe
+Ende Juli 2018 war dann Schlüsselübergabe, so endeten sechs tolle Jahre.
 
 ## Was ist mit Reinblau?
 
-**Platzhalterbild Kreis**
+{% responsive_image figure: true 
+path: assets/imgs/2017-05-reinblau-kreis-openspace-teamtreffen-c-rokr.jpeg
+alt: 'Start im Kreis. Open Space der Genossenschaft Reinblau im Rotaprint Glaskasten, Berlin, Mai 2017. &copy; Ronald Krentz'
+%}
 
-- Stephans Idee der Drupal Welt AG
-- April 2012 mit Stephan Luckow, Meike Jung und Leon Evers
-- Sponsoring drupalcamping 2012
+
+Im April 2012 folgten unter anderm Meike Jung, Leon Evers und ich Stephan Luckows Idee
+einer *Drupal Welt AG* beziehungsweise eine Unternehmung
+die aus der Drupal Community kommt (*Community Driven Business*) zu gründen.
+So war der erste Streich das Sponsoring des DrupalCamping im Sommer 2012.
+Ich fande die Idee, auch noch nach einigen Anläufen 
+eine Kooperative mit Teilhabe mitzugründen.
+Etwas größeres Ganzes, 
+mit dem sich auch große Projekte und große Kunden bedienen zu lassen.
+Etwas, das am Ende allen zu gleichen Teilen gehört.
+Von Anfang war die Gesellschaftsform der eingetragenen Genossenschaft das Ziel 
+und die GmbH von Stephan war nur ein geplantes *Zwischengefährt*.
+Am 23. März 2016 wurden wir, Reinblau[^rb], 
+nach teilweise auch sehr aufreibenden Zeiten endlich eine eG.
+
+Für mich 
+- Die vor und nach Ära MyToys
+
+
 - Bassets 2013
 - Organisationentwicklung, Holocracy, Open Space, Selbst ausprobieren
-- 23.03.2016 eG
-- Die Ära MyToys
 - Abzweigung nach rechts: Scrum  Master
 - Ende 2020 raus
 
@@ -120,11 +161,13 @@ Ende juli 2018 Schlüsselübergabe
 ## Fußnoten & Weiterführendes
 
 [^front]: [fl3a am 9. Dezember 2009 auf twitter: wooohooo! we are on \<front\> of d.o #drupal](https://twitter.com/fl3a/status/6501196646)
+[^drupal]: [Drupal - Open Source CMS](https://www.drupal.org/) 
 [^agile]: [Agile Community: Liste von Scrum- und New-Work-Meetups in Köln und NRW](/agile-meetups-events-koeln-nrw.html)
 [^gas1]: [Abzug von gasmotorenfabrik.net auf archive.org](https://web.archive.org/web/20170501005348/http://gasmotorenfabrik.net/)
-[^gas2]: Anmerkung: Die ursprüngliche Gasmotorenfabrik befindet sich auf Höhe der Deutz Mülheimer Strasse 147- 149 c/o raum13.
+[^gas2]: Anmerkung: Die ursprüngliche Gasmotorenfabrik befindet sich auf Höhe der Deutz Mülheimer Strasse 147- 149 c/o [raum13](http://www.raum13.com).
 [^enbreeze]:  [Die Gasmotorenfabrik – Brutstätte für ein junges Technologieunternehmen, von Martin Riedel, enbreeze GmbH](https://web.archive.org/web/20170708145859/http://gasmotorenfabrik.net/stimmen/die-gasmotorenfabrik-brutstaette-fuer-ein-junges-technologieunternehmen)
-[^schweb]: https://www.ksta.de/koeln/industriegeschichte-die-schwebebahn-hat-ihren-ursprung-in-koeln-23601494
-[^holo]: http://rogerpfaff.de/holacracy/
+[^schweb]: <https://www.ksta.de/koeln/industriegeschichte-die-schwebebahn-hat-ihren-ursprung-in-koeln-23601494>
+[^rb]: [Reinblau eG](https://reinblau.coop/)
+[^holo]: <http://rogerpfaff.de/holacracy/>
 *[D-A-CH]: Deutschland-Austria(Österreich)-Confoederatio Helvetica(Schweiz)
 *[DUG]: Drupal User Group 
