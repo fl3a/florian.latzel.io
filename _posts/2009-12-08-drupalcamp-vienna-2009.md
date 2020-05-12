@@ -4,6 +4,7 @@ tags:
 - Wien
 - Drupalcamp
 - Drupal
+- Fründe
 - dcvie
 nid: 973
 layout: post
