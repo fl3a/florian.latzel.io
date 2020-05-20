@@ -16,7 +16,7 @@ caption: "Landrat-Lucas-Weg, Tal mit Bach oberhalb der Wupper. Julian Schreyer, 
 Als Julian[^julian] und ich im Juni letzten Jahres von Essen bis Wülfrath wanderten, 
 knackten wir die 40 Kilometer.
 Das damalige Ziel war es, die letzten beiden Etappen,
-die mir zur Vervollständigung des Bergischen Weg fehlten, zu wandern.
+die mir zur Vervollständigung des Bergischen Weg[^berg] fehlten, zu wandern.
 
 Darauf meinte Julian, 
 am Ende der Tour am Wülfrather Bahnhof leicht lädiert, aber um so zufriedener:
