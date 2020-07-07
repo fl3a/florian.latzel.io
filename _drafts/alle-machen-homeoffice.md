@@ -4,10 +4,17 @@ tags:
 - Scrum Master
 - Home Office
 - COVID-19
-
+layout: post
 ---
+Ein Resüme zu 4 Wochen Homeoffice und Remotearbeit als Scrum Master in Krisenzeiten.
+<figure>
+<blockquote>
+Es ist schon alles gesagt, nur noch nicht von allen.
+</blockquote>
+<figcaption>Karl Valentin</figcaption>
+<figure>
 
-Fazit aus 2 Wochen Homeoffice
+
 <!--break-->
 
 ## Kommunikation
@@ -63,6 +70,6 @@ Stehen fest, zuletzt, Datenschutz
 - https://unboxing-agile.podigee.io/19-agile-corona | UA018 - Agiles Arbeiten in der Corona Krise - Unboxing Agile
 - https://digitalcourage.de/blog/2020/corona-homeoffice-tipps - Corona: Home-Office geht auch mit Datenschutz
 - https://www.digitalperspektiven.de/tipps-und-tools-fuer-remote-retrospektiven/ - Tipps und Tools für Remote Retrospektiven
-- 
- 
+- https://www.spiegel.de/gesundheit/psychologie/corona-krise-und-die-mittelschicht-heult-leise-a-f1d38ade-7a97-4e0c-9499-955560dd83b2 
+- https://blog.giantswarm.io/why-micromanagement-sucks-big-time/
  
