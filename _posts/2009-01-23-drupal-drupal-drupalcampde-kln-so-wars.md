@@ -5,6 +5,7 @@ tags:
 - Open Source
 - Drupalcamp
 - Drupal User Group Köln/Bonn
+- Fründe
 - Drupal
 - Community
 nid: 704

@@ -1,6 +1,6 @@
 ---
 title: Migration von Drupal6 nach Jekyll
-layout: book
+layout: post
 toc: true
 ---
 
@@ -11,10 +11,8 @@ Drupal 6 nach Jekyll
 
 ### Image node type
 
-Ich verwende noch das alte [Image Modul](), das war bis Drupal 5 auch _State of the Art_, 
-
-
-Hier die Liste von _Image Nodes_, die ich auf der Startseite beworben habe und mit umziehen möchte. <!--more-->
+Ich verwendete noch das *gute, alte Image Modul[^img], das war bis CCK auch _State of the Art_ war.
+So ziehe ich mir die Liste von _Image Nodes_, die ich auf der Startseite beworben habe und mit umziehen möchte. <!--more-->
 
 ```
 mysql> select title,nid from node where type='image' and promote=1; 
@@ -26,6 +24,7 @@ habe das jeweilige Orginalbild in Node-Body via Image_Tag eingebunden und habe d
 
 ### Books nodes
 
+Ich habe einige [Howtos](/tags/howto/) mit *Drupals Book Module*
 Liste der Book-Nodes der veröffentlichten Büchern auf meiner Seite:
 
 ```
@@ -107,7 +106,7 @@ optional die Inhaltstypen, die migriert werden sollten.
 ```
 ruby -r rubygems -e 'require "jekyll-import";
     JekyllImport::Importers::Drupal6.run({
-      "dbname"   => "fl3a",
+      "dbname"   => "netzaffe",
       "user"     => "florian",
       "password" => "mypassword",
       "host"     => "localhost",
@@ -216,4 +215,5 @@ sed -i '/^permalink:\ "\/blog\/.*"$/d' _posts/*
 [^]: [fl3a/jekyll-import](https://github.com/fl3a/jekyll-import)
 [^]: [SELFHTML: HTML/Kopfdaten/meta](https://wiki.selfhtml.org/wiki/HTML/Kopfdaten/meta)
 [^]: [The SEO war of redirects: 301 vs 302 vs meta-refresh tag](https://www.redalkemi.com/blog/post/the-seo-war-of-redirects-301-vs-302-vs-meta-refresh-tag)
-[^]: [Image Module](https://www.drupal.org/project/image)
+[^img]: [Image Module](https://www.drupal.org/project/image)
+[^boomba]: [boombatower: Ported Drupal blog to Jekyll](https://blog.boombatower.com/2020/04/13/ported-drupal-blog-to-jekyll)

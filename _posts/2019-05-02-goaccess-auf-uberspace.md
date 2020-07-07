@@ -13,7 +13,7 @@ tags:
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2020-02-03
+last_modified_at: 2020-04-26
 ---
 <figure>
   {% responsive_image path: assets/imgs/goaccess-ncurces-console-screenshot.png alt: "Screenshot: GoAccess Web-Analytics auf der Konsole" %}
@@ -55,9 +55,17 @@ Wir besorgen uns den Quelltext von GoAccess via Git.
 ```
 git clone https://github.com/allinurl/goaccess.git
 ```
+
 ```
 cd goaccess/
 ```
+
+Gegebenenfalls möchtest Du eine speziellen Branch haben,
+wie hier für die Version 1.3:
+```
+git checkout v1.3
+```
+
 ```
 autoreconf -fiv
 ```
@@ -80,6 +88,8 @@ make
 ```
 make install
 ```
+
+## uberspace 6
 
 ### Update von gettext
 
@@ -105,6 +115,7 @@ Nachdem toast durchgelaufen ist, wiederholen wir `autoreconf -fiv`
 und machen mit dem *Dreisatz*(s.o.) weiter. 
 
 ### Fehlende Tokyo Cabinet Bibliothek
+
 
 Wenn configure abbricht, weil es die _Tokyo Cabinet Database_ nicht findet.
 
@@ -144,7 +155,7 @@ toast arm tokyocabinet
 
 Jetzt müssen wir nochmal obigen *Dreisatz* wiederholen.
 
-### Anpassung der Variablen MANPATH
+#### Anpassung der Variablen MANPATH
 
 Damit der Aufruf von `man goaccess` auch die dazugehörige Manpage und nicht
 
@@ -156,6 +167,56 @@ Dazu fügen wir in *.bash_profile* die folgende Zeile ein:
 ```
 export MANPATH="$MANPATH:$HOME/share/man/"
 ```
+
+### uberspace 7
+
+Seit ein paar Tagen (heute ist der 26.04.2020) ist auf uberspace 7
+ein kaputtes rpm von GoAccess in der Version  1.3 aufgespielt worden. 
+Dem rpm fehlt die Unterstützung für die *Tokyo Datenbank*.
+
+#### goaccess: unrecognized option '--keep-db-file' 
+
+Das lässt bestehende Cronjobs, 
+die [die Access Logs in der GoAccess Datenbank sichern](/2020/02/02/goaccess-persistierung-von-weblogs-in-tokyo-cabinet-on-disk-datenbank.html), nicht mehr durchlaufen.
+
+Cron verschickt jetzt solche Mails:
+
+> goaccess: unrecognized option '--keep-db-file'
+
+Es soll ein Downgrade auf 1.2 durchgeführt werden,
+das fixt zwar die Datenbank, aber nicht die *KEYPHASES* von Google,
+die in 1.2 nicht dargestellt wurden. 
+
+So installiert ihr die 1.3er Version von GoAccess mit Tokyo DB Support auf uberspace 7.
+Wir starten mit der Tokyo DB, die wir als Abhängigkeit für GoAccess brauchen:
+
+```
+cd /tmp
+wget https://fallabs.com/tokyocabinet/tokyocabinet-1.4.48.tar.gz
+tar xfzv tokyocabinet-1.4.48.tar.gz
+cd tokyocabinet-1.4.48
+autoreconf -fiv
+./configure  --prefix=$HOME
+make
+make install
+```
+
+Damit das *configure* von GoAccess durchläuft,
+geben wir *C compiler flags* via Umgebungsvariable zwei Optionen mit:
+
+```
+export CFLAGS="-I/$HOME/include -L$HOME/lib"
+```
+
+Andernfalls würdest du das sehen:
+
+> configure: error: *** Missing development libraries for Tokyo Cabinet Database
+
+In den Cronjobs nutze ich, wenn fertig ein `$HOME/bin/goaccess`, 
+also GoAccess mit vorangestelltem Pfad statt dem von uberspace geliefertem Standard.
+
+Weiter geht es bei [Installation von GoAccess](#installation-von-goaccess)
+
 ## Konfiguration von GoAccess
 
 ### ~/etc/goaccess/goaccess.conf
