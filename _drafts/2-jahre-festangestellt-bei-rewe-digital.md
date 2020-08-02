@@ -44,13 +44,16 @@ Ich habe mich intensiv mit Drupal beschäftigt
 und darüber hier auch am meisten geschrieben -
 56 [mit Drupal getaggte Posts](/tags/drupal/index.html).
 Stand heute sind noch drei Drupal-Referenzen an denen ich mitgewirkt habe 
-auf <https://drupal.de> zu finden, und zwar <https://berliner.de> 2009, 
-der Relaunch von <https://visitberlin.de> 2010 
-und der Relaunch von <http://bunte.de> 2013.  
+auf [drupal.de](https://drupal.de) zu finden, und zwar [berliner.de](https://berliner.de) 2009, 
+der Relaunch von [visitberlin.de](https://visitberlin.de) 2010 
+und der Relaunch von [bunte.de](http://bunte.de) 2013.  
 Mit dem [Use zu Case berliner.de](https://www.drupal.org/forum/general/show-off-your-drupal-site/2009-12-09/berlinerde-%E2%80%93-a-portal-focused-on-berlin-developed) 
-waren [wir](/my-last-daily-scrum-at-berlinonline.html) sogar auf der Startseite von <https://drupal.org>.  
+waren [wir](/my-last-daily-scrum-at-berlinonline.html) sogar auf der Startseite von [drupal.org](https://drupal.org).    
 Das hat hat mich ziemlich stolz gemacht[^front]: 
-> wooohooo! we are on \<front\> of d.o #drupal
+<figure>
+  <blockquote>wooohooo! we are on &lt;front&gt; of d.o #drupal</blockquote>
+  <figcaption>Ich am 9. Dezember 2009 auf twitter</figcaption>
+</figure>
 
 Schon vor über zehn Jahren haben die Projekte das Format der *One man show* verlassen.
 Mit jeden Vorhaben stiegen Komplexität und Teamgröße
@@ -61,14 +64,14 @@ Fast genau so lange, wie ich mit Drupal gearbeitet[^fl3a] habe,
 war ich auch der deutschsprachigen Drupal Community aktiv.
 So habe ich neben den Grundrauschen in der Kölner- und Berliner Drupal Usergroup
 den Drupal e.V (vormals *Initiative zur Förderung der Drupal Community*) mitgegründet, 
-[das erste Drupalcamp 2009 in D-A-CH](/blogs/floh/2009/01/23/drupal-drupal-drupalcampde-koeln-so-wars.html) mitorganisiert, 
-war für und mit Drupal auf [Linuxtag](/tags/linuxtag/index.html), Cebit und FrosCon,
-versuchte mit anderen versucht die Drupalcon 2010 nach Berlin zu holen
+[das erste Drupalcamp 2009 in D-A-CH](/blogs/floh/2009/01/23/drupal-drupal-drupalcampde-koeln-so-wars.html) mitorganisiert. 
+War für und mit Drupal auf [Linuxtag](/tags/linuxtag/index.html), Cebit und FrosCon unterwegs.
+Versuchte mit anderen versucht die Drupalcon 2010 nach Berlin zu holen
 und habe 2018 [das erste DrupalCamp im Open Space (Barcamp) Format](/2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html) mitorganisert.
 
 Auf die Frage ob ich noch Drupal mache, ja aber anders. 
 Back to the roots, von Professionell zurück zum Hobby.
-Mein Job hat nichts mit Drupal zu tun 
+Mein Job hat rein gar nichts mit Drupal zu tun 
 und REWE digital macht auch kein Drupal.
 Was geblieben ist,
 ist wohl das *Open Source Mindset*,
@@ -138,33 +141,41 @@ mein Büro zu kündigen.
 Ende Juli 2018 war dann Schlüsselübergabe, so endeten sechseinhalb tolle Jahre.
 
 ## Was ist mit Reinblau?
+
 {% responsive_image figure: true 
 path: assets/imgs/2-jahre-rd/2017-05-reinblau-kreis-openspace-teamtreffen-c-rokr.jpeg
 alt: 'Start im Kreis. Open Space der Genossenschaft Reinblau, ExRotaprint Glaskasten, Berlin, Mai 2017. &copy; Ronald Krentz'
 %}
 
 
-Im April 2012 folgten unter anderm Meike Jung[^mju], Leon Evers und ich Stephan Luckows[^slu] Idee
-einer *Drupal Welt AG* beziehungsweise eine Unternehmung
-die aus der Drupal Community kommt (*Community Driven Business*) zu gründen.
-So war der erste Streich das Sponsoring des DrupalCamping im Sommer 2012.
+Im April 2012 folgten Meike Jung[^mju], Leon Evers, 
+Sandra und Thomas von Redsight, Sven von Allsatis und ich Stephan Luckows[^slu] Idee
+einer Unternehmung
+die aus der Drupal Community kommt (*Community Driven Business*,*"Drupal Welt AG"*) zu gründen.
+So war der erste Streich das *Gold Sponsoring* des DrupalCamping im Sommer 2012.
 Ich fande die Idee, auch nach einigen weniger erfolgreichen Anläufen 
 eine Kooperative mit Teilhabe mitzugründen immernoch vielversprechend.
 Etwas größeres Ganzes, 
 mit dem sich auch große Projekte und große Kunden bedienen zu lassen.
 Etwas, das am Ende allen zu gleichen Teilen gehört.
-Von Anfang war die Gesellschaftsform der eingetragenen Genossenschaft das Ziel.
+Von Anfang an war die Gesellschaftsform der eingetragenen Genossenschaft das Ziel.
+Stephans Firma sollte uns als _Zwischengefährt_, gerade in Bezug auf das Thema Haftung dienen.
+So startete Reinblau als Tochter der GzEvD[^gzevd]. 
 
 Für mich war MyToys eine Zäsur. 
 Vor MyToys stand viel im Zeichen des Markenaufbaus 
-und der Erzeugung von Sichbarkeit.
-Wir haben damals sehr viel Zeit in Ausschreibungen gesteckt, 
-die Anfragen und Projekte wuchsen. 
-In dieser Zeit habe ich das DAM Bassets[^bassets] mit gebaut
-und durfte an vielen weiteren _Drupal Projekten_ mitwirken.
+und der Erzeugung von Sichbarkeit wie z.B. _das Blaumachen[^blaumachen]_
+für Kunden:innen, Partner:innen und Interessenten:innen.
+Wir haben in dieser Phase sehr viel Zeit in Ausschreibungen gesteckt
+und die Anfragen und Projekte wuchsen langsam. 
+In dieser Zeit habe ich den Auftrag für das DAM Bassets[^bassets] 
+an Land gezogen, habe es mit gebaut
+und durfte an vielen weiteren _Drupal Projekten_ mitwirken.  
+Die *Ära MyToys* war hingegen geprägt vom Wachstum.
+Die Zahl der Reinblau Mitglieder:innen und Anwärter:innen wuchs
+in dieser Zeit, das *Projekt MyToys* versprach Auslastung. 
 
-Ab Juli 2015 stieß ich dann zu MyToys dazu.
-Das Projekt lief schon eine Weile und hat viele Genoss:innen gebunden.
+Ab Juli 2015 stieß ich dann zum laufenden *MyToys Projekt* dazu.
 Ich stieg dort in ein größeres, bestehendes Reinblau Team mit agilen Rahmenbedingungen ein
 und arbeitete in der Softwareentwicklung am Shop-Backend.
 Von da ab war MyToys und Symfony mein Fokus, 
@@ -172,58 +183,56 @@ so mit _Symfony User Group_[^sfugc] und _Symfony Konferenz_.
 {% responsive_image figure: true
 path: assets/imgs/2-jahre-rd/ben-und-ich-symfony-live-2016-cologne.jpeg
 alt: "Ben und ich mit unseren Reinblau T-Shirts auf der Symfony Live, 29. April 2016 in Köln" %}
-Mit der Zeit im MyToys Projekt wuchs  mein Verlangen unsere Agilen Prozessen
+Mit der Zeit im MyToys Projekt wuchs mein Verlangen unsere Agilen Prozessen
 mitzugestalten und zu verändern.
-Mein [PSM1](/neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html), den ich Anfang des selben Jahres gemacht habe und die meine ersten 
-zaghaften Besuche beim  [Scrumtisch Köln](/agile-meetups-events-koeln-nrw.html#agile-meetups--events-in-köln) haben mich heiß gemacht
-und den Willen geweckt, 
+Mein [Scrum Master Kurs und Zertifikat(PSM1)](/neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html), 
+den ich Anfang des selben Jahres gemacht habe 
+und die meine ersten zaghaften Besuche 
+beim  [Scrumtisch Köln](/agile-meetups-events-koeln-nrw.html#agile-meetups--events-in-köln) 
+haben in mir den Willen geweckt, 
 die Arbeitsrealität von mir und meinen Kollegen zum besseren zu verändern.
 Leider habe ich das Mandat, ein wenig aus meiner Entwickler-Rolle heraus zu schlüpfen
-zu diesem Zeitpunkt leider nicht bekommen.
+zu diesem Zeitpunkt leider nicht mal in Ansätzen bekommen.
  
 Am 23. März 2016 erfolgte der Eintrag ins Genossenschaftregister
 und wurden wir wurden nach teilweise auch sehr aufreibenden Zeiten endlich eine Genossenschaft.
-und die GmbH von Stephan war nur ein geplantes *Zwischengefährt*._
 Im Juli des gleichen Jahres holten wir uns Unterstützung 
 von Martina Röll und ihren Kolleg:innen von Structure & Process[^struc] 
-um die Themen Organisationentwicklung und Holocracy zu anzugehen.
+um mit deren Hilfe ein Organisationentwicklung und Holacracy[^hola] zu anzugehen.
 Das war auf auf jeden Fall eine spannende Zeit des Wandels, 
-seit dieser Zeit ist Open Space[^rb-open] das Format unserer Team-Treffen.
-Rückblickend war das in meinen Augen eine sehr spannende Zeit 
-und trotz der größeren Veränderung war es sinnvoll weiter in 
+seit dieser Zeit ist *Open Space*[^rb-open] das Format unserer Team-Treffen.
+Rückblickend es in meinen Augen eine sinnvolle Investition 
+trotz einigen Widerständen und der größeren Veränderung weiter in 
 Richtung von noch mehr Selbstorganisation und Teilhabe zu gehen.
-Wir konnten uns ausprobieren.
 
-
-Ungefähr im Juni 2016 hat sich durch einen Teamschnitt bei MyToys die Chance ergeben 
+Ungefähr im Juni 2016 hat sich durch einen Teamschnitt bei MyToys eine Chance ergeben 
 und ich habe sie direkt ergriffen.
 Ich wurde [Scrum Master](/tags/scrum-master/) des _Remote Teams_.
-Ab diesem Punkt wuchs mein Engagement auch Reinblau-Intern Retrospektiven, 
-Dailies und Jour Fixes zu begleiten.
-Im Rahmen der Organisationsentwicklung durfte ich mich selbst ausprobieren
-und einige *Open Spaces* fazilitieren oder Moderationsformate wie Lean Coffee erproben.
+Ab diesem Punkt wuchs mein Engagement auch Reinblau-Intern 
+vermehrt Retrospektiven, Dailies und Jour Fixes zu moderieren und facilitieren.
+Im Rahmen der Organisationsentwicklung konnte ich mich selbst ausprobieren
+und einige *Open Spaces* fazilitieren oder *Agile Moderationsformate* wie *Lean Coffee* erproben.
 Leider wurde ich bei MyToys als Scrum Master Ende Oktober von einen internen MyToys Kollegen abgelöst.
 
 <figure>
-<blockquote>Ich will aber Feuerwehrmann werden!</blockquote>
-<figcaption>Grisu der kleine Drache</figcaption>
+  <blockquote>Ich will aber Feuerwehrmann werden!</blockquote>
+  <figcaption>Grisu der kleine Drache</figcaption>
 </figure>
 Da wir zu diesem Zeitpunkt in keinem Reinblau Projekt einen Scrum Master benötigten
-und ein zurück in die Entwickler Rolle im gleichen Projekt keine Option dargestellt hat,
+und für mich ein weitermachen Entwickler Rolle im gleichen Projekt 
+einen Rückschritt dargestellt hätte,
 machte ich mich außerhalb von Reinblau auf den Weg um Scrum Master zu werden. 
-Bis zu meinem Start bei REWE digital belebte ich die folgenden Holocracy Rollen:  
-- Redmine-Administrator (IT)
-- IT & Infrastruktur
-- _Scrum Master_
+Bis zu meinem Start bei REWE digital belebte ich die Holocracy Rollen
+*IT & Infrastruktur*, *Redmine-Administrator (IT)* und  *Scrum Master*.
+Aus der Ferne verfolgte ich mit Stolz die jüngeren Referenzen 
+und damit verbunden die entsprechende Außenwahrnehmung von Reinblau, wie das
+[Führungskräfte Training bei Caritas](https://reinblau.coop/projekte/caritas/)
+oder Umsetzungen, 
+wie die [Website für den *Loop Approach*](https://reinblau.coop/projekte/loop/) für the Drive,
+das [New Work Glossar](https://newworkglossar.de/) für Neue Narrative 
+oder die Mitorganisation der [World Open Space on Open Space Conference 2020 Konferenz](https://wosonos2020.berlin/).
 
 
-Aus der Ferne bin ich sehr Stolz einige die jüngeren Referenzen 
-entsprechende Außenwahrnehmung von Reinblau, wie z.B.: 
-- Führungskräfte Training bei Caritas https://reinblau.coop/projekte/caritas/ 
-- Umsetzungen: 
-  - [Website für den *Loop Approach*](https://reinblau.coop/projekte/loop/) für the Drive
-  - [New Work Glossar](https://newworkglossar.de/) für Neue Narrative
--  World Open Space on Open Space 2020
 Trotz all dem, habe ich ungefähr zu meinem zweiten Jubiläum bei REWE digital, 
 meine Austritt bei Reinblau bekanntgegeben 
 und meine Mitgliedschaft in der Genossenschaft zum Ende diesen Jahres formell gekündigt.
@@ -255,11 +264,17 @@ und meine Mitgliedschaft in der Genossenschaft zum Ende diesen Jahres formell ge
 [^rb]: [Reinblau eG](https://reinblau.coop/)
 [^slu]: [Stephan Luckow](http://luckow.org/)
 [^mju]: [Meike Jung, hexbinaer](https://www.hexabinaer.de/)
+[^gzevd]: [GzEvD // Gesellschaft zur Entwicklung von Dingen mbH](https://www.gesellschaft-zur-entwicklung-von-dingen.de/)
 [^bassets]: [Bassets - Better Assets DAM](https://www.drupal.org/project/bassets)
+[^blaumachen]: ["Blaumachen" ein voller Erfolg](https://web.archive.org/web/20130831225704/http://www.reinblau.de/news/blaumachen-ein-voller-erfolg)
 [^sfugc]:  [Symfony User Group Cologne](https://www.meetup.com/de-DE/sfugcgn/)
 [^rb-open]: [Open Space - Reinblau eG](https://reinblau.coop/methoden/openspace/)
-[^holo]: <http://rogerpfaff.de/holacracy/>
+[^struc]: [Structure & Process](http://structureprocess.com/de/)
+[^hola]: [Holacracy - Roger Pfaff](http://rogerpfaff.de/en/node/7/)
+[^rb-car]: <https://reinblau.coop/projekte/caritas/>
+
 *[D-A-CH]: Deutschland-Austria(Österreich)-Confoederatio Helvetica(Schweiz)
 *[DUG]: Drupal User Group 
 *[PSM1]: Professional Scrum Master I
 *[DAM]: Digital Asset Management
+*[GzEvD]: Gesellschaft zur Entwicklung von Dingen
