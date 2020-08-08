@@ -70,9 +70,6 @@ Redirect 301 /autocompletition-fuer-drush-aktivieren /2013/04/21/autocompletitio
 Redirect 301 /2019/04/05/daily-scrum-daily-questions.html /2019/04/05/daily-scrum-fragen.html
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html
 
-# Temporär, Artikel in _draft
-Redirect 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html /tags/drupal/index.html
-
 # Temp: Umlaute
 Redirect 301 /tags/scrumtisch-koeln/index.html /tags/scrumtisch-koln/index.html 
 Redirect 301 /tags/duesseldorf/index.html /tags/dusseldorf/index.html
