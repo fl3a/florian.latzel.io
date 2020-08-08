@@ -19,21 +19,21 @@ besteht die Möglickeit auf Date Popup, ein Submodul des <a href="http://drupal.
 
 Der Zugriff auf diese Funktionalität erfolgt über <a href="http://api.drupal.org/api/drupal/developer--topics--forms_api_reference.html" title="Forms API">Drupals FAPI</a>.
 <!--break-->
-<code>hongomat.info</code> mit Date Popup (date_popup) als Abhängigkeit:
+```hongomat.info``` mit Date Popup (date_popup) als Abhängigkeit:
 
-<code>
+```
 ; $Id$
 name = hongomat
 description = A hongomatic description
 package = example
 dependencies[] = date_popup
 core = 6.x
-</code>
+```
 
-Anlegen eines Datepicker-Elementes (<code>hongomatic_datepicker_element</code>) mit TT.MM.YYYY-Notation, 
+Anlegen eines Datepicker-Elementes (```hongomatic_datepicker_element```) mit TT.MM.YYYY-Notation, 
 der Möglichkeit 0 Jahre in die Vergangenheit und 5 Jahre in die Zukunft zu gehen, vorbelegt mit dem heutigen Datum,
-in <code>hongomat.module</code>:
-<code language="php">
+in ```hongomat.module```:
+```php
 function hongomat_form(&$form_state) {
 
   $form = array();
@@ -51,4 +51,4 @@ function hongomat_form(&$form_state) {
 
   return $form;
 }
-</code>
+```
