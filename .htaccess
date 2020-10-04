@@ -68,12 +68,9 @@ Redirect /blog/2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-an
 Redirect 301 /rss.xml /feed.xml
 Redirect 301 /autocompletition-fuer-drush-aktivieren /2013/04/21/autocompletition-fuer-drush-aktivieren.html
 Redirect 301 /2019/04/05/daily-scrum-daily-questions.html /2019/04/05/daily-scrum-fragen.html
-Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html
 
-# Temp: Umlaute
-Redirect 301 /tags/scrumtisch-koeln/index.html /tags/scrumtisch-koln/index.html 
-Redirect 301 /tags/duesseldorf/index.html /tags/dusseldorf/index.html
-Redirect 301 /tags/koeln/index.html /tags/koln/index.html
+Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html
+Redirect /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
 
 Redirect 301 /ueber.html /florian-latzel.html
 Redirect 301 /florian-latzel /florian-latzel.html
@@ -89,3 +86,9 @@ Redirect 301 /drupal-und-apache-2-4-x-unter-debian-testing-jessie /2014/10/20/dr
 Redirect 301 /2012/10/16/hnlichkeiten-in-sql-drupal-db-query-like.html /2012/10/16/aehnlichkeiten-in-sql-drupal-db_query-like.html
 
 # END misc
+
+# Temp: Umlaute
+Redirect 301 /tags/scrumtisch-koeln/index.html /tags/scrumtisch-koln/index.html 
+Redirect 301 /tags/duesseldorf/index.html /tags/dusseldorf/index.html
+Redirect 301 /tags/koeln/index.html /tags/koln/index.html
+
