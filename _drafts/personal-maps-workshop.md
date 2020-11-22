@@ -17,13 +17,18 @@ alt: "Meine erste Personal Map aus dem Oktober 2017, damals mit dem Ziel Führer
 path:assets/imgs/personal-maps/personal-maps-florian-oktober-2017.png %}
 
 Wenn eine Gruppe von Menschen sich zusammenfindet um zu einem Team zu werden,
-dann befindet es sich lt. Tuckmanns Modell der Teamphasen[^tuckmann] in der *Forming Phase*, die im Zeichen des Zusammenkommens steht. 
+dann befindet es sich lt. Tuckmanns Modell der Teamphasen[^tuckmann] in der *Forming Phase*, 
+die im Zeichen des Zusammenkommens steht. 
 
-Ein großartiges Format um das Team in dieser Phase und im Kennenlernprozeß zu unterstützen sind Personal Maps[^pm1] [^pm2], 
+Ein großartiges Format um das Team in dieser Phase 
+und im Kennenlernprozeß zu unterstützen sind Personal Maps[^pm1] [^pm2], 
 eine Methode aus dem Management 3.0[^mgnt301] [^mgnt302].
+Zugleich ist diese *Vertrauenbildende Maßnahme*[^trust] bereits ein kleiner Schritt 
+in Richtung *Psychologische Sicherheit (psychological safety)*[^psychological-safety] [^5dys0] 
+und einer guten Fehlerkultur. 
 
 In diesem Beitrag gebe ich dir einen roten Faden für einen **Personal Maps Workshop**,
-rücklickend auf über einer handvoll Workshops, 
+rücklickend auf über einer handvoll gehaltener Workshops, 
 in denen ich dieses Tool bereits effektiv für das Teambuilding nutzen konnte.
 <!--break-->
 ## Ziel des Workshops
@@ -37,8 +42,8 @@ neben der Fachlichkeit noch ausmacht.
 Ein großer Fokus liegt also auf dem Öffnen der eigenen Geschichte, des Privatlebens
 und dem Fallenlassen *der professionellen Maske*.
 
-Durch das Öffnen von uns selbst gehen wir schon Lencionis erste Dysfunktion, 
-*fehlendes Vertrauen* an. 
+Durch das Öffnen von uns selbst gehen wir schon Lencionis[^5dys0] [^5dys1] [^5dys2] 
+erste Dysfunktion, *fehlendes Vertrauen* an. 
 Wir gehen so zudem schneller Emotionale Verbindungen ein und
 unterstützen den Prozess des Kennenlernens.
 Ein gewünschter Effekt ist das Personal Maps wunderbare Anknüpfungspunkte liefern, 
@@ -50,7 +55,7 @@ ihr werdet es vielleicht merken, wenn ihr eure eigene Personal Map malt.
 
 ## Material
 
-Ich bevorzuge den Workshop mit analogen Materialien durchzuführen:
+Ich bevorzuge den Workshop mit analogen Materialien durchzuführen.
 
 - Flipchart- oder anderes -Papier
     - Klebeband
@@ -59,7 +64,7 @@ Ich bevorzuge den Workshop mit analogen Materialien durchzuführen:
     - Boardmarker
 
 Natürlich geht das ganze auch digital,
-hierfür eignen sich eigentlich alle Mindmap Tools. 
+hierfür eignen sich eigentlich alle Mindmap Tools[^mm]
 Hier ein paar, die auch für Linux verfügbar sind,  wie:
 - Freemind
 - Freeplane
@@ -97,34 +102,46 @@ Ich starte mit diesen Apell vorweg:
 
 > Seid so offen wie könnt und wollt!
 
+Da das das Ziel des Workshop, das Öffnen von uns selbst,
+unter Umständen ein ungutes Gefühl oder Widerstände verursachen kann.
+Es wäre toll, wenn ihr mitzieht, es geschieht aber freiwillig.
+
 ##### Las Vegas Regel
 
 Ich erkläre kurz die *Las Vegas Regel* 
 
-> Was in Las Vegas passiert,
-> bleibt in Las Vegas.
+> What Happens in Vegas, Stays in Vegas.
 
-Danach legen wir gemeinsam fest, 
-wie wir  den Workshop und dessen Ergebnisse umgehen.
+Alle Informationen die  in diesem Workshop zu Tage gefördert werden
+bleiben unter uns und verlassen nicht den Meeting- oder Virtuellen Raum.
 
 #### Modelle
 
 ##### Tuckmans Teamphasen
 
-In der Regel starte ich mit dem Tuckman Modell der Teamphasen.
+In der Regel starte ich mit dem *Tuckman Modell der Teamphasen*[^tuckman].
 In reisse kurz und knapp alle Phasen an und werde bei der Forming Phase etwas ausführlicher 
 und nehme Bezug darauf warum wir in diesem Workshop sind und wie es auf diese Phase einzahlt.
 
+{% responsive_image figure: true
+alt: "Tuckman 
+path: assets/imgs/personal-maps/tuckman-teamphasen-flipchart.jpg %}
+
+
 ##### JoHaRi Fenster
 
-Als zweites Modell verwende ich das Modell des JoHaRi Fensters[^johari].
+Als zweites Modell verwende ich das Modell des *JoHaRi Fensters*[^johari].
 
 Anhand dieses Modells lässt sich sehr gut visualisiert erklären, 
 wie Preisgabe von _Mein Geheimnis_ (oder auch _Private Person_) den Raum des freien Handelns vergrößert.
 
+{% responsive_image figure: true 
+alt: 'Das Johari Fenster: Durch Vertrauen und Offenheit (Mein Geheimnis) wird der Bereich Freie Handeln größer.'
+path: assets/imgs/personal-maps/johari-fenster-flipchart.jpg %}
+
 ##### 5 Dysfunktionen eines Teams
 
-Als Absschluss nutze ich gerne die *Team-Performance-Pyramide*, 
+Als Absschluss nutze ich gerne die *Team-Performance-Pyramide*[^5dys1] [^5dys2], 
 denn Lencioni stellt die Funktion des Vertrauens als das Fundament dar.
 
 <figure>
@@ -154,7 +171,7 @@ in Form von von ein paar persönlichen Fotos,
 die mich in lustigen oder ungewöhnlichen Situationen zeigen an die Wand.
 
 {% responsive_image figure: true 
-alt: "Beispiel Icebreaker &quot;Ich schlafe gerne draußen&quot;. Hängematte, Tarp und Flo, 2016"
+alt: "Icebreaker &quot;Schläft gerne draußen&quot;. Hängematte, Tarp und Flo, 2016"
 path: assets/imgs/personal-maps/haengematte-tarp-flo-2016.jpg %}
 
 ### Erklärung der Personal Map
@@ -237,21 +254,24 @@ Für das das Zeichen der eigenen Personal Maps sehe ich 30 Minuten vor.
 
 ### Vorstellen
 
-Anschließend werden alle Personal Maps vorgestellt.
+Anschließend werden alle Personal Maps vorgestellt,
+hier veranschlage ich 15 Minuten pro Person.
 
 Achtung: Lasse die Maps immer durch jemand anderes vorstellen, 
 mache klar, das Fragen an den Vorgestellten explizit erwünscht sind.
+So verhinderst du Monologe und regst Dialoge an.
 
 ## Weiterführende Links / Fußnoten
 
-[^tuckmann]: [Tuckmanns Modell der Teamphasen](https://teamentwicklung-lab.de/tuckman-phasenmodell)
+[^tuckman]: [Tuckmas Modell der Teamphasen](https://teamentwicklung-lab.de/tuckman-phasenmodell)
 [^pm1]: [Personal Maps](https://management30.com/practice/personal-maps/)
 [^pm2]: [Personal Maps: Improving team collaboration](https://www.happymelly.com/personal-maps-connecting-teams-improving-team)
 [^mgnt301]: [Management 3.0 Homepage](https://management30.com/)
 [^mgnt302]: [Artikel über Management 3.0](http://www.lean-agility.de/2018/11/management-30.html) 
-[^trust]: []()
-[^johari]: [JoHaRi Fenster]()
+[^trust]: [Oliver Beyer - 5 Wege Vertrauen im Team zu schaffen](https://oliver-beyer.de/5-wege-vertrauen-im-team-zu-schaffen/)
+[^psychological-safety]: [Psychologische Sicherheit – Voraussetzung für effektive Teams](https://talk-about-learning.de/psychologische-sicherheit-voraussetzung-fuer-effektive-teams)
+[^johari]: [JoHaRi Fenster](https://de.wikipedia.org/wiki/Johari-Fenster)
 [^mm]: [List of concept- and mind-mapping software](https://en.wikipedia.org/wiki/List_of_concept-_and_mind-mapping_software)
-https://www.amazon.de/Five-Dysfunctions-Team-Leadership-Lencioni/dp/0787960756
+[^5dys0]: [5 Dysfunktionen eines Teams – und 5 dazu passende Funktionen](https://teamworks-gmbh.de/5-dysfunktionen-eines-teams-und-5-dazu-passende-funktionen/)
 [^5dys1]: [The Five Dysfunctions of a Team: A Leadership Fable](https://www.amazon.de/Five-Dysfunctions-Team-Leadership-Lencioni/dp/0787960756)
 [^5dys2]: [Top Team Performance: 5 Funktionen & 5 Dysfunktionen](https://www.change4success.de/blog-news/top-team-performance-5-funktionen-5-dysfunktionen.html)
