@@ -48,23 +48,135 @@ oder eben auch markante Punkte, die den Einstieg in Persönliche Gespräche erle
 Ein Nebeneffekt ist die Selbstreflektion, 
 ihr werdet es vielleicht merken, wenn ihr eure eigene Personal Map malt.
 
-## Struktur einer Personal Map
+## Material
+
+Ich bevorzuge den Workshop mit analogen Materialien durchzuführen:
+
+- Flipchart- oder anderes -Papier
+    - Klebeband
+    - Verschiedene Stifte
+- Beschreibbare Fläche, wie eine Abwischbare Wand oder Whiteboad
+    - Boardmarker
+
+Natürlich geht das ganze auch digital,
+hierfür eignen sich eigentlich alle Mindmap Tools. 
+Hier ein paar, die auch für Linux verfügbar sind,  wie:
+- Freemind
+- Freeplane
+- XMind
+- ...
+
+oder via Software[^mm], die ihr bei euch bereits via Web nutzt:
+
+- Gliphy (Confluence)
+- Mindmapping in Miro 
+- Prezi...
+
+## Personal Maps Workshop Agenda
+
+Dauer ca. 1,5 bis 2 Stunden bei einem Personal Maps Workshop mit 6 Team-Mitgliedern.
+
+### Rahmen schaffen
+
+Mir ist es besonders wichtig, einen Rahmen 
+mit einer sicheren und offenen Atmoshäre zu erzeugen.
+
+Die folgenden Punkte gliedere ich in *Ground Rules* und Modelle.
+Beide zahlen hierauf ein und stellen auch den Sinn und Zweck dieses Workshops dar.
+
+Für den sicheren Rahmen nutze ich unter den *Ground Rules* den Apell 
+und die *Las Vegas Regel*, 
+für Herleitung nutze ich ein paar Modelle aus dem Bereich der Gruppen- und Teamdynamik 
+sowie der Sozialpsychologie.
+
+#### Ground Rules
+
+##### Apell
+
+Ich starte mit diesen Apell vorweg:
+
+> Seid so offen wie könnt und wollt!
+
+##### Las Vegas Regel
+
+Ich erkläre kurz die *Las Vegas Regel* 
+
+> Was in Las Vegas passiert,
+> bleibt in Las Vegas.
+
+Danach legen wir gemeinsam fest, 
+wie wir  den Workshop und dessen Ergebnisse umgehen.
+
+#### Modelle
+
+##### Tuckmans Teamphasen
+
+In der Regel starte ich mit dem Tuckman Modell der Teamphasen.
+In reisse kurz und knapp alle Phasen an und werde bei der Forming Phase etwas ausführlicher 
+und nehme Bezug darauf warum wir in diesem Workshop sind und wie es auf diese Phase einzahlt.
+
+##### JoHaRi Fenster
+
+Als zweites Modell verwende ich das Modell des JoHaRi Fensters[^johari].
+
+Anhand dieses Modells lässt sich sehr gut visualisiert erklären, 
+wie Preisgabe von _Mein Geheimnis_ (oder auch _Private Person_) den Raum des freien Handelns vergrößert.
+
+##### 5 Dysfunktionen eines Teams
+
+Als Absschluss nutze ich gerne die *Team-Performance-Pyramide*, 
+denn Lencioni stellt die Funktion des Vertrauens als das Fundament dar.
+
+<figure>
+  <blockquote>
+    Remember teamwork begins by building trust.<br />
+    And the only way to do that overcome our need for invulnerability."
+  </blockquote>
+  <figcaption>Patrick Lencioni</figcaption>
+</figure>
+
+Womit wir mit diesem Model wieder den Bogen 
+zu den Zielen des Personal Maps Workshops schlagen.
+
+#### Lead by example
+
+##### Vorbereitete Personal Map
+
+Ich versuche mit gutem Vorbild und entsprechende Offenheit 
+vorangehen und schmeisse für einen kurzen Moment
+eine umfangreichere Personal Map, 
+die im Vorfeld mit einem Mindmap-Tool vorbereitet habe an die Wand
+
+##### Icebreaker 
+
+Wenn ich schon einen Beamer nutze, dann schmeisse ich auch noch ein paar Eisbrecher
+in Form von von ein paar persönlichen Fotos, 
+die mich in lustigen oder ungewöhnlichen Situationen zeigen an die Wand.
+
+{% responsive_image figure: true 
+alt: "Beispiel Icebreaker &quot;Ich schlafe gerne draußen&quot;. Hängematte, Tarp und Flo, 2016"
+path: assets/imgs/personal-maps/haengematte-tarp-flo-2016.jpg %}
+
+### Erklärung der Personal Map
 
 Personal Maps sind vergleichbar mit der Darstellung von Mindmaps 
 und dienen dazu zu eruieren, das was deine Teammitglieder und dich ausmacht.
 
-Eine Personal Map hat die folgende Struktur:
+{% responsive_image figure:true alt: "Struktur einer Personal Map" 
+path: assets/imgs/personal-maps/personal-maps-structure.png %}
 
-### Mittelknoten: Dein Name
-
-Die Personal Map startet mit einem Mittelknoten, der Person, also mit dir und mit deinen Namen.
-Davon gehen dann die folgenden Hauptknoten ab.
-
+Die Personal Map hat folgende Struktur: 
+sie startet mit einem Mittelknoten, der Person, also mit dir und mit deinen Namen,
+davon gehen dann die folgenden Hauptknoten ab.
 Die hier verwendeten Hauptknoten sind Beispiele aus der im Management 3.0,
 die originalen, englischen Knotennamem habe ich in Klammern angegeben.
 
-Ich finde, die Hauptknoten geben bereits ein sehr gutes Spektrum vor, das was einen Menschen so ausmacht.
+Ich finde, die Hauptknoten geben bereits ein sehr gutes Spektrum vor, 
+das was einen Menschen so ausmacht.
 Natürlich sind Variationen und Ergänzungen, wie _Fun Facts_ oder _Musik_ erlaubt.
+
+Dafür habe ich auf einem Flipchart die Grundstruktur skizziert,
+die ich kurz erkläre, dann gehe ich auf die Knoten ein.
 
 Hier noch eine paar Fragestellungen, 
 die helfen können die jeweiligen Knoten mit Leben zu versehen.
@@ -118,98 +230,6 @@ die helfen können die jeweiligen Knoten mit Leben zu versehen.
 - Wo und als was hast du vorher gearbeitet?
 - Was waren besonders wichtige Stationen für dich?
 
-## Material
-
-Ich bevorzuge den Workshop mit analogen Materialien durchzuführen:
-
-- Beschreibbare Fläche, wie eine Abwischbare Wand oder Whiteboad
-    - Boardmarker
-- Flipchart- oder anderes -Papier
-    - Klebeband
-    - Verschiedene Stifte
-
-div. Mindmap Tools 
-
-## Personal Maps Workshop Agenda
-
-Dauer ca. 1,5 bis 2 Stunden bei einem Personal Maps Workshop mit 6 Team-Mitgliedern.
-
-### Rahmen schaffen
-
-Mir ist es besonders wichtig, einen Rahmen 
-mit einer sicheren und offenen Atmoshäre zu erzeugen.
-
-Die nächsten Punkte zahlen hierauf ein 
-und stellen auch den Sinn und Zweck dieses Workshops dar.
-
-#### Tuckmans Teamphasen
-
-In der Regel starte ich mit dem Tuckman Modell der Teamphasen.
-In reisse kurz und knapp alle Phasen an und werde bei der Forming Phase etwas ausführlicher 
-und nehme Bezug darauf warum wir in diesem Workshop sind und wie es auf diese Phase einzahlt.
-
-#### JoHaRi Fenster
-
-Als zweites Modell verwende ich das Modell des JoHaRi Fensters[^johari].
-
-Anhand dieses Modells lässt sich sehr gut visualisiert erklären, 
-wie Preisgabe von _Mein Geheimnis_ (oder auch _Private Person_) den Raum des freien Handelns vergrößert.
-
-#### 5 Dysfunktionen eines Teams
-
-Als Absschluss nutze ich gerne die *Team-Performance-Pyramide*, 
-denn Lencioni stellt die Funktion des Vertrauens als das Fundament dar.
-
-<figure>
-  <blockquote>
-    Remember teamwork begins by building trust.<br />
-    And the only way to do that overcome our need for invulnerability."
-  </blockquote>
-  <figcaption>Patrick Lencioni</figcaption>
-</figure>
-
-Womit wir mit diesem Model wieder den Bogen 
-zu den Zielen des Personal Maps Workshops schlagen.
-
-#### Apell
-
-Ich starte mit diesen Apell vorweg:
-
-> Seid so offen wie könnt und wollt!
-
-#### Las Vegas Regel
-
-Ich erkläre kurz die *Las Vegas Regel* 
-
-> Was in Las Vegas passiert,
-> bleibt in Las Vegas.
-
-
-Danach legen wir gemeinsam fest, 
-wie wir  den Workshop und dessen Ergebnisse umgehen.
-
-#### Lead by example
-
-Ich versuche mit gutem Vorbild und entsprechende Offenheit 
-vorangehen und schmeisse für einen kurzen Moment
-eine umfangreichere Personal Map, 
-die im Vorfeld mit einem Mindmap-Tool vorbereitet habe an die Wand
-
-Wenn ich schon einen Beamer nutze, dann schmeisse ich auch noch ein paar Eisbrecher
-in Form von von ein paar persönlichen Fotos, 
-die mich in lustigen oder ungewöhnlichen Situationen zeigen an die Wand.
-
-> Platzhalter Icebreaker
-
-> Platzhalter Icebreaker
-
-### Erklärung der Personal Map
-
-Auf einem Flipchart habe ich die Grundstruktur (siehe oben) skizziert,
-die ich kurz erkläre, gehe dann auf die Knoten 
-und die exemplarischen Fragen (siehe oben) ein.
-
-> Platzhalter Struktur einer Personal Map
 
 ### Zeichnen
 
@@ -229,7 +249,9 @@ mache klar, das Fragen an den Vorgestellten explizit erwünscht sind.
 [^pm2]: [Personal Maps: Improving team collaboration](https://www.happymelly.com/personal-maps-connecting-teams-improving-team)
 [^mgnt301]: [Management 3.0 Homepage](https://management30.com/)
 [^mgnt302]: [Artikel über Management 3.0](http://www.lean-agility.de/2018/11/management-30.html) 
+[^trust]: []()
 [^johari]: [JoHaRi Fenster]()
+[^mm]: [List of concept- and mind-mapping software](https://en.wikipedia.org/wiki/List_of_concept-_and_mind-mapping_software)
 https://www.amazon.de/Five-Dysfunctions-Team-Leadership-Lencioni/dp/0787960756
 [^5dys1]: [The Five Dysfunctions of a Team: A Leadership Fable](https://www.amazon.de/Five-Dysfunctions-Team-Leadership-Lencioni/dp/0787960756)
 [^5dys2]: [Top Team Performance: 5 Funktionen & 5 Dysfunktionen](https://www.change4success.de/blog-news/top-team-performance-5-funktionen-5-dysfunktionen.html)
