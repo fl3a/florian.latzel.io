@@ -12,7 +12,7 @@ tags:
 image: assets/imgs/november-draussen/waldmorgen.jpg
 ---
 {% responsive_image figure: true
-caption: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach. Foto © Tina Urban.
+caption: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach. Foto © Tina Urban." 
 alt: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach."
 path: assets/imgs/november-draussen/waldmorgen.jpg
 %}
