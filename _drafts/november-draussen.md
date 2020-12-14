@@ -12,7 +12,8 @@ tags:
 image: assets/imgs/november-draussen/waldmorgen.jpg
 ---
 {% responsive_image figure: true
-alt: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach. Foto © Tina Urban"
+caption: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach. Foto © Tina Urban.
+alt: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach."
 path: assets/imgs/november-draussen/waldmorgen.jpg
 %}
 
@@ -116,7 +117,8 @@ Läuft gut, damit mach ich erstmal weiter.
 ## Winterbackpacking Learnings
 
 {% responsive_image figure: true
-alt: "Lagerfeuer, Symbolbild. Foto © Tina Urban"
+caption: "Lagerfeuer im Wald, Symbolbild👆. Foto © Tina Urban."
+alt: "Lagerfeuer im Wald, Symbolbild."
 path: assets/imgs/november-draussen/lagerfeuer.jpg %}
 
 Ich habe mich dem Vorhaben meines Wildnispädagogik Alumni Paul angeschlossen, 
@@ -152,10 +154,15 @@ alt: "Kalter und klarer Wintermorgen, die Sonne scheint durch den Fichtenwald. E
 path: assets/imgs/november-draussen/waldlicht.jpg
 %}
 
+Danke Tina[^tina] für die tollen Bilder und die gute Gesellschaft 
+und Paul für den Trip und das Teihabenlassen!
+
 [^omagate]: [dw: #Omagate: Wirbel um Kinderlied-Parodie dauert an](https://www.dw.com/de/omagate-wirbel-um-kinderlied-parodie-dauert-an/a-51840946)
 [^wp]: [Wildnispädagogik Ausbildung - wildnistraining.de](https://www.wildnistraining.de/wildnisp%C3%A4dagogik/)
 [^camp]: [Das Wildniscamp - wildnistraining.de](https://www.wildnistraining.de/infos/das-wildniscamp/)
 [^eifel]: [Der Eifelsteig](https://www.eifelsteig.de/)
 [^eifel7]: [Eifelsteig-Etappe 07](https://www.eifelsteig.de/a-eifelsteig-etappe-7)
 [^eifel8]: [Eifelsteig-Etappe 08](https://www.eifelsteig.de/a-eifelsteig-etappe-8)
+[^tina]: [Tina Urban, Zeichnungen & Gemälde](http://www.tinaurban.com)
+
 
