@@ -9,12 +9,13 @@ tags:
 - Learnings
 - Zertifikat
 - Internet
-image: assets/imgs/november-draussen/waldlicht.jpg
+image: assets/imgs/november-draussen/waldmorgen.jpg
 ---
 {% responsive_image figure: true
-alt: "Kalter und klarer Wintermorgen, die Sonne scheint durch den Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach."
-path: assets/imgs/november-draussen/waldlicht.jpg
+alt: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach. Foto © Tina Urban"
+path: assets/imgs/november-draussen/waldmorgen.jpg
 %}
+
 
 Dieser November stand ganz im Zeichen das Draußenseins 
 und das sowohl wörtlich als auch metaphorisch.
@@ -23,7 +24,8 @@ und das sowohl wörtlich als auch metaphorisch.
 
 Der Sommer hat recht trockene Waldböden hinterlassen 
 und ich war Anfang Oktober bereits viel im Wald unterwegs und recht frustiert, 
-da ich auch potenziell vielversprechenden Waldgebieten (Funde die letzten Jahre) kein Glück hatte.
+da ich auch potenziell vielversprechenden Pilzgebieten 
+(verlässliche Funde die letzten Jahre) kein Glück hatte.
 Zu wenig Regen.
 <figure>
   <blockquote>
@@ -32,19 +34,37 @@ Zu wenig Regen.
   <figcaption>Ich, am <a href="https://t.co/EL7bHDIYSV">19. Oktober</a> auf twitter</figcaption>
 </figure>
 
-Ende Oktober/Anfang November sah das ganze, nach ergiebigen Regenfällen schon anders aus.
+Ende Oktober/Anfang November sah das Ganze nach ergiebigen Regenfällen schon anders aus.
 So zog es mich regelmäßig für die Pilze in den Wald, 
-meistens war auch die anschießende Pilzpfanne drin.
-Neben meiner bevorzugten Beute, den Maronenröhrlingen fand ich dieses Jahr
+meistens war auch die anschließende Pilzpfanne drin.
+Neben meiner bevorzugten Beute, den Maronenröhrlingen, fand ich dieses Jahr
 auch Birkenröhrlinge und Hexenröhrlinge, 
-die ich vorher überhaupt nicht kannte(Danke Tina für die Pilzexkusion!).
-Ab und an kamen wie hier zu sehen noch ein paar feudale Steinpilze dazu.
+die ich vorher überhaupt nicht kannte (Danke Tina für die Pilzexkusion!).
+Ab und an kamen, wie hier zu sehen, noch ein paar feudale Steinpilze dazu.
 
 {% responsive_image figure: true 
 caption: "Liebling, ich habe die Hände geschrumpft😵😱👋💪🍜!"
 alt: "Steinpilze größer als die Hand"
 path: assets/imgs/november-draussen/steinpilz-maronen-collage.png
 %}
+
+Normalerweise hätte ich obiges Bild auch auf Twitter gepostet...
+
+## Läuft.
+
+Mir setzen die kürzer werdenden Tage, das schwindende Licht
+ und eine Konsquenz der Corona-Maßnahmen, 
+seit Anfang November kein regelmäßiger Sport schon zu.
+Ich laufe jetzt regelmäßig, drei mal die Woche sind es schon.
+Das ist häufiger als 2018, als ich mich auf den Halbmarathon vorbereitet habe.
+So bekomme ich ich das einigermaßen gut kompensiert. 
+Mittlerweile sehe ich meine eigenen Steigerungen:
+- 4 Sprints bergauf ( 2 x Katzenbuckel, 2 x Zoobrücke/Jugendpark), danach noch Puste.
+- Wo ich Anfang des November meinen fetten Wanst und mein eigenes Gewicht 
+während der Workouts im Rheinpark schwer einmal *gezogen* bekommen habe, 
+bin ich bei den Klimmzügen mittlerweile bei drei Sets a' drei. Tendenz steigend.
+- Ich hatte mehr als einmal das Gefühl, 
+als könnte mein Gürtel ein Loch mehr in die engere Richtung vertragen.
 
 ## Ich bin Wildnispädagoge!
 
@@ -62,9 +82,9 @@ Die Ausbildung hat mir viel gegeben und hat mich persönlich weitergebracht.
 Aber was mache ich jetzt mit der Ausbildung? Mal ins Blaue gedacht:
 
 - Nächstes Jahr noch *Wildnispädagogik 2*[^wp] dranhängen und das Gerlernte vertiefen
-- Wissen probono mit Paul zusammen an seine ehemalige Pfadfindergruppe vermitteln
-- Wildnis, Bushcraft und Survival für Manager und Führungskräfte 
-gewürzt mit einer Prise Naturerleben und Achtsamkeit
+- Wissen pro bono mit Paul zusammen an seine ehemalige Pfadfindergruppe vermitteln
+- Wildnis, Bushcraft und Survival für Manager, Führungskräfte und Coaches
+gewürzt mit tiefen Naturerleben und einer Prise Achtsamkeit
 
 ## November ohne Twitter
 
@@ -72,7 +92,7 @@ gewürzt mit einer Prise Naturerleben und Achtsamkeit
 alt: "Screenshot: Mail, Du hast 121} aktuelle Mitteilungen auf Twitter" 
 path: assets/imgs/november-draussen/screenshot-du-hast-121-aktuelle-mitteilungen-auf-twitter.png %}
 
-Twitter ging mir auf den Sack oder vielleicht auch, wie ich Twitter nutzte.
+Twitter ging mir auf den Sack oder vielleicht auch wie ich Twitter nutzte.
 Ich habe mich häufig in einen Abwärtsstrudel von Threads begeben.  
 Anfang des Jahres *Omagate*[^omagate], heute z.B. Corona.  
 Fremdschämen, Facepalm, Schockiertsein über schwindende Vernunft 
@@ -81,12 +101,12 @@ Resultat: Schlechte Laune und viel verlorene Zeit.
 
 <figure>
   <blockquote>
-  Es ist wie ein Autounfall, man kann nicht wegschaun
+  Es ist wie ein Autounfall, man kann nicht wegschaun.
   </blockquote>
   <figcaption>Redewendung</figcaption>
 </figure>
 
-Deshalb habe ich mir bereits Ende Oktober vorgenommen, 
+Deshalb habe ich mir bereits Ende Oktober vorgenommen 
 den November twitterfrei zu verbringen.  
 Während der Nachrichtenindikator bei der TwitterApp auf meinem Tablett bei 21 stagniert,
 schreibt mir Twitter alle zwei Tage an 
@@ -96,15 +116,19 @@ Läuft gut, damit mach ich erstmal weiter.
 ## Winterbackpacking Learnings
 
 {% responsive_image figure: true
-alt: "Vereister Dreimühlen-Wasserfall bei Nohn, Eifelsteig, Etappe 8"
-path: assets/imgs/november-draussen/vereister-dreimuehlen-wasserfall-eifelsteig-etappe-8.jpg %}
+alt: "Lagerfeuer, Symbolbild. Foto © Tina Urban"
+path: assets/imgs/november-draussen/lagerfeuer.jpg %}
 
 Ich habe mich dem Vorhaben meines Wildnispädagogik Alumni Paul angeschlossen, 
 den Eifelsteig[^eifel] im Norvember/Dezember inklusive Draussenschlafen zu wandern
 und habe ihn 2 Etappen 
 (Etappe 7[^eifel7]  und 8[^eifel8], von Blankenheim bis Hillesheim)
 lang dabei begleitet.  
-Wir hatte durchgehend Minusgrade, Nachts sogar Sechs Grad unter Null.
+Wir hatten durchgehend Minusgrade, nachts sogar sechs Grad unter Null.
+
+{% responsive_image figure: true
+alt: "Vereister Dreimühlen-Wasserfall bei Nohn, Eifelsteig, Etappe 8"
+path: assets/imgs/november-draussen/vereister-dreimuehlen-wasserfall-eifelsteig-etappe-8.jpg %}
 
 Das sind meine Learnings vom Winterbackpacking:
 - Das restliche Wasser im Wasserfilter kann gefrieren. 
@@ -122,6 +146,11 @@ Bsp. Haferbrei, geschrotete Leinsamen, gehackte Nüsse, Rosinen, Eiweiß-
 und Milchpulver und etwas Zucker.
 - Der Kaffee darf nicht ausgehen, lieber mehr mitnehmen und dafür wieder zurückschleppen.
 Es sind nur ein paar Gramm.
+
+{% responsive_image figure: true
+alt: "Kalter und klarer Wintermorgen, die Sonne scheint durch den Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach."
+path: assets/imgs/november-draussen/waldlicht.jpg
+%}
 
 [^omagate]: [dw: #Omagate: Wirbel um Kinderlied-Parodie dauert an](https://www.dw.com/de/omagate-wirbel-um-kinderlied-parodie-dauert-an/a-51840946)
 [^wp]: [Wildnispädagogik Ausbildung - wildnistraining.de](https://www.wildnistraining.de/wildnisp%C3%A4dagogik/)
