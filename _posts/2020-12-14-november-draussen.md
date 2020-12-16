@@ -10,6 +10,7 @@ tags:
 - Zertifikat
 - Internet
 image: assets/imgs/november-draussen/waldmorgen.jpg
+last_modified_at: 2020-12-16
 ---
 {% responsive_image figure: true
 caption: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach. Foto © Tina Urban." 
@@ -40,7 +41,7 @@ So zog es mich regelmäßig für die Pilze in den Wald,
 meistens war auch die anschließende Pilzpfanne drin.
 Neben meiner bevorzugten Beute, den Maronenröhrlingen, fand ich dieses Jahr
 auch Birkenröhrlinge und Hexenröhrlinge, 
-die ich vorher überhaupt nicht kannte (Danke Tina für die Pilzexkusion!).
+die ich vorher überhaupt nicht kannte (Danke Tina[^tina] für die Pilzexkusion!).
 Ab und an kamen, wie hier zu sehen, noch ein paar feudale Steinpilze dazu.
 
 {% responsive_image figure: true 
@@ -69,7 +70,7 @@ als könnte mein Gürtel ein Loch mehr in die engere Richtung vertragen.
 
 ## Ich bin Wildnispädagoge!
 
-Ich habe die in [Kalenderwoche 10](/03/12/kalenderwoche-10.html) 
+Ich habe die in [Kalenderwoche 10](/2020/03/12/2020-kalenderwoche-10.html) 
 begonnene Ausbildung zum Wildnispädagogen trotz COVID-19 abschließen können.
 Das Lernen von Naturkunde, Bushcraft- und Survialfertigkeiten und das [Draußensein](/tags/draussen/index.html) 
 waren für mich der Motivator 
