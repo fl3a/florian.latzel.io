@@ -119,6 +119,8 @@ jeden vierten Donnerstag im Monat, Anmeldung über xing
 - [Der Agile Pott](https://www.meetup.com/de-DE/der-agile-pott/), 
   findet im Duisburger Innenhafen oder auf Zeche Zollverein (Triple-Z) in Essen statt
 - [Agiles Arbeiten & New Work im Ruhrgebiet](https://www.meetup.com/de-DE/Agiles-Arbeiten-im-Ruhrgebiet/events/259932203/), macht am 10. April 2020 den Auftakt mit einem Kennenlernabend
+- [Liberating Structures Ruhrgebiet](https://www.meetup.com/de-DE/Liberating-Structures-RUHRGEBIET/members/)
+
 
 ### Agile Meetups und Events in Mönchengladbach
 
