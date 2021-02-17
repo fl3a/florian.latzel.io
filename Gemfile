@@ -15,7 +15,7 @@ gem "minima", "~> 2.0"
 
 # Installation issue: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h. #806
 # https://github.com/rmagick/rmagick/issues/806 
-# gem "rmagick", "4.1.0.rc2"  
+# gem "rmagick", "4.1.0.rc2"   
 gem "rmagick"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
