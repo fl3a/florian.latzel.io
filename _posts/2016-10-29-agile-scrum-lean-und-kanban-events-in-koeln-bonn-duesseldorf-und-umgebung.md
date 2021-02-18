@@ -16,7 +16,7 @@ nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2020-02-17
+last_modified_at: 2021-02-18
 image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
 <figure>
@@ -76,6 +76,7 @@ Zudem findet alle 2 Wochen Freitags das _Lean Coffee für Product Owner_ statt.
 das Kölner Meetup rund um das Thema BetaCodex und Unternehmenstransformation. Jeden ersten Montag im Monat.
 - [SCRUM MASTER Networking²](https://www.xing.com/communities/groups/scrum-master-networking2-um-piazzablu-11d2-1126652/about), Networking speziell für Scrum Master und Agile Coaches. 
 Ein Format von piazzablu.
+- [Flight Club Cologne](https://www.meetup.com/de-DE/flight-club-cologne/), Meetup für *Business Agilität* und die *Flight Level* Interessierte.
 
 <!--break-->
 ### Agile Meetups und Events in Bonn
