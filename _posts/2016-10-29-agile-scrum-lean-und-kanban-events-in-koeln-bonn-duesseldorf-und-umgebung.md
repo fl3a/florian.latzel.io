@@ -115,7 +115,6 @@ Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com
 - [Scrumtisch Essen](https://www.xing.com/communities/groups/agile-punkt-ruhr-1cbe-1071167),
 jeden vierten Donnerstag im Monat, Anmeldung über xing
 - [agile.ruhr](http://agile.ruhr), die zweitägige (Un)Konferenz im zu Agile, Lean und Arbeit auf Augenhöhe im Ruhrgebiet, seit 2018 gibts auch noch den agile-ruhr Day
-- [Liberating Structures RUHR](https://www.meetup.com/de-DE/Liberating-Structures-in-RUHR/)
 - [Scrumtisch Dortmund](https://www.meetup.com/de-DE/Scrumtisch-Dortmund/), ein Format von Adesso
 - [Der Agile Pott](https://www.meetup.com/de-DE/der-agile-pott/), 
   findet im Duisburger Innenhafen oder auf Zeche Zollverein (Triple-Z) in Essen statt
