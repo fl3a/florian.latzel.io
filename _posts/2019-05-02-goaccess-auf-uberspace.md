@@ -13,7 +13,7 @@ tags:
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2020-04-26
+last_modified_at: 2021-02-19
 ---
 <figure>
   {% responsive_image path: assets/imgs/goaccess-ncurces-console-screenshot.png alt: "Screenshot: GoAccess Web-Analytics auf der Konsole" %}
@@ -248,7 +248,7 @@ gleiches wiederholen wir für die Referrer.
 #ignore-panel REFERRERS
 ```
 
-Im Artikel über die [inkrementelle Persistierung von Access Logs in einer Tokyo Cabinet On-Disk Datenbank mit GoAcess](2020/02/02/goaccess-persistierung-von-weblogs-in-tokyo-cabinet-on-disk-datenbank.html)
+Im Artikel über die [inkrementelle Persistierung von Access Logs in einer Tokyo Cabinet On-Disk Datenbank mit GoAcess](/2020/02/02/goaccess-persistierung-von-weblogs-in-tokyo-cabinet-on-disk-datenbank.html)
 beschreibe ich detailiert die [Tokyo Cabinet Optionen in goaccess.conf](/2020/02/02/goaccess-persistierung-von-weblogs-in-tokyo-cabinet-on-disk-datenbank.html#tokyo-cabinet-optionen-in-goaccessconf).
 
 ## Nutzung von GoAccess
