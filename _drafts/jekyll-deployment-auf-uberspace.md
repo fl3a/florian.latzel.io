@@ -19,18 +19,22 @@ eine Website generiert und dann der Welt auf dem *Webserver*[^5] deiner Uberspac
 
 ## Vorbereitungen auf uberspace
 
-Wir starten nach erfolgreichem SSH-Login auf unserem Uberspace-Host in unserem Home-Verzeichnis und legen Ordner für unser Repos und tmp an,
+Wir starten nach erfolgreichem SSH-Login auf unserem Uberspace-Host 
+in unserem Home-Verzeichnis und legen Ordner für unser Repository
+
+### Bare Repository anlegen
+
 ```
-mkdir -p repos/tmp
+mkdir repos
 ```
 
-dann erstellen wir eine Ordner für unsere Repos,
+und wechseln dort hinein,
 ```
 cd repos
 ```
 
 erstellen den Ordner für das Repo auf das wir später *pushen* wollen 
-(Ab hier solltet ihr das exemplarische *netzaffe.de* durch eure Domain ersetzen.)
+(Ab hier solltest du das exemplarische *netzaffe.de* durch eure Domain ersetzen.)
 ```
 mkdir netzaffe.de.git
 ```
@@ -40,21 +44,41 @@ und wechseln hinein.
 cd netzaffe.de.git
 ```
 
-Jetzt initialisieren wir den Ordner als *Bare Repo*[^2],
+Jetzt initialisieren wir den Ordner als *Bare Repo*[^2].
 ```
 git init --bare
 ```
 
-wechseln in das Verzeichnis *hooks*.
+### post-receive Hook 
+
+Wenn komplette Prozess der Übertragung (Push) abgeschlossen ist, greift der sogenannte *post-receive Hook*[^1] 
+und führt das gleichnamige Skript (sofern vorhanden) aus.
+
+Dafür wechseln wir in das Verzeichnis *hooks*
 ```
 cd hooks
 ```
 
-Dann fügen das [Skript](https://gist.github.com/fl3a/032fadb155a75adac03c85cf204051f6) als *post-receive Hook*[^1] hinzu, 
-hier passiert später die ganze Magie.
+und entfernen den *Default post-receive Hook* 
+```
+rm post-receive
+```
+
+Dann clonen wir das [Skript](https://github.com/fl3a/jekyll_uberspace_deployment), 
+dort passiert später die ganze Magie.
 
 ```
-curl -O post-receive https://gist.githubusercontent.com/fl3a/032fadb155a75adac03c85cf204051f6/raw/b49e91fd1158faca3e73274fc5e84a2115d4863b/uberspace-jekyll.sh
+cd ~/repos
+```
+
+```
+git clone 
+```
+
+
+um später einen auf das *Deployment Skript* den Symlink setzen zu können
+```
+ln -s ~/repos/jekyll_uberspace_deployment/jekyll_uberspace_deployment.sh ~/repos/netzaffe.de.git/hooks/post-receive
 ```
 
 Last but not least, muss das Skript noch ausführbar gemacht werden:
@@ -62,48 +86,64 @@ Last but not least, muss das Skript noch ausführbar gemacht werden:
 chmod +x post-receive
 ```
 
-## Das post-receive Skript
+## Das Deployment Skript
 
-Wenn komplette Prozess der Übertragung (Push) abgeschlossen ist, greift der sogenannte *post-receive Hook*[^1] 
-und führt das gleichnamige Skript (sofern vorhanden) aus.
-
-Das [uberspace-jekyll-deployment.sh](https://gist.github.com/fl3a/032fadb155a75adac03c85cf204051f6) Skript 
+Das [uberspace-jekyll-deployment.sh](https://github.com/fl3a/jekyll_uberspace_deployment) Skript 
 welches wir als *post-receive Hook*[^1] nutzen findest du auch als Gist auf github.
 
-```
+{% highlight bash linenos %}
 #!/bin/bash
-#
+
 # Deployment of Jekyll-Sites on Uberspace 
-# via Git Bare Repository and post-receive Hook
+# via Git Bare Repository and post-receive Hook.
 #
 # See https://netzaffe.de/jekyll-deployment-auf-uberspace-via-bare-repo-und-post-receive-hook/ 
-# for requirement and more detailed description (german)
+# for requirements and more detailed description (german)
 
-read oldrev newrev ref
-pushed_branch=${ref#refs/heads/}
+if [[ $# -eq 1 && $1 == "--cli" ]] 
+then
+	pushed_branch="NONE" 
+else
+	read oldrev newrev ref 
+	pushed_branch=${ref#refs/heads/} 
+fi
 
 ## Variables
 
-build_branch='master'
-site='netzaffe.de'
-site_prefix='sandbox.'
+# Path to your Jekyll Git-Repository 
+git_repo=${HOME}/repos/${domain}.git	
 
-git_repo=${HOME}/repos/${site}.git 
-tmp=${HOME}/repos/tmp/${site}
-www=/var/www/virtual/${USER}/${site_prefix}${site}
+# Branch which should be build via this script on post-receive, e.g. 'master'
+build_branch='master'			
+
+# Subdomain, e.g. 'sub.' Optional, mind the trailing '.' !
+subdomain=''
+# Domain, e.g. 'example.com'.
+domain='netzaffe.de'			
+
+# Path to document root, destination where the the generated html is served.
+www=/var/www/virtual/${USER}/${subdomain}${domain}
 
 ## Do the magic
  
-[ $pushed_branch != $build_branch ] && exit
+[[ "$pushed_branch" != "$build_branch" && "$pushed_branch" != "NONE" ]] && exit
+tmp=$(mktemp -d)
 git clone ${git_repo} ${tmp}
 cd ${tmp}
-bundle install --path=~/.gem
-JEKYLL_ENV=production jekyll build --source ${tmp} --destination ${www}
+bundle install --path=~/.gem || bundle install --path=~/.gem --redownload
+bundle exec jekyll build --source ${tmp} --destination ${www}
 rm -rf ${tmp}
 exit
-```
+{% endhighlight %}
 
-### Anpassungen
+### bundle config set --local path '~/.gem' 
+
+> [DEPRECATED] The `--path` flag is deprecated 
+> because it relies on being remembered across bundler invocations, 
+> which bundler will no longer do in future versions. 
+> Instead please use `bundle config set --local path '~/.gem'`, and stop using this flag 
+
+### Anpassungen der Variablen
 
 Im Skript sind nur 3 Variablen anzupassen (sofern alles wie oben beschrieben umgesetzt wurde ;-D).
 
@@ -176,3 +216,4 @@ und das Skript hat noch etwas Liebe erfahren.
 [^5]: [Uberspace Wiki: Webserver](https://wiki.uberspace.de/webserver)
 
 [^6]: [Linux/UNIX Umgebungsvariablen](https://linuxwiki.de/UmgebungsVariable)
+[^redownload]: [How do I force Bundler to reinstall all of my gems?](https://stackoverflow.com/questions/45290135/how-do-i-force-bundler-to-reinstall-all-of-my-gems)
