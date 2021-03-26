@@ -147,7 +147,7 @@ exit
 
 Im Skript sind nur 3 Variablen anzupassen (sofern alles wie oben beschrieben umgesetzt wurde ;-D).
 
-Kopiert *deploy.conf* in euer Repo.
+Kopiert *deploy.conf* in euer Repo und passt die folgenden Variablen nach euren Bedürfńissen an:
 
 1. `build_branch`, **der** Branch der für das Deployment genutzt werden soll. 
  Andere Zweige werden ignoriert. Hier `master`.
