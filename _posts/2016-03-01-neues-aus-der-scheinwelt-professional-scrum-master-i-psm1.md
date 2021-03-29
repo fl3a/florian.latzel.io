@@ -10,12 +10,12 @@ nid: 1635
 permalink: "/neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html"
 layout: post
 created: 1456837559
-last_modified_at: 2019-05-11
+last_modified_at: 2021-02-29
+image: /assets/imgs/psm1-scrum-org-certificate-florian-latzel.png
 ---
-<figure role="group">
-  <img alt="Professional Scrum Master 1, PSM I" src="/assets/imgs/PSMI.png" style="float: left;">
-  <figcaption>PSM1 Badge, &copy; Scrum.org</figcaption>
-</figure>  
+{% responsive_image path: assets/imgs/psm1-scrum-org-certificate-florian-latzel.png
+figure: true 
+alt: "Florian Latzels Professional Scrum Master (PSM) 1 Zertifikat von scrum.org" %}
 
 Am Freitag den 13. Februar 2015 habe ich die Prüfung zum Professional Scrum Master I, kurz PSM1 abgelegt 
 und trotz des besorgniserregenden Datum und der frühen Uhrzeit (06:00 Uhr) bestanden[^certpage].
