@@ -9,7 +9,13 @@ tags:
 nid: 1649
 layout: post 
 created: 1522507534
+image: /assets/imgs/florian-latzel-scrumalliance-csp-certificate.png
+last_modified_at: 2021-03-29
 ---
+{% responsive_image figure: true
+path: assets/imgs/florian-latzel-scrumalliance-csp-certificate.png
+alt: "Mein Certified Scrum Professional (CSP) Zertifikat der ScrumAlliance" %}
+
 > Florian Latzel, Congratulations on earning your CSP! You are a Certified Scrum Professional®
 
 Anfang diesen diesen Jahres hat die Scrum Alliance ihre Zertifizierungspfade geändert[^tretmuehle], 
