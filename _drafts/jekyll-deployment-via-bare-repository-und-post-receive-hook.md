@@ -25,28 +25,30 @@ und *post-receive Hook*[^hooks] auf einen Webserver.
 Zielstellung ist, dass ein `git push` auf das *Remote Repository*[^remote] 
 das weiter unten beschriebene Skript triggert.
 Dieses generiert aus dem Repository mit all seinen Änderungen, 
-wie z.B. Markdown, Config,  Layout,  Include und Gemfile[^bundler]
-das entsprechende HTML, das dann der Welt 
+wie z.B. Markdown, Config,  Layout,  Include 
+und den Abhängigkeiten im Gemfile[^bundler]
+das entsprechende HTML, 
+dass dann der Welt 
 in der *DocumentRoot*[^docroot] deines *Webservers*, 
 in meinem Fall einem [Uberspace](http://uberspace.de) ausgeliefert wird.<!--break-->
 
 ## Vorbereitungen auf dem Zielserver
 
 Wir starten nach erfolgreichem SSH-Login auf unserem Uberspace-Host 
-in unserem Home-Verzeichnis und legen Ordner für unser Repository an
+in unserem Home-Verzeichnis und legen Ordner für unser Repository an,
 
 ```
 mkdir repos
 ```
 
-und wechseln dort hinein,
+wechseln dort hinein
 ```
 cd repos
 ```
 
-und erstellen den Ordner für das Repo auf das wir später *pushen* wollen.
+und erstellen den Ordner für das Repository auf das wir später *pushen* wollen.
 In diesem Fall entspricht der Ordnername der Domain.
-Ab hier solltest du das exemplarische *netzaffe.de* durch dein Domain ersetzen.
+Ab hier solltest du das exemplarische *netzaffe.de* durch deine Domain ersetzen.
 ```
 mkdir netzaffe.de
 ```
@@ -71,7 +73,7 @@ Vor einiger Zeit tauchte die folgende Meldung beim Deployment auf:
 > Instead please use `bundle config set --local path '~/.gem'`, and stop using this flag 
 
 Ich habe das `--path` aus dem Skript entfernt und statt dem Vorschlag 
-die folgendes gemacht:
+folgendes gemacht:
 
 ```
 bundle config set --global path '~/.gem'
@@ -88,7 +90,7 @@ BUNDLE_PATH: "~/.gem"
 
 ## Das Deployment Skript
 
-Wenn komplette Prozess der Übertragung (Push) abgeschlossen ist, 
+Wenn der komplette Prozess der Übertragung (Push) abgeschlossen ist, 
 greift serverseitig der sogenannte **post-receive Hook**[^hooks]
 und führt das gleichnamige Skript (sofern vorhanden) aus.
 
@@ -116,7 +118,7 @@ pushed_branch=${ref#refs/heads/}
 
 config=$(mktemp)
 git-show HEAD:deploy.conf > $config || exit 
-source ${config}
+source $config
 
 ## Do the magic
 
@@ -129,20 +131,20 @@ bundle exec jekyll build --source $tmp --destination $www
 rm -rf $tmp $config
 {% endhighlight %}
 
-### Beschreibung des Skipts 
+### Beschreibung des Skripts 
 
-1. Einlesen des gepuschten Branches 
+1. Einlesen des gepushten Branches 
 um ihn später vergleichen zu könnnen  (Zeile 12 & 13)
 2. Umleiten des Inhalts der Datei `deploy.conf` 
-aus den Repo in eine temporäre Datei und einlesen dieser(Zeile 17 bis 19)
-3. Prüfung ob der übertragene- (pushed) 
-und der via Variable `build_branch` spezifizierte Build-Branch übereinstimmen, 
-ansonsten Abruch (Zeile 23). 
+aus den Repository in eine temporäre Datei und Einlesen dieser(Zeile 17 bis 19)
+3. Prüfung ob der in 1. übertragene Branch
+mit der via Variable `build_branch`übereinstimmt, 
+ansonsten Abbruch (Zeile 23). 
 4. Anlegen eines temporären Verzeichnisses
 5. Klonen des Bare-Repos[^bare] in ein temporäres Verzeichnis (Zeile 25).
 6. Verzeichniswechsel in das temporäres Verzeichnis.
 7. Installation der im Gemfile spezifizierten Abhängigkeiten via `bundle install`[^bundler].
-Falls `bundle install` fehlschlägt 
+Falls `bundle install` fehlschlägt, 
 wird das nochmal mit der Option `--redownload`[^reinstall] versucht.
 8. Generierung des HTML aus *tmp* in die mit `www` spezifizierte *Document Root* 
 via `jekyll build` 
@@ -150,7 +152,7 @@ via `jekyll build`
 
 ### post-receive Hook
 
-Als erstes entfernen wir den *Default post-receive Hook* aus dem Bare-Repo
+Als Erstes entfernen wir den *Default post-receive Hook* aus dem Bare-Repository
 um ihn später durch einen Link auf unser Skript zu ersetzen.
 ```
 rm ~/repos/netzaffe.de/hooks/post-receive
@@ -176,8 +178,8 @@ chmod +x ~/repos/jekyll_deployment/post-receive
 
 ### deploy.conf - Anpassung der Variablen
 
-Sofern du alles wie oben beschrieben umgesetzt wurde 
-und du auch auf [uberspace](https://uberspace.de) bist😙 
+Sofern du alles wie oben beschrieben umgesetzt hast 
+und du auch auf [uberspace](https://uberspace.de) bist😙,
 sind nur `subdomain` und `domain` anzupassen.
 Alle anderen Variablen sind vorbelegt, werden zusammengesetzt oder sind optional.
 
@@ -188,28 +190,28 @@ Alle anderen Variablen sind vorbelegt, werden zusammengesetzt oder sind optional
 -  `www` Pfad zur *Document root* auf dem Server, 
 wo das generierte HTML ausgeliefert wird,  
 z.B `www=/var/www/virtual/${USER}/${subdomain}${domain}`. 
-Dieses Pfadschema ist uberspace spezifisch aber natürlich auch anpassbar.
+Dieses Pfadschema ist *uberspace spezifisch*, aber natürlich anpassbar.
 
 Mit dieser Konfiguration für das *post-receive* Skript verfährst du wie folgt:
-1. Kopiere hierzu *deploy.conf* in die Hauptebene deines lokalen *Jekyll Repos* 
-2. passe die Variablen auf die Bedürfnisse deines Zielsystems hin an
-3. *committe* diese Datei anschließend.
+1. Kopiere hierzu *deploy.conf* in die Hauptebene deines lokalen *Jekyll Repositories* 
+2. Passe die Variablen auf die Bedürfnisse deines Zielsystems hin an
+3. *Committe* diese Datei anschließend
 
 ### Bonus Smash: jekyll_deployment.sh
 
 Die Datei `jekyll_deployment.sh` ist für die direkte Ausführung auf dem Zielsystem
-und manchmal ganz nützlich um das Deployment direkt, also ohne einen Push 
-anzustoßen wenn z.B. *bundler*[^bundler] mal wieder zickt.
+und manchmal ganz nützlich um das Deployment ohne einen Push 
+anzustoßen, wenn z.B. *bundler*[^bundler] mal wieder zickt.
 
 Es sind die gleichnamigen Variablen wie vorigen Abschnitt im Skript selbst anzupassen
 und die Datei oder ein Link sollten sich im Suchpfad befinden.
 
 ## Nötige Schritte im lokalen Git-Repository
 
-Das waren die Schrite auf deinem Uberspace, 
-weiter gehts in deinen lokalen Git Repo.
-Das oben erstellte Bare-Repository fügst du deinem Repo 
-so als sog. Remote-Repository[^remote] Namens *uberspace* hinzu:
+Das waren die Schritte auf deinem Uberspace, 
+weiter gehts in deinen lokalen Git Repository.
+Das oben erstellte Bare-Repository fügst du deinem lokalen Repository
+so als sog. Remote-Repository[^remote] namens *uberspace* hinzu:
 
 ```
 git remote add uberspace fl3a@bellatrix.uberspace.de:repos/netzaffe.de
@@ -227,41 +229,42 @@ Nach der Übertragung der Daten solltest du jetzt die Ausgaben von `git clone`,
 ## Learnings
 
 - Get file from git repo <https://stackoverflow.com/questions/610208/how-to-retrieve-a-single-file-from-a-specific-revision-in-git>
-- Eine Erkenntnis zu *exit*[^exit] 
+- Eine Erkenntnis zu *exit*[^exit] (sic)
 > Es ist eine verbreitete Unsitte als letzten Befehl eines Scripts 'exit 0' zu verwenden. 
 > Ein Skript das zu Ende ist, ist zu Ende und braucht keinen ausdrücklichen Abbruch, vor allem keinen, der den letzten Fehler kaschiert.
-- Darauf bin ich beim recherchiern zu exit gestoßen: *traps*[^traps]
+- Darauf bin ich beim Recherchieren zu exit gestoßen: *traps*[^traps]
 - *git ours*[^ours], darauf bin ich gestoßen, 
 während ich den Hook überarbeitet habe 
-und in Richtung Config in Repo gegangen bin und an eine Config je Branch gedacht habe.
+und in Richtung Config in Repository gegangen bin und an eine Config je Branch gedacht habe.
 Kannte ich nicht, das will ich mal ausprobieren.
-- Noch keine README im Repo aber über *golden Türklinken* bei *jekyll_deployment.sh* nachdenken.
-*jekyll_deployment.sh* ist im Vergleich zu *post-receive* nicht so schön und schlank.
-Die grundlegenede Funktionalität ist in beiden Skipten gleich...
-aber es handelt sich eigentlich ja um ein Abfallprodukt, 
-das aus einer Ur-Version basiert... 
-Verlieren wir ums nicht in Schönheit 
-und bringen wir das und diesen Post erstmal ins Netz, Florian😉.
+- Noch keine README im Repository, aber über *goldene Türklinken* nachdenken.
+*jekyll_deployment.sh* ist im Vergleich zu *post-receive* nicht so schön und schlank,
+aber die grundlegenede Funktionalität ist in beiden Skipten gleich... 
+Auslagern🧠, es geht schöner⌨️!
+Verlieren wir uns nicht in Schönheit 
+und bringen wir diesen Post erstmal ins Netz, Florian☝️.
+Es handelt sich hierbei ja eigentlich um ein Abfallprodukt, 
+dass aus einer Ur-Version basiert. 
 
 ## Credits
 
-Dieser Artikel basiert im wesentlichen auf [
-Jekyll Auf Uberspace Mit Git](https://www.wittberger.net/post/jekyll-auf-uberspace-mit-git/) 
-von Daniel Wittberger 
+Dieser Artikel basiert im wesentlichen auf 
+[Jekyll Auf Uberspace Mit Git](https://www.wittberger.net/post/jekyll-auf-uberspace-mit-git/) von Daniel Wittberger 
 und [Jekyll Auf Uberspace](https://lc3dyr.de/blog/2012/07/22/Jekyll-auf-Uberspace/)
 von Franz aka laerador. Danke!
 
-Der Artikel ist eine aktuelle Essenz, die sich nur auf das Deployment bezieht. 
-seit 2012, 2013 hat sich einiges in Jekyll und auf Uberspace etc getan) 
+Dieser Artikel ist eine aktuelle Essenz, die sich nur auf das Deployment bezieht. 
+Seit 2012, 2013 hat sich einiges in Jekyll und auf Uberspace etc. getan 
 und das Skript hat noch etwas Liebe erfahren. 
 
 ## Verwandte Artikel
 
 - [s/Drupal/Jekyll](/2019/11/09/von-drupal-nach-jekyll.html), 
 über meinen [Umstieg von Drupal nach Jekyll](/2019/11/09/von-drupal-nach-jekyll.html) Anfang 2019
-- In `_draft`: Migration von Drupal 6 nach Jekyll. 
-Vorbereitende Schritte, Anpassung des Jekyll Drupal6 Importers und Nacharbeiten.
-- Natürlich alle weiteren [Artikel mit dem Tag Jekyll](/tags/jekyll/index.html)
+- In `_draft`: *Migration von Drupal 6 nach Jekyll*.
+Vorbereitende Schritte, Anpassung des Jekyll Drupal6 Importers und Nacharbeiten
+- Alle weiteren [Artikel mit dem Tag Jekyll](/tags/jekyll/index.html)
+
 ---
 
 [^bare]: [What is a bare git repository?](http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/)
@@ -273,5 +276,5 @@ Vorbereitende Schritte, Anpassung des Jekyll Drupal6 Importers und Nacharbeiten.
 [^env]: [Linux/UNIX Umgebungsvariablen](https://linuxwiki.de/UmgebungsVariable)
 [^redownload]: [How do I force Bundler to reinstall all of my gems?](https://stackoverflow.com/questions/45290135/how-do-i-force-bundler-to-reinstall-all-of-my-gems)
 [^exit]: [exit > Wiki > ubuntuusers.de](https://wiki.ubuntuusers.de/exit/)
-[^traps]: [traps](https://www.tutorialspoint.com/unix/unix-signals-traps.htm)
+[^traps]: [Unix / Linux - Signals and Traps](https://www.tutorialspoint.com/unix/unix-signals-traps.htm)
 [^ours]: [How to make Git preserve specific files while merging](https://medium.com/@porteneuve/how-to-make-git-preserve-specific-files-while-merging-18c92343826b)
