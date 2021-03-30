@@ -9,7 +9,7 @@ tags:
 - uberspace
 layout: post
 toc: true
-last_modified_at: 2019-11-10 11:48
+last_modified_at: 2021-03-30
 image: /assets/imgs/jekyll-logo-dark-solid.png
 ---
 <figure role="group">
@@ -255,8 +255,8 @@ Ich habe noch 2 verwandte Artikel in *_draft*, die bald folgen werden:
 
 - *Migration von Drupal 6 nach Jekyll*. 
 Vorbereitende Schritte, Anpassung des *Jekyll Drupal6 Importers* und Nacharbeiten.
-- *Jekyll Deployment auf Uberspace via Bare Repo und post-receive Hook*.
-Uber das Aufsetzen und das *post-receive* Shellskript für ein Deployment auf Uberspace.
+- [*Jekyll Deployment auf Uberspace via Bare Repo und post-receive Hook*](/jekyll-deployment-via-bare-repository-und-post-receive-hook.html).
+Über das Aufsetzen und das *post-receive* Shellskript für ein Deployment auf Uberspace.
 
 ---
 
