@@ -97,7 +97,7 @@ und führt das gleichnamige Skript (sofern vorhanden) aus.
 Das [Jekyll uberspace deployment Skript](https://github.com/fl3a/jekyll_deployment)
 welches wir als *post-receive Hook*[^hooks] nutzen 
 findest du [hier](https://github.com/fl3a/jekyll_deployment) auf github.
-Hier der Stand vom 29. März 2021:
+Hier der Stand vom 30. März 2021:
 
 {% highlight bash linenos %}
 #!/bin/bash
