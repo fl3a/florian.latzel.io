@@ -229,7 +229,7 @@ Nach der Übertragung der Daten solltest du jetzt die Ausgaben von `git clone`,
 ## Learnings
 
 - Get file from git repo <https://stackoverflow.com/questions/610208/how-to-retrieve-a-single-file-from-a-specific-revision-in-git>
-- Eine Erkenntnis zu *exit*[^exit] (sic)
+- Eine Erkenntnis zu *exit*[^exit] [sic]
 > Es ist eine verbreitete Unsitte als letzten Befehl eines Scripts 'exit 0' zu verwenden. 
 > Ein Skript das zu Ende ist, ist zu Ende und braucht keinen ausdrücklichen Abbruch, vor allem keinen, der den letzten Fehler kaschiert.
 - Darauf bin ich beim Recherchieren zu exit gestoßen: *traps*[^traps]
