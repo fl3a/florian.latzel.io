@@ -12,6 +12,7 @@ layout: post
 toc: true
 permalink: /jekyll-deployment-via-bare-repository-und-post-receive-hook.html 
 image: /assets/imgs/gears-of-industry.jpg
+last_modified_at: 2021-04-02
 ---
 {% responsive_image figure: true 
 path: assets/imgs/gears-of-industry.jpg 
@@ -178,6 +179,11 @@ chmod +x ~/repos/jekyll_deployment/post-receive
 
 ### deploy.conf - Anpassung der Variablen
 
+Mit dieser Konfiguration für das *post-receive* Skript verfährst du wie folgt:
+1. Kopiere hierzu *deploy.conf* in die Hauptebene deines lokalen *Jekyll Repositories* 
+2. Passe die Variablen auf die Bedürfnisse deines Zielsystems hin an
+3. *Committe* diese Datei anschließend
+
 Sofern du alles wie oben beschrieben umgesetzt hast 
 und du auch auf [uberspace](https://uberspace.de) bist😙,
 sind nur `subdomain` und `domain` anzupassen.
@@ -191,11 +197,6 @@ Alle anderen Variablen sind vorbelegt, werden zusammengesetzt oder sind optional
 wo das generierte HTML ausgeliefert wird,  
 z.B `www=/var/www/virtual/${USER}/${subdomain}${domain}`. 
 Dieses Pfadschema ist *uberspace spezifisch*, aber natürlich anpassbar.
-
-Mit dieser Konfiguration für das *post-receive* Skript verfährst du wie folgt:
-1. Kopiere hierzu *deploy.conf* in die Hauptebene deines lokalen *Jekyll Repositories* 
-2. Passe die Variablen auf die Bedürfnisse deines Zielsystems hin an
-3. *Committe* diese Datei anschließend
 
 ### Bonus Smash: jekyll_deployment.sh
 
