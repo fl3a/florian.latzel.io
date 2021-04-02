@@ -31,6 +31,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
   - jekyll-responsive-image
+  - jekyll-minifier
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2
@@ -137,8 +138,10 @@ responsive_image:
     - assets/foo/bar.png
     - assets/bgs/*.png
     - assets/avatars/*.{jpeg,jpg}
-
       
+jekyll-minifier:
+  exclude: '*.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns      
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
