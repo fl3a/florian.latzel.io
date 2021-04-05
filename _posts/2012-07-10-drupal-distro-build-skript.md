@@ -9,6 +9,7 @@ nid: 1609
 layout: post
 title: Drupal-Distro-Build-Skript
 created: 1341939334
+last_modiefied_at: 2021-04-05
 ---
 Das Testen von Drupal-Installationsprofilen ist relativ mühselig, da sich ein Teil der Schritte, bis man überhaupt erst zum Testen der eigentlichen Funktionalität kommt,
 mit dem Build-Prozess beschäftigt.
@@ -48,14 +49,168 @@ Zur Ausführung sollte sich das Skript im Suchpfad <em>$PATH</em> befinden, kann
 Einfaches Bash-Skript welches die o.g. Schritte durchläuft.
 
 Das <em>droppen</em> der Tabellen in der Zieldatenbank erfolgt über <em>drush site-install</em>.
-[gist:3089178:drupal_distro_build.sh]
+```
+#!/bin/bash
+
+# Treat unset variables as an error
+set -o nounset
+
+# Source configuration
+source $1 || exit 126
+
+echo -e "${BUILD}"
+
+##
+# Needed executables & drush commands
+#
+DRUSH=$(which drush) &> /dev/null \
+  || { echo 'Missing drush. Aborting...' >&2; exit 127; } 
+
+# Specific path to drush version for drush site-install
+set +o nounset
+[ -z "$DRUSH_SITE_INSTALL_DRUSH" ] && DRUSH_SITE_INSTALL_DRUSH=${DRUSH}
+set -o nounset
+
+which git &> /dev/null \
+  || { echo 'Missing git. Aborting...'>&2; exit 127; }
+
+drush help make &> /dev/null \
+  || { echo "Could not probe 'drush make'. Aborting...">&2; exit 127; }
+
+${DRUSH_SITE_INSTALL_DRUSH} help site-install &> /dev/null \
+  || { echo "Could not probe 'drush site-install'. Aborting...">&2; exit 127; }
+
+
+##
+# run drush make
+#
+cd ${WEB_DIR}
+echo -e "# Running drush make, create new build ${BUILD} with ${BUILD_MAKEFILE}...\n"
+${DRUSH} make ${MAKE_OPTIONS} ${BUILD_MAKEFILE} ${BUILD} 2>&1 \
+  && echo -e "\n# Creating build ${BUILD} was successful\n" \
+  || { echo -e "\nFAILED!\n"; exit 1; }
+
+##
+# link new build to docroot
+#
+if [ -L ${DOC_ROOT} ] ; then
+  echo -ne "# Symlink ${BUILD} already exists, unlink ${BUILD}... " 
+  unlink ${DOC_ROOT} 2>&1 \
+    && echo -e "done\n" \
+    || { echo -e  "FAILED!\n"; exit 2; }	  
+fi
+echo -ne "# Symlink ${BUILD} to ${WEB_DIR}/${DOC_ROOT}... "
+ln -s ${BUILD} ${DOC_ROOT} 2>&1 \
+  && echo -e "done\n" \
+  || { echo -e "FAILED!\n"; exit 3; }
+
+##
+# run drush site-install (and drop existing tables)
+#
+echo -e "# Running drush site-install...\n"
+${DRUSH_SITE_INSTALL_DRUSH} site-install ${BUILD_PROFILE} ${SI_OPTIONS} -y -r ${WEB_DIR}/${DOC_ROOT} \
+ --db-url=${DB_DRIVER}://${DB_USER}:${DB_PASS}@${DB_HOST}/${DB} \
+ --account-name=${DRUPAL_UID1} \
+ --account-pass=${DRUPAL_UID1_PASS} \
+ --account-mail=${DRUPAL_UID1_MAIL} \
+ --site-mail=${DRUPAL_SITE_MAIL} \
+ --site-name=${DRUPAL_SITE_NAME} 2>&1 \
+ && echo -e "\n# Site installation was successful." \
+ || { echo -e "\n# FAILED!"; exit 4; }
+
+exit 0 
+```
+
 
 <h2>Konfiguration</h2>
 Die vom Skript benötigten Variablen, befanden sich in einer früheren Version zwischen der Interpreterdeklaration und <em>set -o nounset</em>, diese habe ich ausgelagert um das Arbeiten mit verschiedenen Branches und Projekten einfacher zu gestalten.
 
 Die Konfiguration wird dem Skript als Parmeter beim Aufruf übergeben
-[gist:3089178:example.build.conf.sh]
 
+```bash
+# @file example build configuration
+
+#
+# Webserver specific
+#
+
+# Path of the directory 
+# where to build should take place
+WEB_DIR='/var/www/fserver6_builds'
+
+# Name of DocumentRoot within $WEB_DIR 
+# where the webserver should point to
+DOC_ROOT='fserver6_build'
+
+#
+# Buid process specific
+#
+
+# Path to makefile 
+BUILD_MAKEFILE='https://raw.github.com/fl3a/fserver_profile/master/drupal-org.make'
+
+# Machine name of the profile that should be installed
+BUILD_PROFILE='fserver_profile'
+
+# Date prefix for build
+BUILD_DATE=$(date +%Y%m%d%H%M%S)
+
+# Name pattern for the build
+BUILD=${DOC_ROOT}-${BUILD_DATE}
+
+#
+# Options for drush site-install
+# @see drush help site-install
+#
+
+# Specific path to drush version for drush site-install command
+DRUSH_SITE_INSTALL_DRUSH='/usr/local/share/drush-4.6/drush'
+
+# --account-name Option
+DRUPAL_UID1='Hochwohlgeboren'
+
+# --ACCOUNT-PASS OPTION
+DRUPAL_UID1_PASS='FbVZQkU5OAYmg'
+
+# --account-mail
+DRUPAL_UID1_MAIL='mail@example.com'
+
+# --site-name Option
+DRUPAL_SITE_NAME=${BUILD}
+
+# --site-mail Option
+DRUPAL_SITE_MAIL='mail@example.com'
+#DRUPAL_SITE_MAIL=${DRUPAL_UID1_MAIL}
+
+#
+# Database specific settings to build db_url  
+# ${DB_DRIVER}://${DB_USER}:${DB_PASS}@${DB_HOST}/${DB}
+#
+
+DB_DRIVER="mysqli"
+
+DB_USER="fserver6_build"
+
+DB_PASS="FbVZQkU5OAYmg"
+
+DB_HOST="localhost"
+
+DB="fserver6_build"
+
+#
+# Additional drush make options 
+# @see drush help make
+#
+
+MAKE_OPTIONS='--nocolor --md5=print --no-patch-txt'
+
+#
+# Additional drush site-install (si) options
+# @see drush help site-install
+#
+
+SI_OPTIONS='--nocolor'
+```
 
 <h2>Beispiele</h2>
 <ol>
@@ -71,7 +226,7 @@ drupal_distro_build.sh fserver6_build.conf.sh |  mail -s `head -n 1`  mail@examp
   </li>
   <li>Aufruf mit Generierung eines Logfile, welches so heißt wie der Build + Suffix <em>.log</em>
   <code>
-drupal_distro_build.sh fserver6_build.conf.sh | tee `head -n 1 `.log</code>
+drupal_distro_build.sh fserver6_build.conf.sh | tee `head -n 1 `.log</code></li>
 
 </ol>
 
