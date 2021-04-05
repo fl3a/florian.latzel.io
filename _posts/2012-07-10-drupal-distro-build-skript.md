@@ -9,7 +9,7 @@ nid: 1609
 layout: post
 title: Drupal-Distro-Build-Skript
 created: 1341939334
-last_modiefied_at: 2021-04-05
+last_modified_at: 2021-04-05
 ---
 Das Testen von Drupal-Installationsprofilen ist relativ mühselig, da sich ein Teil der Schritte, bis man überhaupt erst zum Testen der eigentlichen Funktionalität kommt,
 mit dem Build-Prozess beschäftigt.
