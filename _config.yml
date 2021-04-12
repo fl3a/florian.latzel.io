@@ -140,6 +140,7 @@ responsive_image:
 
   # Minify CSS during build
   sass:
+    sass_dir: _sass
     style: compressed
 
   # http://jch.penibelst.de/
