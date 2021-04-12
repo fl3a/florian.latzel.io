@@ -43,9 +43,6 @@ group :jekyll_plugins do
 
   # https://github.com/wildlyinaccurate/jekyll-responsive-image
   gem 'jekyll-responsive-image'
-
-  # https://github.com/digitalsparky/jekyll-minifier
-  gem 'jekyll-minifier'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
