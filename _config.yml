@@ -142,6 +142,17 @@ responsive_image:
   sass:
     style: compressed
 
+  # http://jch.penibelst.de/
+  compress_html:
+    clippings: all
+    comments: ["<!-- ", " -->"]
+    endings: all
+    ignore:
+      envs: [local]
+    blanklines: false
+    profile: true
+    startings: [html, head, body]
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
