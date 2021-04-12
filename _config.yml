@@ -139,6 +139,7 @@ responsive_image:
     - assets/bgs/*.png
     - assets/avatars/*.{jpeg,jpg}
 
+  # Minify CSS during build
   sass:
     style: compressed
 
