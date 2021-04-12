@@ -31,7 +31,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
   - jekyll-responsive-image
-  - jekyll-minifier
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2
