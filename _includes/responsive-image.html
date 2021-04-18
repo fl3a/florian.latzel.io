@@ -8,9 +8,9 @@
 
 {% if figure %}
 <figure role="group">
-  <img src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="(min-width: 800px) 740px, (min-width: 400px) 370px" class="blur-up lazyautosizes lazyload {{ class }}" />
+  <img width="740px" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines | lstrip }}" sizes="(min-width:800px) 740px,(min-width:450px) 400px" class="blur-up lazyautosizes lazyload {{ class }}" />
 <figcaption>{% if caption %}{{ caption }}{% else %}{{ alt }}{% endif %}</figcaption>
 </figure>
 {% else %}
-<img src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes = "(min-width: 800px) 740px, (min-width: 400px) 370px" class="blur-up lazyautosizes lazyload {{ class }}" />
+<img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="(min-width:800px) 740px,(min-width: 4500px) 400px" class="blur-up lazyautosizes lazyload {{ class }}" />
 {% endif %}
