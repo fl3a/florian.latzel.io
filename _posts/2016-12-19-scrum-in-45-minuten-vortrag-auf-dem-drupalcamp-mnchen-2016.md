@@ -13,14 +13,14 @@ permalink: "/scrum-45-minuten-drupalcamp-muenchen-2016.html"
 layout: post
 title: Scrum in 45 Minuten - Vortrag auf dem Drupalcamp München 2016
 created: 1482169913
-last_modified_at: 2020-02-14
+last_modified_at: 2021-04-23
 image: /assets/imgs/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg
 ---
 <figure>
 <img  src="/assets/imgs/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg" alt="Folie Scrum-Rolle Development Team, Roger Pfaff und Florian Latzel präsentieren Eine Einführung in Scrum" />
 <figcaption>Scrum Rolle Development Team, CC BY-NC 3.0 DE Katja Heitmann, <a href="https://twitter.com/diekatja/status/805088880705802240">https://twitter.com/diekatja/status/805088880705802240</a></figcaption>
 </figure>
-<a href="http://twitter.com/rogerpfaff">Roger</a> und Ich haben auf dem DrupalCamp München 2016[^dcmuc16] eine Session über das *agile Rahmenwerk Scrum* gehalten,&nbsp;hier die Beschreibung&nbsp;der eingereichten Session[^session]:
+<a href="http://twitter.com/rogerpfaff">Roger</a> und Ich haben auf dem DrupalCamp München 2016[^dcmuc16] eine Session über das *agile Rahmenwerk Scrum* gehalten,&nbsp;hier die Beschreibung&nbsp;der eingereichten Session[^session] [^session2]:
 <blockquote>
 Scrum ist einer der bekanntesten Vertreter aus dem Umfeld des Agilen Produkt- und Projektmanagements.<br />
 <br />
@@ -63,7 +63,10 @@ Die Definition von Scrum und seinen Regeln findest du im offiziellen Scrum-Guide
 
 [^dcmuc16]: <http://dcmuc16.drupalcamp.de>
 [^session]: <http://dcmuc16.drupalcamp.de/sessions/eine-einfuhrung-scrum.html>
+[^session2]: [Video Aufzeichnung der LMU "Eine Einführung in Scrum"](https://videoonline.edu.lmu.de/de/node/9207)
 [^agilem1]: [Agiles Manifest](http://agilemanifesto.org/)
 [^agilem2]: Agiles Manifest, [Werte](http://agilemanifesto.org/iso/de/manifesto.html)
 [^agilem3]: Agiles Manifest, [Prinipien](http://agilemanifesto.org/iso/de/principles.html)
 [^sg]: [Scrum Guide](<http://www.scrumguides.org)
+
+*[LMU]: Ludwig-Maximilians-Universität
