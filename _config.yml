@@ -1,6 +1,6 @@
 # Site settings
 
-title: netzaffe.de
+title: florian.latzel.io
 author: "Florian Latzel"
 email: florian.latzel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -8,7 +8,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   über meine Abenteuer als Scrum Master im Taka-VUCA-Land + 
   Notizen über dies, das, verschiedene Dinge.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://netzaffe.de" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://florian.latzel.io" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y-%m-%d"
 last_modified_at: "Zuletzt geändert"
 defaults:
