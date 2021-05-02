@@ -42,14 +42,9 @@ AddOutputFilterByType DEFLATE application/atom+xml \
 
 # BEGIN Rules
 
-# To redirect all users to access the site WITHOUT the 'www.' prefix,
-# (http://www.example.com/... will be redirected to http://example.com/...)
-RewriteCond %{HTTP_HOST} ^www\.netzaffe\.de$ [NC]
-RewriteRule ^(.*)$ https://netzaffe.de/$1 [L,R=301]
-
-# Redirect to HTTPS
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Redirect all requests with HTTP_HOST != florian.latzel.io to florian.latzel.io
+RewriteCond %{HTTP_HOST} !^florian\.latzel\.io$
+RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 
 # Redirect urls starting with /blog/ (Drupal imported) to jekylls standard url schema,
 # eg.: /blog/2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html
