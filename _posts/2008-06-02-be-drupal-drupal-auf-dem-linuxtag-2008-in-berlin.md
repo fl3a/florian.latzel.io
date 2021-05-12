@@ -4,11 +4,11 @@ tags:
 - Open Source
 - Messe
 - Linuxtag
-- Linux
 - Drupal User Group Berlin
 - Drupal
 - Community
 - Berlin
+- luckow
 nid: 543
 layout: post
 title: be drupal - Drupal auf dem Linuxtag 2008 in Berlin

@@ -12,6 +12,7 @@ tags:
 - Community
 - CMS
 - Berlin
+- luckow
 nid: 856
 layout: post
 title: Drupal@Linuxtag09 - Open Source, Drupal, Linux und Ballons

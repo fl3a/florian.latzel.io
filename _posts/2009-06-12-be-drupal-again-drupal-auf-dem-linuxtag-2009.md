@@ -8,6 +8,7 @@ tags:
 - Drupal
 - CMS
 - Berlin
+- luckow
 nid: 846
 layout: post
 title: Be Drupal again! - Drupal auf dem Linuxtag 2009
