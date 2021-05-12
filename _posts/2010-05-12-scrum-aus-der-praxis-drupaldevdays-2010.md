@@ -1,6 +1,7 @@
 ---
 tags:
 - Session
+- luckow
 - Scrum
 - Projektmanagement
 - München
