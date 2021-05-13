@@ -12,20 +12,20 @@ image: /assets/imgs/fehler-umleitungsfehler.png
 {%responsive_image path: assets/imgs/fehler-umleitungsfehler.png %}
 Die Ära netzaffe.de geht nach über 14 Jahren zu Ende.
 <!--break-->
-Klickbait! Ich wollte eine wenig nerdig klingendere und etwas persönlichere Domain
-für dieses Blog .
+Klickbait! Ich wollte eine wenig nerdig klingendere 
+und dafür etwas persönlichere Domain für dieses Blog.
  
-Da alle *klassischen* TLDs schon lange weg sind und mein Namenverwandter Wolf-Erich
-leider auf keine Anfrage, eine seiner vielen latzel Domains abzugeben reagiert hat, 
-ging der Gedanke die Tage in Richtung florianlatzel.tld. 
+Da alle *klassischen* TLD schon lange weg sind und mein Namenverwandter Wolf-Erich
+leider auf keine meiner Anfragen, eine seiner vielen *Latzel Domains* abzugeben, 
+reagiert hat, ging der Gedanke die Tage in Richtung florianlatzel.tld. 
 
 ## latzel.io
 
 In einem Telefonat mit meinem Freund Stephan Luckow bekam ich den 
 Impuls für latzel.io.   
-Der Goldene weg: io als TLD ist noch ein bischen nerdig
+Der goldene Weg: io als TLD ist noch ein bisschen nerdig
 und bei florian als Subdomain (**florian.latzel.io**) 
-habe genau jenes persönliche Konstrukt wieder.
+habe ich genau jenes persönliche Konstrukt wieder.
 Dann habe ich noch die Möglichkeit meinen Verwandten Subdomains bereitzustellen. 
 Zuletzt: Mails ala vorname@nachname.tld haben natürlich auch was. tbd.
 
@@ -65,10 +65,11 @@ RewriteRule ^(.*)$ http://neue-domain.tld/$1 [L,R=301]
 ```
 
 Danke Stephan für den kleinen Impuls mit der Domain, der nur ein Teil eines langen, guten Telefonats war.
-Danke an mein Team-Kollegen Arne, der mir <https://www.namecheap.com/> günstigen als Registrar nahegelegt hat.
+Danke an mein Team-Kollegen Arne, der mir <https://www.namecheap.com/> als günstigen Registrar nahegelegt hat.
 
 [^red1]: [selfhtml: Umleitung auf eine neue Domain](https://wiki.selfhtml.org/wiki/Webserver/htaccess/Umleitungen_mit_mod_rewrite#Umleitung_auf_eine_neue_Domain)
 [^red2]: [Domains weiterleiten auf Hauptdomain](https://www.html-seminar.de/domains-weiterleiten-auf-hauptdomain.htm)
 [^doc]: [http.apache.org: mod_rewrite#rewritecond](http://httpd.apachie.org/docs/2.4/mod/mod_rewrite.html#rewritecond)
 
-*[TLD]: Top Level Domain
+*[TLD]: Top Level Domain(s)
+*[SEO]: Search Engine Optimisation
