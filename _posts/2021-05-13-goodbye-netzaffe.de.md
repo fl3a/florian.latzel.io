@@ -9,7 +9,10 @@ tags:
 layout: post
 image: /assets/imgs/fehler-umleitungsfehler.png
 ---
-{%responsive_image path: assets/imgs/fehler-umleitungsfehler.png %}
+{%responsive_image 
+figure: true path: assets/imgs/fehler-umleitungsfehler.png 
+alt: "Screenshot: Browser, Fehler: Umleitungsfehler"
+%}
 Die Ära netzaffe.de geht nach über 14 Jahren zu Ende.
 <!--break-->
 Klickbait! Ich wollte eine wenig nerdig klingendere 
