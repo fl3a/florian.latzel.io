@@ -97,10 +97,10 @@ und führt das gleichnamige Skript (sofern vorhanden) aus.
 
 Das [Jekyll uberspace deployment Skript](https://github.com/fl3a/jekyll_deployment)
 welches wir als *post-receive Hook*[^hooks] nutzen 
-findest du [hier](https://github.com/fl3a/jekyll_deployment) auf github.
+findest du [hier](https://github.com/fl3a/jekyll_deployment) auf github.  
 Hier der Stand vom 30. März 2021:
 
-{% highlight bash linenos %}
+```shell
 #!/bin/bash
 
 # Deployment of Jekyll-Sites  
@@ -130,7 +130,7 @@ cd $tmp
 bundle install || bundle install --redownload
 bundle exec jekyll build --source $tmp --destination $www
 rm -rf $tmp $config
-{% endhighlight %}
+```
 
 ### Beschreibung des Skripts 
 
@@ -155,6 +155,7 @@ via `jekyll build`
 
 Als Erstes entfernen wir den *Default post-receive Hook* aus dem Bare-Repository
 um ihn später durch einen Link auf unser Skript zu ersetzen.
+
 ```
 rm ~/repos/netzaffe.de/hooks/post-receive
 ```
@@ -168,11 +169,13 @@ git clone https://github.com/fl3a/jekyll_deployment.git ~/repos
 
 Jetzt legen wir einen Symlink namens *post-receive* im *Bare-Repo* an, 
 der auf das gleichnamige *Deployment Skript* verweist:
+
 ```
 ln -s ~/repos/jekyll_deployment/post-receive ~/repos/netzaffe.de/hooks/post-receive
 ```
 
 Last but not least, muss das Skript noch ausführbar gemacht werden:
+
 ```
 chmod +x ~/repos/jekyll_deployment/post-receive
 ```
