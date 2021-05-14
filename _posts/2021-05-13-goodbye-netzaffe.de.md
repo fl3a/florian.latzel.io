@@ -1,7 +1,7 @@
 ---
 title: Goodbye netzaffe.de
 tags:
-- netzaffe.de
+- netzaffe
 - Domain
 - luckow
 - apache2
