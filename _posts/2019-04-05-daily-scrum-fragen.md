@@ -8,7 +8,7 @@ tags:
 - Agile
 - Team
 layout: post
-last_modified_at: 2019-04-23
+last_modified_at: 2021-05-18
 ---
 In der letzten Version des Scrum Guides[^nov17-change] aus dem November 2017 wurde unter anderem 
 das Kapitel des *Daily Scrums* stark überarbeitet, 
