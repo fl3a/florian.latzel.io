@@ -63,36 +63,44 @@ kann es schon zu einer Ambivalenz kommen.
 Wenn dein komplettes Konstrukt auf einmal wackelt, 
 dann merkst du schonmal, dass du es mit Kernthemen zu tun hast.
 Wenn dann aber Golfbälle mit Golfbällen konkurieren,
-dann wird die Zerrissenheit oft schon deutlich spürbar.
-Die Aufteilung von Zeit und Raum 
-und das setzen von Prioritäten können zur Herausforderung werden.
+dann wird die Zerrissenheit oft schon deutlich spürbar.  
+Das setzen von Prioritäten und die Aufteilung von Zeit und Raum 
+können zur Herausforderung werden.
 
 Ein schönes Werkzeug, dass in diesem Spannungsfeld etwas Klarheit geben kann 
 und sowohl im Coaching als auch im Therapheutischen Umfeld Anwendung findet, 
-ist die Visualisierung von Bedürfnissen als Kreis in einem großen umgebenen Kreis.
+ist die Visualisierung von Bedürfnissen als Kreis in einem großen umgebenen Kreis.  
 Starte mit der Frage *"Was ist gerade wichtig?"* und fange an,
 deine aktuellen Bedürfnisse als Kreis in den umgebenen Kreis zu malen.
 Versuche die Bedürfnisse entsprechend ihrer Intensität unterschiedlich groß
 in Relation zueinander zu zeichnen. 
-Gib gerne jeden Bedürfnis einen Namen.
-Wie sieht das erste Bild aus? Sind alle Bedürfnisse da?
-Wenn ja, dann frage dich jetzt, ob die Ausprägung und Tendenz passt.
-Ist 
+Gib gerne jeden Bedürfnis einen Namen.  
+Wie sieht das erste Bild aus? Sind alle Bedürfnisse da?  
+Wenn ja, passen die Ausprägung bzw. die Intensität der Bedürfnisse?  
+Ist Tendenz eher größer, so zeichne jetzt einen entsprechend großen Kreis
+um das Bedürfnis herum. 
+Um die Tendenz darzustellen, zeichne einen Pfeil, 
+der von dem ursprünglichen Rand 
+auf den jetzt größeren Rand des Kreise mit seiner Spitze zeigt.
+Ist die Tendenz eher kleiner, ziehe einen Innenkreise ein
+und setze den Pfeil entsprechend in die andere Richtung.
+Von hier aus hast du einen guten Punkt um dich zu fragen, 
+wie du dorthin kommst.
 
   - neue Prioritäten: Diagnose, Endlichkeit - mehr Zeit
     - Froh über die aufgewendete Zeit
 
 Tschüss Mama. Ich bin zutiefst Dankbar für fast 43 gemeinsame Jahre.  
 Mögest du frei von Leid und an einem besseren Ort sein.
-Mögest du wieder mit Volker, der uns auch viel zu früh verlassen hat vereint 
-und glücklich sein.   
+Mögest du wieder mit Volker,  
+der uns auch viel zu früh verlassen hat vereint und glücklich sein.   
 Gesche Maria Kiel, ∗ 23. Juli 1948, ✝ 08. Mai 2021, geschiedene Latzel, geborene Schwitzner.  
-Das Kernthema *Abschied nehmen* ist vorüber 
-und  tiefe Trauer nimmt seinen Platz ein.
+Das Kernthema *Abschied nehmen* ist vorüber, 
+tiefe Trauer nimmt seinen Platz ein und der Rest ordnet sich jetzt wieder neu.
 
 
 [^way]: [Wanderung + Retreat: Walkaboutyou](https://walkaboutyou.org/)
 [^hannes]: [Hannes Leo Maier, Timeoutcoaching](https://www.timeoutcoaching.ch)
 [^duden]: [Duden: Kernthema](https://www.duden.de/rechtschreibung/Kernthema)
 [^jar1]: [The Jar of Life: First things First](https://balancedaction.me/2012/10/17/the-jar-of-life-first-things-first/)
-[^jar2]: [A Valuable Lesson For A Happier Life(youtube). Recht "amerikanisch", benutze ich aber trotzdem gerne in Trainings ](https://www.youtube.com/watch?v=SqGRnlXplx0)
+[^jar2]: [A Valuable Lesson For A Happier Life(youtube)](https://www.youtube.com/watch?v=SqGRnlXplx0)
