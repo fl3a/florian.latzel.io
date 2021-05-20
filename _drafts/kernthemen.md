@@ -87,8 +87,15 @@ und setze den Pfeil entsprechend in die andere Richtung.
 Von hier aus hast du einen guten Punkt um dich zu fragen, 
 wie du dorthin kommst.
 
-  - neue Prioritäten: Diagnose, Endlichkeit - mehr Zeit
-    - Froh über die aufgewendete Zeit
+Nach der Diagnose Leukemie und der damit verbundenen Endlichkeit letzten Herbst
+erwuchs daraus zuerst das Thema *Miteinander Zeit verbringen*, 
+es dann zu *Miteinander Zeit mehr verbringen*.
+Zuletzt überragte das starke Bedürfniss *Abschied nehmen* 
+auch alte Geschichten und Spannungen und stellte fast alles andere in den Schatten.
+Ich bin im nachhinein froh, dass ich meine Bedürfnisse 
+so gelebt und danach gehandelt habe.
+Ich bin froh über jeden gemeinsamen Augenblick, den ich mehr mit dir haben konnte,
+denn die Zeit kommt nicht wieder und du auch nicht. 
 
 Tschüss Mama. Ich bin zutiefst Dankbar für fast 43 gemeinsame Jahre.  
 Mögest du frei von Leid und an einem besseren Ort sein.
