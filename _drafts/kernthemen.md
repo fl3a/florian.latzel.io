@@ -2,15 +2,15 @@
 title: Kernthemen
 tags:
 - Leben
-- Fründe
 - Tod
-- Trauer
-- Draussen
 - Zeit 
 - Prioritäten
 - Coaching
 layout: post
+image: /assets/imgs/kernthemen.jpg
 ---
+{% responsive_image figure: true path: assets/imgs/kernthemen.jpg
+alt: "Meine Kernthemen. Anfang Mai 2021." %}
 Als ich am sechsten März diesen Jahres bei Walkaboutyou[^way] Hannes Leo[^hannes],
 einen Coach-Kollegen kennenlernte und im Nachklang von Meditation und Journaling
 mit ihm zusammen reflektierte, 
@@ -110,16 +110,19 @@ Ich bin zutiefst dankbar für mein Leben und die fast 43 gemeinsame Jahre mit di
 Mögest du frei von Leid und an einem besseren Ort sein.  
 Mögest du mit Volker[^krebs2], der uns auch viel zu früh verlassen hat, 
 wieder vereint und glücklich sein.   
-In Gedenken an **Gesche Maria Kiel**[^krebshilfe], ∗ 23. Juli 1948, ✝ 08. Mai 2021,
+In Gedenken an **Gesche Maria Kiel**[^krebshilfe] [^memento], 
+∗ 23. Juli 1948, ✝ 08. Mai 2021,
 ehemals Latzel, geborene Schwitzner, *«Gracias a la Vida»*.
 Mein zuletzt größtes Kernthema *Abschied nehmen* geht jetzt vorüber, 
-tiefe Trauer nimmt seinen Platz ein und der Rest ordnet sich jetzt wieder neu.
+tiefe Trauer nimmt seinen Platz ein 
+und der Rest ordnet sich jetzt wieder neu.
 
 [^way]: [Wanderung + Retreat: Walkaboutyou](https://walkaboutyou.org/)
 [^hannes]: [Hannes Leo Maier, Timeoutcoaching](https://www.timeoutcoaching.ch)
 [^duden]: [Duden: Kernthema](https://www.duden.de/rechtschreibung/Kernthema)
 [^jar1]: [The Jar of Life: First things First](https://balancedaction.me/2012/10/17/the-jar-of-life-first-things-first/)
 [^jar2]: [A Valuable Lesson For A Happier Life(youtube)](https://www.youtube.com/watch?v=SqGRnlXplx0)
-[^krebs1]: September 2015: besorgniserregende Blutwerte, Splenektomie, Diagnose Non-Hodgkin Lymphom, Chemotherapie. 2016 kurze Zeit symptomfrei, Wiederausbruch im Winter, Hochdosis-Chemo- + Strahlentherapie. Seit Frühjahr 2017 nach Reha symptomfrei.
+[^krebs1]: September 2015: besorgniserregende Blutwerte, Entfernung der Milz(Splenektomie), Diagnose: Diffus großzelliges B-Non-Hodgkin Lymphom, Chemotherapie. 2016 kurze Zeit symptomfrei, Wiederausbruch im Winter, Hochdosis-Chemo- + Strahlentherapie. Frühjahr 2017 Reha, danach symptomfrei.
 [^krebs2]: August 2018: Diagnose Bauchspeicheldrüsenkrebs. ✝ 17.06.2019.
 [^krebshilfe]: *«Anstatt Blumenspenden[...]»*: Stiftung Deutsche Krebshilfe, Spendenkonto: IBAN: DE65 3705 0299 0000 9191 91, BIC: COKSDE33XXX (Kreissparkasse Köln
+[^memento]: [Memento von Mascha Kaléko, Verse für Zeitgenossen](https://www.maschakaleko.com/memento)
