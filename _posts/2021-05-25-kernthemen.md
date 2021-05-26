@@ -3,7 +3,8 @@ title: Kernthemen
 tags:
 - Leben
 - Tod
-- Zeit 
+- Zeit
+- Achtsamkeit 
 - Prioritäten
 - Coaching
 layout: post
@@ -95,7 +96,7 @@ erwuchs daraus bei mir zuerst das Thema *Miteinander Zeit verbringen*,
 damals noch mit einer spürbaren Ambivalenz und vielen Spannungen.
 Es wurde dann zu *Miteinander Zeit mehr verbringen* 
 und wir arbeiteten teilweise gemeinsam an diesen Spannungen.
-Als das Thema Tod ihr Kernthema wurde 
+Als das Thema Sterben ihr Kernthema wurde 
 und sich ihr gesundheitlicher Zustand sichtbar und sehr schnell verschlechterte,
 stellte das starke Bedürfniss *Abschied nehmen* 
 die alten Geschichten und Spannungen in den Schatten.   
