@@ -111,7 +111,7 @@ Ich bin zutiefst dankbar für mein Leben und die fast 43 gemeinsame Jahre mit di
 Mögest du frei von Leid und an einem besseren Ort sein.  
 Mögest du mit Volker[^krebs2], der uns auch viel zu früh verlassen hat, 
 wieder vereint und glücklich sein.   
-In Gedenken an **Gesche Maria Kiel**[^krebshilfe] [^memento], 
+In Gedenken an **Gesche Kiel**[^krebshilfe] [^memento], 
 ∗ 23. Juli 1948, ✝ 08. Mai 2021,
 ehemals Latzel, geborene Schwitzner, *«Gracias a la Vida»*.
 Mein zuletzt größtes Kernthema *Abschied nehmen* geht jetzt vorüber, 
