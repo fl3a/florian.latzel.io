@@ -9,7 +9,7 @@ tags:
 - uberspace
 layout: post
 toc: true
-last_modified_at: 2021-03-30
+last_modified_at: 2021-05-27
 image: /assets/imgs/jekyll-logo-dark-solid.png
 ---
 <figure role="group">
@@ -206,8 +206,8 @@ Es gibt auch keinen Zwischenschritt
 über den Browser zur Bearbeitung und Speicherung von Inhalt mehr.
 
 Darauf aufbauend lassen sich natürlich Text-Dateien wunderbar mit einem VCS verwalten,
-und das Deployment in die *DocumentRoot* auf Uberspace 
-läuft über einen *post-receive git-hook*. 
+und [das Deployment in die *DocumentRoot* auf Uberspace 
+läuft über einen *post-receive git-hook*](/jekyll-deployment-via-bare-repository-und-post-receive-hook.html). 
 Das heißt, alle einzelnen Schritte sind über die Konsole möglich.
 
 > Blogging Like a Hacker[^tpw]
