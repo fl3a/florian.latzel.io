@@ -111,7 +111,7 @@ Ich bin zutiefst dankbar für mein Leben und die fast 43 gemeinsame Jahre mit di
 Mögest du frei von Leid und an einem besseren Ort sein.  
 Mögest du mit Volker[^krebs2], der uns auch viel zu früh verlassen hat, 
 wieder vereint und glücklich sein.   
-In Gedenken an **Gesche Kiel**[^krebshilfe] [^memento], 
+In Gedenken an **Gesche Kiel**[^krebshilfe] [^memento] [^trauer], 
 ∗ 23. Juli 1948, ✝ 08. Mai 2021,
 ehemals Latzel, geborene Schwitzner, *«Gracias a la Vida»*.
 Mein zuletzt größtes Kernthema *Abschied nehmen* geht jetzt vorüber, 
@@ -127,3 +127,4 @@ und der Rest ordnet sich jetzt wieder neu.
 [^krebs2]: August 2018: Diagnose Bauchspeicheldrüsenkrebs. ✝ 17.06.2019.
 [^krebshilfe]: *«Anstatt Blumenspenden[...]»*: Stiftung Deutsche Krebshilfe, Spendenkonto: IBAN: DE65 3705 0299 0000 9191 91, BIC: COKSDE33XXX (Kreissparkasse Köln
 [^memento]: [Memento von Mascha Kaléko, Verse für Zeitgenossen](https://www.maschakaleko.com/memento)
+[^trauer]: [Traueranzeigen von Gesche Kiel](https://www.wirtrauern.de/traueranzeige/gesche-kiel)
