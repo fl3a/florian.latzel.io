@@ -3,6 +3,7 @@ title: Kernthemen
 tags:
 - Leben
 - Tod
+- Trauer
 - Zeit
 - Achtsamkeit 
 - Prioritäten
