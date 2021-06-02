@@ -30,6 +30,8 @@ regelmäßig essen, versuchen gut zu schlafen, regelmäßig bewegen.\\
 Am Montag habe ich wieder mit der *SIY 28 Tage Challenge* begonnen (das fünfte Mal)
 um gerade jetzt das Meditieren nicht zu vernachlässigen.
 
+## Misc
+
 Daneben lenke ich mich gerade viel mit meinem Blog ab 
 und prokrastiniere, z.B. mit dieser *Jetzt-Seite* hier,
 Struktur, Templates und der Überarbeitung von statischen Seiten.
