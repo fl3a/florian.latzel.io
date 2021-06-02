@@ -2,6 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
+last_modified_at: 2021-06-02 14:44 
 ---
 ## Trauerarbeit
 
@@ -35,8 +36,6 @@ und prokrastiniere, z.B. mit dieser *Jetzt-Seite* hier.
 
 *[SIY]: Search Inside Yourself
 
-*Zuletzt geändert: 
-[{{ page.git.last_commit.commit_date | date: "%d.%m.%Y, %H:%M" }}](
-{{ site.git_repo }}/commit/{{ page.git.last_commit.long_sha }}).\\
+*Zuletzt geändert: {{ page.last_modified_at | date: "%d.%m.%Y, %H:%M" }}\\
 Das ist eine ["Now Page"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).*
