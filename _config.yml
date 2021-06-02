@@ -33,7 +33,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
   - jekyll-responsive-image
-  - jekyll-git_metadata
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2
@@ -141,21 +140,21 @@ responsive_image:
     - assets/bgs/*.png
     - assets/avatars/*.{jpeg,jpg}
 
-  # Minify CSS during build
-  sass:
-    sass_dir: _sass
-    style: compressed
+# Minify CSS during build
+sass:
+  sass_dir: _sass
+  style: compressed
 
-  # http://jch.penibelst.de/
-  compress_html:
-    clippings: all
-    comments: ["<!-- ", " -->"]
-    endings: all
-    ignore:
-      envs: [local]
-    blanklines: false
-    profile: true
-    startings: [html, head, body]
+# http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: true
+  startings: [html, head, body]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
