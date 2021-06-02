@@ -13,7 +13,7 @@ tags:
 - Session
 image: /assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg
 toc: true
-last_modified_at: 2019-10-21
+last_modified_at: 2021-06-02
 ---
 <figure>
 {% responsive_image path: assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg alt: "Stecktafel, Aufschrift: Welcome to Barcamp #4⭐😘😄" %}
@@ -82,6 +82,10 @@ Energizer/Warmups, um wieder in Fahrt zu kommen. Die folgenden hat Philipp uns e
 - Das IMHO beste, Overload[^overload]
 
 ## Personal Maps
+
+{% responsive_image path: assets/imgs/agileipzig19/florian-latzel-personalmaps-agileleipzig19.jpg
+figure: true alt: "Florian Latzel zu Personal Maps Session auf dem Agile Leipzig Barcamp 2019"
+caption: "Florian Latzel, Personal Maps Session. &copy; agiLE | barcamp" %}
 
 Ich habe *Personal Maps[^personalmaps]* aus dem *Management 3.0* vorgestellt
 und über meine Erfahrungen aus einigen durchgeführten *Personal Maps Workshops* gesprochen.
