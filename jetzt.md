@@ -13,8 +13,10 @@ den Menschen, den ich am längsten kenne,\\
 den Mensch, durch den ich das Sprechen gelernt habe.\\
 Den Menschen, der mich (ob ich es will oder nicht) am meisten geprägt hat.\\
 Es bekommt am meisten Raum, Zeit und Energie.
-Es kommt wann es will, nimmt sich jenen Raum den brauch
-und bestimmt die Intensität, gerade ist es noch sehr stark.\\
+Es kommt wann es will, nimmt sich jenen Raum den es brauch
+und bestimmt die Intensität, 
+gerade ist es noch sehr stark. 
+Ich lasse es zu.\\
 Damit verbunden ist auch den Berg voller Papierkram zu bewältigen
 und die Auflösungen ihrer Wohnung und die Verteilung des Erbes.
 
