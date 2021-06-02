@@ -27,7 +27,7 @@ versuche hin und wieder auch zu Lachen, denn jedes Lachen ist eins mehr auf der 
 der leere Serotoninspiegel kann eine Auffüllung vertragen.\\
 Besser auf mich aufpassen, weniger trinken und so elementare Dinge wie:
 regelmäßig essen, versuchen gut zu schlafen, regelmäßig bewegen.\\
-Heute ist Tag 3: Am Montag habe ich wieder mit der *SIY 28 Tage Challenge* begonnen (das fünfte Mal)
+Am Montag habe ich wieder mit der *SIY 28 Tage Challenge* begonnen (das fünfte Mal)
 um gerade jetzt das Meditieren nicht zu vernachlässigen.
 
 Dann lenke ich mich noch viel mit meinem Blog ab 
