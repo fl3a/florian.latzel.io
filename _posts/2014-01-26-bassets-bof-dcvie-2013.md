@@ -5,6 +5,7 @@ tags:
 - Session
 - Reinblau
 - Drupal
+- Drupalcamp
 - dcvie
 nid: 1621
 permalink: "/bassets-bof-dcvie-2013.html"
