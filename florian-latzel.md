@@ -26,23 +26,6 @@ Hallo, ich heiße Florian Latzel.
 - glaubt an [Open Source](/tags/open-source/index.html), [Agile Softwareentwicklung](/tags/agile/index.html) und Karma
 - hört nur Elektro und Ramones, ist vielschichtig, wie eine Zwiebel, teils selbstironisch
 
-### Sonstwo im Interweb
-
-Du findest mich auch noch hier:
-
-- [~~facebook~~](/2014/08/28/facebook-tschoe-mit-oe-mit-oe.html)
-- [twitter](http://twitter.com/fl3a)
-- [soundcloud](http://soundcloud.com/fl3a)
-- [drupal.org](http://drupal.org/user/51103)
-- [github](https://github.com/fl3a)
-- [xing](http://www.xing.com/profile/Florian_Latzel)
-- [slideshare](http://de.slideshare.net/fl3a)
-- [linkedin](https://de.linkedin.com/in/florianlatzel/en)
-
-Sag gerne hallo via EMail, am liebsten [PGP/GnuPG verschlüsselt](/gnupg-micro-howto.html), 
-[hier](https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x768146CD269B69D1) 
-findest du meinen [öffentlichen GnuPG-Schlüssel](/gnupg-micro-howto.html).
-
 ## Über diese Seite
 
 Das ist mein privates Blog, manchmal schreibe ich hier etwas über [dies, das, verschiedene Dinge](/themen.html).
@@ -61,11 +44,11 @@ Moderation von individuellen Workshops und Großgruppen.\\
 Facilitierung von *Open Spaces* und Retrospektiven.\\
 Fördern von Gruppenprozessen und Ergebnissen, Partizipativ und Co-Kreativ.
 
-### Workshops 
+### Workshops & Trainings
 
-Durchführung von Workshops zu [Agilität](/tags/agile), *Iterativen Arbeiten* und *New Work* wie z.B. [Scrum](/tags/scrum)
-und Kanban, *Visual Facilitating* und *[Team-Building](/tags/teambuilding)*. Simulationen und Spiele.\\
-Lebendige Workshops. Begreifbar und fühlbar.
+Durchführung von Workshops, u.a. [Agilität](/tags/agile), *Iterativen Arbeiten* und *New Work* wie z.B. [Scrum](/tags/scrum)
+und Kanban, *Visual Facilitating*, *[Team-Building](/tags/teambuilding)* und Moderation. Simulationen und Spiele.\\
+Lebendige Workshops. Begreifbar und spürbar.
 
 ### Beratung
 
@@ -75,14 +58,7 @@ Ich stelle meine Erfahrung als Berater zur Verfügung.
 
 Impulse, Anregungen, eröffnen von Perspektiven.
 
-### ~~Projekte~~
+### ~~IT Projekte~~
 
-Frag mich bitte **nicht für Projekte** an, das lässt meine Zeit nicht zu\\
-und es ist für dich oder deine Kunden auch nicht zielführend!
-
-Wenn Du ein Anliegen also beruflicher Natur hast, 
-dann kontaktiere mich bitte über <https://is-loesungen.de>.\\
-Ich versuche Berufliches und Privates so gut es geht zu trennen.\\
-Bitte hilf mir dabei!
-
-Wir können dein Anliegen und Details dann gerne bei einer Tasse Kaffee besprechen!
+Frag mich bitte **nicht für IT Projekte** an, das lässt meine Zeit nicht zu\\
+und es ist für dich oder für deine Kunden auch nicht zielführend!
