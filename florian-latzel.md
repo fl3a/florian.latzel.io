@@ -62,3 +62,8 @@ Impulse, Anregungen, eröffnen von Perspektiven.
 
 Frag mich bitte **nicht für IT Projekte** an, das lässt meine Zeit nicht zu\\
 und es ist für dich oder für deine Kunden auch nicht zielführend!
+
+Mehr Infos über meine Qualifikation, Leistungen und Kunden 
+findest auch hier:\\
+<https://is-loesungen.de>.
+ 
