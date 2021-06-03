@@ -10,14 +10,10 @@ layout: default
       <figure role="group">
         <img src="/assets/imgs/florian-latzel-300x300.jpg" 
           alt="Florian Latzel, Reinblau Teamtreffen, Mai 2017, Foto © Ronald Krentz" />
-       </figure>
-       <h2>Hallo!</h2>
-       <p>
-        {{ site.description }}
-       </p>
-       <p>
-       {%- include social.html -%}
-       </p>
+      </figure>
+      <h2>{{ site.head }}</h2>
+      <p>{{ site.description }}</p>
+      <p>{%- include social.html -%}</p>
     </div>
   {%- endif -%}   
   {%- if site.posts.size > 0 -%}

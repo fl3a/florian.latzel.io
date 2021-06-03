@@ -3,8 +3,9 @@
 title: florian.latzel.io
 author: "Florian Latzel"
 email: florian.latzel@gmail.com
+head: 'Hi, ich bin Florian👋'
 description: >- # this means to ignore newlines until "baseurl:"
-  Mein Name ist Florian Latzel. Hier schreibe ich 
+  Hier schreibe ich 
   über meine Abenteuer als Scrum Master im Taka-VUCA-Land + 
   Notizen über dies, das, verschiedene Dinge.
 baseurl: "" # the subpath of your site, e.g. /blog
