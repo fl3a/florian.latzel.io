@@ -2,7 +2,6 @@
 title: Kontakt
 layout: page
 permalink: /kontakt.html
-description: 'Kernthemen, Gesche Kiel'
 ---
 Falls du Fragen oder Anregungen zu meinen Artikeln, Angeboten 
 oder Leistungen hast,\\
