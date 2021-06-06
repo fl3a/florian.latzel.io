@@ -21,5 +21,3 @@ damit du vielleicht auch bald verschlüsselte EMails schreibst und empfängst.
 Außerdem kannst du mich auch noch über die folgenden *Social Links* finden 
 und dich dort mit verbinden und meinen Aktivitäten folgen: 
 {% include social.html %}
-
-
