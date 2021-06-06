@@ -28,22 +28,22 @@ Neben zahlreichen Bug Fixes gibt es zwei signifikante Änderungen, die ich hier 
 <code>lrwxrwxrwx 1 root root 26 2009-10-25 00:03 drush -> /usr/local/src/drush/drush</code>
 </li>
 </ol>
-  </li>
 <li>Die zweite signifikante Änderung, ist die Einführung von Aliases, siehe auch <a href="http://drupal.org/node/549494" title="Issue #549494">Issue #549494</a>. So wurde z.B. aus <i>dl</i>, <i>download</i> mit <i>dl</i> als Alias und unter anderem ist <i>cache clear</i> ist nun über <i>cc</i> aufrufbar.  
 <p>Für Entwickler gestaltet sich das definieren von Aliases wie folgt:</p><p>In <i>hook_drush_command</i> ist der Array Items um den Index <i>aliases</i> erweitert worden, diesem kann man einen Array mit Aliases hinzufügen, wie hier am Beispiel der Erweiterung von <i>example.drush.inc</i> zu sehen ist.</p>
-<code type="php">
+
+{% highlight php %}
 function example_drush_command() {
   $items = array();
   $items['example'] = array(
     'callback' => 'example_callback',
-    'description' => "Drush example command. It doesn't to a lot",
+    'description' => "Drush example command. It doesn't do a lot",
     'aliases' => array('ex'),
   );
 }
-</code>
+{% endhighlight %}
+
 Durch die Einführung der Aliase lässt sich diese Aussage nochmals untermauern:
 <blockquote>
-<a href="http://developmentseed.org/blog/2009/jun/19/drush-more-beer-less-effort">Drush: More Beer, Less Effort</a>
+<a href="https://vimeo.com/5207683">Drush: More Beer, Less Effort</a>
 </blockquote>
 </li>
-</ol>
