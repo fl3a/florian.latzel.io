@@ -31,7 +31,7 @@ group :jekyll_plugins do
 
   # Adds the following meta tags to your site:
   # https://github.com/jekyll/jekyll-seo-tag
-  gem 'jekyll-seo-tag'
+  gem 'jekyll-seo-tag', git: 'https://github.com/fl3a/jekyll-seo-tag', branch: 'master'
  
   # jekyll-toc - Table of Contents
   # https://github.com/toshimaru/jekyll-toc
