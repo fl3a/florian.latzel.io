@@ -72,7 +72,7 @@ Das Setzen von Prioritäten und die Aufteilung von Zeit und Raum
 können dann zur Herausforderung werden.
 
 Ein schönes Werkzeug, dass in diesem Spannungsfeld etwas Klarheit geben kann 
-und sowohl im Coaching als auch im therapeutischen Umfeld Anwendung findet, 
+und sowohl im Coaching als auch im *therapeutischen Umfeld*[^egostate] Anwendung findet, 
 ist die Visualisierung deiner Themen 
 als Kreise in einem großen umgebenen Kreis.  
 Starte mit der Frage *"Was ist gerade wichtig?"* 
@@ -91,10 +91,10 @@ auf den jetzt größeren Rand des jeweiligen Kreises mit seiner Spitze zeigt.
 Ist die Tendenz eher kleiner, ziehe einen Innenkreis ein
 und zeichne den Pfeil entsprechend in die andere Richtung.  
 Von hier aus hast du einen guten Punkt erreicht, 
-um dich zu fragen, wie du doirthin kommst.
+um dich zu fragen, wie du dorthin kommst.
 
 Nach Mamas Diagnose[^krebs1] Leukämie letzten Herbst 
-und der damit verbundenen Endlichkeit und der damit verbundenen Angst um ihr Leben
+und der damit verbundenen Angst um ihr Leben
 erwuchs daraus bei mir zuerst das Thema *Miteinander Zeit verbringen*, 
 damals noch mit einer spürbaren Ambivalenz und vielen Spannungen.
 Es wurde dann zu *Miteinander Zeit mehr verbringen* 
@@ -126,6 +126,7 @@ und der Rest ordnet sich jetzt wieder neu.
 [^duden]: [Duden: Kernthema](https://www.duden.de/rechtschreibung/Kernthema)
 [^jar1]: [The Jar of Life: First things First](https://balancedaction.me/2012/10/17/the-jar-of-life-first-things-first/)
 [^jar2]: [A Valuable Lesson For A Happier Life(youtube)](https://www.youtube.com/watch?v=SqGRnlXplx0)
+[^egostate]: Vergl. *Ego-State-Therapie* nach dem Ansatz von Kai Fritzsche
 [^krebs1]: September 2015: besorgniserregende Blutwerte, Entfernung der Milz(Splenektomie), Diagnose: Diffus großzelliges B-Non-Hodgkin Lymphom, Chemotherapie. 2016 kurze Zeit symptomfrei, Wiederausbruch im Winter, Hochdosis-Chemo- + Strahlentherapie. Frühjahr 2017 Reha, danach symptomfrei.
 [^krebs2]: August 2018: Diagnose Bauchspeicheldrüsenkrebs. ✝ 17.06.2019.
 [^krebshilfe]: *«Anstatt Blumenspenden[...]»*: Stiftung Deutsche Krebshilfe, Spendenkonto: IBAN: DE65 3705 0299 0000 9191 91, BIC: COKSDE33XXX (Kreissparkasse Köln
