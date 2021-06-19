@@ -10,39 +10,41 @@ tags:
 - Coaching
 layout: post
 image: /assets/imgs/kernthemen.jpg
+last_modified_at: 2021-06-19 10:18
 ---
 {% responsive_image figure: true path: assets/imgs/kernthemen.jpg
 alt: "Meine Kernthemen. Anfang Mai 2021." %}
 Als ich am sechsten März diesen Jahres bei Walkaboutyou[^way] Hannes Leo[^hannes],
 einen Coach-Kollegen kennenlernte und im Nachklang von Meditation und Journaling
 mit ihm zusammen reflektierte, 
-sprach ich mit ihm auch über meine Mutter und ihre Krankheit.
-Ich vernahm das allererste Mal den Begriff Kernthemen von Hannes Leo.  
+kamen wir auch auf meine Mutter und ihre Krankheit zu sprechen.
+Hannes Leo brachte dabei den Begriff "Kernthemen" ins Spiel,\\
+den ich zunächst, gerade in diesem Zusammenhang, nicht so recht einordnen konnte.
 Seitdem begleitet mich dieser Begriff und ich widme ihm diesen Text.<!--break-->
 
-Obwohl ich geglaubt habe, genau zu verstehen, 
+Obwohl ich geglaubt habe, halbwegs zu verstehen, 
 was Hannes Leo mit Kernthemen meinte, habe ich ihn doch vor kurzem nachgeschlagen.
 
 > besonders wichtiges oder wichtigstes, zentrales Thema[^duden]
 
 Je weiter wir uns der sehr allgemeinen Bedeutung des Dudens entfernen 
 und je näher wir den Synonymen, wie z.B. Diskussionsgegenstand kommen,
-desto mehr weiss ich, 
+desto mehr weiß ich, 
 dass Hannes Leo sich auf die sehr allgemeine Bedeutung 
 und den großen und bedeutsamen Kontext des Leben bezog.  
 Zwei Kernthemen wurden eingehend schon erwähnt: Mutter und Krankheit.
 Es geht also um die wirklich elementaren Dinge im Leben, wie z.B.:
-Famile, Kinder, Partnerschaft, Liebe, Gesundheit, Tod 
-und um die Dinge für die du eine Leidenschaft hast.
+Familie, Kinder, Partnerschaft, Liebe, Gesundheit, Tod 
+und um die Dinge für die du eine Leidenschaft entfaltest.
 
 Ein schönes und hierzu passendes Gleichnis 
 ist *The Jar of Life*[^jar1] [^jar2] (Quelle unbekannt).
 Hier ist der Protagonist ein Professor, der in seiner Philosophieklasse fast wortlos
-ein großes leeres Mayonaiseglas auf das Pult stellt und vor seiner Klasse befüllt.
+ein großes leeres Mayonnaiseglas auf das Pult stellt und vor seiner Klasse befüllt.
 Zuerst mit Golfbällen, dann mit Steinchen, anschließend mit Sand. 
 Dazwischen fragt er, nach jeder der unterschiedlichen Füllungen: *"Ist dieses Glas voll?"*
-und die Klasse antwortet darauf jedesmal mit einem einheitlichem *"Ja!"*.  
-Zuletzt öffnet er eine Flasche Bier und gießt dieses in das Mayonaiseglas,
+und die Klasse antwortet darauf jedes Mal mit einem einheitlichem *"Ja!"*.  
+Zuletzt öffnet er eine Flasche Bier und gießt dieses in das Mayonnaiseglas,
 gefolgt von der Frage *"Ist das Glas jetzt voll?"*.
 Dann löst er die Metapher auf: 
 Das Glas repräsentiert das Leben, 
@@ -52,7 +54,7 @@ und der Sand steht für alles Andere. Sand eben.
 Der Philosophieprofessor erklärt,
 dass man auf die Dinge achten sollte, 
 die elementar für unser/e Glück/Glücklichsein/Wohlbefinden/Fröhlichkeit/Balance sind,
-statt unbedacht zuviel Zeit auf den Sand zu verwenden.
+statt unbedacht zu viel Zeit auf den Sand zu verwenden.
 Oder gemäß dem Motto *First things First*, wenn zuerst Sand oder Steinchen im Glas sind,
 dann passen die Golfbälle nicht mehr rein.
 Es kommt aus der Klasse noch die Frage, was denn das Bier darstellen soll.
@@ -60,17 +62,17 @@ Es kommt aus der Klasse noch die Frage, was denn das Bier darstellen soll.
 es sollte immer Platz für ein paar Bierchen mit deinen Freunden sein"*.
 Ok, es geht also um die "Golfbälle".
 
-Schon wenn Golfbälle mit Steinen oder Sand konkurieren, 
+Schon wenn Golfbälle mit Steinen oder Sand konkurrieren, 
 kann es schon zu einer Ambivalenz kommen.   
-Wenn dein komplettes Konstrukt auf einmal wackelt, 
+Wenn dein Lebensmodell auf einmal ins Wanken gerät,
 dann merkst du schonmal, dass du es mit Kernthemen zu tun hast.
-Wenn dann aber Golfbälle mit Golfbällen konkurieren,
+Wenn dann aber Golfbälle mit Golfbällen konkurrieren,
 dann wird die Zerrissenheit oft schon deutlicher spürbar.  
 Das Setzen von Prioritäten und die Aufteilung von Zeit und Raum 
 können dann zur Herausforderung werden.
 
 Ein schönes Werkzeug, dass in diesem Spannungsfeld etwas Klarheit geben kann 
-und sowohl im Coaching als auch im therapheutischen Umfeld Anwendung findet, 
+und sowohl im Coaching als auch im therapeutischen Umfeld Anwendung findet, 
 ist die Visualisierung deiner Themen 
 als Kreise in einem großen umgebenen Kreis.  
 Starte mit der Frage *"Was ist gerade wichtig?"* 
@@ -82,24 +84,24 @@ Gib gerne jeden Bedürfnis einen Namen.
 Wie sieht das erste Bild aus? Sind alle Bedürfnisse da?  
 Wenn ja, passen die Ausprägungen bzw. die Intensität der Bedürfnisse?  
 Ist Tendenz eher größer, 
-so zeichne jetzt einen entsprechend großen Kreis um das Bedürfnis herum. 
+so zeichne jetzt einen entsprechend größeren Kreis um das Bedürfnis herum. 
 Um die Tendenz darzustellen, zeichne einen Pfeil, 
 der von dem ursprünglichen Rand 
 auf den jetzt größeren Rand des jeweiligen Kreises mit seiner Spitze zeigt.
 Ist die Tendenz eher kleiner, ziehe einen Innenkreis ein
 und zeichne den Pfeil entsprechend in die andere Richtung.  
 Von hier aus hast du einen guten Punkt erreicht, 
-um dich zu fragen, wie du dorthin kommst.
+um dich zu fragen, wie du doirthin kommst.
 
 Nach Mamas Diagnose[^krebs1] Leukämie letzten Herbst 
-und der damit verbundenen Endlichkeit
+und der damit verbundenen Endlichkeit und der damit verbundenen Angst um ihr Leben
 erwuchs daraus bei mir zuerst das Thema *Miteinander Zeit verbringen*, 
 damals noch mit einer spürbaren Ambivalenz und vielen Spannungen.
 Es wurde dann zu *Miteinander Zeit mehr verbringen* 
 und wir arbeiteten teilweise gemeinsam an diesen Spannungen.
 Als das Thema Sterben ihr Kernthema wurde 
 und sich ihr gesundheitlicher Zustand sichtbar und sehr schnell verschlechterte,
-stellte das starke Bedürfniss *Abschied nehmen* 
+stellte das starke Bedürfnis *Abschied nehmen* 
 die alten Geschichten und Spannungen in den Schatten.   
 Das *Abschied nehmen* überragte daraufhin bei mir auch fast alles andere.  
 Ich bin froh über jeden gemeinsamen Augenblick,   
