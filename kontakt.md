@@ -7,7 +7,7 @@ Falls du Fragen oder Anregungen zu meinen Artikeln, Angeboten
 oder Leistungen hast,\\
 mir Feedback geben 
 oder einfach nur *"Hallo sagen👋"* möchtest,\\
-dann kannst du das via <florian.latzel@gmail.com> tun.
+dann kannst du gerne das via <florian.latzel@gmail.com> tun.
 
 Ich freue mich immer sehr über verschlüsselte EMails,
 dafür findest du hier meinen öffentlichen Schlüssel:
