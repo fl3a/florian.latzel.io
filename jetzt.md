@@ -2,32 +2,33 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2021-07-04 19:56
+last_modified_at: 2021-07-11 21:38
 ---
 ## Trauerarbeit
 
-Aktuell ist [Trauer](/tags/trauer.html) 
-mein [Kernthema](/2021/05/25/kernthemen.html).\\
+Aktuell ist [Trauer](/tags/trauer.html)  
+eines meiner [Kernthema](/2021/05/25/kernthemen.html).\\
 Ich trauere um meine Mama, [Gesche Kiel](/2021/05/25/kernthemen.html),\\
 den Menschen, der mich (ob ich es will oder nicht) am meisten geprägt hat.\\
-Es bekommt immernoch viel Raum, Zeit und Energie.\\
 Ende Juni haben wir die Wohnung aufgelöst. 
 Der einst riesige Berg an Papierkram ist mittlerweile klein 
 und sehr überschaubar geworden.
 
-## Bei Papa
+## GPG Micro Howto überarbeiten
 
-Ich bin gerade das erste mal seit dem Febbruar 2020 / 
-Ausbruch der Pandemie bei meinen Papa zu Besuch 
-und habe dort ein paar Tage Urlaub verbracht.\\
-Ausschlafen, joggen und lange Spaziergänge mit dem Hund durch den nahegelegenen Wald 
-und zwischendurch Dinge tun, wie am Blog arbeiten, 
+In KW 26, während dem ersten Urlaub bei meinem Dad seit Beginn der Pandemie 
 habe einen neuen PGP Schlüssel erstellt und damit auch die 
 Grundlage geschaffen mein [GnuPG Micro Howto](/gnupg-micro-howto.html) 
 nach 13 Jahren zu aktualisieren (WIP).\\
-Und dann mal wieder eine alte Freundschaft pflegen.\\
-Ich nutzte jetzt auch mal dieses *Remote Arbeiten* von dem gerade so viel geredet wird 
-und arbeite von hier.
+Gestern und heute habe ich bis zum Flow an Textschnipseln gefeilt.
+Das frische Thema WKD in Verbindung mit GnuPG hat mich nicht mehr losegelassen.
+
+## Remote Arbeit
+
+Die Chancen, die das Thema bringt sich mal bewusst machen 
+und den nächsten geplanten Trip mit dem digitalen Nomadentum 
+einfach mal verlängern, die Homebase dabei verändern 
+und von diesen Vorteilen profitierenn🤟.
  
 ## Now reading
 
