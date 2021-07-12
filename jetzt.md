@@ -6,8 +6,7 @@ last_modified_at: 2021-07-11 21:38
 ---
 ## Trauerarbeit
 
-Aktuell ist [Trauer](/tags/trauer.html)  
-eines meiner [Kernthema](/2021/05/25/kernthemen.html).\\
+Aktuell ist [Trauer](/tags/trauer.html) eines meiner [Kernthema](/2021/05/25/kernthemen.html).\\
 Ich trauere um meine Mama, [Gesche Kiel](/2021/05/25/kernthemen.html),\\
 den Menschen, der mich (ob ich es will oder nicht) am meisten geprägt hat.\\
 Ende Juni haben wir die Wohnung aufgelöst. 
@@ -21,14 +20,14 @@ habe einen neuen PGP Schlüssel erstellt und damit auch die
 Grundlage geschaffen mein [GnuPG Micro Howto](/gnupg-micro-howto.html) 
 nach 13 Jahren zu aktualisieren (WIP).\\
 Gestern und heute habe ich bis zum Flow an Textschnipseln gefeilt.
-Das frische Thema WKD in Verbindung mit GnuPG hat mich nicht mehr losegelassen.
+Das frische Thema WKD in Verbindung mit GnuPG hat mich nicht mehr losgelassen.
 
 ## Remote Arbeit
 
 Die Chancen, die das Thema bringt sich mal bewusst machen 
 und den nächsten geplanten Trip mit dem digitalen Nomadentum 
 einfach mal verlängern, die Homebase dabei verändern 
-und von diesen Vorteilen profitierenn🤟.
+und von diesen Vorteilen profitieren🤟.
  
 ## Now reading
 
@@ -37,6 +36,7 @@ und von diesen Vorteilen profitierenn🤟.
 
 *[SIY]: Search Inside Yourself
 *[WIP]: Work in progress
+*[WKD]: Web Key Directory
 
 *Zuletzt geändert: {{ page.last_modified_at | date: "%d.%m.%Y, %H:%M" }}\\
 Das ist eine ["Now Page"](https://nownownow.com/about), 
