@@ -19,17 +19,7 @@ title: GnuPG (GPG) Micro Howto
   <img src="/assets/imgs/1280px-GnuPG.svg.png" alt="GnuPG Logo 1280x387" title="GnuPG Logo" />
   <figcaption>GnuPG Logo, Thomas Wittek, GnuPG Projekt, Gemeinfrei</figcaption>
 </figure>
-Installation, Konfiguration und Nutzung von GnuPG unter Linux, MacOSX und Windows auf der Kommandozeile.
-
-Verwendet wurde Debian Etch
-mit gpg 1.4.6
-und pinentry 0.7.2.
-
-Getestet wurden:
-
-- Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
-- openSuSE 11 mit gpg2 2.0.9-22.1 und pinentry 0.7.5-5.1
-- Windows Vista mit gnupg-w32cli-1.4.9.exe
+Installation, Konfiguration und Nutzung von GnuPG auf der Kommandozeile unter Linux, MacOSX und Windows.<!--break-->
 
 ## Konzept und Terminologie
 
@@ -44,104 +34,154 @@ Die Schlüssel werden über Schlüsselbünde verwaltet, auch hier wieder die Unt
 - einen für die Öffentlichen, *~/.gnupg/pubring.gpg*, eigenen Keys und die deiner Kommunikationspartner
 - und den für die Privaten, *~/.gnupg/secring.gpg*
 
-<!--break-->
-
 ## Erstellung eines GnuPG Schlüsselpaares
 
-Zur Erstellung eines GnuPG Schlüsselpaares ist der folgende Befehl ist unter der Benutzer-ID des Hauptbenutzers auszuführen. 
+Zur Erstellung eines GnuPG Schlüsselpaares ist der folgende Befehl 
+unter deiner Benutzer-ID, der den Key auch nutzen soll auszuführen. 
 Andernfalls muss der Ort durch *--homedir /home/foobar/.gnupg* angeglichen werden.
+
 ```
-gpg --gen-key
+gpg --full-generate-key 
 ```
+
+Anstelle der `--full-generate-key` kann auch `--gen-key` verwendet werden,
+es werden aber deutlich mehr Voreinstellungen, wie z.B. die Schlüsselgröße von 3072 Bits
+oder einem Ablaufdatum von 2 Jahren gemacht.
+
+```
+gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+gpg: Verzeichnis `/home/florian/.gnupg' erzeugt
+gpg: Die "Keybox" `/home/florian/.gnupg/pubring.kbx' wurde erstellt
+```
+
+### Verschüsselungsalgorithmus
 
 Verschüsselungsalgorithmus wählen
 ```
-gpg (GnuPG) 1.4.6; Copyright (C) 2006 Free Software Foundation, Inc.
-This program comes with ABSOLUTELY NO WARRANTY.
-This is free software, and you are welcome to redistribute it
-under certain conditions. See the file COPYING for details.
-Please select what kind of key you want:
-   (1) DSA and Elgamal (default)
-   (2) DSA (sign only)
-   (5) RSA (sign only)
-Your selection?
+Bitte wählen Sie, welche Art von Schlüssel Sie möchten:
+   (1) RSA und RSA (voreingestellt)
+   (2) DSA und Elgamal
+   (3) DSA (nur signieren/beglaubigen)
+   (4) RSA (nur signieren/beglaubigen)
+Ihre Auswahl?
 ```
 
-Wir entscheiden uns für die Voreinstellung DSA und Elgamal.
-```
-1
-```
-Stärke des Schlüssels
+Wir entscheiden uns mit `1` für die Voreinstellung RSA und RSA und bestätigen mit Enter.
+
+### Schlüssellänge
+
+Wahl der Länge bzw. Stärke des Schlüssels, voreingestellt 3072.
 
 ```
-DSA keypair will have 1024 bits.
-ELG-E keys may be between 1024 and 4096 bits long.
-What keysize do you want? (2048)
+RSA-Schlüssel können zwischen 1024 und 4096 Bit lang sein.
+Welche Schlüssellänge wünschen Sie? (3072) 
+```
+
+Wir wählen den Maximalwert von `4096` und bestätigen mit Enter.\\
+Es folgt die Quittierung von GnuPG:
+
+```
+Die verlangte Schlüssellänge beträgt 4096 Bit
 ```
 
 Wir wählen die Voreinstellung und bestätigen diese.
 
+### Gültigkeitzeiraum
 
-Gültigkeitzeiraum des Schlüssels
+Gültigkeitzeiraum des Schlüssels\\
 Hier kann spezifiziert werden ob und wann der Schlüssel verfällt.
-```
-Please specify how long the key should be valid.
-         0 = key does not expire
-      <n>  = key expires in n days
-      <n>w = key expires in n weeks
-      <n>m = key expires in n months
-      <n>y = key expires in n years
-Key is valid for? (0)
-```
-
-Der Schlüssel soll vorerst 1 Jahr gültig sein.
-```
-1y
-```
-
-Es erscheint das Ablaufdatum des Schlüssels, ein Jahr in der Zukunft.
-```
-Key expires at Mo 23 Nov 2009 20:08:50 CET
-Is this correct? (y/N)
-```
-
-Wir bestätigen die Angaben mit
-```
-y
-```
-
-Realname, Eingabe des vollen Namens, der dem Schlüssel zugeordnet werden soll.
+Hier sollte entgegen des Defaults `(0)` auf jeden Fall ein Ablaufdatum gewählt werden, 
+denn in Falle eines korumpierten Rechners 
+oder Schlüssel verfällt dieser immerhin irgendann.
 
 ```
-Florian Latzel
+Bitte wählen Sie, wie lange der Schlüssel gültig bleiben soll.
+         0 = Schlüssel verfällt nie
+      <n>  = Schlüssel verfällt nach n Tagen
+      <n>w = Schlüssel verfällt nach n Wochen
+      <n>m = Schlüssel verfällt nach n Monaten
+      <n>y = Schlüssel verfällt nach n Jahren
+Wie lange bleibt der Schlüssel gültig? (0) 
 ```
 
-Emailadresse, Angabe der Emailadresse, an die Schlüssel gebunden werden soll .
+Wir möchten, dass unser Schlüssel 2 Jahr gültig ist und geben entsprechend
+`2y` über die Tastatur ein. 
+Nach einem Enter quittiert gpg:
+
 ```
-f punkt latzel ät is-loesungen punkt de
+Key verfällt am Sa 01 Jul 2023 13:12:45 CEST
 ```
 
-Kommentar, in diesem Schritt haben wir die Möglichkeit, unserem Schlüssel zu kommentieren
+Anschließend wird die Eingabe nochmal hinterfragt:
+
 ```
-!Recht auf Datenintegrität!
+Ist dies richtig? (j/N)
 ```
 
-Bestätigung, nach Angabe aller Daten werden diese nochmal ausgegeben, es besteht die Möglichkeit die einzelnen Werte zu korregieren.
+Das bestätigen wir mit `y` gefolgt von Enter.
+
+### Name, Email-Adrese und Kommentar
+
+Jetzt kommen wir zur Eingabe der persönlichen Daten...
+
 ```
-You selected this USER-ID:
-    "Florian Latzel (Individuelle System Lösungen) f punkt latzel ät is-loesungen punkt de"
-Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?
+GnuPG erstellt eine User-ID, um Ihren Schlüssel identifizierbar zu machen.
 ```
 
-Wir bestätigen unsere Angaben sofern diese korrekt sind mit
+Voller bzw. Realname:
 ```
-o
+Ihr Name: Florian Latzel
 ```
 
-Passwort für den privaten Schlüssel.
-Eingabe des Passworts und anschließende Wiederholung, das Passwort wird nicht am Bildschirm ausgegeben.
+Die Email-Adresse, die unsere spätere UID wird...
+```
+Email-Adresse:
+```
 
-### Einen GPG-Revoke-Key erstellen
+Die Email-Adresse `florian@latzel.io`, gefolgt von Enter.
+
+Und ein optionaler Kommentar, den wir mit Enter überspingen.
+```
+Kommentar: 
+```
+
+Es folgt eine letzte Überprüfung:
+```
+Sie haben diese User-ID gewählt:
+    "Florian Latzel <florian@latzel.io>"
+```
+
+```
+Ändern: (N)ame, (K)ommentar, (E)-Mail oder (F)ertig/(A)bbrechen? 
+```
+Wir wollen die Schlüsselerstellung abschließen und geben `F` gefolgt von Enter ein. 
+
+```
+Wir müssen eine ganze Menge Zufallswerte erzeugen.  Sie können dies
+unterstützen, indem Sie z.B. in einem anderen Fenster/Konsole irgendetwas
+tippen, die Maus verwenden oder irgendwelche anderen Programme benutzen.
+Wir müssen eine ganze Menge Zufallswerte erzeugen.  Sie können dies
+unterstützen, indem Sie z.B. in einem anderen Fenster/Konsole irgendetwas
+tippen, die Maus verwenden oder irgendwelche anderen Programme benutzen.
+gpg: /home/florian/.gnupg/trustdb.gpg: trust-db erzeugt
+gpg: Schlüssel F4F62999C3BA4866 ist als ultimativ vertrauenswürdig gekennzeichnet
+gpg: Verzeichnis `/home/florian/.gnupg/openpgp-revocs.d' erzeugt
+gpg: Widerrufzertifikat wurde als '/home/florian/.gnupg/openpgp-revocs.d/3F9F644542DD63E82165D376F4F62999C3BA4866.rev' gespeichert.
+Öffentlichen und geheimen Schlüssel erzeugt und signiert.
+
+pub   rsa4096 2021-07-01 [SC] [verfällt: 2023-07-01]
+      3F9F644542DD63E82165D376F4F62999C3BA4866
+uid                      Florian Latzel <florian@latzel.io>
+sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
+```
+
+
+
+
+## Einen GPG-Revoke-Key erstellen
 
 Es gibt Falle, in dem du deinen Schlüssel auf den Keyservern widerrufen möchtest, 
 wie z.B. eine mittlerweile unzureichenede Stärke des Schlüssels, Schlüssel oder Rechner sind korrumpiert worden.
@@ -365,6 +405,19 @@ Alternativ zur Key-ID kann auch der Fingerabdruck verwendet werden.
 ```
 gpg --send-keys 269B69D1
 ```
+## Historie
+
+
+Verwendet wurde Debian Etch
+mit gpg 1.4.6
+und pinentry 0.7.2.
+
+Getestet wurden:
+
+- Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
+- openSuSE 11 mit gpg2 2.0.9-22.1 und pinentry 0.7.5-5.1
+- Windows Vista mit gnupg-w32cli-1.4.9.exe
+
 
 ## Software für die GnuPG Nutzung
 
