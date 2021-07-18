@@ -66,7 +66,7 @@ Bitte wählen Sie, welche Art von Schlüssel Sie möchten:
    (2) DSA und Elgamal
    (3) DSA (nur signieren/beglaubigen)
    (4) RSA (nur signieren/beglaubigen)
-Ihre Auswahl?
+Ihre Auswahl? 1
 ```
 
 Wir entscheiden uns mit `1` für die Voreinstellung RSA und RSA und bestätigen mit Enter.
@@ -77,7 +77,7 @@ Wahl der Länge bzw. Stärke des Schlüssels, voreingestellt 3072.
 
 ```
 RSA-Schlüssel können zwischen 1024 und 4096 Bit lang sein.
-Welche Schlüssellänge wünschen Sie? (3072) 
+Welche Schlüssellänge wünschen Sie? (3072) 4096
 ```
 
 Wir wählen den Maximalwert von `4096` und bestätigen mit Enter.\\
@@ -104,7 +104,7 @@ Bitte wählen Sie, wie lange der Schlüssel gültig bleiben soll.
       <n>w = Schlüssel verfällt nach n Wochen
       <n>m = Schlüssel verfällt nach n Monaten
       <n>y = Schlüssel verfällt nach n Jahren
-Wie lange bleibt der Schlüssel gültig? (0) 
+Wie lange bleibt der Schlüssel gültig? (0) 2y
 ```
 
 Wir möchten, dass unser Schlüssel 2 Jahr gültig ist und geben entsprechend
@@ -118,7 +118,7 @@ Key verfällt am Sa 01 Jul 2023 13:12:45 CEST
 Anschließend wird die Eingabe nochmal hinterfragt:
 
 ```
-Ist dies richtig? (j/N)
+Ist dies richtig? (j/N) j
 ```
 
 Das bestätigen wir mit `y` gefolgt von Enter.
@@ -138,7 +138,7 @@ Ihr Name: Florian Latzel
 
 Die Email-Adresse, die unsere spätere UID wird...
 ```
-Email-Adresse:
+Email-Adresse: florian@latzel.io
 ```
 
 Die Email-Adresse `florian@latzel.io`, gefolgt von Enter.
@@ -155,7 +155,7 @@ Sie haben diese User-ID gewählt:
 ```
 
 ```
-Ändern: (N)ame, (K)ommentar, (E)-Mail oder (F)ertig/(A)bbrechen? 
+Ändern: (N)ame, (K)ommentar, (E)-Mail oder (F)ertig/(A)bbrechen? F
 ```
 Wir wollen die Schlüsselerstellung abschließen und geben `F` gefolgt von Enter ein. 
 
@@ -178,20 +178,70 @@ uid                      Florian Latzel <florian@latzel.io>
 sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
 ```
 
-
-
-
 ## Einen GPG-Revoke-Key erstellen
+
 
 Es gibt Falle, in dem du deinen Schlüssel auf den Keyservern widerrufen möchtest, 
 wie z.B. eine mittlerweile unzureichenede Stärke des Schlüssels, Schlüssel oder Rechner sind korrumpiert worden.
 
+Mittlerweile generiert GnuPG (unter Ubuntu) via Default einen Widerrufsschlüssel.\\
 Einen GnuPG Widerrufungsschlüssels solltest du unbedingt erstellen und sicher aufbewahren.
 
 Erstellung des GNUPG Revoke-Keys, die Nutzer-ID kann EMail oder die Key-ID sein.
-Hier mit Key-ID `269B69D1`, der Revoke-Key wird in der Datei *269B69D1-revoke-key.asc*.
+Hier mit `florian@latzel.io`, der Revoke-Key wird in die Datei `~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev` 
+geschrieben.
 ```
-gpg --gen-revoke 269B69D1 > 269B69D1-revoke-key.asc
+gpg --gen-revoke florian@latzel.io > ~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev
+```
+
+GnuPG fragt, ob du mit der Erstellung des Widerrufszertifikat fortfahren möchtest,
+`j` - ja wollen wir:
+```
+sec  rsa4096/F4F62999C3BA4866 2021-07-01 Florian Latzel <florian@latzel.io>
+
+Ein Widerrufszertifikat für diesen Schlüssel erzeugen? (j/N) j
+```
+
+Dann kannst du mögliche Gründe angeben.
+Hier lassen wir den Grund mal offen und wählen `0`...
+
+```
+Grund für den Widerruf:
+  0 = Kein Grund angegeben
+  1 = Hinweis: Dieser Schlüssel ist nicht mehr sicher
+  2 = Schlüssel ist überholt
+  3 = Schlüssel wird nicht mehr benutzt
+  Q = Abbruch
+(Wahrscheinlich möchten Sie hier 1 auswählen)
+Ihre Auswahl? 0
+```
+
+...gleiches für die Beschreibung, wir überspringen mit Enter:
+```
+Geben Sie eine optionale Beschreibung ein. Beenden mit einer leeren Zeile:
+> 
+```
+Grund für Widerruf: Kein Grund angegeben
+(Keine Beschreibung angegeben)
+
+Abschließend wird gefragt, ob wir mit den vorher gemachten Eingaben *OK sind*
+und sagen mit `j` *OK*.
+```
+Ist das OK? (j/N) j
+```
+
+Wir bekommen noch ein Tipps für den Umgang mit den Widerrufszertifikat mit:
+```
+Ausgabe mit ASCII Hülle erzwungen
+Widerrufszertifikat wurde erzeugt.
+
+Bitte speichern Sie es auf einem Medium, welches Sie wegschließen
+können; falls Mallory (ein Angreifer) Zugang zu diesem Zertifikat
+erhält, kann er Ihren Schlüssel unbrauchbar machen.  Es wäre klug,
+dieses Widerrufszertifikat auch auszudrucken und sicher aufzubewahren,
+falls das ursprüngliche Medium nicht mehr lesbar ist.  Aber Obacht: Das
+Drucksystem kann unter Umständen anderen Nutzern eine Kopie zugänglich
+machen.
 ```
 
 ### Einen GPG-Subkey erstellen
