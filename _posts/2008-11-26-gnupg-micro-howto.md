@@ -178,13 +178,14 @@ uid                      Florian Latzel <florian@latzel.io>
 sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
 ```
 
-## Einen GPG-Revoke-Key erstellen
+## Ein GPG Widerrufs (Revoke) Zertifikat erstellen
 
 
 Es gibt Falle, in dem du deinen Schlüssel auf den Keyservern widerrufen möchtest, 
 wie z.B. eine mittlerweile unzureichenede Stärke des Schlüssels, Schlüssel oder Rechner sind korrumpiert worden.
 
-Mittlerweile generiert GnuPG (unter Ubuntu) via Default einen Widerrufsschlüssel.\\
+Mittlerweile generiert GnuPG (unter Ubuntu) via Default einen Widerrufszertifikat 
+bei der Schlüsselerstellung(s.o).\\
 Einen GnuPG Widerrufungsschlüssels solltest du unbedingt erstellen und sicher aufbewahren.
 
 Erstellung des GNUPG Revoke-Keys, die Nutzer-ID kann EMail oder die Key-ID sein.
