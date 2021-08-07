@@ -14,6 +14,7 @@ tags:
 layout: post
 permalink: /gnupg-micro-howto.html
 title: GnuPG (GPG) Micro Howto
+image: /assets/imgs/1280px-GnuPG.svg.png
 ---
 <figure role="group">
   <img src="/assets/imgs/1280px-GnuPG.svg.png" alt="GnuPG Logo 1280x387" title="GnuPG Logo" />
@@ -23,11 +24,11 @@ GnuPG ist eine freie Kryptographiesoftware,
 die das *OpenPG Message Format* gemäß *RFC 4880[^rfc4880]* implementiert
 und unter Linux, MacOS, Windows sowie anderen unixioden System nutzbar ist.\\
 Diese wird zum Ver- und Entschlüsseln sowie Erzeugung und Überprüfung von Signaturen genutzt,
-Beispiele sind verschlüsselte EMailkommunikation 
+Verwendungsbeispiele sind verschlüsselte EMailkommunikation 
 oder die Sicherstellung der Integrität durch signierte Softwarepakete wie unter Debian.
 
-Dieses Howto beschreibt die Schlüsselerstellung, gebräuchliche Anwendungsfälle 
-und Konfiguration von GnuPG auf der Kommandozeile 
+Dieses Howto beschreibt die Schlüsselerstellung, gebräuchliche Anwendungsfälle,
+das Arbeiten mit Keyservern, Konfiguration von GnuPG auf der Kommandozeile 
 und ist auf alle oben genannten Systeme übertragbar<!--break-->
 
 ## Konzept und Terminologie
