@@ -19,15 +19,34 @@ title: GnuPG (GPG) Micro Howto
   <img src="/assets/imgs/1280px-GnuPG.svg.png" alt="GnuPG Logo 1280x387" title="GnuPG Logo" />
   <figcaption>GnuPG Logo, Thomas Wittek, GnuPG Projekt, Gemeinfrei</figcaption>
 </figure>
-Installation, Konfiguration und Nutzung von GnuPG auf der Kommandozeile unter Linux, MacOSX und Windows.<!--break-->
+GnuPG ist eine freie Kryptographiesoftware, 
+die das *OpenPG Message Format* gemäß *RFC 4880[^rfc4880]* implementiert
+und unter Linux, MacOS, Windows sowie anderen unixioden System nutzbar ist.\\
+Diese wird zum Ver- und Entschlüsseln sowie Erzeugung und Überprüfung von Signaturen genutzt,
+Beispiele sind verschlüsselte EMailkommunikation 
+oder die Sicherstellung der Integrität durch signierte Softwarepakete wie unter Debian.
+
+Dieses Howto beschreibt die Schlüsselerstellung, gebräuchliche Anwendungsfälle 
+und Konfiguration von GnuPG auf der Kommandozeile 
+und ist auf alle oben genannten Systeme übertragbar<!--break-->
 
 ## Konzept und Terminologie
 
-GnuPG verwendet das sog. Public-Key-Verschlüsselungsverfahren[^1], dass heißt, das es 2 Arten von Schlüssel gibt, Öffentliche- (Public Keys)[^2] und Private Schlüssel (private Keys)[^3]. Jeder Schlüssel hat sein dazugehöriges Gegenstück, allgemein als Schlüsselpaar bezeichnet.
+GnuPG verwendet das sog. Public-Key-Verschlüsselungsverfahren[^1], 
+dass heißt, das es 2 Arten von Schlüssel gibt, 
+Öffentliche- (Public Keys)[^2] und Private Schlüssel (private Keys)[^3]. 
+Jeder Schlüssel hat sein dazugehöriges Gegenstück, allgemein als Schlüsselpaar bezeichnet.
 
-Der öffentlicher Schlüssel wird wird zum Verschlüsseln und zur Überprüfung von Signaturen genutzt und muss deinem Kommunikationspartner zur Verfügung stehen damit er diese Aktionen ausführen kann und wird i.d.R. über z.B. sog. Keyserver öffentlich verbreitet.
+Der öffentlicher Schlüssel wird wird zum Verschlüsseln 
+und zur Überprüfung von Signaturen genutzt 
+und muss deinem Kommunikationspartner zur Verfügung stehen 
+damit er diese Aktionen ausführen kann 
+und wird i.d.R. über z.B. sog. Keyserver öffentlich verbreitet.
 
-Der private Schlüssel wird hingegen zum Signieren und Entschlüsseln genutzt und sollte, wie der Name schon vermuten lässt eher nicht weitergegeben werden und ist i.d.R mit einem Passwort geschützt.
+Der private Schlüssel wird hingegen zum Signieren 
+und Entschlüsseln genutzt und sollte, 
+wie der Name schon vermuten lässt eher nicht weitergegeben werden 
+und ist i.d.R mit einem Passwort geschützt.
 
 Die Schlüssel werden über Schlüsselbünde verwaltet, auch hier wieder die Unterscheidung:
 
@@ -509,5 +528,7 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 [^1]: [Public-Key Verschlüsselungsverfahren](https://de.wikipedia.org/wiki/Public-Key-Verschl%C3%BCsselungsverfahren)
 [^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel))
 [^3]: [Privater Schlüssel](https://de.wikipedia.org/wiki/Geheimer_Schl%C3%BCssel)
+[^rfc4880]: [RFC 4880 - OpenPGP Message Format](https://datatracker.ietf.org/doc/html/rfc4880)
 [^4]: [Schlüsselserver](https://de.wikipedia.org/wiki/Schl%C3%BCsselserver)
 [^5]: [Keysigning-Party](https://de.wikipedia.org/wiki/Keysigning-Party)
+
