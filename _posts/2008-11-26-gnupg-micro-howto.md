@@ -37,8 +37,10 @@ Die Schlüssel werden über Schlüsselbünde verwaltet, auch hier wieder die Unt
 ## Erstellung eines GnuPG Schlüsselpaares
 
 Zur Erstellung eines GnuPG Schlüsselpaares ist der folgende Befehl 
-unter deiner Benutzer-ID, der den Key auch nutzen soll auszuführen. 
-Andernfalls muss der Ort durch *--homedir /home/foobar/.gnupg* angeglichen werden.
+unter deiner Benutzer-ID, 
+also dem Benutzer unter dem der Key auch genutzt werden soll auszuführen. 
+Andernfalls müssen der Ort durch `--homedir` angegeben
+und ggf. Berechtigungen angepasst werden.
 
 ```
 gpg --full-generate-key 
@@ -245,7 +247,9 @@ Drucksystem kann unter Umständen anderen Nutzern eine Kopie zugänglich
 machen.
 ```
 
-### Einen GPG-Subkey erstellen
+## Dem GPG-Key weitere Email Adressen (uid's) hinzufügen
+
+Unterschied `addkey` vs `adduid`?
 
 Mehrere Email Adressen mit einem GPG-Key nutzen.
 
@@ -255,7 +259,13 @@ die sich dann im gleichen Schlüsselbund befinden und das selbe Passwort für de
 
 Der Aufruf von gpg kann auch über die ID als Parameter vollzogen werden.
 ```
-gpg --edit-key f punkt latzel ät is-loesungen punkt de
+gpg  --edit-key florian@latzel.io adduid
+```
+
+oder über zwei Schritte, 1:
+
+```
+gpg  --edit-key florian@latzel.io adduid
 ```
 
 Wir befinden uns jetzt im interaktiven Modus von gnupg,
