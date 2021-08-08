@@ -343,6 +343,8 @@ save
 
 ## Konfiguration von GnuPG
 
+### ~/.gnupg/options
+
 Konfiguration von GnuPG in *~/.gnupg/options*.
 
 Unter Debian und Ubuntu heißt die zuständige Konfigurationsdatei options, diese befindet in unserem Heimatverzeichnis im Verzeichnis .gnupg.
@@ -352,14 +354,16 @@ die Direktive keyserver ist für die Interaktion mit den Keyservern im Internet 
 ```
 default-key 269B69D1
 keyserver hkp://wwwkeys.eu.pgp.net
-require-cross-certification
 charset utf-8
 use-agent
 ```
 
 *~/.gnupg/gpg.conf*, unter opensuse 11 heißt das Pedant zu *~/.gnupg/options* unter Debian *gpg.conf*, die Inhalte sind gleich.
 
-## Konfiguration des gpg-agents
+### ~/.gnupg/gpg-agent.conf
+
+Konfiguration des gpg-agents in *~/.gnupg/gpg-agent.conf*
+
 
 ```
 pinentry-program /usr/bin/pinentry-qt
@@ -436,7 +440,11 @@ gpg --import <Datei>
 
 ### Arbeiten mit Keyservern
 
-#### Public-Key auf Keyserver veröffentlichen
+#### Public-Key auf Keyserver keys.openpgp.org veröffentlichen
+
+**Platzhalter für Intro, Screenshots und curl + Double OptIn**
+
+#### Public-Key an Keyserver senden
 
 Damit unser öffentlicher Schlüssel jedem zur Verfügung stehen kann, exportieren wir ihn auf den Schlüsselserver[^4].
 ```
@@ -451,16 +459,43 @@ gpg --keyserver subkeys.pgp.net --send-key 269B69D1
 
 #### Schlüssel auf Keyserver suchen
 
-Bei einer erfolgreichen Suchanfrage besteht die Möglichkeit, gefundenen Schlüssel interaktiv in den Schlüsselbund zu importieren.
+Suche nach EMail-Adresse (uid) 
+```
+gpg --search-keys florian@latzel.io
+```
+oder Key-ID
+```
+gpg --search-keys F4F62999C3BA4866
+```
 
-Suche auf dem Keyserver, z.B. nach Namen
+Bei einer erfolgreichen Suchanfrage besteht die Möglichkeit, 
+gefundenen Schlüssel interaktiv in den Schlüsselbund zu importieren.
+Im folgenden Besispiel geschieht das 
+über die Eingabe der Nummer des Schlüssels hier `1`,
+für den einen gefundenen Schlüssel `(1)`, erkennbar in Zeile 2.
+
 ```
-gpg --search-keys 'Florian Latzel'
+gpg: data source: https://keys.openpgp.org:443
+(1)     Florian Latzel <floh@netzaffe.de>
+        Florian Latzel <florian.latzel@gmail.com>
+        Florian Latzel <florian.latzel@is-loesungen.de>
+        Florian Latzel <florian@latzel.io>
+          4096 bit RSA key F4F62999C3BA4866, erzeugt: 2021-07-01
+Keys 1-1 of 1 for "florian@latzel.io".  Eingabe von Nummern, Nächste (N) oder Abbrechen (Q) > 1
 ```
 
-oder sie Suche nach einer EMail-Adresse
+Die Suche nach Namen oder Teilstring der E-Mail Adresse 
+klappt aus Datenschutzgründen auf keys.openpgp.org nicht.
+
+Durch Angabe eines anderen Keyservers ist dies aber dennoch möglich:
+
+Suche nach Namen...
 ```
-gpg --search-keys f punkt latzel ät is-loesungen punkt de
+gpg --keyserver pgp.mit.edu --search-keys 'Florian Latzel' 
+```
+Suche Teilstring Domain der E-Mail Adresse...
+```
+gpg --keyserver pgp.mit.edu --search-keys 'is-loesungen.de' 
 ```
 
 #### Public-Key von Keyserver importieren
@@ -470,7 +505,7 @@ Um einen Public-Key, dessen Key-ID bekannt ist vom Keyserver herunterzuladen, wi
 gpg --recv-keys 269B69D1
 ```
 
-### Schlüssel widerrufen
+#### Schlüssel widerrufen
 
 Den Revoke-Key importieren.
 
@@ -527,7 +562,7 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 - [Einfach erklärt: E-Mail-Verschlüsselung mit PGP](https://www.heise.de/ct/artikel/Einfach-erklaert-E-Mail-Verschluesselung-mit-PGP-4006652.html)
 
 [^1]: [Public-Key Verschlüsselungsverfahren](https://de.wikipedia.org/wiki/Public-Key-Verschl%C3%BCsselungsverfahren)
-[^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel))
+[^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel)
 [^3]: [Privater Schlüssel](https://de.wikipedia.org/wiki/Geheimer_Schl%C3%BCssel)
 [^rfc4880]: [RFC 4880 - OpenPGP Message Format](https://datatracker.ietf.org/doc/html/rfc4880)
 [^4]: [Schlüsselserver](https://de.wikipedia.org/wiki/Schl%C3%BCsselserver)
