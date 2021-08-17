@@ -103,32 +103,39 @@ Hier der Stand vom 30. März 2021:
 ```shell
 #!/bin/bash
 
-# Deployment of Jekyll-Sites  
-# via Git Bare Repository and post-receive hook.
+# Deployment of Jekyll-Sites via Git Bare Repository and post-receive hook.
+#
+# USAGE:
+# - Place this script as .hooks/post-receive within your git bare repository
+# - ${SCRIPT} /path/to/git-bare-repository
 #
 # See https://netzaffe.de/jekyll-deployment-via-bare-repository-und-post-receive-hook.html
-# for requirements and more detailed description (german)
+# for setup and a more detailed description (german)
 # set -x
 
-# Get pushed branch
+## Get pushed branch when called via git hook
+if [ -z "$1" ]; then
+  read oldrev newrev ref
+  pushed_branch=${ref#refs/heads/}
+else
+## Script is called directly with supplied bare repository argument
+  [ -d "$1" ] && { cd $1 ; git rev-parse --is-bare-repository ; } &> /dev/null || exit
+  pushed_branch=""
+fi
 
-read oldrev newrev ref 
-pushed_branch=${ref#refs/heads/} 
-
-## Source configuration from repository
-
+## Get configuration file from bare repository and source it
 config=$(mktemp)
-git-show HEAD:deploy.conf > $config || exit 
+git show HEAD:deploy.conf > $config || exit
 source $config
 
-## Do the magic
-
-[ "$pushed_branch" != "$build_branch" ] && exit 1
+[ -z "$pushed_branch" ] && build_branch=$pushed_branch
+[ "$pushed_branch" != "$build_branch" ] && exit
 tmp=$(mktemp -d)
 git clone $git_repo $tmp
 cd $tmp
 bundle install || bundle install --redownload
-bundle exec jekyll build --source $tmp --destination $www
+JEKYLL_ENV=${env:-production} \
+  bundle exec jekyll build --source $tmp --destination $www $build_prefix
 rm -rf $tmp $config
 ```
 
@@ -183,6 +190,7 @@ chmod +x ~/repos/jekyll_deployment/post-receive
 ### deploy.conf - Anpassung der Variablen
 
 Mit dieser Konfiguration für das *post-receive* Skript verfährst du wie folgt:
+
 1. Kopiere hierzu *deploy.conf* in die Hauptebene deines lokalen *Jekyll Repositories* 
 2. Passe die Variablen auf die Bedürfnisse deines Zielsystems hin an
 3. *Committe* diese Datei anschließend
@@ -193,13 +201,19 @@ sind nur `subdomain` und `domain` anzupassen.
 Alle anderen Variablen sind vorbelegt, werden zusammengesetzt oder sind optional.
 
 - `build_branch`, Der Branch der gebaut werden soll z.B. `master`.
-- `subdomain`, optional. z.B. `sub.` oder leer. Falls gesetzt, achte auf den `.` am Ende!
-- `domain` Name der Domain, z.B. 'netzaffe.de'.
-- `git_repo` Pfad zu Jekyll Bare Repo auf dem Server z.B. `${HOME}/repos/${domain}` 
--  `www` Pfad zur *Document root* auf dem Server, 
+- `subdomain`, optional. z.B. `preview.` oder leer. Falls gesetzt, 
+achte auf den `.` am Ende!\\
+Wird mit u.g. Domain zu `preview.netzaffe.de`.
+- `domain`, Name der Domain, z.B. `netzaffe.de`.
+- `git_repo`, Pfad zum Jekyll Bare Repository auf dem Server\\
+z.B. `${HOME}/repos/${domain}` 
+-  `www`, Pfad zur *Document root* auf dem Server, 
 wo das generierte HTML ausgeliefert wird,  
-z.B `www=/var/www/virtual/${USER}/${subdomain}${domain}`. 
-Dieses Pfadschema ist *uberspace spezifisch*, aber natürlich anpassbar.
+z.B `www=/var/www/virtual/${USER}/${subdomain}${domain}`.   
+Dieses Pfadschema ist *uberspace spezifisch* und natürlich anpassbar.
+- `env`, Wert für `JEKYLL_ENV`, default `production`
+- `build_option`, Option die `bundle excec jekyll build` angefügt wird,\\
+z.B. `--incremental`
 
 ### Bonus Smash: jekyll_deployment.sh
 
