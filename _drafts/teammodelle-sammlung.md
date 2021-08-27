@@ -9,8 +9,15 @@ tags:
 - Team Coach
 - Tuckmann
 - Coaching
+permalink: /team-modelle-sammlung
 ---
+Wenn es um Modelle zu Teams, Teamentwicklung und Team-Persönlichkeiten geht,
+dann denkt man sicher an Tuckman's Teamphasen, vielleicht an Belbins Teamrollen 
+oder an die fünf Dysfunktionen eines Teams laut Lencioni.
+
+Es gibt einige mehr, das ist der Versuch einer Sammlung.
 <!--break-->
+
 ## Teamphasenmodell nach Tuckman (und Klotz)
 
 - Bruce Wayne Tuckman,  Psychologe, Organisationsberater und Hochschullehrer 
@@ -56,7 +63,14 @@ Trust Pyramid oder auch Teamperformance-Pyramide
   - Teameffektivität
 - Dreieck
 
+
 ## Teamrollen nach Belbin
+
+## Team-Persönlichkeiten nach Riemann-Thomann  
+
+Psychologen Fritz Riemann und Christoph Thomann.
+
+- 4 Grundausrichtungen
 
 ## Teamrad & Team Management System
 
