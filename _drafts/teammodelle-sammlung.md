@@ -1,5 +1,5 @@
 ---
-title: Team Modelle
+title: Team Modelle - Der Versuch einer Sammlung
 layout: post
 toc: true
 tags:
@@ -24,4 +24,73 @@ tags:
 - 5. Phase Adjourning - Auflösungsphase(1977)[^tuckman-klotz] 
 - 6. Phase Endjourning - Wiederzusammenkommensphase lt. Klotz (2000)[^tuckman-klotz]
 
+## Authority Modell nach Hackmann
+
+## Das JoHari Fenster
+
+- Namesgeber[^johari] Sozialpsychologen Joseph Luft und Harry Ingham
+- 4 Quadranten einer Matrix
+  - Öffentliche Person
+  - Blinder Fleck
+  - Mein Geheimnis
+  - Unbekanntes
+- 2 Wahrnehmnungen /Bilder mit je Abstufung bekannt und unbekannt
+  - Selbstwahrnehmung / Selbstbild
+  - Fremdwahrnehmung
+- Preisgabe -> Vertrauen
+- Beobachtungen, Wahrnehmung -> Feedback
+- 56 Adjektive 
+
+## Die 5 Dysfunktionen eines Teams 
+ 
+5 Dysfunctions of a team nach Patrick Lencioni
+
+Trust Pyramid oder auch Teamperformance-Pyramide 
+- Pyramide 5 Dysfunctions
+- Pyramide 5 Solutions/passende Funktionen
+
+## Das Praxis Modell nach Katzenbach und Smith
+
+- Quadrant/Matrix 
+  - Perfomance 
+  - Teameffektivität
+- Dreieck
+
+## Teamrollen nach Belbin
+
+## Teamrad & Team Management System
+
+Nach Charles Magerison und Dr. Dick Melan
+- 8 Linking Skills / Arbeitsfunktionen
+- 4 Präferenzen 
+- 13 Fähigkeiten
+- Spinnennetzanalyse
+
+## Teaminterventionen nach West
+
+1994 
+- 5 Hauptformen
+
+## Team Process Modell nach Blendell
+
+## GRPI Modell nach Beckard
+
+1972
+
+## Team Performance nach Drexler und Sibbet
+
+## T7 Modell nach Eichinger und Lombardo
+
+1997
+
+## Connect nach Lafaste und Larsen
+
+2001
+
+## ERFOLGs Modell nach Kotrba und Miarka
+
+Aus *Agile Teams lösungsorientiert coachen*, Seite 105
+
+
 [^tuckman-klotz]: <https://de.wikipedia.org/wiki/Teambildung#Phasenmodell_nach_Tuckman_und_Klotz>
+[^johari]: <https://de.wikipedia.org/wiki/Johari-Fenster>
