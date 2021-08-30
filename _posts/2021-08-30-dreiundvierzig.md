@@ -2,7 +2,7 @@
 title: Dreiunvierzig
 tags:
 - Leben
-- Jubileum
+- Jubiläum
 - Tod
 - Trauer
 layout: post
