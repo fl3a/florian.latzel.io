@@ -3,10 +3,10 @@ title: 3 Jahre Festangestellt bei REWE digital
 tags:
 - Scrum Master
 - Reinblau
+- Jubiläum
 - Drupal
 - müllem
 - Draussen
-- REWE digital
 image: /assets/imgs/florian-latzel-agile-einfuehrungsverantaltung-lego-city-rewe-digital.jpg
 layout: post
 ---
