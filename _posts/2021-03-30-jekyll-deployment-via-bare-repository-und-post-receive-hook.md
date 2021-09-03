@@ -91,6 +91,8 @@ BUNDLE_PATH: "~/.gem"
 
 ## Das Deployment Skript
 
+### Nutzung als post-receive Git Hook
+
 Wenn der komplette Prozess der Übertragung (Push) abgeschlossen ist, 
 greift serverseitig der sogenannte **post-receive Hook**[^hooks]
 und führt das gleichnamige Skript (sofern vorhanden) aus.
@@ -98,70 +100,11 @@ und führt das gleichnamige Skript (sofern vorhanden) aus.
 Das [Jekyll uberspace deployment Skript](https://github.com/fl3a/jekyll_deployment)
 welches wir als *post-receive Hook*[^hooks] nutzen 
 findest du [hier](https://github.com/fl3a/jekyll_deployment) auf github.  
-Hier der Stand vom 30. März 2021:
 
-```shell
-#!/bin/bash
-
-# Deployment of Jekyll-Sites via Git Bare Repository and post-receive hook.
-#
-# USAGE:
-# - Place this script as .hooks/post-receive within your git bare repository
-# - ${SCRIPT} /path/to/git-bare-repository
-#
-# See https://netzaffe.de/jekyll-deployment-via-bare-repository-und-post-receive-hook.html
-# for setup and a more detailed description (german)
-# set -x
-
-## Get pushed branch when called via git hook
-if [ -z "$1" ]; then
-  read oldrev newrev ref
-  pushed_branch=${ref#refs/heads/}
-else
-## Script is called directly with supplied bare repository argument
-  [ -d "$1" ] && { cd $1 ; git rev-parse --is-bare-repository ; } &> /dev/null || exit
-  pushed_branch=""
-fi
-
-## Get configuration file from bare repository and source it
-config=$(mktemp)
-git show HEAD:deploy.conf > $config || exit
-source $config
-
-[ -z "$pushed_branch" ] && build_branch=$pushed_branch
-[ "$pushed_branch" != "$build_branch" ] && exit
-tmp=$(mktemp -d)
-git clone $git_repo $tmp
-cd $tmp
-bundle install || bundle install --redownload
-JEKYLL_ENV=${env:-production} \
-  bundle exec jekyll build --source $tmp --destination $www $build_prefix
-rm -rf $tmp $config
-```
-
-### Beschreibung des Skripts 
-
-1. Einlesen des gepushten Branches 
-um ihn später vergleichen zu könnnen  (Zeile 12 & 13)
-2. Umleiten des Inhalts der Datei `deploy.conf` 
-aus den Repository in eine temporäre Datei und Einlesen dieser(Zeile 17 bis 19)
-3. Prüfung ob der in 1. übertragene Branch
-mit der via Variable `build_branch`übereinstimmt, 
-ansonsten Abbruch (Zeile 23). 
-4. Anlegen eines temporären Verzeichnisses
-5. Klonen des Bare-Repos[^bare] in ein temporäres Verzeichnis (Zeile 25).
-6. Verzeichniswechsel in das temporäres Verzeichnis.
-7. Installation der im Gemfile spezifizierten Abhängigkeiten via `bundle install`[^bundler].
-Falls `bundle install` fehlschlägt, 
-wird das nochmal mit der Option `--redownload`[^reinstall] versucht.
-8. Generierung des HTML aus *tmp* in die mit `www` spezifizierte *Document Root* 
-via `jekyll build` 
-5. Löschung temporäres Verzeichniss und Datei. Dat wor et!
-
-### post-receive Hook
+#### Einrichtung des post-receive Hooks
 
 Als Erstes entfernen wir den *Default post-receive Hook* aus dem Bare-Repository
-um ihn später durch einen Link auf unser Skript zu ersetzen.
+um ihn später durch einen symbolischen Link auf unser Skript zu ersetzen.
 
 ```
 rm ~/repos/netzaffe.de/hooks/post-receive
@@ -186,6 +129,104 @@ Last but not least, muss das Skript noch ausführbar gemacht werden:
 ```
 chmod +x ~/repos/jekyll_deployment/post-receive
 ```
+
+### Direkter Aufruf mit dem Jekyll Repo als Argument
+
+Die Datei `jekyll_deployment.sh` ist für die direkte Ausführung auf dem Zielsystem
+und manchmal ganz nützlich um das Deployment ohne einen Push 
+anzustoßen, wenn z.B. *bundler*[^bundler] mal wieder zickt.
+
+Es sind die gleichnamigen Variablen wie vorigen Abschnitt im Skript selbst anzupassen
+und die Datei oder ein Link sollten sich im Suchpfad befinden.
+
+### Der Code
+
+Hier der Stand vom 03. September 2021:
+
+CSS: 
+```
+figure.highlight { 
+  pre {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  code table {
+    margin-bottom: 0;
+  } 
+  td {
+    padding: 0px 8px;
+    margin-bottom: 0;
+  }
+}
+```
+
+jkjj
+
+{% highlight bash linenos %}
+#!/bin/bash
+
+# Deployment of Jekyll-Sites via Git Bare Repository and post-receive hook.
+#
+# USAGE:
+# - git hook: Place this script as .hooks/post-receive within your git repository
+# - standalone: ${SCRIPT} /path/to/git-bare-repository
+#
+# See https://florian.latzel.io/jekyll-deployment-via-bare-repository-und-post-receive-hook.html
+# for setup and a more detailed description (german)
+#
+# set -x
+
+if [ -z "$1" ]; then
+  read oldrev newrev ref
+  pushed_branch=${ref#refs/heads/}
+elif [ -d "$1" ] && { cd $1 ; git rev-parse --is-bare-repository ; } >/dev/null; then
+  pushed_branch=""
+else
+  exit
+fi
+
+config=$(mktemp)
+git show HEAD:deploy.conf > $config || exit
+source $config
+
+[ -z "$pushed_branch" ] && build_branch=$pushed_branch
+[ "$pushed_branch" != "$build_branch" ] && exit
+tmp=$(mktemp -d)
+git clone $git_repo $tmp
+cd $tmp
+bundle install || bundle install --redownload
+JEKYLL_ENV=${env:-production} \
+  bundle exec jekyll build --source $tmp --destination $www $build_prefix
+rm -rf $tmp $config
+{% endhighlight %}
+
+#### Beschreibung des Skripts 
+
+1. *"Debug Modus"*, entfernen der Raute um mehr Ausgaben zu sehen (Zeile 12) 
+2. Überprüfung ob keine Parameter übergeben wurden(Zeile 14), Indikator für Git-Hook
+3. Einlesen des gepushten Branches(Zeile 15 und 15) um ihn später vergleichen zu könnnen  
+3. Test ob es sich um ein Verzeichnis handelt, Verzeichnswechsel dort hinein 
+und testen ob es sich um ein *Bare-Repository* handelt (Zeile 20), sonst Exit (Zeile 20)
+4. Zusweisung Variable eines leeren Strings auf `pushed_branch` im Fall von 4. (Zeile 18)
+5. Anlegen einer temporären Variablen `config` (Zeile 23)
+6. Umleiten des Inhalts der Datei *deploy.conf* aus dem Bare-Repository,
+die unsere Konfiguration für das Deployment enthält in die Variable `$config`,
+falls die Datei existiert sonst `exit` (Zeile 24)
+7. Einlesen der Konfiguration aus der Variablen `$config`(Zeile 25)
+8. Falls Variable `$pushed_branch` leer ist (vergl. Zeile 18),
+dann bekommt die Variable `build_branch` den gleichen Wert den `$pushed_branch` enthält
+9. Die Variablen `$pushed_branch` und `$build_branch` werden auf Ungleichheit verglichen,
+ist das der Fall, dann wird das Skript mit `exit` verlassen (Zeile 28).
+10. Anlegen eines temporären Verzeichnises Names `tmp` (Zeile 29)
+11. Klonen des Bare-Repos[^bare] das das temporäre Verzeichnis `tmp` (Zeile 30).
+12. Verzeichniswechsel in das temporäres Verzeichnis `$tmp` (Zeile 31)
+13. Installation der im Gemfile spezifizierten Abhängigkeiten via `bundle install`[^bundler].
+Falls `bundle install` fehlschlägt, 
+wird das nochmal mit der Option `--redownload`[^reinstall] versucht (Zeile 32)
+14. Setzen von der Variable `JEKYLL_ENV` und Generierung des HTML 
+aus `$tmp` in die mit `$www` spezifizierte *Document Root* via `jekyll build` 
+15. Löschung des temporären Verzeichnisses `$tmp` und der Datei `$config`. Dat wor et!
+
 
 ### deploy.conf - Anpassung der Variablen
 
@@ -215,16 +256,7 @@ Dieses Pfadschema ist *uberspace spezifisch* und natürlich anpassbar.
 - `build_option`, Option die `bundle excec jekyll build` angefügt wird,\\
 z.B. `--incremental`
 
-### Bonus Smash: jekyll_deployment.sh
-
-Die Datei `jekyll_deployment.sh` ist für die direkte Ausführung auf dem Zielsystem
-und manchmal ganz nützlich um das Deployment ohne einen Push 
-anzustoßen, wenn z.B. *bundler*[^bundler] mal wieder zickt.
-
-Es sind die gleichnamigen Variablen wie vorigen Abschnitt im Skript selbst anzupassen
-und die Datei oder ein Link sollten sich im Suchpfad befinden.
-
-## Nötige Schritte im lokalen Git-Repository
+### Nötige Schritte im lokalen Git-Repository
 
 Das waren die Schritte auf deinem Uberspace, 
 weiter gehts in deinen lokalen Git Repository.
