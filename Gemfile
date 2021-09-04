@@ -43,6 +43,8 @@ group :jekyll_plugins do
 
   # https://github.com/wildlyinaccurate/jekyll-responsive-image
   gem 'jekyll-responsive-image'
+
+  gem 'rouge', '3.3.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
