@@ -139,7 +139,9 @@ rm -rf $tmp $config
 2. Indikator für Git-Hook: Überprüfung ob keine Parameter übergeben wurden(Zeile 14)
 3. Einlesen des gepushten Branches(Zeile 15 und 15) um ihn später vergleichen zu könnnen  
 3. Test ob es sich um ein Verzeichnis handelt, Verzeichnswechsel dort hinein 
-und testen ob es sich um ein *Bare-Repository* handelt (Zeile 20), sonst Exit (Zeile 20)
+und testen ob es sich um ein *Bare-Repository* handelt (Zeile 20), sonst Exit.
+Die Standardausgabe, also `true` wird nach `/dev/null` geschrieben 
+während der Fehlerkanal bewusst ausgegeben wird (Zeile 20)
 4. Zusweisung eines leeren Strings auf Variable `pushed_branch` (Zeile 18)
 5. Anlegen einer temporären Variablen `config` (Zeile 23)
 6. Umleiten des Inhalts der Datei *deploy.conf* aus dem Bare-Repository,
@@ -288,7 +290,7 @@ Kannte ich nicht, das will ich mal ausprobieren.
 - Noch keine README im Repository, aber über *goldene Türklinken* nachdenken.
 *jekyll_deployment.sh* ist im Vergleich zu *post-receive* nicht so schön und schlank,
 aber die grundlegenede Funktionalität ist in beiden Skipten gleich... 
-Auslagern🧠, es geht schöner⌨️!
+Auslagern🧠, es geht schöner⌨️[^standalone]!
 Verlieren wir uns nicht in Schönheit 
 und bringen wir diesen Post erstmal ins Netz, Florian☝️.
 Es handelt sich hierbei ja eigentlich um ein Abfallprodukt, 
@@ -326,3 +328,4 @@ Vorbereitende Schritte, Anpassung des Jekyll Drupal6 Importers und Nacharbeiten
 [^exit]: [exit > Wiki > ubuntuusers.de](https://wiki.ubuntuusers.de/exit/)
 [^traps]: [Unix / Linux - Signals and Traps](https://www.tutorialspoint.com/unix/unix-signals-traps.htm)
 [^ours]: [How to make Git preserve specific files while merging](https://medium.com/@porteneuve/how-to-make-git-preserve-specific-files-while-merging-18c92343826b)
+[^standalone]: 2021-09-04: Ich habe die 2 Skipte zu einem zusammengefasst und diesen Artikel entsprechend aktualisiert. Eine README gibt es immer noch nicht🤣.
