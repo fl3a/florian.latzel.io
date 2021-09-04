@@ -93,8 +93,7 @@ BUNDLE_PATH: "~/.gem"
 
 ### Der Code
 
-Hier der Stand vom 03. September 2021:
-
+Hier der Stand vom 03. September 2021: 
 {% highlight bash linenos %}
 #!/bin/bash
 
