@@ -94,3 +94,17 @@ footer {
   }
 }
 
+/* Code */
+figure.highlight {
+  pre {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  code table {
+    margin-bottom: 0;
+  }
+  td {
+    padding: 0px 8px;
+    margin-bottom: 0;
+  }
+}

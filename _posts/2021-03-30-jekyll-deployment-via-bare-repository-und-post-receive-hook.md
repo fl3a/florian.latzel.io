@@ -95,25 +95,6 @@ BUNDLE_PATH: "~/.gem"
 
 Hier der Stand vom 03. September 2021:
 
-CSS: 
-```
-figure.highlight { 
-  pre {
-    padding: 0;
-    margin-bottom: 0;
-  }
-  code table {
-    margin-bottom: 0;
-  } 
-  td {
-    padding: 0px 8px;
-    margin-bottom: 0;
-  }
-}
-```
-
-jkjj
-
 {% highlight bash linenos %}
 #!/bin/bash
 
