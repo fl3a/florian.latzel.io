@@ -136,7 +136,7 @@ rm -rf $tmp $config
 
 1. *"Debug Modus"*, entfernen der Raute um mehr Ausgaben zu sehen (Zeile 12) 
 2. Indikator für Git-Hook: Überprüfung ob keine Parameter übergeben wurden(Zeile 14)
-3. Einlesen des gepushten Branches(Zeile 15 und 15) um ihn später vergleichen zu könnnen  
+3. Einlesen des gepushten Branches(Zeile 15 und 16) um ihn später vergleichen zu könnnen  
 3. Test ob es sich um ein Verzeichnis handelt, Verzeichnswechsel dort hinein 
 und testen ob es sich um ein *Bare-Repository* handelt (Zeile 20), sonst Exit.
 Die Standardausgabe, also `true` wird nach `/dev/null` geschrieben 
