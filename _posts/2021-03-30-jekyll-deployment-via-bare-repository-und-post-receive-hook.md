@@ -49,14 +49,14 @@ cd repos
 
 und erstellen den Ordner für das Repository auf das wir später *pushen* wollen.
 In diesem Fall entspricht der Ordnername der Domain.
-Ab hier solltest du das exemplarische *netzaffe.de* durch deine Domain ersetzen.
+Ab hier solltest du das exemplarische *florian.latzel.io* durch deine Domain ersetzen.
 ```
-mkdir netzaffe.de
+mkdir florian.latzel.io
 ```
 
 und wechseln hinein.
 ```
-cd netzaffe.de
+cd florian.latzel.io
 ```
 
 Jetzt initialisieren wir den Ordner als **Bare Repository**[^bare].
@@ -90,54 +90,6 @@ BUNDLE_PATH: "~/.gem"
 ```
 
 ## Das Deployment Skript
-
-### Nutzung als post-receive Git Hook
-
-Wenn der komplette Prozess der Übertragung (Push) abgeschlossen ist, 
-greift serverseitig der sogenannte **post-receive Hook**[^hooks]
-und führt das gleichnamige Skript (sofern vorhanden) aus.
-
-Das [Jekyll uberspace deployment Skript](https://github.com/fl3a/jekyll_deployment)
-welches wir als *post-receive Hook*[^hooks] nutzen 
-findest du [hier](https://github.com/fl3a/jekyll_deployment) auf github.  
-
-#### Einrichtung des post-receive Hooks
-
-Als Erstes entfernen wir den *Default post-receive Hook* aus dem Bare-Repository
-um ihn später durch einen symbolischen Link auf unser Skript zu ersetzen.
-
-```
-rm ~/repos/netzaffe.de/hooks/post-receive
-```
-
-Dann clonen wir das [Jekyll Deployment Skript](https://github.com/fl3a/jekyll_deployment), 
-dort passiert später die ganze Magie.
-
-```
-git clone https://github.com/fl3a/jekyll_deployment.git ~/repos 
-```
-
-Jetzt legen wir einen Symlink namens *post-receive* im *Bare-Repo* an, 
-der auf das gleichnamige *Deployment Skript* verweist:
-
-```
-ln -s ~/repos/jekyll_deployment/post-receive ~/repos/netzaffe.de/hooks/post-receive
-```
-
-Last but not least, muss das Skript noch ausführbar gemacht werden:
-
-```
-chmod +x ~/repos/jekyll_deployment/post-receive
-```
-
-### Direkter Aufruf mit dem Jekyll Repo als Argument
-
-Die Datei `jekyll_deployment.sh` ist für die direkte Ausführung auf dem Zielsystem
-und manchmal ganz nützlich um das Deployment ohne einen Push 
-anzustoßen, wenn z.B. *bundler*[^bundler] mal wieder zickt.
-
-Es sind die gleichnamigen Variablen wie vorigen Abschnitt im Skript selbst anzupassen
-und die Datei oder ein Link sollten sich im Suchpfad befinden.
 
 ### Der Code
 
@@ -200,26 +152,27 @@ JEKYLL_ENV=${env:-production} \
 rm -rf $tmp $config
 {% endhighlight %}
 
-#### Beschreibung des Skripts 
+#### Beschreibung des Codes 
 
 1. *"Debug Modus"*, entfernen der Raute um mehr Ausgaben zu sehen (Zeile 12) 
-2. Überprüfung ob keine Parameter übergeben wurden(Zeile 14), Indikator für Git-Hook
+2. Indikator für Git-Hook: Überprüfung ob keine Parameter übergeben wurden(Zeile 14)
 3. Einlesen des gepushten Branches(Zeile 15 und 15) um ihn später vergleichen zu könnnen  
 3. Test ob es sich um ein Verzeichnis handelt, Verzeichnswechsel dort hinein 
 und testen ob es sich um ein *Bare-Repository* handelt (Zeile 20), sonst Exit (Zeile 20)
-4. Zusweisung Variable eines leeren Strings auf `pushed_branch` im Fall von 4. (Zeile 18)
+4. Zusweisung eines leeren Strings auf Variable `pushed_branch` (Zeile 18)
 5. Anlegen einer temporären Variablen `config` (Zeile 23)
 6. Umleiten des Inhalts der Datei *deploy.conf* aus dem Bare-Repository,
 die unsere Konfiguration für das Deployment enthält in die Variable `$config`,
 falls die Datei existiert sonst `exit` (Zeile 24)
 7. Einlesen der Konfiguration aus der Variablen `$config`(Zeile 25)
 8. Falls Variable `$pushed_branch` leer ist (vergl. Zeile 18),
-dann bekommt die Variable `build_branch` den gleichen Wert den `$pushed_branch` enthält
+dann bekommt die Variable `build_branch` den gleichen Wert 
+den `$pushed_branch` enthält (Zeile 27)
 9. Die Variablen `$pushed_branch` und `$build_branch` werden auf Ungleichheit verglichen,
 ist das der Fall, dann wird das Skript mit `exit` verlassen (Zeile 28).
 10. Anlegen eines temporären Verzeichnises Names `tmp` (Zeile 29)
 11. Klonen des Bare-Repos[^bare] das das temporäre Verzeichnis `tmp` (Zeile 30).
-12. Verzeichniswechsel in das temporäres Verzeichnis `$tmp` (Zeile 31)
+12. Verzeichniswechsel in das temporäre Verzeichnis `$tmp` (Zeile 31)
 13. Installation der im Gemfile spezifizierten Abhängigkeiten via `bundle install`[^bundler].
 Falls `bundle install` fehlschlägt, 
 wird das nochmal mit der Option `--redownload`[^reinstall] versucht (Zeile 32)
@@ -227,10 +180,94 @@ wird das nochmal mit der Option `--redownload`[^reinstall] versucht (Zeile 32)
 aus `$tmp` in die mit `$www` spezifizierte *Document Root* via `jekyll build` 
 15. Löschung des temporären Verzeichnisses `$tmp` und der Datei `$config`. Dat wor et!
 
+### Nutzung als post-receive Git Hook
+
+Wenn der komplette Prozess der Übertragung (Push) abgeschlossen ist, 
+greift serverseitig der sogenannte **post-receive Hook**[^hooks]
+und führt das gleichnamige Skript (sofern vorhanden) aus.
+
+Das [Jekyll uberspace deployment Skript](https://github.com/fl3a/jekyll_deployment)
+welches wir als *post-receive Hook*[^hooks] nutzen 
+findest du [hier](https://github.com/fl3a/jekyll_deployment) auf github.  
+
+#### Einrichtung des post-receive Hooks
+
+Als Erstes entfernen wir den *Default post-receive Hook* aus dem Bare-Repository
+um ihn später durch einen symbolischen Link auf unser Skript zu ersetzen.
+
+```
+rm ~/repos/florian.latzel.io/hooks/post-receive
+```
+
+Dann clonen wir das [Jekyll Deployment Skript](https://github.com/fl3a/jekyll_deployment), 
+dort passiert später die ganze Magie.
+
+```
+git clone https://github.com/fl3a/jekyll_deployment.git ~/repos 
+```
+
+Jetzt legen wir einen Symlink namens *post-receive* im *Bare-Repo* an, 
+der auf das gleichnamige *Deployment Skript* verweist:
+
+```
+ln -s ~/repos/jekyll_deployment/post-receive ~/repos/florian.latzel.io/hooks/post-receive
+```
+
+Dann muss das Skript noch ausführbar gemacht werden:
+
+```
+chmod +x ~/repos/jekyll_deployment/post-receive
+```
+
+Last but not least, muss die Konfiguration 
+über die weiter unten beschrieben Datei *deploy.conf* erfolgen
+
+#### Nötige Schritte im lokalen Git-Repository
+
+Das waren die Schritte auf deinem Uberspace, 
+weiter gehts in deinen lokalen Git Repository.\\
+Das oben erstellte Bare-Repository fügst du deinem lokalen Repository
+so als sog. Remote-Repository[^remote] namens *uberspace* hinzu:
+
+```
+git remote add uberspace fl3a@bellatrix.uberspace.de:repos/florian.latzel.io
+```
+
+Fertig, jetzt noch der push vom *master* nach *uberspace*.
+
+```
+git push uberspace master
+```
+
+Nach der Übertragung der Daten solltest du jetzt die Ausgaben von `git clone`,
+`bundle install` und `jekyll build` sehen.
+
+
+### Standalone: Aufruf mit dem Jekyll Repo als Argument
+
+Das gleiche Skipt kann auch für die direkte Ausführung auf dem Zielsystem genutzt werden.
+Das ist manchmal ganz nützlich um das Deployment direkt und ohne einen Push 
+anzustoßen z.B. um den Fehler auszumachen, wenn *bundler*[^bundler] mal wieder zickt.
+
+Es erfolgt die Konfiguration auch hier, wie in der *post-receive* Variante 
+über die weiter unten beschriebenen Datei *deploy.conf*.
+
+Um das Skript Standalone nutzen zu können, setzen wir einen Symlink in den Suchpfad:
+
+```
+ln -s ~/repos/jekyll_deployment/post-receive ~/bin/jekyll_deployment
+```
+
+Der Aufruf der Standalone-Variante erfolgt mit dem Jekyll-Repository als Argument:
+```
+jekyll_deployment ~/repos/florian.latzel.io
+```
 
 ### deploy.conf - Anpassung der Variablen
 
-Mit dieser Konfiguration für das *post-receive* Skript verfährst du wie folgt:
+Die Datei *deploy.conf* dient als Konfiguration für die Post-Receice-Hook 
+als auch für die Standalone Variante.\\
+Mit dieser Konfiguration verfährst du wie folgt:
 
 1. Kopiere hierzu *deploy.conf* in die Hauptebene deines lokalen *Jekyll Repositories* 
 2. Passe die Variablen auf die Bedürfnisse deines Zielsystems hin an
@@ -255,26 +292,6 @@ Dieses Pfadschema ist *uberspace spezifisch* und natürlich anpassbar.
 - `env`, Wert für `JEKYLL_ENV`, default `production`
 - `build_option`, Option die `bundle excec jekyll build` angefügt wird,\\
 z.B. `--incremental`
-
-### Nötige Schritte im lokalen Git-Repository
-
-Das waren die Schritte auf deinem Uberspace, 
-weiter gehts in deinen lokalen Git Repository.
-Das oben erstellte Bare-Repository fügst du deinem lokalen Repository
-so als sog. Remote-Repository[^remote] namens *uberspace* hinzu:
-
-```
-git remote add uberspace fl3a@bellatrix.uberspace.de:repos/netzaffe.de
-```
-
-Fertig, jetzt noch der push vom *master* nach *uberspace*.
-
-```
-git push uberspace master
-```
-
-Nach der Übertragung der Daten solltest du jetzt die Ausgaben von `git clone`,
-`bundle install` und `jekyll build` sehen.
 
 ## Learnings
 
