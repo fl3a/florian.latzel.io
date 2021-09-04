@@ -94,7 +94,7 @@ BUNDLE_PATH: "~/.gem"
 ### Der Code
 
 Hier der Stand vom 03. September 2021: 
-{% highlight bash linenos %}
+```bash
 #!/bin/bash
 
 # Deployment of Jekyll-Sites via Git Bare Repository and post-receive hook.
@@ -130,7 +130,7 @@ bundle install || bundle install --redownload
 JEKYLL_ENV=${env:-production} \
   bundle exec jekyll build --source $tmp --destination $www $build_prefix
 rm -rf $tmp $config
-{% endhighlight %}
+```
 
 #### Beschreibung des Codes 
 
