@@ -12,7 +12,7 @@ layout: post
 toc: true
 permalink: /jekyll-deployment-via-bare-repository-und-post-receive-hook.html 
 image: /assets/imgs/gears-of-industry.jpg
-last_modified_at: 2021-04-02
+last_modified_at: 2021-09-04
 ---
 {% responsive_image figure: true 
 path: assets/imgs/gears-of-industry.jpg 
