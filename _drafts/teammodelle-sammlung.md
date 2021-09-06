@@ -68,7 +68,8 @@ Trust Pyramid oder auch Teamperformance-Pyramide
 
 ## Team-Persönlichkeiten nach Riemann-Thomann  
 
-Psychologen Fritz Riemann und Christoph Thomann.
+Psychologen Fritz Riemann und Christoph Thomann 
+- Grundpole der Angst 1961.
 
 - 4 Grundausrichtungen
 
@@ -105,6 +106,7 @@ Nach Charles Magerison und Dr. Dick Melan
 
 Aus *Agile Teams lösungsorientiert coachen*, Seite 105
 
+## Dimensionen der Teamkultur nach Watzlawick
 
 [^tuckman-klotz]: <https://de.wikipedia.org/wiki/Teambildung#Phasenmodell_nach_Tuckman_und_Klotz>
 [^johari]: <https://de.wikipedia.org/wiki/Johari-Fenster>
