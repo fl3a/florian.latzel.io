@@ -9,14 +9,19 @@ layout: post
 title: Scrum Starter Kit
 created: 1520099535
 last_modified_at: 2021-10-11
+image: /assets/imgs/florian-latzel-scrumalliance-cspo-certificate.png
 ---
+{% responsive_image figure: true 
+path: assets/imgs/florian-latzel-scrumalliance-cspo-certificate.png
+caption: 'Mein Certified Scrum Product Owner (CSPO) Zertifikat der Scrum Alliance'
+alt: 'Das CSPO Zertifikat von Florian Latzel' %}
 Ich habe meine Schwägerin mit dem Bericht über mein kürzlich absolviertes CSPO Training
 (Grüße an Doc Mentos👋[^mentos]), 
 meinen Erfahrungen aus dem Alltag eines [Scrum Masters](/tags/scrum-master/) 
 und dem Arbeiten in einer Firma mit einer Agilen DNA begeistert und ihr Interesse an Scrum geweckt.
 
 Für den den Einstieg in das [Scrum Rahmenwerk](/tags/scrum/) 
-habe ich ihr Folgendes als **Scrum Starter Kit** zusammengestelt:
+habe ich ihr Folgendes als **Scrum Starter Kit** zusammengestelt:<!--break-->
 	
 - [Agile Product Ownership in a nutshell von Henrik Kniberg (de)](https://www.youtube.com/watch?v=ZUwo8tKoYnQ)
 - [Das Agile Manifest, der Kern, die Wertepaare](http://agilemanifesto.org/iso/de/manifesto.html) 
@@ -30,7 +35,6 @@ und die [Prinzipien](http://agilemanifesto.org/iso/de/principles.html) dahinter
 [Scrum - Agiles Projektmanagement erfolgreich einsetzen von Roman Pichler](
 https://www.amazon.de/Scrum-Agiles-Projektmanagement-erfolgreich-einsetzen/dp/3898644782/ref=sr_1_1?ie=UTF8&amp;qid=1514813779&amp;sr=8-1&amp;keywords=roman+pichler+scrum)
 
-<!--break-->
 Falls dein Arbeitgeber in deine Weiterbildung (und somit auch dich) investiert 
 oder du dir selbst eine [Zertifizierungen](/tags/zertifikat/) leisten möchtest, 
 dann empfehle ich dir die Teilnahme an einem [Scrum Master](/tags&scrum-master/), 
