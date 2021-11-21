@@ -2,37 +2,41 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2021-07-11 21:38
+last_modified_at: 2021-11-21 13:04
 ---
 ## Trauerarbeit
 
-Aktuell ist [Trauer](/tags/trauer.html) eines meiner [Kernthema](/2021/05/25/kernthemen.html).\\
+[Trauer](/tags/trauer.html) eines meiner [Kernthemen](/2021/05/25/kernthemen.html).\\
 Ich trauere um meine Mama, [Gesche Kiel](/2021/05/25/kernthemen.html),\\
-den Menschen, der mich (ob ich es will oder nicht) am meisten geprägt hat.\\
-Ende Juni haben wir die Wohnung aufgelöst. 
-Der einst riesige Berg an Papierkram ist mittlerweile klein 
-und sehr überschaubar geworden.
+den Menschen, der mich (ob ich es will oder nicht) am meisten geprägt hat.
 
-## GPG Micro Howto überarbeiten
+Meine traurige, gebückte Körperhaltung und der gesenkte sind wieder gegangen.\\
+Jetzt, über ein halbes Jahr nach ihrem Tod haben 
+auch andere Gedanken und Projekte wieder Platz,\\
+ich denke aber immernoch täglich an sie.
 
-In KW 26, während dem ersten Urlaub bei meinem Dad seit Beginn der Pandemie 
-habe einen neuen PGP Schlüssel erstellt und damit auch die 
-Grundlage geschaffen mein [GnuPG Micro Howto](/gnupg-micro-howto.html) 
-nach 13 Jahren zu aktualisieren (WIP).\\
-Gestern und heute habe ich bis zum Flow an Textschnipseln gefeilt.
-Das frische Thema WKD in Verbindung mit GnuPG hat mich nicht mehr losgelassen.
+## Portfolio
 
-## Remote Arbeit
+Ich habe darüber nachgedacht, 
+was ich neben meinem Day-Job Job als [Scrum Master](/tags/scrum-master/) 
+nebenberuflich anbieten möchte und wie das Thema [Natur und Draußensein](/tags/draussen/) dort rein passt.
 
-Die Chancen, die das Thema bringt sich mal bewusst machen 
-und den nächsten geplanten Trip mit dem digitalen Nomadentum 
-einfach mal verlängern, die Homebase dabei verändern 
-und von diesen Vorteilen profitieren🤟.
- 
+Zudem möchte ich, dass <https://is-loesungen.de> perspektivisch in dieser Seite aufgeht.\\
+Ich bin schließlich meine eigene Marke.\\ 
+Obige Seite war ursprünglich für mich größer-gleich eins gedacht und hatte einen IT Fokus.
+
+Der Stand lebt im portfolio Zweig meines Git Repos.
+
+## Lernen
+
+Ich habe im Oktober 2021 den *NLP Practitioner* bei Tom Andreas begonnen\\
+und angefangen [*Pencak Silat* im *Tapac Suci* Stil](https://www.tapak-suci.de/) zu lernen.
+
 ## Now reading
 
-- Über den Tod und das Leben danach von Elisabeth Kübler-Ross
-- Search Inside Yourself von Chade-Meng Tan.
+- Outdoor-Survival nur mit dem Messer von Johannes Vogel
+- Search Inside Yourself von Chade-Meng Tan (das zweite Mal)
+- ~~Über den Tod und das Leben danach von Elisabeth Kübler-Ross~~
 
 *[SIY]: Search Inside Yourself
 *[WIP]: Work in progress
