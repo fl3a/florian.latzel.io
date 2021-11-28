@@ -8,7 +8,7 @@ tags:
 - REWE digital
 - Team
 - Selbstorganisation
-- just me
+- Session
 image: /assets/imgs/florian-latzel-mark-eichberger-podcast.png
 ---
 {% responsive_image path: assets/imgs/florian-latzel-mark-eichberger-podcast.png
