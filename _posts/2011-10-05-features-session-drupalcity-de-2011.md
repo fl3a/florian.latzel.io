@@ -43,4 +43,4 @@ What this session covers:
  <li>And "The Plus" (prospects for the future and further possibilities with Features)...</li>
 </ul>
 Here are the slide of my presentation <https://www.slideshare.net/fl3a/features-plusdcb11>
-and the video recording <https://vimeo.com/33109955> 
+and the video recording <https://vimeo.com/33109955>   
