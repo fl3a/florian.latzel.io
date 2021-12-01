@@ -14,7 +14,6 @@ title: Drush - DrupalMediaCamp Präsentation
 created: 1242111888
 ---
 <p>Drush – Das Sackmesser für die Kommandozeile. Mein Vortrag über <a href="http://drupal.org/project/drush">drush</a> auf dem <a href="http://drupalmediacamp.ch">DrupalMediaCamp 2009</a> in Aarau, Schweiz. <img src="/assets/imgs/drupal-drush-drupalmediacamp-2009.jpg"> <small>Foto von <a href="http://brocke.de">Jürgen Brocke</a></small> <!--break--></p>
-<h2>Zusammenfassung</h2>
 <p>Drush steht für Drupal Shell und ist die Schnittstelle für Drupal auf der Kommandozeile.</p>
 <p>Mittlerweile ist Drush kein Modul mehr, daß heißt Drush benötigt auch nicht mehr zwangsweise eine Drupal-Installation und läuft wenn unabhängig von der Drupal-Version(5.x, 6.x, 7.x).</p>
 <p>Mit Drush kann man alles machen, was aus Drupal heraus auch möglich ist.</p>
