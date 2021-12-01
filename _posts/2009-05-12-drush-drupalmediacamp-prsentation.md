@@ -52,4 +52,4 @@ created: 1242111888
 	<li>~/.drush<br>
 		Eigene drush-Skripte</li>
 </ol>
-<p>Zu den Slides: https://www.slideshare.net/fl3a/drush-das-sackmesser-fr-die-kommandozeile-1425211</p>
+Zu den Slides: <https://www.slideshare.net/fl3a/drush-das-sackmesser-fr-die-kommandozeile-1425211>
