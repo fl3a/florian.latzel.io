@@ -13,7 +13,7 @@ tags:
 - Session
 image: /assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg
 toc: true
-last_modified_at: 2021-06-02
+last_modified_at: 2021-12-01
 ---
 <figure>
 {% responsive_image path: assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg alt: "Stecktafel, Aufschrift: Welcome to Barcamp #4⭐😘😄" %}
@@ -233,8 +233,8 @@ sowie einer mir neuen, frischen und künstlerischen Art des Graphic Recordings d
 Last but not least: Einen riesengroßen Dank an das Orga Team, die Helfer und Sponsoren
 für die Durchführung und das Möglichmachen!
 
-Andere Rückblicke und Wahrnehmungen findest du auch bei Vanessa Giese[^vg] 
-und Saskia Brintrup[^sb] im Blog, liebe Grüße.
+Andere Rückblicke und Wahrnehmungen findest du auch bei Vanessa Giese[^vg],
+Saskia Brintrup[^sb] und Hanjo Meinhardt[^bunix] im Blog, liebe Grüße.
 
 # Fußnoten und Weiterführendes
 
@@ -265,3 +265,4 @@ und Saskia Brintrup[^sb] im Blog, liebe Grüße.
 [^grc]: [graphicrecording.cool](http://graphicrecording.cool/). 
 [^vg]: [Dr. Vanessa Giese: AgiLeipzig: Zwei Tage mit Design Sprints, alternativen Vergütungsmodellen und Agilität im öffentlichen Dienst](https://vanessagiese.de/blog/agileipzig-zwei-tage-mit-google-design-sprints-teammethoden-und-new-pay/)
 [^sb]: [Saskia Brintrup: Rückschau auf das Agile Barcamp 2019 in Leipzig](https://www.digitalperspektiven.de/rueckschau-auf-das-agile-barcamp-2019-in-leipzig/)
+[^bunix]: [Hanjo Meinhardt: Agile Barcamp Leipzig 2019](https://bunix.de/2019/09/AgileBarcampLeipzig2019.html)
