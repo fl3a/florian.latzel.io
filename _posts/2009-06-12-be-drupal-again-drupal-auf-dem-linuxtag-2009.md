@@ -24,8 +24,7 @@ created: 1244757850
 Ihr werdet uns in Halle 7.b am Stand 101c finden.
 </p>
 <p>
-Auch dieses Jahr heisst es wieder <b><a href="http://be-drupal.de">Be Drupal</a>!
-</b></p>
+Auch dieses Jahr heisst es wieder <b>Be Drupal</b>!</p>
 <!--break-->
 <h2>Standparty am Donnerstag 25. Juni!</h2>
 <p>Am Donnerstag, den 25. Juni, um ca. <strike>16:00 Uhr</strike> 
