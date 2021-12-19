@@ -13,7 +13,7 @@ tags:
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2021-02-19
+last_modified_at: 2021-12-19
 ---
 <figure>
   {% responsive_image path: assets/imgs/goaccess-ncurces-console-screenshot.png alt: "Screenshot: GoAccess Web-Analytics auf der Konsole" %}
@@ -38,6 +38,10 @@ ein paar nette Tipps und nützliche Beispiele mit an die Hand.
 
 Der Großteil dieses Artikels, auch die Installation sollte so generisch sein, 
 dass man ihn recht einfach auf andere Systeme übertragen kann.<!--break-->
+
+Anmerkung: Seit *Version 1.4[^1-4]* nutzt GoAccess eine seine Persistierung eine Datenbank
+ohne Abhängkeiten. 
+Die Stellen mit der *Tokyo Cabinet Datenbank* können in dem Fall übersprungen werden. 
 
 Es sei noch angemerkt, dass GoAccess auch Ausgaben in Realtime erzeugen kann,
 dieses Feature ist allerdings für die Anwendung auf Uberspace 6 irrelvant, da 
@@ -76,7 +80,9 @@ Es folgt der *Dreisatz*:
 Bis auf `--enable-utf8` und `--prefix=$HOME`, sofern als _Non-Root User_ ausgeführt,
 sind unter anderem die folgenden Parameter optional:
 - `--enable-tcb=btree` Kompiliere mit Tokyo Cabinet Datenbank für die  
-   [Persistierung von Access Logs in On-Disk Datenbank mit GoAccess](/2020/02/02/goaccess-persistierung-von-weblogs-in-tokyo-cabinet-on-disk-datenbank.html).
+   [Persistierung von Access Logs in On-Disk Datenbank mit GoAccess](/2020/02/02/goaccess-persistierung-von-weblogs-in-tokyo-cabinet-on-disk-datenbank.html).\\
+   **Seit Version 1.4 von GoAccess entfällt diese Option,\\
+   da die die Datenbank keine externe Anhängigkeiten mehr hat.**
 - `--with-openssl` falls _Websocket Server_ verwendet werden soll.  
   Da es auf U6 im Gegensatz U7 keine Echtzeit Logs gibt, 
   ist das Feature hier uninteressant.
@@ -157,15 +163,12 @@ Jetzt müssen wir nochmal obigen *Dreisatz* wiederholen.
 
 #### Anpassung der Variablen MANPATH
 
-Damit der Aufruf von `man goaccess` auch die dazugehörige Manpage und nicht
-
-> Keine Handbuchseite für goaccess 
-
-anzeigt wird, müssen wir die Umgebungsvariable *MANPATH* anpassen.
+Damit der Aufruf von `man goaccess` auch die dazugehörige anzeigt wird, 
+müssen wir die Umgebungsvariable *MANPATH* anpassen.
 
 Dazu fügen wir in *.bash_profile* die folgende Zeile ein:
 ```
-export MANPATH="$MANPATH:$HOME/share/man/"
+export MANPATH="${HOME}/share/man/:${MANPATH}"
 ```
 
 ### uberspace 7
@@ -299,6 +302,7 @@ Noch mehr Beispiele findest du via `goaccess --help` oder in der Manpage[^man].
 * * *
 [^ncurses]: [Ncurses](https://de.wikipedia.org/wiki/Ncurses)
 [^ureact]: <https://twitter.com/ubernauten/status/1124018556922888196>
+[^1-4]: <https://goaccess.io/release-notes#release-1.4>
 [^toast1]: [toast - packageless package manager for Unix systems and non-root users](https://wiki.uberspace.de/system:toast) 
 [^toast2]: [toast homepage]([http://www.toastball.net/toast/)
 [^logs]: [Webserver Logs, access_log](https://wiki.uberspace.de/webserver:logs#access_log)
