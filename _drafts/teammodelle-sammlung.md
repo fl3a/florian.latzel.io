@@ -3,7 +3,7 @@ title: Team Modelle - Der Versuch einer Sammlung
 layout: post
 toc: true
 tags:
-- Teams
+- Team
 - Teambuilding
 - Scrum Master
 - Team Coach
@@ -19,6 +19,8 @@ Es gibt einige mehr, das ist der Versuch einer Sammlung.
 <!--break-->
 
 ## Teamphasenmodell nach Tuckman (und Klotz)
+
+Auch **Teamdynamikmodell** genannt
 
 - Bruce Wayne Tuckman,  Psychologe, Organisationsberater und Hochschullehrer 
 - Teamuhr
@@ -104,9 +106,30 @@ Nach Charles Magerison und Dr. Dick Melan
 
 ## ERFOLGs Modell nach Kotrba und Miarka
 
-Aus *Agile Teams lösungsorientiert coachen*, Seite 105
+Aus *Agile Teams lösungsorientiert coachen*, 1. Auflage, Seite 105
 
 ## Dimensionen der Teamkultur nach Watzlawick
+
+##  Rangdynamik-Modell nach Raoul Schindler
+
+Österreichischer Psychotherapeut und Psychoanalytiker.
+
+Auch **Rangdynamisches Positionsmodell**, 1957
+
+- <https://www.neverest.at/blog/gruppendynamik-und-teamentwicklung/>
+- <https://dieprojektmanager.com/rangdynamik-modell/>
+- <https://teamworks-gmbh.de/rangdynamik-warum-alphas-betas-brauchen-und-omegas-eigentlich-nuetzlich-sind/>
+
+- 4 interne Positionen und das gemeinsame Ziel G (engl. Goal, extern).
+- G steht für die Herausforderung, auch Gegner oder Gegenüber
+
+### Postitionen
+
+- Alpha
+- Gamma
+- Omega
+- Beta
+
 
 [^tuckman-klotz]: <https://de.wikipedia.org/wiki/Teambildung#Phasenmodell_nach_Tuckman_und_Klotz>
 [^johari]: <https://de.wikipedia.org/wiki/Johari-Fenster>
