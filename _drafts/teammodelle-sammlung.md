@@ -119,16 +119,18 @@ Auch **Rangdynamisches Positionsmodell**, 1957
 - <https://www.neverest.at/blog/gruppendynamik-und-teamentwicklung/>
 - <https://dieprojektmanager.com/rangdynamik-modell/>
 - <https://teamworks-gmbh.de/rangdynamik-warum-alphas-betas-brauchen-und-omegas-eigentlich-nuetzlich-sind/>
+- <https://de.wikipedia.org/wiki/Raoul_Schindler>
 
-- 4 interne Positionen und das gemeinsame Ziel G (engl. Goal, extern).
-- G steht für die Herausforderung, auch Gegner oder Gegenüber
+- 5 Positionen, 4 interne Positionen und das gemeinsame Ziel G (extern).
 
 ### Postitionen
 
-- Alpha
-- Gamma
-- Omega
-- Beta
+- α Alpha
+- γ Gamma
+- Ω Omega
+- β Beta
+- G, die Herausforderung, **G**ruppenaufgabe, **G**egenüber bzw. **G**egner. 
+Hierauf ist Wirkung der Gruppe gerichtet.
 
 
 [^tuckman-klotz]: <https://de.wikipedia.org/wiki/Teambildung#Phasenmodell_nach_Tuckman_und_Klotz>
