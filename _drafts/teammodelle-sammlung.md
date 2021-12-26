@@ -4,6 +4,7 @@ layout: post
 toc: true
 tags:
 - Team
+- Gruppendynamik
 - Teambuilding
 - Scrum Master
 - Team Coach
@@ -16,7 +17,76 @@ dann denkt man sicher an Tuckman's Teamphasen, vielleicht an Belbins Teamrollen
 oder an die fünf Dysfunktionen eines Teams laut Lencioni.
 
 Es gibt einige mehr, das ist der Versuch einer Sammlung.
+
+Abgrenzung
+
+**Gruppe vs Team**
+
+> Jedes Team ist eine Gruppe, aber nicht jede Gruppe ist ein Team. (R. A. Guzzo)
+
+Gruppe <https://www.duden.de/rechtschreibung/Gruppe_Team_Abteilung_Einheit>
+
+> Gemeinschaft, Kreis von Menschen, 
+> die aufgrund bestimmter Gemeinsamkeiten zusammengehören, 
+> sich aufgrund gemeinsamer Interessen, Ziele zusammengeschlossen haben
+
+- Ein Team ist eine Art der sozialen Gruppe
+- Die Aufgabe als Ausgangspunkt <https://wpgs.de/fachtexte/gruppen-und-teams/team-gruppe-definition-merkmale-unterschied/>
+
+**Arbeitsgruppe vs. Team**
+
+<https://www.clevis.de/ratgeber/definition-team-vs-gruppe/>
+
+> Zusammenarbeiten vs. Zuarbeiten  
+
+Gegenüberstellung etwas tayloristisch.
+
+> Die Arbeitsgruppe im heutigen Sinn ist durch ein erhöhtes Maß an Koordination 
+> und Selbstabstimmung gekennzeichnet. <https://de.wikipedia.org/wiki/Arbeitsgruppe#Besondere_Formen_der_Arbeitsgruppe> 
+
+Arbeitsgruppe homogen, Team heterogen und unterdisziplinär 
+- https://www.projektmagazin.de/glossarterm/arbeitsgruppe
+
+Besondere Formen der Arbeitgruppe:
+- Informelle Arbeitsgruppe
+- Projektgruppe
+- Teilautonome Arbeitsgruppe
+
+UNTERSCHIEDE ZWISCHEN „ARBEITS-
+GRUPPEN“ UND „ECHTEN“ TEAMS nach Katzenbach & Smith, 1993 <http://www.schwanconsult.com/Glossar/Arbeitsgruppe%20vs.%20Team.pdf>
+
+Da Teams nur eine Schnittmenge aus sozialen Gruppen sind,
+habe ich die Sammlung um einige Modelle und  Regeln 
+aus dem Bereich der Gruppendynamik und Sozialisation ergänzt.
+
 <!--break-->
+## Definition Team: Hauptkriterien von Teams nach Mabey und Caird
+
+Christopher Mabey/Sally Caird, Building Team Effectiveness, Open University/Milton Keynes, 1999, S. 7 ff., ISBN 0-7492-9553-8 
+
+- Ein Team hat mindestens zwei Mitglieder.
+- Die Mitglieder tragen zur Erreichung der Teamziele mit ihren jeweiligen Fähigkeiten 
+und den daraus entstehenden gegenseitigen Abhängigkeiten bei.
+- Das Team hat eine Team-Identität, 
+die sich von den individuellen Identitäten der Mitglieder unterscheidet.
+- Das Team hat Kommunikationspfade sowohl innerhalb des Teams 
+als auch zur Außenwelt entwickelt.
+- Die Struktur des Teams ist aufgaben- und zielorientiert beschrieben.
+- Ein Team überprüft periodisch seine Effizienz.
+
+## Gruppenphasen (OMIDA) nach Garland, Kolodny und Jones
+1971 
+
+<https://www.grin.com/document/162301> 
+<https://julei-app.de/grundlagen/gruppenprozesse/gruppenphasen/> 
+<https://lernbereich.wb-web.de/lo/9-1-hatte-ich-das-mal-vorher-gewusst-weiterbildungen-durch-lerner-lehrer-feedback-verbessern/9-1-inhalt/lerner-lehrer-feedback-bereichert-die-gruppe-aber-in-welcher-form-und-zu-welchem-zeitpunkt> 
+
+
+- Voranschluss und Orientierung
+- Machtkampf und Kontrolle
+- Vertrautheit und Intimität
+- Differenzierung
+- Trennung und Ablösung
 
 ## Teamphasenmodell nach Tuckman (und Klotz)
 
