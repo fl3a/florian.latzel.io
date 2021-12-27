@@ -57,7 +57,8 @@ GRUPPEN“ UND „ECHTEN“ TEAMS nach Katzenbach & Smith, 1993 <http://www.schw
 
 Da Teams nur eine Schnittmenge aus sozialen Gruppen sind,
 habe ich die Sammlung um einige Modelle und  Regeln 
-aus dem Bereich der Gruppendynamik und Sozialisation ergänzt.
+aus dem Bereich der Gruppendynamik<https://de.wikipedia.org/wiki/Gruppendynamik> 
+und der Sozialpsychologie><https://de.wikipedia.org/wiki/Sozialpsychologie>  ergänzt.
 
 <!--break-->
 ## Definition Team: Hauptkriterien von Teams nach Mabey und Caird
