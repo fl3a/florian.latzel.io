@@ -10,6 +10,7 @@ tags:
 - Zertifikat
 - Internet
 image: assets/imgs/november-draussen/waldmorgen.jpg
+toc: true
 last_modified_at: 2020-12-16
 ---
 {% responsive_image figure: true
