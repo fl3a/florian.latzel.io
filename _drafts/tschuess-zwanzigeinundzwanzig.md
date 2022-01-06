@@ -19,13 +19,13 @@ In den letzten Tagen des vergangenen Jahres war ich gedanklich vermehrt in der V
 Ich blicke zurück, resümierte, passte meine Ziele an
 und versuchte Dankbarkeit zum empfinden.
 
-Das war mein Zwanzigeinundzwanzig (das wichtigste)..<!--break-->
+Das war mein Zwanzigeinundzwanzig (das wichtigste).<!--break-->
 
 Ich habe letztes Jahr wesentlich weniger Fotos 
 als in den vorangegangenen Jahren gemacht.
 Beim stöbern zeigte das erste etwas unscharfe Foto 
 mit einem diffusem einsetzendens Abendrot, mit Blick ins Tal 
-von Rochuskapelle bei Sand. \\
+von [Rochuskapelle bei Sand](https://de.wikipedia.org/wiki/Rochuskapelle_Sand). \\
 Dieses Jahr haben wir am ersten Januar mit einer Wanderung gestartet:
 Hausrunde, [Kölnpfad](https://www.koelner-eifelverein.de/koelnpfad/etappen/), 
 Etappe 8 von Bensberg nach Dellbrück.
@@ -34,7 +34,7 @@ Etappe 8 von Bensberg nach Dellbrück.
 
 In Kalenderwoche zwei habe ich am dem [*SIY Programm*](https://siyli.org/search-inside-yourself/)
 mit [Kamil](https://kamilbarbarski.com) und Motoki teilgenommen. \\
-Drei Tage Training, einer 28 Tage Challenge und einen Recap.
+Drei Tage Training, eine 28 Tage Challenge und ein Recaptermin.\\
 SIY wurde ursprünglich von Chade-Meng Tan bei Google als Progamm entwickelt,
 um Google-Mitarbeitern Achtsamkeit, Gelassenheit, emotionale Intelligenz und Resilienz zu vermitteln.  
 (Es gibt auch ein gleichnamiges Buch[^siybuch] von Chade-Meng Tan).
@@ -61,15 +61,15 @@ Meine Mama hat im Herbst 2020 Leukemie diagnostiziert bekommen.
 Unverzüglich folgte die Chemotherapie. \\
 Beide zerrte bereits zum Start des Jahres an ihrer Gesundheit und ihrer Befindlichkeit. \\
 Und das zerrte wiederum als am räumlichsten nächster Angehöriger, 
-Primus und Sohn auch an mir. 
+Primus und Sohn auch an mir. \\
 Die erneute Krebsdiagnose war für mich wie ein apokalyptisches Dejavu.
 Ich glaube, dass schon, bevor ich für mich formulieren konnte,
 
 > Meine Mama löst sich auf.
 
-, waren alle Regler auf bei mir Anschlag. \\ 
+, waren alle Regler auf bei mir Anschlag.
 Egal ob Job, Remotearbeit, Haushalt oder Beziehung nur etwas ausschlugen, 
-das brachte mich das sofort aus meinem Gleichgewicht.
+brachte mich das sofort aus meinem Gleichgewicht.
 Irgendwann empfand ich auch das Laufen, 
 was immer ein Ventil für mich war als belastend und hörte damit auf.
 
@@ -80,18 +80,20 @@ Wäsche, Papierkram, Informationen verteilen
 und ein Rattenschwanz an nachgelagerten Aufgaben. \\
 Tschüss Sideprojects, hallo Gürtelrose. \\
 Ich machte die Strecken zu Fuß. 
-Mülheim, Wohnung Dellbrück.  Post sichten, Rechnungen, Versicherung, Beihilfe, 
-Post sortieren, neue Wäsche anpacken, ggf. Blumen gießen. 
+Mülheim, Wohnung Dellbrück.  
+Post sichten, Rechnungen, Versicherung, Beihilfe, sortieren, 
+neue Wäsche zusammensuchen & einpacken, ggf. Blumen gießen. 
 Dellbrück, Krankenhaus Holweide, frische Wäsche und ausgewählte Post 
 an der Rezeption im Krankenhaus quittieren lassen und abgeben. 
 Holweide, Mülheim. \\
 Das Gehen half mir nicht zu implodieren. \\
 Zeitweise gab es kurze Telefonate mit ihr,
-nur wenig Informationen zu ihrem Gesundheitszustand, 
+nur wenig Informationen zu ihrem Gesundheitszustand, \\
 wenn sie nicht fieberte und telefonieren konnte.
 
 Die Woche nach Ostern begann die Kurzzeitpflege.
-Ich war ungefähr Zeitgleich mit den Krankentransport im [Pflegeheim Herz-Jesu Stift](
+Ich war ungefähr Zeitgleich mit den Krankentransport 
+im [Pflegeheim Herz-Jesu Stift](
 https://www.vinzentinerinnen.de/leben/herz-jesu-stift/)
 und konnte sie in Empfang nehmen.
 Das erste mal noch kanpp einen Monat. 
@@ -102,7 +104,8 @@ das war alles sehr viel und sehr viel ungewohntes an dem Tag.
 Die Situation und die Umgebung zu akzeptieren viel ihr schwer.
 
 Als ich meine Mama unfährt eine Woche später besuchen wollte,
-erklärte mir die Pflegerin, dass meine Mutter in eine andere Abteilung verlegt wurde.
+erklärte mir die Pflegerin, dass meine Mutter 
+in eine andere Abteilung verlegt wurde.
 Nach etwas suchen mit Hilfe der Pflegerinnen fanden wir meine Mama
 mit andernen Damen bei einer Frau, die dort ihren fest wohnte,
 ausgelassen beim Plausch. 
@@ -119,7 +122,7 @@ Abschiedswünsche, nette Sätze, Erinnnerungen
 und wen sie mit was bedacht hat.
 Teilweise hat sie dies Nachts, 
 wenn sie nicht schlafen konnte niedergeschrieben. \\
-Sie war sich ihrer Situation bewusst. \\ 
+Sie war sich ihrer Situation bewusst. \\
 Ab hier gabs nichts mehr zu leugnen, der kommende Tod wurde konkret. \\
 Die Auflösung wurde von Besuch zu Besuch für mich begreifbarer. 
 Der Pflegegrad wurde auf fünf hochgestuft, 
@@ -129,46 +132,72 @@ Als mein Onkel und meine Tante sie Anfang Mai besuchten,
 sah ich sie das erste und letzte mal im Rollstuhl. 
 Ich glaube, dass der Abschied von ihrem kleinen Bruder 
 so wichtig für sie war, dass sie an ihre letzten Reserven ging. \\
-Nur wenige Tage später waren mein Bruder Stefan,
-seine Freundin, mein Stiefbruder Torben, meine Freundin Monique und ich dabei,
+Nur wenige Tage später waren wir dabei,
 wie sie ihren letzten Atemzüge nahm 
 und ohne Schmerzen von uns ging 
 
 ## Das erste mal bei Papa seit Begin der Pandemie
 
 - Zuletzt Fastelovend 2020
+- Mein einziger Elternteil
 - Kind sein
-- den Wald vor der Haustür + mit dem Hund spazieren
 - Ausschlafen und runterkommen, 
-
+- den Wald vor der Haustür + mit dem Hund spazieren
 
 ## 100 Km Rheinsteig (wie ich an meinen Trailnamen kam)
 
-- Start in Deutz, ICE Gleis nach Wiesbaden
+- [Rheinsteig](https://www.rheinsteig.de/)
 - Hikingfrog, Trailfrucht und zwei Hunden
 - Gut gelaunt und recht bierseelig 
+- Start in Deutz, ICE Gleis nach Wiesbaden
 - Geplant 30.7 - 03.08, 5 Tage autaurk, bis Flüssigkeitszuladung (Wasser und Bier)
 - kleines Abenteuer
   - erste Nach Baustelle neben dem Bagger geschlafen
+
 - Trailname Sock'n'Sandals
+
 - Gutes Wetter bis ein paar Studen am letzten Tag
 - Kaub, Fähre zu Fuß nach Oberwesel
 - 11 von 21 Etappen
 
 ## Meine erstes mit Outdoor verdientes Geld
 
+- Ein Ziel aus 2020
+  - nach WPI
 - [Walkaboutyou](https://walkaboutyou.org)
 
 
-> Ich fühle mich gerade wie ein Baum, so als würde ich hier einfach dazu gehören.
-<https://www.linkedin.com/feed/update/urn:li:activity:6855826210799321088/>
+> Ich fühle mich gerade wie ein Baum, so als würde ich hier einfach dazu gehören.[^walk-ln]
 
 ## Ein Jahr ohne Twitter
+
+Aus dem Ziel, den [November 2020 twitterfrei](/2020/12/14/november-draussen.html#november-ohne-twitter) 
+zu verbringen ist jetzt über ein Jahr geworden, 
+wenn man meinem drei Tweets in 2021 absieht. \\
+Der einzig händisch gepostete Tweet diente der Zuordnung bzw. Verfizierung 
+meines [Keybase-Accounts](https://keybase.io/fl3a), 
+die anderen beiden wurden via App veröffentlicht (RSS dieses Blogs + IFFT).
+Ich habe keine Tweets konsumiert, mal einen Like dagelassen oder retweetet 
+und etwas Freiheit (und Zeit) zurückgewonnen.
+
+Dafür erwische ich mich des öffteren, 
+wie dafür mit dem  Stream [meines linkedin Profils](https://www.linkedin.com/in/florianlatzel/) prokrastiniere.
+Abgesehen davon, dass den linkedin Stream dem von Xing definitiv vorziehe
+und für meinen Job häufig gute Impulse bekomme, 
+(vermehrt Onepager, Informations Häppchen bzw. Mini-Präsentation)
+schafft es auch seichter Content, Memes, Videos für die Tränendrüse in den Stream.
+
+Und abgesehen davon, 
+dass ich mit meinen Posts erreiche ich bei mehr Menschen (gemäß der Größe meines Netzwerks) 
+und in Relation auch mehr Reaktionen bekomme,
+merke ich, wie ich darauf anspringe. Substitut,  [Dopamin!](https://www.youtube.com/watch?v=LsdX2LciA4w)
+Mittlerweile habe ich auch schon kilometerlange Kommentarthreads
+mit fragwürdiger Debattenkultur gefunden
 
 ## Pencak Silat
 
 - Mail im Mai während Lockdown
-- Formelles und Traditionelles
+- Formelles und Traditionell
 - Nicht Westlich (WT)
 - Schön 
 
@@ -206,6 +235,7 @@ und ohne Schmerzen von uns ging
 - Meditation anleiten
 - mehr lesen. Danke Afagh für [diesen Impuls](//www.linkedin.com/feed/update/urn:li:activity:6883867555946078208/)
 
-[^siybuch]: <https://www.amazon.de/Search-Inside-Yourself-Optimiere-Achtsamkeit/dp/3442221137>
-[^rheinsteig]: <https://www.rheinsteig.de/>
+
+[^siybuch]: Chade-Meng Tan, Search Inside Yourself: Optimiere dein Leben durch Achtsamkeit, Goldmann Verlag, [ISBN 3442221137](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche?isbn=3442221137)
+[^walk-ln]: Post des Walkaboutyou Accounts auf LinkedIn zur Wanderung im Königforst: <https://www.linkedin.com/feed/update/urn:li:activity:6855826210799321088/>
 *[SIY]: Search Inside Yourself
