@@ -176,8 +176,9 @@ zu verbringen ist jetzt über ein Jahr geworden,
 wenn man meinem drei Tweets in 2021 absieht. \\
 Der einzig händisch gepostete Tweet diente der Zuordnung bzw. Verfizierung 
 meines [Keybase-Accounts](https://keybase.io/fl3a), 
-die anderen beiden wurden via App veröffentlicht (RSS dieses Blogs + IFFT).
-Ich habe keine Tweets konsumiert, mal einen Like dagelassen oder retweetet 
+die anderen beiden wurden via IFTTT Applet, 
+welches auf neue RSS Feed diese Blog achtet veröffentlicht.
+Ich habe keine Tweets konsumiert, geliked oder retweetet 
 und etwas Freiheit (und Zeit) zurückgewonnen.
 
 Dafür erwische ich mich des öffteren, 
@@ -196,10 +197,41 @@ mit fragwürdiger Debattenkultur gefunden
 
 ## Pencak Silat
 
-- Mail im Mai während Lockdown
-- Formelles und Traditionell
-- Nicht Westlich (WT)
-- Schön 
+Ende April, während des zweiten Lockdowns habe ich 
+[Pencak Silat Tapak Suci](https://www.tapak-suci.de/) und 
+[Silat Suffian Bela Diri](http://www.bonner-schule.de/ssbd) 
+via EMail angeschrieben:
+
+> [...]
+> ich weiss, dass wir gerade in einer Pandemie stecken. \\
+> Ich habe starkes Interesse Silat zu trainieren \\
+> und würde mich gerne auf etwas in naher Zukunft freuen: Probetraining.
+> [...]
+
+Im November habe ich bei Tapac Suci ein Probetraining gemacht 
+und bin dort seit Dezember Mitglied.
+
+Was mich an *Pencak Silat* reizt: \\
+Ich empfinde Silat sehr schön und anmutig (manche Bewegungen wirken wie getanzt)
+und finde es dabei trotzdem effizient. 
+Mir liegen gerade die runden Bewegungen 
+und das große Repertoire 
+ob Würfe, Hebel, Demobilisierungs- oder Bodentechniken
+und der Ungang mit diversen Waffen wie dem Karambit.
+
+Was mich gerade am Tapak Suci reizt, 
+ist das es sich um ein tradionelles und formelles System handelt.
+
+Manche Schrittfolgen mit gegenläufigen Arm- Bein Bewegungen 
+verlangen mir koordinativ einiges ab, 
+dass mir teilweise Blut aus den Ohren fließt...
+
+<figure>
+<blockquote>
+Übe dich auch in den Dingen, an denen du verzweifelst.
+</blockquote>
+<figcaption>Marc Aurel</figcaption>
+</figure>
 
 ## Danke
 
@@ -233,9 +265,13 @@ mit fragwürdiger Debattenkultur gefunden
 - Langsam zweites Standbeim Outdoor
 - Silat Vorfreude
 - Meditation anleiten
-- mehr lesen. Danke Afagh für [diesen Impuls](//www.linkedin.com/feed/update/urn:li:activity:6883867555946078208/)
-
+- Mehr lesen. Danke Afagh für [diesen Impuls](//www.linkedin.com/feed/update/urn:li:activity:6883867555946078208/)
+- Als längerfristiges Ziel: Projekt Googlefrei
 
 [^siybuch]: Chade-Meng Tan, Search Inside Yourself: Optimiere dein Leben durch Achtsamkeit, Goldmann Verlag, [ISBN 3442221137](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche?isbn=3442221137)
 [^walk-ln]: Post des Walkaboutyou Accounts auf LinkedIn zur Wanderung im Königforst: <https://www.linkedin.com/feed/update/urn:li:activity:6855826210799321088/>
+[^tapak-suci]: <https://en.wikipedia.org/wiki/Tapak_Suci>
+
+*[RSS]: Rich Site Summary 
+*[IFFT]: IF This Than That
 *[SIY]: Search Inside Yourself
