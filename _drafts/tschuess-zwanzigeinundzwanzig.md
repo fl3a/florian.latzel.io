@@ -138,26 +138,51 @@ und ohne Schmerzen von uns ging
 
 ## Das erste mal bei Papa seit Begin der Pandemie
 
-- Zuletzt Fastelovend 2020
-- Mein einziger Elternteil
-- Kind sein
-- Ausschlafen und runterkommen, 
-- den Wald vor der Haustür + mit dem Hund spazieren
+Ich das letzte mal zu Karnelval 2020 (hier Karnelvalsflucht) 
+bei meinem Papa in der alten Heimat.
+Da hatte die Krankheit schon einen Namen, war aber noch keine Pandemie.
+
+Das obligatorische Zusammenkommen zu Ostern, 
+dem Wochenende nach Papas Geburtstag oder in der Weihnachtszeit
+haben wir schweren Herzens ausfallen lassen. \\
+Seit dem sind eineinhalb Jahre vergangen.
+
+Ende Juni, nach der Wohnungsauflösung meiner Mama,
+Abmeldung ihres Autos und Impfungen 
+(zwischen meiner ersten und zweiten und nach seiner zweiten)
+war ich das erste mal bei Papa seit Begin der Pandemie. \\
+Das bedeutet neben zweiter Heimat auch Kind sein, 
+den Wald vor der Haustür haben, 
+lange Spaziergänge mit dem Hund, 
+ausschlafen, runterkommen und einfach weniger müssen. \\
+Und ungezwungen Zeit mit meinem Papa verbringen,
+er jetzt mein einziger Elternteil und mittlerweile auch nicht mehr der jüngste.
 
 ## 100 Km Rheinsteig (wie ich an meinen Trailnamen kam)
 
-- [Rheinsteig](https://www.rheinsteig.de/)
-- Hikingfrog, Trailfrucht und zwei Hunden
-- Gut gelaunt und recht bierseelig 
-- Start in Deutz, ICE Gleis nach Wiesbaden
-- Geplant 30.7 - 03.08, 5 Tage autaurk, bis Flüssigkeitszuladung (Wasser und Bier)
-- kleines Abenteuer
-  - erste Nach Baustelle neben dem Bagger geschlafen
+Die Reise, die mir dieses Jahr am meisten gegeben hat,
+war mit Hikingfrog, Trailfrucht und zwei Hunden
+den [Rheinsteig](https://www.rheinsteig.de/) von Süden nach Norden zu wandern.
+Geplant war von 30. Juli und am dritte August zurück 
+und das autaurk, bis Flüssigkeitszuladung (Wasser und Bier).
 
+Sehr gut gelaunt und recht bierseelig trafen wir uns 
+am ICE Gleis in Deutz, 
+um gemeinsam in den Süden nach Wiesbaden zu fahren.
+Kurz hinter den Hafen haben wir die Beschilderung 
+während der eintretenden Dunkelheit verloren und extra Kilometer gemacht..
+Die erste Nacht haben wir  aufgrund der fortgeschrittenen Uhrzeit 
+unsere Polycryo Folien und Isomatten 
+auf einem wegen Bauarbeiten gesperrten Wegabschnitt
+neben einem Bagger ausgebreitet. 
+Der Boden war eben. 
+
+Tag 1
 - Trailname Sock'n'Sandals
 
 - Gutes Wetter bis ein paar Studen am letzten Tag
 - Kaub, Fähre zu Fuß nach Oberwesel
+- lange Unterhose + Wollsocken, Wasserfilter, Toaks Kocher, Spiritus nicht benutzt.
 - 11 von 21 Etappen
 
 ## Meine erstes mit Outdoor verdientes Geld
@@ -254,8 +279,10 @@ dass mir teilweise Blut aus den Ohren fließt...
 - Maria Beihilfe
 
 - SIY war mein best angelegtes Geld.
+  - 10 Jahre früher
 - Mittlerweile habe neue Laufschuhe und gehe auch wieder laufen.
-- Das Jahr war einschneidend aber nicht komplett Scheisse
+- Das Jahr war einschneidend aber nicht komplett Scheisse.
+  - https://en.wikipedia.org/wiki/Critical_positivity_ratio
 
 ## Hallo Zwanzigzweiundzwanzig
 
