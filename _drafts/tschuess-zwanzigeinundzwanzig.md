@@ -177,26 +177,62 @@ auf einem wegen Bauarbeiten gesperrten Wegabschnitt
 neben einem Bagger ausgebreitet. 
 Der Boden war eben. 
 
-Tag 1
-- Trailname Sock'n'Sandals
+Am ersten Tag auf dem Trail wurden die angenehmen Stellen an den Füßen,
+die ich an Tag 0 noch wegignorieren konnte 
+(Ich hatte die wunderbar Idee mit Treckingsandalen barfuß zu wandern) 
+an den Füßen immer deutlicher.
+Ich bekam Trailfruchts Paar Zweitsocken gegen die Reibung 
+und meinem Trainamen *Sock'n'Sandals* (Arbeitstitel) obendrein.
+In der Apotheke von Schlangenbad 
+habe ich mich zusätzlich mit Blasenpflastern eingedeckt.
+So ließ sich die Tour ohne Schmerzen weiterführen.
 
-- Gutes Wetter bis ein paar Studen am letzten Tag
-- Kaub, Fähre zu Fuß nach Oberwesel
-- lange Unterhose + Wollsocken, Wasserfilter, Toaks Kocher, Spiritus nicht benutzt.
-- 11 von 21 Etappen
+Wir hatten bestes Wanderwetter, knapp über 20 Grad, leicht bewölkt.
+Die Außnahme bildete in Summe etwa zwei Stunden Regen.
+Eine davon nutzten wir für ein warmes Mittagessen 
+im Pavilion auf dem Assmannshäuser Höllenberg, 
+die andere am letzten Tag, auf den letzten Kilometern zum Bahnhof nach nach Oberwesel
+nach dem übersetzten mit der Fähre von Kaub. \\
+Der Rheinsteig (die Teil) war landschaftlich sehr schön und abwechslungsreich,
+so daß der Abschnitt von Rüdesheim nac Kaub auch bei zweiten Mal,
+([Reinsteig mit Monique in der KW 36](/2020/09/27/2020-kalenderwoche-36.html)),
+auch wenn diesmal in anderer Marschrichtung
+sein Reiz nicht eingebüßt hat. \\
+Apropos Monique, sie war nicht *amused* als ich eröffnete welche Strecke wir
+uns für diesen Trip letztendlich ausgesucht haben, 
+da der Rheinsteig unser *Couplegoal* ist. 
+Wiegesagt, der Rheisteig ist so schön, dass ich auch bereit bin 
+die Strecke von Rüdeshein nach Wiesbaden als Paar nochmal entgegengesetz zu laufen.
+Das war die bereits dritte Tour mit den beiden der Ultralighthikingfreunden.
+Mittlerweile überträgt sich auch auf mich der Minimalismus,
+und ich die Dinge, ich ich nicht gebraucht habe in einer Hand aufzählen. 
 
 ## Meine erstes mit Outdoor verdientes Geld
 
-- Ein Ziel aus 2020
-  - nach WPI
-- [Walkaboutyou](https://walkaboutyou.org)
+Ein Ziel, das aus der [Eifelsteigwanderung im November 2020](
+/2020/12/14/november-draussen.html#winterbackpacking-learnings) 
+mit meinen [Wildnispädagogik](/tags/wildnispadagogik) Alumnis entstanden ist,
+war es mein Wissen im Bereich Bushcraft, Survival, Wahrnehmung
+und sich in der Draußen in der Natur heimisch zu fühlen weiterzugeben.
+Damit auch ein paar Euros zu verdienen wäre natürlich noch besser.
 
+Mitte Oktober habe ich mich Witaly als Coach die [Walkaboutyou](https://walkaboutyou.org)
+durch den Königsforst facilitiert und einen Teil mit Wahrnehmung 
+und tiefem Naturempfinden angeboten. \\
+Das war das Feedback einer Teilnehmerin nach diesem besagten Teil:
 
 > Ich fühle mich gerade wie ein Baum, so als würde ich hier einfach dazu gehören.[^walk-ln]
 
+Abgesehen davon, dass ich glaube, 
+dass wir Menschen ein Zurück in die Natur 
+in einer immer schnelllebigeren und digitalen Welt so ein Angebot gut gebrauchen können
+um sich wieder zu erden und zu sich zu finden.
+So erfüllt es mich hierzu betragen zu können.
+
 ## Ein Jahr ohne Twitter
 
-Aus dem Ziel, den [November 2020 twitterfrei](/2020/12/14/november-draussen.html#november-ohne-twitter) 
+Aus dem Ziel, den [November 2020 twitterfrei](
+/2020/12/14/november-draussen.html#november-ohne-twitter) 
 zu verbringen ist jetzt über ein Jahr geworden, 
 wenn man meinem drei Tweets in 2021 absieht. \\
 Der einzig händisch gepostete Tweet diente der Zuordnung bzw. Verfizierung 
@@ -207,7 +243,8 @@ Ich habe keine Tweets konsumiert, geliked oder retweetet
 und etwas Freiheit (und Zeit) zurückgewonnen.
 
 Dafür erwische ich mich des öffteren, 
-wie dafür mit dem  Stream [meines linkedin Profils](https://www.linkedin.com/in/florianlatzel/) prokrastiniere.
+wie dafür mit dem  Stream [meines linkedin Profils](
+https://www.linkedin.com/in/florianlatzel/) prokrastiniere.
 Abgesehen davon, dass den linkedin Stream dem von Xing definitiv vorziehe
 und für meinen Job häufig gute Impulse bekomme, 
 (vermehrt Onepager, Informations Häppchen bzw. Mini-Präsentation)
@@ -216,7 +253,8 @@ schafft es auch seichter Content, Memes, Videos für die Tränendrüse in den St
 Und abgesehen davon, 
 dass ich mit meinen Posts erreiche ich bei mehr Menschen (gemäß der Größe meines Netzwerks) 
 und in Relation auch mehr Reaktionen bekomme,
-merke ich, wie ich darauf anspringe. Substitut,  [Dopamin!](https://www.youtube.com/watch?v=LsdX2LciA4w)
+merke ich, wie ich darauf anspringe. Substitut, 
+[Dopamin!](https://www.youtube.com/watch?v=LsdX2LciA4w).
 Mittlerweile habe ich auch schon kilometerlange Kommentarthreads
 mit fragwürdiger Debattenkultur gefunden
 
