@@ -19,7 +19,7 @@ In den letzten Tagen des vergangenen Jahres war ich gedanklich vermehrt in der V
 Ich blicke zurück, resümierte, passte meine Ziele an
 und versuchte Dankbarkeit zum empfinden.
 
-Das war mein Zwanzigeinundzwanzig (das wichtigste).<!--break-->
+Das war mein Zwanzigeinundzwanzig (das Prägendste).<!--break-->
 
 Ich habe letztes Jahr wesentlich weniger Fotos 
 als in den vorangegangenen Jahren gemacht.
@@ -298,29 +298,91 @@ dass mir teilweise Blut aus den Ohren fließt...
 
 ## Danke
 
-- Monique
-- Famile
-- Freunde
-  - Unterschied
-  - Umzug
-- Marco und Till. Besonders Till
-- Oli.Z Begleitung seit 2017
-- Folkert und Friederike
-- Arne PO
-- Kamil 
-- Witali
-- Tobias SIY Buddy
-- Melanie Coaching
-- Stefan Meditation
-- Florian für Buch + das pushen SIY
-- Claudius Silat
-- Maria Beihilfe
+Ich möchte meiner Freundin Monique danken, 
+die diese wirklich nicht einfache Jahr
+und diese Krise mit mir zusammen durchlebt hat. \\
+Die an meiner Seite war 
+und auch noch mit mir,
+mit einem Sohn, der in seine Mutter verliert
+und einem Partner am Limit,
+eine nicht gerade kleine Bürde hatte.
 
-- SIY war mein best angelegtes Geld.
-  - 10 Jahre früher
-- Mittlerweile habe neue Laufschuhe und gehe auch wieder laufen.
-- Das Jahr war einschneidend aber nicht komplett Scheisse.
-  - https://en.wikipedia.org/wiki/Critical_positivity_ratio
+Ich möchte meiner Famile danken,
+die kleiner geworden aber noch mehr zusammengerückt ist.
+
+Ich möchte meinen Freunden danken, 
+die mir geholfen haben oder einfach nur da waren.
+
+Ein Dank geht Till, 
+meinen Co-Trainer und bevorzugten Sparringspartner 
+von Jeet Kune Do Cologne.
+Für das Sparring, das nichts schenken und den Widerstand. \\
+Das hat mir dieses Jahr sehr viel gegeben
+und ich glaube, 
+dass ich meine aufrechte Haltung dadurch schneller wiedergefunden habe.
+Danke deine gute Beobachtung, Benennung von Schwachstellen 
+und dem Potenzial daduch zu wachsen. 
+(auch wenn's manchmal nervt😉). 
+
+Danke an meinen ehemaligen Kollegen Oli.Z 
+für den gemeinsamen Weg bei der REWE digital seit Tag eins in 2017.
+Danke für das Führung geben und Vorbild sein.
+Und für Begleitung durch die höhen Höhen, 
+wir haben echt was auf die Beine gestellt,
+und das Vertrauen und die Sicherheit, 
+die ich in dich während den Tiefen haben durfte. 
+
+Danke an meine Kollegin Friederike.
+Die Workshops und Trainings, 
+die wir gemeinsam konzipiert haben laufen einfach. \\
+Danke an Folkert, 
+mit dem ich seit diesem Jahr in diesen Bereich zusammenarbeiten darf.
+Mit euch fühle ich mich wirksam, 
+wenn wir zusammen Individuen, Teams oder Abteilungen helfen können.
+Absehen davon waren die Feedbacks der letzen Male eine zusätzliche Bestätigung.
+
+Danke an meinen ehemaligen TPO Arne für 1 3/4 gemeinsame Jahr.
+Wir haben das einfach gut und geschmeidig zusammen hinbekommen.
+
+Ich möchte meiner Kollegin Melanie für viele Coaching Sessions 
+und guten Fragen zu eigenen Antworten danken.
+
+Danke Stefan für die wöchentliche Anleitung unserer Meditation.
+Mir gibt das viel, ich starte besser in den Tag.
+Du finde, daß du eine wichtigen Beitrag für deinen 
+direkten Mitmenschen leistet und daß das auf unser Gemeinwohl einzahlt. 
+
+Florian, danke die Empfehlung von SIY und das Buch.
+Das Buch war der Wink mit den Zaunpfahl, 
+den ich brauchte im mich für das SIY Programm anzumelden.
+SIY war mein am besten angelegtes Geld.
+Hätte ich gewußt, daß es so etwas gib, 
+dann hätte ich es schon 10 Jahre früher gemacht 
+(vielleicht, ich weiß nicht ob mein Alter Ego dafür empfänglich gewesen wäre🤨).
+
+Danke an Kamil für das SIY Training,
+die netten gemeinsamen Kilometer zusammen 
+und (noch) kleinen gemeinsamen Weg und den Kontakt zu Witali. \\
+
+Danke Witali für mein Debut mit dir bei [walkaboutyou](),
+und den wiederum daraus entstandenen Möglichkeiten. \\
+Kamil und Witali, ich freu mich auf mehr mit euch.
+
+Danke an Claudius, einen meiner Trainer beim Silat
+für einen tollen Einstieg und dafür, 
+daß du das Training in Köln auch nur für uns zwei gemacht hast.
+
+Danke an die ehemalige Freundin und Kollegin meiner Mutter
+für die Hilfe mit der Beihilfe und viel mütterlichen Humor.
+\\
+\\
+Ich durfte einiges über Resilienz und positive Psychologie lernen.
+Auch wenn das Jahr sehr einschneidend war, 
+es war nicht komplett Scheisse, 
+ich habe einiges dafür getan, 
+dass das Verhältnis unter dem Strich bei >=3:1 ist[^pos]. 
+
+<!--
 
 ## Hallo Zwanzigzweiundzwanzig
 
@@ -332,10 +394,11 @@ dass mir teilweise Blut aus den Ohren fließt...
 - Meditation anleiten
 - Mehr lesen. Danke Afagh für [diesen Impuls](//www.linkedin.com/feed/update/urn:li:activity:6883867555946078208/)
 - Als längerfristiges Ziel: Projekt Googlefrei
-
+-->
 [^siybuch]: Chade-Meng Tan, Search Inside Yourself: Optimiere dein Leben durch Achtsamkeit, Goldmann Verlag, [ISBN 3442221137](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche?isbn=3442221137)
 [^walk-ln]: Post des Walkaboutyou Accounts auf LinkedIn zur Wanderung im Königforst: <https://www.linkedin.com/feed/update/urn:li:activity:6855826210799321088/>
 [^tapak-suci]: <https://en.wikipedia.org/wiki/Tapak_Suci>
+[^pos]: <https://en.wikipedia.org/wiki/Critical_positivity_ratio>
 
 *[RSS]: Rich Site Summary 
 *[IFFT]: IF This Than That
