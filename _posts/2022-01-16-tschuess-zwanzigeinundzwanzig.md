@@ -8,6 +8,7 @@ tags:
 - REWE digital
 - Draussen
 - Wandern
+- Danksagung
 toc: true
 date: 2022-01-16 23:01 
 image: /assets/imgs/21/blick-auf-den-rhein-boss-tempel-hattenheim.png 
@@ -224,8 +225,9 @@ war es mein Wissen im Bereich Bushcraft, Survival, Wahrnehmung
 und sich in der Draußen in der Natur heimisch zu fühlen weiterzugeben.
 Damit auch ein paar Euros zu verdienen wäre auch schön.
 
-Mitte Oktober habe ich mich Witaly als Coach die [Walkaboutyou](
-https://walkaboutyou.org) durch den Königsforst facilitiert 
+Mitte Oktober habe ich mit [Witali](https://www.witali.org/) 
+als Coach die [Walkaboutyou](https://walkaboutyou.org) 
+durch den Königsforst facilitiert 
 und einen Teil mit Wahrnehmung und tiefem Naturempfinden angeboten. \\
 Das war das Feedback einer Teilnehmerin nach diesem besagten Teil:
 
