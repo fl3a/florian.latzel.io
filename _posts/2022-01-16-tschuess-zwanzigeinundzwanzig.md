@@ -331,7 +331,7 @@ von [Jeet Kune Do Cologne](https://www.jkdcologne.de/) .
 Für das Sparring, das Nichtsschenken, den Widerstand,
 das es immer immer wieder wissen wollen und viele gute Tipps. \\
 Das hat mir dieses Jahr sehr viel gegeben.
-Ich habe meine aufrechte Haltung dadurch schneller wiedergefunden. \\
+Ich habe meine aufrechte Haltung dadurch schneller wiedergefunden. 
 
 Danke an meinen ehemaligen Kollegen Oli.Z 
 für den gemeinsamen Weg bei der REWE digital seit Tag eins in 2017.
@@ -418,3 +418,4 @@ Hallo Zwanzigzweiundzwanzig!
 *[RSS]: Rich Site Summary 
 *[IFFT]: IF This Than That
 *[SIY]: Search Inside Yourself
+*[TPO]: Technischer Product Owner
