@@ -344,7 +344,7 @@ die ich in dich während den Tiefen haben durfte.
 Danke an Marco für die Führung und Unterstützung, gerade in diesen Zeiten.
 
 Danke Team Anderson für das OKsein und die Unterstützung.
-Danke an meinen ehemaligen Team Anderson TPO Arne für 1 3/4 gemeinsame Jahr
+Danke an meinen ehemaligen Team Anderson TPO Arne für 1 3/4 gemeinsame Jahre
 einfach gute geschmeidige Zusammenarbeit.
 
 Danke an meine Kollegin Friederike.
