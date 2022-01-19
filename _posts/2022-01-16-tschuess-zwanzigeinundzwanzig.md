@@ -413,7 +413,7 @@ Hallo Zwanzigzweiundzwanzig!
 [^pos2]: Barbara Fredrickson, Die Macht der guten Gefühle. Wie eine positive Haltung ihr Leben dauerhaft verändert. Campus Verlag, [ISBN 9783593390819](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche?isbn=9783593390819)
 [^pos3]: Barbara Fredrickson, Positivity: Top-Notch Research Reveals the 3-to-1 Ratio That Will Change Your Life, [ISBN 9780307393746]()
 [^mas-joko]: [Youtube Suche nach Pendakar Joko Suseno](https://www.youtube.com/results?search_query=pendakar+joko+suseno)
-[^res]: [Podcast Führung im Fokus, Folge #14, Resilienz: Die DNA nachhaltiger Unternehmensentwicklung | Im Gespräch mit Katja Maas](https://www.pta-team.com/podcast-episode-14-resilienz-dna-nachhaltiger-unternehmensentwicklung)
+[^res]: [Podcast Führung im Fokus, Folge #14, Resilienz: Die DNA nachhaltiger Unternehmensentwicklung \| Im Gespräch mit Katja Maas](https://www.pta-team.com/podcast-episode-14-resilienz-dna-nachhaltiger-unternehmensentwicklung)
 
 *[RSS]: Rich Site Summary 
 *[IFFT]: IF This Than That
