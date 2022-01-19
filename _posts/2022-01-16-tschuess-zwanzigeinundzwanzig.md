@@ -373,11 +373,11 @@ Hätte ich gewußt, dass es so etwas gibt,
 dann hätte ich es schon 10 Jahre früher gemacht 
 (vielleicht, ich weiß nicht ob mein Alterego dafür empfänglich gewesen wäre🤨).
 
-Danke an Kamil für das SIY Training,
+Danke an [Kamil](https://kamilbarbarski.com/) für das SIY Training,
 die netten gemeinsamen Kilometer am Rhein zusammen, 
 den (noch) kleinen gemeinsamen Weg und den Kontakt zu Witali. 
 
-Danke Witali für mein Debut mit dir bei [walkaboutyou](
+Danke [Witali](https://www.witali.org/) für mein Debut mit dir bei [walkaboutyou](
 https://walkaboutyou.org/)
 und den wiederum daraus entstandenen Möglichkeiten. \\
 Kamil und Witali, ich freu mich auf mehr mit euch in 22!
