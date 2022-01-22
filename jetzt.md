@@ -11,7 +11,7 @@ was ich neben meinem Day-Job Job als [Scrum Master](/tags/scrum-master/)
 nebenberuflich anbieten möchte und wie das Thema [Natur und Draußensein](/tags/draussen/) dort rein passt.
 
 Zudem möchte ich, dass <https://is-loesungen.de> perspektivisch in dieser Seite aufgeht.\\
-Ich bin schließlich meine eigene Marke.\\ 
+Ich bin schließlich meine eigene Marke.\\
 Obige Seite war ursprünglich für mich größer-gleich eins gedacht und hatte einen IT Fokus.
 
 Der Stand lebt im [*portfolio* Zweig](
