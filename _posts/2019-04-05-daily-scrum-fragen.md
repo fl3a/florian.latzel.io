@@ -8,8 +8,12 @@ tags:
 - Agile
 - Team
 layout: post
-last_modified_at: 2021-05-18
+lasit_modified_at: 2022-02-22
+toc: true
+image: /assets/imgs/daily-scrum-questions-title.jpg
 ---
+{% responsive_image path: assets/imgs/daily-scrum-questions-title.jpg
+figure: true alt: "Daily Questions: Fragen für Daily Scrum und Standup Meetings" %}
 In der letzten Version des Scrum Guides[^nov17-change] aus dem November 2017 wurde unter anderem 
 das Kapitel des *Daily Scrums* stark überarbeitet, 
 um die eigentliche Ziel dieses Scrum Ereignisses besser herauszustellen.
@@ -21,7 +25,7 @@ Spätestens seitdem ist klar, die Gestaltung das Daily Scrum obliegt dem Team.
 > 
 > Einige Entwicklungsteams verwenden Fragen, andere konzentrieren sich eher auf Diskussionen.[^daily-scrum]
 
-**Die klassischen 3 Daily Scrum Fragen**
+## Die klassischen 3 Daily Scrum Fragen
 
 *Die klassischen 3* werden im Scrum Guide als Beispiel verwendet 
 und sind ganz klar auch als solches zu verstehen. Die Fragen lauten wie folgt 
@@ -35,7 +39,7 @@ In diesem Artikel gebe ich dir ein paar Beispiele von anderen hilfreichen Fragen
 und wie mein aktuelles Development Team diese *Daily Questions* als roten Faden für ihr *Standup Meeting* nutzt.
 <!--break-->
 
-**Andere Daily Questions für das Standup Meeting**
+## Andere Daily Questions für das Standup Meeting
 
 Die folgende Fragen für unser Daily kleben auf PostIts direkt neben dem Kanban Board:
 
@@ -66,15 +70,19 @@ Die folgende Fragen für unser Daily kleben auf PostIts direkt neben dem Kanban 
   dass heisst, wie beim Cycle Time Sheet sorgt das Team dafür, dass Statuswechsel sowie
   Start- und Enddatum umgehend nach Jira übertragen werden, damit die Daten dort korrekt sind.
 
-Da die Fragen sehr spefifisch für mein Team sind, was auch sehr stark mit unserer Arbeitsweise 
+Da die Fragen sehr spezifisch für mein Team sind, was auch sehr stark mit unserer Arbeitsweise 
 und den entsprechenden Verhaltensmustern zusammenhängt, 
 kann (und wird) dies auch in Retrospektiven hinterfragt werden. 
 So kann es passieren, dass Fragen dazukommen und andere dafür wegfallen 
 weil sich Rahmenbedigungen und entsprechende Verhaltensweisen ändern.
 
+{% responsive_image path: assets/imgs/daily-scrum-questions-detail.jpg
+figure: true alt: "Daily Questions, 04.2018: Mit confident to reach sprint goal? und  Äi's (Action Items aus der Retrospektive) gecheckt?" %}
+
 Danke an mein ehemaliges Team-Mitglied Micha Kutz, 
 der Ansatz mit den Fragen und dein Artikel[^q-micha] haben mich sehr inspiriert!
-* * *
+
+## Fußnoten
 [^nov17-change]: [Scrum Guide](https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-German.pdf), Seite 22, Änderungen im Scrum Guide 2017 im Vergleich zur Version von 2016, Punkt 5.
 [^daily-scrum]: [Scrum Guide](https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-German.pdf), Seite 12, Daily Scrum
 [^q-micha]: [Michael Kutz: Daily Stand-Up Questions - Beyond the three](https://medium.com/@MichaKutz/daily-stand-up-questions-beyond-the-three-f4786b796d91)
