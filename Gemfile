@@ -30,7 +30,8 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 
   # Adds the following meta tags to your site:
-  # https://github.com/jekyll/jekyll-seo-tag
+  # Fork of https://github.com/jekyll/jekyll-seo-tag
+  # Adds 'article:modified_time' from last_modified_at
   gem 'jekyll-seo-tag', git: 'https://github.com/fl3a/jekyll-seo-tag', branch: 'master'
  
   # jekyll-toc - Table of Contents
