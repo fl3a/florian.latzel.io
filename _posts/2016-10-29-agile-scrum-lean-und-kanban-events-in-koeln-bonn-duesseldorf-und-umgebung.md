@@ -16,7 +16,7 @@ nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2021-02-18
+last_modified_at: 2022-02-22
 image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
 <figure>
@@ -77,6 +77,7 @@ das Kölner Meetup rund um das Thema BetaCodex und Unternehmenstransformation. J
 - [SCRUM MASTER Networking²](https://www.xing.com/communities/groups/scrum-master-networking2-um-piazzablu-11d2-1126652/about), Networking speziell für Scrum Master und Agile Coaches. 
 Ein Format von piazzablu.
 - [Flight Club Cologne](https://www.meetup.com/de-DE/flight-club-cologne/), Meetup für *Business Agilität* und die *Flight Level* Interessierte.
+- [Agile Insights](https://www.meetup.com/de-DE/agile-insights/), ein Format der [Agile Academy](https://www.agile-academy.com/de/).
 
 <!--break-->
 ### Agile Meetups und Events in Bonn
@@ -98,6 +99,8 @@ Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com
 - [Lean Coffee Düsseldorf](https://www.xing.com/communities/groups/lean-coffee-90f0-1066150)
 - [Düsseldorf Liberating Structures](https://www.meetup.com/de-DE/meetup-group-JUAeEreA/)
 - [Agile DUS](https://www.meetup.com/de-DE/Agile-DUS/), ein Format von Valtech
+- [Scaling Digital Innovation Düsseldorf](https://www.meetup.com/de-DE/Scaling-Digital-Innovation-Dusseldorf/),
+Einsatz agiler Methoden wie Agile Project Management in Tranformations-Initiativen.
 
 ### Agile Events und Meetups in Solingen
 
@@ -120,11 +123,6 @@ jeden vierten Donnerstag im Monat, Anmeldung über xing
   findet im Duisburger Innenhafen oder auf Zeche Zollverein (Triple-Z) in Essen statt
 - [Agiles Arbeiten & New Work im Ruhrgebiet](https://www.meetup.com/de-DE/Agiles-Arbeiten-im-Ruhrgebiet/events/259932203/), macht am 10. April 2020 den Auftakt mit einem Kennenlernabend
 - [Liberating Structures Ruhrgebiet](https://www.meetup.com/de-DE/Liberating-Structures-RUHRGEBIET/members/)
-
-
-### Agile Meetups und Events in Mönchengladbach
-
-- [Agile MG](https://www.meetup.com/de-DE/Agile-MG/)
 
 ## Dein Agile Event oder Meetup fehlt?
 
