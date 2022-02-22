@@ -16,7 +16,7 @@ Wenn es um Modelle zu Teams, Teamentwicklung und Team-Persönlichkeiten geht,
 dann denkt man sicher an Tuckman's Teamphasen, vielleicht an Belbins Teamrollen 
 oder an die fünf Dysfunktionen eines Teams laut Lencioni.
 
-Es gibt einige mehr, das ist der Versuch einer Sammlung.
+Es gibt einige mehr, das ist der Versuch einer Sammlung.<!--break-->
 
 Abgrenzung
 
@@ -60,7 +60,6 @@ habe ich die Sammlung um einige Modelle und  Regeln
 aus dem Bereich der Gruppendynamik<https://de.wikipedia.org/wiki/Gruppendynamik> 
 und der Sozialpsychologie><https://de.wikipedia.org/wiki/Sozialpsychologie>  ergänzt.
 
-<!--break-->
 ## Definition Team: Hauptkriterien von Teams nach Mabey und Caird
 
 Christopher Mabey/Sally Caird, Building Team Effectiveness, Open University/Milton Keynes, 1999, S. 7 ff., ISBN 0-7492-9553-8 
