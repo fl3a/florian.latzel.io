@@ -77,7 +77,10 @@ das Kölner Meetup rund um das Thema BetaCodex und Unternehmenstransformation. J
 - [SCRUM MASTER Networking²](https://www.xing.com/communities/groups/scrum-master-networking2-um-piazzablu-11d2-1126652/about), Networking speziell für Scrum Master und Agile Coaches. 
 Ein Format von piazzablu.
 - [Flight Club Cologne](https://www.meetup.com/de-DE/flight-club-cologne/), Meetup für *Business Agilität* und die *Flight Level* Interessierte.
-- [Agile Insights](https://www.meetup.com/de-DE/agile-insights/), ein Format der [Agile Academy](https://www.agile-academy.com/de/).
+- [Agile Insights](https://www.meetup.com/de-DE/agile-insights/), 
+ein Format der [Agile Academy](https://www.agile-academy.com/de/).
+- [access to agile](https://www.meetup.com/de-DE/access-to-agile/), 
+ein Format von [access2agile](https://access2agile.com/)
 
 <!--break-->
 ### Agile Meetups und Events in Bonn
