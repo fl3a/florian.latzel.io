@@ -337,9 +337,9 @@ Danke an meinen ehemaligen Kollegen Oli.Z
 für den gemeinsamen Weg bei der REWE digital seit Tag eins in 2017.
 Danke für das Führung geben und Vorbild sein.
 Und für Begleitung durch die Höhen und Tiefen, 
-wir haben echt was auf die Beine gestellt
 und das Vertrauen und die Sicherheit, 
-die ich in dich während den Tiefen haben durfte. 
+die ich in dich während den Tiefen haben durfte. \\
+Und hey, wir haben zusammen auch echt was auf die Beine gestellt.
 
 Danke an Marco für die Führung und Unterstützung, gerade in diesen Zeiten.
 
