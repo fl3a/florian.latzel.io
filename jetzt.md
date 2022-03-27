@@ -22,6 +22,12 @@ meines Git Repos.
 
 Ich habe im Oktober angefangen [*Pencak Silat* im *Tapac Suci* Stil](https://www.tapak-suci.de/) zu lernen.
 
+Den *NLP Practitioner*, den ich ebenfalls im Oktober 2020 
+bei [Tom Andreas](http://www.tomandreas.de/) begonnen habe,
+konnte ich im März erfolgreich abschließen.    
+Ich freue mich schon jetzt auf die Coach Ausbildung bei Tom, 
+die ich im Mai beginnen werde.  
+
 ## Now reading
 
 - Outdoor-Survival nur mit dem Messer von Johannes Vogel
