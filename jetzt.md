@@ -20,14 +20,13 @@ meines Git Repos.
 
 ## Lernen
 
-Ich habe im Oktober 2021 den *NLP Practitioner* bei Tom Andreas begonnen\\
-und angefangen [*Pencak Silat* im *Tapac Suci* Stil](https://www.tapak-suci.de/) zu lernen.
+Ich habe im Oktober angefangen [*Pencak Silat* im *Tapac Suci* Stil](https://www.tapak-suci.de/) zu lernen.
 
 ## Now reading
 
-- Sprache und sein von Kübra Gümüsay 
 - Outdoor-Survival nur mit dem Messer von Johannes Vogel
 - Search Inside Yourself von Chade-Meng Tan (das zweite Mal)
+- ~~Sprache und sein von Kübra Gümüsay~~ 
 - ~~Über den Tod und das Leben danach von Elisabeth Kübler-Ross~~
 
 *[WIP]: Work in progress
