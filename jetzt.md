@@ -4,6 +4,16 @@ title: Jetzt
 permalink: /jetzt.html
 last_modified_at: 2022-01-22 10:25
 ---
+## Fastenzeit
+
+Dieses Jahr habe ich Fastenzeit erst am 15.03 gestartet.
+Gründe: Urlaub in Portugal, 
+Rückreise über Berlin ([Luckow👋🏻](/tags/luckow/) 
+und zu guter letzt, *NLP Practitioner* Abschlußwochenende😉. 
+
+Ich verzichte wieder auf Alkohol und Fleisch. 
+Hinzu kommt dieses Jahr mal *Youtube Konsum*.  
+
 ## Portfolio
 
 Ich habe darüber nachgedacht, 
@@ -20,13 +30,11 @@ meines Git Repos.
 
 ## Lernen
 
-Ich habe im Oktober angefangen [*Pencak Silat* im *Tapac Suci* Stil](https://www.tapak-suci.de/) zu lernen.
+Ich habe im Oktober angefangen [*Pencak Silat* im *Tapac Suci* Stil](
+https://www.tapak-suci.de/) zu lernen.
 
-Den *NLP Practitioner*, den ich ebenfalls im Oktober 2020 
-bei [Tom Andreas](http://www.tomandreas.de/) begonnen habe,
-konnte ich im März erfolgreich abschließen.    
-Ich freue mich schon jetzt auf die Coach Ausbildung bei Tom, 
-die ich im Mai beginnen werde.  
+Und ich freue mich schon jetzt auf die Coach Ausbildung 
+bei [Tom](http://www.tomandreas.de/), die ich im Mai beginnen werde.  
 
 ## Now reading
 
