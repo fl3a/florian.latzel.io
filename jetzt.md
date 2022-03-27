@@ -6,9 +6,9 @@ last_modified_at: 2022-01-22 10:25
 ---
 ## Fastenzeit
 
-Dieses Jahr habe ich Fastenzeit erst am 15.03 gestartet.
+Dieses Jahr habe ich Fastenzeit zwei Wochen nach Aschermittwoch gestartet.   
 Gründe: Urlaub in Portugal, 
-Rückreise über Berlin ([Luckow👋🏻](/tags/luckow/) 
+Rückreise über Berlin ([Luckow👋🏻](/tags/luckow/)) 
 und zu guter letzt, *NLP Practitioner* Abschlußwochenende😉. 
 
 Ich verzichte wieder auf Alkohol und Fleisch. 
