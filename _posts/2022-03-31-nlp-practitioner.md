@@ -19,8 +19,8 @@ Vorletzten Sonntag habe ich von [Tom Andreas](https://www.tomandreas.de)
 mein *NLP-Practitioner* Zertifikat nach sehr intensiven 6 Monaten 
 und einem noch intensiveren Abschlußwochenende überreicht bekommen.
 
-Ich bin froh, dass ich dieses Thema, 
-das ich bereits seit 2017[^thx] im Backlog habe,
+Ich bin froh, dass ich den Practitioner bei Tom, 
+den ich bereits seit 2017[^thx] im Backlog habe,
 doch noch angegangen bin und jetzt in die *Done-Spalte* ziehen kann.<!--break-->
 
 Ich muss zugeben, dass ich angesichts des *Testings*
