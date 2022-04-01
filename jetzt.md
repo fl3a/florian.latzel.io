@@ -2,14 +2,15 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2022-01-22 10:25
+last_modified_at: 2022-04-01 20:42
 ---
 ## Fastenzeit
 
 Dieses Jahr habe ich Fastenzeit zwei Wochen nach Aschermittwoch gestartet.   
 Gründe: Urlaub in Portugal, 
 Rückreise über Berlin ([Luckow👋🏻](/tags/luckow/)) 
-und zu guter letzt, *NLP Practitioner* Abschlußwochenende😉. 
+und zu guter letzt, 
+[*NLP Practitioner*](2022/03/31/nlp-practitioner.html) Abschlußwochenende😉. 
 
 Ich verzichte wieder auf Alkohol und Fleisch. 
 Hinzu kommt dieses Jahr mal *Youtube Konsum*.  
