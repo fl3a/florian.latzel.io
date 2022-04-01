@@ -39,7 +39,7 @@ und [Mila](https://www.xing.com/profile/Mila_Krause/) für einen guten Rahmen
 und zu guter Letzt Tom danken.   
 
 Das war ein sehr lehrreiches und forderndes halbes Jahr für mich.   
-Ich habe sehr viel gelernt über Veränderung und über mich selbst.
+Ich habe sehr viel über Veränderung und über mich selbst gelernt.
 Bei Tom öffnen sich Kreise und schließen sich wieder.
 Ich wundere mich mich mittlerweile auch nicht mehr 
 über die vielen Querverbindungen zu ihm.
