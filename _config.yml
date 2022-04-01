@@ -3,15 +3,14 @@
 title: florian.latzel.io
 author: "Florian Latzel"
 email: "florian@latzel.io"
+email-smpl: "florian-ät-latzel-punkt-io"
 head: 'Hi, ich bin Florian👋'
 head-description: >-
   Hier schreibe ich über meine Abenteuer 
-  als Scrum Master im Taka-VUCA-Land + 
-  Notizen über dies, das, verschiedene Dinge.
+  als Scrum Master im Taka-VUCA-Land<br />    
+  und über <a href="/themen.html">dies, das, verschiedene Dinge</a>
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, ich bin Florian. Hier schreibe ich 
-  über meine Abenteuer als Scrum Master im Taka-VUCA-Land + 
-  Notizen über dies, das, verschiedene Dinge.
+  Trainer, Berater, Facilitator, Coach und Überzeugungstäter
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://florian.latzel.io" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y-%m-%d"

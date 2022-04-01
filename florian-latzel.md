@@ -32,7 +32,7 @@ Das ist mein privates Blog, manchmal schreibe ich hier etwas über [dies, das, v
 
 Hier hier erfährst Du vielleicht noch mehr über mich.
 
-## Beruflich & Privat
+## Mein Angebot
 
 Das was ich mache, mache ich mit Leidenschaft und aus Überzeugung.
 
@@ -46,9 +46,17 @@ Fördern von Gruppenprozessen und Ergebnissen, Partizipativ und Co-Kreativ.
 
 ### Workshops & Trainings
 
-Durchführung von Workshops, u.a. [Agilität](/tags/agile), *Iterativen Arbeiten* und *New Work* wie z.B. [Scrum](/tags/scrum)
-und Kanban, *Visual Facilitating*, *[Team-Building](/tags/teambuilding)* und Moderation. Simulationen und Spiele.\\
-Lebendige Workshops. Begreifbar und spürbar.
+Durchführung von Trainings und Workshops zu u.a. 
+Kommunikation (Grundlagen, Feedback, Schwierige Gespräche), Moderation, 
+[Agilität](/tags/agile) und *Iterativen Arbeiten* wie z.B. [Scrum](/tags/scrum)
+oder Kanban, *Visual Facilitating*, Simulationen und Spiele.\\
+Lebendige Workshops. Interaktiv, begreifbar und spürbar.
+
+### Teams & Team-Building
+
+Den Fokus meines Day-Jobs stellen Team und Teamarbeit dar.
+Angefangen beim [*Team-Building*](/tags/teambuilding), Working Agreements 
+über Feedback bis hin zur regelmäßigen Reflektion.
 
 ### Beratung
 
@@ -58,12 +66,9 @@ Ich stelle meine Erfahrung als Berater zur Verfügung.
 
 Impulse, Anregungen, eröffnen von Perspektiven.
 
-### ~~IT Projekte~~
 
-Frag mich bitte **nicht für IT Projekte** an, das lässt meine Zeit nicht zu\\
-und es ist für dich oder für deine Kunden auch nicht zielführend!
+Mehr Details über meine Referenzen und Kunden i
+findest auf auch hier: <https://github.com/fl3a/florian.latzel.io/blob/portfolio/referenzen.md>
+und auf [linkedin](https://de.linkedin.com/in/florianlatzel/de)
 
-Mehr Infos über meine Qualifikation, Leistungen und Kunden 
-findest auch hier:\\
-<https://is-loesungen.de>.
  
