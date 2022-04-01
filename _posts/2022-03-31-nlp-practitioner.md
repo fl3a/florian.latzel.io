@@ -47,7 +47,7 @@ Ich wundere mich mich mittlerweile auch nicht mehr
 Ich freue mich schon jetzt darauf, 
 daß meine Lernreise mit Tom in der *Coach Ausbildung* im Mai weitergeht.
 
-[^thx]: Danke an Marco und Simon für die Inspiration hierzu🙏🏻!
+[^thx]: Danke an [Marco](https://www.linkedin.com/in/marco-fischer-07a830b4/) und [Simon](https://www.xing.com/profile/Simon_Klima/) für die Inspiration hierzu🙏🏻!
 
 
 
