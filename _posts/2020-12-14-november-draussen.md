@@ -71,6 +71,9 @@ als könnte mein Gürtel ein Loch mehr in die engere Richtung vertragen.
 
 ## Ich bin Wildnispädagoge!
 
+{% responsive_image figure: true alt: "Zertifikat Wildnispädagogik Florian Latzel"
+path: assets/imgs/florian-latzel-wildnispaedagogik-zertifikat-web.png %}
+
 Ich habe die in [Kalenderwoche 10](/2020/03/12/2020-kalenderwoche-10.html) 
 begonnene Ausbildung zum Wildnispädagogen trotz COVID-19 abschließen können.
 Das Lernen von Naturkunde, Bushcraft- und Survialfertigkeiten und das [Draußensein](/tags/draussen/index.html) 
