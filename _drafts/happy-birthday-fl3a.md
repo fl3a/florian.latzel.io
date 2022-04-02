@@ -6,6 +6,8 @@ tags:
 - Open Source
 - linuxtag
 - just me
+- Community
+- luckow
 - Danksagung
 ---
 {% responsive_image: path: assets/imgs/linuxtag09/drupal-linuxtag-2009.jpg figure: true
@@ -23,7 +25,7 @@ war geschockt und gelähmt,
 mir war werder zu feiern noch zu schreiben zu mute. 
 
 fl3a ist der Name meine Drupal.org Accounts und der ist dieses Jahr 16 geworden. 
-Er dürfte jetzt Alkohol trinken und rauchen (wenn er wollte und könnte).
+Er dürfte jetzt Alkohol trinken und rauchen (wenn er wollte und könnte).   
 Das sind (über) 16 Jahre mit Drupal und eine kleine Rückbetrachtung.<!--break-->
 
 ## Drupal
@@ -45,15 +47,31 @@ Mit diesem Artikel sind es 59 [mit Drupal getaggte Posts](/tags/drupal/index.htm
 
 ## Mein drupal.org Account fl3a
 
-**Foto Linuxtag 08**
+Meinen Drupal Account habe ich damals in der Absicht angelegt, 
+um [postfix](https://www.drupal.org/sandbox/fl3a/1954518) 
+dort als (mein erstes) Modul zu veröffentlichen.  
+Die Grundidee des Moduls war es, 
+einen *Postfix Mailserver* mit einem *MySQL Backend* 
+mit der Mandatenfähigkeit Drupals zu verbinden
+und dem Benutzer eine Adminstrations-Oberfläche 
+via in *Drupal 4.7* neu eingeführter *Forms API* bereitzustellen. 
+Wir (damals waren wir zu zweit) hatten damals noch die Idee unseren 
+unseren Kunden ein komplette Hosting in verschiedenen Paketen
+(z.B. Anzahl EMail-Adressen, Größe der Quota) 
+inklusive EMail anzubieten und wollten den Kunden die Möglichkeit geben,
+ihren Email-Account (z.B. Weiterleitungen) 
+oder eine ganze Domain mit allen Stellschrauben inklusive EMail-Adressen zu verwalten.
 
-- für erstes Modul [postfix](https://www.drupal.org/sandbox/fl3a/1954518)
+
+
+um Drupal etwas zurückzugeben, 
+der *Drupal Community* zur Verfügung zu stelle.
+
 - Herleitung des handles
-- Modul postfix für unser Business
 - CVS einfuchsen
+- groups.drupal.org und ug
 - später drush_multi
 - erste Patches
-- später der Name anderer Accounts
 
 ## Drupal Community
 
@@ -76,16 +94,24 @@ und  den Drupal e.V (German Drupal Association, vormals *Initiative zur Förderu
 War für und mit Drupal auf [Linuxtag](/tags/linuxtag/index.html),
 Cebit und FrosCon unterwegs.
 Versuchte mit anderen versucht die Drupalcon 2010 nach Deutschland (Berlin) zu holen
-und habe 2018 [das erste DrupalCamp im Open Space (Barcamp) Format](/2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html) mitorganisert.
+und habe 2018 [das erste DrupalCamp im Open Space (Barcamp) Format](
+/2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html) 
+mitorganisert und facilitiert.
 
-**Foto Scrum devdays**
 
+{%responsive_image figure: true alt: 'Höhrsaal, Session Scrum aus der Praxis' 
+path: assets/imgs/florian-latzel-stephan-luckow-drupaldevdays-munich-2010-scrum.jpg
+caption: 'Stephan und ich bei  
+<a href="/2010/05/12/scrum-aus-der-praxis-drupaldevdays-2010.html">Scrum aus der Praxis</a>, 
+DrupalDevDays 2010. Quelle flickr, beta.robot, CC BY-NC-SA 2.0' %}
+
+Wissen teilen, Scrum nach BerlinOnline und VisitBerlin
 
 ## Drupal Projekte
 
 {%responsive_image path: assets/imgs/daily-scrum-berlinonline.jpg
 alt: "Mein letztes Daily Scrum bei BerlinOnline" figure: true
-caption: "Mein letztes Daily Scrum bei BerlinOnline, Foto: &copy; Olf Dziadek" %}
+caption: "Mein letztes Daily Scrum bei BerlinOnline (leider ohne Jan und Tobi), Mai 2009. Foto: &copy; Olf Dziadek" %}
 
 Schon vor über zehn Jahren haben die Projekte das Format der *One man show* verlassen.
 Mit jeden Vorhaben stiegen Komplexität und Teamgröße.
