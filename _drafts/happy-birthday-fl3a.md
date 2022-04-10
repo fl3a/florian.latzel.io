@@ -21,13 +21,14 @@ Durch den Angriffgriffskrieg von Russland auf die Ukraine🇺🇦,
 der auf gleichen Tage fiel 
 wie der Geburtstag von fl3a, war zweiters stark getrübt.\\
 Ich bin aufgewacht und es war Krieg in Europa, 
-war geschockt und gelähmt, 
-mir war werder zu feiern noch zu schreiben zu mute. 
+war geschockt und gelähmt.\\
+Mir war weder zu feiern noch zu schreiben zu mute.
 
-fl3a ist der Name meine Drupal.org Accounts und der ist dieses Jahr 16 geworden. 
-Er dürfte jetzt Alkohol trinken und rauchen (wenn er wollte und könnte).   
-Das sind (über) 16 Jahre mit Drupal und eine kleine Rückbetrachtung.<!--break-->
-
+fl3a ist der Name [meines Drupal.org Accounts](https://www.drupal.org/user/51103) 
+und der ist dieses Jahr 16 geworden.    
+Er dürfte jetzt Alkohol trinken und rauchen (wenn er wollte und könnte). 
+Dies ist eine kleine Rückbetrachtung.
+<!--break-->
 ## Drupal
 
 {% responsive_image: 
@@ -35,11 +36,12 @@ path: assets/imgs/angrillen-2012-florian-latzel-stephan-luckow.jpg figure: true
 alt: "Angrillen 2012 mit Florian Latzel (rechts) und Stephan Luckow (links)"
 caption: "Angrillen 2012 mit Stephan Luckow bei der GzEvD mbH, &copy; Leon Evers" %}
 
-Das [Open Source](/tags/open-source/) *CMS Framework Drupal[^drupal]*
-hat mich über 15 Jahre lang begleitet.\\
-Es stellte ein ganz wesentliches Fundament meiner Selbstständigkeit dar.
+Das [Open Source](/tags/open-source/) [*CMS Framework Drupal*](
+https://drupal.org) hat mich über 15 Jahre lang begleitet 
+und stellte ein ganz wesentliches Fundament meiner Selbstständigkeit dar.
 Und das nicht nur wirtschaftlich.
-Drupal war für mich die Identifikation und _Contributing_[^contrib] mit und für Open Source.
+Drupal war für mich auch die Identifikation 
+und _Contributing_[^contrib] mit und für Open Source.
 
 Ich habe mich intensiv mit Drupal beschäftigt 
 und entsprechend darüber hier auch am meisten geschrieben.,
@@ -60,18 +62,20 @@ unseren Kunden ein komplette Hosting in verschiedenen Paketen
 (z.B. Anzahl EMail-Adressen, Größe der Quota) 
 inklusive EMail anzubieten und wollten den Kunden die Möglichkeit geben,
 ihren Email-Account (z.B. Weiterleitungen) 
-oder eine ganze Domain mit allen Stellschrauben inklusive EMail-Adressen zu verwalten.
+oder eine ganze Domain mit allen Stellschrauben inklusive EMail-Adressen zu verwalten.\\
+Ich wollte etwas zurückzugeben und der *Drupal Community* zur Verfügung zu stellen.
 
+Doch damals lief auf drupal.org noch CVS als Versionsverwaltung
+und mir fehlte der Nerv mich damit zu beschäftigen 
+um das Modul auf drupal.org zu bekommen.
+Als frischgebackener Selbsständiger musste ich ja auch noch Geld verdienen.
+Erst Ende 2009 hatte ich dann den Nerv und entwickelte [drush_multi](
+https://www.drupal.org/project/drush_multi) 
+und stellte auch die ersten Patches für andere Module bereit.\\
 
-
-um Drupal etwas zurückzugeben, 
-der *Drupal Community* zur Verfügung zu stelle.
-
-- Herleitung des handles
-- CVS einfuchsen
-- groups.drupal.org und ug
-- später drush_multi
-- erste Patches
+Bis dahin nutzte ich das an drupal.org angeschlossene [groups.drupal.org](
+https//groups.drupal.org) 
+um mich mit lokalen Drupal Communitiy in Köln zu vernetzen.
 
 ## Drupal Community
 
@@ -79,13 +83,15 @@ der *Drupal Community* zur Verfügung zu stelle.
 figure: true alt: "Ein Teil des Orgateams vom Drupalcamp 2009" 
 caption: "Ein Teil des Orgateams vom Drupalcamp Köln 2009. Flickr, Robert Happek, CC BY-NC 2.0" %}
 
-Genau so lange, wie ich mit Drupal gearbeitet[^fl3a] habe,
-war ich auch der deutschsprachigen Drupal Community aktiv.
 
-- Peer Group
-- Gleichgesinnte
-- Austausch
-- Beitragen
+Je mehr ich mich mit Drupal auseinandersetzte, 
+desto wichtiger wurde die entsprechende *Peer Group*.
+Gleichgesinnte treffen, sich über das einem liebste CMS Drupal austauschen 
+und sich als Teil von etwas begreifen.
+
+- 2006 linuxexpo, https://groups.drupal.org/node/1032
+- Robert, Jam lullabot,acquia
+- lokalen Drupal Communitiy in Köln (die damals noch sehr aktiv war)
 - Stolz aufs erste Drupal-Shirt
 
 So habe ich neben den Grundrauschen in der Kölner- und Berliner Drupal Usergroup
@@ -161,4 +167,4 @@ Happy birtday fl3a! Stand with Ukraine[^spende]!
 *[DUG]: Drupal User Group
 *[SSG]: Static Site Generator
 *[GzEvD]: Gesellschaft zur Entwicklung von Dingen
- 
+*[CVS]: Concurrent Versions System 
