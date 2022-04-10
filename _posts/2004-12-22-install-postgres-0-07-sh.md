@@ -8,6 +8,24 @@ tags:
 - Cygwin
 - m$
 - PostgreSQL
+excerpt: |
+  <pre>
+  #!/bin/sh
+  
+  # date:         2003-07-23
+  # author:       Florian Latzel, bbsh2ala@bg.bib.de
+  # name:         install_postgres
+  # version:      0.07
+  # description:  -
+  # changes:      checks psql version number
+  #              (should be 7.3.3)
+  #
+  # todo:         checks if needed programms are installed
+  #               (command --help>/dev/null)
+  #               ->Problem: stderr in logfile?
+  #               writing PGDATA in /etc/.profile
+  #               writing capitalized steps als in the logfile(tee?)
+  </pre>
 ---
 ```bash
 #!/bin/sh
