@@ -4,7 +4,7 @@
 
 @import "minima";
 
-/* Responsive Image, lazyload */
+/* Start Responsive Image, lazyload */
 /* https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ */
 .no-js img.lazyload {
   display: none;
@@ -27,8 +27,9 @@
 .fade-in.lazyloaded {
   opacity: 1;
 }
+/* End Responsive Image, lazyload */
 
-/* Home */
+/* Home, index.html */
 div.hallo {
   text-align: center;
   h2 {
@@ -118,6 +119,11 @@ footer {
   ul.social-media-list {
     padding-top: 25px;
   }
+}
+
+/* Smaller! */
+.footnotes, figcaption {
+  font-size: 14px
 }
 
 /* Code */
