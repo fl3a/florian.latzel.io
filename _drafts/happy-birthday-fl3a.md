@@ -62,16 +62,19 @@ unseren Kunden ein komplette Hosting in verschiedenen Paketen
 (z.B. Anzahl EMail-Adressen, Größe der Quota) 
 inklusive EMail anzubieten und wollten den Kunden die Möglichkeit geben,
 ihren Email-Account (z.B. Weiterleitungen) 
-oder eine ganze Domain mit allen Stellschrauben inklusive EMail-Adressen zu verwalten.\\
-Ich wollte etwas zurückzugeben und der *Drupal Community* zur Verfügung zu stellen.
+oder eine ganze Domain mit allen Stellschrauben inklusive EMail-Adressen zu verwalten.   
+Ich wollte etwas zurückzugeben 
+und dieses Modul der *Drupal Community* zur Verfügung zu stellen.
 
 Doch damals lief auf drupal.org noch CVS als Versionsverwaltung
 und mir fehlte der Nerv mich damit zu beschäftigen 
 um das Modul auf drupal.org zu bekommen.
 Als frischgebackener Selbsständiger musste ich ja auch noch Geld verdienen.
 Erst Ende 2009 hatte ich dann den Nerv und entwickelte [drush_multi](
-https://www.drupal.org/project/drush_multi) 
-und stellte auch die ersten Patches für andere Module bereit.\\
+https://www.drupal.org/project/drush_multi), 
+eine Drush Erweiterung für die Aktualisierung von [Drupal Multisites](
+/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#die-drupal-multisite-umgebung)
+und stellte dann auch die ersten Patches für andere Module bereit.
 
 Bis dahin nutzte ich das an drupal.org angeschlossene [groups.drupal.org](
 https//groups.drupal.org) 
@@ -86,12 +89,17 @@ caption: "Ein Teil des Orgateams vom Drupalcamp Köln 2009. Flickr, Robert Happe
 
 Je mehr ich mich mit Drupal auseinandersetzte, 
 desto wichtiger wurde die entsprechende *Peer Group*.
-Gleichgesinnte treffen, sich über das einem liebste CMS Drupal austauschen 
-und sich als Teil von etwas begreifen.
-
-- 2006 linuxexpo, https://groups.drupal.org/node/1032
-- Robert, Jam lullabot,acquia
-- lokalen Drupal Communitiy in Köln (die damals noch sehr aktiv war)
+Sich über das  liebste CMS Drupal austauschen, 
+Gleichgesinnte treffen und sich als Teil von etwas Größerem begreifen.
+So stieß ich irgendwann in 2007 zur Drupal Usergroup Köln/Bonn, 
+die damals noch sehr aktiv war. 
+In 2008 las ich auf [drupalcenter](https://drupalcenter.de) 
+[den Post von Ramiro zum geplanten Drupalstand auf dem Linuxtag](
+https://www.drupalcenter.de/node/8277). 
+Das beste CMS der Welt auf einer Messe vertreten, auf dem Linuxtag.
+Berlin, [Berliner Drupal Usergroup](/tags/drupal-user-group-berlin/index.html), 
+Luckow, Bob, Tobi, Leon, Valentin, Ramiro, Marko 
+kennenlernen. Kam mit meinem ersten Drupal Shirt zurück.
 - Stolz aufs erste Drupal-Shirt
 
 So habe ich neben den Grundrauschen in der Kölner- und Berliner Drupal Usergroup
