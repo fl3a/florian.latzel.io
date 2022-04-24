@@ -35,10 +35,10 @@ Im Patch von 1.0.0 auf [v1.0.1](
 https://github.com/fl3a/jekyll_deployment/releases/tag/1.0.1)
 waren weitere Verbesserungen und Korrekturen aus der Übersetzung.<!--break-->
 
-In den etwa dreieinhalb Jahren gab es dann mal ein *post-receive* 
-und eine *Standalone* Variante, aus der mittleweile ein Skript geworden ist,
+In den etwa dreieinhalb Jahren gab es zwischenzeitlich mal ein *post-receive* 
+und eine *Standalone* Variante, aus der jetzt ein Skript geworden ist,
 welches die Konfiguration jetzt aus dem *Git (Bare) Repository* ausliest.   
 Erst vor kurzem brauchte ich dann die Funktionalität eines *Post-Exec Tasks*,
 da meine letze Jekyll Instanz in ein Unterverzeichnis meiner Website generiert wird.
 Das heißt, da sonst weg, muss nach jeden Deployment meiner Website 
-auch das Deployment der anderen Jekyll Instanz angestoßen werden.
+auch das Deployment der anderen Jekyll Instanz direkt im Anschluss angestoßen werden.
