@@ -48,6 +48,8 @@ Falls auch Jekyll nutzt und einen eigenen Server hast
 oder wie ich auf [uberspace](https://uberspace.de) bist	  
 oder du deine Seite, *GitHub Actions* hin oder her, 
 vielleicht einfach nicht via *GitHub Pages* hosten magst,
-dann schau dir mal das [jekyll-deployment Skript](
-https://github.com/fl3a/jekyll_deployment) an oder lad dir direkt [v1.0.1](
+dann *clone*  das [Repository](https://github.com/fl3a/jekyll_deployment) 
+und schau dir mal das [jekyll-deployment Skript](
+https://github.com/fl3a/jekyll_deployment) an
+oder lad dir direkt [v1.0.1](
 https://github.com/fl3a/jekyll_deployment/releases/tag/1.0.1) runter!
