@@ -2,47 +2,38 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2022-04-01 20:42
+last_modified_at: 2022-06-30 15:05
 ---
-## Fastenzeit
+## In Transit
 
-Dieses Jahr habe ich Fastenzeit zwei Wochen nach Aschermittwoch gestartet.   
-Gründe: Urlaub in Portugal, 
-Rückreise über Berlin ([Luckow👋🏻](/tags/luckow/)) 
-und zu guter letzt, 
-[*NLP Practitioner*](2022/03/31/nlp-practitioner.html) Abschlußwochenende😉. 
+Aktuell befinde ich mich im Übergang zwischen altem und neuem Job.
 
-Ich verzichte wieder auf Alkohol und Fleisch. 
-Hinzu kommt dieses Jahr mal *Youtube Konsum*.  
-
-## Portfolio
-
-Ich habe darüber nachgedacht, 
-was ich neben meinem Day-Job Job als [Scrum Master](/tags/scrum-master/) 
-nebenberuflich anbieten möchte und wie das Thema [Natur und Draußensein](/tags/draussen/) dort rein passt.
-
-Zudem möchte ich, dass <https://is-loesungen.de> perspektivisch in dieser Seite aufgeht.\\
-Ich bin schließlich meine eigene Marke.\\
-Obige Seite war ursprünglich für mich größer-gleich eins gedacht und hatte einen IT Fokus.
-
-Der Stand lebt im [*portfolio* Zweig](
-https://github.com/fl3a/florian.latzel.io/tree/portfolio) 
-meines Git Repos.
+Durch Urlaub und Freistellung für meine Coaching Ausbildung
+habe ich gerade einfach mal Zeit.   
+Zeit für mich, Zeit für uns, Zeit für liegengebliebene Dinge
+(aka Todos) und Zeit für spontane Dinge. Zeit für Sommer, Vereisen und für's Nichtstun.
 
 ## Lernen
 
-Ich habe im Oktober angefangen [*Pencak Silat* im *Tapac Suci* Stil](
-https://www.tapak-suci.de/) zu lernen.
+Im Mai habe ich bei [Tom](http://www.tomandreas.de/) 
+die **Coach Ausbildung** begonnen.  
 
-Und ich freue mich schon jetzt auf die Coach Ausbildung 
-bei [Tom](http://www.tomandreas.de/), die ich im Mai beginnen werde.  
+Ich freue mich schon jetzt auf 3 Tage Lösungsfokussiertes Coaching
+mit Tom und fast noch mehr über 2 Tage [Provokatives Coaching mit Dr. E Noni Höfner](
+https://provokativ.com/) 
+während des [Metaforum Sommercamps](
+https://www.metaforum-sommercamp.com/) 
+in Abano, Ende Juli.	
+
 
 ## Now reading
 
-- Outdoor-Survival nur mit dem Messer von Johannes Vogel
-- Search Inside Yourself von Chade-Meng Tan (das zweite Mal)
+- Beratung ohne Ratschlag: Systemisches Coaching   
+für Führungskräfte und BeraterInnen von Sonja Radatz 
+- ~~Outdoor-Survival nur mit dem Messer von Johannes Vogel~~
 - ~~Sprache und sein von Kübra Gümüsay~~ 
 - ~~Über den Tod und das Leben danach von Elisabeth Kübler-Ross~~
+- ~~Search Inside Yourself von Chade-Meng~~
 
 *[WIP]: Work in progress
 
