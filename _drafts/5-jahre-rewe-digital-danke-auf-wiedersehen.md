@@ -14,10 +14,8 @@ image: /assets/imgs/rewe-digital-laptop-florian-latzel.png
 path: assets/imgs/rewe-digital-laptop-florian-latzel.png
 alt: "Meine REWE Mitarbeiterkarte auf meinem (noch) beklebtem REWE digital Laptop" %}
 
-Letzte Woche Mittwoch habe ich meine von Aufklebern befreite Hardware, 
-Zugangschip, Jobticket und REWE Mitarbeiterkarte abgegeben.  
-Nach genau nach 5 Jahren und 5 Tagen war das meine *letzte Amtshandlung* 
-bei REWE digital.<!--break-->
+Mitte Juli habe ich meinen von Aufklebern befreiten Laptop, 
+Zugangschip, Jobticket und REWE Mitarbeiterkarte abgegeben.<!--break-->
 
 ## Tag 0
 
@@ -29,8 +27,8 @@ zu meinem "Vorstellungsgespräch" weiterzuziehen.
 Dort nahm uns Oli, der meinen ausgedruckten Lebenslauf in der Hand hielt in Empfang. 
 Oli war *Chief Scrum Master*, sehr freundlich und groß gewachsen.
 Ich fand ihn direkt und proportional zu seiner Größe symphathisch.
-Nach einen offenen Gespräch und ein paar biografischen Fragen
-ging weiter in die *Werkstatt*, Epizentrum des Ecom Tribes 
+Nach einen offenen Gespräch und ein paar fachlichen und biografischen Fragen
+ging weiter in die *Werkstatt*, Epizentrum des *Ecom Tribes* 
 und quirlige Heimat vieler Teams. 
 Auf dem Weg dorthin begegneten wir Sabine, die ich vom Scrumtisch kenne
 und dort ebenfalls als Scrum Master arbeitet. 
@@ -42,43 +40,57 @@ https://www.meetup.com/de-DE/Koln-Teal-Reinventing-Organizations-Meetup/)[^meetu
 kennengelernt habe,
 kurz darauf Micha, der mit Oli scherzte. 
 
-Ein paar Tage später kam der positive Anruf und ich fing am 08. Juli 2017 an.   
-Es stellte sich dann noch herraus, 
+Ein paar Tage später kam der positive Anruf und ich fing am 10. Juli 2017 an.   
 
 ## Vom Freelance Scrum Master in die Festanstellung
 
 Und so startete ich als Freelance Scrum Master 
 für [paragraph eins](https://www.paragraph1.de).  
-Mit Micha, mit dem mich bis dahin nur die Bartpracht verband,
-arbeitete ich dann in meinem ersten festen Team zusammenarbeiten.
+Mit [Micha](https://michael-kutz.de/), 
+mit dem mich bis dahin nur die Bartpracht verband,
+arbeitete ich dann in meinem ersten festen Team im *ECom Tribe* zusammen.
    
-Ungeführ im Winter 2017 ploppte, Nahles[^nahles] sei dank das FREDI Thema bei der digital auf
-und rüttelte kräftig an der Weiterbeauftragung.   
+Irgendwann im Winter 2017 ploppte, Nahles[^nahles] sei dank 
+das FREDI Thema bei der digital auf
+und rüttelte gefühlt an der Weiterbeauftragung.   
 Im Rahmen dessen bekam ich das Angebot in die Festanstellung zu wechseln.
-Ich habe das ungefähr so quittiert.
+Ich habe das ungefähr so quittiert:
 
 > Verlängere gerne meine Beauftragung um ein Quartal    
 > aber eine Festanstellung kommt für mich nicht in Frage.
 
 Obwohl ich das Angebot abgelehnt habe, 
-habe ich gerne dort gearbeitet und fand ich die REWE digital sehr attraktiv.   
-Da war waren unter anderem das doch recht große Netzwerk von etwa 30 Scrum Mastern,
-tolle, motivierte und kompetente Kollegen und sehr viele Möglichkeiten.  
+fand ich die REWE digital als Arbeitgeber attraktiv   
+und habe habe sehr gerne dort gearbeitet. 
+Das doch recht große Netzwerk mit mehr als 30 Scrum Mastern,
+tolle, motivierte und kompetente Kollegen und sehr viele Möglichkeiten 
+lagen mit in der Wagschale.
 Das Thema rumorte: Über eine Dekade Selbständigkeit vs Das Umfeld, 
 in dem ich mich entwickeln will und das ich mit-gestalten will.   
 Nach über drei Monaten Bedenkzeit habe ich mich entschieden: 
 Im April 2018 wechselte ich in die Festanstellung.
 
-## Danke für 5 Jahre und 5 Tage🙏! 
+## Danke für 5 Jahre🙏! 
 
-Ich bereue keinen einzigen Tag dieser Entscheidung.  
 Ich möchte mich bei all den tollen Menschen, 
-mit denen zusammenarbeiten durfte bedanken.  
-Ich bin dankbar Teil von etwas Großen gewesen zu sein. 
-Und durfte in dieser Zeit sehr viel lernen.
+die ich kennengelernen und mit denen 
+auf kurz oder lang zusammenarbeiten durfte bedanken.
+Ich bin dankbar für viele Erfahrungen.
+
+Last but not least möchte ich mich bei Alex, 
+der mich bei REWE digital reingebracht hat bedanken.   
+Von alleine hätte aus der empfundenen Unwürdigkeit[^wayne] [^imposter] heraus 
+wohl nicht bei dem Unternehmen,
+dass für mich im Köln-Bonner-Raum die größte *agile Strahlkraft* besaß beworben.
+
+Ich war ein Teil von etwas Besonderen 
+und habe meine Zugehörigkeit mit Stolz nach außen getragen[^hoody]. 
 
 Danke und auf Wiedersehen🙏!
 
 [^nahles]: [Nahles arbeitet an Gesetz gegen Scheinselbstständigkeit / weitere Verschärfung zu befürchten - Verband der Gründer und Selbstständigen Deutschland (VGSD) e.V.](https://www.vgsd.de/nahles-arbeitet-an-gesetz-gegen-scheinselbststaendigkeit-weitere-verschaerfungen-zu-befuerchten/)
 [^meetups]: [Sammlung von Agile Meetups in Köln und NRW](/agile-meetups-events-koeln-nrw.html)
+[^imposter]: [Impostor-Syndrom](https://de.wikipedia.org/wiki/Hochstapler-Syndrom)
+[^wayne]: [Wayne's World 1 - Wayne und Garth treffen Alice Cooper](https://www.youtube.com/watch?v=LKsyUDLQ9G8)
+[^hoody]: [Mit REWE digital Hoody und meinen Kolleg*innen auf der #bcagile19 in Ilmenau](https://twitter.com/fl3a/status/1188165005730074625) 
 *[FREDI]: Freie Dienstleister
