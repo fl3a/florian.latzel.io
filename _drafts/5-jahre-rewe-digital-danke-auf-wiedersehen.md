@@ -15,7 +15,8 @@ path: assets/imgs/rewe-digital-laptop-florian-latzel.png
 alt: "Meine REWE Mitarbeiterkarte auf meinem (noch) beklebtem REWE digital Laptop" %}
 
 Mitte Juli habe ich meinen von Aufklebern befreiten Laptop, 
-Zugangschip, Jobticket und REWE Mitarbeiterkarte abgegeben.<!--break-->
+Zugangschip, Jobticket und REWE Mitarbeiterkarte abgegeben.
+Das waren 5 Jahre REWE digital.<!--break-->
 
 ## Tag 0
 
@@ -50,23 +51,23 @@ Mit [Micha](https://michael-kutz.de/),
 mit dem mich bis dahin nur die Bartpracht verband,
 arbeitete ich dann in meinem ersten festen Team im *ECom Tribe* zusammen.
    
-Irgendwann im Winter 2017 ploppte, Nahles[^nahles] sei dank 
-das FREDI Thema bei der digital auf
+Irgendwann im Winter 2017 ploppte, Nahles[^nahles] sei dank, 
+das FREDI Thema bei der REWE digital auf
 und rüttelte gefühlt an der Weiterbeauftragung.   
 Im Rahmen dessen bekam ich das Angebot in die Festanstellung zu wechseln.
 Ich habe das ungefähr so quittiert:
 
-> Verlängere gerne meine Beauftragung um ein Quartal    
+> Verlängere gerne meine Beauftragung um ein Quartal,    
 > aber eine Festanstellung kommt für mich nicht in Frage.
 
 Obwohl ich das Angebot abgelehnt habe, 
 fand ich die REWE digital als Arbeitgeber attraktiv   
-und habe habe sehr gerne dort gearbeitet. 
+und habe sehr gerne dort gearbeitet. 
 Das doch recht große Netzwerk mit mehr als 30 Scrum Mastern,
 tolle, motivierte und kompetente Kollegen und sehr viele Möglichkeiten 
 lagen mit in der Wagschale.
-Das Thema rumorte: Über eine Dekade Selbständigkeit vs Das Umfeld, 
-in dem ich mich entwickeln will und das ich mit-gestalten will.   
+Das Thema rumorte: Über eine Dekade Selbständigkeit vs. das Umfeld, 
+in dem ich mich weiterentwickeln will und das ich mit-gestalten will.   
 Nach über drei Monaten Bedenkzeit habe ich mich entschieden: 
 Im April 2018 wechselte ich in die Festanstellung.
 
@@ -78,10 +79,10 @@ auf kurz oder lang zusammenarbeiten durfte bedanken.
 Ich bin dankbar für viele Erfahrungen.
 
 Last but not least möchte ich mich bei Alex, 
-der mich bei REWE digital reingebracht hat bedanken.   
-Von alleine hätte aus der empfundenen Unwürdigkeit[^wayne] [^imposter] heraus 
+der mich bei REWE digital reingebracht hat, bedanken.   
+Von alleine hätte ich mich aus der empfundenen Unwürdigkeit[^wayne] [^imposter] heraus 
 wohl nicht bei dem Unternehmen,
-dass für mich im Köln-Bonner-Raum die größte *agile Strahlkraft* besaß beworben.
+dass für mich im Köln-Bonner-Raum die größte *agile Strahlkraft* besaß, beworben.
 
 Ich war ein Teil von etwas Besonderen 
 und habe meine Zugehörigkeit mit Stolz nach außen getragen[^hoody]. 
