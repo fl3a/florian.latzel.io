@@ -33,7 +33,7 @@ ging weiter in die *Werkstatt*, Epizentrum des *Ecom Tribes*
 und quirlige Heimat vieler Teams. 
 Auf dem Weg dorthin begegneten wir Sabine, 
 die ich vom [Kölner Scrumtisch](/tags/scrumtisch-koln/) kenne
-und dort ebenfalls als Scrum Master arbeitet. 
+und dort ebenfalls als [Scrum Master](/tags/scrum-master/) arbeitet. 
 Nach kurzer, herzlicher Begrüßung gings weiter.
 In der Werkstatt trafen wir dann als erstes auf Jan, ebenfalls Scrum Master,
 den ich ein paar Tag zuvor 
@@ -51,6 +51,7 @@ für [paragraph eins](https://www.paragraph1.de).
 Mit [Micha](https://michael-kutz.de/), 
 mit dem mich bis dahin nur die Bartpracht verband,
 arbeitete ich dann in meinem ersten festen Team im *ECom Tribe* zusammen.
+Jan wurde mein *Buddy* und er und Sabine wurden Teil meines Scrum Master Kollegiums.
    
 Irgendwann im Winter 2017 ploppte, Nahles[^nahles] sei dank, 
 das FREDI Thema bei der REWE digital auf
@@ -88,7 +89,7 @@ dass für mich im Köln-Bonner-Raum die größte *agile Strahlkraft* besaß, bew
 Ich war ein Teil von etwas Besonderen 
 und habe meine Zugehörigkeit mit Stolz nach außen getragen[^hoody] [^hoody2]. 
 
-Danke und auf Wiedersehen🙏!
+Danke🙏 und auf Wiedersehen👋!
 
 [^nahles]: [Nahles arbeitet an Gesetz gegen Scheinselbstständigkeit / weitere Verschärfung zu befürchten - Verband der Gründer und Selbstständigen Deutschland (VGSD) e.V.](https://www.vgsd.de/nahles-arbeitet-an-gesetz-gegen-scheinselbststaendigkeit-weitere-verschaerfungen-zu-befuerchten/)
 [^meetups]: [Sammlung von Agile Meetups in Köln und NRW](/agile-meetups-events-koeln-nrw.html)
