@@ -9,6 +9,7 @@ tags:
 - Veränderung
 - Danksagung
 image: /assets/imgs/rewe-digital-laptop-florian-latzel.png
+last_modified_at: 2022-08-20
 ---
 {% responsive_image figure: true 
 path: assets/imgs/rewe-digital-laptop-florian-latzel.png
