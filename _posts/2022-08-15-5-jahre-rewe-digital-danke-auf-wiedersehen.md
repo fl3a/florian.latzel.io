@@ -31,7 +31,8 @@ Ich fand ihn direkt und proportional zu seiner Größe symphathisch.
 Nach einen offenen Gespräch und ein paar fachlichen und biografischen Fragen
 ging weiter in die *Werkstatt*, Epizentrum des *Ecom Tribes* 
 und quirlige Heimat vieler Teams. 
-Auf dem Weg dorthin begegneten wir Sabine, die ich vom Scrumtisch kenne
+Auf dem Weg dorthin begegneten wir Sabine, 
+die ich vom [Kölner Scrumtisch](/tags/scrumtisch-koln/) kenne
 und dort ebenfalls als Scrum Master arbeitet. 
 Nach kurzer, herzlicher Begrüßung gings weiter.
 In der Werkstatt trafen wir dann als erstes auf Jan, ebenfalls Scrum Master,
@@ -85,7 +86,7 @@ wohl nicht bei dem Unternehmen,
 dass für mich im Köln-Bonner-Raum die größte *agile Strahlkraft* besaß, beworben.
 
 Ich war ein Teil von etwas Besonderen 
-und habe meine Zugehörigkeit mit Stolz nach außen getragen[^hoody]. 
+und habe meine Zugehörigkeit mit Stolz nach außen getragen[^hoody] [^hoody2]. 
 
 Danke und auf Wiedersehen🙏!
 
@@ -94,4 +95,5 @@ Danke und auf Wiedersehen🙏!
 [^imposter]: [Impostor-Syndrom](https://de.wikipedia.org/wiki/Hochstapler-Syndrom)
 [^wayne]: [Wayne's World 1 - Wayne und Garth treffen Alice Cooper](https://www.youtube.com/watch?v=LKsyUDLQ9G8)
 [^hoody]: [Mit REWE digital Hoody und meinen Kolleg*innen auf der #bcagile19 in Ilmenau](https://twitter.com/fl3a/status/1188165005730074625) 
+[^hoody2]: [Mit REWE digital Hoody bei Mark im *Führung im Fokus* Podcast](/2021/11/28/podcast-laterale-fuehrung-agilitaet-rewe-digital.html)
 *[FREDI]: Freie Dienstleister
