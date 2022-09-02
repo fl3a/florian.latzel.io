@@ -13,7 +13,7 @@ Meine Coaching Ausbildung bei Tom hat mich und meine Coaching Mitschüler
 nach Abano Terme[^abano] geführt. 
 
 Zwei Module der Ausbildung, 
-*Lösungsfokussierendes Coaching* 
+zum einen *Lösungsfokussierendes Coaching* 
 nach Steve de Shazer[^steve] und Insoo Kim Berg bei [Tom](/tags/tom-andreas/) 
 und *der provokative Ansatz* nach Frank Farelly[^ff] bei Dr. Noni Höffner 
 und ihrer Tochter Dr. Charlotte Cordes[^provo] fanden 
@@ -23,18 +23,37 @@ Mein Bericht von einer *Coachingintensivwoche* in Italien...<!--break-->
 
 ## Die Anreise
 
-- Die Nachricht von Beate und Stefan (Security + Flug)
-- Horrorszenen aus insta 
-- Wecker auf 04:00
-- Taxi, Ankunft 5:10 am Terminal, 10 fertig und 10 min Sicherheit (die Spuren des Vortags waren sichtbar)
-- Flug 15:10
-- lesen, schlafen, Blogartikel schreiben, Menschen beobachten
-- Shuttle ca. 21:00 in Orvieto
+Nach der Nachricht von meinen Coach Mitschülern Beate und Stefan, 
+die mehrere Stunden im Sicherheitsbereich der Köln-Bonner Fluhafens verbrachten
+bis dann auch noch ihr Flu annuliert wurde bemühte Monique die sozalen Medien.
+Horrorszenen auf Insta, sechs Stunden im Sicherheitsbereich un den Flieger verpasst.
+Also mehr Puffer, den Wecker habe ich auf 04:00 gestellt, Taxi, 
+Ankunft 5:10 am Terminal, ca. 10 Minuten Gepäckaufgabe 
+und nach ca. 10 Minuten war ich durch den Sicherheitsbereich
+(die Spuren des Vortags waren noch deutlich sichtbar).
+Mein Flug ging um 15:10.
+Ich hatte jetzt etwas Zeit: lesen, schlafen, [Blogartikel schreiben](
+2022/08/15/5-jahre-rewe-digital-danke-auf-wiedersehen.html) und Menschen beobachten.
+Der Flug kam ungefähr 45 Minuten später in Venedig an, mein Shuttle war weg.
+Nach ungefähr einer Stunde warten auf ein weiteres Shuttle kam ich 
+dann um  ca. 21:00 im Orvieto an.
+Der Fahrer und ich kamen schnell ins Gespräch und er rief noch im Hotel an,
+damit es für mich noch etwas zu Essen gab. 
+
+BILD ESSEN
 
 ## In guter Gesellschaft
 
-- Magda Flughafen, Schild von Shuttle, ZRM
-- Michael, Kölner Agile Blase, Feier
+Während ich in Venedig versuchte meinen Namen irgendwo auszumachen,
+las ich auf einem Schild den von Magdalena[^magda] 
+und versuchte meine Agile Coach Kollegin aus Köln zu finden.
+Es stelle sich raus, dass ihr Ziel ebenfalls das Metaforum ist
+und dass sie sich mit die Woche mit dem ZRM beschäftigt.
+
+In den ersten Tagen machte mich [Michael](http://www.michaelmahlberg.com/) aus, 
+ebenfalls ein Kollege aus der *"Kölner Agile Blase"*, 
+der sich die komplette Woche mit Improvisation und Provokative SystemArbeit
+und mich  
 - die Referenten[^referenten2022]
   - Oben: Julia Andersch, Matthias Kibed, Insa Sparrer,  Sabine Klenke, Dr. Noni Höfner, 
 auch Dr. Lucas Derks, Dr. Gunther Schmund
@@ -77,5 +96,6 @@ auch Dr. Lucas Derks, Dr. Gunther Schmund
 [^referenten2022]: [Seminarleitende SommerCamp 2022](https://www.metaforum-sommercamp.com/seminarleitende-2022)
 [^steve]: [Steve de Shazer auf Wikipedia](https://de.wikipedia.org/wiki/Steve_de_Shazer)
 [^ff]: [Frank Farelly auf Wikipedia](https://de.wikipedia.org/wiki/Frank_Farrelly)
+[^magda]: [MAERA.de: Magdalena Richtarski](https://maera.de/ueber-uns/magdalena-richtarski/)	
 
 *[ZRM]: Züricher Resourcen Modell
