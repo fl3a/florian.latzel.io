@@ -44,37 +44,64 @@ BILD ESSEN
 
 ## In guter Gesellschaft
 
-Während ich in Venedig versuchte meinen Namen irgendwo auszumachen,
-las ich auf einem Schild den von Magdalena[^magda] 
+Bild Publikum
+
+Während ich in der Ankunftshalle des Flughafen Venedig 
+versuchte meinen Namen irgendwo auszumachen,
+las ich auf einem Schild den von [Magdalena](
+https://maera.de/ueber-uns/magdalena-richtarski/)
 und versuchte meine Agile Coach Kollegin aus Köln zu finden.
 Es stelle sich raus, dass ihr Ziel ebenfalls das Metaforum ist
 und dass sie sich mit die Woche mit dem ZRM beschäftigt.
 
-In den ersten Tagen machte mich [Michael](http://www.michaelmahlberg.com/) aus, 
+In den ersten Tagen machte mich [Michael](https://agile-aspects.michaelmahlberg.com/) aus, 
 ebenfalls ein Kollege aus der *"Kölner Agile Blase"*, 
-der sich die komplette Woche mit Improvisation und Provokative SystemArbeit
-und mich  
-- die Referenten[^referenten2022]
-  - Oben: Julia Andersch, Matthias Kibed, Insa Sparrer,  Sabine Klenke, Dr. Noni Höfner, 
-auch Dr. Lucas Derks, Dr. Gunther Schmund
- Tom mittendrin
-- Meine Gruppe
+der diese Woche mit Improvisation und Provokative SystemArbeit verbrachte
+und auf den ich dann in meinem zweiten Teil, 
+bei *der provokative Ansatz* wieder treffen sollte.
+
+Es gab mir auch ein echt gutes Gefühl, unseren Trainer Tom 
+in mitten der anderen hochkarätigen Referenten[^referenten2022], 
+wie oben z.B. Julia Andersch, Prof. Dr. Matthias Varga von Kibéd[^varga], 
+Insa Sparrer[^sparrer], Sabine Klenke, Dr. Noni Höfner zu sehen.
+Matthias und Insa haben die Systemischen Strukturaufstellungen (SySt®)[^syst]
+etwickelt und eine Grundform daraus ist z.B. die Problemaufstellung (PA),
+die ich persönlich sehr mag. 
+Erwähnenwerts waren da auch mindestens noch Dr. Lucas Derks[^derks], Entwickler des sozialen Panoromas
+und Dr. Gunther Schmidt[^gs].
 
 ## Team Orvieto
 
-- Am ersten Abend kamen Silke und Fritz
-- 2018 50 Jahre
-- Morgens mit den Fahrrädern zum Kloster
-- täglich in der Siesta Zeit zurück zum Hotel
+BILD TEAM Orvieta
 
-  - in Schatten liegen
-  - schwimmen
-  - und während der Siesta oder Abends das gelernte reflektieren.
-- Alleinunterhalter
+Als ich so am ersten Abend mein wohlverdientes Abendessen genoss, 
+gesellten sich kurz meine Coach Kollegen aus Köln, Silke und Fritz, 
+die auch im Orvieto einquartiert waren, zu mir.
+
+Ab dem darauf folgenden Tag fuhren wir täglich morgens gemeinsam 
+mit den Fahrrädern Richtung Kloster, lernen und verprobten
+und fuhren in der Siesta Zeit zurück in das Hotel.
+Dort genossen wir den Schatten liegen und das Thermalwasser.
+Vielleicht schon mit einer gewissen Regelmäßigkeit reflektierten 
+wir bereits während der Siesta das Gelernte. 
+Spätestens dann aber Abends, bei gutem Essen in größerer Runde.
 
 ## Bücher Uwe 
 
-- Der reisende Buchhändler Uwe Böhm
+Der reisende Buchhändler Uwe Böhm, oder einfach *Bücher Uwe*
+hatte einen Raum um seine Bücher zu z.B. Coaching, Aufstellungen
+oder NLP unters Volk zu bringen.
+Abgesehen davon, dass Uwe selbst schon einige Bücher verlegt hat,
+kennt er die Bücher, die er auf dem Tisch hat.
+Ich durfte Uwes Beratungskompenz das erste mal im Rahmen 
+meines [NLP Practitioners](/2022/03/31/nlp-practitioner.html)
+erleben, wo die Küche des Zendo zum Buchladen wurde 
+und mich bei ihm mit Fachliteratur eingedeckt habe.
+
+So kam ich nicht drum herum und besuchte Uwe am Tag meiner Abreise 
+um etwas zu stöbern. Heraus kamen das drei weitere Bücher zum Thema Coaching, 
+die sich gut an mein aktuelles Buch[^sys] reihen zu lassen 
+und mir mit dem NLP Practitioner Karteikarten Set nach Hause geschickt wurden.
 
 ## Fazit
 
@@ -91,11 +118,16 @@ auch Dr. Lucas Derks, Dr. Gunther Schmund
 - Team Orvieto Silke und Fritz
 - Meine Gruppe
 
-[^abano]: [Abano Terme auf Wikipedia](https://de.wikipedia.org/wiki/Abano_Terme)
+[^abano]: [Abano Terme - Wikipedia](https://de.wikipedia.org/wiki/Abano_Terme)
 [^provo]: [Deutsches Institut für Provokative Therapie](https://provokativ.com/)
 [^referenten2022]: [Seminarleitende SommerCamp 2022](https://www.metaforum-sommercamp.com/seminarleitende-2022)
-[^steve]: [Steve de Shazer auf Wikipedia](https://de.wikipedia.org/wiki/Steve_de_Shazer)
-[^ff]: [Frank Farelly auf Wikipedia](https://de.wikipedia.org/wiki/Frank_Farrelly)
+[^steve]: [Steve de Shazer - Wikipedia](https://de.wikipedia.org/wiki/Steve_de_Shazer)
+[^ff]: [Frank Farelly - Wikipedia](https://de.wikipedia.org/wiki/Frank_Farrelly)
 [^magda]: [MAERA.de: Magdalena Richtarski](https://maera.de/ueber-uns/magdalena-richtarski/)	
-
+[^derks]: [Lukas Derks - Wikipedia](https://de.wikipedia.org/wiki/Lucas_Derks)
+[^gs]: [Gunther Schmidt - Wikipedia](https://de.wikipedia.org/wiki/Gunther_Schmidt_(Mediziner))
+[^varga]: [Matthias Varga von Kibéd - Wikipedia](https://de.wikipedia.org/wiki/Matthias_Varga_von_Kib%C3%A9d)
+[^sparrer]: [Insa Sparrer](https://de.wikipedia.org/wiki/Insa_Sparrer)
+[^syst]: [SySt® Institut für systemische Ausbildung, Fortbildung und Forschun für systemische Ausbildung, Fortbildung und Forschung](https://www.syst.info/)
+[^sys]: [Beratung ohne Ratschlag : systemisches Coaching für Führungskräfte und BeraterInnen von Soja Radatz](https://portal.dnb.de/opac.htm?referrer=Wikipedia&method=enhancedSearch&index=num&term=9783902155016&operator=and)
 *[ZRM]: Züricher Resourcen Modell
