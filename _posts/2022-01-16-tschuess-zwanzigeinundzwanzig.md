@@ -2,12 +2,12 @@
 title: Tschüss Zwanzigeinundzwanzig...
 layout: post
 tags:
-- Leben
 - Tod
 - Achtsamkeit
 - REWE digital
 - Draussen
 - Wandern
+- Rheinsteig
 - Pencak Silat
 - Jeet Kune Do
 - Danksagung
