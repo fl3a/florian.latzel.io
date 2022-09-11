@@ -5,6 +5,7 @@ tags:
 - Wandern
 - Draussen
 - Fründe
+- Julian
 - Trail
 toc: true
 image: /assets/imgs/50km/landrat-lucas-etappe-4-weg-bach-tal.jpg
