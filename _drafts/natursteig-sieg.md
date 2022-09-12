@@ -14,17 +14,20 @@ path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-13-jungwald-florian.jpg
 figure: true 
 alt: "Juni 2022: Natursteig Sieg, Etappe 13, Jungwald, kurz vor dem Druidenstein. Foto: Julian Schreyer, CC BY-SA 4.0" %}
 
-Ende Juni diesen Jahres bin ich dir mir fehlenden Etappen mit Overnighter angegangen 
-und im August habe den *Natursteig Sieg* zu Ende gewandert.
-Damit habe ich nach dem *Bergischen Weg* meinen zweiten Fernwanderweg komplett. 
+Diese Jahr habe ich mit dem Natursteig Sieg nach dem *Bergischen Weg* 
+meinen zweiten Fernwanderweg komplett.
+ 
+Ende Juni diesen Jahres bin ich die mir fehlenden Etappen 
+mit Overnighter angegangen. 
 
 Der Natursteig Sieg[^sieg1] [^sieg2] ist ein 196 Kilometer langer Fernwanderweg, 
 der in Siegburg beginnt und mit seinen 14 Etappen nach Mudersnach in Rheinland-Pfalz führt. 
 Die Ein- und Austiege der Etappen lassen sich gut mit dem ÖPNV erreichen.   
 Der Steig wurde 2011 eröffnet und 2013 als Prädikatswanderweg[^pr1] [^pr2] ausgezeichnet.
 
-Hier ein paar Eindrücke aus verschiedenen Jahren, Jahreszeiten,
-mit unterschiedlichen Weggefährten und einigen zurückgelegten Kilometern.<!--break-->
+Hier ein paar Eindrücke in chronologischer Reihenfolge:
+aus verschiedenen Jahren, Jahreszeiten,
+mit unterschiedlichen Weggefährt*innen und einigen zurückgelegten Kilometern.<!--break-->
 
 Das Wegzeichen des Natursteig formt in weiß ein S (Windungen der Sieg) auf blauem Grund.
 {%responsive_image figure: true 
@@ -42,9 +45,9 @@ path: assets/imgs/natursteigsieg/trockene-fuesse.jpg
 alt: "August 2017: Trailfrucht am Bahnhof Herchen, Trailrunner mit improvisierten Goretexsocken aus Kotbeuteln" %}
 
 Gestartet in Herchen mit Proviant für 2 Tage. 
-Ende in Eitorf bereits am nächsten Tag(Etappe 5 rückwärts).
+Ende in Eitorf bereits am nächsten Tag (Etappe 5 rückwärts).
 
-Im April 2018 war ich dann mit Trailfrucht, Hikingfrog und ihrem Hunden zusammen unterwegs.
+Im April 2018 war ich dann mit Trailfrucht, Hikingfrog und ihren Hunden zusammen unterwegs.
 Wir sind die Schleife um Herchen und Herchen nach Schladern (Etappen 6 +7) gewandert.
 
 {%responsive_image figure: true
@@ -52,7 +55,7 @@ path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-07-trailfrucht-hikingfro
 alt: "Ende April 2018: Trailfrucht und Hikingfrog mit Hunden auf Etappe 07" %}
 
 Von da ab fing ich an den Natursteig auch alleine zu gehen.
-Wie auch Etappe 08, bin ich einige Etappen mehrfach gelaufen.
+Wie auch Etappe 08 bin ich einige Etappen mehrfach gelaufen.
 
 Wenn dir Freitag nachtmittags die Decke auf den Kopf fällt
 ([Ich am 26. April 2019 auf Twitter](https://twitter.com/fl3a/status/1121794733355880449)):
@@ -73,7 +76,7 @@ path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-07-gepackter-rucksack.jp
 
 
 {%responsive_image figure: true
-caption: "19:25 Uhr: On the road, Brücke bei Herchen, Etappe 7"
+caption: "19:25 Uhr: On the road, Brücke bei Herchen, Etappe7, April 2019"
 alt: "Selfie auf Brücke bei Herchen"
 path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-07-bruecke-herchen-selfie.jpg %}
 
@@ -81,18 +84,18 @@ Der abends einsetzende Regen hatte die ganze Nacht auf das Tarp geklopft.
 Ich habe kein Auge zubekommen und war dafür dann recht früh auf der Strecke.
 
 {%responsive_image figure: true
-caption: "07:27 Uhr: Frühnebel"
+caption: "07:27 Uhr: Frühnebel, Etappe 7, April 2019"
 alt: "Frühnebel"
 path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-07-fruehnebel-1.jpg %}
 
-Diffuse Lichtverhältniss. Der Morgentau sammelte sich in meinem Bart.
+Diffuse Lichtverhältnisse. Der Morgentau sammelte sich in meinem Bart.
 
 {%responsive_image figure: true
-caption: "07:51 Uhr: Die Sonnne schafft es langsam durchzukommen"
+caption: "07:51 Uhr: Die Sonnne schafft es langsam durchzukommen. Etappe 7, April 2019"
 alt: "Frühnebel und Sonne"
 path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-07-fruehnebel-2.jpg %}
 
-Ich konnte Rehe, die sich alleine wähnten am Waldrand beochachten.
+Ich konnte Rehe, die sich alleine wähnten, am Waldrand beochachten.
 
 {%responsive_image figure: true
 alt: "Mark im Herbstlaub. Etappe 2, Hennef nach Blankenberg, Ende Oktober 2018"
@@ -118,29 +121,29 @@ Ende Juni diesen Jahres, bin ich mit Julian die letzten drei Etappen,
 von Mudersbach bis Scheuerfeld am Stück gewandert.
 
 {%responsive_image figure: true
-alt: "Anstieg von Mudersbach bis zum Erzquellstollen. Etappe 14. Foto Julian Schreyer, CC BY-SA 4.0"
+alt: "Anstieg von Mudersbach bis zum Erzquellstollen. Etappe 14, Juni 2022. Foto Julian Schreyer, CC BY-SA 4.0"
 path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-14-erzquell-stollen--anstieg-schweiss.jpg %}
 
 
 {%responsive_image figure: true
-alt: "Wo sind die Wegzeichen? Etappe 14, Julian unterhalb der Freusburg"
+alt: "Wo sind die Wegzeichen? Etappe 14, Julian unterhalb der Freusburg in Juni 2022"
 path: assets/imgs/natursteigsieg/natursteig-sieg-etappe14-freusburg-orientierung%}
 
 
 {%responsive_image figure: true
-alt: "Julian wandert durch den farbenfrohen Jungwald. Etappe 13, kurz vor dem Druidenstein"
+alt: "Julian wandert durch den farbenfrohen Jungwald. Etappe 13 im Juni 2022, kurz vor dem Druidenstein"
 path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-13-jungwald-julian.jpg %}
 
 
 So blieben nach dem Trip mit Julian noch zwei Etappen übrig:
-- Etappe 11, Scheuerfeld nach Wissen 
 - Etappe 10, Rund um Wissen
+- Etappe 11, Scheuerfeld nach Wissen 
 
 Ich bin beide im August gegangen. 
 Das Finale war die Etappe *Rund um Wissen*.
 
 {%responsive_image figure: true
-alt: "Eine handvoll Brombeeren"
+alt: "Eine handvoll Brombeeren, Etappe 10 im August 2022"
 path: assets/imgs/natursteigsieg/handvoll-brombeeren.jpg%}
 
 Geburtstagszeit ist Brombeerenzeit. 
@@ -150,7 +153,7 @@ Das viele Sammeln ging leicht zu Lasten der Durchschnittsgeschwindigkeit.
 ## Meine Top 3: Die schönsten Etappen des Natursteig Sieg
 
 {%responsive_image figure: true
-alt: "Der Weg durch den Fels, Etappe 10"
+alt: "Der Weg durch den Fels, Etappe 10, im August 2022"
 path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-10-felsen.jpg %}
 
 Das sind meine Top 3 Etappen des Natursteig Sieg:
@@ -164,7 +167,7 @@ Das sind meine Top 3 Etappen des Natursteig Sieg:
 ## Whats next?
 
 {%responsive_image figure: true
-alt: "Ausklang nach den Etappen 14 bis 12 mit Julian beim Au Imbiss. Foto: Julian Schreyer, CC BY-SA 4.0"
+alt: "Juni 2022: Ausklang nach den Etappen 14 bis 12 mit Julian beim Au Imbiss. Foto: Julian Schreyer, CC BY-SA 4.0"
 path: assets/imgs/natursteigsieg/au-imbiss-wissen-ausklang.jpg%}
 
 Trail-Kater[^tk]: Leicht erschöpft, resümierend und traurig, 
@@ -190,17 +193,17 @@ dass ich mir vorstellen kann, den Weg nochmal und diesmal in einem durch zu lauf
 Falls das nicht reicht, hier noch eine [Liste von Wanderwegen in Deutschland](
 https://de.wikipedia.org/wiki/Liste_von_Wanderwegen_in_Deutschland), bevor es an "die Großen" geht.
 
-## Danke an meine Wegbegleiter🙏
+## Danke an meine Weggefährt*innen🙏
 
 Ein großer Dank geht an Trailfrucht für die erste Tour auf dem Natursteig Sieg im August 2017 
-und den Impuls mit dem Trekkingschirm. Der Schirm ist, seit dem immer dabei.
+und den Impuls mit dem Trekkingschirm. Der Schirm ist seit dem immer dabei.
 
 Danke auch an Hikingfrog für die angenehme Begleitung auf dem Ahrsteig, dem Rheinsteig und dem Natursteig Sieg.
 
-Einen Dank, an meinen alten Freund [Julian](/tags/julian/), 
-mit dem ich auch schon beim Bergischen Weg die am weitest entfernten Etappen gelaufen bin.
+Einen Dank an meinen alten Freund [Julian](/tags/julian/), 
+mit dem ich auch schon beim Bergischen Weg, die am weitest entfernten Etappen gelaufen bin.
 
-Danke auch an Mark, Sebastian und Monique, mit den ich ebenfalls eine oder mehrere Etappen gelaufen bin.
+Danke auch an Mark, Sebastian und Monique, mit denen ich ebenfalls eine oder mehrere Etappen gelaufen bin.
 
 ## Fußnoten
 
