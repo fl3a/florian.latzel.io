@@ -24,16 +24,18 @@ Die Ein- und Austiege der Etappen lassen sich gut mit dem ÖPNV erreichen.
 Der Steig wurde 2011 eröffnet und 2013 als Prädikatswanderweg[^pr1] [^pr2] ausgezeichnet.
 
 Hier ein paar Eindrücke aus verschiedenen Jahren, Jahreszeiten,
-mit unterschiedlichen Weggefährten und einigen zurückgelegten Kilometern.
-<!--break-->
+mit unterschiedlichen Weggefährten und einigen zurückgelegten Kilometern.<!--break-->
+
 Das Wegzeichen des Natursteig formt in weiß ein S (Windungen der Sieg) auf blauem Grund.
 {%responsive_image figure: true 
 path: assets/imgs/natursteigsieg/natursteig-sieg-wegzeichen-buche.jpg
 alt: "Wegzeichen des Natursteig Sieg auf einer Buche" %}
 
 Den Natursteig habe ich im August 2017 mit Trailfrucht zusammen begonnen.
-Start Donnerstags nach der Arbeit, Treffen an der Keupstraße. Das Wetter war, sagen wir suboptimal.
-Zur Begrüßung ein gab es neben einem Kölsch einen Regenschirm.
+Start Donnerstags nach der Arbeit, Treffen an der Keupstraße. 
+Das Wetter war, sagen wir suboptimal.
+Zur Begrüßung bekam ich neben Reissdorfkölsch 
+auch einen Regenschirm an die Hand gedrückt.
 
 {%responsive_image figure: true
 path: assets/imgs/natursteigsieg/trockene-fuesse.jpg
@@ -52,9 +54,10 @@ alt: "Ende April 2018: Trailfrucht und Hikingfrog mit Hunden auf Etappe 07" %}
 Von da ab fing ich an den Natursteig auch alleine zu gehen.
 Wie auch Etappe 08, bin ich einige Etappen mehrfach gelaufen.
 
-Wenn dir Freitag nachtmittags die Decke auf den Kopf fällt...
+Wenn dir Freitag nachtmittags die Decke auf den Kopf fällt
+([Ich am 26. April 2019 auf Twitter](https://twitter.com/fl3a/status/1121794733355880449)):
 
->  [youtu.be/TvrjY6EhqCI](https://www.youtube.com/watch?v=TvrjY6EhqCI&feature=youtu.be) #ichbinraus[^tw]
+> [youtu.be/TvrjY6EhqCI](https://www.youtube.com/watch?v=TvrjY6EhqCI&feature=youtu.be) #ichbinraus
 
 {%responsive_image figure: true
 alt: "Auf  dem Boden ausgebreitete Ausrüstung"
@@ -187,17 +190,23 @@ dass ich mir vorstellen kann, den Weg nochmal und diesmal in einem durch zu lauf
 Falls das nicht reicht, hier noch eine [Liste von Wanderwegen in Deutschland](
 https://de.wikipedia.org/wiki/Liste_von_Wanderwegen_in_Deutschland), bevor es an "die Großen" geht.
 
-## Danke an meine Gehfährten[^sic] 
+## Danke an meine Wegbegleiter🙏
 
-- Trailfrucht für das Intro im August 2017 und den Impuls mit dem Trekkingschirm (seit dem am Start).
-- Hikingfrog für bereits drei Fernewanderwege
-- Julian bis auch schon beim Bergischen Weg die am weitest entfernten Etappen gelaufen.
-- Mark, Sebastian und  Monique
+Ein großer Dank geht an Trailfrucht für die erste Tour auf dem Natursteig Sieg im August 2017 
+und den Impuls mit dem Trekkingschirm. Der Schirm ist, seit dem immer dabei.
+
+Danke auch an Hikingfrog für die angenehme Begleitung auf dem Ahrsteig, dem Rheinsteig und dem Natursteig Sieg.
+
+Einen Dank, an meinen alten Freund [Julian](/tags/julian/), 
+mit dem ich auch schon beim Bergischen Weg die am weitest entfernten Etappen gelaufen bin.
+
+Danke auch an Mark, Sebastian und Monique, mit den ich ebenfalls eine oder mehrere Etappen gelaufen bin.
+
+## Fußnoten
 
 [^sieg1]: [Homepage des Natursteig Sieg](https://naturregion-sieg.de/wandern/natursteig-sieg)
 [^sieg2]: [Natursteig Sieg auf Wikipedia](https://de.wikipedia.org/wiki/Natursteig_Sieg)
 [^pr1]: [Qualitätskriterien und Prädikatswanderwege auf Wikipedia](https://de.wikipedia.org/wiki/Wanderweg#Qualit%C3%A4tskriterien_und_Pr%C3%A4dikatswanderwege)
-[^tw]: <https://twitter.com/fl3a/status/1121794733355880449>
 [^pr2]: [Qualitätswege Wanderbares Deutschland](https://www.wanderbares-deutschland.de/service/qualitaetsinitiativen/qualitaetswege)
 [^thru1]: [Thru Hike](https://www.nordsüdtrail.de/thru-hike/)
 [^thru]: [Thruhiking auf Wikipedia](https://de.wikipedia.org/wiki/Thruhiking)
