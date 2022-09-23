@@ -2,29 +2,24 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2022-06-30 15:05
+last_modified_at: 2022-09-23 13:57
 ---
-## In Transit
+## Viel Neues
 
-Aktuell befinde ich mich im Übergang zwischen altem und neuem Job.
-
-Durch Urlaub und Freistellung für meine Coaching Ausbildung
-habe ich gerade einfach mal Zeit.   
-Zeit für mich, Zeit für uns, Zeit für liegengebliebene Dinge
-(aka Todos) und Zeit für spontane Dinge. Zeit für Sommer, Vereisen und für's Nichtstun.
+Ich habe seit August einen Job Job als *Tribe Agile Master* bei der AXA 
+([nach 5 Jahren REWE digital](
+/2022/08/15/5-jahre-rewe-digital-danke-auf-wiedersehen.html))  
+und alles ist neu; neue Firma, neue Branche, neues Team, neue Kollegen
+neue Rolle, neue Aufgaben, neue Verantwortungen, neuer Tribe, neue Prozesse.
 
 ## Lernen
+
+Ich lerne jobbedingt gerade wieder viel über Veränderungen🙃.
 
 Im Mai habe ich bei [Tom](http://www.tomandreas.de/) 
 die **Coach Ausbildung** begonnen.  
 
-Ich freue mich schon jetzt auf 3 Tage Lösungsfokussiertes Coaching
-mit Tom und fast noch mehr über 2 Tage [Provokatives Coaching mit Dr. E Noni Höfner](
-https://provokativ.com/) 
-während des [Metaforum Sommercamps](
-https://www.metaforum-sommercamp.com/) 
-in Abano, Ende Juli.	
-
+Ich lerne seit Winter 21 [Pencak Silat](/tags/pencak-silat).
 
 ## Now reading
 
