@@ -203,7 +203,7 @@ Danke auch an Hikingfrog für die angenehme Begleitung auf dem Ahrsteig, dem Rhe
 Einen Dank an meinen alten Freund [Julian](/tags/julian/), 
 mit dem ich auch schon beim Bergischen Weg, die am weitest entfernten Etappen gelaufen bin.
 
-Danke auch an Mark, Sebastian und Monique, mit denen ich ebenfalls eine oder mehrere Etappen gelaufen bin.
+Danke auch an Mark, Sebastian, Tina und Monique, mit denen ich ebenfalls eine oder mehrere Etappen gelaufen bin.
 
 ## Fußnoten
 
