@@ -2,13 +2,13 @@
   url: /#blog
 
 - title: Über
-  url: florian-latzel.html
+  url: ueber.html
+
+- title: Angebot
+  url: angebot.html
 
 - title: Jetzt
   url: jetzt.html  
-
-- title: Themen
-  url: themen.html
 
 - title: Kontakt
   url: kontakt.html 
