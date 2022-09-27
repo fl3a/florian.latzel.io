@@ -1,11 +1,11 @@
-- title: Blog 
-  url: /#blog
+- title: Angebot
+  url: angebot.html
 
 - title: Über
   url: ueber.html
 
-- title: Angebot
-  url: angebot.html
+- title: Blog 
+  url: /#blog
 
 - title: Jetzt
   url: jetzt.html  
