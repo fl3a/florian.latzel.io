@@ -89,3 +89,19 @@ Webtreff / DUG Köln/Bonn
 - 2009-01: Multisite System Maintanance, DrupalCamp, Köln  
 
 *[DUG]: Drupal User Group
+
+[^onboarding]: Session "Agiles Onboarding", Scrumtisch Köln: <https://twitter.com/fl3a/status/930894977533607936>
+[^ubongo-girlsday]: Eindrücke zum Ubongo Flow beim REWE digital #girlsday: <https://twitter.com/RicardaKlein/status/1111344524553527301>
+[^ubongo-dus]: Eindrücke zur Ubongo Flow Game Session auf dem #barcampdus: <https://twitter.com/ebru_sen82/status/1053261964003172352>
+[^ubongo-cgn]: Eindrücke zu unserer Ubongo Flow Game Session auf der agile.cologne: <https://twitter.com/OliverMonneke/status/972101582144921600>
+[^rb-openspace]: Eindrücke zu den von mir facilitierten Open Spaces bei Reinblau. 05.2017: <https://twitter.com/reinblau/status/865472025808076800>, 11.2017: <https://twitter.com/fl3a/status/928905412069527552>, <https://twitter.com/reinblau/status/929048577049026562>
+[^vis-ruhr]: Eindrücke unserer Visual Facilitation Session auf der agile.ruhr: <https://twitter.com/OliverMonneke/status/987689762105458688/photo/1>, <https://twitter.com/OliverMonneke/status/987690272724221952>
+[^scrum-bib]: Slides zu Agiles Projektmanagement mit Scrum: <https://www.slideshare.net/fl3a/scrum-ausderpraxisbib>
+^onboarding]: Session "Agiles Onboarding", Scrumtisch Köln: <https://twitter.com/fl3a/status/930894977533607936>
+[^ubongo-girlsday]: Eindrücke zum Ubongo Flow beim REWE digital #girlsday: <https://twitter.com/RicardaKlein/status/1111344524553527301>
+[^ubongo-dus]: Eindrücke zur Ubongo Flow Game Session auf dem #barcampdus: <https://twitter.com/ebru_sen82/status/1053261964003172352>
+[^ubongo-cgn]: Eindrücke zu unserer Ubongo Flow Game Session auf der agile.cologne: <https://twitter.com/OliverMonneke/status/972101582144921600>
+[^rb-openspace]: Eindrücke zu den von mir facilitierten Open Spaces bei Reinblau. 05.2017: <https://twitter.com/reinblau/status/865472025808076800>, 11.2017: <https://twitter.com/fl3a/status/928905412069527552>, <https://twitter.com/reinblau/status/929048577049026562>
+[^vis-ruhr]: Eindrücke unserer Visual Facilitation Session auf der agile.ruhr: <https://twitter.com/OliverMonneke/status/987689762105458688/photo/1>, <https://twitter.com/OliverMonneke/status/987690272724221952>
+[^scrum-bib]: Slides zu Agiles Projektmanagement mit Scrum: <https://www.slideshare.net/fl3a/scrum-ausderpraxisbib>
+
