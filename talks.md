@@ -3,11 +3,19 @@ title: Talks
 layout: page
 permalink: talks.html
 ---
-Präsentationen, Talks und Sessions 
+Präsentationen, Podcasts, Sessions und Interviews 
 
 ## 2022
 
 - 2022-09: Leadershiptraining goes wild, agile Barcamp, Leipzig
+- 2022-03: [Codes und schmerzlos - Scrum Master](
+https://open.spotify.com/episode/1CLjuetb79gnhK6V7lVd4g) (Podcast)
+
+## 2021 
+
+- 2021-05: [Führung im Fokus - Laterale Führung und Agilität bei der REWE Digital]( 
+https://www.pta-team.com/podcast-episode-8-laterale-fuehrung-agilitaet-rewedigital) 
+(Podcast)
 
 ## 2019
 
@@ -16,6 +24,8 @@ Präsentationen, Talks und Sessions
 - 2019-09: Remote, agile barcamp, Leipzig
 - 2019-09: Personal Maps, agile barcamp, Leipzig
 - 2019-08: Arbeit im System vs Arbeit am System, Scrumtisch Köln
+- 2019-04: [Lerndiamanten agile.ruhr - Personal Maps]( 
+  https://www.youtube.com/watch?v=n0DS7hRQChk) (Interview)
 - 2019-04: Personal Maps, agile.ruhr, Essen
 - 2019-03: Ubongo Flow Game, Girls Day, REWE digital
 - 2019-01: Meddlers Game, Wie baue ich mir eine Abteilung?, Scrumtisch Köln 
@@ -24,6 +34,8 @@ Präsentationen, Talks und Sessions
 
 - 2018-10: Ubongo Flow Game, barcampDUS, Düsseldorf
 - 2018-04: Visual Facilitating für Einsteiger 1 2, agile.ruhr, Essen
+- 2018-04: [Gutes Arbeiten]( 
+  https://www.youtube.com/watch?v=hCUHM7tSOHI) (Interview)
 - 2018-03: Neues Team — Was nun (und was tun)?, drupalcamp.ruhr, Essen 
 - 2017-03: Ubongo Flow Game, agile.cologne, Köln
 
@@ -35,6 +47,8 @@ Präsentationen, Talks und Sessions
 ## 2016
 
 - 2016-12: Scrum in 45 Minuten, DrupalCamp, München 
+- 2016-04: [Outdoor-Talk mit Wildnislehrer Uwe Belz von wildnistraining.de](
+  https://www.youtube.com/watch?v=M2x_PTfHGiQ&t=1000s) (Video)
 
 ## 2014
 
