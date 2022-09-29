@@ -1,20 +1,21 @@
 - title: Angebot
   url: angebot.html
 
-- title: Talks
-  url: talks.html 
-
 - title: Projekte
   url: projekte.html 
  
+- title: Talks
+  url: talks.html 
+
+- title: Über
+  url: ueber.html
+
 - title: Jetzt
   url: jetzt.html  
    
 - title: Blog 
   url: /#blog
 
-- title: Über
-  url: ueber.html
-
 - title: Kontakt
-  url: kontakt.html 
+  url: mailto:florian@latzel.io
+  class: kontakt 
