@@ -15,16 +15,17 @@ path: assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg %}
 Hallo, ich heiße Florian Latzel.  
 Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter. 
 
-### tl;dr
+### in kurz und knapp
 
 - Jahrgang 1978, in Köln geboren, 
 lebt im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
-- war über eine Dekade freiberuflicher IT-Berater, 
-weiß Scrum seit 2009 zu schätzen, war die letzten 6 Jahre Scrum Master / Agile Team Coach, 
 - seit 08.2022 *Tribe Agile Master* bei der AXA, begleitet Veränderung als laterale Führungskraft
 - ist Coach, NLP Practitioner, ausgebildeter Wildnispädagoge, 
-zertifizierter *Scrum Master* und *Product Owner*. 
-Hat irgendwann mal eine Ausbildung als Staatl. gepr. Informatiker Softwaretechnologie gemacht
+zertifizierter *Scrum Master (scrum.org)*, zertifizierte *Product Owner (Scrum Alliance)* 
+und *Certified Scrum Professional (Scrum Alliance)* 
+- war über eine Dekade freiberuflicher IT-Berater, 
+weiß [Scrum seit 2009](/my-last-daily-scrum-at-berlinonline.html) zu schätzen,  
+hat irgendwann mal was mit Informatik gelernt
 - mag Rheinblick, Co-Kreativität, Bewegung, [Fahrräder](/tags/fahrrad/index.html) 
 und ist gerne [draußen](/tags/draussen/index.html).
 - glaubt an [Open Source](/tags/open-source/index.html), Selbstorganisation und Karma
