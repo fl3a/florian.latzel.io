@@ -5,7 +5,13 @@ layout: page
 ---
 ## Aktuelle Projekte
 
-- *"Leadershiptraing goes wild"*
+- [*Leadershiptraing goes wild*](/angebot.html#leadershiptraining-goes-wild) - 
+Training für Führungskräfte in Naturräumen, 
+Elebniselemente aus den Bereichen [Bushcraft und Survival](
+/angebot.html#bushcraft-und-survival-wildnistraining),
+Peer Group und [individuelles Coaching](/angebot.html#coaching)   
+Bei Interesse schreib mir an [florian@latzel.io](
+mailto:florian@latzel.io?subject=Leadershiptraining goes wild)!
 
 ## Vergangene Projekte
 
@@ -14,7 +20,7 @@ https://rogerpfaff.de/holacracy/) strukturierten
 Digitalagentur [Reinblau](/tags/reinblau) (2012 - 2020)
 - Entwicklung von diversen Modulen und Patches für das [Drupal](https://drupal.org/u/fl3a) CMS
 - Mitorganisation des 86\. ScrumtischKöln bei REWE digital
-- Für den Köln-(Halb-)Marathon trainieren, ihn laufen, ankommen und mit der Zeit zufrieden sein
+- Den Köln-(Halb-)Marathon laufen, ankommen und mit der Zeit zufrieden sein
 - Mitorganisation und Facilitierung des [drupalcamp.ruhr](
 /2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html) 2018,  
 des ersten DrupalCamps im [Open Space](/tags/open-space/) Format 
