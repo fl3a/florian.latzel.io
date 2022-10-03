@@ -8,10 +8,23 @@ image: /assets/imgs/november-draussen/waldlicht.jpg
 
 ## Coaching
 
-{% responsive_image figure: true
+{% responsive_image
 alt: "Licht am Ende des Wegs, Foto © Tina Urban." 
 path: assets/imgs/portfolio/morjen.JPG %}
 
+Begleitung in Veränderung. Eröffnung neuer Sichtweisen und Strategien.   
+Als neutraler Gesprächspartner, Begleiter und Sparringspartner 
+mit professionellen und ehrlichen Feedback.
+
+Möglichen Themen
+- Führung
+- Authentisches Leben
+- Konflikte
+- Ziele und Perspektiven
+- Lösungen und Strategien
+- Kreative Anstöße
+
+{% comment %}
 ### Coaching im Wald 
 
 Der Wald löst in vielen Menschen eine tief in uns steckende Sehnsucht aus 
@@ -20,21 +33,57 @@ Kein Wunder, die Natur tut uns gut
 und hat nachgewiesenermaßen positive Effekt auf Körper und Geist[^waldgesundheit].
 Gerade im Wald sinken Cotisol- und Blutdruckspiegel, beides Indikatoren für Stress.
 Wir entschleunigen, weiten den Blick für Neues und stärken dabei auch noch das Imunsystem[^waldbaden].
- 
-## Bushcraft und Survival: Wildnistraining
+ <figure>
+  <blockquote>Dem Gehenden schiebt sich der Weg unter die Füße.</blockquote>
+  <figcaption>Martin Johannes Walser</figcaption>
+</figure>
+{% endcomment %}
 
-{% responsive_image
+
+## Bushcraft und Survival: Wildnistraining Basics
+
+{% responsive_image 
 alt: "Abends gemeinsam am Lagerfeuer. Foto © Tina Urban."
 path: assets/imgs/november-draussen/lagerfeuer.jpg %}
 
+Erlerne zu grundlegenden Bushcraft und Survivalfähigkeiten.
+Von Tagestraining bis zum Wochenend-Seminar. 
+Inhalte unter anderen:
+
+- Werkzeug- und Materialkunde 
+- Feuermachen
+   - Feuerbohren mit dem Drillbogen 
+   - Funkenschlagen
+   - Feuerstelle & Feueraufbau  
+- Bau von Notunterkünften
+- Wildpflanzen (saisonal)
+- Herstellung von Schale & Löffel durch Glutbrennen 
+- Naturwahrnehmung 
+
+
+Bei Interesse schreib mir mit dem Betreff *Wildnistraining* an [florian@latzel.io](
+mailto:florian@latzel.io?subject=Wildnistrainig).
+
+{% comment %}
 - Bushcraft und Survival
   - Feuer, auf archaische Weise emotional
 - Oneness, mit der Natur
 - Vermittlung von primitiven Fähigkeiten
 - Meditation der Hände
+{% endcomment %}
 
 ## Leadershiptraining goes wild
 
+Training für Führungskräfte in Naturräumen, 
+Elebniselemente aus den Bereichen Bushcraft und Survival,
+Peer Group und [individuelles Coaching](/angebot.html#coaching)   
+
+Prototyp in Arbeit: bei Interesse schreib mir 
+mit dem Betreff *Leadershiptraining goes wild* an [florian@latzel.io](
+mailto:florian@latzel.io?subject=Leadershiptraining goes wild), 
+wir benachrichtigen, wenn wir loslegen!
+
+{% comment %}
 - Fähigkeiten die für (Selbst)Führung
   - Führung fängt mit Selbstführung an
   - Sozialer und emphatischer ob Mitarbeiter, Kollegen oder Teammitglieder
@@ -46,21 +95,7 @@ path: assets/imgs/november-draussen/lagerfeuer.jpg %}
 - laterale und interpersonelle Führung
 - Teamarbeit
 - Selbstorganisation  
-
-## Gehen, Wandern und Innehalten
-
-{% responsive_image
-alt: "Wanderer im kalten Morgenwald" 
-path: assets/imgs/portfolio/IMG_20201130_092707.jpg %}
-
-- Gehend und wandernd in der Natur unterwegs
-- Bewegung
-- Waldbaden
-
-<figure>
-  <blockquote>Dem Gehenden schiebt sich der Weg unter die Füße.</blockquote>
-  <figcaption>Martin Johannes Walser</figcaption>
-</figure>
+{% endcomment %}
 
 
 ## Partner und Wegbegleiter
@@ -82,11 +117,12 @@ Nachhaltige IT Lösungen von den Open Source Evangelisten aus Berlin
 Siehe [hier](/referenzen.html) für [Beispiele & Referenzen meiner Arbeit](/referenzen.html).
 
 
-Die Bilder *"Licht am am des Weges"* unter Coaching 
-und das Bild *"Lagerfeuer"* unter *"Bushcraft und Survival: Wildnistraining"*
-sind von [Tina Urban](https://tinaurban.de) und Urheberrechtlich&copy; geschützt. Danke!
+Die Bilder auf dieser Seite sind von [Tina Urban](https://tinaurban.de) 
+und Urheberrechtlich&copy; geschützt. Danke!
 
+*[GzEvD]: Gesellschaft zur Entwicklung von Dingen 
 
+{% comment %}
 Fußnoten 
 
 [^wandernwandel]: [Was Wandern mit Wandeln zu tun hat, Witali Bytschkow, walkaboutyou.org](https://www.linkedin.com/pulse/wandern-mit-wandeln-zu-tun-hat-witali-bytschkow/)
@@ -96,8 +132,8 @@ Fußnoten
 [^waldbaden]: [Waldbaden zum Stressabbau, quarks.de](https://www.quarks.de/gesundheit/waldbaden-zum-stressabbau/)
 [^waldgesundheit]: [Wie Wald auf unsere Gesundheit wirkt, derStandard.de](https://www.derstandard.de/story/2000116617740/wie-wald-auf-unsere-gesundheit-wirkt)
 [^emotionalinteligenz]: [Warum emotionale Intelligenz im Job so wichtig ist, MichaelPage](https://www.michaelpage.de/advice/management-tipps/leadership/warum-emotionale-intelligenz-im-job-so-wichtig-ist)
+{% endcomment %}
 
-*[GzEvD]: Gesellschaft zur Entwicklung von Dingen 
 
 {% comment %}
 ## New Work
