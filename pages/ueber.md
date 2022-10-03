@@ -9,7 +9,7 @@ last_modified_at: 2019-10-30
 ## Über mich
 
 {% responsive_image figure: true
-alt: "Florian Latzel, Wanderung in Gemeinschaft bei Minusgraden, November/Dezember 2020. Foto © Tina Urban."
+alt: "Florian Latzel, Eifelsteig bei Minusgraden, November/Dezember 2020. Foto © Tina Urban."
 path: assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg %}
 
 ### Vorstellung in kurz & knapp
@@ -19,7 +19,9 @@ Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter.
 
 - Jahrgang 1978, in Köln geboren, 
 lebt im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
-- seit 08.2022 *Tribe Agile Master* bei der AXA, begleitet Veränderung als laterale Führungskraft
+- seit 08.2022 *Tribe Agile Master* bei der AXA, 
+laterale Führungskraft, begleitet Veränderung 
+- davor *Agile Team Coach* ([Scrum Master](/tags/scrum-master/)) für verschiedene Unternehmen
 - ist Coach, 
 [NLP Practitioner](/2022/03/31/nlp-practitioner.html), 
 [Wildnispädagoge](/2020/12/14/november-draussen.html#ich-bin-wildnispädagoge), 
@@ -38,17 +40,14 @@ meinem [CV](https://florian.latzel.io/cv),
 bei [linkedin](https://www.linkedin.com/in/florianlatzel/) 
 oder bei [xing](https://www.xing.com/profile/Florian_Latzel/cv).
 
-## Über diese Seite
+## Über diese Website
 
 Diese Website wird mit *freier Software* betrieben (Danke🙏).   
 Die Basis bilden der statische Seitengenerator [Jekyll](/tags/jekyll/),
 dem [Minima Theme](https://github.com/jekyll/minima)
 und [Text Dateien in einem Git-Repository](https://github.com/fl3a/florian.latzel.io). 
-Deployed wird via [jekyll_deployment](https://github.com/fl3a/jekyll_deployment) Shellskript 
-auf einen [Linux](/tags/linux/) Server bei [uberspace](/tags/uberspace/), 
-von dem dann die statischen Dateien ausgeliefert werden.
 
 Die Datenbasis des Blogs stammt aus Jahr 2004 und lief bis Ende 2018 
 mit dem [Drupal](/tags/drupal/) CMS.   
-Posts über Updates zu dieser Website finden sich [hier](/tags/netzaffe). 
+Blogposts zu Updates dieser Website finden sich [hier](/tags/netzaffe). 
 

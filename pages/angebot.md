@@ -5,27 +5,35 @@ permalink: /angebot.html
 toc: true
 image: /assets/imgs/november-draussen/waldlicht.jpg
 ---
-## Natur und Achtsamkeit trifft auf New Work und (Selbst)Führung
 
-{% responsive_image figure: true 
-alt: "Kalter und klarer Wintermorgen, die Sonne scheint durch den menschenleeren Fichtenwald in der Eifel."
-path: assets/imgs/november-draussen/waldlicht.jpg %}
+## Coaching
 
-Die Natur löst eine tief in uns steckende Sehnsucht[^waldgesundheit] in uns Menschen aus 
-und dient vielen als Kraftquelle.
+{% responsive_image figure: true
+alt: "Licht am Ende des Wegs, Foto © Tina Urban." 
+path: assets/imgs/portfolio/morjen.JPG %}
+
+### Coaching im Wald 
+
+Der Wald löst in vielen Menschen eine tief in uns steckende Sehnsucht aus 
+und dient manchen als Kraftquelle.
 Kein Wunder, die Natur tut uns gut 
-und hat nachgewiesenermaßen positive Effekt auf Körper und Geist.
-Gerade im Wald sinkt unser Cotisol- und Blutdruckspiegel, kurz Indikatoren für Stress 
-und wir stärken neben auch noch das Imunsystem[^waldbaden].
-*Shinrin Yoku*, zu deutsch Waldbaden, Achtsamkeit
+und hat nachgewiesenermaßen positive Effekt auf Körper und Geist[^waldgesundheit].
+Gerade im Wald sinken Cotisol- und Blutdruckspiegel, beides Indikatoren für Stress.
+Wir entschleunigen, weiten den Blick für Neues und stärken dabei auch noch das Imunsystem[^waldbaden].
  
-- Die Natur als Werkzeug und Kraftquelle
-- Sehnsucht
-  - Verbindung mit der Natur und dir selbst.
-- Achtsamkeit
-- Microretreats
-- Entschleunigung
-- Resilienz
+## Bushcraft und Survival: Wildnistraining
+
+{% responsive_image
+alt: "Abends gemeinsam am Lagerfeuer. Foto © Tina Urban."
+path: assets/imgs/november-draussen/lagerfeuer.jpg %}
+
+- Bushcraft und Survival
+  - Feuer, auf archaische Weise emotional
+- Oneness, mit der Natur
+- Vermittlung von primitiven Fähigkeiten
+- Meditation der Hände
+
+## Leadershiptraining goes wild
 
 - Fähigkeiten die für (Selbst)Führung
   - Führung fängt mit Selbstführung an
@@ -39,22 +47,10 @@ und wir stärken neben auch noch das Imunsystem[^waldbaden].
 - Teamarbeit
 - Selbstorganisation  
 
-### Bushcraft und Survival: Wildnistraining
+## Gehen, Wandern und Innehalten
 
-{% responsive_image figure: true
-alt: "Abends gemeinsam am Lagerfeuer. Foto © Tina Urban."
-path: assets/imgs/november-draussen/lagerfeuer.jpg %}
-
-- Bushcraft und Survival
-  - Feuer, auf archaische Weise emotional
-- Oneness, mit der Natur
-- Vermittlung von primitiven Fähigkeiten
-- Meditation der Hände
-
-### Gehen, Wandern und Innehalten
-
-{% responsive_image figure: true
-alt: "Subtitle" 
+{% responsive_image
+alt: "Wanderer im kalten Morgenwald" 
 path: assets/imgs/portfolio/IMG_20201130_092707.jpg %}
 
 - Gehend und wandernd in der Natur unterwegs
@@ -66,44 +62,32 @@ path: assets/imgs/portfolio/IMG_20201130_092707.jpg %}
   <figcaption>Martin Johannes Walser</figcaption>
 </figure>
 
+
 ## Partner und Wegbegleiter
 
-{% responsive_image figure: true
-alt: "Foto © Tina Urban." 
+{% responsive_image 
+alt: "Wegbegleiter, Foto © Tina Urban." 
 path: assets/imgs/portfolio/weg-2.JPG %}
 
-- [Tina](https://www.tinaurban.de/),
-Bildende Künstlerin und Wildnispädagogin mit Leidenschaft für den Komplex Wahrnehmung
-- [Oliver](https://www.linkedin.com/in/oliver-zilken-9074aa66/), 
-Agileauskenner und (Sparrings)Partner für *New Work* und Leadership
-- [Julian](/tags/julian/), Jugendfreund und Outdoor Enthusiast
 - [Walkaboutyou](https://walkaboutyou.org/),
 Wander-Workshops in der Natur für mehr Fokus, Resilienz und Wir-Gefühl 
 - [naturzeit.club](https://naturzeit.club),
-Kinder in die Verbindung mit der Natur bringen
+Kleine und große Menschen in die Verbindung mit der Natur bringen
 - [Komplexitäter](https://www.komplexitaeter.de/), 
-Transformationsbegleitung und Unterstüzung in einer komplexen Welt
+Transformationsbegleitung und Unterstützung in einer komplexen Welt
 - [GzEvD](https://www.gesellschaft-zur-entwicklung-von-dingen.de/de),
 Nachhaltige IT Lösungen von den Open Source Evangelisten aus Berlin
 
-## Mein Angebot
-
-{% responsive_image figure: true
-alt: "Foto © Tina Urban." 
-path: assets/imgs/portfolio/morjen.JPG %}
-
-Beratung, persönliche Begleitung, Walk'n'Talks und Coaching,\\
-das Setzen von Impulsen, Konzeption und Durchführung von Trainings und Touren\\
-und die Facilitierung von Erlebnis-,  Lern- und Reflektionsräumen.
-
-Für dich (Einzelpersonen) und  dein Team, deine Abteilung oder deine Freunde (Gruppen),\\
-[schreib mir für ein individuelles Angebot!](mailto:{{ site_email | encode_email }})
-
-## Referenzen
 
 Siehe [hier](/referenzen.html) für [Beispiele & Referenzen meiner Arbeit](/referenzen.html).
 
-## Fußnoten 
+
+Die Bilder *"Licht am am des Weges"* unter Coaching 
+und das Bild *"Lagerfeuer"* unter *"Bushcraft und Survival: Wildnistraining"*
+sind von [Tina Urban](https://tinaurban.de) und Urheberrechtlich&copy; geschützt. Danke!
+
+
+Fußnoten 
 
 [^wandernwandel]: [Was Wandern mit Wandeln zu tun hat, Witali Bytschkow, walkaboutyou.org](https://www.linkedin.com/pulse/wandern-mit-wandeln-zu-tun-hat-witali-bytschkow/)
 [^naturgesundheit]: [Wie wirken Natur und Landschaft auf Gesundheit, Wohlbefinden und Lebensqualität?, Prof. Dr. Ulrich Gebhard, Universität Hamburg](https://b6b1804a-fbf0-47c4-b778-3deada707163.filesusr.com/ugd/07922c_3ed56f11bfe74d0ab6b0e1e32ee6dd78.pdf)
