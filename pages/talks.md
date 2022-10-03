@@ -64,10 +64,10 @@ drupalcamp.ruhr, Essen
 
 ## 2013
 
-- 2013-11: [DAM mit Bassets](/bassets-bof-dcvie-2013.html), BoF, DrupalCamp, Wien (A) 
-- 2013-10: DAM mit Bassets, DUG München 
-- 2013-08: DAM mit Bassets[^bassets-camp], DrupalCamping, Wolfsburg 
-- 2013-07: DAM mit Bassets, DUG Köln/Bonn 
+- 2013-11: [DAM mit Bassets](/bassets-bof-dcvie-2013.html)[^bassets], BoF, DrupalCamp, Wien (A) 
+- 2013-10: DAM mit Bassets[^bassets], DUG München 
+- 2013-08: DAM mit Bassets[^bassets] [^bassets-camp], DrupalCamping, Wolfsburg 
+- 2013-07: DAM mit Bassets[^bassets], DUG Köln/Bonn 
 - 2013-03: Drupal am Tag der Administration[^cebit], CMS Garden, CeBIT, Hannover
 
 ## 2012
@@ -97,9 +97,9 @@ Webtreff / DUG Köln/Bonn
 
 - 2009-11: [Drush und Multisite: drush_multi](
 /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html), DrupalCamp, Wien (A) 
-- 2009-05: [Drush](/2009/05/12/drush-drupalmediacamp-prsentation.html), 
-DrupalMediaCamp.ch, Aarau (CH) 
-- 2009-01: Multisite System Maintanance, DrupalCamp, Köln  
+- 2009-05: [Drush, DrupalMediaCamp.ch](
+/2009/05/12/drush-drupalmediacamp-prsentation.html), Aarau (CH) 
+- 2009-01: Multisite System Maintanance[^dcgn], DrupalCamp, Köln  
 
 Fußnoten
 
@@ -118,5 +118,8 @@ Fußnoten
 [^neu2]: Neues #Team -- was nun (und was tun)? #teambuilding #scrum #tuckmann usw. <https://twitter.com/fl3a/status/920731690519101440>
 [^scrum-lmu]: Video Aufzeichnung der Session <https://videoonline.edu.lmu.de/de/node/9207>
 [^lead]: Miro: Sessionboard agiLE Barcamp 2022, Sonntag, Anliegen <https://miro.com/app/board/uXjVPTz2JXo=/?moveToWidget=3458764534350041383&cot=10>
+[^dcgn]: Session Proposal "Multisite System Maintanance": <https://web.archive.org/web/20090205041755/http://drupalcamp.de/node/45>
+[^bassets]: Bassets (Better Assets) ist eine DAM Drupal Distribution <https://www.drupal.org/project/bassets>
 
 *[DUG]: Drupal User Group
+*[DAM]: Digital Asset Management
