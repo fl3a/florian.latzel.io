@@ -44,10 +44,13 @@ oder bei [xing](https://www.xing.com/profile/Florian_Latzel/cv).
 
 Diese Website wird mit *freier Software* betrieben (Danke🙏).   
 Die Basis bilden der statische Seitengenerator [Jekyll](/tags/jekyll/),
-dem [Minima Theme](https://github.com/jekyll/minima)
+das [Minima Theme](https://github.com/jekyll/minima)
 und [Text Dateien in einem Git-Repository](https://github.com/fl3a/florian.latzel.io). 
+Gehosted auf [uberspace](https://uberspace.de), dorthin deployed via [Shell Skript](
+https://github.com/fl3a/jekyll_deployment).
 
-Die Datenbasis des Blogs stammt aus Jahr 2004 und lief bis Ende 2018 
+Die Datenbasis des [Blogs](/archiv.html) stammt aus Jahr 2004 und lief bis Ende 2018 
 mit dem [Drupal](/tags/drupal/) CMS.   
+Ich schreibe dort über [diverse Themen](/themen.html), die mich beschäftigen.
 Blogposts zu Updates dieser Website finden sich [hier](/tags/netzaffe). 
 
