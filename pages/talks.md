@@ -7,7 +7,7 @@ Präsentationen, Podcasts, Sessions und Interviews
 
 ## 2022
 
-- 2022-09: Leadershiptraining goes wild[^lead], agile Barcamp, Leipzig
+- 2022-09: Leadershiptraining goes wild[^lead], agiLE Barcamp, Leipzig
 - 2022-03: [Codes und schmerzlos - Scrum Master](
 https://open.spotify.com/episode/1CLjuetb79gnhK6V7lVd4g) (Podcast)
 
@@ -19,13 +19,13 @@ https://www.pta-team.com/podcast-episode-8-laterale-fuehrung-agilitaet-rewedigit
 
 ## 2019
 
-- 2019-10; Vom Stein des Sisyphos und Seedbombs[^sys-il], agle barcamp, Ilmenau
+- 2019-10; Vom Stein des Sisyphos und Seedbombs[^sys-il], agILe barcamp, Ilmenau
 - 2019-09: [Vom Stein des Sisyphos und Seedbombs](
 /2019/09/22/rueckblick-auf-das-4-agile-leipzig-barcamp.html#von-stein-des-sisyphos-und-seedbombs), 
-agile barcamp, Leipzig
+agiLE barcamp, Leipzig
 - 2019-09: [Personal Maps](
 /2019/09/22/rueckblick-auf-das-4-agile-leipzig-barcamp.html#personal-maps), 
-agile barcamp, Leipzig
+agiLE barcamp, Leipzig
 - 2019-08: Arbeit im System vs Arbeit am System, Scrumtisch Köln
 - 2019-04: [Lerndiamanten agile.ruhr - Personal Maps]( 
   https://www.youtube.com/watch?v=n0DS7hRQChk) (Interview)
