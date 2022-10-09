@@ -1,14 +1,21 @@
-- title: Blog 
-  url: /#blog
+- title: Angebot
+  url: angebot.html
+
+- title: Projekte
+  url: projekte.html 
+ 
+- title: Talks
+  url: talks.html 
 
 - title: Über
-  url: florian-latzel.html
+  url: ueber.html
 
 - title: Jetzt
   url: jetzt.html  
-
-- title: Themen
-  url: themen.html
+   
+- title: Blog 
+  url: /#blog
 
 - title: Kontakt
-  url: kontakt.html 
+  url: /kontakt.html 
+  class: kontakt

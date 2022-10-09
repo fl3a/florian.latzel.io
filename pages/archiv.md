@@ -1,6 +1,7 @@
 ---
 title: Archiv
 layout: page
+permalink: archiv.html
 ---
 <section class="archive-post-list">
 
@@ -12,7 +13,7 @@ layout: page
            <ul>
            {% assign myDate = currentDate %}
        {% endif %}
-       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+       <li>{{ post.date | date: "%Y-%m-%d:"  }} <a href="{{ post.url }}">{{ post.title }}</a></li>
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}
 
