@@ -12,39 +12,45 @@ image: /assets/imgs/november-draussen/waldlicht.jpg
 alt: "Licht am Ende des Wegs, Foto © Tina Urban." 
 path: assets/imgs/portfolio/morjen.JPG %}
 
-Begleitung in Veränderung. Eröffnung neuer Sichtweisen und Strategien.   
+Begleitung in Veränderung. Eröffnung neuer Sichtweisen und Strategien. 
 Als neutraler Gesprächspartner, Begleiter und Sparringspartner 
-mit professionellen und ehrlichen Feedback.
+mit professionellen und ehrlichen Feedback.   
+Coachings biete ich auch draußen in der Natur und im Gehen an.
 
-Möglichen Themen
+Möglichen Themen für das Coaching
 - Führung
 - Authentisches Leben
 - Konflikte
 - Ziele und Perspektiven
 - Lösungen und Strategien
 - Kreative Anstöße
+- ...
+
+Bei Interesse schreib mir mit dem Betreff *Coaching* an [florian@latzel.io](
+mailto:florian@latzel.io?subject=Coaching).
+
+Warum Daußen?   
+Die Natur tut uns gut. 
+Insbesondere im Wald sinken Cotisol- und Blutdruckspiegel[^waldgesundheit],    
+beides Indikatoren für Stress.    
+Wir entschleunigen, weiten den Blick für Neues und stärken dabei auch noch unser Imunsystem[^waldbaden].
+
+Warum im Gehen?  
+Bereits seit der Antike stehen Gehen und Erkenntnis in einem kausalen Zusammenhang.   
+Gehen regt das Denken an. Aristotels lehrte zum Bespiel im Gehen.   
+Was damals bereits die Philosophen beschäftige, 
+ist heute im Fokus vom Wissenschaft und Forschung.
+> Beim Gehen können wir Dinge aus einer anderen Perspektive betrachten 
+> und neue Lösungswege finden[^gehen]
+
+> Besonders die Rhythmik der Schritte regt zu neuen Gedankengängen an[^gehen]
+
+So Jens Kleinert[^jk], Professor für Sport- und Gesundheitspsychologie zum Spazierengehen.
+
+
 
 {% comment %}
-### Coaching im Wald 
-
-Der Wald löst in vielen Menschen eine tief in uns steckende Sehnsucht aus 
-und dient manchen als Kraftquelle.
-Kein Wunder, die Natur tut uns gut 
-und hat nachgewiesenermaßen positive Effekt auf Körper und Geist[^waldgesundheit].
-Gerade im Wald sinken Cotisol- und Blutdruckspiegel, beides Indikatoren für Stress.
-Wir entschleunigen, weiten den Blick für Neues und stärken dabei auch noch das Imunsystem[^waldbaden].
- <figure>
-  <blockquote>Dem Gehenden schiebt sich der Weg unter die Füße.</blockquote>
-  <figcaption>Martin Johannes Walser</figcaption>
-</figure>
-{% endcomment %}
-
-
 ## Bushcraft und Survival: Wildnistraining Basics
-
-{% responsive_image 
-alt: "Abends gemeinsam am Lagerfeuer. Foto © Tina Urban."
-path: assets/imgs/november-draussen/lagerfeuer.jpg %}
 
 Erlerne zu grundlegenden Bushcraft und Survivalfähigkeiten.
 Von Tagestraining bis zum Wochenend-Seminar. 
@@ -64,7 +70,6 @@ Inhalte unter anderen:
 Bei Interesse schreib mir mit dem Betreff *Wildnistraining* an [florian@latzel.io](
 mailto:florian@latzel.io?subject=Wildnistrainig).
 
-{% comment %}
 - Bushcraft und Survival
   - Feuer, auf archaische Weise emotional
 - Oneness, mit der Natur
@@ -74,8 +79,12 @@ mailto:florian@latzel.io?subject=Wildnistrainig).
 
 ## Leadershiptraining goes wild
 
-Training für Führungskräfte in Naturräumen, 
-Elebniselemente aus den Bereichen Bushcraft und Survival,
+{% responsive_image 
+alt: "Abends gemeinsam am Lagerfeuer. Foto © Tina Urban."
+path: assets/imgs/november-draussen/lagerfeuer.jpg %}
+
+Trainings für Führungskräfte in Naturräumen.   
+Elebniselemente aus den Bereichen Bushcraft und Survival. 
 Peer Group und [individuelles Coaching](/angebot.html#coaching)   
 
 Prototyp in Arbeit: bei Interesse schreib mir 
@@ -120,20 +129,19 @@ Siehe [hier](/referenzen.html) für [Beispiele & Referenzen meiner Arbeit](/refe
 Die Bilder auf dieser Seite sind von [Tina Urban](https://tinaurban.de) 
 und Urheberrechtlich&copy; geschützt. Danke!
 
-*[GzEvD]: Gesellschaft zur Entwicklung von Dingen 
 
-{% comment %}
 Fußnoten 
 
-[^wandernwandel]: [Was Wandern mit Wandeln zu tun hat, Witali Bytschkow, walkaboutyou.org](https://www.linkedin.com/pulse/wandern-mit-wandeln-zu-tun-hat-witali-bytschkow/)
 [^naturgesundheit]: [Wie wirken Natur und Landschaft auf Gesundheit, Wohlbefinden und Lebensqualität?, Prof. Dr. Ulrich Gebhard, Universität Hamburg](https://b6b1804a-fbf0-47c4-b778-3deada707163.filesusr.com/ugd/07922c_3ed56f11bfe74d0ab6b0e1e32ee6dd78.pdf)
 [^naturbewegung]: [Was die Natur besser kann als das Fitnesscenter, derStandard.de](https://www.derstandard.de/story/2000065058714/was-die-natur-besser-kann-als-das-fitnesscenter)
 [^mindfulwalk]: [The Benefits of a Mindful Walk, Search Inside Yourself Leadership Institute](https://siyli.org/mindful-walk-benefits/)
 [^waldbaden]: [Waldbaden zum Stressabbau, quarks.de](https://www.quarks.de/gesundheit/waldbaden-zum-stressabbau/)
 [^waldgesundheit]: [Wie Wald auf unsere Gesundheit wirkt, derStandard.de](https://www.derstandard.de/story/2000116617740/wie-wald-auf-unsere-gesundheit-wirkt)
 [^emotionalinteligenz]: [Warum emotionale Intelligenz im Job so wichtig ist, MichaelPage](https://www.michaelpage.de/advice/management-tipps/leadership/warum-emotionale-intelligenz-im-job-so-wichtig-ist)
-{% endcomment %}
+[^gehen]: [Spazierengehen: Einfach mal raus und bewegen! - Spektrum der Wissenschaft](https://www.spektrum.de/news/spazierengehen-einfach-mal-raus-und-bewegen/1824811)
+[^jk]: [Jens Kleinert - Wikipedia](https://de.wikipedia.org/wiki/Jens_Kleinert)
 
+*[GzEvD]: Gesellschaft zur Entwicklung von Dingen 
 
 {% comment %}
 ## New Work
