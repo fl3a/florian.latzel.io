@@ -4,11 +4,9 @@ title: "Florian Latzel"
 author: "Florian Latzel"
 email: "florian@latzel.io"
 email-smpl: "florian-ät-latzel-punkt-io"
-head: 'Hi, ich bin Florian👋'
+head: 'Hi, ich heiße Florian👋'
 head-description: >-
-  Hier schreibe ich über meine Abenteuer 
-  als Scrum Master im Taka-VUCA-Land<br />    
-  und über <a href="/themen.html">dies, das, verschiedene Dinge</a>
+  Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter 
 description: >- # this means to ignore newlines until "baseurl:"
   Trainer, Berater, Facilitator, Coach und Überzeugungstäter
 baseurl: "" # the subpath of your site, e.g. /blog
