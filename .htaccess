@@ -105,9 +105,7 @@ Redirect 301 /2019/04/05/daily-scrum-daily-questions.html /2019/04/05/daily-scru
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html
 Redirect /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
 
-Redirect 301 /ueber.html /florian-latzel.html
-Redirect 301 /florian-latzel /florian-latzel.html
-Redirect 301 /florian-fl3a-latzel.html /florian-latzel.html
+Redirect 301 /florian-latzel.html /ueber.html
 
 Redirect 301 /eine-einfuehrung-scrum-vortrag-auf-dem-drupalcamp-muenchen-2016.html /scrum-45-minuten-drupalcamp-muenchen-2016.html
 Redirect 301 /copy-n-paste-bei-gpg-passwoertern-und-pinentry /2015/11/14/copy-n-paste-bei-gpg-passwoertern-und-pinentry.html
