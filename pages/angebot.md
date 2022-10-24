@@ -29,16 +29,16 @@ Möglichen Themen für das Coaching
 Bei Interesse schreib mir mit dem Betreff *Coaching* an [florian@latzel.io](
 mailto:florian@latzel.io?subject=Coaching).
 
-Warum Daußen?   
+Warum Draußen?   
 Die Natur tut uns gut. 
 Insbesondere im Wald sinken Cotisol- und Blutdruckspiegel[^waldgesundheit],    
 beides Indikatoren für Stress.    
-Wir entschleunigen, weiten den Blick für Neues und stärken dabei auch noch unser Imunsystem[^waldbaden].
+Wir entschleunigen, weiten den Blick für Neues und stärken dabei auch noch unser Immunsystem[^waldbaden].
 
 Warum im Gehen?  
 Bereits seit der Antike stehen Gehen und Erkenntnis in einem kausalen Zusammenhang.   
-Gehen regt das Denken an. Aristotels lehrte zum Bespiel im Gehen.   
-Was damals bereits die Philosophen beschäftige, 
+Gehen regt das Denken an. Aristoteles lehrte zum Bespiel im Gehen.   
+Was damals bereits die Philosophen beschäfftige, 
 ist heute im Fokus vom Wissenschaft und Forschung.
 > Beim Gehen können wir Dinge aus einer anderen Perspektive betrachten 
 > und neue Lösungswege finden[^gehen]
