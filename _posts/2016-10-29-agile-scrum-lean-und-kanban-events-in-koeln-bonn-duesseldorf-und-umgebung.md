@@ -57,7 +57,7 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
   Meetup zum Ausprobieren und Erfahrungsaustausch der Liberating Structures Toolbox und Strings 
 - [Köln Teal](https://www.meetup.com/de-DE/Koln-Teal-Reinventing-Organizations-Meetup/) Reinventing Organizations - Meetup 
   Agiles Netzwerken in Köln, jeden zweiten Donnerstag im Monat ein Format von kernpunkt 
-- [Spielend begreifen - get it through games](https://www.xing.com/communities/groups/spielend-begreifen-get-it-through-games-90f0-1106969), 
+- [Spielend begreifen - get it through games](https://www.linkedin.com/groups/14136973/) 
   Spiele mit Mehrwert, alles was Verstehen fördert, 
   egal ob Simulationen/Planspiele, Teamspiele oder Ice-Breaker für Teams und Organisationen 
 - [Cologne Enterprise Changemaker](https://www.meetup.com/de-DE/Cologne-Enterprise-Changemaker/)  
@@ -68,10 +68,8 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
 - [Agile HR Conference](https://hr-pioneers.com/leistungen/events/agile-hr-conference/), 
   jährliche stattfindende Konferenz zu Agile Transformation, Agile Leadership und Agile HR. Wird von HR Pioneers organisiert.
 - [Der Westen Agil](https://www.it-agile.de/der-westen-agil/), eine Abendveranstaltungsreihe von it-agile
-- [BetaCodex Meetup Cologne](https://www.xing.com/communities/groups/betacodex-meetup-cologne-11d2-1108620/about), 
+- [BetaCodex Meetup Cologne](https://www.linkedin.com/groups/8607856/), 
 das Kölner Meetup rund um das Thema BetaCodex und Unternehmenstransformation. Jeden ersten Montag im Monat.
-- [SCRUM MASTER Networking²](https://www.xing.com/communities/groups/scrum-master-networking2-um-piazzablu-11d2-1126652/about), Networking speziell für Scrum Master und Agile Coaches. 
-Ein Format von piazzablu.
 - [Flight Club Cologne](https://www.meetup.com/de-DE/flight-club-cologne/), Meetup für *Business Agilität* und die *Flight Level* Interessierte.
 - [Agile Insights](https://www.meetup.com/de-DE/agile-insights/), 
 ein Format der [Agile Academy](https://www.agile-academy.com/de/).
