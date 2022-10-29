@@ -49,15 +49,13 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
 - [CoRe, Coach Reflection Day](https://www.coachreflectionday.org/), 
   Bundesweite Veranstaltungsreihe, findet seit 2017 auch in Köln statt<!--break-->
 - Agile Intervision, kollegiale Fallberatung für Scrum Master und Agile Coaches,
-  weiteres über die [accsv-cgn Mailingliste](https://www.freelists.org/list/accsv-cgn) 
-  und auf [xing](https://www.xing.com/communities/groups/agile-intervision-90f0-1105436)
+  weiteres über die [accsv-cgn Mailingliste](https://www.freelists.org/list/accsv-cgn)
 - [Product Owner Monthly / Tacheles Meetup](https://www.linkedin.com/groups/12695560/) 
 - [Agile QA Cologne](https://www.meetup.com/de-DE/agileqa-cologne/), Quality Assurance in Agilen Projekten
 - [Agile at Scale - Köln Meetup](https://www.meetup.com/de-DE/Agile-at-Scale-Koln-Meetup/)
 - [Köln Liberating Structures Meetup](https://www.meetup.com/de-DE/Koln-Liberating-Structures-Meetup/), 
   Meetup zum Ausprobieren und Erfahrungsaustausch der Liberating Structures Toolbox und Strings 
 - [Köln Teal](https://www.meetup.com/de-DE/Koln-Teal-Reinventing-Organizations-Meetup/) Reinventing Organizations - Meetup 
-- [Agile Ale](https://www.kernpunkt.de/agile-networking-event), 
   Agiles Netzwerken in Köln, jeden zweiten Donnerstag im Monat ein Format von kernpunkt 
 - [Spielend begreifen - get it through games](https://www.xing.com/communities/groups/spielend-begreifen-get-it-through-games-90f0-1106969), 
   Spiele mit Mehrwert, alles was Verstehen fördert, 
