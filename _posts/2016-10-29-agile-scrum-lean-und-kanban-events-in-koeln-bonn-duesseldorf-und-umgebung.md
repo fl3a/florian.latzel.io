@@ -75,6 +75,7 @@ das Kölner Meetup rund um das Thema BetaCodex und Unternehmenstransformation. J
 ein Format der [Agile Academy](https://www.agile-academy.com/de/).
 - [access to agile](https://www.meetup.com/de-DE/access-to-agile/), 
 ein Format von [access2agile](https://access2agile.com/)
+- [team. thesen. temperamente.](https://www.linkedin.com/groups/9059568/)
 
 <!--break-->
 ### Agile Meetups und Events in Bonn
@@ -89,7 +90,6 @@ Anmeldung über xing
 
 - [Agiler Stammtisch Düsseldorf aka Lean Altbier](https://www.meetup.com/de-DE/Agiler-Stammtisch-Duesseldorf/),
   findet jeden ersten Donnerstag im Monat in der Brauerei "Zum Schlüssel" statt. Mehr Informationen und Anmeldung über Meetup
-Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com/communities/groups/agile-plus-market-duesseldorf-1cbe-1070927)
 - [Lean DUS](https://leandus.de) wird von der sipgate GmbH veranstaltet Agenda, Talks + Anmeldung über die Lean DUS Website
 - [Lean Coffee Düsseldorf](https://www.linkedin.com/groups/12705003/)
 - [Düsseldorf Liberating Structures](https://www.meetup.com/de-DE/meetup-group-JUAeEreA/)
