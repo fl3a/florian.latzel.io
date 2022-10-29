@@ -95,10 +95,8 @@ Anmeldung über xing
 
 - [Agiler Stammtisch Düsseldorf aka Lean Altbier](https://www.meetup.com/de-DE/Agiler-Stammtisch-Duesseldorf/),
   findet jeden ersten Donnerstag im Monat in der Brauerei "Zum Schlüssel" statt. Mehr Informationen und Anmeldung über Meetup
-- [Das Agile Café in Düsseldorf](http://www.prowareness.de/event_show/?eventtitle=agile-caf--) ist ein Format vom Prowareness, 
 Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com/communities/groups/agile-plus-market-duesseldorf-1cbe-1070927)
 - [Lean DUS](https://leandus.de) wird von der sipgate GmbH veranstaltet Agenda, Talks + Anmeldung über die Lean DUS Website
-- [Scrum Deutschland](https://www.scrumdeutschland.de/), eine von Prowareness organisierte, jährlich stattfindende Konferenz
 - [Lean Coffee Düsseldorf](https://www.xing.com/communities/groups/lean-coffee-90f0-1066150)
 - [Düsseldorf Liberating Structures](https://www.meetup.com/de-DE/meetup-group-JUAeEreA/)
 - [Agile DUS](https://www.meetup.com/de-DE/Agile-DUS/), ein Format von Valtech
