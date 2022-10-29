@@ -40,20 +40,18 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
 
 ### Agile Meetups & Events in Köln
 
-- [Scrumtisch Köln](https://www.xing.com/net/scrumtischkoeln), jeden dritten Mittwoch im Monat, Anmeldung über xing
-- [Lean Coffee](https://www.xing.com/communities/groups/lean-coffee-7be1-1066150/posts), jeden Freitag von 08:00 – 09:00, wechselnde Locations.
-Zudem findet alle 2 Wochen Freitags das _Lean Coffee für Product Owner_ statt.
-  Mehr auf [leancoffee.cologne](http://leancoffee.cologne/)
+- [Scrumtisch Köln](https://www.linkedin.com/groups/14120069/), jeden dritten Mittwoch im Monat, Anmeldung über xing
+- [Lean Coffee](https://www.linkedin.com/groups/12711004/), jeden Freitag von 08:00 – 09:00, wechselnde Locations.
+- [Lean Coffee für Product Owner & Product People & Produkt-Manager](https://www.linkedin.com/groups/12524562/)
 - [Limited <acronym title="Work in progress">WIP</acronym> Society Cologne (Kanban)](http://lwscologne.wordpress.com/), 
-  jeden zweiten Mittwoch im Monat, Infos und Anmeldung über die [xing Gruppe](https://www.xing.com/communities/groups/limited-wip-society-cologne-f66d-1045957/events)
+  jeden zweiten Mittwoch im Monat, Infos und Anmeldung über [LinkedIn Gruppe](https://www.linkedin.com/groups/12700884/)
 - [Agile Cologne](http://www.agilecologne.de/), die jährlich stattfindende (Un)Konferenz in Köln
 - [CoRe, Coach Reflection Day](https://www.coachreflectionday.org/), 
   Bundesweite Veranstaltungsreihe, findet seit 2017 auch in Köln statt<!--break-->
 - Agile Intervision, kollegiale Fallberatung für Scrum Master und Agile Coaches,
   weiteres über die [accsv-cgn Mailingliste](https://www.freelists.org/list/accsv-cgn) 
   und auf [xing](https://www.xing.com/communities/groups/agile-intervision-90f0-1105436)
-- [Product Owner Monthly / Tacheles Meetup](https://www.xing.com/communities/groups/product-owner-koeln-7be1-1083489/about), 
- jeden letzten Donnerstag im Monat
+- [Product Owner Monthly / Tacheles Meetup](https://www.linkedin.com/groups/12695560/) 
 - [Agile QA Cologne](https://www.meetup.com/de-DE/agileqa-cologne/), Quality Assurance in Agilen Projekten
 - [Agile at Scale - Köln Meetup](https://www.meetup.com/de-DE/Agile-at-Scale-Koln-Meetup/)
 - [Köln Liberating Structures Meetup](https://www.meetup.com/de-DE/Koln-Liberating-Structures-Meetup/), 
@@ -97,7 +95,7 @@ Anmeldung über xing
   findet jeden ersten Donnerstag im Monat in der Brauerei "Zum Schlüssel" statt. Mehr Informationen und Anmeldung über Meetup
 Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com/communities/groups/agile-plus-market-duesseldorf-1cbe-1070927)
 - [Lean DUS](https://leandus.de) wird von der sipgate GmbH veranstaltet Agenda, Talks + Anmeldung über die Lean DUS Website
-- [Lean Coffee Düsseldorf](https://www.xing.com/communities/groups/lean-coffee-90f0-1066150)
+- [Lean Coffee Düsseldorf](https://www.linkedin.com/groups/12705003/)
 - [Düsseldorf Liberating Structures](https://www.meetup.com/de-DE/meetup-group-JUAeEreA/)
 - [Agile DUS](https://www.meetup.com/de-DE/Agile-DUS/), ein Format von Valtech
 - [Scaling Digital Innovation Düsseldorf](https://www.meetup.com/de-DE/Scaling-Digital-Innovation-Dusseldorf/),
