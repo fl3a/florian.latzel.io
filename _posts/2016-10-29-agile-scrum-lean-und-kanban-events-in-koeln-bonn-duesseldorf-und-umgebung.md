@@ -110,7 +110,7 @@ Einsatz agiler Methoden wie Agile Project Management in Tranformations-Initiativ
 
 - [Agile Stammtisch Ruhr in Dortmund aka Lean Pils](http://www.meetup.com/de-DE/Agiler-Stammtisch-Ruhr/) 
   findet jeden dritten Donnerstag im Monat statt in wechselnden Locations statt, Anmeldung über Meetup
-- [Scrumtisch Essen](https://www.xing.com/communities/groups/agile-punkt-ruhr-1cbe-1071167),
+- [Scrumtisch Essen](https://www.linkedin.com/groups/12701486/),
 jeden vierten Donnerstag im Monat, Anmeldung über xing
 - [agile.ruhr](http://agile.ruhr), die zweitägige (Un)Konferenz im zu Agile, Lean und Arbeit auf Augenhöhe im Ruhrgebiet, seit 2018 gibts auch noch den agile-ruhr Day
 - [Scrumtisch Dortmund](https://www.meetup.com/de-DE/Scrumtisch-Dortmund/), ein Format von Adesso
