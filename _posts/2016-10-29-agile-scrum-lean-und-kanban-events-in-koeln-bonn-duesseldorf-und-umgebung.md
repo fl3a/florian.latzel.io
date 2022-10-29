@@ -80,7 +80,7 @@ ein Format von [access2agile](https://access2agile.com/)
 ### Agile Meetups und Events in Bonn
 
 - [Bonn Agile Meetup](https://www.meetup.com/de-DE/Bonn-Agile/), am ersten Dienstag des Monats in wechselden Locations, Anmeldung über meetup
-- [Bonner Scrumtisch](https://www.xing.com/communities/groups/scrumtisch-bonn-380f-1077974), am zweiten Dienstag des Monats in wechselnden Locations, 
+- [Bonner Scrumtisch](https://www.linkedin.com/groups/12547480/), am zweiten Dienstag des Monats in wechselnden Locations, 
 Anmeldung über xing
 - [Lean Coffee Bonn](https://www.xing.com/communities/groups/lean-coffee-90f0-1066150)
 - [Agile People Cologne / Bonn](https://www.meetup.com/de-DE/Agile-People-Cologne-Bonn)
