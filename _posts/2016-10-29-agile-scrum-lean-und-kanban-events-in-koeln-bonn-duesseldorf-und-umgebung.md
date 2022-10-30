@@ -26,17 +26,17 @@ image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 
 ## Agile Meetups & Events in NRW
 
-Welche regelmäßigen Meetups zu Themen wie Scrum, Agile, KANBAN, eXtreme Programming, Lean 
+- Welche regelmäßigen Meetups zu Themen wie Scrum, Agile, KANBAN, eXtreme Programming, Lean 
 und Arbeit auf Augenhöhe gibt es in Köln und Umgebung? 
-Welche (Un)Konferenzen finden in NRW statt? 
-Wo kann ich mich über Agiles Projektmanagement austauschen oder einfach nur Gleichgesinnte treffen 
-und wo ist die nächste Selbsthilfegruppe der Anonymen Agilisten[^anon-agile]?
+- Welche (Un)Konferenzen finden in NRW statt? 
+- Wo kann ich mich über Agiles Projektmanagement austauschen oder einfach nur Gleichgesinnte treffen?
+- Und wo ist die nächste Selbsthilfegruppe der *Anonymen Agilisten*[^anon-agile]?
 
-Ich habe mal eine Liste von Scrumtischen, Agile- und KANBAN- und Artverwandten-Meetups 
-und Konferenzen in der Region zusammengetragen,  
+Ich habe eine Liste von Scrumtischen, Agile- und KANBAN- und Artverwandten-Meetups 
+und Konferenzen in der Region zusammengetragen, 
 wo die *Agile Community* in Nordrhein-Westfalen zusammenkommt.
 
-Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, dass heisst ein Benutzerkonto dort ist obligatorisch.
+Für manche Treffen ist eine Anmeldung über linkedin oder meetup Vorraussetzung, dass heisst ein Benutzerkonto dort ist obligatorisch.
 
 ### Agile Meetups & Events in Köln
 
