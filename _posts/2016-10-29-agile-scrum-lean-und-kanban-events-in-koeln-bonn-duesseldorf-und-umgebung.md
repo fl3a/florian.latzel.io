@@ -16,7 +16,7 @@ nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2022-10-29
+last_modified_at: 2022-10-30
 image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
 <figure>
@@ -48,8 +48,8 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
 - [Agile Cologne](http://www.agilecologne.de/), die jährlich stattfindende (Un)Konferenz in Köln
 - [CoRe, Coach Reflection Day](https://www.coachreflectionday.org/), 
   Bundesweite Veranstaltungsreihe, findet seit 2017 auch in Köln statt<!--break-->
-- Agile Intervision, kollegiale Fallberatung für Scrum Master und Agile Coaches,
-  weiteres über die [accsv-cgn Mailingliste](https://www.freelists.org/list/accsv-cgn)
+- [Intervision für Scrum Master](https://www.paragraph1.de/trainings/intervision-fuer-scrum-master),
+ein Format von [paragraph eins](https://www.paragraph1.de/)
 - [Product Owner Monthly / Tacheles Meetup](https://www.linkedin.com/groups/12695560/) 
 - [Agile QA Cologne](https://www.meetup.com/de-DE/agileqa-cologne/), Quality Assurance in Agilen Projekten
 - [Agile at Scale - Köln Meetup](https://www.meetup.com/de-DE/Agile-at-Scale-Koln-Meetup/)
