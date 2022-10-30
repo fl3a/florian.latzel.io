@@ -16,7 +16,7 @@ nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2022-02-22
+last_modified_at: 2022-10-29
 image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
 <figure>
