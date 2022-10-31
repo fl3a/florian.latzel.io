@@ -14,7 +14,7 @@ https://open.spotify.com/episode/1CLjuetb79gnhK6V7lVd4g) (Podcast)
 ## 2021 
 
 - 2021-05: [Führung im Fokus - Laterale Führung und Agilität bei der REWE Digital]( 
-https://www.pta-team.com/podcast-episode-8-laterale-fuehrung-agilitaet-rewedigital) 
+/2021/11/28/podcast-laterale-fuehrung-agilitaet-rewe-digital.html)
 (Podcast)
 
 ## 2019
