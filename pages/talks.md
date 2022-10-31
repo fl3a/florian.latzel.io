@@ -59,7 +59,8 @@ drupalcamp.ruhr, Essen
 
 ## 2014
 
-- 2014-08: Drush, die Drupal Shell, CMS Garden Track, FroSCon, St. Augustin
+- 2014-08: [Drush, die Drupal Shell](
+https://www.cms-garden.org/de/events/froscon-2014), FroSCon, St. Augustin
 
 
 ## 2013
