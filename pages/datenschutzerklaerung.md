@@ -1,5 +1,6 @@
 ---
 title: Datenschutzerklärung
+permalink: /datenschutzerklaerung.html
 layout: page
 last_modified_at: 2019-06-05
 ---
@@ -9,12 +10,12 @@ Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der V
 
 Florian Latzel  
 Graf-Adolf-Str. 66  
-  
-510655555 Köln
+51065 Köln
 
-florian-punkt-latzel-at-gmail-punkt-com
+<{{ site.email}}>
 
-Link zum Impressum: [http://netzaffe.de/impressum.html](/impressum)
+
+Link zum Impressum: [{{ site.url }}/impressum.html](/impressum.html)
 
 Arten der verarbeiteten Daten:
 
@@ -120,16 +121,6 @@ Wir verarbeiten Daten, die zur Begründung und Erfüllung der vertraglichen Leis
 Im Rahmen der Inanspruchnahme unserer Onlinedienste, können wir die IP-Adresse und den Zeitpunkt der jeweiligen Nutzerhandlung speichern. Die Speicherung erfolgt auf Grundlage unserer berechtigten Interessen, als auch der Interessen der Nutzer am Schutz vor Missbrauch und sonstiger unbefugter Nutzung. Eine Weitergabe dieser Daten an Dritte erfolgt grundsätzlich nicht, außer sie ist zur Verfolgung unserer Ansprüche gem. Art. 6 Abs. 1 lit. f. DSGVO erforderlich oder es besteht hierzu eine gesetzliche Verpflichtung gem. Art. 6 Abs. 1 lit. c. DSGVO.
 
 Die Löschung der Daten erfolgt, wenn die Daten zur Erfüllung vertraglicher oder gesetzlicher Fürsorgepflichten sowie für den Umgang mit etwaigen Gewährleistungs- und vergleichbaren Pflichten nicht mehr erforderlich sind, wobei die Erforderlichkeit der Aufbewahrung der Daten alle drei Jahre überprüft wird; im Übrigen gelten die gesetzlichen Aufbewahrungspflichten.
-
-**Kommentare und Beiträge**
-
-Wenn Nutzer Kommentare oder sonstige Beiträge hinterlassen, können ihre IP-Adressen auf Grundlage unserer berechtigten Interessen im Sinne des Art. 6 Abs. 1 lit. f. DSGVO für 7 Tage gespeichert werden. Das erfolgt zu unserer Sicherheit, falls jemand in Kommentaren und Beiträgen widerrechtliche Inhalte hinterlässt (Beleidigungen, verbotene politische Propaganda, etc.). In diesem Fall können wir selbst für den Kommentar oder Beitrag belangt werden und sind daher an der Identität des Verfassers interessiert.
-
-Des Weiteren behalten wir uns vor, auf Grundlage unserer berechtigten Interessen gem. Art. 6 Abs. 1 lit. f. DSGVO, die Angaben der Nutzer zwecks Spamerkennung zu verarbeiten.
-
-Auf derselben Rechtsgrundlage behalten wir uns vor, im Fall von Umfragen die IP-Adressen der Nutzer für deren Dauer zu speichern und Cookies zu verwenden, um Mehrfachabstimmungen zu vermeiden.
-
-Die im Rahmen der Kommentare und Beiträge angegebenen Daten, werden von uns bis zum Widerspruch der Nutzer dauerhaft gespeichert.
 
 **Kontaktaufnahme**
 
