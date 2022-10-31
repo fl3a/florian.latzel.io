@@ -4,17 +4,25 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-   	<h2 class="footer-heading">{{ site.data.footer_links_meta.header }}</h2>
+   	<h2 class="footer-heading">{{ site.data.footer_links_misc.header }}</h2>
 	  <ul>
-          {% for item in site.data.footer_links_meta.links %}
+          {% for item in site.data.footer_links_misc.links %}
           <li><a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
 	</ul>
       </div>
       <div class="footer-col footer-col-2">
-        <h2 class="footer-heading">{{ site.data.footer_links.header }}</h2>
+        <h2 class="footer-heading">{{ site.data.footer_links_blog.header }}</h2>
         <ul>
-          {% for item in site.data.footer_links.links %}
+          {% for item in site.data.footer_links_blog.links %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endfor %}
+	</ul>
+      </div>
+      <div class="footer-col footer-col-3">
+        <h2 class="footer-heading">{{ site.data.footer_links_rechtliches.header }}</h2>
+        <ul>
+          {% for item in site.data.footer_links_rechtliches.links %}
           <li><a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
 	</ul>
