@@ -1,11 +1,8 @@
-- title: Angebot
+- title: Coaching 
   url: angebot.html
 
-- title: Projekte
+- title: Wildnistraining
   url: projekte.html 
- 
-- title: Talks
-  url: talks.html 
 
 - title: Über
   url: ueber.html
@@ -14,7 +11,7 @@
   url: jetzt.html  
    
 - title: Blog 
-  url: /#blog
+  url: /blog
 
 - title: Kontakt
   url: /kontakt.html 
