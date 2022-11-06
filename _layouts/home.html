@@ -16,6 +16,7 @@ layout: default
       <p>{%- include social.html -%}</p>
     </div>
   {%- endif -%}   
+  {{ site.posts.site }}
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: page.autopage.display_name | escape | default: "Blog" }}
       <a id="blog" class="anchor" href="#blog" aria-hidden="true">
@@ -62,7 +63,7 @@ layout: default
   </ul>
   {% endif %}
 
-    <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Abbonieren</a></p>
+    <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Abonieren</a></p>
   {%- endif -%}
 
 </div>
