@@ -76,6 +76,7 @@ ein Format der [Agile Academy](https://www.agile-academy.com/de/).
 - [access to agile](https://www.meetup.com/de-DE/access-to-agile/), 
 ein Format von [access2agile](https://access2agile.com/)
 - [team. thesen. temperamente.](https://www.linkedin.com/groups/9059568/)
+- [Lean Coffee Retrospektiven](https://www.linkedin.com/groups/12536756/)
 
 <!--break-->
 ### Agile Meetups und Events in Bonn
