@@ -35,12 +35,18 @@ hat irgendwann mal was mit Informatik gelernt
 und ist gerne [draußen](/tags/draussen/index.html).
 - glaubt an [Open Source](/tags/open-source/index.html), Selbstorganisation und Karma
 
-Mehr über mich erfährst du in meinem [Blog](/#blog), 
+[Talks](/talks.html), [Projekt](/projekte.html) 
+und noch mehr über mich erfährst du in meinem [Blog](/#blog), 
 meinem [CV](https://florian.latzel.io/cv), 
 bei [linkedin](https://www.linkedin.com/in/florianlatzel/) 
 oder bei [xing](https://www.xing.com/profile/Florian_Latzel/cv).
 
-## Über diese Website
+## Kolophon
+
+Die Datenbasis des [Blogs](/archiv.html) stammt aus Jahr 2004 und lief bis Ende 2018 
+mit dem [Drupal](/tags/drupal/) CMS.   
+Ich schreibe dort über [diverse Themen](/themen.html), die mich beschäftigen.
+Blogposts zu Updates dieser Website finden sich [hier](/tags/netzaffe). 
 
 Diese Website wird mit *freier Software* betrieben (Danke🙏).   
 Die Basis bilden der statische Seitengenerator [Jekyll](/tags/jekyll/),
@@ -48,9 +54,3 @@ das [Minima Theme](https://github.com/jekyll/minima)
 und [Text Dateien in einem Git-Repository](https://github.com/fl3a/florian.latzel.io). 
 Gehosted auf [uberspace](https://uberspace.de), dorthin deployed via [Shell Skript](
 https://github.com/fl3a/jekyll_deployment).
-
-Die Datenbasis des [Blogs](/archiv.html) stammt aus Jahr 2004 und lief bis Ende 2018 
-mit dem [Drupal](/tags/drupal/) CMS.   
-Ich schreibe dort über [diverse Themen](/themen.html), die mich beschäftigen.
-Blogposts zu Updates dieser Website finden sich [hier](/tags/netzaffe). 
-
