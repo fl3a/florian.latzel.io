@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Über 
-toc: true
 permalink: /ueber.html
 image: /assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg
 last_modified_at: 2019-10-30
@@ -19,9 +18,8 @@ Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter.
 
 - Jahrgang 1978, in Köln geboren, 
 lebt im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
-- seit 08.2022 *Tribe Agile Master* bei der AXA, 
-laterale Führungskraft, begleitet Veränderung 
-- davor *Agile Team Coach* ([Scrum Master](/tags/scrum-master/)) für verschiedene Unternehmen
+- seit 08.2022 *Tribe Agile Master* bei der AXA 
+- davor über 6 Jahre *Agile Team Coach* & [Scrum Master](/tags/scrum-master/) für verschiedene Unternehmen
 - ist Coach, 
 [NLP Practitioner](/2022/03/31/nlp-practitioner.html), 
 [Wildnispädagoge](/2020/12/14/november-draussen.html#ich-bin-wildnispädagoge), 
@@ -33,24 +31,24 @@ weiß [Scrum seit 2009](/my-last-daily-scrum-at-berlinonline.html) zu schätzen,
 hat irgendwann mal was mit Informatik gelernt
 - mag Rheinblick, Co-Kreativität, Bewegung, [Fahrräder](/tags/fahrrad/index.html) 
 und ist gerne [draußen](/tags/draussen/index.html).
-- glaubt an [Open Source](/tags/open-source/index.html), Selbstorganisation und Karma
+- glaubt an [Open Source](/tags/open-source/index.html), Selbstorganisation, 
+humaneres Arbeiten und Karma
 
+Hier findest du meine [Talks](/talks.html) und [Projekte](/projekte.html).
 Mehr über mich erfährst du in meinem [Blog](/#blog), 
-meinem [CV](https://florian.latzel.io/cv), 
-bei [linkedin](https://www.linkedin.com/in/florianlatzel/) 
-oder bei [xing](https://www.xing.com/profile/Florian_Latzel/cv).
+in meinem [CV](https://florian.latzel.io/cv), 
+oder bei [linkedin](https://www.linkedin.com/in/florianlatzel/).
 
-## Über diese Website
-
-Diese Website wird mit *freier Software* betrieben (Danke🙏).   
-Die Basis bilden der statische Seitengenerator [Jekyll](/tags/jekyll/),
-das [Minima Theme](https://github.com/jekyll/minima)
-und [Text Dateien in einem Git-Repository](https://github.com/fl3a/florian.latzel.io). 
-Gehosted auf [uberspace](https://uberspace.de), dorthin deployed via [Shell Skript](
-https://github.com/fl3a/jekyll_deployment).
+## Kolophon
 
 Die Datenbasis des [Blogs](/archiv.html) stammt aus Jahr 2004 und lief bis Ende 2018 
 mit dem [Drupal](/tags/drupal/) CMS.   
 Ich schreibe dort über [diverse Themen](/themen.html), die mich beschäftigen.
 Blogposts zu Updates dieser Website finden sich [hier](/tags/netzaffe). 
 
+Diese Website wird mit *freier Software* betrieben (Danke🙏).   
+Die Basis bilden der statische Seitengenerator [Jekyll](/tags/jekyll/),
+das [Minima Theme](https://github.com/jekyll/minima)
+und [Text Dateien in einem Git-Repository](https://github.com/fl3a/florian.latzel.io). 
+Gehosted wird auf [uberspace](https://uberspace.de), dorthin deployed via [Shell Skript](
+https://github.com/fl3a/jekyll_deployment).
