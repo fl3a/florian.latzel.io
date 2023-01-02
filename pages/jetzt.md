@@ -2,7 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2022-09-23 13:57
+last_modified_at: 2023-01-02 21:21
 ---
 ## Viel Neues
 
@@ -15,14 +15,13 @@ neue Rolle, neue Aufgaben, neue Verantwortungen, neuer Tribe, neue Prozesse.
 ## Lernen
 
 - Ich lerne jobbedingt gerade wieder viel über Veränderungen🙃.
-- Coaching: Im Mai habe ich bei [Tom Andreas](http://www.tomandreas.de/) 
 die Coach Ausbildung begonnen.  
 - Ich lerne seit Winter 2021 [Pencak Silat im Tapak Suci Stil](https://www.tapak-suci.de/).
 
 ## Now reading
 
-- Beratung ohne Ratschlag: Systemisches Coaching   
-für Führungskräfte und BeraterInnen von Sonja Radatz 
+- Wirksam werden im Kontakt: Die systemische Haltung im Coaching 
+von Mechtild Erpenbeck 
 
 *Zuletzt geändert: {{ page.last_modified_at | date: "%d.%m.%Y, %H:%M" }}\\
 Das ist eine ["Now Page"](https://nownownow.com/about), 
