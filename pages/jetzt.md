@@ -15,7 +15,6 @@ neue Rolle, neue Aufgaben, neue Verantwortungen, neuer Tribe, neue Prozesse.
 ## Lernen
 
 - Ich lerne jobbedingt gerade wieder viel über Veränderungen🙃.
-die Coach Ausbildung begonnen.  
 - Ich lerne seit Winter 2021 [Pencak Silat im Tapak Suci Stil](https://www.tapak-suci.de/).
 
 ## Now reading
