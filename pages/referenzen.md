@@ -59,9 +59,10 @@ via Reinblau (2013)
 
 ## Als Trainer
 
-- [naturzeit.club](https://naturzeit.club/), Survival-, 
-Bushcraft- und Wildnistraining,   
-u.a. für die Naturzeitclub Coaches (02.2022)
+- OKR, OKR Moderatoren, AXA (12.2022)
+- Survival-, Bushcraft- und Wildnistraining,    
+u.a. für die Naturzeitclub Coaches, 
+[naturzeit.club](https://naturzeit.club/) (02.2022 - heute)
 - Agiles Arbeiten 
   - HWW, monatliches Bootcamp für neue Mitarbeiter, REWE digital (2017 - 2022)
   - Workshops, verschiedene Abteilungen, REWE GROUP (2018 - 2022)
@@ -107,10 +108,11 @@ Für über 50 Kunden aus verschiedenen Branchen, darunter:
 Fußnoten
 
 [^nextyou]: NextYOU ist das Programm für Führungskräfte und next Potentials der REWE GROUP
-[^shift]: SHIFT ist Programm für Hochschulabsolventen in den Berufseinstieg der REWE digital. Siehe [Your Career Programm SHIFT](https://www.rewe-digital.com/karriere/berufseinsteiger/shift.html)
+[^shift]: SHIFT ist Programm für Hochschulabsolventen in den Berufseinstieg der REWE digital. Siehe <https://web.archive.org/web/20210612171306/https://www.rewe-digital.com/karriere/berufseinsteiger/shift.html> 
 
 *[IAL]: Institut für angewandte Logistik
 *[BBQ]: Baumann Bildung und Qualifizierung
 *[DAA]: Deutsche Angestellten Akademie
 *[HWW]: How We Workshop
 *[LPI]: Linux Professional Institute
+*[OKR]: Objectives and Key Results
