@@ -8,10 +8,9 @@ image: /assets/imgs/november-draussen/waldlicht.jpg
 alt: "Licht am Ende des Wegs, Foto © Tina Urban." 
 path: assets/imgs/portfolio/morjen.JPG %}
 
-Begleitung in Veränderung. Eröffnung neuer Sichtweisen und Strategien. 
-Als neutraler Gesprächspartner, Begleiter und Sparringspartner 
-mit professionellen und ehrlichen Feedback.   
-Coachings biete ich auch draußen in der Natur und im Gehen an.
+Begleitung in Veränderung. Eröffnung neuer Sichtweisen und Strategien.   
+Als allparteilicher Gesprächspartner, Zuhörer, Begleiter und Sparringspartner 
+mit professionellen und ehrlichen Feedback.     
 
 Möglichen Themen für das Coaching
 - Führung
@@ -22,25 +21,28 @@ Möglichen Themen für das Coaching
 - Kreative Anstöße
 - ...
 
+Coachings biete ich auch draußen in der Natur und im Gehen an.
+
 ## Walk and Coach
 
-Warum Draußen?   
-Die Natur tut uns gut. 
-Insbesondere im Wald sinken Cotisol- und Blutdruckspiegel[^waldgesundheit],    
+Warum Draußen? Die Natur tut uns gut.    
+Insbesondere im Wald sinken Cotisol- und Blutdruckspiegel[^waldgesundheit]
 beides Indikatoren für Stress.    
 Wir entschleunigen, weiten den Blick für Neues und stärken dabei auch noch unser Immunsystem[^waldbaden].
 
-Warum im Gehen?  
-Bereits seit der Antike stehen Gehen und Erkenntnis in einem kausalen Zusammenhang.   
-Gehen regt das Denken an. Aristoteles lehrte zum Bespiel im Gehen.   
-Was damals bereits die Philosophen beschäfftige, 
+Warum im Gehen? 
+Bereits seit der Antike stehen Gehen und Erkenntnis in einem kausalen Zusammenhang.
+Gehen regt das Denken an[^gehen]. Aristoteles lehrte zum Bespiel im Gehen.   
+
+Was damals bereits die Philosophen beschäftige, 
 ist heute im Fokus vom Wissenschaft und Forschung.
+
 > Beim Gehen können wir Dinge aus einer anderen Perspektive betrachten 
 > und neue Lösungswege finden[^gehen]
 
-> Besonders die Rhythmik der Schritte regt zu neuen Gedankengängen an[^gehen]
-
 So Jens Kleinert[^jk], Professor für Sport- und Gesundheitspsychologie zum Spazierengehen.
+
+
 
 
 Die Bilder auf dieser Seite sind von [Tina Urban](https://tinaurban.de) 
