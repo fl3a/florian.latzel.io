@@ -17,10 +17,10 @@ mailto:florian@latzel.io?subject=Leadershiptraining goes wild)!
 
 - Gründungsmitglied der genossenschaftlich geführten und [holokratisch](
 https://rogerpfaff.de/holacracy/) strukturierten  
-Digitalagentur [Reinblau](/tags/reinblau) (2012 - 2020)
-- Entwicklung von diversen Modulen und Patches für das [Drupal](https://drupal.org/u/fl3a) CMS
+Digitalagentur [Reinblau](/tags/reinblau/) (2012 - 2020)
+- Entwicklung von diversen Modulen und Patches für das [Drupal](/tags/drupal/) CMS
 - Mitorganisation des 86\. ScrumtischKöln bei REWE digital
-- Den Köln-(Halb-)Marathon laufen, ankommen und mit der Zeit zufrieden sein
+- Einen (Halb-)Marathon laufen, ankommen und mit der Zeit zufrieden sein
 - Mitorganisation und Facilitierung des [drupalcamp.ruhr](
 /2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html) 2018,  
 des ersten DrupalCamps im [Open Space](/tags/open-space/) Format 
@@ -36,7 +36,7 @@ der German Drupal Association
 [citrusdb](http://citrusdb.org/) 
 - Mitbetreiber und Entwicker des unkommerziellen Stadtteilportals    
 und sozialen Netzwerks [koeln-muelheim.net](
-https://web.archive.org/web/20220000000000*/koeln-muelheim.net) 
+https://web.archive.org/web/20220000000000*/koeln-muelheim.net) (2005 - 2015)
 - Ehrenamtliche IT-Beratung für das Wohnprojekt 
 des [INA - Institut für Neue Arbeit e.V.](https://www.ina-koeln.org/)   
 
