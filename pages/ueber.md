@@ -24,7 +24,7 @@ und [Certified Scrum Professional](/2018/03/31/certified-scrum-professional-csp.
 - davor über 6 Jahre *Agile Team Coach* & [Scrum Master](/tags/scrum-master/) für verschiedene Unternehmen
 - war über eine Dekade freiberuflicher IT-Berater, 
 weiß [Scrum seit 2009](/my-last-daily-scrum-at-berlinonline.html) zu schätzen,  
-hat irgendwann mal was mit Informatik gelernt
+habe irgendwann mal was mit Informatik gelernt
 - mag Rheinblick, Co-Kreativität, Bewegung, [Fahrräder](/tags/fahrrad/index.html) 
 und ist gerne [draußen](/tags/draussen/index.html).
 - glaubt an [Open Source](/tags/open-source/index.html), Selbstorganisation, 

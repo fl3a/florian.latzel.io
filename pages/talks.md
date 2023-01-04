@@ -43,7 +43,7 @@ agiLE barcamp, Leipzig
   https://www.youtube.com/watch?v=hCUHM7tSOHI) (Interview)
 - 2018-03: [Neues Team — Was nun (und was tun)?](/neues-team-was-nun.html), 
 drupalcamp.ruhr, Essen 
-- 2017-03: Ubongo Flow Game[^ubongo-cgn], agile.cologne, Köln
+- 2018-03: Ubongo Flow Game[^ubongo-cgn], agile.cologne, Köln
 
 ## 2017
 
