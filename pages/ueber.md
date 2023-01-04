@@ -9,8 +9,7 @@ last_modified_at: 2019-10-30
 alt: "Florian Latzel, Eifelsteig bei Minusgraden, Dezember 2020. Foto © Tina Urban."
 path: assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg %}
 
-Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter
-und begleite Individuen, Gruppen, Teams und Organisationen in Veränderung.
+Ich begleite Individuen, Gruppen, Teams und Organisationen in Veränderung.
 
 ## Vorstellung in kurz & knapp
 
@@ -51,5 +50,5 @@ und [Text Dateien in einem Git-Repository](https://github.com/fl3a/florian.latze
 Gehosted wird auf [uberspace](https://uberspace.de), dorthin deployed via [Shell Skript](
 https://github.com/fl3a/jekyll_deployment).
 
-Das Bild auf dieser Seite sind von [Tina Urban](https://tinaurban.de) 
+Das Bild auf dieser Seite ist von [Tina Urban](https://tinaurban.de) 
 und Urheberrechtlich&copy; geschützt. Danke!
