@@ -59,7 +59,7 @@ via Reinblau (2013)
 
 ## Als Trainer
 
-- OKR, OKR Moderatoren, 2 Tage, AXA (12.2022)
+- OKR, OKR Moderatoren, AXA (12.2022)
 - Survival-, Bushcraft- und Wildnistraining,    
 u.a. für die Naturzeitclub Coaches, 
 [naturzeit.club](https://naturzeit.club/) (02.2022 - heute)
@@ -115,3 +115,4 @@ Fußnoten
 *[DAA]: Deutsche Angestellten Akademie
 *[HWW]: How We Workshop
 *[LPI]: Linux Professional Institute
+*[OKR]: Objectives and Key Results
