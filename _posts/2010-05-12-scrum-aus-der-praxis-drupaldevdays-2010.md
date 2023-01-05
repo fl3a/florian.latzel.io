@@ -12,10 +12,11 @@ nid: 991
 layout: post
 title: Scrum aus der Praxis @ DrupalDevDays 2010
 created: 1273659038
+last_modified_at: 2023-01-05 13:04
 image: /assets/imgs/2010-drupaldevdays-munich-luckow-fl3a-scrum-presentation.jpg
 ---
 <figure>
-<img src="/assets/imgs/2010-drupaldevdays-munich-luckow-fl3a-scrum-presentation.jpg" alt="@luckow and @fl3a, Scrum aus der Praxis, DrupalDevDays 2010, Munich" />
+<img src="/assets/imgs/florian-latzel-stephan-luckow-scrum-drupaldevdays-munich-2010.jpg" alt="@luckow and @fl3a, Scrum aus der Praxis, DrupalDevDays 2010, Munich" />
 <figcaption>@luckow und @fl3a während der Session <em>Scrum aus der Praxis</em>, beta.robot, by-nc-sa, <a href="http://www.flickr.com/photos/beta-robot/4591718950/">http://www.flickr.com/photos/beta-robot/4591718950/</a></figcaption>
 </figure>
 
