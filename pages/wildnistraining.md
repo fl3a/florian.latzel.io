@@ -33,7 +33,7 @@ Inhalte unter anderen:
 
 Trainings für Führungskräfte in Naturräumen.   
 Elebniselemente aus den Bereichen Bushcraft und Survival. 
-Peer Group und [individuelles Coaching](/angebot.html#coaching)   
+Peer Group und [individuelles Coaching](/coaching.html)   
 
 Prototyp in Arbeit: bei Interesse schreib an [florian@latzel.io](
 mailto:florian@latzel.io?subject=Leadershiptraining goes wild),
