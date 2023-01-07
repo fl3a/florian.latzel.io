@@ -3,6 +3,7 @@ tags:
 - ubuntu
 - drush
 - Debian
+- Linux
 - config
 - "#!/bin/bash"
 nid: 1618
