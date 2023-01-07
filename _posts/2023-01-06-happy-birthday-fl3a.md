@@ -11,6 +11,7 @@ tags:
 - Danksagung
 image: /assets/imgs/linuxtag09/linuxtag-2009-drupal-standparty-ballons.jpg
 date: 2023-01-06 21:24
+last_modified_at: 2023-01-07 19:44
 ---
 {% responsive_image: path: assets/imgs/linuxtag09/linuxtag-2009-drupal-standparty-ballons.jpg figure: true
 alt: 'Drupalstand auf dem Linuxtag 2009'.
@@ -27,7 +28,7 @@ Ich war geschockt und gelähmt.\\
 Mir war weder zu feiern noch zu schreiben zumute.
 
 fl3a ist der Name [meines Drupal.org Accounts](https://www.drupal.org/user/51103) 
-und der ist am 24. Februar 16 Jahre alt geworden.    
+und der ist am 24. Februar 2022 16 Jahre alt geworden.    
 Er dürfte jetzt Bier trinken wenn er wollte und könnte.    
 Dies ist eine kleine Rückbetrachtung auf über 16 Jahre mit Drupal.
 <!--break-->
@@ -60,7 +61,7 @@ einen *Postfix Mailserver* mit *MySQL Backend*
 mit der Mandatenfähigkeit Drupals zu verbinden.
 Wir (damals wollten wir uns zu zweit selbstständig machen) 
 wollten unseren Kunden ein komplettes Hosting in verschiedenen Paketen 
-auf unseren Linux-Servern anbieten.
+auf unseren [Linux-Servern](/tags/linux/) anbieten.
 Mit dem postfix Modul haben wir uns und unseren Kunden eine Administrationsoberfläche 
 via in *Drupal 4.7* eingeführter *Forms API* bereitgestellt,
 um den Mail-Server mit allen Stellschrauben zu verwalten.
@@ -74,7 +75,7 @@ um das Modul auf drupal.org zu bekommen.
 Als frischgebackener Selbstständiger musste ich ja auch noch Geld verdienen.
 Erst Ende 2009 hatte ich dann den Nerv und entwickelte [drush_multi](
 https://www.drupal.org/project/drush_multi), 
-eine Drush Erweiterung für die Aktualisierung von [Drupal Multisites](
+eine [Drush](/tags/drush/) Erweiterung für die Aktualisierung von [Drupal Multisites](
 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#die-drupal-multisite-umgebung).
 Darauf folgten die ersten Patches für andere Module.
 
@@ -86,7 +87,7 @@ caption: "Ein Teil des Orgateams vom Drupalcamp Köln 2009. Flickr, Robert Happe
 
 Je mehr ich mich mit Drupal auseinandersetzte, 
 desto wichtiger wurde für mich die entsprechende *Peer Group*.
-Gleichgesinnte treffen, über das beste CMS fachsimpeln 
+Gleichgesinnte treffen, über das beste [CMS](/tags/cms/) fachsimpeln 
 und sich als Teil von etwas Größerem begreifen.
 Und so stieß ich irgendwann in 2007 zur [Drupal Usergroup Köln/Bonn](
 /tags/drupal-user-group-koln-bonn/), 
@@ -98,7 +99,7 @@ https://www.drupalcenter.de/node/8277) las, war mir sofort klar, da muss ich hin
 Das beste CMS der Welt auf dem [Linuxtag](/tags/linuxtag/)!   
 So fuhr nach Berlin um die [Berliner Drupal User Group](
 /tags/drupal-user-group-berlin/index.html) am Drupalstand zu unterstützen.
-So kam ich das erste Mal nach Berlin, 
+So kam ich das erste Mal nach [Berlin](/tags/berlin), 
 lernte unter anderem Stephan, Bob, Tobias, Leon, 
 Valentin, Natascha, Ramiro und Marko kennen
 und kam mit meinem ersten [Drupal Shirt](
@@ -124,7 +125,8 @@ mitorganisiert
 und die [German Drupal Association, Drupal e.V](https://verein.drupal.de) 
 mitgegründet.
 War für und mit Drupal auf Messen und Events, 
-wie dem [Linuxtag](/tags/linuxtag/index.html), Cebit und FrosCon unterwegs.
+wie dem [Linuxtag](/tags/linuxtag/index.html), 
+[Cebit](/tags/cebit/) und [FrosCon](/tags/froscon/) unterwegs.
 Habe versucht die Drupalcon 2010 nach Berlin zu holen
 und habe [das erste DrupalCamp im Open Space (Barcamp) Format](
 /2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html) 
@@ -196,7 +198,7 @@ Stephan für sehr viele gemeinsame Erlebnisse und Projekte seit dem Linuxtag 200
 
 Last but not least und nicht wegzudenken: Tobias und Roger.
     
-Happy birtday fl3a! Stand with Ukraine[^spende]!
+Happy birtday fl3a! Stand with Ukraine🇺🇦[^spende]!
 
 [^front]: [fl3a am 9. Dezember 2009 auf twitter: wooohooo! we are on \<front\> of d.o #drupal](https://twitter.com/fl3a/status/6501196646)
 [^drupal]: [Drupal - Open Source CMS](https://www.drupal.org/)
@@ -210,3 +212,5 @@ Happy birtday fl3a! Stand with Ukraine[^spende]!
 *[SSG]: Static Site Generator
 *[GzEvD]: Gesellschaft zur Entwicklung von Dingen
 *[CVS]: Concurrent Versions System 
+*[API]: Application Programming Interface
+*[Drush]: DRUpal SHell
