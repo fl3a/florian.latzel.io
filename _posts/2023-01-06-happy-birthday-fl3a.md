@@ -20,7 +20,7 @@ Drupalstand auf dem Linuxtag 2009</a>.
 Quelle <a href="https://www.flickr.com/photos/stephan_luckow/3672844455/in/album-72157620601709753/">Flickr</a>, 
 Stephan Luckow, CC-BY 2.0' %}
 
-Durch den Angriffskrieg von Russland auf die Ukraine🇺🇦,
+Durch den Angriffskrieg von Russland auf die Ukraine🇺🇦[^spende],
 der auf gleichen Tag fiel 
 wie der Geburtstag von fl3a, war zweiteres stark getrübt.\\
 Ich bin aufgewacht und es war Krieg in Europa. 
@@ -140,7 +140,7 @@ caption: "Mein letztes Daily Scrum bei BerlinOnline, Mai 2009. Foto: &copy; Olf 
 
 Um 2009 wurden aus Websites größere Projekte, 
 von da an wuchs mit jedem Vorhaben die Teamgröße und Komplexität.
-In dieser Zeit durfte ich erstmals in einen Scrum Team arbeiten.
+In dieser Zeit durfte ich erstmals in einen [Scrum Team](/tags/team/) arbeiten.
 Das war für mich absolut wegweisend 
 und ich bin für diese Erfahrungen bis heute sehr dankbar!\\
 Mit dem [Usecase zu berliner.de](
@@ -190,7 +190,8 @@ und für das ein oder andere Bier.
 Bob für die Weiterempfehlung nach BerlinOnline und vieles was daraus erwuchs.
 
 Bei BerlinOnline: Andreas für die wirklich geschmeidige Zusammenarbeit 
-und Jens, meinem ersten Scrum Master für diese erste und positiv besetzte Erfahrung mit Scrum.
+und Jens, meinem ersten [Scrum Master](/scrum-master/) 
+für diese erste und positiv besetzte Erfahrung mit Scrum.
 
 Valentin und Natascha für einen Monat Coachsurfing. 
 
