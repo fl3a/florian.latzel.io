@@ -5,6 +5,7 @@ last_modified_at: 2022-09-27
 tags:
 - drush
 - Drupal
+- Linux
 - '<?php ?>'
 - Datenbank
 - SQL
