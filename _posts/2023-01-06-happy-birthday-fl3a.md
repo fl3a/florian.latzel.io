@@ -193,7 +193,7 @@ Bei BerlinOnline: Andreas für die wirklich geschmeidige Zusammenarbeit
 und Jens, meinem ersten [Scrum Master](/scrum-master/) 
 für diese erste und positiv besetzte Erfahrung mit Scrum.
 
-Valentin und Natascha für einen Monat Coachsurfing. 
+Valentin und Natascha für einen Monat Coachsurfing im Berliner Winter 2010[^2010] 
 
 Stephan für sehr viele gemeinsame Erlebnisse und Projekte seit dem Linuxtag 2008.
 
@@ -207,6 +207,7 @@ Happy birtday fl3a! Stand with Ukraine🇺🇦[^spende]!
 [^agile]: [Agile Community: Liste von Scrum- und New-Work-Meetups in Köln und NRW](/agile-meetups-events-koeln-nrw.html)
 [^contrib]: (to) contribute: Einen Beitrag leisten, betragen, beisteuern, mitwirken
 [^spende]: [Spenden für die Ukraine: Übersicht zu Spendenkonten und Infos zu Sachspenden - rnd.de](https://www.rnd.de/wissen/spenden-fuer-die-ukraine-uebersicht-zu-spendenkonten-und-infos-zu-sachspenden-OWGWM6JUUFFKBHTUZZQT2MSHEE.html)
+[^2010]: [Das waren die 2010er-Jahre in Berlin - Berliner Morgenpost ](https://www.morgenpost.de/berlin/article228026559/Das-waren-die-2010er-Jahre-in-Berlin.html)
 
 *[D-A-CH]: Deutschland-Austria(Österreich)-Confoederatio Helvetica(Schweiz)
 *[DUG]: Drupal User Group
