@@ -150,6 +150,11 @@ Auf jeden Fall waren die Demos sehr systemisch
 und so etwas im Repertoire kann nicht schaden.
 
 Tom, ja Tom. Auch das diese Seminar war einfach nur gut.
+{%responsive_image figure: true
+path: assets/imgs/metaforum22/tom-andreas-loesungsfokussiertes-coaching.jpeg 
+alt: "Tom Andreas, Lösungsfokussiertes Coaching, Abano Summercamp 2022. 
+Foto© Marc Buchholz"
+%}
 
 ## Danke
 
