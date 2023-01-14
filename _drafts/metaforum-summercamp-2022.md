@@ -7,11 +7,11 @@ tags:
 - Italien
 - Zertifikat
 layout: post
-toc: true
+date: 2023-01-14
 ---
 {%responsive_image figure:true 
 path: assets/imgs/metaforum22/metaforum-summercamp-2022-stage-tom-andreas-trainer.jpg
-alt: "Tom on Stage + Seminarleitenden des Metaforum Summercamp 2022. Foto © Eveline Matyschok" %}
+alt: "Tom Andreas on Stage + Seminarleitenden des Metaforum Summercamp 2022. Foto © Eveline Matyschok" %}
 
 Meine Coaching Ausbildung bei Tom hat mich und meine Coaching Mitschüler*innen 
 zum 35. Metaforum Summercamp[^mfp] in Abano Terme[^abano] geführt. 
@@ -21,10 +21,9 @@ zum einen *Lösungsfokussierendes Coaching*
 nach Steve de Shazer[^steve] und Insoo Kim Berg bei [Tom](/tags/tom-andreas/) 
 und *der provokative Ansatz* nach Frank Farelly[^ff] 
 bei Dr. Noni Höffner und ihrer Tochter Dr. Charlotte Cordes[^provo] 
-zum anderen,
-fanden auf dem Metaforum Summercamp[^mfp] statt.
+zum anderen, fanden auf dem Metaforum Summercamp[^mfp] statt.
  
-Mein Bericht von einer *Coachingintensivwoche* in Italien.<!--break-->
+Mein Bericht von einer intensiven *Coachingintensivwoche* in Italien.<!--break-->
 
 ## Die Anreise
 
@@ -32,28 +31,30 @@ Mein Bericht von einer *Coachingintensivwoche* in Italien.<!--break-->
 path: assets/imgs/metaforum22/kofferchaos-gepaeckausgabe-flughafen-koeln-bonn-2022-07-31-.jpg
 alt: "Symbolbild. Koffer über Köffer, Gepäckausgabe Flughafen Köln/Bonn am 31.07.2022" %}
 
-Nach der Nachricht von meinen Coach Mitschüler*innen Beate und Stefan, 
-die mehrere Stunden im Sicherheitsbereich der Köln-Bonner Fluhafens verbrachten
-bis dann auch noch ihr Flug annuliert wurde bemühte Monique die sozialen Medien.
-Horrorszenen auf Insta: sechs Stunden im Sicherheitsbereich un den Flieger verpasst.
-Ich würde spät Abends nervös, also mehr Puffer, 
-den Wecker habe ich auf 04:00 gestellt, Taxi um 05:00,
-Ankunft 5:10 am Terminal, ca. 10 Minuten Gepäckaufgabe 
-und nach ca. 10 Minuten war ich durch den Sicherheitsbereich
-(die Spuren des Vortags waren noch deutlich sichtbar).  
+Am Vorabend kam sie Nachricht von meinen Coach Mitschüler*innen Beate und Stefan, 
+dass sie mehrere Stunden im Sicherheitsbereich der Köln-Bonner Fluhafens verbrachten
+und dann auch noch ihr Flug annuliert wurde.  
+
+So bemühte Monique die sozialen Medien.
+Horrorgeschichten auf Insta: sechs Stunden im Sicherheitsbereich und den Flieger verpasst.
+Ich würde spät Abends nervös, also mehr Puffer. Wecker auf 04:00.
+Mit dem Taxi um 05:00 zu Flughafen, Ankunft 5:10 am Terminal, 10 Minuten Gepäckaufgabe 
+und nach 10 Minuten war ich durch den Sicherheitsbereich
+(die Spuren des Vortags waren in Form von Müllbergen und Absperrungen noch deutlich sichtbar).
 Mein Flug ging um 15:10.
 Ich hatte jetzt etwas Zeit: lesen, schlafen, [Blogartikel schreiben](
 2022/08/15/5-jahre-rewe-digital-danke-auf-wiedersehen.html) und Menschen beobachten.
-Der Flug kam ungefähr 45 Minuten später in Venedig an. Mein Shuttle war weg.
-Nach ungefähr einer Stunde warten auf ein weiteres Shuttle kam ich 
-dann um  ca. 21:00 im Orvieto an.
-Der Fahrer und ich kamen schnell ins Gespräch und er rief noch im Hotel an,
-damit es für mich noch etwas zu Essen gab. 
+
+Der Flug kam ungefähr mit 45 Minuten Verspätung in Venedig an. 
+Mein Shuttle nach Abano hat nicht gewartet.
+Nochmal warten auf das Nächste.
+Der Fahrer, mit dem ich schnell ins Gespräch kam, 
+stellte durch einen Anruf im Hotel das Abendessen für mich sicher.
+Um  ca. 21:00, nach 16 Stunden kam im Hotel Orvieto an.
 
 {%responsive_image figure:true 
 path: assets/imgs/metaforum22/abendessen-hotel-orvieto.jpg
 alt: "Abendessen im Hotel Orvieto" %}
-
 
 ## In guter Gesellschaft
 
@@ -62,10 +63,10 @@ path: assets/imgs/metaforum22/eveline-nicolai-regine-babara-teilnehmer-metaforum
 alt: "Selfie: Eveline, Nicolai, Regine, Babara und Metaforum Crowd. Foto © Eveline Matyschok" %}
 
 Während ich in der Ankunftshalle des Flughafen Venedig 
-versuchte meinen Namen irgendwo auszumachen,
+versuchte meinen Namen irgendwo zu finden,
 las ich auf einem Schild den von [Magdalena](
 https://maera.de/ueber-uns/magdalena-richtarski/)
-und versuchte meine Agile Coach Kollegin aus Köln zu finden.
+und versuchte dann meine Agile Coach Kollegin aus Köln zu finden.
 Es stellte sich raus, dass ihr Ziel ebenfalls das Metaforum ist
 und dass sie sich mit die Woche mit dem ZRM beschäftigt.
 
@@ -81,8 +82,8 @@ wie oben z.B. Julia Andersch, Prof. Dr. Matthias Varga von Kibéd[^varga]
 Insa Sparrer[^sparrer], Sabine Klenke, Dr. Noni Höfner 
 und Dr. Gunter Schmidt[^gs] zu sehen.
 
-Dazu kam natürlich das Wiedersehen und fünf Lerninterensive Tage 
-mit meinen Mit-Coaches aus Toms Kurs meinen Mit-Coaches aus Toms Kurs. 
+Dazu kam natürlich das Wiedersehen mit meinen Mit-Coaches 
+aus meiner Coach Ausbildung bei Tom. 
 
 ## Team Orvieto
 
@@ -95,36 +96,35 @@ gesellten sich kurz meine Coach Kollegi\*innen Silke und Fritz aus Köln,
 die auch im Orvieto einquartiert waren, zu mir.
 
 Ab dem darauf folgenden Tag fuhren wir täglich morgens gemeinsam 
-mit den Fahrrädern Richtung Kloster, lernten und verprobten
-und fuhren in der Siesta Zeit zurück in das Hotel.
-Dort genossen wir den Schatten, das Thermalwasser und ein Sandwich
+mit den ausgeliehenen Fahrrädern Richtung Kloster, 
+lernten und verprobten dort und fuhren in der Siesta Zeit zurück in das Hotel.
+Dort genossen wir den Schatten, das Thermalwasser und ein Sandwich mit Aranciata.
 Vielleicht schon mit einer gewissen Regelmäßigkeit reflektierten 
 wir bereits während der Siesta das Gelernte. 
 Spätestens dann aber Abends, bei gutem Essen in größerer Runde.
 
 ## Bücher Uwe 
 
-Der reisende Buchhändler Uwe Böhm, oder einfach *Bücher Uwe*
+Der reisende Buchhändler Uwe Böhm, oder einfach *Bücher Uwe*[^bnlp]
 hatte einen Raum um seine Bücher zu z.B. Coaching, Aufstellungen
 oder NLP unters Volk zu bringen.
-Abgesehen davon, dass Uwe selbst schon einige Bücher verlegt hat[^bnlp],
-kennt er die Bücher, die er auf dem Tisch hat.
+Uwe kennt die Bücher, die er auf dem Tisch hat.
 Ich durfte Uwes Beratungskompenz das erste mal im Rahmen 
 meines [NLP Practitioners](/2022/03/31/nlp-practitioner.html)
 erleben, wo die Küche des Zendo zum Buchladen wurde 
-und mich bei ihm mit Fachliteratur eingedeckt habe.
+und mich damals bei ihm bereits mit Fachliteratur eingedeckt habe.
 
 So kam ich nicht drum herum und besuchte Uwe am Tag meiner Abreise,
-um etwas zu stöbern. Heraus kamen das drei weitere Bücher zum Thema Coaching, 
-die sich gut an mein aktuelles Buch[^sys] reihen zu lassen 
-und mir mit dem NLP Practitioner Karteikarten Set nach Hause geschickt wurden.
+um etwas zu stöbern. Heraus kamen das drei weitere Bücher zum Thema Coaching
+das NLP Practitioner Karteikarten Set, die ich mir nach Hause schicken liess.
 
 ## Fazit
 
 Das war eine Woche Weiterbildungsurlaub im Süden.
-Tatsächlich fand ich die langen Pausen (Siesta) sehr gut.
-Diese passten nicht nur gut zu den Temperaturen 
-sondern auch zu den Themen,
+
+Tatsächlich fand ich die langen Pausen (Siesta) angemessen.
+Denn diese passten nicht nur gut zu den Temperaturen 
+sondern auch zur Intensität mancher Themen,
 die man entweder als Coach begleitet oder als Coachee selbst bearbeitet.
 
 Das war eine Woche Lernen in einer tollen Kulisse. 
@@ -139,34 +139,16 @@ Gerne wieder.
 Dazu passte ganz gut Benutzungpflicht von Badekappen in den Thermalbädern.
 Ich glaube, das war in den Achtzigern, als ich zuletzt eine aufhatte.
 
-Anfangs hat der Provokante Ansatz und das LKW eine Ambivalenz in mir ausgelöst.
+Der Provokante Ansatz und das LKW hat Anfangs eine Ambivalenz in mir ausgelöst.
 Die Live-Demos sprangen zwischen spitzen Provokationen und übertriebenen Absurditäten. 
 Als Beobachter war es wahrscheinlich krasser als als Klient, 
 der sein Anliegen bearbeitet.
 Was ich mitgenommenn habe ist, Improvisation ist trainierbar und macht Spaß.
-Auch wenn mich die Demos z.T. getriggert haben, so war nichts davon plump.
-Fast Liebevoll, so wie das L im LKW. 
-Auf jeden Fall waren die Demos sehr systemisch 
-und so etwas im Repertoire kann nicht schaden.
+Auch wenn mich die Demos zum Teil getriggert haben, 
+so waren sie sehr systemisch und nichts davon war plump.
+So etwas im Repertoire zu habe kann auf jeden Fall nicht schaden.
 
-Tom, ja Tom. Auch das diese Seminar war einfach nur gut.
-{%responsive_image figure: true
-path: assets/imgs/metaforum22/tom-andreas-loesungsfokussiertes-coaching.jpeg 
-alt: "Tom Andreas, Lösungsfokussiertes Coaching, Abano Summercamp 2022. 
-Foto© Marc Buchholz"
-%}
-
-## Danke
-
-Ich möchte Silke und Fritz, den zwei Dritteln von Team Orvieto danken.
-Das war echt ein gute Zeit, zwischen *Dolce Vita*, Rekapitulieren des Gelernten
-und Spaß.
-
-Ich möchte meine Mit-Coaches danken.
-Durch die Woche in Abano  
-
-- Meine Gruppe, in bester Gesellschaft
-
+Tom, ja Tom. Auch das Lösungsfokussierendes Coaching war einfach nur gut.
 
 [^mfp]: [Portrait - Metaforum Summercamp](https://www.metaforum-sommercamp.com/portrait)
 [^abano]: [Abano Terme - Wikipedia](https://de.wikipedia.org/wiki/Abano_Terme)
