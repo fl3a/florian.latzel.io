@@ -7,7 +7,7 @@ tags:
 - NLP
 layout: post
 image: /assets/imgs/systemischer-nlp-coach-zertifikat-florian-latzel.png
-date: 2023-01-15
+date: 2023-01-16
 ---
 {%responsive_image figure: true
 path: assets/imgs/systemischer-nlp-coach-zertifikat-florian-latzel.png
