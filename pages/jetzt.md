@@ -2,7 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-01-02 21:21
+last_modified_at: 2023-01-15 18:56
 ---
 ## Viel Neues
 
@@ -19,6 +19,7 @@ neue Rolle, neue Aufgaben, neue Verantwortungen, neuer Tribe, neue Prozesse.
 
 ## Now reading
 
+- Der Hypnotiseur von Jakob Hein
 - Wirksam werden im Kontakt: Die systemische Haltung im Coaching 
 von Mechtild Erpenbeck 
 
