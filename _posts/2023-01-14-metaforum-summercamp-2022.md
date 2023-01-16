@@ -7,6 +7,7 @@ tags:
 - Italien
 layout: post
 date: 2023-01-14
+image: /assets/imgs/metaforum22/metaforum-summercamp-2022-stage-tom-andreas-trainer.jpg
 ---
 {%responsive_image figure:true 
 path: assets/imgs/metaforum22/metaforum-summercamp-2022-stage-tom-andreas-trainer.jpg
