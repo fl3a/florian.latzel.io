@@ -2,9 +2,21 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-01-15 18:56
+last_modified_at: 2023-01-21 21:16
 ---
-## Viel Neues
+## Gürtelprüfung
+
+Ich trainiere aktuell für meine erste Melati (Jasminblüte) auf dem Gürtel.   
+Und das Curriculum beinhaltet viel Zeug.    
+Drei Formen: Jurus Katak, die Kröten- bzw. Faustform,  
+zwei Schrittformen, Segi Tiga (Dreieck), Segi Empat (Viereck).
+Dazu kommen noch einige grundlegende Bewegungen (Jurus Dasar) 
+in Form von Schlägen, Tritten, Block und viiiiiiele indonesische Vokabeln.
+
+Aktuell versuche ich dreimal die Woche Silat zu trainieren 
+und habe mir heute Karteikarten gekauft.
+
+## Neuer Job
 
 Ich habe seit August 2022 einen neuen Job als *Tribe Agile Master* bei der AXA 
 ([nach 5 Jahren REWE digital](
