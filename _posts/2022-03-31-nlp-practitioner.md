@@ -3,13 +3,13 @@ title: NLP Practitioner
 layout: post
 tags:
 - NLP
+- Tom Andreas
 - Zertifikat
 - Coaching
 - Veränderung
 - Learnings
 - Danksagung
 image: /assets/imgs/nlp-practitioner-zertifkat-florian-latzel-web.png
-
 ---
 {% responsive_image figure: true
 path: assets/imgs/nlp-practitioner-zertifkat-florian-latzel-web.png 
