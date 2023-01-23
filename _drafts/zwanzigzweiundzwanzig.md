@@ -6,6 +6,7 @@ tags:
 - Leipzig
 - Draussen
 - Wildnistraining
+- Portugal
 - Projekt Googlefrei
 ---
 
@@ -34,7 +35,7 @@ Ich sei ja erfahren und komme von extern und das würde passeb.
 Ich habe das Gespräch auf etwas anderes gelenkt, ich find die Idee absurd.
 Jürgen sendete mir trotzdem Ergänzendes zur Ausschreibung im Nachgang via EMail zu.
 
-## Kalenderwoche 6 und 7
+## Kalenderwoche 6 
 
 Kalenderwoche sechs startete mit einen Walkaboutyou mit Kamil für einen Batch 
 des Accelerator Programms vom Startplatz Köln.
@@ -49,26 +50,56 @@ und wanderte den Rest von Etappe xxx des Bergisches Weges,
 der an unserer Unterkunft vorbei lief, 
 gut gelaunt bei Minusgraden und Sonnenschein bis vor Sträßchen.
 
-Am Montagabend von Woche Sieben merkte ich abend meinen Hals. Der fühlte sich leicht gereizt an.
-Am Dienstagmorgen merkte ich schon nach 15 Minuten, dass das mit dem Sprechen gar nicht mehr geht.
-Ich entschuldigte mich bei meiner Scrum Master Hospitantin und meldete mich für den Rest des Tages krank.
-Ein Job der fast nur aus Koimmunikation besteht ist ohne reden zu können schwierig zu bewerkstelligen...
-Am Nachmittag ging ich zu Teststelle, ich war mir recht sicher, dass ich es keine normalen Haslschmerzen waren 
+## COVID-19
+
+Am Montagabend von Woche Sieben merkte ich abend meinen Hals. 
+Der fühlte sich abends merklich gereizt an.
+Am Dienstagmorgen merkte ich schon nach 15 Minuten, 
+dass das mit dem Sprechen gar nicht mehr geht
+und dass ein weitere Termine als Facilitator (Sprintwechseltag) nicht mehr gehen werden.
+Ich entschuldigte mich bei meiner Scrum Master Hospitantin,
+der ich einen interessanten Tag versprochen hatte 
+und meldete mich für den Rest des Tages krank.
+Ein Job der fast nur aus Koimmunikation besteht ist ohne reden zu können 
+schwierig zu nicht bewerkstelligen...
+Am Nachmittag ging ich zu Teststelle, 
+ich war mir jetzt schon recht sicher, dass ich es keine normalen Haslschmerzen waren 
 und sagte "bis später" zum Testpersonal. 
 Quittung positiver Antigentest, also PCR Test hinterher. 
 Mittwoch morgens kam dann das positive Ergebnis des PCR Tests. 
 
-Ich nutzte die Zeit der Quaratäne und AU zu Schreiben eines Lebenslaufs.
+Ich nutzte die Zeit der Quaratäne mit AU zum Schreiben eines Lebenslaufs.
 Den braucht man zum bewerben. 
-Ich hatte keinen, nur eine Auswahl von Tech-Projekten mit Auflistung 
-von Tools aus meiner Freelancerzeit.  
+Ich hatte keinen, nur eine Auswahl von ausgewählten Tech-Projekten aus meiner Freelancerzeit.  
+Dazu proportional zu den Kopfschmerzen, die ab Tag zwei dazukamen Ibus.
+An Tag sieben freitesten und Bewerbungsgepräch, draußen an der fischen Luft,
+während ich auf die Nachricht mit dem Testergebnis wartete.
+Immerhin mal wieder den Rhein gesehen.
 
-## Reisen
+## Konzerte
 
-### Portogal
+Mit zwei Konzerten waren es 200% mehr Konzerte als im Vorjahr.   
+Das erste war Helge Schneider in der Philharmonie.
+Wenige Tage nach der Genesung. 
+Maske auf den Weg zu den Getränken und während der Darbietung.
 
-- Lissabon
--  Roadtrip
+Beim zweiten Konzert, Sleaford Mods, 
+Anfang April sah das mit den Masken schon anders aus.
+Ich hatte den Eindruck, dass die Anzahl der Konzertbesucher mit Maske 
+in der komplett ausverkauften *Live Music Hall* an einer Hand anzählbar waren.
+Komisches Gefühl.
+
+## Portogal
+
+Bild Schaukel Nazare
+
+Portogal
+
+Start Lissabon, Treffen mit Stine, Lukas aud Leipzig und Co.
+Zum Auftakt: Dos Covos, Musa, Linze
+Vier Tage Lissabon, 
+
+Auto am Flughafen,  Roadtrip
 -- Sintra
 -- Nazare
 -- Ovar
@@ -79,7 +110,8 @@ von Tools aus meiner Freelancerzeit.
 
 ## April, April
 
-- Bewerbungsgespräche Avenga
+- Markdown CV
+- Bewerbungsgespräche
 - Assesment AXA
 - Kündigung während 
 
@@ -106,10 +138,6 @@ von Tools aus meiner Freelancerzeit.
 ## Agile Leipzig
 
 - danach Papa
-
-## Konzerte
-- Helge Schneider 
-- Sleaford Mods
 
 ## Vong Kulinarik her
 
