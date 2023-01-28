@@ -10,8 +10,8 @@ Zuletzt geändert: {{ page.last_modified_at | date: "%d.%m.%Y, %H:%M" }}
 ## Lernen
 
 Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](https://www.tapak-suci.de/).   
-Aktuell trainiere ich für meine erste Jasminblüte) auf dem Gürtel.   
-Und das Curriculum beinhaltet viel Zeug.    
+Aktuell trainiere ich für meine erste Jasminblüte auf dem Gürtel.   
+Und das Curriculum beinhaltet viel Zeug. 
 Drei Formen: Jurus Katak (Kröten- bzw. Faustform),  
 zwei Schrittformen (Pola Langkah), Segi Tiga (Dreieck), Segi Empat (Viereck).
 Dazu kommen noch einige grundlegende Bewegungen (Jurus Dasar) 
