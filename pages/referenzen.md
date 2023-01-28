@@ -91,7 +91,7 @@ Mein Fokus lag hierbei auf [Free/Libre Open Source Software](/tags/open-source/)
 Vom Betriebssystem, über den Service bis hin zur darauf aufsetzenden Anwendung.
 Von der Inbetriebnahme und Administration der [Linux](/tags/linux/) Server und Serverdiensten, 
 Automatisierung von Abläufen durch Skripting, 
-Enwicklung und Apassung von Modulen für das [Drupal CMS](/tags/drupal/)
+Enwicklung und Anpassung von Modulen für das [Drupal CMS](/tags/drupal/)
 bis hin zur Entwicklung von Microservices.    
 Dazu gehörten auch die Einführung, Bereitstellung und Betreuung von Infrastruktur 
 für z.B. Werkzeuge für das Projektmanagement wie Redmine oder Jira,
@@ -99,11 +99,25 @@ oder die eigene Quellcodeverwaltung mit [Git](/tags/git/),
 Continous Integration oder Tools für Code Reviews für die Softwareentwicklung
 und das Vermitteln von entsprechendem Fachwissen in Schulungen und Trainings.
 
-Für über 50 Kunden aus verschiedenen Branchen, darunter:
+## Kunden 
 
-- Telefunken, Hubert Burda Media, DGAP – Deutsche Gesellschaft für Auswärtige Politik, Chancenwerk e.V, MYTOYS GROUP, Berlin Tourismus & Kongress GmbH, RESET gemeinnützige Stiftungs-GmbH, BerlinOnline Stadtportal GmbH & Co. KG, Dox Box e.V., netHEAVEN GmbH, Optana GmbH, Platine, Kunstraum BLAST
-- Digitalagenturen wie z.B. Digitas Pixelpark AG, ]init[ AG für digitale Kommunikation, Silpion GmbH, brainbits GmbH, DOM Digital Online Media GmbH, pluusdesign GmbH, conceptfour GmbH, TrafficDesign GmbH, erdfisch GbR, motionfx GmbH, UCS Ultima Computer Service GmbH
-- Schulungsanbieter wie z.B. IAL Institut für angewandte Logistik GmbH und IAL CAMPUS, DAA Deutsche Angestellten-Akademie GmbH, BBQ – Baumann Bildung und Qualifizierung GmbH, Eduvision, bib International College
+Ich war freiberuflich für über 50 Kunden aus verschiedenen Branchen tätig.
+
+- darunter Telefunken, MYTOYS GROUP, Hubert Burda Media, 
+Deutsche Gesellschaft für Auswärtige Politik, Stadt Köln, 
+Berlin Tourismus & Kongress GmbH, Rechenzentrum der Finanzverwaltung NRW, 
+Wirtschaftsförderung Land Brandenburg, BerlinOnline Stadtportal GmbH & Co. KG, 
+RESET gemeinnützige Stiftungs-GmbH, Chancenwerk e.V., Dox Box e.V., Platine, Kunstraum BLAST
+- Digitalagenturen wie Digitas Pixelpark AG, 
+]init[ AG für digitale Kommunikation, Silpion GmbH, brainbits GmbH, 
+DOM Digital Online Media GmbH, pluusdesign GmbH, conceptfour GmbH, 
+TrafficDesign GmbH, erdfisch GbR, motionfx GmbH, UCS Ultima Computer Service GmbH
+- Schulungsanbieter wie bib International College, 
+IAL Institut für angewandte Logistik GmbH, IAL CAMPUS, 
+DAA Deutsche Angestellten-Akademie GmbH, 
+BBQ Baumann Bildung und Qualifizierung GmbH, Eduvision Opleidingen B.V. 
+
+Warum nicht auch für dich?
 
 Fußnoten
 
