@@ -43,7 +43,7 @@ In Punkto Gleichwertigkeit und Respekt war Tom ein großer Mentor für mich.
 Ich durfte verschiedene Ansätze und Interventionen, 
 wie dem Lösungsfokussierendes Coaching[^loefo], 
 den provokativen Ansatz[^prosa],
-Systemisches Coaching, Systemische Strukturaufstellungen (SySt®) 
+Systemisches Coaching, Systemische Strukturaufstellungen (SySt®)[^syst] 
 und dem NLP kennenlernen und ausprobieren.
 
 Verschiedene Dozenten, Themen und ihre Methodik haben die Ausbildung komplettiert.
@@ -57,7 +57,6 @@ Die Reise geht weiter, ich freu mich drauf!
 [^loefo]: [Lösungsorientierte Kurztherapie - Wikipedia](https://de.wikipedia.org/wiki/L%C3%B6sungsorientierte_Kurztherapie)
 [^prosa]: [Provokative Therapie - Wikipedia](https://de.wikipedia.org/wiki/Provokative_Therapie)
 [^syst]: [Systemische Strukturaufstellung](https://de.wikipedia.org/wiki/Systemische_Strukturaufstellung)
-
 
 *[WIP]: Work in Progress
 *[DVNLP]: Deutscher Verband für Neuro-Linguistisches Programmieren
