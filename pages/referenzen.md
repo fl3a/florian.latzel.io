@@ -55,7 +55,7 @@ via Reinblau (2013)
   - CMS Garden Unconference, remote, englisch (03.2021)
   - [drupalcamp.ruhr](/2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html), 
     ca. 250 Teilnehmer, englisch (03.2018)
-  - Reinblau Teamtreffen, 15-20 Teilnehmer (05.2017 - 05.2018)
+  - Reinblau Team Retreats, 15-20 Teilnehmer (05.2017 - 05.2018)
 
 ## Als Trainer
 
