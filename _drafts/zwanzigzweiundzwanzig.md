@@ -8,8 +8,10 @@ tags:
 - Wildnistraining
 - Portugal
 - Projekt Googlefrei
+image: /assets/image/2022/monique-schaukel-nazare-sitio.jpg
 ---
-**Bild Schaukel Nazare**
+{%responsive_image path: assets/imgs/2022/monique-schaukel-nazare-sitio.jpg
+figure: true alt: "Monique auf der Schaukel mit Blick auf Nazaré" %}
 
 Rückblick auf ein ereignisreiches Jahr 2022.<!--break-->
 
@@ -37,20 +39,22 @@ Jürgen sendete mir Ergänzendes zur Ausschreibung im Nachgang via EMail zu.
 
 ## Kalenderwoche 6 
 
-Ich konnte bereits recht früh im Jahr an meinem Ziel 
-mehr mit *"Draussendingen"* zu machen anknüpfen.
+{%responsive_image figure: true 
+path: assets/imgs/2022/wildnistraining-modell-laubhuette-debris-hut.jpg
+alt: "Bau des Modells einer Laubhütte. Foto © Alexander Root, naturzeitclub" %}
 
+Ich konnte bereits recht früh im Jahr an meinem Ziel 
+mehr mit *"Draussendingen"* zu machen anknüpfen.   
 Kalenderwoche sechs startete mit einen Walkaboutyou mit Kamil für einen Batch 
 des Accelerator Programms vom Startplatz Köln.
 Und endete am Samstag mit einem Wildnistrainig.
 Ich dufte zur der Ausbildung der ersten Generation von *Naturclub Coaches*  
 mit einem kleinen *Bushcraft- und Survivaltraining* beitragen.
 
-Sonntags machte ich mich guter Dinge zu Fuß mit meinem kiloweise Bushcraftgear 
-auf dem Rücken auf
-und wanderte den Rest von Etappe xxx des Bergisches Weges, 
-der an unserer Unterkunft vorbei lief, 
-gut gelaunt bei Minusgraden und Sonnenschein bis vor Sträßchen.
+Die Etappe fünf des Bergisches Weges lief an unserem Seminarort vorbei.
+Und so macht ich mich am Sonntagmorgen guter Dinge zu Fuß
+und mit kiloweise Bushcraftgear 
+auf dem Rücken auf und wanderte bei Minusgraden und Sonnenschein bis vor Sträßchen.
 
 ## COVID-19
 
@@ -86,12 +90,16 @@ Ich bergauf, Monique bergab.
 
 ## Krieg in Europa
 
-24.02 Angriffskrie
-
+24.02 Angriffskrieg von Russland auf die Ukraine.
+Ich war schockiert und gelähmt
+und das obwohl es aufgrund Truppenbewegungen im Vorfeld 
+keine wirkliche Überraschung war.
 
 ## Konzerte 2022
 
-**Bild Mods**
+{%responsive_image figure: true 
+path: assets/imgs/2022/sleaford-mods.jpg
+alt: "Sleaford Mods in der Live Music Hall, März 2022" %}
 
 Mit zwei Konzerten waren es 200% mehr Konzerte als im Vorjahr.   
 
@@ -108,9 +116,11 @@ Komisches Gefühl, trotz frischer Genesung und drei Impfungen.
 
 ## Portogal
 
-**BIld Porto**
+{%responsive_image path: assets/imgs/2022/blick-auf-porto-duero.jpg
+figure: true alt: "Blick auf Porto und Duero. Foto © Monique Wenta." %}
 
 Die erste Reise seit beginn der Pandamie: Portogal im März.
+
 
 Start Lissabon, Treffen mit Stine, Lukas aus Leipzig und Freunde.
 Zum Auftakt: Dos Covos, Musa, Linze
@@ -135,24 +145,32 @@ Auto am Flughafen,  Roadtrip
 
 ## Alles Neu mach der Mai 
 
+{%responsive_image figure: true 
+path: assets/imgs/2022/framework-laptop-ersatzschrauben-luckow.jpeg
+alt: "Innenleben des Framework Laptops: Ersatzschrauben. Foto © Stephan Luckow, GzEvD mbH." %}
+
 - erster Todestag, Coaching Ausildung
 - Projekt Googlefrei
-- Framework Laptop
+- Framework Laptop <https://www.gesellschaft-zur-entwicklung-von-dingen.de/de/blog/framework-laptop>
 - Löwen Beerfest
 
 ## Endless Vacation
 
-**Bild Natursteig**
+{%responsive_image figure: true 
+path: assets/imgs/2022/natursteig-sieg-jungwald.jpg
+alt: "Jungwald, Natursteig Sieg. Foto CC-NC-BY Julian Schreyer." %}
+
 
 - Freistellung und Resturlaub
-- Natursteig Sieg
+- [Natursteig Sieg](/2022/09/12/natursteig-sieg.html)
 - Leipzig 
-- Metaforum Summercamp
+- [Metaforum Summercamp](/2023/01/14/metaforum-summercamp-2022.html)
 
 ## Alles Neu
 
-**Bild Pupertsklamm**
-
+{%responsive_image figure: true 
+path: assets/imgs/2022/ruppertsklamm-rheinsteig-2022.jpg 
+alt: "Monique beim Abstieg in der Ruppertsklamm, Rheinsteig im August 2022." %}
 
 - August
 - Start bei der AXA
@@ -160,24 +178,38 @@ Auto am Flughafen,  Roadtrip
 
 ## Agile Leipzig
 
-**Bild Jurgen Apello**
+{%responsive_image figure: true 
+path: assets/imgs/2022/jurgen-appelo-florian-latzel-agile-leipzig-2022.jpg 
+alt: "Jurgen Appelo und ich, Agile.Leipzig 2022." %}
+
 
 - Das erste Camp seit Beginn der Pandemie
 - danach Papa
 
-## Jahresende in Leipzig
+## 2022 vong Kulinarik her
 
-## Vong Kulinarik her
+{%responsive_image figure: true 
+path: assets/imgs/2022/essen-santa-rita-lissabon.jpg 
+alt: "Essen in Lissabon, Santa Rita. Foto © Monique Wenta." %}
 
-**Bild Pasteis**
 
 - Maybeck
 - Portogal
--- Pasteis de Belem
--- Incomum, Sintra
--- Petisqueira Godinho, Porto
-- Wiederentdeckung Da Enzo
-- Kintaro, Friesenstr., Natto
-- Schmuckkastl, Sträßchen
+  - Pasteis de Belem[^pasteis]
+  - Santa Rita
+  - Incomum, Sintra
+  - Petisqueira Godinho, Porto
+- Kintaro, Friesenstr., Natto[^natto]
+- Schmuck Kastl, Sträßchen
+- Wiederentdeckung [Da Enzo](https://www.daenzo-ristorante.de/)
 
 
+## Jahresende in Leipzig
+
+{%responsive_image figure: true 
+path: assets/imgs/2022/silvester-kreuz-connewitz-2018.jpg
+alt: "Silvester 2018, Kreuz Connewitz, Leipzig." %}
+
+
+[^natto]: https://de.wikipedia.org/wiki/Natt%C5%8D
+[^pasteis]: https://de.wikipedia.org/wiki/Pastel_de_Nata
