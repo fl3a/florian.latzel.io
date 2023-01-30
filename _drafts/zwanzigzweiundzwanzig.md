@@ -9,41 +9,43 @@ tags:
 - Portugal
 - Projekt Googlefrei
 ---
+**Bild Schaukel Nazare**
 
 Rückblick auf ein ereignisreiches Jahr 2022.<!--break-->
 
 ## Über den Tellerrand schaunen
 
 Im Januar kamen die ersten Jobanfragen rein.
-Ich habe diese, im Gegensatz zum Default (Danke nein, bin happy bei RD)
-mit Bereitschaft ins Gespräch zu gehen quittiert.
-Ich war irgendwie nicht mehr happy bei RD, ich wollte, dass sich was ändert.
+Ich habe diese, im Gegensatz zum Default ("Danke nein, bin happy bei RD")
+mit Bereitschaft zum Gespräch quittiert.
+Ich war nicht mehr happy bei RD und ich wollte, dass sich was ändert.
 Und so verbrachte ich viel Zeit mit telefonieren.
 Ich wollte von meinen Kollegen wissen, 
-wie es woanders ist und was sie über ihre Arbeitgeber sagen,
-um den Möglichkeiten in Köln und Informationen über potenzielle, 
-neue Arbeitgeber zu bekommen.
+wie es woanders ist und was sie über ihre Arbeitgeber sagen.
 
-Mit Jürgen telefonierte ich gut eine Stunde, während ich im Jogginghose, 
-Filzpantoffeln und Winterjacke bekleidet auf dem Balkon auf und ab lief.
+Mit Jürgen telefonierte ich gut gut eine Stunde, während ich im Jogginghose, 
+roten Filzpantoffeln und Winterjacke bekleidet auf dem Balkon auf und ab lief.
 Jürgen arbeitete, wie zwei andere Kolleg\*innen mit denen ich auch telefoniert habe 
 bei einer Versicherer und in Köln. 
-Und Vesicherer machen gerade auch alle Agil und Transformation.
+Und Versicherer machen gerade auch alle in Agil und Transformation.
+Tendenziell also interessante und herausfordernde Umgebungen.
 Eine *Agile Master* stelle gäbe es, so Jürgen aktuell nicht, 
-aber ich solle mich doch auf eine der ausgeschrieben *Tribe Agile Master* Stellen bewerben.
-Ich sei ja erfahren und komme von extern und das würde passeb. 
-Ich habe das Gespräch auf etwas anderes gelenkt, ich find die Idee absurd.
-Jürgen sendete mir trotzdem Ergänzendes zur Ausschreibung im Nachgang via EMail zu.
+aber ich solle mich doch auf die ausgeschriebene *Tribe Agile Master* Stellen bewerben.
+Ich sei ja erfahren und komme von extern und das würde passen, fand Jürgen. 
+Ich habe das Gespräch auf etwas anderes gelenkt, da ich die Idee absurd fand.
+Jürgen sendete mir Ergänzendes zur Ausschreibung im Nachgang via EMail zu.
 
 ## Kalenderwoche 6 
 
-Kalenderwoche sechs startete mit einen Walkaboutyou mit Kamil für einen Batch 
-des Accelerator Programms vom Startplatz Köln.
-Und endete am Samstag mit einem Wildnistrainig. 
-Ich dufte zur der Ausbildung der ersten Generation von *Naturclub Coaches*  
-mit einem kleinen *Bushcraft- und Survivaltraining* beitragen.
 Ich konnte bereits recht früh im Jahr an meinem Ziel 
 mehr mit *"Draussendingen"* zu machen anknüpfen.
+
+Kalenderwoche sechs startete mit einen Walkaboutyou mit Kamil für einen Batch 
+des Accelerator Programms vom Startplatz Köln.
+Und endete am Samstag mit einem Wildnistrainig.
+Ich dufte zur der Ausbildung der ersten Generation von *Naturclub Coaches*  
+mit einem kleinen *Bushcraft- und Survivaltraining* beitragen.
+
 Sonntags machte ich mich guter Dinge zu Fuß mit meinem kiloweise Bushcraftgear 
 auf dem Rücken auf
 und wanderte den Rest von Etappe xxx des Bergisches Weges, 
@@ -62,42 +64,57 @@ der ich einen interessanten Tag versprochen hatte
 und meldete mich für den Rest des Tages krank.
 Ein Job der fast nur aus Koimmunikation besteht ist ohne reden zu können 
 schwierig zu nicht bewerkstelligen...
-Am Nachmittag ging ich zu Teststelle, 
-ich war mir jetzt schon recht sicher, dass ich es keine normalen Haslschmerzen waren 
-und sagte "bis später" zum Testpersonal. 
-Quittung positiver Antigentest, also PCR Test hinterher. 
-Mittwoch morgens kam dann das positive Ergebnis des PCR Tests. 
 
+Am Nachmittag ging ich zu Teststelle, 
+ich war mir zu diesem Zeitpunkt schon recht sicher, 
+dass ich es keine normalen Haslschmerzen waren 
+und sagte homurvoll "bis gleich" zum Testpersonal. 
+Quittung positiver Antigentest, also PCR Test hinterher. 
+Mittwoch morgens das positive Ergebnis des PCR Tests. 
+NLP Pract absagen.
+
+Um Tag zwei kamen die Kopfschmerzen, proportional dazu gab es Ibus.
 Ich nutzte die Zeit der Quaratäne mit AU zum Schreiben eines Lebenslaufs.
 Den braucht man zum bewerben. 
-Ich hatte keinen, nur eine Auswahl von ausgewählten Tech-Projekten aus meiner Freelancerzeit.  
-Dazu proportional zu den Kopfschmerzen, die ab Tag zwei dazukamen Ibus.
+Ich hatte keinen, nur eine Auswahl von ausgewählten Projekten 
+mit Tech-Stack aus meiner IT-Beraterzeit.  
 An Tag sieben freitesten und Bewerbungsgepräch, draußen an der fischen Luft,
 während ich auf die Nachricht mit dem Testergebnis wartete.
 Immerhin mal wieder den Rhein gesehen.
 
-## Konzerte
+Ich bergauf, Monique bergab.
+
+## Krieg in Europa
+
+24.02 Angriffskrie
+
+
+## Konzerte 2022
+
+**Bild Mods**
 
 Mit zwei Konzerten waren es 200% mehr Konzerte als im Vorjahr.   
-Das erste war Helge Schneider in der Philharmonie.
-Wenige Tage nach der Genesung. 
-Maske auf den Weg zu den Getränken und während der Darbietung.
 
-Beim zweiten Konzert, Sleaford Mods, 
+Das erste war Helge Schneider in der Philharmonie,
+wenige Tage nach der Genesung mit Lars. 
+Maske auf den Weg zu den Getränken und Lachen unter der Maske während der Darbietung.
+
+Beim zweiten Konzert, Sleaford Mods,
 Anfang April sah das mit den Masken schon anders aus.
-Ich hatte den Eindruck, dass die Anzahl der Konzertbesucher mit Maske 
-in der komplett ausverkauften *Live Music Hall* an einer Hand anzählbar waren.
-Komisches Gefühl.
+Ich hatte den Eindruck.
+Die Anzahl der Konzertbesucher mit Maske waren an einer Hand abzählbar,
+während die Live Music Hall so voll war, dass man nicht umfallen konnte.
+Komisches Gefühl, trotz frischer Genesung und drei Impfungen.
 
 ## Portogal
 
-Bild Schaukel Nazare
+**BIld Porto**
 
-Portogal
+Die erste Reise seit beginn der Pandamie: Portogal im März.
 
-Start Lissabon, Treffen mit Stine, Lukas aud Leipzig und Co.
+Start Lissabon, Treffen mit Stine, Lukas aus Leipzig und Freunde.
 Zum Auftakt: Dos Covos, Musa, Linze
-Vier Tage Lissabon, 
+Vier Tage Lissabon, der erste Sonnenbrand auf der Stirn. 
 
 Auto am Flughafen,  Roadtrip
 -- Sintra
@@ -108,21 +125,24 @@ Auto am Flughafen,  Roadtrip
 -- Porto
 - Rückflug über Berlin
 
-## April, April
+## März, April
 
+- Bewerbungsgespräche, teilweise zwei im Tag
 - Markdown CV
-- Bewerbungsgespräche
-- Assesment AXA
-- Kündigung während 
+- NLP Prac im 03 beenandet
+- 20.04 Assesment AXA
+- 29.04 Kündigung während 
 
 ## Alles Neu mach der Mai 
 
-- Todestag
-- Coaching Ausildung
+- erster Todestag, Coaching Ausildung
 - Projekt Googlefrei
+- Framework Laptop
 - Löwen Beerfest
 
-## Endless Summer
+## Endless Vacation
+
+**Bild Natursteig**
 
 - Freistellung und Resturlaub
 - Natursteig Sieg
@@ -131,15 +151,25 @@ Auto am Flughafen,  Roadtrip
 
 ## Alles Neu
 
+**Bild Pupertsklamm**
+
+
 - August
 - Start bei der AXA
 - Rheinsteig
 
 ## Agile Leipzig
 
+**Bild Jurgen Apello**
+
+- Das erste Camp seit Beginn der Pandemie
 - danach Papa
 
+## Jahresende in Leipzig
+
 ## Vong Kulinarik her
+
+**Bild Pasteis**
 
 - Maybeck
 - Portogal
@@ -148,4 +178,6 @@ Auto am Flughafen,  Roadtrip
 -- Petisqueira Godinho, Porto
 - Wiederentdeckung Da Enzo
 - Kintaro, Friesenstr., Natto
+- Schmuckkastl, Sträßchen
+
 
