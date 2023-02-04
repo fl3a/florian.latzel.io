@@ -119,35 +119,41 @@ Komisches Gefühl, trotz frischer Genesung und drei Impfungen.
 {%responsive_image path: assets/imgs/2022/blick-auf-porto-duero.jpg
 figure: true alt: "Blick auf Porto und Duero. Foto © Monique Wenta." %}
 
-Die erste Reise seit beginn der Pandamie: Portogal im März.
+Die erste Reise seit beginn der Pandamie ging im März nach Portogal.
 
+Direkt nach unserer Ankunft in Lissobon trafen wir uns mit Stine, 
+Lukas und Freunden zum Auftakt im Taproom vom Dois Corvos[^dc].
+Wir waren im Viertel Marvila unterwegs.
+Nach ein paar Bierchen ging es weiter zu Lince, nächster Taproom,
+dort gab ein paar echt leckere Petiscos[^petiscos] und dann weiter zu Musa[^musa].
 
-Start Lissabon, Treffen mit Stine, Lukas aus Leipzig und Freunde.
-Zum Auftakt: Dos Covos, Musa, Linze
-Vier Tage Lissabon, der erste Sonnenbrand auf der Stirn. 
+Insgesamt verbrachten wir vier Tage in Lissabon, 
+dort gab es den ersten Sonnenbrand des Jahres auf der Stirn
+und es ging mit dem Mietwagen weiter über Sintra, Nazare, Ovar, Aveiro,
+einen klein Abstecher zu [Lupum]() nach Porto.
 
-Auto am Flughafen,  Roadtrip
--- Sintra
--- Nazare
--- Ovar
--- Aveiro
--- Lupum
--- Porto
-- Rückflug über Berlin
+In Porto blieben wir nochmal ein paar Tage 
+und flogen von dort nach Deutschland zurück.
+Via BER, nach einen Tag Berlin bei Luckow.
 
 ## März, April
 
-- Bewerbungsgespräche, teilweise zwei im Tag
-- Markdown CV
-- NLP Prac im 03 beenandet
-- 20.04 Assesment AXA
-- 29.04 Kündigung während 
+Der März und April stand voll im Zeichen der beruflichen Veränderung.
+Im März hatte ich einige Bewerbungsgespräche, teilweise zwei an einem Tag.
+Ich überarbeitete meinen CV nochmal, 
+überführte ich die Inhalte in einen Markdown CV[^cv].
+
+Am 20. April hatte ich das Assesment bei AXA.
+Ich war aufgeregt und habe vor Aufregung ziemlich schlecht geschlafen.
+Am 29. April habe ich bei REWE digital gekündigt und den unterschrieben 
+Arbeitsvertrag der AXA in den Briefkasten geschmissen. 
 
 ## Alles Neu mach der Mai 
 
 {%responsive_image figure: true 
 path: assets/imgs/2022/framework-laptop-ersatzschrauben-luckow.jpeg
 alt: "Innenleben des Framework Laptops: Ersatzschrauben. Foto © Stephan Luckow, GzEvD mbH." %}
+
 
 - erster Todestag, Coaching Ausildung
 - Projekt Googlefrei
