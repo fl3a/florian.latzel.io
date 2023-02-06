@@ -144,21 +144,31 @@ Ich überarbeitete meinen CV nochmal,
 überführte ich die Inhalte in einen Markdown CV[^cv].
 
 Am 20. April hatte ich das Assesment bei AXA.
-Ich war aufgeregt und habe vor Aufregung ziemlich schlecht geschlafen.
-Am 29. April habe ich bei REWE digital gekündigt und den unterschrieben 
+Ich war ziemlich aufgeregt und habe vor Aufregung ziemlich schlecht geschlafen.
+Neun Tage später habe ich bei REWE digital gekündigt und den unterschrieben 
 Arbeitsvertrag der AXA in den Briefkasten geschmissen. 
 
-## Alles Neu mach der Mai 
+## Mai 
 
 {%responsive_image figure: true 
 path: assets/imgs/2022/framework-laptop-ersatzschrauben-luckow.jpeg
-alt: "Innenleben des Framework Laptops: Ersatzschrauben. Foto © Stephan Luckow, GzEvD mbH." %}
+alt: "Innenleben des Framework Laptops: Ersatzschrauben. Foto CC-BY Stephan Luckow, GzEvD mbH." %}
 
+Am 08. Mai war der der erste Todestag meiner Mama,
+an diesem Wochenende habe ich meine [Coaching](/tags/coaching/) Ausbildung 
+bei [Tom Andreas](/tags/tom-andreas/) begonnen.
 
-- erster Todestag, Coaching Ausildung
-- Projekt Googlefrei
-- Framework Laptop <https://www.gesellschaft-zur-entwicklung-von-dingen.de/de/blog/framework-laptop>
-- Löwen Beerfest
+Da die Abgabe meines beruflich und privat genutzten Thinkpads absehbar wurde,
+und mein eigenes X 1 (erste Generation) etwas in die Jahre gekommen war,
+musste eine neuer Laptop her.
+Nach 13 Jahren bin ich den Thinkpads untreu geworden.
+Mein Neuer ist ein [Framework Laptop](
+https://www.gesellschaft-zur-entwicklung-von-dingen.de/de/blog/framework-laptop)
+geworden. 
+Die Laptops von Framework sind reparierbar, austauschbar 
+und somit ein zwiemlich gutes Stück nachhaltiger als Vieles auf dem Markt.  	 
+Damit verbunden war auch der Wechsel der Linux Distribution, 
+somit die Rückkehr zu einer Debian basierten Distro nach Jahren mit Ubuntu.
 
 ## Endless Vacation
 
@@ -166,11 +176,18 @@ alt: "Innenleben des Framework Laptops: Ersatzschrauben. Foto © Stephan Luckow,
 path: assets/imgs/2022/natursteig-sieg-jungwald.jpg
 alt: "Jungwald, Natursteig Sieg. Foto CC-NC-BY Julian Schreyer." %}
 
+Der Juni und Juli waren geprägt von Freistellung für den NLP Practitioner Nachholtermin,
+und die Coaching Weiterbildung in den diesen Monaten. 
+Dazu kam der Resturlaub. 
+Ergo Frei.
 
-- Freistellung und Resturlaub
-- [Natursteig Sieg](/2022/09/12/natursteig-sieg.html)
-- Leipzig 
-- [Metaforum Summercamp](/2023/01/14/metaforum-summercamp-2022.html)
+So hatte ich Zeit mal wieder etwas rumzunerden, 
+und bin das *Projekt Googlefrei* stückweise angegangen. 
+(dem möchte ich noch einen eigenen Artikel widmen).
+Bin die mir fehlenden Etappen des [Natursteig Sieg](
+/2022/09/12/natursteig-sieg.html) angegangen.
+War in Leipzig und auf dem [Metaforum Summercamp](
+/2023/01/14/metaforum-summercamp-2022.html).
 
 ## Alles Neu
 
