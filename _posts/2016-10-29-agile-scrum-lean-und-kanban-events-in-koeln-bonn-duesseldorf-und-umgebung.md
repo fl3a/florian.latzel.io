@@ -67,7 +67,6 @@ ein Format von [paragraph eins](https://www.paragraph1.de/)
 - [WOL Köln](https://www.meetup.com/de-DE/Working-out-Loud-Leadership-Digitalisierung-Innovationen/), Working Out Loud - Leadership, Digitalisierung, Innovationen, [#WOL0221](https://twitter.com/hashtag/WOL0221?src=hashtag_click)<!--break-->
 - [Agile HR Conference](https://hr-pioneers.com/leistungen/events/agile-hr-conference/), 
   jährliche stattfindende Konferenz zu Agile Transformation, Agile Leadership und Agile HR. Wird von HR Pioneers organisiert.
-- [Der Westen Agil](https://www.it-agile.de/der-westen-agil/), eine Abendveranstaltungsreihe von it-agile
 - [BetaCodex Meetup Cologne](https://www.linkedin.com/groups/8607856/), 
 das Kölner Meetup rund um das Thema BetaCodex und Unternehmenstransformation. Jeden ersten Montag im Monat.
 - [Flight Club Cologne](https://www.meetup.com/de-DE/flight-club-cologne/), Meetup für *Business Agilität* und die *Flight Level* Interessierte.
@@ -84,8 +83,6 @@ ein Format von [access2agile](https://access2agile.com/)
 - [Bonn Agile Meetup](https://www.meetup.com/de-DE/Bonn-Agile/), am ersten Dienstag des Monats in wechselden Locations, Anmeldung über meetup
 - [Bonner Scrumtisch](https://www.linkedin.com/groups/12547480/), am zweiten Dienstag des Monats in wechselnden Locations, 
 Anmeldung über xing
-- [Lean Coffee Bonn](https://www.xing.com/communities/groups/lean-coffee-90f0-1066150)
-- [Agile People Cologne / Bonn](https://www.meetup.com/de-DE/Agile-People-Cologne-Bonn)
 
 ### Agile Meetups und Events in Düsselorf
 
