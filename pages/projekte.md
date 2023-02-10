@@ -2,6 +2,7 @@
 title: Projekte
 permalink: projekte.html
 layout: page
+last_modified_at: 2023-02-10 10:15
 ---
 ## Aktuelle Projekte
 
@@ -19,7 +20,7 @@ mailto:florian@latzel.io?subject=Leadershiptraining goes wild)!
 https://rogerpfaff.de/holacracy/) strukturierten  
 Digitalagentur [Reinblau](/tags/reinblau/) (2012 - 2020)
 - Entwicklung von diversen Modulen und Patches für das [Drupal](/tags/drupal/) CMS
-- Mitorganisation des 86\. ScrumtischKöln bei REWE digital
+- Mitorganisation des 86\. [Scrumtisch Köln](/tags/scrumtisch-koln/) bei REWE digital
 - Einen (Halb-)Marathon laufen, ankommen und mit der Zeit zufrieden sein
 - Mitorganisation und Facilitierung des [drupalcamp.ruhr](
 /2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html) 2018,  
