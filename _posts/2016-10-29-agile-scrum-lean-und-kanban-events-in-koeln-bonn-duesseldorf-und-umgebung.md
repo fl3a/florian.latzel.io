@@ -126,7 +126,7 @@ Diese [mit viel Liebe und Mühe kuratierte Liste](https://github.com/fl3a/netzaf
 Lass es mich bitte durch eine kurze Mail wissen, dann aktualisiere ich gerne die Liste!  
 Alternativ kannst Du auch gerne einen *Pull Request* auf [diese Seite](https://github.com/fl3a/netzaffe.de/blob/master/_posts/2016-10-29-agile-scrum-lean-und-kanban-events-in-koeln-bonn-duesseldorf-und-umgebung.md) stellen!
 
-* * *
+Fußnoten:
 
 [^anon-agile]: [https://twitter.com/fl3a/status/733018819170578432](https://twitter.com/fl3a/status/733018819170578432)
 *[NRW]: Nordrhein-Westfalen
