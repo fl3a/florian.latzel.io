@@ -16,7 +16,7 @@ nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2022-10-30
+last_modified_at: 2023-02-10
 image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
 <figure>
@@ -114,7 +114,6 @@ jeden vierten Donnerstag im Monat, Anmeldung über xing
 - [Scrumtisch Dortmund](https://www.meetup.com/de-DE/Scrumtisch-Dortmund/), ein Format von Adesso
 - [Der Agile Pott](https://www.meetup.com/de-DE/der-agile-pott/), 
   findet im Duisburger Innenhafen oder auf Zeche Zollverein (Triple-Z) in Essen statt
-- [Agiles Arbeiten & New Work im Ruhrgebiet](https://www.meetup.com/de-DE/Agiles-Arbeiten-im-Ruhrgebiet/events/259932203/), macht am 10. April 2020 den Auftakt mit einem Kennenlernabend
 - [Liberating Structures Ruhrgebiet](https://www.meetup.com/de-DE/Liberating-Structures-RUHRGEBIET/members/)
 
 ## Dein Agile Event oder Meetup fehlt?
