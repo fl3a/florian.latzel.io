@@ -8,6 +8,7 @@ tags:
 - Wildnistraining
 - Portugal
 - Projekt Googlefrei
+- Craft Beer
 image: /assets/image/2022/monique-schaukel-nazare-sitio.jpg
 ---
 {%responsive_image path: assets/imgs/2022/monique-schaukel-nazare-sitio.jpg
@@ -186,7 +187,7 @@ In dieser Zeit wie die [Verabschiedung von meinem alten Arbeitgeber](
 Neben meinem Ausstand traf ich mich in diesem Zeitraum mit ein paar Kolleg\*innen
 um dem Abschied und offenen Themen bewusst einen Raum zu geben. 
 
-Ich hatte auch Zeit mal wieder etwas rumzunerden, 
+Neben viel Socialising hatte ich auch Zeit mal wieder etwas rumzunerden, 
 und bin das *Projekt Googlefrei* stückweise angegangen. 
 (dem möchte ich noch einen eigenen Artikel widmen).
 Bin die mir fehlenden Etappen des [Natursteig Sieg](
@@ -200,9 +201,33 @@ War bei meinem Papa, in Leipzig und in Italien auf dem [Metaforum Summercamp](
 path: assets/imgs/2022/ruppertsklamm-rheinsteig-2022.jpg 
 alt: "Monique beim Abstieg in der Ruppertsklamm, Rheinsteig im August 2022." %}
 
-- August
-- Start bei der AXA
-- Rheinsteig
+Am ersten August bin ich bei der AXA als *Tribe Agile Master* gestartet und alles war neu.
+Für mich bedeutete Neu eine neue Firma, in einer neue Branche, neues Teams, neue Kolleg\*innen
+und last but not least, eine neue Rolle, die neue Aufgaben und Verantwortungen mitbringt.
+Für meine Kolleg\*innen im HCJ Tribe, 
+die einen Monat Vorsprung hatten (Tribe Kickoff war im Juli)
+war das Konstrukt Tribe und ihre Rollen ebenfalls neu
+und selbst für die AXA[^tribes], die in dieser Phase der agilen Transformation 
+auf einen Großteil der 15 geplanten Tribes blicken konnte.
+So weit war ich den letzten Jahren schon lange nich mehr außerhalb meiner *Komfort Zone*.
+
+Ende August gingen Monique und ich das Projekt [Rheinsteig](
+/tags/rheinsteig/) wieder an. 
+Wir starteten an meinem Geburtstag mit Etappe 8, von Sayn nach Vallendar
+mit Übernachtung in Koblenz. 
+Den Tag darauf verbanden wir die Etappen 10 und  11 mit Unterkunft in Braubach.  
+Auf der Etappe 12 Braubach-Kamp-Bornhofen hieß es dann Zähne zusammenbeissen.
+Nach der Marksburg ging stramm bergauf.
+Monique nahm in Osterspai die Bahn und ich lief den Rest in meiner Geschwindigkeit 
+und beendete die Etappe 12 in Kamp-Bornhofen.
+Nach Dusche und Klamottenwecheseln im Hoteln in Mainz trafen Monique und ich uns 
+bei bei der [Kuehn Kunz Rosen Brauerei](https://kuehnkunzrosen.de/) wieder.
+Zufälligerweise gab es dort neben zu erwarten, sehr gutem Bier
+eine Veranstaltung mit Live-Music und zeitgleich einen Steinwurf entfernt den  Mainzer Weinmarkt. 
+
+{%responsive_image figure: true 
+path: assets/imgs/2022/kuehn-kunz-rosen-sommerfest-2022.jpg 
+alt: "Sommerfest bei Kuehn-Kunz-Rosen in Mainz. Foto CC-NC-BY Monique Wenta." %}
 
 ## Agile Leipzig
 
@@ -238,6 +263,8 @@ alt: "Essen in Lissabon, Santa Rita. Foto © Monique Wenta." %}
 path: assets/imgs/2022/silvester-kreuz-connewitz-2018.jpg
 alt: "Silvester 2018, Kreuz Connewitz, Leipzig." %}
 
-
+[^komfort]:
 [^natto]: https://de.wikipedia.org/wiki/Natt%C5%8D
 [^pasteis]: https://de.wikipedia.org/wiki/Pastel_de_Nata
+[^tribes]: https://manager-wissen.com/einblicke-in-die-agile-evolutionsreise-von-axa-deutschland
+*[HCJ]: Health Care Journey
