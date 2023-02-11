@@ -142,7 +142,7 @@ Via BER, nach einen Tag Berlin bei Luckow.
 Der März und April stand voll im Zeichen der beruflichen Veränderung.
 Im März hatte ich einige Bewerbungsgespräche, teilweise zwei an einem Tag.
 Ich überarbeitete meinen CV nochmal, 
-überführte ich die Inhalte in einen Markdown CV[^cv].
+überführte ich die Inhalte in einen [Markdown CV](/cv/)[^cv].
 
 Am 20. April hatte ich das Assesment bei AXA.
 Ich war ziemlich aufgeregt und habe vor Aufregung ziemlich schlecht geschlafen.
@@ -235,6 +235,35 @@ alt: "Sommerfest bei Kuehn-Kunz-Rosen in Mainz. Foto CC-NC-BY Monique Wenta." %}
 path: assets/imgs/2022/jurgen-appelo-florian-latzel-agile-leipzig-2022.jpg 
 alt: "Jurgen Appelo und ich, Agile.Leipzig 2022." %}
 
+Für mein erstes #Barcamp seit 2019 hat es mich wieder nach #Leipzig gezogen 
+(hier der Bericht von meinem ersten AgiLE Barcamp). 
+Abgesehen von dem tollen Rahmenprogramm, den Keynotes von Gitta Peyn an Tag 1, 
+der musikalischen Performance von Adam Janosch am Abend 
+und der Keynote von Jurgen Appelo 🤩 an Tag 2 war dieses Barcamp anders.
+
+Dieses Barcamp stand für mich eher für die "weicheren Themen" 
+und an vielen Sessions habe ich nicht teilgenommen,
+sondern war viel mehr im Austausch und habe mich von der Energie leiten lassen.
+Wenn du mich nach den Sessions fragen würdest, dann wären es die drei, die mir als erstes einfallen:
+- Konfliktlösung und Gewaltfreie Kommunikation mit Klaas Behrens-Scholvin
+- Agile Brain (feat. Neuroplastizität) mit Vincent Clement
+- Feeback aber richtig (mit dem EPIQ Modell) mit Conrad Giller
+
+Ich habe am Sonntag selbst die Session "Leadershiptraining goes wild" eingebracht 
+und stilgerecht draussen, im herbstlichen Sonnenschein 
+über die Mixtur von Trainings für Führungskräfte in Naturräumen 
+mit Elebniselementen aus den Bereichen Survival/ Buschcraft und #Coaching diskutiert.
+
+Ich war viel im Austausch, habe viel diskutiert. 
+Ich durfte einige Irritationen erfahren, 
+eigene Muster hinterfragen und es hat sich einiges neu gesetzt. 
+Danke Klaas Behrens-Scholvin, Sina Scheibel, Oliver Kleinmann, Cathleen Schwarze, 
+Conrad Giller, Sandra Hoerner, Georg Jahn und Hanjo Meinhardt für die vielen tollen Impulse🙏!
+
+Ich glaube, ich hatte nur während meiner eigenen Session ganz kurz mal FOMO - 
+es lief parallel eine Session zu Psychologischer Sicherheit.
+
+Danke an Rolf Irion 🔥 und Team für den wiedermal sehr gelungenen Rahmen, gerne wieder🙏!
 
 - Das erste Camp seit Beginn der Pandemie
 - danach Papa
@@ -263,7 +292,7 @@ alt: "Essen in Lissabon, Santa Rita. Foto © Monique Wenta." %}
 path: assets/imgs/2022/silvester-kreuz-connewitz-2018.jpg
 alt: "Silvester 2018, Kreuz Connewitz, Leipzig." %}
 
-[^komfort]:
+[^cv]: Hieran habe ich mich orientiert (bzw. diesen ge-forkt): [Creating a digital CV in Markdown on GitHub](https://workwithcarolyn.com/blog/digital-cv-guide)
 [^natto]: https://de.wikipedia.org/wiki/Natt%C5%8D
 [^pasteis]: https://de.wikipedia.org/wiki/Pastel_de_Nata
 [^tribes]: https://manager-wissen.com/einblicke-in-die-agile-evolutionsreise-von-axa-deutschland
