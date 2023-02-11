@@ -18,7 +18,7 @@ dann musst du mit anderen zusammen gehen.
 </figure>
 
 - [Kerstin Boljahn](https://www.kerstin-coaching.com/), Wohlfühlcoach, Yoga Lehrerin 
-und Wildnispädagogin im Norden
+und [Wildnispädagogin](/tags/wildnispadagogik/) im Norden
 - [Walkaboutyou](https://walkaboutyou.org/),
 Wander-Workshops in der Natur für mehr Fokus, Resilienz und Wir-Gefühl 
 - [naturzeit.club](https://naturzeit.club),
