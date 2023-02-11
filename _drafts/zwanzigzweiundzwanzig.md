@@ -178,15 +178,20 @@ alt: "Jungwald, Natursteig Sieg. Foto CC-NC-BY Julian Schreyer." %}
 
 Der Juni und Juli waren geprägt von Freistellung für den NLP Practitioner Nachholtermin,
 und die Coaching Weiterbildung in den diesen Monaten. 
-Dazu kam der Resturlaub. 
-Ergo Frei.
+Dazu kam mein Resturlaub. 
+Ich hatte Frei, so viel, wie lange nicht mehr und das am Stück.
 
-So hatte ich Zeit mal wieder etwas rumzunerden, 
+In dieser Zeit wie die [Verabschiedung von meinem alten Arbeitgeber](
+/2022/08/15/5-jahre-rewe-digital-danke-auf-wiedersehen.html) ein Thema.
+Neben meinem Ausstand traf ich mich in diesem Zeitraum mit ein paar Kolleg\*innen
+um dem Abschied und offenen Themen bewusst einen Raum zu geben. 
+
+Ich hatte auch Zeit mal wieder etwas rumzunerden, 
 und bin das *Projekt Googlefrei* stückweise angegangen. 
 (dem möchte ich noch einen eigenen Artikel widmen).
 Bin die mir fehlenden Etappen des [Natursteig Sieg](
 /2022/09/12/natursteig-sieg.html) angegangen.
-War in Leipzig und auf dem [Metaforum Summercamp](
+War bei meinem Papa, in Leipzig und in Italien auf dem [Metaforum Summercamp](
 /2023/01/14/metaforum-summercamp-2022.html).
 
 ## Alles Neu
