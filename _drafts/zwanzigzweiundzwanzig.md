@@ -205,7 +205,7 @@ Am ersten August bin ich bei der AXA als *Tribe Agile Master* gestartet und alle
 Für mich bedeutete Neu eine neue Firma, in einer neue Branche, neues Teams, neue Kolleg\*innen
 und last but not least, eine neue Rolle, die neue Aufgaben und Verantwortungen mitbringt.
 Für meine Kolleg\*innen im HCJ Tribe, 
-die einen Monat Vorsprung hatten (Tribe Kickoff war im Juli)
+die einen Monat Vorsprung hatten (Tribe[^spotify1] [^spotify2] Kickoff war im Juli)
 war das Konstrukt Tribe und ihre Rollen ebenfalls neu
 und selbst für die AXA[^tribes], die in dieser Phase der agilen Transformation 
 auf einen Großteil der 15 geplanten Tribes blicken konnte.
@@ -296,4 +296,7 @@ alt: "Silvester 2018, Kreuz Connewitz, Leipzig." %}
 [^natto]: https://de.wikipedia.org/wiki/Natt%C5%8D
 [^pasteis]: https://de.wikipedia.org/wiki/Pastel_de_Nata
 [^tribes]: https://manager-wissen.com/einblicke-in-die-agile-evolutionsreise-von-axa-deutschland
+[^spotify1]: [Das Spotify-Modell für die Agile-Skalierung | Atlassian](https://www.atlassian.com/de/agile/agile-at-scale/spotify)
+[^spotify2]: [Doch wie Spotify werden (II) - On Lean and Agility](https://www.lean-agility.de/2022/12/doch-wie-spotify-werden-ii.html)
+
 *[HCJ]: Health Care Journey
