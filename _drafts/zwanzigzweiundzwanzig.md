@@ -59,8 +59,7 @@ auf dem Rücken auf und wanderte bei Minusgraden und Sonnenschein bis vor Strä�
 
 ## COVID-19
 
-Am Montagabend von Woche Sieben merkte ich abend meinen Hals. 
-Der fühlte sich abends merklich gereizt an.
+Am Montagabend von Woche Sieben fühlt sich mein Hals merklich gereizt an.
 Am Dienstagmorgen merkte ich schon nach 15 Minuten, 
 dass das mit dem Sprechen gar nicht mehr geht
 und dass ein weitere Termine als Facilitator (Sprintwechseltag) nicht mehr gehen werden.
@@ -115,7 +114,7 @@ Die Anzahl der Konzertbesucher mit Maske waren an einer Hand abzählbar,
 während die Live Music Hall so voll war, dass man nicht umfallen konnte.
 Komisches Gefühl, trotz frischer Genesung und drei Impfungen.
 
-## Portogal
+## Portugal
 
 {%responsive_image path: assets/imgs/2022/blick-auf-porto-duero.jpg
 figure: true alt: "Blick auf Porto und Duero. Foto © Monique Wenta." %}
@@ -123,14 +122,16 @@ figure: true alt: "Blick auf Porto und Duero. Foto © Monique Wenta." %}
 Die erste Reise seit beginn der Pandamie ging im März nach Portogal.
 
 Direkt nach unserer Ankunft in Lissobon trafen wir uns mit Stine, 
-Lukas und Freunden zum Auftakt im Taproom vom Dois Corvos[^dc].
+Lukas und Freunden zum Auftakt im Taproom vom Dois Corvos.
 Wir waren im Viertel Marvila unterwegs.
-Nach ein paar Bierchen ging es weiter zu Lince, nächster Taproom,
-dort gab ein paar echt leckere Petiscos[^petiscos] und dann weiter zu Musa[^musa].
+Nach ein paar Bierchen ging es weiter zu Lince, dem nächsten Taproom,
+dort gab ein paar echt leckere Petiscos[^petiscos] 
+und von dort ging weiter zu Musa.
 
 Insgesamt verbrachten wir vier Tage in Lissabon, 
-dort gab es den ersten Sonnenbrand des Jahres auf der Stirn
-und es ging mit dem Mietwagen weiter über Sintra, Nazare, Ovar, Aveiro,
+dort gab es neben der sehr Erkundung der hisiegen Craftbeerszene 
+auch den ersten Sonnenbrand des Jahres auf der Stirn.
+Von Lissabon ging es mit dem Mietwagen weiter über Sintra, Nazare, Ovar, Aveiro,
 einen klein Abstecher zu [Lupum]() nach Porto.
 
 In Porto blieben wir nochmal ein paar Tage 
@@ -265,8 +266,19 @@ es lief parallel eine Session zu Psychologischer Sicherheit.
 
 Danke an Rolf Irion 🔥 und Team für den wiedermal sehr gelungenen Rahmen, gerne wieder🙏!
 
-- Das erste Camp seit Beginn der Pandemie
-- danach Papa
+
+
+So ähnlich wie das Jahr anfing, so endete es auch wieder: Mit einem Walkaboutyou
+für einen weiteren Batch des Accelerator Programms des Startplatz.
+Diesmal nur ohne Kamil.
+
+## Jahresende in Leipzig
+
+{%responsive_image figure: true 
+path: assets/imgs/2022/silvester-kreuz-connewitz-2018.jpg
+alt: "Silvester 2018, Kreuz Connewitz, Leipzig." %}
+
+Das Jahr haben wir in Leipzig eher ruhig ausklingen lassen.
 
 ## 2022 vong Kulinarik her
 
@@ -275,28 +287,33 @@ path: assets/imgs/2022/essen-santa-rita-lissabon.jpg
 alt: "Essen in Lissabon, Santa Rita. Foto © Monique Wenta." %}
 
 
-- Maybeck
-- Portogal
-  - Pasteis de Belem[^pasteis]
-  - Santa Rita
-  - Incomum, Sintra
-  - Petisqueira Godinho, Porto
-- Kintaro, Friesenstr., Natto[^natto]
-- Schmuck Kastl, Sträßchen
-- Wiederentdeckung [Da Enzo](https://www.daenzo-ristorante.de/)
+Im Januar waren fünf Gänge inklusive Weinbegleitung im Maybeck 
+das erste Highlight des jungen Jahres 2022. Sterneküche.
+
+Abgehen von der Tatsache, dass mich die portugiesische Küche 
+mit viel Fisch und Meeresgetier sowieso anspricht, 
+waren das die kulinarischen Höhepunkte:
+Pasteis de Belem[^pasteis], das Santa Rita in Lissabon, das Incomum in Sintra.    
+Das Petisqueira Godinho in Porto war ein Glückstreffer. 
+Der Laden würde von einer Person geschmissen.
+Das Murça No Porto in der Nähe der Armazém Craftbeerbar 
+war ebenfalls ein Zufall und grundsolide zu einem überaschend niedrigen Preis.
+
+Sehr empfehlenswert war auch das Kintaro in der Friesenstraße.
+neben meiner ersten "Natto[^natto] Erfahrung" waren die Sushis einfach grandios.
+
+Die Wiederentdeckung des Jahres war das [Da Enzo](https://www.daenzo-ristorante.de/).
+Bester Italiener in Köln-Mülheim.
+Dort steht der Chef, Enzo, selbst in der Küche und seine Frau Anna macht den Service.
+Einfach gutes Essen.
 
 
-## Jahresende in Leipzig
-
-{%responsive_image figure: true 
-path: assets/imgs/2022/silvester-kreuz-connewitz-2018.jpg
-alt: "Silvester 2018, Kreuz Connewitz, Leipzig." %}
-
+[^petiscos]: [Petiscos, the Portuguese Tapas - Go discover](https://godiscoverportugal.com/petiscos/)
 [^cv]: Hieran habe ich mich orientiert (bzw. diesen ge-forkt): [Creating a digital CV in Markdown on GitHub](https://workwithcarolyn.com/blog/digital-cv-guide)
 [^natto]: https://de.wikipedia.org/wiki/Natt%C5%8D
 [^pasteis]: https://de.wikipedia.org/wiki/Pastel_de_Nata
 [^tribes]: https://manager-wissen.com/einblicke-in-die-agile-evolutionsreise-von-axa-deutschland
-[^spotify1]: [Das Spotify-Modell für die Agile-Skalierung | Atlassian](https://www.atlassian.com/de/agile/agile-at-scale/spotify)
+[^spotify1]: [Das Spotify-Modell für die Agile-Skalierung - Atlassian](https://www.atlassian.com/de/agile/agile-at-scale/spotify)
 [^spotify2]: [Doch wie Spotify werden (II) - On Lean and Agility](https://www.lean-agility.de/2022/12/doch-wie-spotify-werden-ii.html)
 
 *[HCJ]: Health Care Journey
