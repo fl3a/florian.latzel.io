@@ -8,11 +8,13 @@ head: 'Hi, ich heiße Florian👋'
 head-description: >-
   Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter 
 description: >- # this means to ignore newlines until "baseurl:"
-  Trainer, Berater, Facilitator, Coach und Überzeugungstäter
+  Trainer, Berater, Facilitator, Coach und Überzeugungstäter. 
+  Ich begleite Individuen, Teams und Organisationen in Veränderung.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://florian.latzel.io" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y-%m-%d"
 last_modified_at: "Zuletzt geändert"
+changelog: "Changelog"  
 git_repo: "https://github.com/fl3a/florian.latzel.io/"
 
 defaults:

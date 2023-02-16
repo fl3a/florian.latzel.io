@@ -24,7 +24,7 @@ layout: default
         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
         {{ page.last_modified_at | date: date_format }}
       </time>
-      • <span class="changelog"><a href="{{ site.git_repo }}commits/master/{{ page.path }}">Changelog</a></span>
+      • <span class="changelog"><a href="{{ site.git_repo }}commits/master/{{ page.path }}">{{ site.changelog }}</a></span>
       {%- endif -%}
     </p>
   </header>
