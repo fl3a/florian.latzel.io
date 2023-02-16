@@ -6,7 +6,15 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
-
+    <p class="post-meta"> 
+      {%- if page.url == '/jetzt.html' -%}
+      {{ site.last_modified_at | default: "last_modified_at" }}:
+      <time class="dt-published" datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">
+        {{ page.last_modified_at | date: '%Y-%m-%d %H:%M' }}
+      </time>
+      • <span class="changelog"><a href="{{ site.git_repo }}commits/master/{{ page.path }}">{{ site.changelog }}</a></span>
+      {%- endif -%}
+    </p>
   <div class="post-content">
     {{ content | toc }}
   </div>

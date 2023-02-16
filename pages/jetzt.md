@@ -6,7 +6,6 @@ last_modified_at: 2023-01-28 21:52
 ---
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).   
-Zuletzt geändert: {{ page.last_modified_at | date: "%d.%m.%Y, %H:%M" }}
 ## Lernen
 
 Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](https://www.tapak-suci.de/).   
