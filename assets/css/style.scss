@@ -29,12 +29,15 @@
 }
 /* End Responsive Image, lazyload */
 
-.site-nav a.page-link.kontakt {
-  display: inline-block;
-  padding: 6px 6px;
-  margin: 6px 6px;
-  background-color: #111;
-  color: #fff;
+.site-nav {
+  z-index: 1;
+  a.page-link.kontakt {
+    display: inline-block;
+    padding: 6px 6px;
+    margin: 6px 6px;
+    background-color: #111;
+    color: #fff;
+  }
 }
 
 /* Home, index.html */
