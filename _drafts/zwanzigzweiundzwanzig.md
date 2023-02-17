@@ -35,7 +35,7 @@ Tendenziell also interessante und herausfordernde Umgebungen.
 Eine *Agile Master* stelle gäbe es, so Jürgen aktuell nicht, 
 aber ich solle mich doch auf die ausgeschriebene *Tribe Agile Master* Stellen bewerben.
 Ich sei ja erfahren und komme von extern und das würde passen, fand Jürgen. 
-Ich habe das Gespräch auf etwas anderes gelenkt, da ich die Idee absurd fand.
+Ich habe das Gespräch auf etwas anderes gelenkt, da ich die Idee absurd fand.      
 Jürgen sendete mir Ergänzendes zur Ausschreibung im Nachgang via EMail zu.
 
 ## Kalenderwoche 6 
@@ -50,12 +50,12 @@ Kalenderwoche sechs startete mit einen Walkaboutyou mit Kamil für einen Batch
 des Accelerator Programms vom Startplatz Köln.
 Und endete am Samstag mit einem Wildnistrainig.
 Ich dufte zur der Ausbildung der ersten Generation von *Naturclub Coaches*  
-mit einem kleinen *Bushcraft- und Survivaltraining* beitragen.
+mit einem kleinen [*Bushcraft- und Survivaltraining*](/wildnistraining.html) beitragen.
 
 Die Etappe fünf des Bergisches Weges lief an unserem Seminarort vorbei.
 Und so macht ich mich am Sonntagmorgen guter Dinge zu Fuß
-und mit kiloweise Bushcraftgear 
-auf dem Rücken auf und wanderte bei Minusgraden und Sonnenschein bis vor Sträßchen.
+und mit kiloweise Bushcraftgear auf dem Rücken auf 
+und wanderte bei Minusgraden und Sonnenschein bis vor Sträßchen.
 
 ## COVID-19
 
@@ -142,7 +142,7 @@ Via BER, nach einen Tag Berlin bei Luckow.
 
 Der März und April stand voll im Zeichen der beruflichen Veränderung.
 Im März hatte ich einige Bewerbungsgespräche, teilweise zwei an einem Tag.
-Ich überarbeitete meinen CV nochmal, 
+Ich überarbeitete meinen Lebenslauf nochmal, 
 überführte ich die Inhalte in einen [Markdown CV](/cv/)[^cv].
 
 Am 20. April hatte ich das Assesment bei AXA.
@@ -236,8 +236,8 @@ alt: "Sommerfest bei Kuehn-Kunz-Rosen in Mainz. Foto CC-NC-BY Monique Wenta." %}
 path: assets/imgs/2022/jurgen-appelo-florian-latzel-agile-leipzig-2022.jpg 
 alt: "Jurgen Appelo und ich, Agile.Leipzig 2022." %}
 
-Für mein erstes #Barcamp seit 2019 hat es mich wieder nach #Leipzig gezogen 
-(hier der Bericht von meinem ersten AgiLE Barcamp). 
+Für mein erstes Barcamp in Präsenz seit 2019 hat es mich wieder nach Leipzig gezogen 
+(hier der Bericht von meinem ersten [Agile Leipzig Barcamp]()). 
 Abgesehen von dem tollen Rahmenprogramm, den Keynotes von Gitta Peyn an Tag 1, 
 der musikalischen Performance von Adam Janosch am Abend 
 und der Keynote von Jurgen Appelo 🤩 an Tag 2 war dieses Barcamp anders.
@@ -250,10 +250,13 @@ Wenn du mich nach den Sessions fragen würdest, dann wären es die drei, die mir
 - Agile Brain (feat. Neuroplastizität) mit Vincent Clement
 - Feeback aber richtig (mit dem EPIQ Modell) mit Conrad Giller
 
-Ich habe am Sonntag selbst die Session "Leadershiptraining goes wild" eingebracht 
+Ich habe am Sonntag die Session ["Leadershiptraining goes wild"](
+/wildnistraining.html#leadershiptraining-goes-wild) eingebracht 
 und stilgerecht draussen, im herbstlichen Sonnenschein 
-über die Mixtur von Trainings für Führungskräfte in Naturräumen 
-mit Elebniselementen aus den Bereichen Survival/ Buschcraft und #Coaching diskutiert.
+über die Mixtur von [Trainings für Führungskräfte in Naturräumen](
+/wildnistraining.htm)
+mit Elebniselementen aus den Bereichen [Survival/ Buschcraft](/wildnistraining) 
+und [Coaching](/coaching.html) diskutiert.
 
 Ich war viel im Austausch, habe viel diskutiert. 
 Ich durfte einige Irritationen erfahren, 
@@ -267,18 +270,20 @@ es lief parallel eine Session zu Psychologischer Sicherheit.
 Danke an Rolf Irion 🔥 und Team für den wiedermal sehr gelungenen Rahmen, gerne wieder🙏!
 
 
+## Ausklang
 
-So ähnlich wie das Jahr anfing, so endete es auch wieder: Mit einem Walkaboutyou
-für einen weiteren Batch des Accelerator Programms des Startplatz.
-Diesmal nur ohne Kamil.
+{%responsive_image figure: true 
+path: assets/imgs/2022/walkaboutyou-accelerator-11-2023.jpg
+alt: "Walkaboutyou für das Accelertor Program, 28. November. Foto © Janine Schmied, Startplatz %}
 
-## Jahresende in Leipzig
+Fast wie am Anfang, konnte ich das Jahr mit einem weiteren Walkaboutyou 
+für das Accelerator Programs des Startplatz abschließen.
+
+Ende des Jahres ging es für einen eher ruhigen Ausklang wieder nach Leipzig.
 
 {%responsive_image figure: true 
 path: assets/imgs/2022/silvester-kreuz-connewitz-2018.jpg
 alt: "Silvester 2018, Kreuz Connewitz, Leipzig." %}
-
-Das Jahr haben wir in Leipzig eher ruhig ausklingen lassen.
 
 ## 2022 vong Kulinarik her
 
@@ -292,27 +297,27 @@ das erste Highlight des jungen Jahres 2022. Sterneküche.
 
 Abgehen von der Tatsache, dass mich die portugiesische Küche 
 mit viel Fisch und Meeresgetier sowieso anspricht, 
-waren das die kulinarischen Höhepunkte:
-Pasteis de Belem[^pasteis], das Santa Rita in Lissabon, das Incomum in Sintra.    
-Das Petisqueira Godinho in Porto war ein Glückstreffer. 
-Der Laden würde von einer Person geschmissen.
+waren das die kulinarischen Höhepunkte unseres Portugal Roadtrips:
+Pasteis de Belem[^pasteis], das Santa Rita in Lissabon und das Incomum in Sintra.    
+Das Petisqueira Godinho in Porto war eher ein Glückstreffer. 
+Eine Besonderheit war, dass der Laden von einer Person geschmissen wurde.
 Das Murça No Porto in der Nähe der Armazém Craftbeerbar 
 war ebenfalls ein Zufall und grundsolide zu einem überaschend niedrigen Preis.
 
 Sehr empfehlenswert war auch das Kintaro in der Friesenstraße.
-neben meiner ersten "Natto[^natto] Erfahrung" waren die Sushis einfach grandios.
+Neben meiner ersten "Natto[^natto] Erfahrung" waren die Sushis einfach grandios.
 
 Die Wiederentdeckung des Jahres war das [Da Enzo](https://www.daenzo-ristorante.de/).
 Bester Italiener in Köln-Mülheim.
 Dort steht der Chef, Enzo, selbst in der Küche und seine Frau Anna macht den Service.
-Einfach gutes Essen.
+Einfach sehr gutes Essen.
 
 
 [^petiscos]: [Petiscos, the Portuguese Tapas - Go discover](https://godiscoverportugal.com/petiscos/)
-[^cv]: Hieran habe ich mich orientiert (bzw. diesen ge-forkt): [Creating a digital CV in Markdown on GitHub](https://workwithcarolyn.com/blog/digital-cv-guide)
-[^natto]: https://de.wikipedia.org/wiki/Natt%C5%8D
-[^pasteis]: https://de.wikipedia.org/wiki/Pastel_de_Nata
-[^tribes]: https://manager-wissen.com/einblicke-in-die-agile-evolutionsreise-von-axa-deutschland
+[^cv]: An diesem CV habe ich mich orientiert (bzw. diesen ge-forkt): [Creating a digital CV in Markdown on GitHub](https://workwithcarolyn.com/blog/digital-cv-guide)
+[^natto]: [Natto - Wikipedia](https://de.wikipedia.org/wiki/Natt%C5%8D)
+[^pasteis]: [Pastel de Nata -Wikipedia](https://de.wikipedia.org/wiki/Pastel_de_Nata)
+[^tribes]: [Einblicke in die agile Evolutionsreise von AXA Deutschland - ManagerWissen](https://manager-wissen.com/einblicke-in-die-agile-evolutionsreise-von-axa-deutschland)
 [^spotify1]: [Das Spotify-Modell für die Agile-Skalierung - Atlassian](https://www.atlassian.com/de/agile/agile-at-scale/spotify)
 [^spotify2]: [Doch wie Spotify werden (II) - On Lean and Agility](https://www.lean-agility.de/2022/12/doch-wie-spotify-werden-ii.html)
 
