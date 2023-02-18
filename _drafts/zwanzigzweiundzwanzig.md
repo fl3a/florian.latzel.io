@@ -15,11 +15,14 @@ image: /assets/image/2022/monique-schaukel-nazare-sitio.jpg
 figure: true alt: "Monique auf der Schaukel mit Blick auf Nazaré" %}
 
 Rückblick auf ein ereignisreiches Jahr 2022.<!--break-->
+Anfang des Jahres ließ der Harte Griff von Corona etwas nach 
+und im Janbuar wurde es wieder möglich die Gastronomie zu nutzen. 	
 
 ## Über den Tellerrand schaunen
 
 Im Januar kamen die ersten Jobanfragen rein.
-Ich habe diese, im Gegensatz zum Default ("Danke nein, bin happy bei RD")
+Ich habe diese, im Gegensatz zum kurzen und kargen Default, 
+"Danke nein, bin happy bei RD"
 mit Bereitschaft zum Gespräch quittiert.
 Ich war nicht mehr happy bei RD und ich wollte, dass sich was ändert.
 Und so verbrachte ich viel Zeit mit telefonieren.
@@ -28,8 +31,8 @@ wie es woanders ist und was sie über ihre Arbeitgeber sagen.
 
 Mit Jürgen telefonierte ich gut gut eine Stunde, während ich im Jogginghose, 
 roten Filzpantoffeln und Winterjacke bekleidet auf dem Balkon auf und ab lief.
-Jürgen arbeitete, wie zwei andere Kolleg\*innen mit denen ich auch telefoniert habe 
-bei einer Versicherer und in Köln. 
+Jürgen arbeitete, wie Afagh und Marcel, 
+mit denen ich auch telefoniert habe bei Versicherern in Köln. 
 Und Versicherer machen gerade auch alle in Agil und Transformation.
 Tendenziell also interessante und herausfordernde Umgebungen.
 Eine *Agile Master* stelle gäbe es, so Jürgen aktuell nicht, 
@@ -46,16 +49,17 @@ alt: "Bau des Modells einer Laubhütte. Foto © Alexander Root, naturzeitclub" %
 
 Ich konnte bereits recht früh im Jahr an meinem Ziel 
 mehr mit *"Draussendingen"* zu machen anknüpfen.   
-Kalenderwoche sechs startete mit einen Walkaboutyou mit Kamil für einen Batch 
-des Accelerator Programms vom Startplatz Köln.
-Und endete am Samstag mit einem Wildnistrainig.
-Ich dufte zur der Ausbildung der ersten Generation von *Naturclub Coaches*  
+Kalenderwoche sechs startete mit einen [Walkaboutyou](https://walkaboutyou.org/) 
+mit Kamil für einen Batch des Accelerator Programms vom Startplatz Köln.
+Und endete am Samstag mit einem [Wildnistraining](/wildnistraining.html).
+Ich dufte zur der Ausbildung der ersten Generation 
+von *[Naturclub](https://naturzeit.club) Coaches* 
 mit einem kleinen [*Bushcraft- und Survivaltraining*](/wildnistraining.html) beitragen.
 
 Die Etappe fünf des Bergisches Weges lief an unserem Seminarort vorbei.
 Und so macht ich mich am Sonntagmorgen guter Dinge zu Fuß
 und mit kiloweise Bushcraftgear auf dem Rücken auf 
-und wanderte bei Minusgraden und Sonnenschein bis vor Sträßchen.
+und wanderte bei Minusgraden, gefrorenem Boden und Sonnenschein bis vor Sträßchen.
 
 ## COVID-19
 
@@ -66,27 +70,31 @@ und dass ein weitere Termine als Facilitator (Sprintwechseltag) nicht mehr gehen
 Ich entschuldigte mich bei meiner Scrum Master Hospitantin,
 der ich einen interessanten Tag versprochen hatte 
 und meldete mich für den Rest des Tages krank.
-Ein Job der fast nur aus Koimmunikation besteht ist ohne reden zu können 
-schwierig zu nicht bewerkstelligen...
+Ein Job, der fast nur aus Kommunikation besteht ist ohne reden zu können 
+eben schwierig zu bewerkstelligen.
 
 Am Nachmittag ging ich zu Teststelle, 
 ich war mir zu diesem Zeitpunkt schon recht sicher, 
 dass ich es keine normalen Haslschmerzen waren 
-und sagte homurvoll "bis gleich" zum Testpersonal. 
-Quittung positiver Antigentest, also PCR Test hinterher. 
-Mittwoch morgens das positive Ergebnis des PCR Tests. 
-NLP Pract absagen.
+und sagte humorvoll "bis gleich" zum Testpersonal. 
+Quittung positiver Antigentest. 
+Also PCR Test hinterher. 
+Mittwoch morgens dann das positive Ergebnis des PCR Tests via Mail. 
+Ich sagte den das kommende [NLP Practitioner](
+/2022/03/31/nlp-practitioner.html) Wochenende ab.
+Jetzt ging es erstmal in Quarantäne.
 
 Um Tag zwei kamen die Kopfschmerzen, proportional dazu gab es Ibus.
 Ich nutzte die Zeit der Quaratäne mit AU zum Schreiben eines Lebenslaufs.
 Den braucht man zum bewerben. 
 Ich hatte keinen, nur eine Auswahl von ausgewählten Projekten 
 mit Tech-Stack aus meiner IT-Beraterzeit.  
-An Tag sieben freitesten und Bewerbungsgepräch, draußen an der fischen Luft,
+Während es mir wieder besser ging, ging es mit Monique bergab.
+An Tag sieben wollte ich mich freitesten. 
+Ich nutzte den Freigang für ein Bewerbungsgepräch draußen an der fischen Luft,
 während ich auf die Nachricht mit dem Testergebnis wartete.
-Immerhin mal wieder den Rhein gesehen.
-
-Ich bergauf, Monique bergab.
+Es war leider weiterhin positiv. 
+Immerhin habe mal wieder den Rhein gesehen.
 
 ## Krieg in Europa
 
@@ -94,6 +102,9 @@ Ich bergauf, Monique bergab.
 Ich war schockiert und gelähmt
 und das obwohl es aufgrund Truppenbewegungen im Vorfeld 
 keine wirkliche Überraschung war.
+Ich musste mich wirklich reglementieren, 
+dass ich nicht zuviele Stream, teilweise auch während der Arbeit konsumierte. 
+Das zog mich ganz schön runter. 
 
 ## Konzerte 2022
 
@@ -101,7 +112,7 @@ keine wirkliche Überraschung war.
 path: assets/imgs/2022/sleaford-mods.jpg
 alt: "Sleaford Mods in der Live Music Hall, März 2022" %}
 
-Mit zwei Konzerten waren es 200% mehr Konzerte als im Vorjahr.   
+Mit zwei Konzerten waren es in 2022 200% mehr Konzerte als im Vorjahr.   
 
 Das erste war Helge Schneider in der Philharmonie,
 wenige Tage nach der Genesung mit Lars. 
@@ -126,17 +137,16 @@ Lukas und Freunden zum Auftakt im Taproom vom Dois Corvos.
 Wir waren im Viertel Marvila unterwegs.
 Nach ein paar Bierchen ging es weiter zu Lince, dem nächsten Taproom,
 dort gab ein paar echt leckere Petiscos[^petiscos] 
-und von dort ging weiter zu Musa.
+und von dort ging weiter zu Taproom und Brauerrei von Musa.
 
 Insgesamt verbrachten wir vier Tage in Lissabon, 
-dort gab es neben der sehr Erkundung der hisiegen Craftbeerszene 
+dort gab es neben der Erkundung der hiesigen und vielfältigen Craftbeerszene 
 auch den ersten Sonnenbrand des Jahres auf der Stirn.
-Von Lissabon ging es mit dem Mietwagen weiter über Sintra, Nazare, Ovar, Aveiro,
-einen klein Abstecher zu [Lupum]() nach Porto.
+Von Lissabon ging es mit dem Mietwagen weiter über Sintra, Nazare, Ovar, Aveiro
+und einen kleinen Abstecher über die [Lupum Brauerei](https://lupum.beer/) nach Porto.
 
-In Porto blieben wir nochmal ein paar Tage 
-und flogen von dort nach Deutschland zurück.
-Via BER, nach einen Tag Berlin bei Luckow.
+In Porto blieben wir nochmal ein paar Tage und flogen von dort nach Deutschland 
+via BER zurück und hingenn noch einen Tag in Berlin bei [Luckow](/tags/luckow/) dran.
 
 ## März, April
 
@@ -167,10 +177,10 @@ Nach 13 Jahren bin ich den Thinkpads untreu geworden.
 Mein Neuer ist ein [Framework Laptop](
 https://www.gesellschaft-zur-entwicklung-von-dingen.de/de/blog/framework-laptop)
 geworden. 
-Die Laptops von Framework sind reparierbar, austauschbar 
+Die Laptops von Framework sind reparierbar, austauschbar, aufrüstbar 
 und somit ein zwiemlich gutes Stück nachhaltiger als Vieles auf dem Markt.  	 
 Damit verbunden war auch der Wechsel der Linux Distribution, 
-somit die Rückkehr zu einer Debian basierten Distro nach Jahren mit Ubuntu.
+mit LMDE die Rückkehr zu einer Debian basierten Distro nach Jahren mit Ubuntu.
 
 ## Endless Vacation
 
@@ -186,7 +196,7 @@ Ich hatte Frei, so viel, wie lange nicht mehr und das am Stück.
 In dieser Zeit wie die [Verabschiedung von meinem alten Arbeitgeber](
 /2022/08/15/5-jahre-rewe-digital-danke-auf-wiedersehen.html) ein Thema.
 Neben meinem Ausstand traf ich mich in diesem Zeitraum mit ein paar Kolleg\*innen
-um dem Abschied und offenen Themen bewusst einen Raum zu geben. 
+um dem Abschied bewusst einen Raum zu geben. 
 
 Neben viel Socialising hatte ich auch Zeit mal wieder etwas rumzunerden, 
 und bin das *Projekt Googlefrei* stückweise angegangen. 
@@ -207,24 +217,27 @@ Für mich bedeutete Neu eine neue Firma, in einer neue Branche, neues Teams, neu
 und last but not least, eine neue Rolle, die neue Aufgaben und Verantwortungen mitbringt.
 Für meine Kolleg\*innen im HCJ Tribe, 
 die einen Monat Vorsprung hatten (Tribe[^spotify1] [^spotify2] Kickoff war im Juli)
-war das Konstrukt Tribe und ihre Rollen ebenfalls neu
-und selbst für die AXA[^tribes], die in dieser Phase der agilen Transformation 
-auf einen Großteil der 15 geplanten Tribes blicken konnte.
-So weit war ich den letzten Jahren schon lange nich mehr außerhalb meiner *Komfort Zone*.
+war das Konstrukt Tribe mit seinen Rollen ebenfalls neu.
+Selbst für die AXA[^tribes], die in dieser Phase der agilen Transformation 
+auf einen Großteil der 15 geplanten Tribes blicken konnte ist alles neu.   
+So weit, wie August 
+war ich den letzten Jahren schon lange nicht mehr außerhalb meiner *Komfort Zone*.
 
-Ende August gingen Monique und ich das Projekt [Rheinsteig](
-/tags/rheinsteig/) wieder an. 
+Ende August gingen Monique und ich wieder das Projekt [Rheinsteig](
+/tags/rheinsteig/) an. 
 Wir starteten an meinem Geburtstag mit Etappe 8, von Sayn nach Vallendar
 mit Übernachtung in Koblenz. 
 Den Tag darauf verbanden wir die Etappen 10 und  11 mit Unterkunft in Braubach.  
-Auf der Etappe 12 Braubach-Kamp-Bornhofen hieß es dann Zähne zusammenbeissen.
+Auf der Etappe 12 Braubach-Kamp-Bornhofen hieß es dann Zähne zusammenbeissen[^rs1].
 Nach der Marksburg ging stramm bergauf.
 Monique nahm in Osterspai die Bahn und ich lief den Rest in meiner Geschwindigkeit 
 und beendete die Etappe 12 in Kamp-Bornhofen.
 Nach Dusche und Klamottenwecheseln im Hoteln in Mainz trafen Monique und ich uns 
 bei bei der [Kuehn Kunz Rosen Brauerei](https://kuehnkunzrosen.de/) wieder.
 Zufälligerweise gab es dort neben zu erwarten, sehr gutem Bier
-eine Veranstaltung mit Live-Music und zeitgleich einen Steinwurf entfernt den  Mainzer Weinmarkt. 
+eine Veranstaltung mit Live-Music 
+und zeitgleich einen Steinwurf entfernt den Mainzer Weinmarkt,
+den wir auch noch kurz in Augenschein nehmen mussten. 
 
 {%responsive_image figure: true 
 path: assets/imgs/2022/kuehn-kunz-rosen-sommerfest-2022.jpg 
@@ -236,8 +249,9 @@ alt: "Sommerfest bei Kuehn-Kunz-Rosen in Mainz. Foto CC-NC-BY Monique Wenta." %}
 path: assets/imgs/2022/jurgen-appelo-florian-latzel-agile-leipzig-2022.jpg 
 alt: "Jurgen Appelo und ich, Agile.Leipzig 2022." %}
 
-Für mein erstes Barcamp in Präsenz seit 2019 hat es mich wieder nach Leipzig gezogen 
-(hier der Bericht von meinem ersten [Agile Leipzig Barcamp]()). 
+Für meine erste Unkonferenz in Präsenz seit 2019 hat es mich wieder nach Leipzig gezogen 
+(hier der Bericht von meinem ersten [Agile Leipzig Barcamp](
+/2019/09/22/rueckblick-auf-das-4-agile-leipzig-barcamp.html)). 
 Abgesehen von dem tollen Rahmenprogramm, den Keynotes von Gitta Peyn an Tag 1, 
 der musikalischen Performance von Adam Janosch am Abend 
 und der Keynote von Jurgen Appelo 🤩 an Tag 2 war dieses Barcamp anders.
@@ -248,11 +262,11 @@ sondern war viel mehr im Austausch und habe mich von der Energie leiten lassen.
 Wenn du mich nach den Sessions fragen würdest, dann wären es die drei, die mir als erstes einfallen:
 - Konfliktlösung und Gewaltfreie Kommunikation mit Klaas Behrens-Scholvin
 - Agile Brain (feat. Neuroplastizität) mit Vincent Clement
-- Feeback aber richtig (mit dem EPIQ Modell) mit Conrad Giller
+- Feeback aber richtig (mit dem *EPIQ Modell[^epiq]*) mit Conrad Giller
 
 Ich habe am Sonntag die Session ["Leadershiptraining goes wild"](
 /wildnistraining.html#leadershiptraining-goes-wild) eingebracht 
-und stilgerecht draussen, im herbstlichen Sonnenschein 
+und stilgerecht draussen in der Lenné-Anlage, im herbstlichen Sonnenschein 
 über die Mixtur von [Trainings für Führungskräfte in Naturräumen](
 /wildnistraining.htm)
 mit Elebniselementen aus den Bereichen [Survival/ Buschcraft](/wildnistraining) 
@@ -269,15 +283,15 @@ es lief parallel eine Session zu Psychologischer Sicherheit.
 
 Danke an Rolf Irion 🔥 und Team für den wiedermal sehr gelungenen Rahmen, gerne wieder🙏!
 
-
 ## Ausklang
 
 {%responsive_image figure: true 
 path: assets/imgs/2022/walkaboutyou-accelerator-11-2023.jpg
 alt: "Walkaboutyou für das Accelertor Program, 28. November. Foto © Janine Schmied, Startplatz %}
 
-Fast wie am Anfang, konnte ich das Jahr mit einem weiteren Walkaboutyou 
-für das Accelerator Programs des Startplatz abschließen.
+Fast wie am Anfang, konnte ich das Jahr mit einem weiteren Walkaboutyou abschließen.
+Diesmal wieder für Accelerator Programs des Startplatz,
+mit dem Unterschied, dass ich das Community Building diesmal alleine facilitierte.
 
 Ende des Jahres ging es für einen eher ruhigen Ausklang wieder nach Leipzig.
 
@@ -290,7 +304,6 @@ alt: "Silvester 2018, Kreuz Connewitz, Leipzig." %}
 {%responsive_image figure: true 
 path: assets/imgs/2022/essen-santa-rita-lissabon.jpg 
 alt: "Essen in Lissabon, Santa Rita. Foto © Monique Wenta." %}
-
 
 Im Januar waren fünf Gänge inklusive Weinbegleitung im Maybeck 
 das erste Highlight des jungen Jahres 2022. Sterneküche.
@@ -305,20 +318,28 @@ Das Murça No Porto in der Nähe der Armazém Craftbeerbar
 war ebenfalls ein Zufall und grundsolide zu einem überaschend niedrigen Preis.
 
 Sehr empfehlenswert war auch das Kintaro in der Friesenstraße.
-Neben meiner ersten "Natto[^natto] Erfahrung" waren die Sushis einfach grandios.
+Neben meiner ersten *Natto[^natto] Erfahrung* waren die Sushis einfach grandios.
 
-Die Wiederentdeckung des Jahres war das [Da Enzo](https://www.daenzo-ristorante.de/).
+Die kulinarische Wiederentdeckung des Jahres war [Da Enzo](
+https://www.daenzo-ristorante.de/).
 Bester Italiener in Köln-Mülheim.
-Dort steht der Chef, Enzo, selbst in der Küche und seine Frau Anna macht den Service.
+Dort steht der Chef, Enzo, selbst in der Küche,
+während seine Frau Anna den großen Rest macht.
 Einfach sehr gutes Essen.
 
+Fußnoten:
 
 [^petiscos]: [Petiscos, the Portuguese Tapas - Go discover](https://godiscoverportugal.com/petiscos/)
-[^cv]: An diesem CV habe ich mich orientiert (bzw. diesen ge-forkt): [Creating a digital CV in Markdown on GitHub](https://workwithcarolyn.com/blog/digital-cv-guide)
+[^cv]: Ich habe mich am CV von Carolyn Stransky orientiert bzw. diesen ge-forkt: [Creating a digital CV in Markdown on GitHub](https://workwithcarolyn.com/blog/digital-cv-guide)
 [^natto]: [Natto - Wikipedia](https://de.wikipedia.org/wiki/Natt%C5%8D)
-[^pasteis]: [Pastel de Nata -Wikipedia](https://de.wikipedia.org/wiki/Pastel_de_Nata)
+[^pasteis]: [Pastel de Nata - Wikipedia](https://de.wikipedia.org/wiki/Pastel_de_Nata)
 [^tribes]: [Einblicke in die agile Evolutionsreise von AXA Deutschland - ManagerWissen](https://manager-wissen.com/einblicke-in-die-agile-evolutionsreise-von-axa-deutschland)
 [^spotify1]: [Das Spotify-Modell für die Agile-Skalierung - Atlassian](https://www.atlassian.com/de/agile/agile-at-scale/spotify)
 [^spotify2]: [Doch wie Spotify werden (II) - On Lean and Agility](https://www.lean-agility.de/2022/12/doch-wie-spotify-werden-ii.html)
+[^rs1]: [Der Anstieg nach der Marksburg \(mit Timecode\) - Doppelknoten](https://www.youtube.com/watch?v=ob-fpXzWWsA&t=98s)
+[^epiq]: [Mit dem EPIQ-Modell besser Feedback geben - t2informatik](https://t2informatik.de/blog/mit-dem-epiq-modell-besser-feedback-geben/)
 
 *[HCJ]: Health Care Journey
+*[RD]: REWE digital
+*[LMDE]: Linux Mint Debian Edition
+*[FOMO]: Fear of missing out
