@@ -350,7 +350,7 @@ Dort steht der Chef, Enzo, selbst in der Küche,
 während seine Frau Anna den großen Rest macht.
 Einfach sehr gutes Essen.
 
-Fußnoten:
+Fußnoten
 
 [^petiscos]: [Petiscos, the Portuguese Tapas - Go discover](https://godiscoverportugal.com/petiscos/)
 [^cv]: Ich habe mich am CV von Carolyn Stransky orientiert bzw. diesen ge-forkt: [Creating a digital CV in Markdown on GitHub](https://workwithcarolyn.com/blog/digital-cv-guide)
