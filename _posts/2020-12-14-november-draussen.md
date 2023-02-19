@@ -11,7 +11,7 @@ tags:
 - Internet
 image: assets/imgs/november-draussen/waldmorgen.jpg
 toc: true
-last_modified_at: 2020-12-16
+last_modified_at: 2023-02-19
 ---
 {% responsive_image figure: true
 caption: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach. Foto © Tina Urban." 
@@ -89,8 +89,9 @@ Aber was mache ich jetzt mit der Ausbildung? Mal ins Blaue gedacht:
 
 - Nächstes Jahr noch *Wildnispädagogik 2*[^wp] dranhängen und das Gerlernte vertiefen
 - Wissen pro bono mit Paul zusammen an seine ehemalige Pfadfindergruppe vermitteln
-- Wildnis, Bushcraft und Survival für Manager, Führungskräfte und Coaches
-gewürzt mit tiefen Naturerleben und einer Prise Achtsamkeit
+- [Wildnis, Bushcraft und Survival für Manager, Führungskräfte und Coaches](
+/wildnistraining.html) gewürzt mit [tiefen Naturerleben](
+/wildnistraining.html) und einer Prise Achtsamkeit
 
 ## November ohne Twitter
 
