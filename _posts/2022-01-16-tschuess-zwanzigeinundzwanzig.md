@@ -3,16 +3,17 @@ title: Tschüss Zwanzigeinundzwanzig...
 layout: post
 tags:
 - Tod
+- Trauer
 - Achtsamkeit
 - REWE digital
 - Draussen
 - Wandern
 - Rheinsteig
 - Pencak Silat
-- Jeet Kune Do
 - Danksagung
 toc: true
-date: 2022-01-16 23:01 
+date: 2022-01-16 23:01
+last_modified_at: 2023-02-19 10:34 
 image: /assets/imgs/21/blick-auf-den-rhein-boss-tempel-hattenheim.png 
 ---
 {%responsive_image path: assets/imgs/21/blick-auf-den-rhein-boss-tempel-hattenheim.png 
@@ -223,14 +224,16 @@ die Strecke von Rüdeshein nach Wiesbaden mit ihr nochmal entgegengesetzt zu lau
 Ein Ziel, das aus der [Eifelsteigwanderung im November 2020](
 /2020/12/14/november-draussen.html#winterbackpacking-learnings) 
 mit meinen [Wildnispädagogik](/tags/wildnispadagogik) Alumnis entstanden ist,
-war es mein Wissen im Bereich Bushcraft, Survival, Wahrnehmung
-und sich in der Draußen in der Natur heimisch zu fühlen weiterzugeben.
+war es mein Wissen im Bereich [Bushcraft, Survival](/wildnistraining.html), 
+Wahrnehmung und sich in der Draußen [in der Natur heimisch zu fühlen](
+/wildnistraining.html) weiterzugeben.
 Damit auch ein paar Euros zu verdienen wäre auch schön.
 
 Mitte Oktober habe ich mit [Witali](https://www.witali.org/) 
 als Coach die [Walkaboutyou](https://walkaboutyou.org) 
 durch den Königsforst facilitiert 
-und einen Teil mit Wahrnehmung und tiefem Naturempfinden angeboten. \\
+und einen Teil mit Wahrnehmung und [tiefem Naturempfinden](
+wildnistraining.html) angeboten. \\
 Das war das Feedback einer Teilnehmerin nach diesem besagten Teil:
 
 > Ich fühle mich gerade wie ein Baum, so als würde ich hier einfach dazu gehören.[^walk-ln]
@@ -388,7 +391,7 @@ Danke an Claudius, einen meiner Trainer beim [Silat](
 https://www.tapak-suci.de/)[^silat]
 für einen tollen Einstieg bei [Tapak Suci](
 https://www.tapak-suci.de/)[^tapak-suci],
-auch weil er das Training auch nur mit mir stattfinden liess. 
+gerade weil er das Training auch nur mit mir stattfinden liess. 
 
 Danke an Maria, eine Kollegin und Freundin meiner Mutter
 für die Hilfe mit der Beihilfe 
