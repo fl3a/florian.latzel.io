@@ -10,8 +10,7 @@ layout: default
     {%- endif -%}
     <p class="post-meta"> 
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+        {{ page.date | date: site.date_format }}
       </time>
 
       {%- if page.author -%}
@@ -19,10 +18,9 @@ layout: default
       {%- endif -%}
 
       {%- if page.last_modified_at -%}
-      &nbsp;• {{ site.last_modified_at | default: "last_modified_at" }}:
+      <span> • {{ site.last_modified_at }}:</span>
       <time class="dt-published" datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">
-        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-        {{ page.last_modified_at | date: date_format }}
+        {{ page.last_modified_at | date: site_date_format }}
       </time>
       • <span class="changelog"><a href="{{ site.git_repo }}commits/master/{{ page.path }}">{{ site.changelog }}</a></span>
       {%- endif -%}
@@ -32,10 +30,6 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content | toc }}
   </div>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
