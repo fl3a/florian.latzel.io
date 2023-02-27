@@ -7,17 +7,18 @@ tags:
 - Italien
 layout: post
 date: 2023-01-14
+last_modified_at: 2023-02-27
 image: /assets/imgs/metaforum22/metaforum-summercamp-2022-stage-tom-andreas-trainer.jpg
 ---
 {%responsive_image figure:true 
 path: assets/imgs/metaforum22/metaforum-summercamp-2022-stage-tom-andreas-trainer.jpg
 alt: "Tom Andreas on Stage + Seminarleitenden des Metaforum Summercamp 2022. Foto © Eveline Matyschok" %}
 
-Meine Coaching Ausbildung bei Tom Andreas hat mich und meine Coaching Mitschüler*innen 
+Meine Coaching Ausbildung bei Tom Andreas hat mich und meine Coaching Mitschüler\*innen 
 zum 35. Metaforum Summercamp[^mfp] in Abano Terme[^abano] geführt. 
 
 Zwei Module der Ausbildung, 
-zum einen *Lösungsfokussierendes Coaching* 
+zum einen [*Lösungsfokussierendes Coaching*](/coaching.html)
 nach Steve de Shazer[^steve] und Insoo Kim Berg bei [Tom Andreas](/tags/tom-andreas/) 
 und *der provokative Ansatz* nach Frank Farelly[^ff] 
 bei Dr. Noni Höffner und ihrer Tochter Dr. Charlotte Cordes[^provo] 
@@ -31,7 +32,7 @@ Mein Bericht von einer intensiven *Coachingintensivwoche* in Italien.<!--break--
 path: assets/imgs/metaforum22/kofferchaos-gepaeckausgabe-flughafen-koeln-bonn-2022-07-31-.jpg
 alt: "Symbolbild. Kofferchaos, Gepäckausgabe Flughafen Köln/Bonn am 31.07.2022" %}
 
-Am Vorabend kam die Nachricht von meinen Coach Mitschüler*innen Beate und Stefan, 
+Am Vorabend kam die Nachricht von meinen Coach Mitschüler]\*innen Beate und Stefan, 
 dass sie mehrere Stunden im Sicherheitsbereich der Köln-Bonner Fluhafens verbrachten
 und dann auch noch ihr Flug annuliert wurde.  
 
@@ -66,12 +67,14 @@ Während ich in der Ankunftshalle des Flughafen Venedig
 versuchte meinen Namen irgendwo zu finden,
 las ich auf einem Schild den von [Magdalena](
 https://maera.de/ueber-uns/magdalena-richtarski/)
-und versuchte dann meine Agile Coach Kollegin aus Köln zu finden.
+und versuchte dann meine [Agile Coach](/coaching.html)
+Kollegin aus Köln zu finden.
 Es stellte sich raus, dass ihr Ziel ebenfalls das Metaforum ist
 und dass sie sich mit die Woche mit dem ZRM beschäftigt.
 
 In den ersten Tagen machte mich [Michael](https://agile-aspects.michaelmahlberg.com/) aus, 
-ebenfalls ein Kollege aus der *"Kölner Agile Blase"*, 
+ebenfalls ein Kollege aus der [*"Kölner Agile Blase"*](
+/agile-meetups-events-koeln-nrw.html), 
 der diese Woche mit Improvisationstheater verbrachte
 und auf den ich dann in meinem zweiten Teil, 
 bei *der provokative Ansatz* wieder treffen sollte.
@@ -92,7 +95,7 @@ path: assets/imgs/metaforum22/team-orvieto-silke-ich-fritz.jpeg
 alt: "Selfie: Team Orvieto (Fritz, ich und Silke). Foto © Silke Schwamborn" %}
 
 Als ich kurz nach der Ankunft des ersten Abends mein wohlverdientes Abendessen genoss, 
-gesellten sich kurz meine Coach Kollegi\*innen Silke und Fritz aus Köln, 
+gesellten sich kurz meine Coach Kolleg\*innen Silke und Fritz aus Köln, 
 die auch im Orvieto einquartiert waren, zu mir.
 
 Ab dem darauf folgenden Tag fuhren wir täglich morgens gemeinsam 
@@ -106,8 +109,8 @@ Spätestens dann aber Abends, bei gutem Essen in größerer Runde.
 ## Bücher Uwe 
 
 Der reisende Buchhändler Uwe Böhm, oder einfach *Bücher Uwe*[^bnlp]
-hatte einen Raum um seine Bücher zu z.B. Coaching, Aufstellungen
-oder NLP unters Volk zu bringen.
+hatte einen Raum um seine Bücher zu z.B. [Coaching](/coaching.html), 
+Aufstellungen oder NLP unters Volk zu bringen.
 Uwe kennt die Bücher, die er auf dem Tisch hat.
 Ich durfte Uwes Beratungskompenz das erste Mal im Rahmen 
 meines [NLP Practitioners](/2022/03/31/nlp-practitioner.html)
@@ -115,8 +118,9 @@ erleben, wo die Küche des Zendo zum Buchladen wurde
 und mich damals bei ihm bereits mit Fachliteratur eingedeckt habe.
 
 So kam ich nicht drum herum und besuchte Uwe am Tag meiner Abreise,
-um etwas zu stöbern. Heraus kamen drei weitere Bücher zum Thema Coaching
-und das NLP Practitioner Karteikarten Set, die ich mir nach Hause schicken liess.
+um etwas zu stöbern. Heraus kamen drei weitere Bücher zum [Thema Coaching](
+/tags/coaching/) und das NLP Practitioner Karteikarten Set, 
+die ich mir nach Hause schicken liess.
 
 ## Fazit
 
@@ -125,7 +129,7 @@ Das war eine Woche Weiterbildungsurlaub im Süden.
 Tatsächlich fand ich die lange Siesta angemessen.
 Die passten nicht nur gut zu den Temperaturen, 
 sondern auch zur Intensität mancher Themen,
-die man entweder als Coach begleitet oder als Coachee selbst bearbeitet.
+die man entweder als [Coach](/coaching.html) begleitet oder als Coachee selbst bearbeitet.
 
 Das war eine Woche Lernen in einer tollen Kulisse. 
 Lernen von und mit tollen Menschen.
