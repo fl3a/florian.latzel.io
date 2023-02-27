@@ -16,7 +16,7 @@ nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2023-02-10
+last_modified_at: 2023-02-27
 image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
 <figure>
@@ -40,7 +40,7 @@ Für manche Treffen ist eine Anmeldung über linkedin oder meetup Vorraussetzung
 
 ### Agile Meetups & Events in Köln
 
-- [Scrumtisch Köln](https://www.linkedin.com/groups/14120069/), jeden dritten Mittwoch im Monat, Anmeldung über xing
+- [Scrumtisch Köln](https://www.linkedin.com/groups/14120069/), jeden dritten Mittwoch im Monat, Anmeldung über linkedin
 - [Lean Coffee](https://www.linkedin.com/groups/12711004/), jeden Freitag von 08:00 – 09:00, wechselnde Locations.
 - [Lean Coffee für Product Owner & Product People & Produkt-Manager](https://www.linkedin.com/groups/12524562/)
 - [Limited <acronym title="Work in progress">WIP</acronym> Society Cologne (Kanban)](http://lwscologne.wordpress.com/), 
@@ -82,7 +82,7 @@ ein Format von [access2agile](https://access2agile.com/)
 
 - [Bonn Agile Meetup](https://www.meetup.com/de-DE/Bonn-Agile/), am ersten Dienstag des Monats in wechselden Locations, Anmeldung über meetup
 - [Bonner Scrumtisch](https://www.linkedin.com/groups/12547480/), am zweiten Dienstag des Monats in wechselnden Locations, 
-Anmeldung über xing
+Anmeldung über linkedin
 
 ### Agile Meetups und Events in Düsselorf
 
@@ -102,7 +102,6 @@ Einsatz agiler Methoden wie Agile Project Management in Tranformations-Initiativ
 ### Agile Meetups und Events in Aachen
 
 - [Scrumtisch Aachen](http://www.scrumtisch-aachen.de/), findet monatlich in wechselnden Locations statt, 
-  Anmeldung über [xing](https://www.xing.com/communities/groups/scrumtisch-aachen-f66d-1002514)
 
 ### Agile Meetups und Events im Ruhrgebiet
 
