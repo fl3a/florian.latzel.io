@@ -351,20 +351,18 @@ und bekommen wieder den Prompt der Shell zu sehen.
 
 ### ~/.gnupg/options
 
-Konfiguration von GnuPG in *~/.gnupg/options*.
-
-Unter Debian und Ubuntu heißt die zuständige Konfigurationsdatei options, diese befindet in unserem Heimatverzeichnis im Verzeichnis .gnupg.
-
-Bei default-key wird die Schlüssel-ID unseres Hauptschlüssels angegeben,
-die Direktive keyserver ist für die Interaktion mit den Keyservern im Internet zuständig.
+- `default-key` = Schlüssel-ID unseres Hauptschlüssels
+- `keyserver` ist für die Interaktion mit den Keyservern im Internet zuständig
+- `require-cross-certification`, 
+- `use agent`, Dummy Option, wird immer benötigt
+ 
 ```
-default-key 269B69D1
-keyserver hkp://wwwkeys.eu.pgp.net
+default-key 3F9F644542DD63E82165D376F4F62999C3BA4866
 charset utf-8
+require-cross-certification
 use-agent
+keyserver hkps://keys.openpgp.org  
 ```
-
-*~/.gnupg/gpg.conf*, unter opensuse 11 heißt das Pedant zu *~/.gnupg/options* unter Debian *gpg.conf*, die Inhalte sind gleich.
 
 ### ~/.gnupg/gpg-agent.conf
 
@@ -372,12 +370,40 @@ Konfiguration des gpg-agents in *~/.gnupg/gpg-agent.conf*
 
 
 ```
-pinentry-program /usr/bin/pinentry-qt
-no-grab
-default-cache-ttl 1800
+# Set the time a cache entry is valid to n seconds. 
+# The default is 600 seconds. 
+# Each time a cache entry is accessed, the entry’s timer is reset. 
+# To set an entry’s maximum lifetime, use max-cache-ttl. 
+# Note that a cached passphrase may not be evicted immediately from memory 
+# if no client requests a cache operation. 
+# This is due to an internal housekeeping function 
+# which is only run every few seconds. 
+default-cache-ttl 18000
 
+# Set the maximum time a cache entry is valid to n seconds. 
+# After this time a cache entry will be expired even 
+# if it has been accessed recently or has been set using gpg-preset-passphrase. 
+# The default is 2 hours (7200 seconds). 
+max-cache-ttl 86400
+
+# This option will let gpg-agent bypass the passphrase cache 
+# for all signing operation. 
+# Note that there is also a per-session option to control this behavior 
+# but this command line option takes precedence. 
+ignore-cache-for-signing
+
+# Tell the pinentry to grab the keyboard and mouse. 
+# This option should be used on X-Servers to avoid X-sniffing attacks. 
+# Any use of the option --grab overrides an used option --no-grab. 
+# The default is --no-grab. 
+no-grab
+
+# Use program filename as the PIN entry. 
+# The default is installation dependent. 
+# With the default configuration the name of the default pinentry is pinentry; 
+# if that file does not exist but a pinentry-basic exist the latter is used. 
+pinentry-program /usr/bin/pinentry-gnome3
 debug-level basic
-log-file socket:///home/florian/.gnupg/log-socket
 ```
 
 ...to be continued.
