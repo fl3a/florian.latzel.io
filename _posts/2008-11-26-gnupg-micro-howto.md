@@ -14,147 +14,262 @@ tags:
 layout: post
 permalink: /gnupg-micro-howto.html
 title: GnuPG (GPG) Micro Howto
+image: /assets/imgs/1280px-GnuPG.svg.png
 ---
 <figure role="group">
   <img src="/assets/imgs/1280px-GnuPG.svg.png" alt="GnuPG Logo 1280x387" title="GnuPG Logo" />
   <figcaption>GnuPG Logo, Thomas Wittek, GnuPG Projekt, Gemeinfrei</figcaption>
 </figure>
-Installation, Konfiguration und Nutzung von GnuPG unter Linux, MacOSX und Windows auf der Kommandozeile.
+GnuPG ist eine freie Kryptographiesoftware, 
+die das *OpenPG Message Format* gemäß *RFC 4880[^rfc4880]* implementiert
+und unter Linux, MacOS, Windows sowie anderen unixioden System nutzbar ist.\\
+Diese wird zum Ver- und Entschlüsseln sowie Erzeugung und Überprüfung von Signaturen genutzt,
+Verwendungsbeispiele sind verschlüsselte EMailkommunikation 
+oder die Sicherstellung der Integrität durch signierte Softwarepakete wie unter Debian.
 
-Verwendet wurde Debian Etch
-mit gpg 1.4.6
-und pinentry 0.7.2.
-
-Getestet wurden:
-
-- Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
-- openSuSE 11 mit gpg2 2.0.9-22.1 und pinentry 0.7.5-5.1
-- Windows Vista mit gnupg-w32cli-1.4.9.exe
+Dieses Howto beschreibt die Schlüsselerstellung, gebräuchliche Anwendungsfälle,
+das Arbeiten mit Keyservern, Konfiguration von GnuPG auf der Kommandozeile 
+und ist auf alle oben genannten Systeme übertragbar<!--break-->
 
 ## Konzept und Terminologie
 
-GnuPG verwendet das sog. Public-Key-Verschlüsselungsverfahren[^1], dass heißt, das es 2 Arten von Schlüssel gibt, Öffentliche- (Public Keys)[^2] und Private Schlüssel (private Keys)[^3]. Jeder Schlüssel hat sein dazugehöriges Gegenstück, allgemein als Schlüsselpaar bezeichnet.
+GnuPG verwendet das sog. Public-Key-Verschlüsselungsverfahren[^1], 
+dass heißt, das es 2 Arten von Schlüssel gibt, 
+Öffentliche- (Public Keys)[^2] und Private Schlüssel (private Keys)[^3]. 
+Jeder Schlüssel hat sein dazugehöriges Gegenstück, allgemein als Schlüsselpaar bezeichnet.
 
-Der öffentlicher Schlüssel wird wird zum Verschlüsseln und zur Überprüfung von Signaturen genutzt und muss deinem Kommunikationspartner zur Verfügung stehen damit er diese Aktionen ausführen kann und wird i.d.R. über z.B. sog. Keyserver öffentlich verbreitet.
+Der öffentlicher Schlüssel wird wird zum Verschlüsseln 
+und zur Überprüfung von Signaturen genutzt 
+und muss deinem Kommunikationspartner zur Verfügung stehen 
+damit er diese Aktionen ausführen kann 
+und wird i.d.R. über z.B. sog. Keyserver öffentlich verbreitet.
 
-Der private Schlüssel wird hingegen zum Signieren und Entschlüsseln genutzt und sollte, wie der Name schon vermuten lässt eher nicht weitergegeben werden und ist i.d.R mit einem Passwort geschützt.
+Der private Schlüssel wird hingegen zum Signieren 
+und Entschlüsseln genutzt und sollte, 
+wie der Name schon vermuten lässt eher nicht weitergegeben werden 
+und ist i.d.R mit einem Passwort geschützt.
 
 Die Schlüssel werden über Schlüsselbünde verwaltet, auch hier wieder die Unterscheidung:
 
 - einen für die Öffentlichen, *~/.gnupg/pubring.gpg*, eigenen Keys und die deiner Kommunikationspartner
 - und den für die Privaten, *~/.gnupg/secring.gpg*
 
-<!--break-->
-
 ## Erstellung eines GnuPG Schlüsselpaares
 
-Zur Erstellung eines GnuPG Schlüsselpaares ist der folgende Befehl ist unter der Benutzer-ID des Hauptbenutzers auszuführen. 
-Andernfalls muss der Ort durch *--homedir /home/foobar/.gnupg* angeglichen werden.
+Zur Erstellung eines GnuPG Schlüsselpaares ist der folgende Befehl 
+unter deiner Benutzer-ID, 
+also dem Benutzer unter dem der Key auch genutzt werden soll auszuführen. 
+Andernfalls müssen der Ort durch `--homedir` angegeben
+und ggf. Berechtigungen angepasst werden.
+
 ```
-gpg --gen-key
+gpg --full-generate-key 
 ```
+
+Anstelle der `--full-generate-key` kann auch `--gen-key` verwendet werden,
+es werden aber deutlich mehr Voreinstellungen, wie z.B. die Schlüsselgröße von 3072 Bits
+oder einem Ablaufdatum von 2 Jahren gemacht.
+
+```
+gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+gpg: Verzeichnis `/home/florian/.gnupg' erzeugt
+gpg: Die "Keybox" `/home/florian/.gnupg/pubring.kbx' wurde erstellt
+```
+
+### Verschüsselungsalgorithmus
 
 Verschüsselungsalgorithmus wählen
 ```
-gpg (GnuPG) 1.4.6; Copyright (C) 2006 Free Software Foundation, Inc.
-This program comes with ABSOLUTELY NO WARRANTY.
-This is free software, and you are welcome to redistribute it
-under certain conditions. See the file COPYING for details.
-Please select what kind of key you want:
-   (1) DSA and Elgamal (default)
-   (2) DSA (sign only)
-   (5) RSA (sign only)
-Your selection?
+Bitte wählen Sie, welche Art von Schlüssel Sie möchten:
+   (1) RSA und RSA (voreingestellt)
+   (2) DSA und Elgamal
+   (3) DSA (nur signieren/beglaubigen)
+   (4) RSA (nur signieren/beglaubigen)
+Ihre Auswahl? 1
 ```
 
-Wir entscheiden uns für die Voreinstellung DSA und Elgamal.
-```
-1
-```
-Stärke des Schlüssels
+Wir entscheiden uns mit `1` für die Voreinstellung RSA und RSA und bestätigen mit Enter.
+
+### Schlüssellänge
+
+Wahl der Länge bzw. Stärke des Schlüssels, voreingestellt 3072.
 
 ```
-DSA keypair will have 1024 bits.
-ELG-E keys may be between 1024 and 4096 bits long.
-What keysize do you want? (2048)
+RSA-Schlüssel können zwischen 1024 und 4096 Bit lang sein.
+Welche Schlüssellänge wünschen Sie? (3072) 4096
+```
+
+Wir wählen den Maximalwert von `4096` und bestätigen mit Enter.\\
+Es folgt die Quittierung von GnuPG:
+
+```
+Die verlangte Schlüssellänge beträgt 4096 Bit
 ```
 
 Wir wählen die Voreinstellung und bestätigen diese.
 
+### Gültigkeitzeiraum
 
-Gültigkeitzeiraum des Schlüssels
+Gültigkeitzeiraum des Schlüssels\\
 Hier kann spezifiziert werden ob und wann der Schlüssel verfällt.
-```
-Please specify how long the key should be valid.
-         0 = key does not expire
-      <n>  = key expires in n days
-      <n>w = key expires in n weeks
-      <n>m = key expires in n months
-      <n>y = key expires in n years
-Key is valid for? (0)
-```
-
-Der Schlüssel soll vorerst 1 Jahr gültig sein.
-```
-1y
-```
-
-Es erscheint das Ablaufdatum des Schlüssels, ein Jahr in der Zukunft.
-```
-Key expires at Mo 23 Nov 2009 20:08:50 CET
-Is this correct? (y/N)
-```
-
-Wir bestätigen die Angaben mit
-```
-y
-```
-
-Realname, Eingabe des vollen Namens, der dem Schlüssel zugeordnet werden soll.
+Hier sollte entgegen des Defaults `(0)` auf jeden Fall ein Ablaufdatum gewählt werden, 
+denn in Falle eines korumpierten Rechners 
+oder Schlüssel verfällt dieser immerhin irgendann.
 
 ```
-Florian Latzel
+Bitte wählen Sie, wie lange der Schlüssel gültig bleiben soll.
+         0 = Schlüssel verfällt nie
+      <n>  = Schlüssel verfällt nach n Tagen
+      <n>w = Schlüssel verfällt nach n Wochen
+      <n>m = Schlüssel verfällt nach n Monaten
+      <n>y = Schlüssel verfällt nach n Jahren
+Wie lange bleibt der Schlüssel gültig? (0) 2y
 ```
 
-Emailadresse, Angabe der Emailadresse, an die Schlüssel gebunden werden soll .
+Wir möchten, dass unser Schlüssel 2 Jahr gültig ist und geben entsprechend
+`2y` über die Tastatur ein. 
+Nach einem Enter quittiert gpg:
+
 ```
-f punkt latzel ät is-loesungen punkt de
+Key verfällt am Sa 01 Jul 2023 13:12:45 CEST
 ```
 
-Kommentar, in diesem Schritt haben wir die Möglichkeit, unserem Schlüssel zu kommentieren
+Anschließend wird die Eingabe nochmal hinterfragt:
+
 ```
-!Recht auf Datenintegrität!
+Ist dies richtig? (j/N) j
 ```
 
-Bestätigung, nach Angabe aller Daten werden diese nochmal ausgegeben, es besteht die Möglichkeit die einzelnen Werte zu korregieren.
+Das bestätigen wir mit `y` gefolgt von Enter.
+
+### Name, Email-Adrese und Kommentar
+
+Jetzt kommen wir zur Eingabe der persönlichen Daten...
+
 ```
-You selected this USER-ID:
-    "Florian Latzel (Individuelle System Lösungen) f punkt latzel ät is-loesungen punkt de"
-Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?
+GnuPG erstellt eine User-ID, um Ihren Schlüssel identifizierbar zu machen.
 ```
 
-Wir bestätigen unsere Angaben sofern diese korrekt sind mit
+Voller bzw. Realname:
 ```
-o
+Ihr Name: Florian Latzel
 ```
 
-Passwort für den privaten Schlüssel.
-Eingabe des Passworts und anschließende Wiederholung, das Passwort wird nicht am Bildschirm ausgegeben.
+Die Email-Adresse, die unsere spätere UID wird...
+```
+Email-Adresse: florian@latzel.io
+```
 
-### Einen GPG-Revoke-Key erstellen
+Die Email-Adresse `florian@latzel.io`, gefolgt von Enter.
+
+Und ein optionaler Kommentar, den wir mit Enter überspingen.
+```
+Kommentar: 
+```
+
+Es folgt eine letzte Überprüfung:
+```
+Sie haben diese User-ID gewählt:
+    "Florian Latzel <florian@latzel.io>"
+```
+
+```
+Ändern: (N)ame, (K)ommentar, (E)-Mail oder (F)ertig/(A)bbrechen? F
+```
+Wir wollen die Schlüsselerstellung abschließen und geben `F` gefolgt von Enter ein. 
+
+```
+Wir müssen eine ganze Menge Zufallswerte erzeugen.  Sie können dies
+unterstützen, indem Sie z.B. in einem anderen Fenster/Konsole irgendetwas
+tippen, die Maus verwenden oder irgendwelche anderen Programme benutzen.
+Wir müssen eine ganze Menge Zufallswerte erzeugen.  Sie können dies
+unterstützen, indem Sie z.B. in einem anderen Fenster/Konsole irgendetwas
+tippen, die Maus verwenden oder irgendwelche anderen Programme benutzen.
+gpg: /home/florian/.gnupg/trustdb.gpg: trust-db erzeugt
+gpg: Schlüssel F4F62999C3BA4866 ist als ultimativ vertrauenswürdig gekennzeichnet
+gpg: Verzeichnis `/home/florian/.gnupg/openpgp-revocs.d' erzeugt
+gpg: Widerrufzertifikat wurde als '/home/florian/.gnupg/openpgp-revocs.d/3F9F644542DD63E82165D376F4F62999C3BA4866.rev' gespeichert.
+Öffentlichen und geheimen Schlüssel erzeugt und signiert.
+
+pub   rsa4096 2021-07-01 [SC] [verfällt: 2023-07-01]
+      3F9F644542DD63E82165D376F4F62999C3BA4866
+uid                      Florian Latzel <florian@latzel.io>
+sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
+```
+
+## Ein GPG Widerrufs (Revoke) Zertifikat erstellen
+
 
 Es gibt Falle, in dem du deinen Schlüssel auf den Keyservern widerrufen möchtest, 
 wie z.B. eine mittlerweile unzureichenede Stärke des Schlüssels, Schlüssel oder Rechner sind korrumpiert worden.
 
+Mittlerweile generiert GnuPG (unter Ubuntu) via Default einen Widerrufszertifikat 
+bei der Schlüsselerstellung(s.o).\\
 Einen GnuPG Widerrufungsschlüssels solltest du unbedingt erstellen und sicher aufbewahren.
 
 Erstellung des GNUPG Revoke-Keys, die Nutzer-ID kann EMail oder die Key-ID sein.
-Hier mit Key-ID `269B69D1`, der Revoke-Key wird in der Datei *269B69D1-revoke-key.asc*.
+Hier mit `florian@latzel.io`, der Revoke-Key wird in die Datei `~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev` 
+geschrieben.
 ```
-gpg --gen-revoke 269B69D1 > 269B69D1-revoke-key.asc
+gpg --gen-revoke florian@latzel.io > ~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev
 ```
 
-### Einen GPG-Subkey erstellen
+GnuPG fragt, ob du mit der Erstellung des Widerrufszertifikat fortfahren möchtest,
+`j` - ja wollen wir:
+```
+sec  rsa4096/F4F62999C3BA4866 2021-07-01 Florian Latzel <florian@latzel.io>
+
+Ein Widerrufszertifikat für diesen Schlüssel erzeugen? (j/N) j
+```
+
+Dann kannst du mögliche Gründe angeben.
+Hier lassen wir den Grund mal offen und wählen `0`...
+
+```
+Grund für den Widerruf:
+  0 = Kein Grund angegeben
+  1 = Hinweis: Dieser Schlüssel ist nicht mehr sicher
+  2 = Schlüssel ist überholt
+  3 = Schlüssel wird nicht mehr benutzt
+  Q = Abbruch
+(Wahrscheinlich möchten Sie hier 1 auswählen)
+Ihre Auswahl? 0
+```
+
+...gleiches für die Beschreibung, wir überspringen mit Enter:
+```
+Geben Sie eine optionale Beschreibung ein. Beenden mit einer leeren Zeile:
+> 
+```
+Grund für Widerruf: Kein Grund angegeben
+(Keine Beschreibung angegeben)
+
+Abschließend wird gefragt, ob wir mit den vorher gemachten Eingaben *OK sind*
+und sagen mit `j` *OK*.
+```
+Ist das OK? (j/N) j
+```
+
+Wir bekommen noch ein Tipps für den Umgang mit den Widerrufszertifikat mit:
+```
+Ausgabe mit ASCII Hülle erzwungen
+Widerrufszertifikat wurde erzeugt.
+
+Bitte speichern Sie es auf einem Medium, welches Sie wegschließen
+können; falls Mallory (ein Angreifer) Zugang zu diesem Zertifikat
+erhält, kann er Ihren Schlüssel unbrauchbar machen.  Es wäre klug,
+dieses Widerrufszertifikat auch auszudrucken und sicher aufzubewahren,
+falls das ursprüngliche Medium nicht mehr lesbar ist.  Aber Obacht: Das
+Drucksystem kann unter Umständen anderen Nutzern eine Kopie zugänglich
+machen.
+```
+
+## Dem GPG-Key weitere Email Adressen (uid's) hinzufügen
+
+Unterschied `addkey` vs `adduid`?
 
 Mehrere Email Adressen mit einem GPG-Key nutzen.
 
@@ -164,7 +279,13 @@ die sich dann im gleichen Schlüsselbund befinden und das selbe Passwort für de
 
 Der Aufruf von gpg kann auch über die ID als Parameter vollzogen werden.
 ```
-gpg --edit-key f punkt latzel ät is-loesungen punkt de
+gpg  --edit-key florian@latzel.io adduid
+```
+
+oder über zwei Schritte, 1:
+
+```
+gpg  --edit-key florian@latzel.io adduid
 ```
 
 Wir befinden uns jetzt im interaktiven Modus von gnupg,
@@ -222,6 +343,8 @@ save
 
 ## Konfiguration von GnuPG
 
+### ~/.gnupg/options
+
 Konfiguration von GnuPG in *~/.gnupg/options*.
 
 Unter Debian und Ubuntu heißt die zuständige Konfigurationsdatei options, diese befindet in unserem Heimatverzeichnis im Verzeichnis .gnupg.
@@ -231,14 +354,16 @@ die Direktive keyserver ist für die Interaktion mit den Keyservern im Internet 
 ```
 default-key 269B69D1
 keyserver hkp://wwwkeys.eu.pgp.net
-require-cross-certification
 charset utf-8
 use-agent
 ```
 
 *~/.gnupg/gpg.conf*, unter opensuse 11 heißt das Pedant zu *~/.gnupg/options* unter Debian *gpg.conf*, die Inhalte sind gleich.
 
-## Konfiguration des gpg-agents
+### ~/.gnupg/gpg-agent.conf
+
+Konfiguration des gpg-agents in *~/.gnupg/gpg-agent.conf*
+
 
 ```
 pinentry-program /usr/bin/pinentry-qt
@@ -315,7 +440,11 @@ gpg --import <Datei>
 
 ### Arbeiten mit Keyservern
 
-#### Public-Key auf Keyserver veröffentlichen
+#### Public-Key auf Keyserver keys.openpgp.org veröffentlichen
+
+**Platzhalter für Intro, Screenshots und curl + Double OptIn**
+
+#### Public-Key an Keyserver senden
 
 Damit unser öffentlicher Schlüssel jedem zur Verfügung stehen kann, exportieren wir ihn auf den Schlüsselserver[^4].
 ```
@@ -330,16 +459,43 @@ gpg --keyserver subkeys.pgp.net --send-key 269B69D1
 
 #### Schlüssel auf Keyserver suchen
 
-Bei einer erfolgreichen Suchanfrage besteht die Möglichkeit, gefundenen Schlüssel interaktiv in den Schlüsselbund zu importieren.
+Suche nach EMail-Adresse (uid) 
+```
+gpg --search-keys florian@latzel.io
+```
+oder Key-ID
+```
+gpg --search-keys F4F62999C3BA4866
+```
 
-Suche auf dem Keyserver, z.B. nach Namen
+Bei einer erfolgreichen Suchanfrage besteht die Möglichkeit, 
+gefundenen Schlüssel interaktiv in den Schlüsselbund zu importieren.
+Im folgenden Besispiel geschieht das 
+über die Eingabe der Nummer des Schlüssels hier `1`,
+für den einen gefundenen Schlüssel `(1)`, erkennbar in Zeile 2.
+
 ```
-gpg --search-keys 'Florian Latzel'
+gpg: data source: https://keys.openpgp.org:443
+(1)     Florian Latzel <floh@netzaffe.de>
+        Florian Latzel <florian.latzel@gmail.com>
+        Florian Latzel <florian.latzel@is-loesungen.de>
+        Florian Latzel <florian@latzel.io>
+          4096 bit RSA key F4F62999C3BA4866, erzeugt: 2021-07-01
+Keys 1-1 of 1 for "florian@latzel.io".  Eingabe von Nummern, Nächste (N) oder Abbrechen (Q) > 1
 ```
 
-oder sie Suche nach einer EMail-Adresse
+Die Suche nach Namen oder Teilstring der E-Mail Adresse 
+klappt aus Datenschutzgründen auf keys.openpgp.org nicht.
+
+Durch Angabe eines anderen Keyservers ist dies aber dennoch möglich:
+
+Suche nach Namen...
 ```
-gpg --search-keys f punkt latzel ät is-loesungen punkt de
+gpg --keyserver pgp.mit.edu --search-keys 'Florian Latzel' 
+```
+Suche Teilstring Domain der E-Mail Adresse...
+```
+gpg --keyserver pgp.mit.edu --search-keys 'is-loesungen.de' 
 ```
 
 #### Public-Key von Keyserver importieren
@@ -349,7 +505,7 @@ Um einen Public-Key, dessen Key-ID bekannt ist vom Keyserver herunterzuladen, wi
 gpg --recv-keys 269B69D1
 ```
 
-### Schlüssel widerrufen
+#### Schlüssel widerrufen
 
 Den Revoke-Key importieren.
 
@@ -365,6 +521,19 @@ Alternativ zur Key-ID kann auch der Fingerabdruck verwendet werden.
 ```
 gpg --send-keys 269B69D1
 ```
+## Historie
+
+
+Verwendet wurde Debian Etch
+mit gpg 1.4.6
+und pinentry 0.7.2.
+
+Getestet wurden:
+
+- Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
+- openSuSE 11 mit gpg2 2.0.9-22.1 und pinentry 0.7.5-5.1
+- Windows Vista mit gnupg-w32cli-1.4.9.exe
+
 
 ## Software für die GnuPG Nutzung
 
@@ -393,7 +562,9 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 - [Einfach erklärt: E-Mail-Verschlüsselung mit PGP](https://www.heise.de/ct/artikel/Einfach-erklaert-E-Mail-Verschluesselung-mit-PGP-4006652.html)
 
 [^1]: [Public-Key Verschlüsselungsverfahren](https://de.wikipedia.org/wiki/Public-Key-Verschl%C3%BCsselungsverfahren)
-[^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel))
+[^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel)
 [^3]: [Privater Schlüssel](https://de.wikipedia.org/wiki/Geheimer_Schl%C3%BCssel)
+[^rfc4880]: [RFC 4880 - OpenPGP Message Format](https://datatracker.ietf.org/doc/html/rfc4880)
 [^4]: [Schlüsselserver](https://de.wikipedia.org/wiki/Schl%C3%BCsselserver)
 [^5]: [Keysigning-Party](https://de.wikipedia.org/wiki/Keysigning-Party)
+
