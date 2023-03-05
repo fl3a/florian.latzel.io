@@ -323,8 +323,12 @@ Sie haben diese User-ID gewählt:
 Ändern: (N)ame, (K)ommentar, (E)-Mail oder (F)ertig/(A)bbrechen? F
 ```
 
-Hier geht Pinentry auf und verlangt die Eingabe der Passphrase 
-des geheimen OpenPGP Schlüssels.
+Hier geht ein *pinentry-qt* Dialog auf, der zu Entsperrung des geheimen OpenPGP Schlüssels
+die entsprechende Passphrase verlangt.
+
+{%responsive_image figure:true 
+path:assets/imgs/gnupg/pinentry-qt-passphrase-geheimen-openpgp-schluessel-entsperren.png
+alt:"Pinentry-qt Dialog: Eingabe der Passphrase zum entsperren des geheimen OpenPGP Schlüssels" %}
 
 Der neu hinzugefügte Unterschlüssel wird aufgelistet:
 ```
@@ -444,7 +448,7 @@ gpg --import <Datei>
 
 #### Public-Key auf Keyserver keys.openpgp.org veröffentlichen
 
-**Platzhalter für Intro, Screenshots und curl + Double OptIn**
+**Platzhalter für Intro, Screenshots und curl + Double OptIn**[^newkeys]
 
 #### Public-Key an Keyserver senden
 
@@ -565,4 +569,4 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 [^rfc4880]: [RFC 4880 - OpenPGP Message Format](https://datatracker.ietf.org/doc/html/rfc4880)
 [^4]: [Schlüsselserver](https://de.wikipedia.org/wiki/Schl%C3%BCsselserver)
 [^5]: [Keysigning-Party](https://de.wikipedia.org/wiki/Keysigning-Party)
-
+[^newkeys]: [Neuer OpenPGP-Keyserver liefert endlich verifizierte Schlüssel - heise.de](https://www.heise.de/security/meldung/Neuer-OpenPGP-Keyserver-liefert-endlich-verifizierte-Schluessel-4450814.html)
