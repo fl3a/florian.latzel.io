@@ -123,9 +123,6 @@ In der Regel starte ich mit dem *Tuckman Modell der Teamphasen*[^tuckman].
 In reisse kurz und knapp alle Phasen an und werde bei der Forming Phase etwas ausführlicher 
 und nehme Bezug darauf warum wir in diesem Workshop sind und wie es auf diese Phase einzahlt.
 
-{% responsive_image figure: true
-alt: "Tuckman 
-path: assets/imgs/personal-maps/tuckman-teamphasen-flipchart.jpg %}
 
 
 ##### JoHaRi Fenster
