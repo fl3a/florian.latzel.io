@@ -523,17 +523,12 @@ gpg --send-keys 269B69D1
 ```
 ## Historie
 
-
-Verwendet wurde Debian Etch
-mit gpg 1.4.6
-und pinentry 0.7.2.
-
-Getestet wurden:
-
-- Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
-- openSuSE 11 mit gpg2 2.0.9-22.1 und pinentry 0.7.5-5.1
-- Windows Vista mit gnupg-w32cli-1.4.9.exe
-
+- Aktualisiert im Juli 2021 während der Erstellung eines neuen GPG Schlüssels mit gpg Version 2.2.x.
+- Veröffentlicht am 2008-11-26 auf Basis von gpg in der Version 1.4.6
+und pinentry 0.7.2 auf Debian Etch. Getestet wurden:
+  - Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
+  - openSuSE 11 mit gpg2 2.0.9-22.1 und pinentry 0.7.5-5.1
+  - Windows Vista mit gnupg-w32cli-1.4.9.exe
 
 ## Software für die GnuPG Nutzung
 
