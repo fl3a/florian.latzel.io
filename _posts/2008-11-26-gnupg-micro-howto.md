@@ -323,12 +323,12 @@ Sie haben diese User-ID gewählt:
 Ändern: (N)ame, (K)ommentar, (E)-Mail oder (F)ertig/(A)bbrechen? F
 ```
 
-Hier geht ein *pinentry-qt* Dialog auf, der zu Entsperrung des geheimen OpenPGP Schlüssels
+Hier geht ein *Pinentry* Dialog auf, der zu Entsperrung des geheimen OpenPGP Schlüssels
 die entsprechende Passphrase verlangt.
 
 {%responsive_image figure:true 
-path:assets/imgs/gnupg/pinentry-qt-passphrase-geheimen-openpgp-schluessel-entsperren.png
-alt:"Pinentry-qt Dialog: Eingabe der Passphrase zum entsperren des geheimen OpenPGP Schlüssels" %}
+path:assets/imgs/gnupg/pinentry-passphrase-geheimen-openpgp-schluessel-entsperren.png
+alt:"Pinentry Dialog: Eingabe der Passphrase zum entsperren des geheimen OpenPGP Schlüssels" %}
 
 Der neu hinzugefügte Unterschlüssel wird aufgelistet:
 ```
