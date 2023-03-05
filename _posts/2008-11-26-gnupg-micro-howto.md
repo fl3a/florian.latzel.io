@@ -1,7 +1,6 @@
 ---
 date: 2008-11-26 07:43
 last_modified_at: 2019-03-31 2019-03-31 18:59 
-toc: true
 tags:
 - Datenschutz 
 - email 
@@ -30,6 +29,9 @@ oder die Sicherstellung der Integrität durch signierte Softwarepakete wie unter
 Dieses Howto beschreibt die Schlüsselerstellung, gebräuchliche Anwendungsfälle,
 das Arbeiten mit Keyservern, Konfiguration von GnuPG auf der Kommandozeile 
 und ist auf alle oben genannten Systeme übertragbar<!--break-->
+
+* toc
+{:toc}
 
 ## Konzept und Terminologie
 
@@ -523,7 +525,8 @@ gpg --send-keys 269B69D1
 ```
 ## Historie
 
-- Aktualisiert im Juli 2021 während der Erstellung eines neuen GPG Schlüssels mit gpg Version 2.2.x.
+- Aktualisiert im Juli 2021 während der Erstellung eines neuen GPG Schlüssels 
+mit gpg in der Version 2.2.4 unter Ubuntu.
 - Veröffentlicht am 2008-11-26 auf Basis von gpg in der Version 1.4.6
 und pinentry 0.7.2 auf Debian Etch. Getestet wurden:
   - Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
