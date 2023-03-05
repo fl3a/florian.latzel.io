@@ -3,11 +3,9 @@ date: 2008-11-26 07:43
 last_modified_at: 2019-03-31 2019-03-31 18:59 
 tags:
 - Datenschutz 
-- email 
 - gpg 
 - howto 
 - Linux 
-- Netzkultur 
 - Sicherheit 
 - Verschlüsselung 
 layout: post
@@ -269,79 +267,81 @@ Drucksystem kann unter Umständen anderen Nutzern eine Kopie zugänglich
 machen.
 ```
 
-## Dem GPG-Key weitere Email Adressen (uid's) hinzufügen
+## Dem GPG-Key weitere Email Adressen (Unterschlüssel) hinzufügen
 
-Unterschied `addkey` vs `adduid`?
 
 Mehrere Email Adressen mit einem GPG-Key nutzen.
 
-Statt der Erstellung einer neuen ID je verwendeter Emailadresse,
-besteht die Möglichkeit Unterschlüssel(subkeys) zu erstellen, 
-die sich dann im gleichen Schlüsselbund befinden und das selbe Passwort für den privaten Schlüssel verwenden.
+Statt der Erstellung eines neuen Schlüssels für jede weitere Emailadresse,
+besteht die Möglichkeit einem Schlüssel weitere Identitäten hinzufügen. 
+```
+gpg --edit-key 3F9F644542DD63E82165D376F4F62999C3BA4866
+```
+```
+gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
 
-Der Aufruf von gpg kann auch über die ID als Parameter vollzogen werden.
-```
-gpg  --edit-key florian@latzel.io adduid
-```
+Geheimer Schlüssel ist vorhanden.
 
-oder über zwei Schritte, 1:
-
-```
-gpg  --edit-key florian@latzel.io adduid
-```
-
-Wir befinden uns jetzt im interaktiven Modus von gnupg,
-mit adduid initieren die Erstellung des Subkeys.
-```
-adduid
-```
-Realname, wie bei der Erstellung des Schlüssel, wird bei dem Erzeugen einen Subkey nach einem Realname gefragt.
-```
-Real name:
-```
-```
-Florian Latzel
+sec  rsa4096/F4F62999C3BA4866
+     erzeugt: 2021-07-01  verfällt: 2023-07-01  Nutzung: SC  
+     Vertrauen: ultimativ     Gültigkeit: ultimativ
+ssb  rsa4096/4260D8234C49E8D6
+     erzeugt: 2021-07-01  verfällt: 2023-07-01  Nutzung: E   
+[uneingeschränkt] (1). Florian Latzel <florian@latzel.io>
 ```
 
-Emailadresse, auch der Subkey wird wieder an eine EMail-Adresse gebunden.
+Wir befinden uns jetzt im interaktiven Modus von gnupg, 
+mit `adduid` initieren die Erstellung des Unterschlüssels.
 ```
-Email address:
-```
-```
-floh ät netzaffe punkt de
+gpg> adduid
 ```
 
-Kommentar, wenn gewollt, kann der Subkey auch wieder kommentiert werden.
+Wie bei der Erstellung des Schlüssels, 
+wird bei dem Erzeugen eines Unterschlüssels nach einem Namen...
 ```
-Comment: gib dem Netzaffen Zucker!
-```
-
-Bestätigung
-```
-You selected this USER-ID:
-    "Florian Latzel (gib dem Netzaffen Zucker!) <floh ät netzaffe punkt de>"
-
-Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?
-Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?
-You need a passphrase to unlock the secret key for
-user: "Florian Latzel <f punkt latzel ät is-loesungen punkt de>"
-1024-bit DSA key, ID 269B69D1, created 2007-05-25
+Ihr Name: Florian Latzel
 ```
 
-Wir bestätigen die korrekten Angaben mit
+und einer Email-Adresse gefragt.
 ```
-o
-```
-
-Es erscheint anschließend wieder der Prompt von gpg.
-```
-Command>
+Email-Adresse: florian.latzel@is-loesungen.de
 ```
 
-Wir speichern, hiernach ist die Erstellung des Subkeys abgeschlossen.
+Kommentar: Wenn gewollt, kann auch der Unterschlüssel kommentiert werden.
 ```
-save
+Kommentar: 
 ```
+
+Abschließend eine Zusammenfassung der gemachten Angaben, 
+die wir mit `F` bestätigen:
+```
+Sie haben diese User-ID gewählt:
+    "Florian Latzel <florian.latzel@is-loesungen.de>"
+
+Ändern: (N)ame, (K)ommentar, (E)-Mail oder (F)ertig/(A)bbrechen? F
+```
+
+Hier geht Pinentry auf und verlangt die Eingabe der Passphrase 
+des geheimen OpenPGP Schlüssels.
+
+Der neu hinzugefügte Unterschlüssel wird aufgelistet:
+```
+sec  rsa4096/F4F62999C3BA4866
+     erzeugt: 2021-07-01  verfällt: 2023-07-01  Nutzung: SC  
+     Vertrauen: ultimativ     Gültigkeit: ultimativ
+ssb  rsa4096/4260D8234C49E8D6
+     erzeugt: 2021-07-01  verfällt: 2023-07-01  Nutzung: E   
+[uneingeschränkt] (1)  Florian Latzel <florian@latzel.io>
+[ unbekannt] (2). Florian Latzel <florian.latzel@is-loesungen.de>
+```
+
+```
+gpg> save 
+```
+Nach dem Speichern mit `save` verlassen wir den interaktiven Modus von gpg 
+und bekommen wieder den Prompt der Shell zu sehen.
 
 ## Konfiguration von GnuPG
 
@@ -525,8 +525,8 @@ gpg --send-keys 269B69D1
 ```
 ## Historie
 
-- Aktualisiert im Juli 2021 während der Erstellung eines neuen GPG Schlüssels 
-mit gpg in der Version 2.2.4 unter Ubuntu.
+- Aktualisierungen und Ergänzungen: Juli 2021 bis 2023, 
+basierend auf einem mit gpg 2.2.4 neu erstellten Schlüssel im Juli 2021.
 - Veröffentlicht am 2008-11-26 auf Basis von gpg in der Version 1.4.6
 und pinentry 0.7.2 auf Debian Etch. Getestet wurden:
   - Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
