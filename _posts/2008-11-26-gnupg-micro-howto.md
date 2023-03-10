@@ -382,6 +382,168 @@ pinentry-program /usr/bin/pinentry-gnome3
 debug-level basic
 ```
 
+## Web Key Directory (WKD) 
+
+- Einfaches Konzept zur Verteilung öffentlicher PGP-Schlüssel.
+  - Funktionsweise: Auslieferung Via SSL,
+  - Viele Clients wie Thunderbird nutzen WKD autom.
+  - 2 Methoden: Advanced und Direct, ich beziehe mich auf Direct. Schema für Direct: <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb>
+  - Verzeichnisstruktur
+
+
+### WKD einrichten 
+
+- Ein muss bei Zugriff auf (eigenen) Server und Domain
+Sofern meine Domain[^domain] im hier genutzten Beispiel auf uberspace konfiguiert[^domain] ist
+und ein entsprechender A- oder AAA-Eintrag existiert,
+wird der Webserver den via WKD angefragten Key via SSL ausliefern.
+
+So sehen auf spezifische Pfad für Uberspace der und die allgemeine *Web Key Directory* Verzeichnisstruktur 
+für meine als Bespiel genutzte EMailadresse florian@latzel.io, also Domain *latzel.io* und dem dem WKD-Hash (Hashed-UserID) aus *florian* aus:
+
+```
+/var/www/virtual/${USER}/latzel.io
+└── .well-known
+    └── openpgpkey
+        ├── hu
+        │   ├── .htaccess
+        │   └── qcuniwbujk3zrj7166onyz4t5cxgy3wb
+        └── policy
+```
+
+Erzeugen der Verzeichnisstruktur für WKD:
+
+    mkdir -p /var/www/virtual/${USER}/latzel.io/.well-known/openpgpkey/hu
+
+Symlink im Home Verzeichnis mit Namen der Domain erstellen:
+    
+    ln -s /var/www/virtual/${USER}/latzel.io ~/
+    
+Anlegen der (leeren) Datei *policy* :
+
+    touch /var/www/virtual/${USER}/latzel.io/.well-known/openpgpkey/policy
+
+
+Damit der Webserver die benötigten HTTP-Header ausliefert legen wir eine .htaccess-Datei mit folgendem Inhalt an:
+
+    vi /var/www/virtual/${USER}/latzel.io/.well-known/openpgpkey/hu/.htaccess
+
+
+```
+## WEB KEY DIRECTORY ##
+<IfModule mod_mime.c>
+   ForceType application/octet-stream
+   Header always set Access-Control-Allow-Origin "*"
+</IfModule>
+```
+
+
+### Upload der Public Keys in das WKD
+
+So kommst du an die WKD Hashes der EmailAdressen:\\
+Die sog. hashed-userid, ist ein SHA1 Hash, der aus dem lokalen Teil(User/Prefix).
+Die entspricht dem späteren Dateinamen.
+
+
+    gpg --with-wkd-hash --fingerprint florian@latzel.io 
+
+```
+pub   rsa4096 2021-07-01 [SC] [verfällt: 2023-07-01]
+      3F9F 6445 42DD 63E8 2165  D376 F4F6 2999 C3BA 4866
+uid        [uneingeschränkt] Florian Latzel <florian@latzel.io>
+           qcuniwbujk3zrj7166onyz4t5cxgy3wb@latzel.io
+uid        [uneingeschränkt] Florian Latzel <florian.latzel@is-loesungen.de>
+           t66qdyuka3hnekbqs31pd3jqtuyqp3z5@is-loesungen.de
+uid        [uneingeschränkt] Florian Latzel <floh@netzaffe.de>
+           4ucicrgmurtefmgehpbqdm3bf49kmk6b@netzaffe.de
+uid        [uneingeschränkt] Florian Latzel <florian.latzel@gmail.com>
+           t66qdyuka3hnekbqs31pd3jqtuyqp3z5@gmail.com
+sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
+```
+
+Das wäre `qcuniwbujk3zrj7166onyz4t5cxgy3wb` für `florian`, wie wir in Zeile 4 sehen.
+
+Wir übertragen den Key auf dem Server, indem die Ausgabe von `gpg --export` an den SSH-Befehl via Pipe weitergeben.
+So entsteht keine Datei, die wir gar nicht brauchen und nach der Übertragung löschen müssten.
+
+    gpg --no-armor --export florian@latzel.io | ssh ssh-server-oder-ip "cat > latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb"
+
+    
+### Testen der Schlüsselerkennung via WKD
+
+#### Via Zugriff auf HTTPS
+
+Im Browser <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb> aufrufen,
+es wird eine Datei zum Download angeboten.
+
+...Via Curl: 
+
+    curl -I https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb 
+
+Hier können wir gut Statuscode und die ausgespielten Header sehen:
+    
+```    
+HTTP/2 200 
+date: Sun, 11 Jul 2021 10:50:13 GMT
+content-type: application/octet-stream
+content-length: 4193
+server: nginx
+access-control-allow-origin: *
+last-modified: Sun, 11 Jul 2021 10:50:07 GMT
+etag: "1061-5c6d6c49ad544"
+accept-ranges: bytes
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+```
+
+#### Via WKD Checker Webfrontend   
+
+Ein Webfrontend zum testen des Deployments deiner Keys in ein *Web Key Directory*.
+
+via <https://metacode.biz/openpgp/web-key-directory>
+
+Screenshot
+
+    
+#### Via gpg
+
+Während das Webfrontend alles mit OK quittiert moppert der WKD-Test via Kommandozeile...
+
+    gpg -v --auto-key-locate clear,wkd,nodefault --locate-key florian@latzel.io 
+
+```
+gpg: using character set 'utf-8'
+gpg: verwende Vertrauensmodell pgp
+gpg: Schlüssel F4F62999C3BA4866: Als vertrauenswürdiger Schlüssel akzeptiert
+gpg: Fehler beim automatischen holen von `florian@latzel.io' über `WKD': Server zeigt einen unbestimmten Fehler an
+gpg: Fehler beim automatischen holen von `florian@latzel.io' über `None': Kein öffentlicher Schlüssel
+gpg: Schlüssel "florian@latzel.io" nicht gefunden: Kein öffentlicher Schlüssel
+```
+Nach einen Kaffee und ca. 10min später:
+
+    gpg -v --auto-key-locate clear,wkd,nodefault --locate-key florian@latzel.io  
+
+```
+gpg: verwende Vertrauensmodell pgp
+gpg: pub  rsa4096/F4F62999C3BA4866 2021-07-01  Florian Latzel <florian@latzel.io>
+gpg: Schlüssel F4F62999C3BA4866: "Florian Latzel <florian@latzel.io>" nicht geändert
+gpg: Anzahl insgesamt bearbeiteter Schlüssel: 1
+gpg:              unverändert: 1
+gpg: auto-key-locate found fingerprint 3F9F644542DD63E82165D376F4F62999C3BA4866
+gpg: `florian@latzel.io' automatisch via WKD geholt
+pub   rsa4096 2021-07-01 [SC] [verfällt: 2023-07-01]
+      3F9F644542DD63E82165D376F4F62999C3BA4866
+uid        [uneingeschränkt] Florian Latzel <florian@latzel.io>
+uid        [uneingeschränkt] Florian Latzel <florian.latzel@is-loesungen.de>
+uid        [uneingeschränkt] Florian Latzel <floh@netzaffe.de>
+uid        [uneingeschränkt] Florian Latzel <florian.latzel@gmail.com>
+sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
+```
+
+
 ## Arbeiten mit GnuPG
 
 Eine Kurzreferenz von GnuPG-Befehlen und -Optionen die öfter mal benutzt werden.
@@ -570,3 +732,4 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 [^4]: [Schlüsselserver](https://de.wikipedia.org/wiki/Schl%C3%BCsselserver)
 [^5]: [Keysigning-Party](https://de.wikipedia.org/wiki/Keysigning-Party)
 [^newkeys]: [Neuer OpenPGP-Keyserver liefert endlich verifizierte Schlüssel - heise.de](https://www.heise.de/security/meldung/Neuer-OpenPGP-Keyserver-liefert-endlich-verifizierte-Schluessel-4450814.html)
+[^domain]: [Domains - Uberspace Manual  ](https://manual.uberspace.de/web-domains.html)
