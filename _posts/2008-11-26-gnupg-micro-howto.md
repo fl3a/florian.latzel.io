@@ -632,33 +632,28 @@ gpg --import <Datei>
 
 ### Arbeiten mit Keyservern
 
+Ende Juni 2019 [^sks1] [^sks2] wurde das SKS Keyserver Netzwerk angegriffen.
+Web of Trust[^weboftrust].
+- GnuPG Version 2.2.17 ignorierte standardmäßig alle Signaturen, die von einem Keyserver stammen. 
+- SKS abgeschaltet 
+- keyserver.ubuntu.com mit hockeypuck
+- https://keys.mailvelope.com/
+- De-Facto-Standard keys.openpgp.org betrieben mit Hagrid
+
 #### Public-Key auf Keyserver keys.openpgp.org veröffentlichen
 
-**Platzhalter für Intro, Screenshots und curl + Double OptIn**[^newkeys]
-
-#### Public-Key an Keyserver senden
-
-Damit unser öffentlicher Schlüssel jedem zur Verfügung stehen kann, exportieren wir ihn auf den Schlüsselserver[^4].
-```
-gpg --send-key 269B69D1
-```
-
-Bei dem Zusammenspiel von GnuPG und Schlüsselservern(keyserver) kann man den Keyserver spezifizieren,
-ohne explizite Angabe des Keyservers, wird der in der ~/.gnupg/options definierte Keyserver verwendet.
-```
-gpg --keyserver subkeys.pgp.net --send-key 269B69D1
-```
+**Platzhalter für Intro, Screenshots und curl + Double OptIn**[^sks1] [^sks2] [^newkeys]
 
 #### Schlüssel auf Keyserver suchen
 
 Suche nach EMail-Adresse (uid) 
-```
-gpg --search-keys florian@latzel.io
-```
+
+	gpg --search-keys florian@latzel.io
+
 oder Key-ID
-```
-gpg --search-keys F4F62999C3BA4866
-```
+
+	gpg --search-keys F4F62999C3BA4866
+
 
 Bei einer erfolgreichen Suchanfrage besteht die Möglichkeit, 
 gefundenen Schlüssel interaktiv in den Schlüsselbund zu importieren.
@@ -682,37 +677,40 @@ klappt aus Datenschutzgründen auf keys.openpgp.org nicht.
 Durch Angabe eines anderen Keyservers ist dies aber dennoch möglich:
 
 Suche nach Namen...
-```
-gpg --keyserver pgp.mit.edu --search-keys 'Florian Latzel' 
-```
+
+	gpg --keyserver keyserver.ubuntu.com --search-keys 'Florian Latzel' 
+
 Suche Teilstring Domain der E-Mail Adresse...
-```
-gpg --keyserver pgp.mit.edu --search-keys 'is-loesungen.de' 
-```
+
+	gpg --keyserver keyserver.ubuntu.com --search-keys 'netzaffe.de' 
 
 #### Public-Key von Keyserver importieren
 
 Um einen Public-Key, dessen Key-ID bekannt ist vom Keyserver herunterzuladen, wird die folgende Options verwendet.
-```
-gpg --recv-keys 269B69D1
-```
+
+	gpg --recv-keys F4F62999C3BA4866
+
 
 #### Schlüssel widerrufen
 
 Den Revoke-Key importieren.
 
 Um den Revoke-Key nutzen zu können, muß dieser in unseren Keyring importiert werden.
-```
-gpg --import 269B69D1-revoke-key.asc
-```
 
-Schlüssel auf Server widerrufen. 
+	gpg --import 269B69D1-revoke-key.asc
+
+
+#### Schlüssel auf Server widerrufen. 
+
+Emailsadressen auf dem Server sschen auf https://keys.openpgp.org/manage via Double-Opt-In.
+
+Auf Hockeypuck  
 
 Wir senden unseren Keyring, in dem sich jetzt unser Revoke-Key befindet zum Keyserver, um ihn dort zu widerufen.
 Alternativ zur Key-ID kann auch der Fingerabdruck verwendet werden.
-```
-gpg --send-keys 269B69D1
-```
+
+	gpg --send-keys F4F62999C3BA4866
+
 ## Historie dieses Howtos
 
 - 2021-06 - heute: Aktualisierungen und Ergänzungen 
@@ -740,6 +738,8 @@ Credits für den WKD Teil:
 - <https://www.kuketz-blog.de/gnupg-web-key-directory-wkd-einrichten/>
 - <https://lab.uberspace.de/guide_wkd/>
 
+Danke an die Autoren🙏!
+
 ### Weiterführende Artikel
 
 - [GNU Privacy Guard - Wikipedia](http://de.wikipedia.org/wiki/GNU_Privacy_Guard)
@@ -749,7 +749,6 @@ Credits für den WKD Teil:
 - [GnuPG in der Debian-Referenz](https://www.debian.org/doc/manuals/debian-reference/ch10.de.html#_data_security_infrastructure)
 - [GnuPG auf ubuntuusers.de](https://wiki.ubuntuusers.de/GnuPG)
 - [GPG Schlüsselverwaltung für apt-get(Secure APT)](https://linux.spiney.org/gpg_schlusselverwaltung_fur_apt_get)
-- [Das GnuPG Keysigning-Party HOWTO von V. Alex Brennen](https://rhonda.deb.at/projects/gpg-party/gpg-party.de.html)
 - [GPG und Vim](https://wiki.debianforum.de/Vim_mit_gnupg)
 - [RFC2440: OpenPGP Message Format](https://www.ietf.org/rfc/rfc2440.txt)
 - [RFC2015: MIME Security With Pretty Good Privacy(PGP)](https://www.ietf.org/rfc/rfc2015.txt)
@@ -786,9 +785,13 @@ https://packages.debian.org/search?keywords=signing-party)[^5]
 [^domain]: [Domains - Uberspace Manual  ](https://manual.uberspace.de/web-domains.html)
 [^mcl]: [Mailclients mit WKD Unterstützung - GnuPG Wiki](https://wiki.gnupg.org/WKD#Mail_Clients)
 [^zbase32]: [Z-Base-32 converter – cryptii](https://cryptii.com/pipes/z-base-32)
+[^sks1]: [SKS Keyserver Network Under Attack - rjhansen](https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f)
+[^sks2]: [Verschlüsselte Kommunikation: Angriff auf PGP-Keyserver demonstriert hoffnungslose Situation - heise.de](https://www.heise.de/security/meldung/Angriff-auf-PGP-Keyserver-demonstriert-hoffnugslose-Situation-4458354.html)
+[^weboftrust]: [PGP: Der langsame Tod des Web of Trust - heise.de](https://www.heise.de/hintergrund/PGP-Der-langsame-Tod-des-Web-of-Trust-4467052.html)
 
 *[RFC]: Request for Comment
 *[WKD]: Web Key Directory
 *[SSL]: Secure Socket Layer
 *[PGP]: Pretty Good Privacy
 *[HTTPS]: Hypertext Transfer Protocol Secure
+*[SKS]: Synchronizing Key Server
