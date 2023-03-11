@@ -713,15 +713,24 @@ Alternativ zur Key-ID kann auch der Fingerabdruck verwendet werden.
 ```
 gpg --send-keys 269B69D1
 ```
-## Historie
+## Historie dieses Howtos
 
-- Aktualisierungen und Ergänzungen: Juli 2021 bis 2023, 
-basierend auf einem mit gpg 2.2.4 neu erstellten Schlüssel im Juli 2021.
-- Veröffentlicht am 2008-11-26 auf Basis von gpg in der Version 1.4.6
-und pinentry 0.7.2 auf Debian Etch. Getestet wurden:
+- 2021-06 - heute: Aktualisierungen und Ergänzungen 
+basierend auf einem mit gpg 2.2.4 neu erstellten Schlüssel im Juli 2021 unter Ubuntu.
+  - Aktualisierung: Schlüsselerstellung und Subkeys
+  - Neu: WKD und Einrichtung
+  - Neu: Nutzung von keys.openpgp.org 
+  - Überarbeitung: Text allgemein und Struktur
+- 2008-11-26: Veröffentlichung. Basis war gpg in der Version 1.4.6   
+und pinentry 0.7.2 unter Debian Etch.  
+Getestet wurden:
   - Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
   - openSuSE 11 mit gpg2 2.0.9-22.1 und pinentry 0.7.5-5.1
   - Windows Vista mit gnupg-w32cli-1.4.9.exe
+
+Siehe [Changelog](
+https://github.com/fl3a/florian.latzel.io/commits/master/_posts/2008-11-26-gnupg-micro-howto.md) 
+für weitere Details
 
 ## Weiterführendes zu GnuPG
 
