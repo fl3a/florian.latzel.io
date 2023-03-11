@@ -751,3 +751,4 @@ Credits für den WKD Teil
 *[WKD]: Web Key Directory
 *[SSL]: Secure Socket Layer
 *[PGP]: Pretty Good Privacy
+*[HTTPS]: Hypertext Transfer Protocol Secure
