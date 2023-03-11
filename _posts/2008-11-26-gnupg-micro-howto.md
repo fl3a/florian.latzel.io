@@ -706,26 +706,18 @@ und pinentry 0.7.2 auf Debian Etch. Getestet wurden:
   - openSuSE 11 mit gpg2 2.0.9-22.1 und pinentry 0.7.5-5.1
   - Windows Vista mit gnupg-w32cli-1.4.9.exe
 
-## Software für die GnuPG Nutzung
+## Weiterführendes zu GnuPG
 
-Diverse nützliche Software für die Nutzung von GnuPG unter Windows, 
-Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
-
-- [Enigmail - GnuPG Integration für Mozilla Applikationen wie z.B. Thunderbird](https://www.enigmail.net/index.php/en/)
-- [gpg4win - EMail-Sicherheit mit GnuPG für Windows, u.a. Outlook- oder Explorer Integration](https://www.gpg4win.org/index-de.html)
-- [GPG Suite (GPG Tools) für die Nutzung Mac OS, wie z.B. Einbindung in Apple Mail](https://gpgtools.org/)
-- [signing-party - Diverse nützliche OpenPGP für Tools für Keysigning-Partys](https://packages.debian.org/search?keywords=signing-party)[^5]
-
-## Weiterführendes zu GnuPG & Fußnoten
+### Credits
 
 Credits für den WKD Teil:
-- <https://lab.uberspace.de/guide_wkd/>
 - <https://www.kuketz-blog.de/gnupg-web-key-directory-wkd-einrichten/>
+- <https://lab.uberspace.de/guide_wkd/>
 
-Weiterführendes
+### Weiterführende Artikel
 
 - [GNU Privacy Guard - Wikipedia](http://de.wikipedia.org/wiki/GNU_Privacy_Guard)
-- [Das GNU-Handbuch zum Schutze der Privatsphäre](https://www.gnupg.org/gph/de/manual/book1.html)
+- [Das GNU-Handbuch zum Schutze der Privatsphäre (2000)](https://www.gnupg.org/gph/de/manual/book1.html)
 - [Einfach erklärt: E-Mail-Verschlüsselung mit PGP](https://www.heise.de/ct/artikel/Einfach-erklaert-E-Mail-Verschluesselung-mit-PGP-4006652.html)
 - [Die c't-Krypto-Kampagne - Abhörsichere E-Mail mit PGP](https://www.heise.de/security/dienste/Krypto-Kampagne-2111.html)
 - [GnuPG in der Debian-Referenz](https://www.debian.org/doc/manuals/debian-reference/ch10.de.html#_data_security_infrastructure)
@@ -736,7 +728,18 @@ Weiterführendes
 - [RFC2440: OpenPGP Message Format](https://www.ietf.org/rfc/rfc2440.txt)
 - [RFC2015: MIME Security With Pretty Good Privacy(PGP)](https://www.ietf.org/rfc/rfc2015.txt)
 
-Fußnoten
+### Software für die GnuPG Nutzung
+
+Diverse nützliche Software für die Nutzung von GnuPG unter Windows, 
+Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
+
+- [Enigmail - GnuPG Integration und Addons. Ursprünglich für  Thunderbird entwickelt](https://www.enigmail.net/index.php/en/)
+- [gpg4win - GnuPG für Windows, u.a. Outlook- oder Explorer Integration](https://www.gpg4win.org/index-de.html)
+- [GPG Suite (GPG Tools) für die Nutzung Mac OS, wie z.B. Einbindung in Apple Mail](https://gpgtools.org/)
+- [signing-party - Diverse nützliche OpenPGP für Tools für Keysigning-Partys](https://packages.debian.org/search?keywords=signing-party)[^5]
+
+
+### Fußnoten
 
 [^1]: [Public-Key Verschlüsselungsverfahren](https://de.wikipedia.org/wiki/Public-Key-Verschl%C3%BCsselungsverfahren)
 [^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel)
