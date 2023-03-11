@@ -447,7 +447,8 @@ Damit der Webserver die benötigten HTTP-Header ausliefert legen wir eine .htacc
 
 So kommst du an die WKD Hashes der EmailAdressen:\\
 Die sog. hashed-userid, ist ein SHA1 Hash, der aus dem lokalen Teil(User/Prefix),
-der anschließend mit dem *Z-Base-32 Verfahren* kodiert wird.
+der anschließend mit dem *Z-Base-32 Verfahren* kodiert wird[^zbase32].
+
 Die entspricht dem späteren Dateinamen.
 
 
@@ -717,6 +718,10 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 
 ## Weiterführendes zu GnuPG & Fußnoten
 
+Credits für den WKD Teil
+- <https://lab.uberspace.de/guide_wkd/>
+- <https://www.kuketz-blog.de/gnupg-web-key-directory-wkd-einrichten/>
+
 - [GNU Privacy Guard - Wikipedia](http://de.wikipedia.org/wiki/GNU_Privacy_Guard)
 - [Das GNU-Handbuch zum Schutze der Privatsphäre](https://www.gnupg.org/gph/de/manual/book1.html)
 - [Deutsches GPG Mini Howto auf gnupg.org](https://www.gnupg.org/howtos/de/GPGMiniHowto.html#toc1)
@@ -740,3 +745,9 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 [^newkeys]: [Neuer OpenPGP-Keyserver liefert endlich verifizierte Schlüssel - heise.de](https://www.heise.de/security/meldung/Neuer-OpenPGP-Keyserver-liefert-endlich-verifizierte-Schluessel-4450814.html)
 [^domain]: [Domains - Uberspace Manual  ](https://manual.uberspace.de/web-domains.html)
 [^mcl]: [Mailclients mit WKD Unterstützung - GnuPG Wiki](https://wiki.gnupg.org/WKD#Mail_Clients)
+[^zbase32]: [Z-Base-32 converter – cryptii](https://cryptii.com/pipes/z-base-32)
+
+*[RFC]: Request for Comment
+*[WKD]: Web Key Directory
+*[SSL]: Secure Socket Layer
+*[PGP]: Pretty Good Privacy
