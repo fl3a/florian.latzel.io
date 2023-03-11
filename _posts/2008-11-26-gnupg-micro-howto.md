@@ -25,7 +25,7 @@ Verwendungsbeispiele sind verschlüsselte EMailkommunikation
 oder die Sicherstellung der Integrität durch signierte Softwarepakete wie unter Debian.
 
 Dieses Howto beschreibt die Schlüsselerstellung, gebräuchliche Anwendungsfälle,
-das Arbeiten mit Keyservern, Konfiguration von GnuPG auf der Kommandozeile 
+das Arbeiten mit Keyservern, Konfiguration von GnuPG (gpg) auf der Kommandozeile 
 und ist auf alle oben genannten Systeme übertragbar<!--break-->
 
 * toc
@@ -731,12 +731,21 @@ Credits für den WKD Teil:
 ### Software für die GnuPG Nutzung
 
 Diverse nützliche Software für die Nutzung von GnuPG unter Windows, 
-Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
+Android, Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 
-- [Enigmail - GnuPG Integration und Addons. Ursprünglich für  Thunderbird entwickelt](https://www.enigmail.net/index.php/en/)
-- [gpg4win - GnuPG für Windows, u.a. Outlook- oder Explorer Integration](https://www.gpg4win.org/index-de.html)
-- [GPG Suite (GPG Tools) für die Nutzung Mac OS, wie z.B. Einbindung in Apple Mail](https://gpgtools.org/)
-- [signing-party - Diverse nützliche OpenPGP für Tools für Keysigning-Partys](https://packages.debian.org/search?keywords=signing-party)[^5]
+- [Thunderbird Mailclient (unterstützt OpenPGP seit Version 78 direkt)](
+https://www.thunderbird.net/de/)
+- [gpg4win - GnuPG für Windows, 
+u.a. Outlook- (GpgOL) oder Explorer Integration (GpgEX)](
+https://www.gpg4win.org/index-de.html)
+- [OpenKeychain - Android OpenPGP Integration](https://www.openkeychain.org/)
+- [Enigmail - GnuPG Integration und Addons. 
+Ursprünglich für  Thunderbird entwickelt](https://www.enigmail.net/index.php/en/)
+- [GPG Suite (GPG Tools) für die Nutzung Mac OS, 
+wie z.B. Einbindung in Apple Mail](https://gpgtools.org/)
+- [signing-party - 
+Diverse nützliche OpenPGP für Tools für Keysigning-Partys](
+https://packages.debian.org/search?keywords=signing-party)[^5]
 
 
 ### Fußnoten
