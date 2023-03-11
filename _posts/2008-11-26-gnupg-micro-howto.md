@@ -351,9 +351,12 @@ und bekommen wieder den Prompt der Shell zu sehen.
 
 ### ~/.gnupg/options
 
+Grundlegende Konfiguration von gnupg in ~/.gnupg/options
+
 - `default-key`, Schlüssel-ID unseres Hauptschlüssels
 - `keyserver` ist für die Interaktion mit den Keyservern im Internet zuständig
-- `require-cross-certification`, 
+- `require-cross-certification`, Schutz vor sog. *Subtle Angriffen* auf Subkeys beim signieren (Default).
+Siehe auch  `no-require-cross-certification`.
 - `use agent`, Dummy Option, wird immer benötigt
  
 ```
@@ -384,10 +387,13 @@ debug-level basic
 
 ## Web Key Directory (WKD) 
 
-- Einfaches Konzept zur Verteilung öffentlicher PGP-Schlüssel.
-  - Funktionsweise: Auslieferung Via SSL,
-  - Viele Clients wie Thunderbird nutzen WKD autom.
-  - 2 Methoden: Advanced und Direct, ich beziehe mich auf Direct. Schema für Direct: <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb>
+- Einfaches Konzept zur Verteilung öffentlicher PGP-Schlüssel via HTTPS.
+  - Viele Mailcients[^mcl] wie z.B. Thunderbird, Outlook (GpgOL) oder Failmail nutzen WKD autom.
+  - 2 Methoden: Advanced und Direct, ich beziehe mich auf Direct. 
+  - Funktionsweise: Schriitte, Email, Domain, Schema, Auslieferung Via SSL,
+
+
+Schema für Direct: <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb>
   - Verzeichnisstruktur
 
 
@@ -430,7 +436,6 @@ Damit der Webserver die benötigten HTTP-Header ausliefert legen wir eine .htacc
 
 
 ```
-## WEB KEY DIRECTORY ##
 <IfModule mod_mime.c>
    ForceType application/octet-stream
    Header always set Access-Control-Allow-Origin "*"
@@ -441,7 +446,8 @@ Damit der Webserver die benötigten HTTP-Header ausliefert legen wir eine .htacc
 ### Upload der Public Keys in das WKD
 
 So kommst du an die WKD Hashes der EmailAdressen:\\
-Die sog. hashed-userid, ist ein SHA1 Hash, der aus dem lokalen Teil(User/Prefix).
+Die sog. hashed-userid, ist ein SHA1 Hash, der aus dem lokalen Teil(User/Prefix),
+der anschließend mit dem *Z-Base-32 Verfahren* kodiert wird.
 Die entspricht dem späteren Dateinamen.
 
 
@@ -733,3 +739,4 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 [^5]: [Keysigning-Party](https://de.wikipedia.org/wiki/Keysigning-Party)
 [^newkeys]: [Neuer OpenPGP-Keyserver liefert endlich verifizierte Schlüssel - heise.de](https://www.heise.de/security/meldung/Neuer-OpenPGP-Keyserver-liefert-endlich-verifizierte-Schluessel-4450814.html)
 [^domain]: [Domains - Uberspace Manual  ](https://manual.uberspace.de/web-domains.html)
+[^mcl]: [Mailclients mit WKD Unterstützung - GnuPG Wiki](https://wiki.gnupg.org/WKD#Mail_Clients)
