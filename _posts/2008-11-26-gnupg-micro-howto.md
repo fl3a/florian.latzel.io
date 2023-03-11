@@ -2,12 +2,13 @@
 date: 2008-11-26 07:43
 last_modified_at: 2019-03-31 2019-03-31 18:59 
 tags:
-- Datenschutz 
-- gpg 
 - howto 
-- Linux 
+- gpg 
+- Datenschutz 
 - Sicherheit 
 - Verschlüsselung 
+- Linux 
+- uberspace
 layout: post
 permalink: /gnupg-micro-howto.html
 title: GnuPG (GPG) Micro Howto
@@ -17,17 +18,32 @@ image: /assets/imgs/1280px-GnuPG.svg.png
   <img src="/assets/imgs/1280px-GnuPG.svg.png" alt="GnuPG Logo 1280x387" title="GnuPG Logo" />
   <figcaption>GnuPG Logo, Thomas Wittek, GnuPG Projekt, Gemeinfrei</figcaption>
 </figure>
-GnuPG ist eine freie Kryptographiesoftware, 
-die das *OpenPG Message Format* gemäß *RFC 4880[^rfc4880]* implementiert
-und unter Linux, MacOS, Windows sowie anderen unixioden System nutzbar ist.\\
-Diese wird zum Ver- und Entschlüsseln sowie Erzeugung und Überprüfung von Signaturen genutzt,
-Verwendungsbeispiele sind verschlüsselte EMailkommunikation 
-oder die Sicherstellung der Integrität durch signierte Softwarepakete wie unter Debian.
+*Gnu Privavy Guard* oder GnuPG (gpg)  ist eine freie Kryptographiesoftware, 
+die das *OpenPGP Message Format* gemäß *RFC 4880[^rfc4880]* implementiert
+und unter Windows, Android, MacOS und Linux sowie anderen unixioden System verfügbar ist. 
 
-Dieses Howto beschreibt die Schlüsselerstellung, gebräuchliche Anwendungsfälle,
-das Arbeiten mit Keyservern, Konfiguration von GnuPG (gpg) auf der Kommandozeile 
-und ist auf alle oben genannten Systeme übertragbar<!--break-->
+Die primären Anwendungsgebiete sind die Sicherstellung von Integrität
+bzw. vertraulicher digitaler Kommunikation und Privatsphäre.
+Beispiele für Integrität sind signierte Emails
+oder signierte Softwarepakete wie z.B. unter Debian,
+durch die man Echtheit und Quelle überprüfen kann.
+Das wohl bekannteste Beispiel für die Sicherstellung von digitaler Privatsphäre, 
+ist neben dem Ver- und Entschlüsseln von Dateien die verschlüsselte Emailkommunikation
 
+Dieses Howto beschreibt unter anderem die [Erstellung eines GnuPG Schlüsselpaares](
+/gnupg-micro-howto.html#erstellung-eines-gnupg-schlüsselpaares), 
+das [Hinzufügen weiterer Emailadressen als Unterschlüssel](
+/gnupg-micro-howto.html#dem-gpg-key-weitere-email-adressen-unterschlüssel-hinzufügen),
+die [Konfiguration von GnuPG](/gnupg-micro-howto.html#konfiguration-von-gnupg)
+und des GPG-Agents,
+der [Einrichtung eines Web Key Directories (WKD Direct Method)](
+/gnupg-micro-howto.html#wkd-einrichten) 
+und gebräuchliche Anwendungsfälle auf der Kommandozeile (gpg), 
+wie z.B. dem [Arbeiten mit Keyservern](
+/gnupg-micro-howto.html#arbeiten-mit-keyservern)[^4].    
+Es ist auf die oben genannten Systeme übertragbar.<!--break-->
+
+Inhaltverzeichnis
 * toc
 {:toc}
 
@@ -388,7 +404,8 @@ debug-level basic
 ## Web Key Directory (WKD) 
 
 - Einfaches Konzept zur Verteilung öffentlicher PGP-Schlüssel via HTTPS.
-  - Viele Mailcients[^mcl] wie z.B. Thunderbird, Outlook (GpgOL) oder Failmail nutzen WKD autom.
+  - Viele Mailcients[^mcl] wie z.B. Thunderbird, Outlook (GpgOL) 
+oder Failmail (via OpenKeychain) nutzen WKD autom.
   - 2 Methoden: Advanced und Direct, ich beziehe mich auf Direct. 
   - Funktionsweise: Schriitte, Email, Domain, Schema, Auslieferung Via SSL,
 
