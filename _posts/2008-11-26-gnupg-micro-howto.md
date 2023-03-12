@@ -95,7 +95,7 @@ gpg: Verzeichnis `/home/florian/.gnupg' erzeugt
 gpg: Die "Keybox" `/home/florian/.gnupg/pubring.kbx' wurde erstellt
 ```
 
-### Verschüsselungsalgorithmus
+**Verschüsselungsalgorithmus**
 
 Verschüsselungsalgorithmus wählen
 ```
@@ -109,7 +109,7 @@ Ihre Auswahl? 1
 
 Wir entscheiden uns mit `1` für die Voreinstellung RSA und RSA und bestätigen mit Enter.
 
-### Schlüssellänge
+**Schlüssellänge**
 
 Wahl der Länge bzw. Stärke des Schlüssels, voreingestellt 3072.
 
@@ -127,7 +127,7 @@ Die verlangte Schlüssellänge beträgt 4096 Bit
 
 Wir wählen die Voreinstellung und bestätigen diese.
 
-### Gültigkeitzeiraum
+**Gültigkeitzeiraum**
 
 Gültigkeitzeiraum des Schlüssels\\
 Hier kann spezifiziert werden ob und wann der Schlüssel verfällt.
@@ -161,7 +161,7 @@ Ist dies richtig? (j/N) j
 
 Das bestätigen wir mit `y` gefolgt von Enter.
 
-### Name, Email-Adrese und Kommentar
+**Name, Emailadresse und Kommentar**
 
 Jetzt kommen wir zur Eingabe der persönlichen Daten...
 
