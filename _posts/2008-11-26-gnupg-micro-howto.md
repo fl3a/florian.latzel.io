@@ -630,7 +630,7 @@ Public-Key aus Datei importieren. Mit dem folgendem Befehl wird Keyring importie
 gpg --import <Datei>
 ```
 
-### Arbeiten mit Keyservern
+## Arbeiten mit Keyservern
 
 Ende Juni 2019 [^sks1] [^sks2] wurde das SKS Keyserver Netzwerk angegriffen.
 Web of Trust[^weboftrust].
@@ -640,11 +640,11 @@ Web of Trust[^weboftrust].
 - https://keys.mailvelope.com/
 - De-Facto-Standard keys.openpgp.org betrieben mit Hagrid
 
-#### Public-Key auf Keyserver keys.openpgp.org veröffentlichen
+### Public-Key auf keys.openpgp.org veröffentlichen
 
 **Platzhalter für Intro, Screenshots und curl + Double OptIn**[^sks1] [^sks2] [^newkeys]
 
-#### Schlüssel auf Keyserver suchen
+### Schlüssel auf Keyserver suchen
 
 Suche nach EMail-Adresse (uid) 
 
@@ -684,14 +684,16 @@ Suche Teilstring Domain der E-Mail Adresse...
 
 	gpg --keyserver keyserver.ubuntu.com --search-keys 'netzaffe.de' 
 
-#### Public-Key von Keyserver importieren
+### Public-Key von Keyserver importieren
 
 Um einen Public-Key, dessen Key-ID bekannt ist vom Keyserver herunterzuladen, wird die folgende Options verwendet.
 
 	gpg --recv-keys F4F62999C3BA4866
 
 
-#### Schlüssel widerrufen
+### Schlüssel widerrufen
+
+#### Primärschlüssel widerrufen
 
 Den Revoke-Key importieren.
 
@@ -700,7 +702,103 @@ Um den Revoke-Key nutzen zu können, muß dieser in unseren Keyring importiert w
 	gpg --import 269B69D1-revoke-key.asc
 
 
-#### Schlüssel auf Server widerrufen. 
+#### Unterschlüssel (User-ID) widerrufen
+
+	gpg --edit-key B0437BFD2D37E9014F882463768146CD269B69D1
+
+```  
+gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Geheimer Schlüssel ist vorhanden.
+
+sec  dsa1024/768146CD269B69D1
+     erzeugt: 2007-05-25  verfällt: 2021-07-01  Nutzung: SC  
+     Vertrauen: ultimativ     Gültigkeit: ultimativ
+ssb  elg2048/0D12C6401914C2F9
+     erzeugt: 2007-05-25  verfällt: niemals       Nutzung: E   
+[uneingeschränkt] (1). Florian Latzel <florian.latzel@is-loesungen.de>
+[uneingeschränkt] (2)  Florian Latzel (M\xfc\x6cheim ist nett - K\xf6\x6cn- M\xfc\x6cheim Punkt Net - http://koeln-muelheim.net) <floh@koeln-muelheim.net>
+[uneingeschränkt] (3)  Florian "floh" Latzel (gib dem Netzaffen Zucker!) <floh@netzaffe.de>
+[uneingeschränkt] (4)  Florian Latzel (is-loesungen.de) <f.latzel@is-loesungen.de>
+[uneingeschränkt] (5)  Florian Latzel <f.latzel@is-loesungen.de>
+[ widerrufen] (6)  Florian Latzel <latzel@silpion.de>
+[ widerrufen] (7)  Florian Latzel <florian@datengarten.com>
+[ widerrufen] (8)  Florian Latzel <florian@funpromotion.eu>
+[uneingeschränkt] (9)  Florian Latzel (Reinblau CMS Framworkers) <florian.latzel@reinblau.de>
+[uneingeschränkt] (10)  Florian Latzel <developer@optona.de>
+[uneingeschränkt] (11)  Florian Latzel <florian.latzel@gmail.com>
+```  
+
+	gpg> 9
+
+
+```  
+sec  dsa1024/768146CD269B69D1
+     erzeugt: 2007-05-25  verfällt: 2021-07-01  Nutzung: SC  
+     Vertrauen: ultimativ     Gültigkeit: ultimativ
+ssb  elg2048/0D12C6401914C2F9
+     erzeugt: 2007-05-25  verfällt: niemals       Nutzung: E   
+[uneingeschränkt] (1). Florian Latzel <florian.latzel@is-loesungen.de>
+[uneingeschränkt] (2)  Florian Latzel (M\xfc\x6cheim ist nett - K\xf6\x6cn- M\xfc\x6cheim Punkt Net - http://koeln-muelheim.net) <floh@koeln-muelheim.net>
+[uneingeschränkt] (3)  Florian "floh" Latzel (gib dem Netzaffen Zucker!) <floh@netzaffe.de>
+[uneingeschränkt] (4)  Florian Latzel (is-loesungen.de) <f.latzel@is-loesungen.de>
+[uneingeschränkt] (5)  Florian Latzel <f.latzel@is-loesungen.de>
+[ widerrufen] (6)  Florian Latzel <latzel@silpion.de>
+[ widerrufen] (7)  Florian Latzel <florian@datengarten.com>
+[ widerrufen] (8)  Florian Latzel <florian@funpromotion.eu>
+[uneingeschränkt] (9)* Florian Latzel (Reinblau CMS Framworkers) <florian.latzel@reinblau.de>
+[uneingeschränkt] (10)  Florian Latzel <developer@optona.de>
+[uneingeschränkt] (11)  Florian Latzel <florian.latzel@gmail.com>
+```  
+
+	revuid
+
+
+	Diese User-ID wirklich widerrufen? (j/N) j
+
+```  
+Grund für den Widerruf:
+  0 = Kein Grund angegeben
+  4 = User-ID ist nicht mehr gültig
+  Q = Abbruch
+(Wahrscheinlich möchten Sie hier 4 auswählen)
+```  
+
+	Ihre Auswahl? 4
+	
+```  
+Geben Sie eine optionale Beschreibung ein. Beenden mit einer leeren Zeile:
+> 
+```  
+```  
+Grund für Widerruf: User-ID ist nicht mehr gültig
+(Keine Beschreibung angegeben)
+```  
+
+	Ist das OK? (j/N) j
+
+```  
+sec  dsa1024/768146CD269B69D1
+     erzeugt: 2007-05-25  verfällt: 2021-07-01  Nutzung: SC  
+     Vertrauen: ultimativ     Gültigkeit: ultimativ
+ssb  elg2048/0D12C6401914C2F9
+     erzeugt: 2007-05-25  verfällt: niemals       Nutzung: E   
+[uneingeschränkt] (1). Florian Latzel <florian.latzel@is-loesungen.de>
+[uneingeschränkt] (2)  Florian Latzel (M\xfc\x6cheim ist nett - K\xf6\x6cn- M\xfc\x6cheim Punkt Net - http://koeln-muelheim.net) <floh@koeln-muelheim.net>
+[uneingeschränkt] (3)  Florian "floh" Latzel (gib dem Netzaffen Zucker!) <floh@netzaffe.de>
+[uneingeschränkt] (4)  Florian Latzel (is-loesungen.de) <f.latzel@is-loesungen.de>
+[uneingeschränkt] (5)  Florian Latzel <f.latzel@is-loesungen.de>
+[ widerrufen] (6)  Florian Latzel <latzel@silpion.de>
+[ widerrufen] (7)  Florian Latzel <florian@datengarten.com>
+[ widerrufen] (8)  Florian Latzel <florian@funpromotion.eu>
+[ widerrufen] (9)  Florian Latzel (Reinblau CMS Framworkers) <florian.latzel@reinblau.de>
+[uneingeschränkt] (10)  Florian Latzel <developer@optona.de>
+[uneingeschränkt] (11)  Florian Latzel <florian.latzel@gmail.com>
+```  
+
+#### Schlüssel auf Keyserver widerrufen. 
 
 Emailsadressen auf dem Server sschen auf https://keys.openpgp.org/manage via Double-Opt-In.
 
@@ -716,9 +814,10 @@ Alternativ zur Key-ID kann auch der Fingerabdruck verwendet werden.
 - 2021-06 - heute: Aktualisierungen und Ergänzungen 
 basierend auf einem mit gpg 2.2.4 neu erstellten Schlüssel im Juli 2021 unter Ubuntu.
   - Aktualisierung: Schlüsselerstellung und Subkeys
+  - Überarbeitung: Text allgemein und Struktur
   - Neu: WKD und Einrichtung
   - Neu: Nutzung von keys.openpgp.org 
-  - Überarbeitung: Text allgemein und Struktur
+  - Neu: User-ID widerrufen (revuid)
 - 2008-11-26: Veröffentlichung. Basis war gpg in der Version 1.4.6   
 und pinentry 0.7.2 unter Debian Etch.  
 Getestet wurden:
