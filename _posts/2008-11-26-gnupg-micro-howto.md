@@ -283,13 +283,15 @@ Drucksystem kann unter Umständen anderen Nutzern eine Kopie zugänglich
 machen.
 ```
 
-## Dem GPG-Key weitere Email Adressen (Unterschlüssel) hinzufügen
-
+## Unterschlüssel: mehrere Emailadressen mit einem GPG-Key nutzen
 
 Mehrere Email Adressen mit einem GPG-Key nutzen.
 
 Statt der Erstellung eines neuen Schlüssels für jede weitere Emailadresse,
 besteht die Möglichkeit einem Schlüssel weitere Identitäten hinzufügen. 
+
+### Weitere Emailadresse (User-ID) hinzufügen
+
 ```
 gpg --edit-key 3F9F644542DD63E82165D376F4F62999C3BA4866
 ```
@@ -362,6 +364,56 @@ gpg> save
 ```
 Nach dem Speichern mit `save` verlassen wir den interaktiven Modus von gpg 
 und bekommen wieder den Prompt der Shell zu sehen.
+
+### Unterschlüssel (User-ID) entfernen
+
+	gpg --edit-key B0437BFD2D37E9014F882463768146CD269B69D1
+
+
+```
+Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
+pub  dsa1024/768146CD269B69D1
+     erzeugt: 2007-05-25  widerrufen: 2007-05-27  Nutzung: SC  
+     Vertrauen: unbekannt     Gültigkeit: widerrufen
+Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
+sub  elg2048/0D12C6401914C2F9
+     erzeugt: 2007-05-25  widerrufen: 2007-05-27  Nutzung: E   
+[ widerrufen] (1)  Florian Latzel <florian.latzel@is-loesungen.de>
+[ widerrufen] (2)  Florian Latzel <f.latzel@is-loesungen.de>
+```
+
+	gpg> uid 1
+
+```
+Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
+pub  dsa1024/768146CD269B69D1
+     erzeugt: 2007-05-25  widerrufen: 2007-05-27  Nutzung: SC  
+     Vertrauen: unbekannt     Gültigkeit: widerrufen
+Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
+sub  elg2048/0D12C6401914C2F9
+     erzeugt: 2007-05-25  widerrufen: 2007-05-27  Nutzung: E   
+[ widerrufen] (1)* Florian Latzel <florian.latzel@is-loesungen.de>
+[ widerrufen] (2)  Florian Latzel <f.latzel@is-loesungen.de>
+```
+
+	gpg> deluid
+
+
+
+	Diese User-ID wirklich entfernen? (j/N) y
+
+```
+Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
+pub  dsa1024/768146CD269B69D1
+     erzeugt: 2007-05-25  widerrufen: 2007-05-27  Nutzung: SC  
+     Vertrauen: unbekannt     Gültigkeit: widerrufen
+Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
+sub  elg2048/0D12C6401914C2F9
+     erzeugt: 2007-05-25  widerrufen: 2007-05-27  Nutzung: E   
+[ widerrufen] (1)  Florian Latzel <f.latzel@is-loesungen.de>
+```
+
+	gpg> save
 
 ## Konfiguration von GnuPG
 
@@ -815,6 +867,7 @@ Alternativ zur Key-ID kann auch der Fingerabdruck verwendet werden.
 basierend auf einem mit gpg 2.2.4 neu erstellten Schlüssel im Juli 2021 unter Ubuntu.
   - Aktualisierung: Schlüsselerstellung und Subkeys
   - Überarbeitung: Text allgemein und Struktur
+  - Neu: User-ID entfernen (deluid)
   - Neu: WKD und Einrichtung
   - Neu: Nutzung von keys.openpgp.org 
   - Neu: User-ID widerrufen (revuid)
