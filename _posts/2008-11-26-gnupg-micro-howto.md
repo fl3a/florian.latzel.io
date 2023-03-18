@@ -437,7 +437,7 @@ debug-level basic
 
 ## Web Key Directory (WKD) 
 
-- Einfaches Konzept zur Verteilung öffentlicher PGP-Schlüssel via HTTPS.
+- WKD[^wkd]  Einfaches Konzept zur Verteilung öffentlicher PGP-Schlüssel via HTTPS.
   - Viele Mailcients[^mcl] wie z.B. Thunderbird, Outlook (GpgOL) 
 oder Failmail (via OpenKeychain) nutzen WKD autom.
   - 2 Methoden: Advanced und Direct, ich beziehe mich auf Direct. 
@@ -914,6 +914,7 @@ https://packages.debian.org/search?keywords=signing-party)[^5]
 [^sks1]: [SKS Keyserver Network Under Attack - rjhansen](https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f)
 [^sks2]: [Verschlüsselte Kommunikation: Angriff auf PGP-Keyserver demonstriert hoffnungslose Situation - heise.de](https://www.heise.de/security/meldung/Angriff-auf-PGP-Keyserver-demonstriert-hoffnugslose-Situation-4458354.html)
 [^weboftrust]: [PGP: Der langsame Tod des Web of Trust - heise.de](https://www.heise.de/hintergrund/PGP-Der-langsame-Tod-des-Web-of-Trust-4467052.html)
+[^wkd]: [Web Key Service: OpenPGP-Schlüssel über HTTPS verteilen - golem.de](https://www.golem.de/news/web-key-service-openpgp-schluessel-ueber-https-verteilen-1609-123194.html)
 
 *[RFC]: Request for Comment
 *[WKD]: Web Key Directory
