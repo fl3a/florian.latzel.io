@@ -78,9 +78,7 @@ also dem Benutzer unter dem der Key auch genutzt werden soll auszuführen.
 Andernfalls müssen der Ort durch `--homedir` angegeben
 und ggf. Berechtigungen angepasst werden.
 
-```
-gpg --full-generate-key 
-```
+	gpg --full-generate-key 
 
 Anstelle der `--full-generate-key` kann auch `--gen-key` verwendet werden,
 es werden aber deutlich mehr Voreinstellungen, wie z.B. die Schlüsselgröße von 3072 Bits
@@ -119,12 +117,8 @@ Welche Schlüssellänge wünschen Sie? (3072) 4096
 ```
 
 Wir wählen den Maximalwert von `4096` und bestätigen mit Enter.\\
-Es folgt die Quittierung von GnuPG:
-
-```
-Die verlangte Schlüssellänge beträgt 4096 Bit
-```
-
+Es folgt die Quittierung von GnuPG: 
+`Die verlangte Schlüssellänge beträgt 4096 Bit`.
 Wir wählen die Voreinstellung und bestätigen diese.
 
 **Gültigkeitzeiraum**
@@ -147,11 +141,7 @@ Wie lange bleibt der Schlüssel gültig? (0) 2y
 
 Wir möchten, dass unser Schlüssel 2 Jahr gültig ist und geben entsprechend
 `2y` über die Tastatur ein. 
-Nach einem Enter quittiert gpg:
-
-```
-Key verfällt am Sa 01 Jul 2023 13:12:45 CEST
-```
+Nach einem Enter quittiert gpg: `Key verfällt am Sa 01 Jul 2023 13:12:45 CEST`.
 
 Anschließend wird die Eingabe nochmal hinterfragt:
 
@@ -159,42 +149,39 @@ Anschließend wird die Eingabe nochmal hinterfragt:
 Ist dies richtig? (j/N) j
 ```
 
-Das bestätigen wir mit `y` gefolgt von Enter.
+Das bestätigen wir mit `j` gefolgt von Enter.
 
 **Name, Emailadresse und Kommentar**
 
 Jetzt kommen wir zur Eingabe der persönlichen Daten...
 
-```
-GnuPG erstellt eine User-ID, um Ihren Schlüssel identifizierbar zu machen.
-```
+
+	GnuPG erstellt eine User-ID, um Ihren Schlüssel identifizierbar zu machen.
+
 
 Voller bzw. Realname:
-```
-Ihr Name: Florian Latzel
-```
+
+	Ihr Name: Florian Latzel
+
 
 Die Email-Adresse, die unsere spätere UID wird...
-```
-Email-Adresse: florian@latzel.io
-```
+
+	Email-Adresse: florian@latzel.io
+
 
 Die Email-Adresse `florian@latzel.io`, gefolgt von Enter.
 
 Und ein optionaler Kommentar, den wir mit Enter überspingen.
-```
-Kommentar: 
-```
+
+	Kommentar: 
 
 Es folgt eine letzte Überprüfung:
 ```
 Sie haben diese User-ID gewählt:
     "Florian Latzel <florian@latzel.io>"
-```
-
-```
 Ändern: (N)ame, (K)ommentar, (E)-Mail oder (F)ertig/(A)bbrechen? F
 ```
+
 Wir wollen die Schlüsselerstellung abschließen und geben `F` gefolgt von Enter ein. 
 
 ```
@@ -292,9 +279,8 @@ besteht die Möglichkeit einem Schlüssel weitere Identitäten hinzufügen.
 
 ### Weitere Emailadresse (User-ID) hinzufügen
 
-```
-gpg --edit-key 3F9F644542DD63E82165D376F4F62999C3BA4866
-```
+	gpg --edit-key 3F9F644542DD63E82165D376F4F62999C3BA4866
+
 ```
 gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
@@ -310,27 +296,24 @@ ssb  rsa4096/4260D8234C49E8D6
 [uneingeschränkt] (1). Florian Latzel <florian@latzel.io>
 ```
 
-Wir befinden uns jetzt im interaktiven Modus von gnupg, 
+Wir befinden uns jetzt im interaktiven Modus von gnupg (erkennbar im Prompt `gpg>`), 
 mit `adduid` initieren die Erstellung des Unterschlüssels.
-```
-gpg> adduid
-```
+
+	adduid
 
 Wie bei der Erstellung des Schlüssels, 
 wird bei dem Erzeugen eines Unterschlüssels nach einem Namen...
-```
-Ihr Name: Florian Latzel
-```
+
+	Ihr Name: Florian Latzel
 
 und einer Email-Adresse gefragt.
-```
-Email-Adresse: florian.latzel@is-loesungen.de
-```
+
+	Email-Adresse: florian.latzel@is-loesungen.de
+
 
 Kommentar: Wenn gewollt, kann auch der Unterschlüssel kommentiert werden.
-```
-Kommentar: 
-```
+	
+	Kommentar: 
 
 Abschließend eine Zusammenfassung der gemachten Angaben, 
 die wir mit `F` bestätigen:
@@ -359,9 +342,8 @@ ssb  rsa4096/4260D8234C49E8D6
 [ unbekannt] (2). Florian Latzel <florian.latzel@is-loesungen.de>
 ```
 
-```
-gpg> save 
-```
+	save
+ 
 Nach dem Speichern mit `save` verlassen wir den interaktiven Modus von gpg 
 und bekommen wieder den Prompt der Shell zu sehen.
 
@@ -382,7 +364,7 @@ sub  elg2048/0D12C6401914C2F9
 [ widerrufen] (2)  Florian Latzel <f.latzel@is-loesungen.de>
 ```
 
-	gpg> uid 1
+	uid 1
 
 ```
 Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
@@ -396,11 +378,11 @@ sub  elg2048/0D12C6401914C2F9
 [ widerrufen] (2)  Florian Latzel <f.latzel@is-loesungen.de>
 ```
 
-	gpg> deluid
+	deluid
 
+Bestätigung
 
-
-	Diese User-ID wirklich entfernen? (j/N) y
+	Diese User-ID wirklich entfernen? (j/N) j
 
 ```
 Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
@@ -413,7 +395,7 @@ sub  elg2048/0D12C6401914C2F9
 [ widerrufen] (1)  Florian Latzel <f.latzel@is-loesungen.de>
 ```
 
-	gpg> save
+	save
 
 ## Konfiguration von GnuPG
 
@@ -632,55 +614,47 @@ Für eine Sicherheitskopie oder das Arbeiten auf mehreren Maschinen exportieren 
 Dieser sollte auf einem externen Datenträger gespeichert und an einem sicheren Ort aufbewahrt werden.
 
 Um den den Schlüssel auf einen anderen Rechner zu transferieren sollte eine verschlüsselte Verbindung benutzt werden.
-```
-gpg --export-secret-key 269B69D1 > 269B69D1-private.key
-```
+
+	gpg --export-secret-key 269B69D1 > 269B69D1-private.key
 
 Private-Keys auflisten. Analog zur Auflistung der Public-Keys geht dies auch mit den Private-Keys,
 alternativ steht noch -K als Shortoption zur Verfügung.
-```
-gpg --list-private-keys
-```
+
+	gpg --list-private-keys
 
 Private-Key löschen. Um einen privaten Key zu löschen wird das folgende Kommando verwendet, 
 der zu löschende Schlüssel muss durch Key-ID oder EMail angegeben werden.
-```
-gpg --delete-private-keys 269B69D1
-```
+
+	gpg --delete-private-keys 269B69D1
 
 ### Arbeiten mit Public-Keys
 
 Operationen mit den Public-Keys.
 
 Public-Keys auflisten. Erzeugt eine Auflistung aller Public-Keys im Keyring.
-```
-gpg --list-keys
-```
+	
+	gpg --list-keys
 
 Es erscheint unser frisch erzeugter Schlüssel
 
 Fingerprint ausgeben. Analog zur Ausgabe wie mit --list-keys lässt zusätzlich noch der Fingerprint anzeigen.
-```
-gpg --fingerprint
-```
+
+	gpg --fingerprint
 
 Der Fingerprint besteht aus 10 4er Paaren(hexadezimal), die letzen 2 4er Paare sind gleichzeitig die Key-ID.
 Die Key-ID müssen wir uns für den nächsten Schritt merken.
-```
-B043 7BFD 2D37 E901 4F88 2463 7681 46CD 269B 69D1
-```
+
+	B043 7BFD 2D37 E901 4F88 2463 7681 46CD 269B 69D1
 
 Public-Keys in Datei exportieren. 
 
 Den Public-Key in eine ASCII-Armored Datei exportieren, die Angabe des Schlüssels erfolgt über Key-ID oder die E-Mailadresse.
-```
-gpg --export -a -o f-punkt-latzel-ät-loesungen-de.asc f punkt-latzel ät loesungen punkt de
-```
+
+	gpg --export -a -o florian-at-latzel-io.asc florian@latzel.io
 
 Public-Key aus Datei importieren. Mit dem folgendem Befehl wird Keyring importiert.
-```
-gpg --import <Datei>
-```
+
+	gpg --import <Datei>
 
 ## Arbeiten mit Keyservern
 
@@ -783,7 +757,7 @@ ssb  elg2048/0D12C6401914C2F9
 [uneingeschränkt] (11)  Florian Latzel <florian.latzel@gmail.com>
 ```  
 
-	gpg> 9
+	9
 
 
 ```  
