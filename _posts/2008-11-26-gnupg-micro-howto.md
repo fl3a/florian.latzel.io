@@ -188,9 +188,6 @@ Wir wollen die Schlüsselerstellung abschließen und geben `F` gefolgt von Enter
 Wir müssen eine ganze Menge Zufallswerte erzeugen.  Sie können dies
 unterstützen, indem Sie z.B. in einem anderen Fenster/Konsole irgendetwas
 tippen, die Maus verwenden oder irgendwelche anderen Programme benutzen.
-Wir müssen eine ganze Menge Zufallswerte erzeugen.  Sie können dies
-unterstützen, indem Sie z.B. in einem anderen Fenster/Konsole irgendetwas
-tippen, die Maus verwenden oder irgendwelche anderen Programme benutzen.
 gpg: /home/florian/.gnupg/trustdb.gpg: trust-db erzeugt
 gpg: Schlüssel F4F62999C3BA4866 ist als ultimativ vertrauenswürdig gekennzeichnet
 gpg: Verzeichnis `/home/florian/.gnupg/openpgp-revocs.d' erzeugt
@@ -658,10 +655,10 @@ Public-Key aus Datei importieren. Mit dem folgendem Befehl wird Keyring importie
 
 ## Arbeiten mit Keyservern
 
-Ende Juni 2019 [^sks1] [^sks2] wurde das SKS Keyserver Netzwerk angegriffen.
+Ende Juni 2019 [^sks1] [^sks2] wurde das *SKS Keyserver Netzwerk* wiedermal angegriffen.
 Web of Trust[^weboftrust].
 - GnuPG Version 2.2.17 ignorierte standardmäßig alle Signaturen, die von einem Keyserver stammen. 
-- SKS abgeschaltet 
+- SKS abgeschaltet[^sks-aus]
 - keyserver.ubuntu.com mit hockeypuck
 - https://keys.mailvelope.com/
 - De-Facto-Standard keys.openpgp.org betrieben mit Hagrid
@@ -837,17 +834,20 @@ Alternativ zur Key-ID kann auch der Fingerabdruck verwendet werden.
 
 ## Historie dieses Howtos
 
-- 2021-06 - heute: Aktualisierungen und Ergänzungen 
-basierend auf einem mit gpg 2.2.4 neu erstellten Schlüssel im Juli 2021 unter Ubuntu.
+- 2021-07    
+Aktualisierungen und Ergänzungen basierend auf einem in Juli 2021    
+mit gpg 2.2.4 erstellten Schlüssel.
   - Aktualisierung: Schlüsselerstellung und Subkeys
   - Überarbeitung: Text allgemein und Struktur
   - Neu: User-ID entfernen (deluid)
   - Neu: WKD und Einrichtung
   - Neu: Nutzung von keys.openpgp.org 
   - Neu: User-ID widerrufen (revuid)
-- 2008-11-26: Veröffentlichung. Basis war gpg in der Version 1.4.6   
-und pinentry 0.7.2 unter Debian Etch.  
-Getestet wurden:
+- 2008-11-26    
+Veröffentlichung auf netzaffe.de.    
+Als Grundlage diente ein Skript, welches während meiner Linux Dozententätigkeit entstand.    
+Dieses Skript basierte auf gpg in der Version 1.4.6 und pinentry 0.7.2 unter Debian Etch   
+und wurde unter anderem getestet auf/mit:     
   - Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
   - openSuSE 11 mit gpg2 2.0.9-22.1 und pinentry 0.7.5-5.1
   - Windows Vista mit gnupg-w32cli-1.4.9.exe
@@ -915,6 +915,8 @@ https://packages.debian.org/search?keywords=signing-party)[^5]
 [^sks2]: [Verschlüsselte Kommunikation: Angriff auf PGP-Keyserver demonstriert hoffnungslose Situation - heise.de](https://www.heise.de/security/meldung/Angriff-auf-PGP-Keyserver-demonstriert-hoffnugslose-Situation-4458354.html)
 [^weboftrust]: [PGP: Der langsame Tod des Web of Trust - heise.de](https://www.heise.de/hintergrund/PGP-Der-langsame-Tod-des-Web-of-Trust-4467052.html)
 [^wkd]: [Web Key Service: OpenPGP-Schlüssel über HTTPS verteilen - golem.de](https://www.golem.de/news/web-key-service-openpgp-schluessel-ueber-https-verteilen-1609-123194.html)
+[^sks-aus]: [ SKS: Das Ende der alten PGP-Keyserver - golem.de](https://www.golem.de/news/sks-das-ende-der-alten-pgp-keyserver-2106-157613.html)
+
 
 *[RFC]: Request for Comment
 *[WKD]: Web Key Directory
