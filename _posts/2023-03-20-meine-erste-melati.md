@@ -4,8 +4,9 @@ layout: post
 tags:
 - Pencak Silat
 - Learnings
+image: /assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png %}
 ---
-{%responsive_image path: assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png %}
+{%responsive_image path: assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png%}
 Seit Winter 2021 lerne ich [Pencak Silat](
 https://www.tapak-suci.de/was-ist-pencak-silat/) 
 im [Tapak Suci Stil](
