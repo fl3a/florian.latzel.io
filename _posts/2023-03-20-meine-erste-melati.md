@@ -6,7 +6,8 @@ tags:
 - Learnings
 image: /assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png %}
 ---
-{%responsive_image path: assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png%}
+{%responsive_image path: assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png
+alt: "Tapak Suci Anzug mit gelbem Grürtel und einer Melati"  %}
 Seit Winter 2021 lerne ich [Pencak Silat](
 https://www.tapak-suci.de/was-ist-pencak-silat/) 
 im [Tapak Suci Stil](
