@@ -23,7 +23,7 @@ neue Rolle, neue Aufgaben, neue Verantwortungen, neuer Tribe, neue Prozesse.
 
 ## Now reading
 
-- Die Coaching Schatzkiste von Martin Wehrle
+- Die Coaching-Schatzkiste von Martin Wehrle
 - Wirksam werden im Kontakt: Die systemische Haltung im Coaching 
 von Mechtild Erpenbeck 
 
