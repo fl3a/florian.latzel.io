@@ -4,6 +4,7 @@ layout: post
 tags:
 - Pencak Silat
 - Learnings
+- Kampfkunst
 image: /assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png %}
 ---
 {%responsive_image path: assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png
