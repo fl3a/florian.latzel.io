@@ -8,8 +8,8 @@ tags:
 - PostgreSQL
 last_modified_at: 2020-08-08
 ---
-Geschrieben im August 2003 als SOnstige LEIstung, eine Webseite  für das Fach  INTernetprogrammierung während der Zeit am <a href="http://www.bib.de/b.i.b._International_College_Bergisch_Gladbach.aspx">b.i.b.  in Bergisch-Gladbach</a><br/>
-<p>Um für die Übungen im Fach DAtenBanken nicht ins Rechenzentum nach  Bergisch Gladbach fahren zu müssen, habe auf meiner lokalen Maschine, damals noch Windows 2000 eine Postgres-Instanz unter Cygwin installiert, hierbei entstand das Shellskript </p>
+Geschrieben im August 2003 als *Sonstige Leistung*, eine Webseite  für das Fach  Internetprogrammierung während der Zeit am <a href="http://www.bib.de/b.i.b._International_College_Bergisch_Gladbach.aspx">b.i.b.  in Bergisch-Gladbach</a><br/>
+<p>Um für die Übungen im Fach Datenbanken nicht ins Rechenzentum nach  Bergisch Gladbach fahren zu müssen, habe auf meiner lokalen Maschine, damals noch Windows 2000 eine Postgres-Instanz unter Cygwin installiert, hierbei entstand das Shellskript </p><!--break-->
 <p>Während der Überarbeitung dieses Artikel, bin ich darauf gestoßen, daß cygipc mittlerweile Bestandteil von Cygwin ist und es bereits grafische Installer für Windows gibt..</p>
 
 <h2>Was ist PostgreSQL?</h2>
