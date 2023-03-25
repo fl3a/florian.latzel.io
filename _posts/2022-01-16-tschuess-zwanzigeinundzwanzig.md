@@ -2,7 +2,6 @@
 title: Tschüss Zwanzigeinundzwanzig...
 layout: post
 tags:
-- Tod
 - Trauer
 - Achtsamkeit
 - REWE digital
@@ -10,6 +9,7 @@ tags:
 - Wandern
 - Rheinsteig
 - Pencak Silat
+- Kampfkunst
 - Danksagung
 toc: true
 date: 2022-01-16 23:01
