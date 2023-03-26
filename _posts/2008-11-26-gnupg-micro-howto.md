@@ -598,14 +598,17 @@ uid        [uneingeschränkt] Florian Latzel <florian.latzel@gmail.com>
 sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
 ```
 
-
 ## Arbeiten mit GnuPG
 
 Eine Kurzreferenz von GnuPG-Befehlen und -Optionen die öfter mal benutzt werden.
 
-### Arbeiten mit Private-Keys
+### Private Keys auflisten
 
-Sichern der Private-Keys. 
+Anzeigen aller Private-Keys, alternativ steht noch `-K` als Shortoption zur Verfügung.
+
+	gpg --list-private-keys
+
+### Export eines Private-Keys 
 
 Für eine Sicherheitskopie oder das Arbeiten auf mehreren Maschinen exportieren wir den Geheimen Schlüssel (Private Key).
 Dieser sollte auf einem externen Datenträger gespeichert und an einem sicheren Ort aufbewahrt werden.
@@ -614,25 +617,23 @@ Um den den Schlüssel auf einen anderen Rechner zu transferieren sollte eine ver
 
 	gpg --export-secret-key 269B69D1 > 269B69D1-private.key
 
-Private-Keys auflisten. Analog zur Auflistung der Public-Keys geht dies auch mit den Private-Keys,
-alternativ steht noch -K als Shortoption zur Verfügung.
-
-	gpg --list-private-keys
+### Private Key löschen
 
 Private-Key löschen. Um einen privaten Key zu löschen wird das folgende Kommando verwendet, 
 der zu löschende Schlüssel muss durch Key-ID oder EMail angegeben werden.
 
 	gpg --delete-private-keys 269B69D1
 
-### Arbeiten mit Public-Keys
 
-Operationen mit den Public-Keys.
+### Public-Keys auflisten
 
 Public-Keys auflisten. Erzeugt eine Auflistung aller Public-Keys im Keyring.
 	
 	gpg --list-keys
 
 Es erscheint unser frisch erzeugter Schlüssel
+
+### Fingerprint ausgeben
 
 Fingerprint ausgeben. Analog zur Ausgabe wie mit --list-keys lässt zusätzlich noch der Fingerprint anzeigen.
 
@@ -643,13 +644,15 @@ Die Key-ID müssen wir uns für den nächsten Schritt merken.
 
 	B043 7BFD 2D37 E901 4F88 2463 7681 46CD 269B 69D1
 
-Public-Keys in Datei exportieren. 
+### Public-Keys in Datei exportieren. 
 
 Den Public-Key in eine ASCII-Armored Datei exportieren, die Angabe des Schlüssels erfolgt über Key-ID oder die E-Mailadresse.
 
 	gpg --export -a -o florian-at-latzel-io.asc florian@latzel.io
 
-Public-Key aus Datei importieren. Mit dem folgendem Befehl wird Keyring importiert.
+### Public-Key aus Datei importieren
+
+Mit dem folgendem Befehl wird Keyring importiert:
 
 	gpg --import <Datei>
 
