@@ -2,13 +2,13 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-03-24 09:06
+last_modified_at: 2023-03-26 12:16
 ---
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).   
 ## Lernen
 
-- Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](https://www.tapak-suci.de/).   
+- Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](/tags/pencak-silat).   
 - Ich lerne jobbedingt gerade viel über Veränderungen🙃.
 
 ## Neuer Job
@@ -24,6 +24,7 @@ neue Rolle, neue Aufgaben, neue Verantwortungen, neuer Tribe, neue Prozesse.
 ## Now reading
 
 - Die Coaching-Schatzkiste von Martin Wehrle
+- Faktotum von Charles Bukowski
 - Wirksam werden im Kontakt: Die systemische Haltung im Coaching 
 von Mechtild Erpenbeck 
 
