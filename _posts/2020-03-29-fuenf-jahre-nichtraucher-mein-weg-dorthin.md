@@ -8,6 +8,7 @@ tags:
 - Home Office
 - Rauch
 - Jeet Kune Do
+- Kampfkunst
 - Gesundheit
 image: /assets/imgs/voller-aschenbecher-brinkhoffs.jpg
 ---

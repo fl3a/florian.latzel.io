@@ -2,7 +2,6 @@
 title: Tschüss Zwanzigeinundzwanzig...
 layout: post
 tags:
-- Tod
 - Trauer
 - Achtsamkeit
 - REWE digital
@@ -10,6 +9,7 @@ tags:
 - Wandern
 - Rheinsteig
 - Pencak Silat
+- Kampfkunst
 - Danksagung
 toc: true
 date: 2022-01-16 23:01
@@ -233,7 +233,7 @@ Mitte Oktober habe ich mit [Witali](https://www.witali.org/)
 als Coach die [Walkaboutyou](https://walkaboutyou.org) 
 durch den Königsforst facilitiert 
 und einen Teil mit Wahrnehmung und [tiefem Naturempfinden](
-wildnistraining.html) angeboten. \\
+/wildnistraining.html) angeboten. \\
 Das war das Feedback einer Teilnehmerin nach diesem besagten Teil:
 
 > Ich fühle mich gerade wie ein Baum, so als würde ich hier einfach dazu gehören.[^walk-ln]
