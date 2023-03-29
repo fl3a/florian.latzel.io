@@ -781,6 +781,7 @@ ssb  elg2048/0D12C6401914C2F9
 
 	revuid
 
+^
 
 	Diese User-ID wirklich widerrufen? (j/N) j
 
@@ -840,8 +841,8 @@ Alternativ zur Key-ID kann auch der Fingerabdruck verwendet werden.
 - 2021-07    
 Aktualisierungen und Ergänzungen basierend auf einem in Juli 2021    
 mit gpg 2.2.4 erstellten Schlüssel.
-  - Aktualisierung: Schlüsselerstellung und Subkeys
   - Überarbeitung: Text allgemein und Struktur
+  - Aktualisierung: Schlüsselerstellung und Subkeys
   - Neu: User-ID entfernen (deluid)
   - Neu: WKD und Einrichtung
   - Neu: Nutzung von keys.openpgp.org 
