@@ -24,8 +24,7 @@ Festangestellt
 - REWE digital, *Scrum Master* (04.2018 - 07.2022)
 
 Freiberuflich
-- [walkaboutyou](https://walkaboutyou.org), 
-Natur & Wandercoach (10.2021 - heute)
+- Systemischer Coach (11.2022 - heute)
 - [paragraph eins](https://www.paragraph1.de), 
 *Scrum Master* bei REWE digital (07.2017-03.2018)
 - RHM Media, *Scrum Master*, 
@@ -41,6 +40,9 @@ via Reinblau (2013)
 
 ## Als Facilitator
 
+
+- Outdoor-Facilitator für mehr Fokus, Resilienz und Wir-Gefühl, 
+[walkaboutyou](https://walkaboutyou.org) (10.2021 - heute)
 - Zusammenarbeit und Teambuildung
   - div. Retrospektiven, REWE digital und REWE GROUP (2017 - 2022)
   - div. Teambuildbuildings, REWE digital und REWE Group  (2020 - 2022)
@@ -59,10 +61,10 @@ via Reinblau (2013)
 
 ## Als Trainer
 
-- OKR, OKR Moderatoren, AXA (12.2022)
-- Survival-, Bushcraft- und Wildnistraining,    
-u.a. für die Naturzeitclub Coaches, 
-[naturzeit.club](https://naturzeit.club/) (02.2022 - heute)
+- Ausbildung von OKR Moderatoren, AXA (12.2022)
+- [Survival-, Bushcraft- und Wildnistraining](
+/wildnistraining.html),    
+u.a. für die [Naturzeitclub](https://naturzeit.club/) Coaches (02.2022 - heute)
 - Agiles Arbeiten 
   - HWW, monatliches Bootcamp für neue Mitarbeiter, REWE digital (2017 - 2022)
   - Workshops, verschiedene Abteilungen, REWE GROUP (2018 - 2022)
@@ -104,7 +106,7 @@ und das Vermitteln von entsprechendem Fachwissen in Schulungen und Trainings.
 Ich war freiberuflich für über 50 Kunden aus verschiedenen Branchen tätig.
 
 - darunter Telefunken, MYTOYS GROUP, Hubert Burda Media, 
-Deutsche Gesellschaft für Auswärtige Politik, Stadt Köln, 
+Deutsche Gesellschaft für Auswärtige Politik, Stadt Köln, STARTPLATZ ACCELERATOR, 
 Berlin Tourismus & Kongress GmbH, Rechenzentrum der Finanzverwaltung NRW, 
 Wirtschaftsförderung Land Brandenburg, BerlinOnline Stadtportal GmbH & Co. KG, 
 RESET gemeinnützige Stiftungs-GmbH, Chancenwerk e.V., Dox Box e.V., Platine, Kunstraum BLAST
@@ -116,8 +118,6 @@ TrafficDesign GmbH, erdfisch GbR, motionfx GmbH, UCS Ultima Computer Service Gmb
 IAL Institut für angewandte Logistik GmbH, IAL CAMPUS, 
 DAA Deutsche Angestellten-Akademie GmbH, 
 BBQ Baumann Bildung und Qualifizierung GmbH, Eduvision Opleidingen B.V. 
-
-Warum nicht auch für dich?
 
 Fußnoten
 
