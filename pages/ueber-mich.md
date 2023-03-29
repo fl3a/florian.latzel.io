@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Über 
-permalink: /ueber.html
+title: Über mich 
+permalink: /ueber-mich.html
 image: /assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg
 last_modified_at: 2019-10-30
 ---
@@ -15,8 +15,8 @@ path: assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg %}
 lebt im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
 - ich bin 
 [Systemischer Coach](/assets/imgs/florian-latzel-systemischer-nlp-coach.jpg), 
-[NLP Practitioner](/2022/03/31/nlp-practitioner.html), 
 [Wildnispädagoge](/2020/12/14/november-draussen.html#ich-bin-wildnispädagoge), 
+[NLP Practitioner](/2022/03/31/nlp-practitioner.html), 
 [zertifizierter Scrum Master](/neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html),
 [zertifizierter Product Owner](/2018/03/03/scrum-starter-kit.html)
 und [Certified Scrum Professional](/2018/03/31/certified-scrum-professional-csp.html) 
