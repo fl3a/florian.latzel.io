@@ -3,7 +3,8 @@ title: Kontakt
 layout: page
 permalink: /kontakt.html
 ---
-Du bist an meinem [Angebot](/angebot.html)  interessiert,   
+Du bist an [Coaching](/coaching.html) 
+oder [Wildnistraining](/wildnistraining.html) interessiert,   
 hast Anregungen oder Feedback zu meinen Artikeln,    
 oder möchtest einfach nur "Hallo sagen👋": 
 
