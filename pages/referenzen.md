@@ -2,7 +2,6 @@
 title: Referenzen
 layout: page
 permalink: /referenzen.html
-toc: true
 ---
 {% comment %}
 
@@ -17,31 +16,19 @@ Todo: Einwilligung zur Nutzung der Logos einholen
 
 {% endcomment %}
 
-## Als Coach und Berater
+* Inhalt
+{:toc}
 
-Festangestellt
-- AXA, *Tribe Agile Master* (08-2022 - heute)
-- REWE digital, *Scrum Master* (04.2018 - 07.2022)
-
-Freiberuflich
-- Systemischer Coach (11.2022 - heute)
-- [paragraph eins](https://www.paragraph1.de), 
-*Scrum Master* bei REWE digital (07.2017-03.2018)
-- RHM Media, *Scrum Master*, 
-Begleitung der Agilen Transformation,   
-Einführung von Jira (11.2016 - 05.2017)
-- MYTOYS GROUP, *Scrum Master* eines Remote Teams, (07.2016 - 10.2016)
-- Stadt Mülheim an der Ruhr, 
-*Product Owner* der DAM Lösung [Bassets](https://www.drupal.org/project/bassets),   
-via Reinblau (2013)
-- visitBerlin, 
-*Berater*, Anforderungsanalyse, Einführung von [Scrum](/tags/scrum/),  
-[Git](/tags/git/) und einer Knowledge Base, Relaunch von visitberlin.de (12.2009 - 03.2010)
+Für Referenzen als **Berater und Coach**, 
+sowie Schlüsselprojekte und Kunden aus über einer Dekade als freiberuflicher **IT Berater** 
+siehe [Curriculum Vitae](https://florian.latzel.io/cv/). 
+**Code** und [**Open Source**](/tags/open-source/) Contributions 
+findest du auf meinen [drupal.org](https://www.drupal.org/u/fl3a) 
+und [github](https://github.com/fl3a) Account.
 
 ## Als Facilitator
 
-
-- Outdoor-Facilitator für mehr Fokus, Resilienz und Wir-Gefühl, 
+- Outdoor-Facilitator, für mehr Fokus, Resilienz und Wir-Gefühl, 
 [walkaboutyou](https://walkaboutyou.org) (10.2021 - heute)
 - Zusammenarbeit und Teambuildung
   - div. Retrospektiven, REWE digital und REWE GROUP (2017 - 2022)
@@ -85,33 +72,18 @@ u.a. für die [Naturzeitclub](https://naturzeit.club/) Coaches (02.2022 - heute)
    - UNIX System V und Shellskriping, In-House Training, IAL CAMPUS (07.2008 - 08.2009)
    - Linux, Vorbereitung auf die Zertifizierungen des LPI, IAL und DAA (2007 - 2009)
 
-## Als IT Berater
-
-Ein Großteil meiner Freiberuflichen Selbständigkeit
-bildete mit mehr mit über einer Dekade die IT Beratung und Softwareentwicklung.  
-Mein Fokus lag hierbei auf [Free/Libre Open Source Software](/tags/open-source/). 
-Vom Betriebssystem, über den Service bis hin zur darauf aufsetzenden Anwendung.
-Von der Inbetriebnahme und Administration der [Linux](/tags/linux/) Server und Serverdiensten, 
-Automatisierung von Abläufen durch Skripting, 
-Enwicklung und Anpassung von Modulen für das [Drupal CMS](/tags/drupal/)
-bis hin zur Entwicklung von Microservices.    
-Dazu gehörten auch die Einführung, Bereitstellung und Betreuung von Infrastruktur 
-für z.B. Werkzeuge für das Projektmanagement wie Redmine oder Jira,
-oder die eigene Quellcodeverwaltung mit [Git](/tags/git/),
-Continous Integration oder Tools für Code Reviews für die Softwareentwicklung
-und das Vermitteln von entsprechendem Fachwissen in Schulungen und Trainings.
-
 ## Kunden 
 
-Ich war freiberuflich für über 50 Kunden aus verschiedenen Branchen tätig.
+Ich war für über 50 Kunden aus verschiedenen Branchen tätig.
 
-- darunter Telefunken, MYTOYS GROUP, Hubert Burda Media, 
+- darunter AXA, REWE digital, paragraph eins, 
+Telefunken, MYTOYS GROUP, Hubert Burda Media, 
 Deutsche Gesellschaft für Auswärtige Politik, Stadt Köln, STARTPLATZ ACCELERATOR, 
 Berlin Tourismus & Kongress GmbH, Rechenzentrum der Finanzverwaltung NRW, 
 Wirtschaftsförderung Land Brandenburg, BerlinOnline Stadtportal GmbH & Co. KG, 
 RESET gemeinnützige Stiftungs-GmbH, Chancenwerk e.V., Dox Box e.V., Platine, Kunstraum BLAST
 - Digitalagenturen wie Digitas Pixelpark AG, 
-]init[ AG für digitale Kommunikation, Silpion GmbH, brainbits GmbH, 
+]init[ AG für digitale Kommunikation, Silpion GmbH, brainbits GmbH, RMH MEDIA GmbH, 
 DOM Digital Online Media GmbH, pluusdesign GmbH, conceptfour GmbH, 
 TrafficDesign GmbH, erdfisch GbR, motionfx GmbH, UCS Ultima Computer Service GmbH
 - Schulungsanbieter wie bib International College, 
