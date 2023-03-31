@@ -2,6 +2,7 @@
 tags:
 - Drupal User Group Berlin
 - Session
+- deployment
 - features
 - drush
 - Drupal
