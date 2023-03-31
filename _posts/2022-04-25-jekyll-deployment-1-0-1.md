@@ -1,7 +1,7 @@
 ---
 title: jekyll-deployment-1.0.1
 tags:
-- jekyll
+- Jekyll
 - deployment
 - '#!/bin/bash'
 - Open Source
