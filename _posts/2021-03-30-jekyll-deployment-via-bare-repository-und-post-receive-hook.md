@@ -5,6 +5,7 @@ tags:
 - howto
 - "#!/bin/bash"
 - deployment
+- Open Source
 - uberspace
 - git
 - snippet
