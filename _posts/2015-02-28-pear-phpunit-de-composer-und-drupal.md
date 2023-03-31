@@ -1,12 +1,11 @@
 ---
 tags:
-- Entwicklung
-- pear
+- Continious Integration
+- deployment
 - Jenkins
 - Gut zu wissen
 - drush
 - Drupal
-- Continious Integration
 - composer
 - "<?php ?>"
 nid: 1634
