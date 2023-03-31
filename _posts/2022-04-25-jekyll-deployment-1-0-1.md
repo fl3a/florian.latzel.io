@@ -4,6 +4,7 @@ tags:
 - jekyll
 - deployment
 - '#!/bin/bash'
+- Open Source
 - git
 layout: post
 date: 2022-04-25 22:53
