@@ -281,7 +281,7 @@ Ich habe am Sonntag die Session ["Leadershiptraining goes wild"](
 und stilgerecht draussen in der Lenné-Anlage, im herbstlichen Sonnenschein 
 über die Mixtur von [Trainings für Führungskräfte in Naturräumen](
 /wildnistraining.htm)
-mit Elebniselementen aus den Bereichen [Survival, Bushcraft](/wildnistraining) 
+mit Elebniselementen aus den Bereichen [Survival, Bushcraft](/wildnistraining.html) 
 und [Coaching](/coaching.html) diskutiert.
 
 Ich war viel im Austausch, habe viel diskutiert. 
