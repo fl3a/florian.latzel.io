@@ -12,12 +12,11 @@ tags:
 layout: post
 permalink: /gnupg-micro-howto.html
 title: GnuPG (GPG) Micro Howto
-image: /assets/imgs/1280px-GnuPG.svg.png
+image: /assets/imgs/gnupg/gnupg-logo.png
 ---
-<figure role="group">
-  <img src="/assets/imgs/1280px-GnuPG.svg.png" alt="GnuPG Logo 1280x387" title="GnuPG Logo" />
-  <figcaption>GnuPG Logo, Thomas Wittek, GnuPG Projekt, Gemeinfrei</figcaption>
-</figure>
+{% responsive_image figure: true path: assets/imgs/gnupg/gnupg-logo.png 
+alt: "GnuPG Logo" caption: "GnuPG Logo, Thomas Wittek, GnuPG Projekt, Gemeinfrei" %}
+
 *Gnu Privavy Guard* oder GnuPG (gpg)  ist eine freie Kryptographiesoftware, 
 die das *OpenPGP Message Format* gemäß *RFC 4880[^rfc4880]* implementiert
 und unter Windows, Android, MacOS und Linux sowie anderen unixioden System verfügbar ist. 
