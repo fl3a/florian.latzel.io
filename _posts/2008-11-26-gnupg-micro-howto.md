@@ -260,14 +260,20 @@ machen.
 
 ## Unterschlüssel: mehrere Emailadressen mit einem GPG-Key nutzen
 
-Mehrere Email Adressen mit einem GPG-Key nutzen.
-
 Statt der Erstellung eines neuen Schlüssels für jede weitere Emailadresse,
 besteht die Möglichkeit einem Schlüssel weitere Identitäten hinzufügen. 
 
 ### Weitere Emailadresse (User-ID) hinzufügen
 
+Wir starten mit der Bearbeitung unseres Schlüssels 
+via Key-ID, spezifizierbar über Emailadresse
+
+	gpg --edit-key florian@latzel.io
+
+oder hexadizmalschreibweise
+
 	gpg --edit-key 3F9F644542DD63E82165D376F4F62999C3BA4866
+
 
 ```
 gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
@@ -337,7 +343,7 @@ und bekommen wieder den Prompt der Shell zu sehen.
 
 ### Unterschlüssel (User-ID) entfernen
 
-	gpg --edit-key B0437BFD2D37E9014F882463768146CD269B69D1
+	gpg --edit-key 768146CD269B69D1 
 
 
 ```
@@ -352,7 +358,13 @@ sub  elg2048/0D12C6401914C2F9
 [ widerrufen] (2)  Florian Latzel <f.latzel@is-loesungen.de>
 ```
 
+Wir wählen den zu löschenden Unterschlüssel, 
+diese wird durch die entsprechende Zahl in der runden Klammer `(1)` spezifiziert:
+
 	uid 1
+
+Der entsprechende Unterschlüssel ist für die weitere Aktion ausgewählt,
+erkennbar am `*` hinter der UID:
 
 ```
 Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
@@ -366,9 +378,12 @@ sub  elg2048/0D12C6401914C2F9
 [ widerrufen] (2)  Florian Latzel <f.latzel@is-loesungen.de>
 ```
 
+Jetzt die entsprechende Aktion:
+
+
 	deluid
 
-Bestätigung
+Es folgt eine weitere Sicherheitsabfrage, die wir mit `j` quittieren:
 
 	Diese User-ID wirklich entfernen? (j/N) j
 
@@ -382,6 +397,8 @@ sub  elg2048/0D12C6401914C2F9
      erzeugt: 2007-05-25  widerrufen: 2007-05-27  Nutzung: E   
 [ widerrufen] (1)  Florian Latzel <f.latzel@is-loesungen.de>
 ```
+
+Mit `save` beenden wir die die Bearbeitung und den interaktiven Modus.
 
 	save
 
