@@ -31,16 +31,14 @@ Das wohl bekannteste Beispiel für die Sicherstellung von digitaler Privatsphär
 ist neben dem Ver- und Entschlüsseln von Dateien die verschlüsselte Emailkommunikation
 
 Dieses Howto beschreibt unter anderem die [Erstellung eines GnuPG Schlüsselpaares](
-/gnupg-micro-howto.html#erstellung-eines-gnupg-schlüsselpaares), 
+#erstellung-eines-gnupg-schlüsselpaares), 
 das [Hinzufügen weiterer Emailadressen als Unterschlüssel](
-/gnupg-micro-howto.html#dem-gpg-key-weitere-email-adressen-unterschlüssel-hinzufügen),
-die [Konfiguration von GnuPG](/gnupg-micro-howto.html#konfiguration-von-gnupg)
+#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen),
+die [Konfiguration von GnuPG](#konfiguration-von-gnupg)
 und des GPG-Agents,
-der [Einrichtung eines Web Key Directories (WKD Direct Method)](
-/gnupg-micro-howto.html#wkd-einrichten) 
+der [Einrichtung eines Web Key Directories (WKD Direct Method)](#wkd-einrichten) 
 und gebräuchliche Anwendungsfälle auf der Kommandozeile (gpg), 
-wie z.B. dem [Arbeiten mit Keyservern](
-/gnupg-micro-howto.html#arbeiten-mit-keyservern)[^4].    
+wie z.B. dem [Arbeiten mit Keyservern](#arbeiten-mit-keyservern)[^4].    
 Es ist auf die oben genannten Systeme übertragbar.<!--break-->
 
 Inhaltverzeichnis
@@ -345,7 +343,6 @@ und bekommen wieder den Prompt der Shell zu sehen.
 
 	gpg --edit-key 768146CD269B69D1 
 
-
 ```
 Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
 pub  dsa1024/768146CD269B69D1
@@ -380,7 +377,6 @@ sub  elg2048/0D12C6401914C2F9
 
 Jetzt die entsprechende Aktion:
 
-
 	deluid
 
 Es folgt eine weitere Sicherheitsabfrage, die wir mit `j` quittieren:
@@ -408,12 +404,6 @@ Mit `save` beenden wir die die Bearbeitung und den interaktiven Modus.
 
 Grundlegende Konfiguration von gnupg in ~/.gnupg/options
 
-- `default-key`, Schlüssel-ID unseres Hauptschlüssels
-- `keyserver` ist für die Interaktion mit den Keyservern im Internet zuständig
-- `require-cross-certification`, Schutz vor sog. *Subtle Angriffen* auf Subkeys beim signieren (Default).
-Siehe auch  `no-require-cross-certification`.
-- `use agent`, Dummy Option, wird immer benötigt
- 
 ```
 default-key 3F9F644542DD63E82165D376F4F62999C3BA4866
 charset utf-8
@@ -422,15 +412,16 @@ use-agent
 keyserver hkps://keys.openpgp.org  
 ```
 
+- `default-key`, Schlüssel-ID unseres Hauptschlüssels
+- `keyserver`, Angabe des Default [Keyservers](#arbeiten-mit-keyservern), der genutzt werden soll
+- `require-cross-certification`, Schutz vor subtilen Angriffen auf Subkeys beim signieren (Default).
+Siehe auch  `no-require-cross-certification`.
+- `use agent`, Dummy Option, wird immer benötigt
+ 
 ### ~/.gnupg/gpg-agent.conf
 
 Konfiguration des gpg-agents in *~/.gnupg/gpg-agent.conf*
 
-- `default-cache-ttl`, Zeit in Sekunden, die ein Cache-Eintrags gülig ist
-- `max-cache-ttl`, Maximale Zeit in Sekunden, die ein Cache-Eintrag gültig ist
-- `ignore-cache-for-signing` Bypass des Passwort Caches bei Signing
-- `no-grab` Zur Vorbeugung von sog. X-Sniffing-Angriffen bei Nutzung von Pinentry.
-- `pinentry-program`, Absolute Pfadangabe dazu
 ```
 default-cache-ttl 18000
 max-cache-ttl 86400
@@ -439,6 +430,12 @@ no-grab
 pinentry-program /usr/bin/pinentry-gnome3
 debug-level basic
 ```
+
+- `default-cache-ttl`, Zeit in Sekunden, die ein Cache-Eintrags gülig ist
+- `max-cache-ttl`, Maximale Zeit in Sekunden, die ein Cache-Eintrag gültig ist
+- `ignore-cache-for-signing` Bypass des Passwort Caches bei Signing
+- `no-grab` Zur Vorbeugung von sog. X-Sniffing-Angriffen bei Nutzung von Pinentry.
+- `pinentry-program`, Absolute Pfadangabe dazu
 
 ## Web Key Directory (WKD) 
 
