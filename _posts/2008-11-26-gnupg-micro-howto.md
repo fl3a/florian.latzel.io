@@ -18,13 +18,14 @@ image: /assets/imgs/gnupg/gnupg-logo.png
 alt: "GnuPG Logo" caption: "GnuPG Logo, Thomas Wittek, GnuPG Projekt, Gemeinfrei" %}
 
 *Gnu Privavy Guard* oder GnuPG (gpg)  ist eine freie Kryptographiesoftware, 
-die das *OpenPGP Message Format* gemäß *RFC 4880[^rfc4880]* implementiert
-und unter Windows, Android, MacOS und Linux sowie anderen unixioden System verfügbar ist. 
+die das *OpenPGP Message Format* gemäß *RFC 4880[^rfc4880]* implementiert.
+GnuPG ist unter Windows, Android, MacOS und Linux sowie anderen unixioden System verfügbar. 
 
-Die primären Anwendungsgebiete sind die Sicherstellung von Integrität
-bzw. vertraulicher digitaler Kommunikation und Privatsphäre.
-Beispiele für Integrität sind signierte Emails
-oder signierte Softwarepakete wie z.B. unter Debian,
+Die primären Anwendungsgebiete von GnuPG sind die Sicherstellung von Integrität
+beziehungsweise vertraulicher digitaler Kommunikation und Privatsphäre.
+Beispiele für Sicherstellung von Integrität sind signierte Emails,
+signierte Softwarepakete wie z.B. unter Debian[^secure-apt] 
+oder signierte Git[^git-gpg] Commits[^gh-sign-commit] und Tags/Releases[^gh-sign-tag] auf wie Github,
 durch die man Echtheit und Quelle überprüfen kann.
 Das wohl bekannteste Beispiel für die Sicherstellung von digitaler Privatsphäre, 
 ist neben dem Ver- und Entschlüsseln von Dateien die verschlüsselte Emailkommunikation
@@ -92,9 +93,7 @@ gpg: Verzeichnis `/home/florian/.gnupg' erzeugt
 gpg: Die "Keybox" `/home/florian/.gnupg/pubring.kbx' wurde erstellt
 ```
 
-**Verschüsselungsalgorithmus**
-
-Verschüsselungsalgorithmus wählen
+Verschüsselungsalgorithmus wählen:
 ```
 Bitte wählen Sie, welche Art von Schlüssel Sie möchten:
    (1) RSA und RSA (voreingestellt)
@@ -106,9 +105,7 @@ Ihre Auswahl? 1
 
 Wir entscheiden uns mit `1` für die Voreinstellung RSA und RSA und bestätigen mit Enter.
 
-**Schlüssellänge**
-
-Wahl der Länge bzw. Stärke des Schlüssels, voreingestellt 3072.
+Wahl der Länge bzw. Stärke des Schlüssels, voreingestellt 3072 Bit.
 
 ```
 RSA-Schlüssel können zwischen 1024 und 4096 Bit lang sein.
@@ -117,12 +114,10 @@ Welche Schlüssellänge wünschen Sie? (3072) 4096
 
 Wir wählen den Maximalwert von `4096` und bestätigen mit Enter.\\
 Es folgt die Quittierung von GnuPG: 
-`Die verlangte Schlüssellänge beträgt 4096 Bit`.
-Wir wählen die Voreinstellung und bestätigen diese.
 
-**Gültigkeitzeiraum**
+	Die verlangte Schlüssellänge beträgt 4096 Bit
 
-Gültigkeitzeiraum des Schlüssels\\
+Gültigkeitzeiraum des Schlüssels.   
 Hier kann spezifiziert werden ob und wann der Schlüssel verfällt.
 Hier sollte entgegen des Defaults `(0)` auf jeden Fall ein Ablaufdatum gewählt werden, 
 denn in Falle eines korumpierten Rechners 
@@ -140,19 +135,18 @@ Wie lange bleibt der Schlüssel gültig? (0) 2y
 
 Wir möchten, dass unser Schlüssel 2 Jahr gültig ist und geben entsprechend
 `2y` über die Tastatur ein. 
-Nach einem Enter quittiert gpg: `Key verfällt am Sa 01 Jul 2023 13:12:45 CEST`.
+Nach einem Enter quittiert gpg: 
+
+	Key verfällt am Sa 01 Jul 2023 13:12:45 CEST
 
 Anschließend wird die Eingabe nochmal hinterfragt:
 
-```
-Ist dies richtig? (j/N) j
-```
+	Ist dies richtig? (j/N) j
+
 
 Das bestätigen wir mit `j` gefolgt von Enter.
 
-**Name, Emailadresse und Kommentar**
-
-Jetzt kommen wir zur Eingabe der persönlichen Daten...
+Jetzt kommen wir zur Eingabe von Name, Emailadresse und optionalen Kommentar
 
 
 	GnuPG erstellt eine User-ID, um Ihren Schlüssel identifizierbar zu machen.
@@ -201,20 +195,18 @@ sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
 
 ## Ein GPG Widerrufs (Revoke) Zertifikat erstellen
 
-
 Es gibt Falle, in dem du deinen Schlüssel auf den Keyservern widerrufen möchtest, 
-wie z.B. eine mittlerweile unzureichenede Stärke des Schlüssels, Schlüssel oder Rechner sind korrumpiert worden.
+wie z.B. eine unzureichenede Stärke des Schlüssels oder dein Schlüssel oder Rechner sind korrumpiert worden.
 
 Mittlerweile generiert GnuPG (unter Ubuntu) via Default einen Widerrufszertifikat 
 bei der Schlüsselerstellung(s.o).\\
-Einen GnuPG Widerrufungsschlüssels solltest du unbedingt erstellen und sicher aufbewahren.
+Ein GnuPG Widerrufungszertifikat solltest du unbedingt erstellen und sicher aufbewahren.
 
-Erstellung des GNUPG Revoke-Keys, die Nutzer-ID kann EMail oder die Key-ID sein.
-Hier mit `florian@latzel.io`, der Revoke-Key wird in die Datei `~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev` 
+Manuelle Erstellung des Widerrufszertikats.  Die Nutzer-ID kann EMail oder die Key-ID sein.
+Hier mit der User-ID `florian@latzel.io`, der Revoke-Key wird in die Datei `~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev` 
 geschrieben.
-```
-gpg --gen-revoke florian@latzel.io > ~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev
-```
+
+	gpg --gen-revoke florian@latzel.io > ~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev
 
 GnuPG fragt, ob du mit der Erstellung des Widerrufszertifikat fortfahren möchtest,
 `j` - ja wollen wir:
@@ -877,7 +869,6 @@ Danke an die Autoren🙏!
 - [Die c't-Krypto-Kampagne - Abhörsichere E-Mail mit PGP](https://www.heise.de/security/dienste/Krypto-Kampagne-2111.html)
 - [GnuPG in der Debian-Referenz](https://www.debian.org/doc/manuals/debian-reference/ch10.de.html#_data_security_infrastructure)
 - [GnuPG auf ubuntuusers.de](https://wiki.ubuntuusers.de/GnuPG)
-- [GPG Schlüsselverwaltung für apt-get(Secure APT)](https://linux.spiney.org/gpg_schlusselverwaltung_fur_apt_get)
 - [GPG und Vim](https://wiki.debianforum.de/Vim_mit_gnupg)
 - [RFC2440: OpenPGP Message Format](https://www.ietf.org/rfc/rfc2440.txt)
 - [RFC2015: MIME Security With Pretty Good Privacy(PGP)](https://www.ietf.org/rfc/rfc2015.txt)
@@ -908,6 +899,10 @@ https://packages.debian.org/search?keywords=signing-party)[^5]
 [^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel)
 [^3]: [Privater Schlüssel](https://de.wikipedia.org/wiki/Geheimer_Schl%C3%BCssel)
 [^rfc4880]: [RFC 4880 - OpenPGP Message Format](https://datatracker.ietf.org/doc/html/rfc4880)
+[^secure-apt]: [Paketsignierung in Debian](https://www.debian.org/doc/manuals/securing-debian-manual/deb-pack-sign.de.html#apt-0.6) 	
+[^gh-sign-commit]: [Signing commits - Github Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)
+[^gh-sign-tag]: [Signing tags - Github Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-tags)
+[^git-gpg]: [Git Tools - Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
 [^4]: [Schlüsselserver](https://de.wikipedia.org/wiki/Schl%C3%BCsselserver)
 [^5]: [Keysigning-Party](https://de.wikipedia.org/wiki/Keysigning-Party)
 [^newkeys]: [Neuer OpenPGP-Keyserver liefert endlich verifizierte Schlüssel - heise.de](https://www.heise.de/security/meldung/Neuer-OpenPGP-Keyserver-liefert-endlich-verifizierte-Schluessel-4450814.html)
