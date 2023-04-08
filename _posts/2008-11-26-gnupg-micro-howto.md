@@ -667,17 +667,28 @@ Mit dem folgendem Befehl wird Keyring importiert:
 
 ## Arbeiten mit Keyservern
 
+Key- beziehungsweise Schlüsselserver stellen öffentliche Schlüssel bereit,
+die du oder andere zum Verschlüsseln oder zur Überprüfung von Signaturen brauchen.
+
+Kleiner geschichtlicher Abriss: 
 Ende Juni 2019 [^sks1] [^sks2] wurde das *SKS Keyserver Netzwerk* wiedermal angegriffen.
-Web of Trust[^weboftrust].
-- GnuPG Version 2.2.17 ignorierte standardmäßig alle Signaturen, die von einem Keyserver stammen. 
-- SKS abgeschaltet[^sks-aus]
-- keyserver.ubuntu.com mit hockeypuck
-- https://keys.mailvelope.com/
-- De-Facto-Standard keys.openpgp.org betrieben mit Hagrid
+GnuPG in der Version 2.2.17 ignorierte bereits standardmäßig alle Signaturen, die von einem Keyserver stammen. 
+Im Juni 2021 wurde das SKS abgeschaltet[^sks-aus].
+
+Mittlerweile gibt es Keyserver mit Überprüfung der Schlüssel 
+via Double OptIN und Löschmöglichkeit[^newkeys], 
+allerdings zu Lasten des sogenannten *Web of Trust*[^weboftrust].
+Zwei Vertreter davon sind [keys.mailvelope.com](https://keys.mailvelope.com/) 
+betrieben mit [Mailvelope](https://github.com/mailvelope/keyserver)
+und der De-Facto-Standard [keys.openpgp.org](https://keys.openpgp.org/) betrieben mit [Hagrid](
+https://gitlab.com/keys.openpgp.org/hagrid).   
+Mit [keyserver.ubuntu.com]() steht dir ein Keyserver zur Verfügung, 
+der zwar Signaturen erhält,
+allerdings keine Überprüfung oder Löschmöglichkeit der Schlüssel bietet. 
 
 ### Public-Key auf keys.openpgp.org veröffentlichen
 
-**Platzhalter für Intro, Screenshots und curl + Double OptIn**[^sks1] [^sks2] [^newkeys]
+### Public-Key von keys.openpgp.org entfernen
 
 ### Schlüssel auf Keyserver suchen
 
@@ -892,6 +903,9 @@ https://www.ietf.org/rfc/rfc2015.txt)
 https://www.cryptnet.net/fdp/crypto/keysigning_party/en/keysigning_party.html)
 - [E-Mail-Verschlüsselung und Signatur in der IT-Forensik](
 https://it-forensik.fiw.hs-wismar.de/index.php/E-Mail-Verschl%C3%BCsselung_und_Signatur_in_der_IT-Forensik)
+- [The OpenPGP HTTP Keyserver Protocol (HKP) draft-shaw-openpgp-hkp-00.txt](
+https://tools.ietf.org/html/draft-shaw-openpgp-hkp-00)
+
 
 ## Credits
 
