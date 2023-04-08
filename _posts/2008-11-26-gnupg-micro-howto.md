@@ -609,13 +609,13 @@ sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
 
 Eine Kurzreferenz von GnuPG-Befehlen und -Optionen die öfter mal benutzt werden.
 
-### Private Keys auflisten
+### Geheime Schlüsselauflisten
 
 Anzeigen aller Private-Keys, alternativ steht noch `-K` als Shortoption zur Verfügung.
 
-	gpg --list-private-keys
+	gpg --list-secret-keys
 
-### Export eines Private-Keys 
+### Export eines geheimen Schlüssels
 
 Für eine Sicherheitskopie oder das Arbeiten auf mehreren Maschinen exportieren wir den Geheimen Schlüssel (Private Key).
 Dieser sollte auf einem externen Datenträger gespeichert und an einem sicheren Ort aufbewahrt werden.
@@ -624,17 +624,18 @@ Um den den Schlüssel auf einen anderen Rechner zu transferieren sollte eine ver
 
 	gpg --export-secret-key 269B69D1 > 269B69D1-private.key
 
-### Private Key löschen
+### Geheimen Schlüssel löschen
 
-Private-Key löschen. Um einen privaten Key zu löschen wird das folgende Kommando verwendet, 
+Um einen geheimen Schlüssel zu löschen wird das folgende Kommando verwendet, 
 der zu löschende Schlüssel muss durch Key-ID oder EMail angegeben werden.
 
-	gpg --delete-private-keys 269B69D1
+	gpg --delete-secret-keys 269B69D1
 
 
 ### Public-Keys auflisten
 
 Public-Keys auflisten. Erzeugt eine Auflistung aller Public-Keys im Keyring.
+Short Option `-k`.
 	
 	gpg --list-keys
 
@@ -646,14 +647,15 @@ Fingerprint ausgeben. Analog zur Ausgabe wie mit --list-keys lässt zusätzlich 
 
 	gpg --fingerprint
 
-Der Fingerprint besteht aus 10 4er Paaren(hexadezimal), die letzen 2 4er Paare sind gleichzeitig die Key-ID.
-Die Key-ID müssen wir uns für den nächsten Schritt merken.
+Der Fingerprint besteht aus 10 4er Paaren(hexadezimal), 
+die letzen 2 4er Paare sind gleichzeitig die Key-ID.
 
 	B043 7BFD 2D37 E901 4F88 2463 7681 46CD 269B 69D1
 
 ### Public-Keys in Datei exportieren. 
 
-Den Public-Key in eine ASCII-Armored Datei exportieren, die Angabe des Schlüssels erfolgt über Key-ID oder die E-Mailadresse.
+Den Public-Key in eine sog. ASCII-Armored Datei exportieren, 
+die Angabe des Schlüssels erfolgt über Key-ID oder die E-Mailadresse.
 
 	gpg --export -a -o florian-at-latzel-io.asc florian@latzel.io
 
