@@ -19,7 +19,9 @@ alt: "GnuPG Logo" caption: "GnuPG Logo, Thomas Wittek, GnuPG Projekt, Gemeinfrei
 
 *Gnu Privavy Guard* oder GnuPG (gpg)  ist eine freie Kryptographiesoftware, 
 die das *OpenPGP Message Format* gemäß *RFC 4880[^rfc4880]* implementiert.
-GnuPG ist unter Windows, Android, MacOS und Linux sowie anderen unixioden System verfügbar. 
+GnuPG ist unter Windows ([Gpg4win](https://www.gpg4win.org/)), 
+Android ([OpenKeychain](https://www.openkeychain.org/)), MacOS ([GPG Suite](https://gpgtools.org/)) 
+und Linux (meisten per default an Board) sowie anderen unixioden System verfügbar. 
 
 Die primären Anwendungsgebiete von GnuPG sind die Sicherstellung von Integrität
 beziehungsweise vertraulicher digitaler Kommunikation und Privatsphäre.
@@ -843,7 +845,7 @@ Alternativ zur Key-ID kann auch der Fingerabdruck verwendet werden.
 
 ## Historie dieses Howtos
 
-- 2021-07    
+- Seit 2021-07    
 Aktualisierungen und Ergänzungen basierend auf einem in Juli 2021    
 mit gpg 2.2.4 erstellten Schlüssel.
   - Überarbeitung: Text allgemein und Struktur
@@ -853,8 +855,9 @@ mit gpg 2.2.4 erstellten Schlüssel.
   - Neu: Nutzung von keys.openpgp.org 
   - Neu: User-ID widerrufen (revuid)
 - 2008-11-26    
-Veröffentlichung auf netzaffe.de.    
-Als Grundlage diente ein Skript, welches während meiner Linux Dozententätigkeit entstand.    
+[Veröffentlichung auf netzaffe.de](
+https://web.archive.org/web/20081216082227/http://netzaffe.de/2008/11/26/gnupg-micro-howto.html).    
+Als Grundlage diente ein Skript, welches während meiner Linux Dozententätigkeit um 2007 entstand.
 Dieses Skript basierte auf gpg in der Version 1.4.6 und pinentry 0.7.2 unter Debian Etch   
 und wurde unter anderem getestet auf/mit:     
   - Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
@@ -865,49 +868,39 @@ Siehe [Changelog](
 https://github.com/fl3a/florian.latzel.io/commits/master/_posts/2008-11-26-gnupg-micro-howto.md) 
 für weitere Details
 
-## Weiterführendes zu GnuPG
+## Weiterführende Artikel
 
-### Credits
+- [GNU Privacy Guard - Wikipedia](
+http://de.wikipedia.org/wiki/GNU_Privacy_Guard)
+- [Das GNU-Handbuch zum Schutze der Privatsphäre (2000)](
+https://www.gnupg.org/gph/de/manual/book1.html)
+- [Einfach erklärt: E-Mail-Verschlüsselung mit PGP](
+https://www.heise.de/ct/artikel/Einfach-erklaert-E-Mail-Verschluesselung-mit-PGP-4006652.html)
+- [Die c't-Krypto-Kampagne - Abhörsichere E-Mail mit PGP](
+https://www.heise.de/security/dienste/Krypto-Kampagne-2111.html)
+- [GnuPG in der Debian-Referenz](
+https://www.debian.org/doc/manuals/debian-reference/ch10.de.html#_data_security_infrastructure)
+- [GnuPG auf ubuntuusers.de](https://wiki.ubuntuusers.de/GnuPG)
+- [GPG und Vim](https://wiki.debianforum.de/Vim_mit_gnupg)
+- [RFC2440: OpenPGP Message Format, obsolet mit RFC4880](
+https://www.ietf.org/rfc/rfc2440.txt)
+- [RFC2015: MIME Security With Pretty Good Privacy(PGP)](
+https://www.ietf.org/rfc/rfc2015.txt)
+- [The Keysigning Party HOWTO](
+https://www.cryptnet.net/fdp/crypto/keysigning_party/en/keysigning_party.html)
+- [E-Mail-Verschlüsselung und Signatur in der IT-Forensik](
+https://it-forensik.fiw.hs-wismar.de/index.php/E-Mail-Verschl%C3%BCsselung_und_Signatur_in_der_IT-Forensik)
 
-Credits für den WKD Teil:
+## Credits
+
+Credits für den WKD Teil. Danke an die Autoren der jeweiligen Artikel🙏:
 - <https://www.kuketz-blog.de/gnupg-web-key-directory-wkd-einrichten/>
 - <https://lab.uberspace.de/guide_wkd/>
 
-Danke an die Autoren🙏!
+Danke an meine ersten Probanden Nadine, Michael und Thomas🙏 aus der DAA Bonn 
+für das erste Feedback zum Skript und die Checks auf Ubuntu 8.04, openSuSE 11 und Windows Vista.  
 
-### Weiterführende Artikel
-
-- [GNU Privacy Guard - Wikipedia](http://de.wikipedia.org/wiki/GNU_Privacy_Guard)
-- [Das GNU-Handbuch zum Schutze der Privatsphäre (2000)](https://www.gnupg.org/gph/de/manual/book1.html)
-- [Einfach erklärt: E-Mail-Verschlüsselung mit PGP](https://www.heise.de/ct/artikel/Einfach-erklaert-E-Mail-Verschluesselung-mit-PGP-4006652.html)
-- [Die c't-Krypto-Kampagne - Abhörsichere E-Mail mit PGP](https://www.heise.de/security/dienste/Krypto-Kampagne-2111.html)
-- [GnuPG in der Debian-Referenz](https://www.debian.org/doc/manuals/debian-reference/ch10.de.html#_data_security_infrastructure)
-- [GnuPG auf ubuntuusers.de](https://wiki.ubuntuusers.de/GnuPG)
-- [GPG und Vim](https://wiki.debianforum.de/Vim_mit_gnupg)
-- [RFC2440: OpenPGP Message Format](https://www.ietf.org/rfc/rfc2440.txt)
-- [RFC2015: MIME Security With Pretty Good Privacy(PGP)](https://www.ietf.org/rfc/rfc2015.txt)
-
-### Software für die GnuPG Nutzung
-
-Diverse nützliche Software für die Nutzung von GnuPG unter Windows, 
-Android, Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
-
-- [Thunderbird Mailclient (unterstützt OpenPGP seit Version 78 direkt)](
-https://www.thunderbird.net/de/)
-- [gpg4win - GnuPG für Windows, 
-u.a. Outlook- (GpgOL) oder Explorer Integration (GpgEX)](
-https://www.gpg4win.org/index-de.html)
-- [OpenKeychain - Android OpenPGP Integration](https://www.openkeychain.org/)
-- [Enigmail - GnuPG Integration und Addons. 
-Ursprünglich für  Thunderbird entwickelt](https://www.enigmail.net/index.php/en/)
-- [GPG Suite (GPG Tools) für die Nutzung Mac OS, 
-wie z.B. Einbindung in Apple Mail](https://gpgtools.org/)
-- [signing-party - 
-Diverse nützliche OpenPGP für Tools für Keysigning-Partys](
-https://packages.debian.org/search?keywords=signing-party)[^5]
-
-
-### Fußnoten
+## Fußnoten
 
 [^1]: [Public-Key Verschlüsselungsverfahren](https://de.wikipedia.org/wiki/Public-Key-Verschl%C3%BCsselungsverfahren)
 [^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel)
@@ -929,10 +922,10 @@ https://packages.debian.org/search?keywords=signing-party)[^5]
 [^wkd]: [Web Key Service: OpenPGP-Schlüssel über HTTPS verteilen - golem.de](https://www.golem.de/news/web-key-service-openpgp-schluessel-ueber-https-verteilen-1609-123194.html)
 [^sks-aus]: [ SKS: Das Ende der alten PGP-Keyserver - golem.de](https://www.golem.de/news/sks-das-ende-der-alten-pgp-keyserver-2106-157613.html)
 
-
 *[RFC]: Request for Comment
 *[WKD]: Web Key Directory
 *[SSL]: Secure Socket Layer
 *[PGP]: Pretty Good Privacy
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[SKS]: Synchronizing Key Server
+*[DAA]: Deutsche Angestellten-Akademie
