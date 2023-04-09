@@ -688,7 +688,45 @@ allerdings keine Überprüfung oder Löschmöglichkeit der Schlüssel bietet.
 
 ### Public-Key auf keys.openpgp.org veröffentlichen
 
+Von der Startseite, <https://keys.openpgp.org/> 
+kommen wir über den Link [hochladen](https://keys.openpgp.org/upload) 
+auf das Upload-Formular <https://keys.openpgp.org/upload>.
+Dort laden wir unseren unseren öffentlichen Schlüssel 
+(siehe [Public-Keys in Datei exportieren.](#public-keys-in-datei-exportieren)) hoch.
+
+{% responsive_image path: assets/imgs/gnupg/keys-openpgp-org-1-schluessel-hochladen-upload.png
+alt: "Öffentlichens PGP Schlüssel auf keys.openpgp.org hochladen" %}
+
+Anschließend senden wir uns je Schlüssel eine Bestätigungs-Email via Klick auf den Button
+und folgen dem Link in der Email um diesen auf dem Keyserver zu veröffentlichen.
+
+{% responsive_image path: assets/imgs/gnupg/keys-openpgp-org-2-bestaetigungs-email-senden.png
+alt: "Verifizierung der Öffentlichens PGP Schlüssel auf keys.openpgp.org, Bestätigungs-Email senden" %}
+
+Nachdem die Überprüfung aller Schlüssel abgeschlossen ist, sieht das so aus:
+
+{% responsive_image path: assets/imgs/gnupg/keys-openpgp-org-3-schluessel-veroeffentlicht.png
+alt: "Verifizierte Identitäten des öffentlichens PGP Schlüssels auf keys.openpgp.org" %}
+
 ### Public-Key von keys.openpgp.org entfernen
+
+Mit Klick auf [verwalten](https://keys.openpgp.org/manage) 
+kommen wir nach <https://keys.openpgp.org/manage>. 
+Hier haben wir die Möglichkeit nach Email-Adresse, Schlüssel-ID oder Fingerprint zu suchen.
+Nach erfolgreicher Suche wird eine Email 
+mit dem Link zur Verwaltung unserer Schlüssel versand.
+
+{% responsive_image path: assets/imgs/gnupg/keys-openpgp-org-4-schluessel-verwalten-sende-link.png
+alt: "Schlüssels auf keys.openpgp.org verwalten, Sende Link" %}
+
+Hier können wir unser Schlüssel aus der Suche entfernen. 
+Achtung, der nächste Schritt erfordert keine Bestätigung!
+
+{% responsive_image path: assets/imgs/gnupg/keys-openpgp-org-5-schluessel-entfernen.png 
+alt: "Schlüssels von keys.openpgp.org entfernen" %}
+
+Aus der Suche entfernte Keys könnten wir durch erneutes Hochladen wieder
+in die Suche aufnehmen.
 
 ### Schlüssel auf Keyserver suchen
 
