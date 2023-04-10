@@ -694,6 +694,17 @@ auf das Upload-Formular <https://keys.openpgp.org/upload>.
 Dort laden wir unseren unseren öffentlichen Schlüssel 
 (siehe [Public-Keys in Datei exportieren.](#public-keys-in-datei-exportieren)) hoch.
 
+Alternativ können wir unseren öffentlichen Schlüssel nach curl *pipen*...
+
+	    gpg --export florian@latzel.io | curl -T - https://keys.openpgp.org
+
+In der Ausgabe des Befehls finden wir den Link zur Bestätigungsseite. 
+``` 
+Key successfully uploaded. Proceed with verification here:
+https://keys.openpgp.org/upload/$LONG_RANDOM_VERIFICATION_STRING
+``` 
+Die weiteren Schritte verlaufen analog zum Upload über den Browser.
+
 {% responsive_image path: assets/imgs/gnupg/keys-openpgp-org-1-schluessel-hochladen-upload.png
 alt: "Öffentlichens PGP Schlüssel auf keys.openpgp.org hochladen" %}
 
