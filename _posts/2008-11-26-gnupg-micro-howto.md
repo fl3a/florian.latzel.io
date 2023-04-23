@@ -682,7 +682,9 @@ Zwei Vertreter davon sind [keys.mailvelope.com](https://keys.mailvelope.com/)
 betrieben mit [Mailvelope](https://github.com/mailvelope/keyserver)
 und der De-Facto-Standard [keys.openpgp.org](https://keys.openpgp.org/) betrieben mit [Hagrid](
 https://gitlab.com/keys.openpgp.org/hagrid).   
-Mit [keyserver.ubuntu.com]() steht dir ein Keyserver zur Verfügung, 
+Mit [keyserver.ubuntu.com](https://keyserver.ubuntu.com) 
+(betrieben mit [Hockeypuck](https://github.com/hockeypuck/hockeypuck))
+steht dir ein Keyserver zur Verfügung, 
 der zwar Signaturen erhält,
 allerdings keine Überprüfung oder Löschmöglichkeit der Schlüssel bietet. 
 
@@ -709,6 +711,7 @@ Die weiteren Schritte verlaufen analog zum Upload über den Browser.
 alt: "Öffentlichens PGP Schlüssel auf keys.openpgp.org hochladen" %}
 
 Anschließend senden wir uns je Schlüssel eine Bestätigungs-Email via Klick auf den Button
+*Bestätigungs-Email senden* 
 und folgen dem Link in der Email um diesen auf dem Keyserver zu veröffentlichen.
 
 {% responsive_image path: assets/imgs/gnupg/keys-openpgp-org-2-bestaetigungs-email-senden.png
@@ -733,11 +736,11 @@ alt: "Schlüssels auf keys.openpgp.org verwalten, Sende Link" %}
 Hier können wir unser Schlüssel aus der Suche entfernen. 
 Achtung, der nächste Schritt erfordert keine Bestätigung!
 
-{% responsive_image path: assets/imgs/gnupg/keys-openpgp-org-5-schluessel-entfernen.png 
-alt: "Schlüssels von keys.openpgp.org entfernen" %}
-
 Aus der Suche entfernte Keys könnten wir durch erneutes Hochladen wieder
 in die Suche aufnehmen.
+
+{% responsive_image path: assets/imgs/gnupg/keys-openpgp-org-5-schluessel-entfernen.png 
+alt: "Schlüssels von keys.openpgp.org entfernen" %}
 
 ### Schlüssel auf Keyserver suchen
 
@@ -748,6 +751,24 @@ Suche nach EMail-Adresse (uid)
 oder Key-ID
 
 	gpg --search-keys F4F62999C3BA4866
+
+
+Die Suche nach Namen oder Teilstrings klappt bei keys.openpgp.org nicht, 
+aber auf dem mit Hagrid betriebenen keyserver,ubuntu.com.
+Den Default Keyserver aus der [`~/.gnupg/options`](#gnupgoptions)
+können wir durch die Angabe eines anderen Keyservers via `--keyserver` Option überschreiben.
+
+Suche nach Namen...
+
+	gpg --keyserver keyserver.ubuntu.com --search-keys 'Florian Latzel' 
+
+...nach Teilstring des Namens, z.B. dem Nachnamen...	
+
+	gpg --keyserver keyserver.ubuntu.com --search-keys 'Latzel' 
+
+...oder der Suche nach eine Teilstring der E-Mailadresse, z.B. der Domain...
+
+	gpg --keyserver keyserver.ubuntu.com --search-keys 'netzaffe.de' 
 
 
 Bei einer erfolgreichen Suchanfrage besteht die Möglichkeit, 
@@ -766,40 +787,42 @@ gpg: data source: https://keys.openpgp.org:443
 Keys 1-1 of 1 for "florian@latzel.io".  Eingabe von Nummern, Nächste (N) oder Abbrechen (Q) > 1
 ```
 
-Die Suche nach Namen oder Teilstring der E-Mail Adresse 
-klappt aus Datenschutzgründen auf keys.openpgp.org nicht.
-
-Durch Angabe eines anderen Keyservers ist dies aber dennoch möglich:
-
-Suche nach Namen...
-
-	gpg --keyserver keyserver.ubuntu.com --search-keys 'Florian Latzel' 
-
-Suche Teilstring Domain der E-Mail Adresse...
-
-	gpg --keyserver keyserver.ubuntu.com --search-keys 'netzaffe.de' 
-
 ### Public-Key von Keyserver importieren
 
-Um einen Public-Key, dessen Key-ID bekannt ist vom Keyserver herunterzuladen, wird die folgende Options verwendet.
+Einen Public-Key, dessen Key-ID bekannt ist, können wir direkt vom Keyserver herunterzuladen 
 
 	gpg --recv-keys F4F62999C3BA4866
 
-
 ### Schlüssel widerrufen
+
+Sofern Hockeypuck basierte Keyserver genutzt werden,
+ist der folgende Absatz relevant. 
+Während bei Hagrid (siehe oben) 
+und Mailvelope die Einträge aus der Suche entfernt werden können,
+verbleibt bei Hockeypuck der Schlüssel als widerrufen gekennzeichnet auf dem Server.
 
 #### Primärschlüssel widerrufen
 
-Den Revoke-Key importieren.
-
-Um den Revoke-Key nutzen zu können, muß dieser in unseren Keyring importiert werden.
+Wir importieren den [Revoke-Key](#ein-gpg-widerrufs-revoke-zertifikat-erstellen) 
+in unseren Keyring:
 
 	gpg --import 269B69D1-revoke-key.asc
+
+Nun senden wir senden unseren Schlüssel, 
+in dem sich jetzt unser Revoke-Key befindet zum Keyserver, 
+um ihn dort zu widerufen.
+
+	gpg --send-keys F4F62999C3BA4866
 
 
 #### Unterschlüssel (User-ID) widerrufen
 
+Analog zum Widerruf des Primärschlüssel, können auch [Unterschlüssel]() widerufen werden. 
+
 	gpg --edit-key B0437BFD2D37E9014F882463768146CD269B69D1
+
+
+Es folgt eine Auflistung alle Schlüssel.
 
 ```  
 gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
@@ -826,8 +849,12 @@ ssb  elg2048/0D12C6401914C2F9
 [uneingeschränkt] (11)  Florian Latzel <florian.latzel@gmail.com>
 ```  
 
+Wir wollen die *Reinblau User-ID* (unter 9) widerufen, 
+dafür wählen wir die entsprechend Zahl.
+
 	9
 
+Die User-ID ist, erkennbar durch den Stern, ausgewählt.
 
 ```  
 sec  dsa1024/768146CD269B69D1
@@ -848,11 +875,15 @@ ssb  elg2048/0D12C6401914C2F9
 [uneingeschränkt] (11)  Florian Latzel <florian.latzel@gmail.com>
 ```  
 
+Mit `revuid` leiten wir die entsprechende Aktion ein.
+
 	revuid
 
-^
+Es folgt eine Sicherheitsabfrage.
 
 	Diese User-ID wirklich widerrufen? (j/N) j
+
+Und ein Grund für den Wideruf.
 
 ```  
 Grund für den Widerruf:
@@ -862,8 +893,13 @@ Grund für den Widerruf:
 (Wahrscheinlich möchten Sie hier 4 auswählen)
 ```  
 
+Wir wählen `4`.
+
 	Ihre Auswahl? 4
 	
+Wir haben noch die Möglichkeit einer optionalen Beschreibung, 
+die wir jedoch leerlassen.
+
 ```  
 Geben Sie eine optionale Beschreibung ein. Beenden mit einer leeren Zeile:
 > 
@@ -873,8 +909,11 @@ Grund für Widerruf: User-ID ist nicht mehr gültig
 (Keine Beschreibung angegeben)
 ```  
 
+Es folgt eine letzte Abfrage zur Bestätigung.
+
 	Ist das OK? (j/N) j
 
+Jetzt wird die *User-ID 9* in den eckigen Klammern als `widerufen` gekennzeichnet.
 ```  
 sec  dsa1024/768146CD269B69D1
      erzeugt: 2007-05-25  verfällt: 2021-07-01  Nutzung: SC  
@@ -893,17 +932,6 @@ ssb  elg2048/0D12C6401914C2F9
 [uneingeschränkt] (10)  Florian Latzel <developer@optona.de>
 [uneingeschränkt] (11)  Florian Latzel <florian.latzel@gmail.com>
 ```  
-
-#### Schlüssel auf Keyserver widerrufen. 
-
-Emailsadressen auf dem Server sschen auf https://keys.openpgp.org/manage via Double-Opt-In.
-
-Auf Hockeypuck  
-
-Wir senden unseren Keyring, in dem sich jetzt unser Revoke-Key befindet zum Keyserver, um ihn dort zu widerufen.
-Alternativ zur Key-ID kann auch der Fingerabdruck verwendet werden.
-
-	gpg --send-keys F4F62999C3BA4866
 
 ## Historie dieses Howtos
 
