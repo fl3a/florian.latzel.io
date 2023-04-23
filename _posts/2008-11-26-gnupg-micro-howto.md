@@ -57,8 +57,10 @@ Jeder Schlüssel hat sein dazugehöriges Gegenstück, allgemein als Schlüsselpa
 Der öffentlicher Schlüssel wird wird zum Verschlüsseln 
 und zur Überprüfung von Signaturen genutzt 
 und muss deinem Kommunikationspartner zur Verfügung stehen 
-damit er diese Aktionen ausführen kann 
-und wird i.d.R. über z.B. sog. Keyserver öffentlich verbreitet.
+damit er diese Aktionen ausführen kann. 
+Öffentliche Schlüssel können z.B. 
+über  [Keyserver](#arbeiten-mit-keyservern) 
+oder [WKD](#web-key-directory-wkd) verbreitet werden.
 
 Der private Schlüssel wird hingegen zum Signieren 
 und Entschlüsseln genutzt und sollte, 
@@ -195,8 +197,11 @@ sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
 
 ## Ein GPG Widerrufs (Revoke) Zertifikat erstellen
 
-Es gibt Falle, in dem du deinen Schlüssel auf den Keyservern widerrufen möchtest, 
-wie z.B. eine unzureichenede Stärke des Schlüssels oder dein Schlüssel oder Rechner sind korrumpiert worden.
+Es gibt Falle, in dem du deinen [Schlüssel auf den Keyservern widerrufen](
+#schlüssel-widerrufen) möchtest, 
+wie z.B. eine nicht genutzte Emailadresse, 
+eine unzureichende Stärke des Schlüssels 
+oder im schlimmsten Fall sind dein Schlüssel oder Rechner korrumpiert worden.
 
 Mittlerweile generiert GnuPG (unter Ubuntu) via Default einen Widerrufszertifikat 
 bei der Schlüsselerstellung(s.o).\\
