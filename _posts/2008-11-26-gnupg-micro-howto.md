@@ -21,7 +21,7 @@ alt: "GnuPG Logo" caption: "GnuPG Logo, Thomas Wittek, GnuPG Projekt, Gemeinfrei
 die das *OpenPGP Message Format* gemäß *RFC 4880[^rfc4880]* implementiert.
 GnuPG ist unter Windows ([Gpg4win](https://www.gpg4win.org/)), 
 Android ([OpenKeychain](https://www.openkeychain.org/)), MacOS ([GPG Suite](https://gpgtools.org/)) 
-und Linux (meisten per default an Board) sowie anderen unixioden System verfügbar. 
+und Linux (meisten per Default an Board) sowie anderen unixioden System verfügbar. 
 
 Die primären Anwendungsgebiete von GnuPG sind die Sicherstellung von Integrität
 beziehungsweise vertraulicher digitaler Kommunikation und Privatsphäre.
@@ -29,7 +29,7 @@ Beispiele für Sicherstellung von Integrität sind signierte Emails,
 signierte Softwarepakete wie z.B. unter Debian[^secure-apt] 
 oder signierte Git[^git-gpg] Commits[^gh-sign-commit] und Tags/Releases[^gh-sign-tag] auf wie Github,
 durch die man Echtheit und Quelle überprüfen kann.
-Das wohl bekannteste Beispiel für die Sicherstellung von digitaler Privatsphäre, 
+Das wohl bekannteste Beispiel für die Sicherstellung von digitaler Privatsphäre 
 ist neben dem Ver- und Entschlüsseln von Dateien die verschlüsselte Emailkommunikation
 
 Dieses Howto beschreibt unter anderem die [Erstellung eines GnuPG Schlüsselpaares](
@@ -50,13 +50,13 @@ Inhaltverzeichnis
 ## Konzept und Terminologie
 
 GnuPG verwendet das sog. Public-Key-Verschlüsselungsverfahren[^1], 
-dass heißt, das es 2 Arten von Schlüssel gibt, 
+das heißt, dass es 2 Arten von Schlüssel gibt, 
 Öffentliche- (Public Keys)[^2] und Private Schlüssel (private Keys)[^3]. 
 Jeder Schlüssel hat sein dazugehöriges Gegenstück, allgemein als Schlüsselpaar bezeichnet.
 
-Der öffentlicher Schlüssel wird wird zum Verschlüsseln 
+Der öffentliche Schlüssel wird zum Verschlüsseln 
 und zur Überprüfung von Signaturen genutzt 
-und muss deinem Kommunikationspartner zur Verfügung stehen 
+und muss deinem Kommunikationspartner zur Verfügung stehen, 
 damit er diese Aktionen ausführen kann. 
 Öffentliche Schlüssel können z.B. 
 über  [Keyserver](#arbeiten-mit-keyservern) 
@@ -64,10 +64,11 @@ oder [WKD](#web-key-directory-wkd) verbreitet werden.
 
 Der private Schlüssel wird hingegen zum Signieren 
 und Entschlüsseln genutzt und sollte, 
-wie der Name schon vermuten lässt eher nicht weitergegeben werden 
-und ist i.d.R mit einem Passwort geschützt.
+wie der Name schon vermuten lässt, 
+eher nicht weitergegeben werden und ist i.d.R mit einem Passwort geschützt.
 
-Die Schlüssel werden über Schlüsselbünde verwaltet, auch hier wieder die Unterscheidung:
+Die Schlüssel werden über Schlüsselbunde verwaltet, 
+auch hier wieder die Unterscheidung:
 
 - einen für die Öffentlichen, *~/.gnupg/pubring.gpg*, eigenen Keys und die deiner Kommunikationspartner
 - und den für die Privaten, *~/.gnupg/secring.gpg*
@@ -76,7 +77,8 @@ Die Schlüssel werden über Schlüsselbünde verwaltet, auch hier wieder die Unt
 
 Zur Erstellung eines GnuPG Schlüsselpaares ist der folgende Befehl 
 unter deiner Benutzer-ID, 
-also dem Benutzer unter dem der Key auch genutzt werden soll auszuführen. 
+also dem Benutzer, 
+unter dem der Key auch genutzt werden soll, auszuführen. 
 Andernfalls müssen der Ort durch `--homedir` angegeben
 und ggf. Berechtigungen angepasst werden.
 
@@ -107,7 +109,7 @@ Ihre Auswahl? 1
 
 Wir entscheiden uns mit `1` für die Voreinstellung RSA und RSA und bestätigen mit Enter.
 
-Wahl der Länge bzw. Stärke des Schlüssels, voreingestellt 3072 Bit.
+Wahl der Länge bzw. Stärke des Schlüssels voreingestellt 3072 Bit.
 
 ```
 RSA-Schlüssel können zwischen 1024 und 4096 Bit lang sein.
@@ -119,10 +121,10 @@ Es folgt die Quittierung von GnuPG:
 
 	Die verlangte Schlüssellänge beträgt 4096 Bit
 
-Gültigkeitzeiraum des Schlüssels.   
-Hier kann spezifiziert werden ob und wann der Schlüssel verfällt.
-Hier sollte entgegen des Defaults `(0)` auf jeden Fall ein Ablaufdatum gewählt werden, 
-denn in Falle eines korumpierten Rechners 
+Gültigkeitzeitraum des Schlüssels.   
+Hier kann spezifiziert werden, ob und wann der Schlüssel verfällt.
+Hier sollte entgegen dem Defaults `(0)` auf jeden Fall ein Ablaufdatum gewählt werden, 
+denn in Falle eines korrumpierten Rechners 
 oder Schlüssel verfällt dieser immerhin irgendann.
 
 ```
@@ -166,7 +168,7 @@ Die Email-Adresse, die unsere spätere UID wird...
 
 Die Email-Adresse `florian@latzel.io`, gefolgt von Enter.
 
-Und ein optionaler Kommentar, den wir mit Enter überspingen.
+Und ein optionaler Kommentar, den wir mit Enter überspringen.
 
 	Kommentar: 
 
@@ -203,17 +205,19 @@ wie z.B. eine nicht genutzte Emailadresse,
 eine unzureichende Stärke des Schlüssels 
 oder im schlimmsten Fall sind dein Schlüssel oder Rechner korrumpiert worden.
 
-Mittlerweile generiert GnuPG (unter Ubuntu) via Default einen Widerrufszertifikat 
+Mittlerweile generiert GnuPG (unter Ubuntu) via Default ein Widerrufszertifikat 
 bei der Schlüsselerstellung(s.o).\\
-Ein GnuPG Widerrufungszertifikat solltest du unbedingt erstellen und sicher aufbewahren.
+Ein GnuPG Widerrufszertifikat solltest du unbedingt erstellen und sicher aufbewahren.
 
-Manuelle Erstellung des Widerrufszertikats.  Die Nutzer-ID kann EMail oder die Key-ID sein.
-Hier mit der User-ID `florian@latzel.io`, der Revoke-Key wird in die Datei `~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev` 
+Manuelle Erstellung des Widerrufszertikats.  
+Die Nutzer-ID kann EMail oder die Key-ID sein.
+Hier mit der User-ID `florian@latzel.io`, 
+der Revoke-Key wird in die Datei `~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev` 
 geschrieben.
 
 	gpg --gen-revoke florian@latzel.io > ~/florian@latzel.io-F4F62999C3BA4866-revoke-key.rev
 
-GnuPG fragt, ob du mit der Erstellung des Widerrufszertifikat fortfahren möchtest,
+GnuPG fragt, ob du mit der Erstellung des Widerrufszertifikats fortfahren möchtest,
 `j` - ja wollen wir:
 ```
 sec  rsa4096/F4F62999C3BA4866 2021-07-01 Florian Latzel <florian@latzel.io>
@@ -249,7 +253,7 @@ und sagen mit `j` *OK*.
 Ist das OK? (j/N) j
 ```
 
-Wir bekommen noch ein Tipps für den Umgang mit den Widerrufszertifikat mit:
+Wir bekommen noch ein paar Tipps für den Umgang mit den Widerrufszertifikat mit:
 ```
 Ausgabe mit ASCII Hülle erzwungen
 Widerrufszertifikat wurde erzeugt.
@@ -328,7 +332,7 @@ die entsprechende Passphrase verlangt.
 
 {%responsive_image figure:true 
 path:assets/imgs/gnupg/pinentry-passphrase-geheimen-openpgp-schluessel-entsperren.png
-alt:"Pinentry Dialog: Eingabe der Passphrase zum entsperren des geheimen OpenPGP Schlüssels" %}
+alt:"Pinentry Dialog: Eingabe der Passphrase zum Entsperren des geheimen OpenPGP Schlüssels" %}
 
 Der neu hinzugefügte Unterschlüssel wird aufgelistet:
 ```
@@ -362,13 +366,13 @@ sub  elg2048/0D12C6401914C2F9
 [ widerrufen] (2)  Florian Latzel <f.latzel@is-loesungen.de>
 ```
 
-Wir wählen den zu löschenden Unterschlüssel, 
-diese wird durch die entsprechende Zahl in der runden Klammer `(1)` spezifiziert:
+Wir wählen den zu löschenden Unterschlüssel. 
+Dieser wird durch die entsprechende Zahl in der runden Klammer `(1)` spezifiziert:
 
 	uid 1
 
 Der entsprechende Unterschlüssel ist für die weitere Aktion ausgewählt,
-erkennbar am `*` hinter der UID:
+erkennbar am `*` hinter der Zahl:
 
 ```
 Der folgende Schlüssel wurde am 2007-05-27 von DSA Schlüssel 768146CD269B69D1 Florian Latzel <florian.latzel@is-loesungen.de> widerrufen
@@ -401,7 +405,7 @@ sub  elg2048/0D12C6401914C2F9
 [ widerrufen] (1)  Florian Latzel <f.latzel@is-loesungen.de>
 ```
 
-Mit `save` beenden wir die die Bearbeitung und den interaktiven Modus.
+Mit `save` beenden wir die Bearbeitung und den interaktiven Modus.
 
 	save
 
