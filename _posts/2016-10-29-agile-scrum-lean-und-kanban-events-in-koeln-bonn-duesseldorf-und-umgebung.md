@@ -32,8 +32,8 @@ und Arbeit auf Augenhöhe gibt es in Köln und Umgebung?
 oder einfach nur Gleichgesinnte treffen?
 - Wo ist die nächste Selbsthilfegruppe der *Anonymen Agilisten*[^anon-agile]?
 
-Ich habe eine **Liste von Scrumtischen, Agile- und KANBAN- und Artverwandten-Meetups 
-und Konferenzen** in der Region zusammengetragen.   
+Ich habe eine **Liste von Scrumtischen, Agile Meetups 
+und Konferenzen in NRW** zusammengetragen.   
 Hier kommt die **Agile Community in Nordrhein-Westfalen** zusammen.
 
 Für manche Treffen ist eine Anmeldung über linkedin oder meetup Vorraussetzung, 
