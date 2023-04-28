@@ -33,8 +33,8 @@ oder einfach nur Gleichgesinnte treffen?
 - Wo ist die nächste Selbsthilfegruppe der *Anonymen Agilisten*[^anon-agile]?
 
 Ich habe eine **Liste von Scrumtischen, Agile- und KANBAN- und Artverwandten-Meetups 
-und Konferenzen** in der Region zusammengetragen, 
-wo die **Agile Community in Nordrhein-Westfalen** zusammenkommt.
+und Konferenzen** in der Region zusammengetragen.   
+Hier kommt die **Agile Community in Nordrhein-Westfalen** zusammen.
 
 Für manche Treffen ist eine Anmeldung über linkedin oder meetup Vorraussetzung, 
 dass heisst ein Benutzerkonto dort ist obligatorisch.<!--break-->
@@ -79,7 +79,9 @@ ein Format der [Agile Academy](https://www.agile-academy.com/de/).
 ein Format von [access2agile](https://access2agile.com/)
 - [team. thesen. temperamente.](https://www.linkedin.com/groups/9059568/)
 - [Lean Coffee Retrospektiven](https://www.linkedin.com/groups/12536756/)
-- [Agiles Picknick](https://www.paragraph1.de/trainings/agiles-picknick), ein Format von paragraph eins
+- [Agiles Picknick](https://www.paragraph1.de/trainings/agiles-picknick), 
+ein Format von [paragraph eins](https://www.paragraph1.de/)
+
 
 ### Agile Meetups und Events in Bonn
 
