@@ -453,6 +453,7 @@ debug-level basic
 - WKD[^wkd]  Einfaches Konzept zur Verteilung öffentlicher PGP-Schlüssel via HTTPS.
   - Viele Mailcients[^mcl] wie z.B. Thunderbird, Outlook (GpgOL) 
 oder Failmail (via OpenKeychain) nutzen WKD autom.
+https://wiki.gnupg.org/WKD#Mail_Service_Providers_offering_WKD
   - 2 Methoden: Advanced und Direct, ich beziehe mich auf Direct. 
   - Funktionsweise: Schriitte, Email, Domain, Schema, Auslieferung Via SSL,
 
