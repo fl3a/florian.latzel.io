@@ -1,6 +1,5 @@
 ---
 title: Agile, Scrum, Lean und Kanban Events in Köln, Bonn, Düsseldorf und Umgebung
-toc: true
 tags:
 - Scrum
 - Meetup
@@ -16,7 +15,7 @@ nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2023-02-27
+last_modified_at: 2023-04-28
 image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
 <figure>
@@ -25,7 +24,7 @@ image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 </figure>
 
 ## Agile Meetups & Events in NRW
-
+{:.no_toc}
 - Welche regelmäßigen Meetups zu Themen wie Scrum, Agile, KANBAN, eXtreme Programming, Lean 
 und Arbeit auf Augenhöhe gibt es in Köln und Umgebung? 
 - Welche (Un)Konferenzen finden in NRW statt? 
@@ -36,7 +35,11 @@ Ich habe eine Liste von Scrumtischen, Agile- und KANBAN- und Artverwandten-Meetu
 und Konferenzen in der Region zusammengetragen, 
 wo die *Agile Community* in Nordrhein-Westfalen zusammenkommt.
 
-Für manche Treffen ist eine Anmeldung über linkedin oder meetup Vorraussetzung, dass heisst ein Benutzerkonto dort ist obligatorisch.
+Für manche Treffen ist eine Anmeldung über linkedin oder meetup Vorraussetzung, 
+dass heisst ein Benutzerkonto dort ist obligatorisch.<!--break-->
+
+* Inhalt
+{:toc}
 
 ### Agile Meetups & Events in Köln
 
@@ -56,7 +59,6 @@ ein Format von [paragraph eins](https://www.paragraph1.de/)
 - [Köln Liberating Structures Meetup](https://www.meetup.com/de-DE/Koln-Liberating-Structures-Meetup/), 
   Meetup zum Ausprobieren und Erfahrungsaustausch der Liberating Structures Toolbox und Strings 
 - [Köln Teal](https://www.meetup.com/de-DE/Koln-Teal-Reinventing-Organizations-Meetup/) Reinventing Organizations - Meetup 
-  Agiles Netzwerken in Köln, jeden zweiten Donnerstag im Monat ein Format von kernpunkt 
 - [Spielend begreifen - get it through games](https://www.linkedin.com/groups/14136973/) 
   Spiele mit Mehrwert, alles was Verstehen fördert, 
   egal ob Simulationen/Planspiele, Teamspiele oder Ice-Breaker für Teams und Organisationen 
@@ -77,7 +79,6 @@ ein Format von [access2agile](https://access2agile.com/)
 - [team. thesen. temperamente.](https://www.linkedin.com/groups/9059568/)
 - [Lean Coffee Retrospektiven](https://www.linkedin.com/groups/12536756/)
 
-<!--break-->
 ### Agile Meetups und Events in Bonn
 
 - [Bonn Agile Meetup](https://www.meetup.com/de-DE/Bonn-Agile/), am ersten Dienstag des Monats in wechselden Locations, Anmeldung über meetup
