@@ -2,24 +2,23 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-03-26 12:16
+last_modified_at: 2023-04-29 22:56
 ---
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).   
 ## Lernen
 
 - Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](/tags/pencak-silat).   
-- Ich lerne jobbedingt gerade viel über Veränderungen🙃.
 
-## Neuer Job
+## Überarbeitung des GnuPG Micro Howtos
 
-Ich habe seit August 2022 einen neuen Job als *Tribe Agile Master* bei der AXA 
-([nach 5 Jahren REWE digital](
-/2022/08/15/5-jahre-rewe-digital-danke-auf-wiedersehen.html))
-und begleite dort den Veränderungsprozess in einer Transformation,
-die nicht nur im Versicherungsbereich seinesgleichen sucht.   
-Alles ist neu; neue Firma, neue Branche, neues Team, neue Kollegen
-neue Rolle, neue Aufgaben, neue Verantwortungen, neuer Tribe, neue Prozesse.
+In 2021 habe ich einen neuen GnuPG Schlüssel erstellt.   
+Seit 2008 und gpg-1.4 hat sich einiges getan...    
+Es gibt keine SKS Server mehr, 
+das *Web of Trust* ist quasi tot, dafür gibt es jetzt Hagrid und WKD.    
+Ein guter Anlass, das [GnuPG Micro Howto](/gnupg-micro-howto.html) zu überarbeiten,
+lebt im [gnupg-howto Branch]( 
+https://github.com/fl3a/florian.latzel.io/commits/gnupg-howto/_posts/2008-11-26-gnupg-micro-howto.md).
 
 ## Now reading
 
