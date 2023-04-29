@@ -450,27 +450,29 @@ debug-level basic
 
 ## Web Key Directory (WKD) 
 
-- WKD[^wkd]  Einfaches Konzept zur Verteilung öffentlicher PGP-Schlüssel via HTTPS.
-  - Viele Mailcients[^mcl] wie z.B. Thunderbird, Outlook (GpgOL) 
-oder Failmail (via OpenKeychain) nutzen WKD autom.
-https://wiki.gnupg.org/WKD#Mail_Service_Providers_offering_WKD
-  - 2 Methoden: Advanced und Direct, ich beziehe mich auf Direct. 
-  - Funktionsweise: Schriitte, Email, Domain, Schema, Auslieferung Via SSL,
+WKD[^wkd] ist einfaches Konzept zur Verteilung öffentlicher PGP-Schlüssel via HTTPS.
 
-
-Schema für Direct: <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb>
-  - Verzeichnisstruktur
-
+Viele Mailcients[^mcl] wie z.B. Thunderbird, Outlook (GpgOL) 
+oder Failmail (via OpenKeychain) nutzen WKD automatisch 
+und einige Email-Provider (die cooleren[^emailwkd]) haben WKD im Funktionsumfang. 
 
 ### WKD einrichten 
 
-- Ein muss bei Zugriff auf (eigenen) Server und Domain
-Sofern meine Domain[^domain] im hier genutzten Beispiel auf uberspace konfiguiert[^domain] ist
-und ein entsprechender A- oder AAA-Eintrag existiert,
-wird der Webserver den via WKD angefragten Key via SSL ausliefern.
+Vorraussetzungen hierfür sind ein Webserver + die Möglichkeit *.htaccess-Dateien* zu nutzen
+und ein gültiges TLS Zertifikat.
 
-So sehen auf spezifische Pfad für Uberspace der und die allgemeine *Web Key Directory* Verzeichnisstruktur 
-für meine als Bespiel genutzte EMailadresse florian@latzel.io, also Domain *latzel.io* und dem dem WKD-Hash (Hashed-UserID) aus *florian* aus:
+Sofern unsere  Domain[^domain], 
+wie im hier genutzten Beispiel von uberspace[^domain] ausgeliefert wird
+und ein entsprechender A- oder AAA-Eintrag existiert,
+wird der Webserver, Dank des *Let's Encrypt Zertifikats* 
+den via WKD angefragten Key via TLS/SSL ausliefern.
+
+WKD nutzt folgendes Schema: https://$DOMAIN/.well-known/openpgpkey/hu/$HASHED_USERID,
+<https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb>
+
+So sieht auf Uberspace der spezifische Pfad für die *Web Key Directory* Verzeichnisstruktur,
+für meine im Bespiel genutzte Emailadresse florian@latzel.io
+(Domain *latzel.io* + Hashed-UserID aus *florian*) aus:
 
 ```
 /var/www/virtual/${USER}/latzel.io
@@ -514,7 +516,7 @@ So kommst du an die WKD Hashes der EmailAdressen:\\
 Die sog. hashed-userid, ist ein SHA1 Hash, der aus dem lokalen Teil(User/Prefix),
 der anschließend mit dem *Z-Base-32 Verfahren* kodiert wird[^zbase32].
 
-Die entspricht dem späteren Dateinamen.
+Diese entspricht dem späteren Dateinamen.
 
 
     gpg --with-wkd-hash --fingerprint florian@latzel.io 
@@ -546,9 +548,9 @@ So entsteht keine Datei, die wir gar nicht brauchen und nach der Übertragung l�
 #### Via Zugriff auf HTTPS
 
 Im Browser <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb> aufrufen,
-es wird eine Datei zum Download angeboten.
+es sollte im Erfolsfall eine Datei zum Download angeboten werden.
 
-...Via Curl: 
+oder via Curl: 
 
     curl -I https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb 
 
@@ -581,20 +583,6 @@ Screenshot
 
     
 #### Via gpg
-
-Während das Webfrontend alles mit OK quittiert moppert der WKD-Test via Kommandozeile...
-
-    gpg -v --auto-key-locate clear,wkd,nodefault --locate-key florian@latzel.io 
-
-```
-gpg: using character set 'utf-8'
-gpg: verwende Vertrauensmodell pgp
-gpg: Schlüssel F4F62999C3BA4866: Als vertrauenswürdiger Schlüssel akzeptiert
-gpg: Fehler beim automatischen holen von `florian@latzel.io' über `WKD': Server zeigt einen unbestimmten Fehler an
-gpg: Fehler beim automatischen holen von `florian@latzel.io' über `None': Kein öffentlicher Schlüssel
-gpg: Schlüssel "florian@latzel.io" nicht gefunden: Kein öffentlicher Schlüssel
-```
-Nach einen Kaffee und ca. 10min später:
 
     gpg -v --auto-key-locate clear,wkd,nodefault --locate-key florian@latzel.io  
 
@@ -1023,11 +1011,13 @@ für das erste Feedback zum Skript und die Checks auf Ubuntu 8.04, openSuSE 11 u
 [^sks2]: [Verschlüsselte Kommunikation: Angriff auf PGP-Keyserver demonstriert hoffnungslose Situation - heise.de](https://www.heise.de/security/meldung/Angriff-auf-PGP-Keyserver-demonstriert-hoffnugslose-Situation-4458354.html)
 [^weboftrust]: [PGP: Der langsame Tod des Web of Trust - heise.de](https://www.heise.de/hintergrund/PGP-Der-langsame-Tod-des-Web-of-Trust-4467052.html)
 [^wkd]: [Web Key Service: OpenPGP-Schlüssel über HTTPS verteilen - golem.de](https://www.golem.de/news/web-key-service-openpgp-schluessel-ueber-https-verteilen-1609-123194.html)
-[^sks-aus]: [ SKS: Das Ende der alten PGP-Keyserver - golem.de](https://www.golem.de/news/sks-das-ende-der-alten-pgp-keyserver-2106-157613.html)
+[^sks-aus]: [SKS: Das Ende der alten PGP-Keyserver - golem.de](https://www.golem.de/news/sks-das-ende-der-alten-pgp-keyserver-2106-157613.html)
+[^emailwkd]: [Mail Service Providers offering WKD](https://wiki.gnupg.org/WKD#Mail_Service_Providers_offering_WKD)
 
 *[RFC]: Request for Comment
 *[WKD]: Web Key Directory
 *[SSL]: Secure Socket Layer
+*[TLS]: Transport Layer Security
 *[PGP]: Pretty Good Privacy
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[SKS]: Synchronizing Key Server
