@@ -575,11 +575,12 @@ referrer-policy: strict-origin-when-cross-origin
 
 #### Via WKD Checker Webfrontend   
 
-Ein Webfrontend zum testen des Deployments deiner Keys in ein *Web Key Directory*.
+Auf <https://metacode.biz/openpgp/web-key-directory> findest du 
+ein Webfrontend zum testen des Deployments deiner Keys in ein *Web Key Directory*.
 
-via <https://metacode.biz/openpgp/web-key-directory>
-
-Screenshot
+{% responsive_image figure: true 
+path: assets/imgs/gnupg/gnupg-wkd-web-key-directory-deployment-checker-webfrontend.png
+alt: "Überprüfung des WKD Deployments via Webfrontend" %}
 
     
 #### Via gpg
@@ -945,7 +946,7 @@ mit gpg 2.2.4 erstellten Schlüssel.
 - 2008-11-26    
 [Veröffentlichung auf netzaffe.de](
 https://web.archive.org/web/20081216082227/http://netzaffe.de/2008/11/26/gnupg-micro-howto.html).    
-Als Grundlage diente ein Skript, welches während meiner Linux Dozententätigkeit um 2007 entstand.
+Als Grundlage diente ein Skript, welches während meiner Linux Dozententätigkeit um 2007/2008 entstand.
 Dieses Skript basierte auf gpg in der Version 1.4.6 und pinentry 0.7.2 unter Debian Etch   
 und wurde unter anderem getestet auf/mit:     
   - Ubuntu 8.04 mit gpg 1.4.6 und pinentry 0.7.4
