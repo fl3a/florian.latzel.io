@@ -4,7 +4,6 @@ tags:
 - snippet
 - Open Source
 - Linux
-- howto
 nid: 513
 layout: post
 title: Blockkommentare mit Vim im Visuell Block Mode
