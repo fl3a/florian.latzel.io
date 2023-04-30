@@ -15,9 +15,10 @@ inspiriert durch [Derek Sivers](https://sive.rs/).
 In 2021 habe ich einen neuen GnuPG Schlüssel erstellt.   
 Seit 2008 und gpg-1.4 hat sich einiges getan...    
 Es gibt keine SKS Server mehr, 
-das *Web of Trust* ist quasi tot, dafür gibt es jetzt Hagrid und WKD.    
-Ein guter Anlass, das [GnuPG Micro Howto](/gnupg-micro-howto.html) zu überarbeiten,
-lebt im [gnupg-howto Branch]( 
+das *Web of Trust* ist quasi tot. 
+Dafür gibt es jetzt Hagrid und WKD.    
+Ein guter Anlass, das [GnuPG Micro Howto](/gnupg-micro-howto.html) zu überarbeiten.
+Lebt im [gnupg-howto Branch]( 
 https://github.com/fl3a/florian.latzel.io/commits/gnupg-howto/_posts/2008-11-26-gnupg-micro-howto.md).
 
 ## Now reading
