@@ -1,14 +1,12 @@
 ---
 layout: post
 tags:
-- variablen
+- "<?php ?>"
 - snippet
-- OOP
+- howto
 - Gut zu wissen
 - Drupal
 - doxygen
-- Dokumentation
-- "<?php ?>"
 - Entwicklung
 nid: '1631'
 image: /assets/imgs/doxygen-var-doxygen-notation.png
