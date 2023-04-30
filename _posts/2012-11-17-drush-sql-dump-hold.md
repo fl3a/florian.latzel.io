@@ -13,7 +13,7 @@ tags:
 - cron
 ---
 Die Drush-Erweiterung [drush_sql_dump_hold](https://www.drupal.org/project/drush_sql_dump_hold) 
-erweitert das Drush-Kommando sql-dump, um eine weitere Option erweitert: hold.
+erweitert das Drush-Kommando sql-dump, um eine weitere Option: hold.
 
 Diese Option wurde für die häufige, wenn nicht sogar periodische Ausführung von `drush sql-dump`
 geschrieben und sorgt dafür, dass im via Option result-file (Mandatory) spezifizierten Verzeichnis,
