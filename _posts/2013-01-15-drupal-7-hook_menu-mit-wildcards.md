@@ -1,6 +1,8 @@
 ---
 tags:
 - Gut zu wissen
+- howto
+- snippets
 - Drupal
 - API
 - "<?php ?>"

@@ -1,11 +1,11 @@
 ---
 tags:
 - snippet
+- howto
 - jquery
 - javascript
 - Entwicklung
 - Drupal
-- Date
 - "<?php ?>"
 - drupal-6.x
 nid: 976

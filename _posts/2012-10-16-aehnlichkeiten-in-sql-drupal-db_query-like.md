@@ -3,6 +3,8 @@ tags:
 - Entwicklung
 - SQL
 - Gut zu wissen
+- howto
+- snippet
 - Drupal
 - API
 - "<?php ?>"
