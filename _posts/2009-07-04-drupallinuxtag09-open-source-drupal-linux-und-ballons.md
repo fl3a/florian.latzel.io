@@ -35,7 +35,7 @@ Be drupal 2009!
 **Standparty mit Drupal Bier und Drupal Ballons**
 
 Social Event: An Tag 2. gab es dann die Party am Drupalstand.
-<img src="/assets/imgs/linuxtag09/3662712580_ff36353179.jpg" alt="Drupalbier und Drupalballons" /><br />
+<img src="/assets/imgs/linuxtag09/linuxtag-2009-drupal-standparty-ballons.jpg" alt="Drupalbier und Drupalballons" /><br />
 <small>Foto von <a href="http://irata.ch">Valentin Vago</a>, <a href="http://creativecommons.org/licenses/by/2.0/deed.de">CC-by</a>  </small><br />
 
 Was ein paar Ballons alles ausmachen können...<br />
