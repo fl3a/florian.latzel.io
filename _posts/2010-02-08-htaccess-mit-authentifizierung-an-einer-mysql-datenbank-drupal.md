@@ -1,6 +1,7 @@
 ---
 tags:
 - snippet
+- howto
 - MySQL
 - Drupal
 - Debian
