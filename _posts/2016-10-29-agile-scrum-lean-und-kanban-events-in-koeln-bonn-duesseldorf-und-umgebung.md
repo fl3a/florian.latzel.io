@@ -2,14 +2,14 @@
 title: Agile, Scrum, Lean und Kanban Events in Köln, Bonn, Düsseldorf und Umgebung
 tags:
 - Scrum
-- Meetup
-- Köln
+- Agile
 - Kanban
+- Community
+- Köln
 - Düsseldorf
 - Bonn
-- Agile
 - Aachen
-- Community
+- Ruhrgebiet
 - Scrumtisch Köln
 nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"

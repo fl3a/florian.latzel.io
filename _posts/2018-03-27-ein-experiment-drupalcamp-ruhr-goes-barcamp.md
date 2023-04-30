@@ -1,13 +1,13 @@
 ---
 title: 'Ein Experiment: drupalcamp.ruhr goes BarCamp'
 tags:
-- Community
-- drupalcamp.ruhr
-- Open Space
 - Drupal
+- Community
+- Drupalcamp
+- Open Space
 - Open Source
 - Essen
-- Drupalcamp
+- Ruhrgebiet
 nid: 1648
 layout: post 
 created: 1522137428
