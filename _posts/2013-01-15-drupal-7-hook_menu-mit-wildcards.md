@@ -1,11 +1,10 @@
 ---
 tags:
+- snippet
+- "<?php ?>"
 - Gut zu wissen
-- howto
-- snippets
 - Drupal
 - API
-- "<?php ?>"
 - Entwicklung
 nid: 1617
 permalink: "/drupal-7-hook-menu-mit-wildcards.html"
