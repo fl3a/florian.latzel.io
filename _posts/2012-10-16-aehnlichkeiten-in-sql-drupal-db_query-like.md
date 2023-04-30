@@ -1,10 +1,9 @@
 ---
 tags:
+- snippet
 - Entwicklung
 - SQL
 - Gut zu wissen
-- howto
-- snippet
 - Drupal
 - API
 - "<?php ?>"

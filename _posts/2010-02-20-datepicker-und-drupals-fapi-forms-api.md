@@ -1,7 +1,6 @@
 ---
 tags:
 - snippet
-- howto
 - jquery
 - javascript
 - Entwicklung

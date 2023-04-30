@@ -1,12 +1,11 @@
 ---
 tags:
 - snippet
+- "#!/bin/bash"
 - nützlich
 - Linux
-- howto
 - Entwicklung
 - Arrays
-- "#!/bin/bash"
 nid: 691
 permalink: "/arrays-in-der-bash.html"
 layout: post

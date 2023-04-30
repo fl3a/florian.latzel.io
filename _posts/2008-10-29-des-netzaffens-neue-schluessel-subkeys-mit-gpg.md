@@ -4,7 +4,6 @@ tags:
 - snippet
 - Sicherheit
 - Open Source
-- howto
 - gpg
 nid: 642
 layout: post

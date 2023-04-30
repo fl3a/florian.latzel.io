@@ -3,7 +3,6 @@ layout: post
 tags:
 - "<?php ?>"
 - snippet
-- howto
 - Gut zu wissen
 - Drupal
 - doxygen
