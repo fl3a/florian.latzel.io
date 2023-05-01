@@ -21,7 +21,7 @@ alt: "GnuPG Logo" caption: "GnuPG Logo, Thomas Wittek, GnuPG Projekt, Gemeinfrei
 die das *OpenPGP Message Format* gemäß *RFC 4880[^rfc4880]* implementiert.
 GnuPG ist unter Windows ([Gpg4win](https://www.gpg4win.org/)), 
 Android ([OpenKeychain](https://www.openkeychain.org/)), MacOS ([GPG Suite](https://gpgtools.org/)) 
-und Linux (meisten per Default an Board) sowie anderen unixioden System verfügbar. 
+und Linux (dort meistens per Default an Board) sowie anderen unixioden System verfügbar. 
 
 Die primären Anwendungsgebiete von GnuPG sind die Sicherstellung von Integrität
 beziehungsweise vertraulicher digitaler Kommunikation und Privatsphäre.
@@ -458,13 +458,13 @@ und einige Email-Provider (die cooleren[^emailwkd]) haben WKD im Funktionsumfang
 
 ### WKD einrichten 
 
-Vorraussetzungen hierfür sind ein Webserver + die Möglichkeit *.htaccess-Dateien* zu nutzen
+Voraussetzungen hierfür sind ein Webserver + die Möglichkeit *.htaccess-Dateien* zu nutzen
 und ein gültiges TLS Zertifikat.
 
 Sofern unsere  Domain[^domain], 
 wie im hier genutzten Beispiel von uberspace[^domain] ausgeliefert wird
 und ein entsprechender A- oder AAA-Eintrag existiert,
-wird der Webserver, Dank des *Let's Encrypt Zertifikats* 
+wird der Webserver, dank des *Let's Encrypt Zertifikats* 
 den via WKD angefragten Key via TLS/SSL ausliefern.
 
 WKD nutzt folgendes Schema: https://$DOMAIN/.well-known/openpgpkey/hu/$HASHED_USERID,
@@ -497,7 +497,8 @@ Anlegen der (leeren) Datei *policy* :
     touch /var/www/virtual/${USER}/latzel.io/.well-known/openpgpkey/policy
 
 
-Damit der Webserver die benötigten HTTP-Header ausliefert legen wir eine .htaccess-Datei mit folgendem Inhalt an:
+Damit der Webserver die benötigten HTTP-Header ausliefert, 
+legen wir eine .htaccess-Datei mit folgendem Inhalt an:
 
     vi /var/www/virtual/${USER}/latzel.io/.well-known/openpgpkey/hu/.htaccess
 
@@ -512,7 +513,7 @@ Damit der Webserver die benötigten HTTP-Header ausliefert legen wir eine .htacc
 
 ### Upload der Public Keys in das WKD
 
-So kommst du an die WKD Hashes der EmailAdressen:\\
+So kommst du an die WKD Hashes der Emailadressen:\\
 Die sog. hashed-userid, ist ein SHA1 Hash, der aus dem lokalen Teil(User/Prefix),
 der anschließend mit dem *Z-Base-32 Verfahren* kodiert wird[^zbase32].
 
@@ -547,10 +548,12 @@ So entsteht keine Datei, die wir gar nicht brauchen und nach der Übertragung l�
 
 #### Via Zugriff auf HTTPS
 
-Im Browser <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb> aufrufen,
-es sollte im Erfolsfall eine Datei zum Download angeboten werden.
+Via Browser 
+<https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb> 
+aufrufen.
+Im Erfolgsfall sollte eine Datei zum Download angeboten werden.
 
-oder via Curl: 
+Oder via Curl: 
 
     curl -I https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb 
 
@@ -576,7 +579,7 @@ referrer-policy: strict-origin-when-cross-origin
 #### Via WKD Checker Webfrontend   
 
 Auf <https://metacode.biz/openpgp/web-key-directory> findest du 
-ein Webfrontend zum testen des Deployments deiner Keys in ein *Web Key Directory*.
+ein Webfrontend zum Testen des Deployments deiner Keys in ein *Web Key Directory*.
 
 {% responsive_image figure: true 
 path: assets/imgs/gnupg/gnupg-wkd-web-key-directory-deployment-checker-webfrontend.png
@@ -606,9 +609,9 @@ sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
 
 ## Arbeiten mit GnuPG
 
-Eine Kurzreferenz von GnuPG-Befehlen und -Optionen die öfter mal benutzt werden.
+Eine gebräuchlichen von GnuPG-Befehlen und -Optionen..
 
-### Geheime Schlüsselauflisten
+### Geheime Schlüssel auflisten
 
 Anzeigen aller Private-Keys, alternativ steht noch `-K` als Shortoption zur Verfügung.
 
@@ -616,8 +619,10 @@ Anzeigen aller Private-Keys, alternativ steht noch `-K` als Shortoption zur Verf
 
 ### Export eines geheimen Schlüssels
 
-Für eine Sicherheitskopie oder das Arbeiten auf mehreren Maschinen exportieren wir den Geheimen Schlüssel (Private Key).
-Dieser sollte auf einem externen Datenträger gespeichert und an einem sicheren Ort aufbewahrt werden.
+Für eine Sicherheitskopie oder das Arbeiten auf mehreren Maschinen 
+exportieren wir den Geheimen Schlüssel (Private Key).
+Dieser sollte auf einem externen Datenträger gespeichert 
+und an einem sicheren Ort aufbewahrt werden.
 
 Um den den Schlüssel auf einen anderen Rechner zu transferieren sollte eine verschlüsselte Verbindung benutzt werden.
 
