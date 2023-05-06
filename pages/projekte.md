@@ -16,7 +16,7 @@ mailto:florian@latzel.io?subject=Leadershiptraining goes wild)!
 - [Agile Meetups & Events in NRW](/agile-meetups-events-koeln-nrw.html), 
 Liste von Scrumtischen, Agile Meetups und (Un-)Konferenzen 
 in Köln, Bonn, Düsseldorf, Ruhrgebiet und Umgebung
-
+- Das [GnuPG Micro Howto](/gnupg-micro-howto.html) 
 
 ## Vergangene Projekte
 
@@ -40,7 +40,6 @@ der German Drupal Association
 - Mitorganisation des [Drupalstandes auf dem LinuxtagBerlin 2009](
 /2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html) 
 - Mitorganisation der ersten Drupal-Entwickler-Konferenz in D-A-CH
-- Das [GnuPG (GPG) Micro Howto](/gnupg-micro-howto.html) (2008)
 - [Howto: Drupal 6 Multisiteumgebung mit PostgreSQL](
 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html) (2008)
 - Deutsche Übersetzung der [Open Source](/tags/open-source/) 
