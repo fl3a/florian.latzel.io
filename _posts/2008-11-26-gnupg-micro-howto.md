@@ -1,6 +1,6 @@
 ---
 date: 2008-11-26 07:43
-last_modified_at: 2019-03-31 2019-03-31 18:59 
+last_modified_at: 2023-05-06 09:19 
 tags:
 - howto 
 - gpg 
@@ -941,7 +941,7 @@ ssb  elg2048/0D12C6401914C2F9
 ## Historie dieses Howtos
 
 - Seit 2021-07    
-Aktualisierungen und Ergänzungen basierend auf einem in Juli 2021    
+Aktualisierungen und Ergänzungen basierend auf einem im Juli 2021    
 mit gpg 2.2.4 erstellten Schlüssel.
   - Überarbeitung: Text allgemein und Struktur
   - Aktualisierung: Schlüsselerstellung und Subkeys
@@ -991,12 +991,12 @@ https://tools.ietf.org/html/draft-shaw-openpgp-hkp-00)
 
 ## Credits
 
-Credits für den WKD Teil. Danke an die Autoren der jeweiligen Artikel🙏:
-- <https://www.kuketz-blog.de/gnupg-web-key-directory-wkd-einrichten/>
-- <https://lab.uberspace.de/guide_wkd/>
+Danke Mike Kuketz für deinen Artikel [GnuPG: Web Key Directory (WKD) einrichten](
+https://www.kuketz-blog.de/gnupg-web-key-directory-wkd-einrichten/),
+an dem ich mich bei meinem Setup orientieren konnte🙏.
 
-Danke an meine ersten Probanden Nadine, Michael und Thomas🙏 aus der DAA Bonn 
-für das erste Feedback zum Skript und die Checks auf Ubuntu 8.04, openSuSE 11 und Windows Vista.  
+Danke an meine ersten Proband\*innen Nadine, Michael und Thomas🙏 aus der DAA Bonn 
+für das erste Feedback zum Skript und die Checks auf Ubuntu, openSuSE 11 und Windows Vista.  
 
 ## Fußnoten
 
