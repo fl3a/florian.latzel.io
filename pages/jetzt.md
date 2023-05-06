@@ -18,8 +18,6 @@ Es gibt keine SKS Server mehr,
 das *Web of Trust* ist quasi tot. 
 Dafür gibt es jetzt Hagrid und WKD.    
 Ein guter Anlass, das [GnuPG Micro Howto](/gnupg-micro-howto.html) zu überarbeiten.
-Lebt im [gnupg-howto Branch]( 
-https://github.com/fl3a/florian.latzel.io/commits/gnupg-howto/_posts/2008-11-26-gnupg-micro-howto.md).
 
 ## Now reading
 
