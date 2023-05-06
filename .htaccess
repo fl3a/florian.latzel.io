@@ -97,26 +97,20 @@ Redirect 301 /pear-phpunit-composer-und-drupal /2015/02/28/pear-phpunit-de-compo
 Redirect 301 /blog http://netzaffe.de 
 Redirect 301 /blog?page=1 http://netzaffe.de/
 Redirect 301 /node?page=1 http://netzaffe.de/
-Redirect /blog/2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-angeben.html /2014/11/26/svnssh-unter-linux-username-bei-svn-checkout-angeben.html
+Redirect 301 /blog/2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-angeben.html /2014/11/26/svnssh-unter-linux-username-bei-svn-checkout-angeben.html
 Redirect 301 /rss.xml /feed.xml
 Redirect 301 /autocompletition-fuer-drush-aktivieren /2013/04/21/autocompletition-fuer-drush-aktivieren.html
 Redirect 301 /2019/04/05/daily-scrum-daily-questions.html /2019/04/05/daily-scrum-fragen.html
-
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html
-Redirect /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
-
+Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
 Redirect 301 /florian-latzel.html /ueber.html
-
 Redirect 301 /eine-einfuehrung-scrum-vortrag-auf-dem-drupalcamp-muenchen-2016.html /scrum-45-minuten-drupalcamp-muenchen-2016.html
 Redirect 301 /copy-n-paste-bei-gpg-passwoertern-und-pinentry /2015/11/14/copy-n-paste-bei-gpg-passwoertern-und-pinentry.html
-
 Redirect 301 /2009/02/20/drush-mm-adminrole-workaround-und-tabs-in-firefox.html /2009/02/20/drush_mm-adminrole-workaround-und-tabs-in-firefox.html
-
 Redirect 301 /drupal-und-apache-2-4-x-unter-debian-testing-jessie /2014/10/20/drupal-und-apache-2-4-x-unter-debian-testing-jessie.html
-
 Redirect 301 /2012/10/16/hnlichkeiten-in-sql-drupal-db-query-like.html /2012/10/16/aehnlichkeiten-in-sql-drupal-db_query-like.html
-
 Redirect 301 /2009/12/08/drush-und-mulisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html
+Redirect 301 /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface.html /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface-drupal-user-group-kln-bonn.html
 
 # END misc
 
