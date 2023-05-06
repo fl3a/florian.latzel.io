@@ -609,7 +609,7 @@ sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
 
 ## Arbeiten mit GnuPG
 
-Eine gebräuchlichen von GnuPG-Befehlen und -Optionen..
+Eine Sammlung von gebräuchlichen von GnuPG-Befehlen und -Optionen..
 
 ### Geheime Schlüssel auflisten
 
@@ -658,8 +658,9 @@ die letzen 2 4er Paare sind gleichzeitig die Key-ID.
 
 ### Public-Keys in Datei exportieren. 
 
-Den Public-Key in eine sog. ASCII-Armored Datei exportieren, 
-die Angabe des Schlüssels erfolgt über Key-ID oder die E-Mailadresse.
+Den Public-Key in eine sog. ASCII-Armored Datei (via `-a`) exportieren.
+Die Ausgabe, hier die Datei *florian-at-latzel-io.asc* wird via `-o` festgelegt,
+Default ist Stdout.
 
 	gpg --export -a -o florian-at-latzel-io.asc florian@latzel.io
 
@@ -759,7 +760,7 @@ oder Key-ID
 
 Die Suche nach Namen oder Teilstrings klappt bei keys.openpgp.org nicht, 
 aber auf dem mit Hagrid betriebenen keyserver,ubuntu.com.
-Den Default Keyserver aus der [`~/.gnupg/options`](#gnupgoptions)
+Den Default Keyserver aus der [*~/.gnupg/options*](#gnupgoptions)
 können wir durch die Angabe eines anderen Keyservers via `--keyserver` Option überschreiben.
 
 Suche nach Namen...
