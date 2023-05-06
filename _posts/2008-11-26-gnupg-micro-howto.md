@@ -681,8 +681,8 @@ GnuPG in der Version 2.2.17 ignorierte bereits standardmäßig alle Signaturen, 
 Im Juni 2021 wurde das SKS abgeschaltet[^sks-aus].
 
 Mittlerweile gibt es Keyserver mit Überprüfung der Schlüssel 
-via Double OptIN und Löschmöglichkeit[^newkeys], 
-allerdings zu Lasten des sogenannten *Web of Trust*[^weboftrust].
+via *Double-Opt-In* und Löschmöglichkeit[^newkeys], 
+allerdings zulasten des sogenannten *Web of Trust*[^weboftrust].
 Zwei Vertreter davon sind [keys.mailvelope.com](https://keys.mailvelope.com/) 
 betrieben mit [Mailvelope](https://github.com/mailvelope/keyserver)
 und der De-Facto-Standard [keys.openpgp.org](https://keys.openpgp.org/) betrieben mit [Hagrid](
@@ -691,14 +691,14 @@ Mit [keyserver.ubuntu.com](https://keyserver.ubuntu.com)
 (betrieben mit [Hockeypuck](https://github.com/hockeypuck/hockeypuck))
 steht dir ein Keyserver zur Verfügung, 
 der zwar Signaturen erhält,
-allerdings keine Überprüfung oder Löschmöglichkeit der Schlüssel bietet. 
+allerdings keine Überprüfung oder Löschmöglichkeit der Schlüssel bietet 
 
 ### Public-Key auf keys.openpgp.org veröffentlichen
 
 Von der Startseite, <https://keys.openpgp.org/> 
 kommen wir über den Link [hochladen](https://keys.openpgp.org/upload) 
 auf das Upload-Formular <https://keys.openpgp.org/upload>.
-Dort laden wir unseren unseren öffentlichen Schlüssel 
+Dort laden wir unseren öffentlichen Schlüssel 
 (siehe [Public-Keys in Datei exportieren.](#public-keys-in-datei-exportieren)) hoch.
 
 Alternativ können wir unseren öffentlichen Schlüssel nach curl *pipen*...
@@ -713,7 +713,7 @@ https://keys.openpgp.org/upload/$LONG_RANDOM_VERIFICATION_STRING
 Die weiteren Schritte verlaufen analog zum Upload über den Browser.
 
 {% responsive_image path: assets/imgs/gnupg/keys-openpgp-org-1-schluessel-hochladen-upload.png
-alt: "Öffentlichens PGP Schlüssel auf keys.openpgp.org hochladen" %}
+alt: "Öffentlichen PGP Schlüssel auf keys.openpgp.org hochladen" %}
 
 Anschließend senden wir uns je Schlüssel eine Bestätigungs-Email via Klick auf den Button
 *Bestätigungs-Email senden* 
@@ -759,7 +759,7 @@ oder Key-ID
 
 
 Die Suche nach Namen oder Teilstrings klappt bei keys.openpgp.org nicht, 
-aber auf dem mit Hagrid betriebenen keyserver,ubuntu.com.
+aber auf dem mit Hagrid betriebenen keyserver, <https://keyserver.ubuntu.com>.
 Den Default Keyserver aus der [*~/.gnupg/options*](#gnupgoptions)
 können wir durch die Angabe eines anderen Keyservers via `--keyserver` Option überschreiben.
 
@@ -779,8 +779,8 @@ Suche nach Namen...
 Bei einer erfolgreichen Suchanfrage besteht die Möglichkeit, 
 gefundenen Schlüssel interaktiv in den Schlüsselbund zu importieren.
 Im folgenden Besispiel geschieht das 
-über die Eingabe der Nummer des Schlüssels hier `1`,
-für den einen gefundenen Schlüssel `(1)`, erkennbar in Zeile 2.
+über die Eingabe der Nummer des Schlüssels,
+hier `1`, für den einen gefundenen Schlüssel `(1)`, erkennbar in Zeile 2.
 
 ```
 gpg: data source: https://keys.openpgp.org:443
