@@ -11,7 +11,7 @@ tags:
 - uberspace
 layout: post
 permalink: /gnupg-micro-howto.html
-title: GnuPG (GPG) Micro Howto
+title: GnuPG Micro Howto
 image: /assets/imgs/gnupg/gnupg-logo.png
 ---
 {% responsive_image figure: true path: assets/imgs/gnupg/gnupg-logo.png 
