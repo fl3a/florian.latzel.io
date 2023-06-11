@@ -22,8 +22,8 @@ Ein guter Anlass, das [GnuPG Micro Howto](/gnupg-micro-howto.html) zu überarbei
 ## Now reading
 
 - Die Coaching-Schatzkiste von Martin Wehrle
-- Faktotum von Charles Bukowski
 - Wirksam werden im Kontakt: Die systemische Haltung im Coaching 
 von Mechtild Erpenbeck 
-
+- How To Bullsh\*t Your Way To Number 1: 
+An Unorthodox Guide To 21st Century Success von Oobah Buttler
 
