@@ -530,6 +530,8 @@ Diese entspricht dem späteren Dateinamen.
 
     gpg --with-wkd-hash --fingerprint florian@latzel.io 
 
+
+Das wäre `qcuniwbujk3zrj7166onyz4t5cxgy3wb` für `florian`, wie wir in Zeile 4 sehen.
 ```
 pub   rsa4096 2021-07-01 [SC] [verfällt: 2023-07-01]
       3F9F 6445 42DD 63E8 2165  D376 F4F6 2999 C3BA 4866
@@ -543,8 +545,6 @@ uid        [uneingeschränkt] Florian Latzel <florian.latzel@gmail.com>
            t66qdyuka3hnekbqs31pd3jqtuyqp3z5@gmail.com
 sub   rsa4096 2021-07-01 [E] [verfällt: 2023-07-01]
 ```
-
-Das wäre `qcuniwbujk3zrj7166onyz4t5cxgy3wb` für `florian`, wie wir in Zeile 4 sehen.
 
 Wir übertragen den Key auf dem Server, indem die Ausgabe von `gpg --export` an den SSH-Befehl via Pipe weitergeben.
 So entsteht keine Datei, die wir gar nicht brauchen und nach der Übertragung löschen müssten.
