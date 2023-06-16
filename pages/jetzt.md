@@ -8,16 +8,8 @@ Das ist eine ["Jetzt Seite"](https://nownownow.com/about),
 inspiriert durch [Derek Sivers](https://sive.rs/).   
 ## Lernen
 
-- Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](/tags/pencak-silat).   
-
-## Überarbeitung des GnuPG Micro Howtos
-
-In 2021 habe ich einen neuen GnuPG Schlüssel erstellt.   
-Seit 2008 und gpg-1.4 hat sich einiges getan...    
-Es gibt keine SKS Server mehr, 
-das *Web of Trust* ist quasi tot. 
-Dafür gibt es jetzt Hagrid und WKD.    
-Ein guter Anlass, das [GnuPG Micro Howto](/gnupg-micro-howto.html) zu überarbeiten.
+- Vorbereitung auf die Prüfungen zum SAFe® Scrum Master und SAFe Product Owner / Product Manager
+- Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](/tags/pencak-silat)
 
 ## Now reading
 
