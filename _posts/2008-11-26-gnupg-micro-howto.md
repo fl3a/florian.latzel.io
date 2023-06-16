@@ -458,21 +458,16 @@ und einige Email-Provider (die cooleren[^emailwkd]) haben WKD im Funktionsumfang
 
 ### WKD einrichten 
 
-Voraussetzungen hierfür sind ein Webserver + die Möglichkeit *.htaccess-Dateien* zu nutzen
-und ein gültiges TLS Zertifikat.
-
-Sofern unsere  Domain[^domain], 
-wie im hier genutzten Beispiel von uberspace[^domain] ausgeliefert wird
-und ein entsprechender A- oder AAA-Eintrag existiert,
-wird der Webserver, dank des *Let's Encrypt Zertifikats* 
-den via WKD angefragten Key via TLS/SSL ausliefern.
-
-WKD nutzt folgendes Schema: https://$DOMAIN/.well-known/openpgpkey/hu/$HASHED_USERID,
+WKD nutzt folgendes Schema für URLs:    
+https://$DOMAIN/.well-known/openpgpkey/hu/$HASHED_USERID,    
+für florian@latzel.io ergibt sich daraus die folgende URL:   
 <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb>
 
-So sieht auf Uberspace der spezifische Pfad für die *Web Key Directory* Verzeichnisstruktur,
-für meine im Bespiel genutzte Emailadresse florian@latzel.io
-(Domain *latzel.io* + Hashed-UserID aus *florian*) aus:
+So sieht die entsprechende Verzeichnisstruktur,
+für meine im Beispiel genutzte Emailadresse florian@latzel.io aus.   
+Wir blicken auf die *Document Root* für die Domain latzel.io auf uberspace.   
+Im Verzeichnis hu liegen die Dateien .htaccess 
+und die Hashed-UserID aus florian.
 
 ```
 /var/www/virtual/${USER}/latzel.io
@@ -483,6 +478,19 @@ für meine im Bespiel genutzte Emailadresse florian@latzel.io
         │   └── qcuniwbujk3zrj7166onyz4t5cxgy3wb
         └── policy
 ```
+Voraussetzungen für die nächsten Schritte sind ein Webserver, 
+der via HTTPS ausliefert,
+ein gültiges TLS Zertifikat besitzt
+und dir die Möglichkeit gibt *.htaccess-Dateien* zu nutzen
+(oder du hast entsprechend hohe Privilegien 
+um Einstellungen an Webserver bzw. Konfiguration vornehmen zu können).
+
+Sofern unsere  Domain[^domain], 
+wie im hier genutzten Beispiel von uberspace[^domain] ausgeliefert wird
+und ein entsprechender A- oder AAA-Eintrag existiert,
+wird der Webserver, dank des *Let's Encrypt Zertifikats* 
+den via WKD angefragten Key via TLS/SSL ausliefern.
+
 
 Erzeugen der Verzeichnisstruktur für WKD:
 
@@ -1029,3 +1037,4 @@ für das erste Feedback zum Skript und die Checks auf Ubuntu, openSuSE 11 und Wi
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[SKS]: Synchronizing Key Server
 *[DAA]: Deutsche Angestellten-Akademie
+*[HTTPS]: Hypertext Transfer Protocol Secure
