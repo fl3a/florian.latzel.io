@@ -961,11 +961,14 @@ ssb  elg2048/0D12C6401914C2F9
 Aktualisierungen und Ergänzungen basierend auf einem im Juli 2021    
 mit gpg 2.2.4 erstellten Schlüssel.
   - Überarbeitung: Text allgemein und Struktur
-  - Aktualisierung: Schlüsselerstellung und Subkeys
-  - Neu: User-ID entfernen (deluid)
-  - Neu: WKD und Einrichtung
-  - Neu: Nutzung von keys.openpgp.org 
-  - Neu: User-ID widerrufen (revuid)
+  - Aktualisierung: [Erstellung eines GnuPG Schlüsselpaares](
+#erstellung-eines-gnupg-schlüsselpaares) 
+und [Subkeys](#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen)
+  - Neu: [User-ID entfernen (deluid)](#unterschlüssel-user-id-entfernen)
+  - Neu: [Web Key Directory (WKD)](#web-key-directory-wkd) 
+und [Einrichtung von WKD (direct method)](#wkd-einrichten)
+  - Neu: [Nutzung von keys.openpgp.org](#public-key-auf-keysopenpgporg-veröffentlichen) 
+  - Neu: [User-ID widerrufen (revuid)](#unterschlüssel-user-id-widerrufen)
 - 2008-11-26    
 [Veröffentlichung auf netzaffe.de](
 https://web.archive.org/web/20081216082227/http://netzaffe.de/2008/11/26/gnupg-micro-howto.html).    
