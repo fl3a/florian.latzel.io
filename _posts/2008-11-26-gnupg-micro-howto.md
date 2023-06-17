@@ -979,7 +979,7 @@ und wurde unter anderem getestet auf/mit:
   - openSuSE 11 mit gpg2 2.0.9-22.1 und pinentry 0.7.5-5.1
   - Windows Vista mit gnupg-w32cli-1.4.9.exe
 
-Siehe [Changelog](
+Siehe [Commit History](
 https://github.com/fl3a/florian.latzel.io/commits/master/_posts/2008-11-26-gnupg-micro-howto.md) 
 für weitere Details
 
