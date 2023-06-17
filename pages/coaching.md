@@ -25,6 +25,10 @@ Coachings biete ich auch draußen in der Natur und im Gehen an.
 
 ## Walk and Coach
 
+{% responsive_image 
+alt: "Wegbegleiter, Foto © Tina Urban." 
+path: assets/imgs/portfolio/weg-2.JPG %}
+
 Warum im Gehen? 
 Bereits seit der Antike stehen Gehen und Erkenntnis in einem kausalen Zusammenhang.
 Gehen regt das Denken an. Aristoteles lehrte zum Bespiel im Gehen.   
