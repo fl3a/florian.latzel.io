@@ -456,9 +456,18 @@ Viele Mailcients[^mcl] wie z.B. Thunderbird, Outlook (GpgOL)
 oder Failmail (via OpenKeychain) nutzen WKD automatisch 
 und einige Email-Provider (die cooleren[^emailwkd]) haben WKD im Funktionsumfang. 
 
+WKD bietet zwei Methoden um öffentliche Schlüssel Schlüssel abzurufen,
+die *direct method* und die *advanced method*. 
+Neben einer unterschiedlichen Verzeichnisstruktur 
+benötigt die *advanced method* zusätzlich eine Subdomain namens *openpgpkey* 
+und einen entsprechenden TXT-Eintrag hierfür.   
+
+Die folgende Schritte befassen sich mit der 
+[Einrichtung von WKD in der direct method](#wkd-einrichten). 
+
 ### WKD einrichten 
 
-WKD nutzt folgendes Schema für URLs:    
+Die *WKD direct method* nutzt folgendes Schema für URLs:    
 https://$DOMAIN/.well-known/openpgpkey/hu/$HASHED_USERID,    
 für florian@latzel.io ergibt sich daraus die folgende URL:   
 <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb>
