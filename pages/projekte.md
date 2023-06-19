@@ -42,7 +42,8 @@ https://groups.drupal.org/k%C3%B6ln-bonn)
 der German Drupal Association
 - Mitorganisation des [Drupalstandes auf dem LinuxtagBerlin 2009](
 /2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html) 
-- Mitorganisation der ersten Drupal-Entwickler-Konferenz in D-A-CH
+- Mitorganisation der [ersten Drupal-Entwickler-Konferenz in D-A-CH](
+https://dri.es/drupalcamp-koln-2008)
 - [Howto: Drupal 6 Multisiteumgebung mit PostgreSQL](
 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html) (2008)
 - Deutsche Übersetzung der [Open Source](/tags/open-source/) 
