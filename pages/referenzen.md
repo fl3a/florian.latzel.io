@@ -69,7 +69,7 @@ u.a. für die [Naturzeitclub](https://naturzeit.club/) Coaches (02.2022 - heute)
    - Datenbanken, Ausbildung von Fachinformatikern, BBQ (09.2014)
    - Drupal Entwicklung, In-House Trainings, Eduvision (07.2011 - 02.2013)
    - Linux, Ausbildung von Fachinformatikern, IAL gGmbH (2012)
-   - UNIX System V und Shellskriping, In-House Training, IAL CAMPUS (07.2008 - 08.2009)
+   - UNIX System V und Shellskriping, In-House Training, IAL CAMPUS (07.2008 - 08.2008)
    - Linux, Vorbereitung auf die Zertifizierungen des LPI, IAL und DAA (2007 - 2009)
 
 ## Kunden 
