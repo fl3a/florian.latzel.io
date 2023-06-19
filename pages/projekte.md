@@ -17,12 +17,15 @@ mailto:florian@latzel.io?subject=Leadershiptraining goes wild)!
 Liste von Scrumtischen, Agile Meetups und (Un-)Konferenzen 
 in Köln, Bonn, Düsseldorf, Ruhrgebiet und Umgebung
 - Das [GnuPG Micro Howto](/gnupg-micro-howto.html) 
+- [Rheinsteig](/tags/rheinsteig/) als Couple Goal (seit 2019)  
 
 ## Vergangene Projekte
 
+- [Natursteig Sieg](/2022/09/12/natursteig-sieg.html) (2017 - 2022)
 - Gründungsmitglied der genossenschaftlich geführten und [holokratisch](
 https://rogerpfaff.de/holacracy/) strukturierten  
 Digitalagentur [Reinblau](/tags/reinblau/) (2012 - 2020)
+- [Bergischer Weg](https://www.bergisches-wanderland.de/bergischer-weg) (2018 - 2019)
 - Howto: [C02 sparen: Responsive Images und Lazyload bei Jekyll](
 /2020/04/07/co2-sparen-responsive-images-lazyload-jekyll.html) (2020)
 - Mitorganisation des 86\. [Scrumtisch Köln](/tags/scrumtisch-koln/) bei REWE digital
