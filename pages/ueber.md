@@ -24,20 +24,20 @@ lebt im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
 [zertifizierter Scrum Master](/neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html),
 [zertifizierter Product Owner](/2018/03/03/scrum-starter-kit.html)
 und [Certified Scrum Professional](/2018/03/31/certified-scrum-professional-csp.html) 
-- seit 08.2022 als *Tribe Agile Master* bei der AXA Konzern AG tätig
-- davor über 6 Jahre *Agile Team Coach* & [Scrum Master](/tags/scrum-master/) für verschiedene Unternehmen
+- über 6 Jahre Erfahrung als *Agile Team Coach* & [Scrum Master](/tags/scrum-master/) 
+für verschiedene Unternehmen
 - war über eine Dekade freiberuflicher IT-Berater, 
 weiß [Scrum seit 2009](/my-last-daily-scrum-at-berlinonline.html) zu schätzen,  
-habe irgendwann mal was mit Informatik gelernt
+hat irgendwann mal was mit Informatik gelernt
 - mag Rheinblick, Co-Kreativität, Bewegung, [Fahrräder](/tags/fahrrad/index.html) 
 und ist gerne [draußen](/tags/draussen/index.html).
-- glaubt an [Open Source](/tags/open-source/index.html), Selbstorganisation, 
-humaneres Arbeiten und Karma
+- glaubt an [Open Source](/tags/open-source/index.html), 
+humaneres Arbeiten, Selbstorganisation und Karma
 
-Hier findest du meine [Talks](/talks.html) und [Projekte](/projekte.html).   
-Mehr über mich erfährst du in meinem [Blog](/#blog), 
-in meinem [CV](https://florian.latzel.io/cv), 
-oder bei [linkedin](https://www.linkedin.com/in/florianlatzel/).
+Hier findest du [Referenzen](/referenzen.html), 
+[Talks](/talks.html) und [Projekte](/projekte.html).   
+In meinem [Blog](/#blog) und in meinem [CV](https://florian.latzel.io/cv)
+erfährst du noch mehr über mich.
 
 ## Wegbegleiter
 
