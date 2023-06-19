@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Über mich 
-permalink: /ueber-mich.html
+title: Über 
+permalink: /ueber.html
 image: /assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg
 last_modified_at: 2019-10-30
 ---
@@ -13,7 +13,7 @@ Inhaltsverzeichnis
 - Inhaltsverzeichnis
 {:toc}
 
-## Vorstellung in kurz & knapp
+## Über mich 
 
 - Jahrgang 1978, in Köln geboren, 
 lebt im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
@@ -39,7 +39,7 @@ Mehr über mich erfährst du in meinem [Blog](/#blog),
 in meinem [CV](https://florian.latzel.io/cv), 
 oder bei [linkedin](https://www.linkedin.com/in/florianlatzel/).
 
-## Partner
+## Wegbegleiter
 
 {% responsive_image 
 alt: "Wegbegleiter, Foto © Tina Urban." 

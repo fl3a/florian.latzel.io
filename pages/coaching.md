@@ -33,11 +33,11 @@ Warum im Gehen?
 Bereits seit der Antike stehen Gehen und Erkenntnis in einem kausalen Zusammenhang.
 Gehen regt das Denken an. Aristoteles lehrte zum Bespiel im Gehen.   
 
-Was damals bereits die Philosophen beschäftige, 
-ist heute im Fokus vom Wissenschaft und Forschung.
-
 > Beim Gehen können wir Dinge aus einer anderen Perspektive betrachten    
 > und neue Lösungswege finden[^gehen].
+
+Was damals bereits die Philosophen beschäftige, 
+ist heute im Fokus vom Wissenschaft und Forschung.
 
 Warum Draußen? Die Natur tut uns gut.    
 Insbesondere im Wald sinken Cotisol- und Blutdruckspiegel[^waldgesundheit]
