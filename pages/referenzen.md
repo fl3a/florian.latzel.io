@@ -19,17 +19,17 @@ Todo: Einwilligung zur Nutzung der Logos einholen
 * Inhalt
 {:toc}
 
-Für Referenzen als **Berater und Coach**, 
+Für Referenzen als **Scrum Master und Coach**, 
 sowie Schlüsselprojekte und Kunden aus über einer Dekade als freiberuflicher **IT Berater** 
-siehe [Curriculum Vitae](https://florian.latzel.io/cv/). 
+siehe [Curriculum Vitae](https://florian.latzel.io/cv/).      
 **Code** und [**Open Source**](/tags/open-source/) Contributions 
 findest du auf meinen [drupal.org](https://www.drupal.org/u/fl3a) 
 und [github](https://github.com/fl3a) Account.
 
 ## Als Facilitator
 
-- Outdoor-Facilitator, für mehr Fokus, Resilienz und Wir-Gefühl, 
-[walkaboutyou](https://walkaboutyou.org) (10.2021 - heute)
+- Outdoor-Facilitator, [walkaboutyou](https://walkaboutyou.org) (10.2021 - heute)
+  - u.a. für die  Community-Building-Walks der STARTPLATZ ACCELERATOR Batches in 2022[^ab1] [^ab2]
 - Zusammenarbeit und Teambuildung
   - div. Retrospektiven, REWE digital und REWE GROUP (2017 - 2022)
   - div. Teambuildbuildings, REWE digital und REWE Group  (2020 - 2022)
@@ -72,6 +72,7 @@ u.a. für die [Naturzeitclub](https://naturzeit.club/) Coaches (02.2022 - heute)
    - UNIX System V und Shellskriping, In-House Training, IAL CAMPUS (07.2008 - 08.2008)
    - Linux, Vorbereitung auf die Zertifizierungen des LPI, IAL und DAA (2007 - 2009)
 
+{% comment %}
 ## Kunden 
 
 Ich war für über 50 Kunden aus verschiedenen Branchen tätig.
@@ -90,11 +91,15 @@ TrafficDesign GmbH, erdfisch GbR, motionfx GmbH, UCS Ultima Computer Service Gmb
 IAL Institut für angewandte Logistik GmbH, IAL CAMPUS, 
 DAA Deutsche Angestellten-Akademie GmbH, 
 BBQ Baumann Bildung und Qualifizierung GmbH, Eduvision Opleidingen B.V. 
+{% endcomment %}
 
 Fußnoten
+{:.footer}
 
 [^nextyou]: NextYOU ist das Programm für Führungskräfte und next Potentials der REWE GROUP
 [^shift]: SHIFT ist Programm für Hochschulabsolventen in den Berufseinstieg der REWE digital. Siehe <https://web.archive.org/web/20210612171306/https://www.rewe-digital.com/karriere/berufseinsteiger/shift.html> 
+[^ab1]: [Eindrücke von STARTPLATZ ACCELERATOR Batch im Februar 2022](https://z-p3-upload.facebook.com/StartPlatz/posts/4975109995887672)
+[^ab2]: [Eindrücke von STARTPLATZ ACCELERATOR Batch im November 2022](https://www.linkedin.com/feed/update/urn:li:activity:7008421642859077632/)
 
 *[IAL]: Institut für angewandte Logistik
 *[BBQ]: Baumann Bildung und Qualifizierung
