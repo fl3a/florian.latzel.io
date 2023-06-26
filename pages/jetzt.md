@@ -2,13 +2,14 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-04-29 22:56
+last_modified_at: 2023-06-26 16:41
 ---
 Hier und da am [Micro GnuPG Howto](/gnupg-micro-howto.html) schleifen.
 
 ## Lernen
 
-- Vorbereitung auf die Prüfungen zum SAFe® Scrum Master und SAFe Product Owner / Product Manager
+- Vorbereitung auf die Prüfungen zum ~~SAFe® Scrum Master und~~ 
+SAFe Product Owner / Product Manager
 - Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](/tags/pencak-silat)
 
 ## Lesen
