@@ -468,7 +468,9 @@ Die folgende Schritte befassen sich mit der
 ### WKD einrichten 
 
 Die *WKD direct method* nutzt folgendes Schema für URLs:    
-https://$DOMAIN/.well-known/openpgpkey/hu/$HASHED_USERID,    
+
+	https://$DOMAIN/.well-known/openpgpkey/hu/$HASHED_USERID,    
+
 für florian@latzel.io ergibt sich daraus die folgende URL:   
 <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb>
 
