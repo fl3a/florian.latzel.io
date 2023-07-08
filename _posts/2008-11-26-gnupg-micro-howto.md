@@ -1078,6 +1078,7 @@ und [Subkeys](#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen)
 und [Einrichtung von WKD (direct method)](#wkd-einrichten)
   - Neu: [Nutzung von keys.openpgp.org](#public-key-auf-keysopenpgporg-veröffentlichen) 
   - Neu: [User-ID widerrufen (revuid)](#unterschlüssel-user-id-widerrufen)
+  - Neu: [Primäre User-id kennzeichnen (primary)](#primäre-user-id-kennzeichnen)
 - 2008-11-26    
 [Veröffentlichung auf netzaffe.de](
 https://web.archive.org/web/20081216082227/http://netzaffe.de/2008/11/26/gnupg-micro-howto.html).    
