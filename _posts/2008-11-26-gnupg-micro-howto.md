@@ -341,14 +341,121 @@ sec  rsa4096/F4F62999C3BA4866
      Vertrauen: ultimativ     Gültigkeit: ultimativ
 ssb  rsa4096/4260D8234C49E8D6
      erzeugt: 2021-07-01  verfällt: 2023-07-01  Nutzung: E   
-[uneingeschränkt] (1)  Florian Latzel <florian@latzel.io>
-[ unbekannt] (2). Florian Latzel <florian.latzel@is-loesungen.de>
+[ ultimativ ] (1)  Florian Latzel <florian@latzel.io>
+[ unbekannt ] (2). Florian Latzel <florian.is-loesungen.de>
 ```
 
 	save
  
 Nach dem Speichern mit `save` verlassen wir den interaktiven Modus von gpg 
 und bekommen wieder den Prompt der Shell zu sehen.
+
+### Primäre User-ID kennzeichnen 
+
+Bei GnuPG lässt sich die primäre User-ID kennzeichnen.   
+Diese oder die zuletzt erstellte User-ID wird zuerst gelistet.
+
+Wir müssen zur Kennzeichnung der primären User-ID in den Bearbeiten Modus:
+
+	gpg --edit-key florian@latzel.io
+
+Im Listing ist die zuletzt erstellt User-ID oben 
+und durch den Punkt hinter der numerischen Uid gekennzeichnet:
+
+```
+gpg (GnuPG) 2.2.27; Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Geheimer Schlüssel ist vorhanden.
+
+sec  rsa4096/0A341CC78C16A22B
+     erzeugt: 2023-07-06  verfällt: 2025-07-05  Nutzung: SC  
+     Vertrauen: ultimativ     Gültigkeit: ultimativ
+ssb  rsa4096/09CECAEE0F0A0039
+     erzeugt: 2023-07-06  verfällt: 2025-07-05  Nutzung: E   
+[ ultimativ ] (1). Florian Latzel <florian.latzel@is-loesungen.de>
+[ ultimativ ] (2)  Florian Latzel <florian@latzel.io>
+```
+
+Wir wollen die User-ID florian@latzel.io, mit der wir den Schlüssel erstellt haben
+als primäre User-ID kennzeichnen. Dafür wählen wir die numerische Uid 2:
+
+	uid 2
+
+Wir sehen anschließend die ausgewählte Uid durch den Stern  hinter der Uid
+markiert: 
+
+```
+sec  rsa4096/0A341CC78C16A22B
+     erzeugt: 2023-07-06  verfällt: 2025-07-05  Nutzung: SC  
+     Vertrauen: ultimativ     Gültigkeit: ultimativ
+ssb  rsa4096/09CECAEE0F0A0039
+     erzeugt: 2023-07-06  verfällt: 2025-07-05  Nutzung: E   
+[ ultimativ ] (1). Florian Alexander Latzel <florian.latzel@is-loesungen.de>
+[ ultimativ ] (2)* Florian Alexander Latzel <florian@latzel.io>
+```
+
+Zu guter letzt kennzeichnen wir `primary` gefolgt von der Uid,
+welche wir davor markiert haben die primäre User-ID:
+
+	primary 2
+
+Es folgt ein Pinentry-Dialog zur Eingabe der Passphrase 
+und die folgende Ausgabe:
+
+```
+sec  rsa4096/0A341CC78C16A22B
+     erzeugt: 2023-07-06  verfällt: 2025-07-05  Nutzung: SC  
+     Vertrauen: ultimativ     Gültigkeit: ultimativ
+ssb  rsa4096/09CECAEE0F0A0039
+     erzeugt: 2023-07-06  verfällt: 2025-07-05  Nutzung: E   
+[ ultimativ ] (1)  Florian Alexander Latzel <florian.latzel@is-loesungen.de>
+[ ultimativ ] (2)* Florian Alexander Latzel <florian@latzel.io>
+```
+
+Wir speichern unsere Änderung:
+
+	save
+
+Wir überprüfen die Änderung:
+
+	gpg --list-key       
+
+Die eben festgelegte *Haupt User-ID* steht jetzt oben.                                  
+
+```
+/home/florian/.gnupg/pubring.kbx
+--------------------------------
+pub   rsa4096 2023-07-06 [SC] [verfällt: 2025-07-05]
+      C4C820FFD9E7B564A31EBC960A341CC78C16A22B
+uid        [ ultimativ ] Florian Latzel <florian@latzel.io>
+uid        [ ultimativ ] Florian Latzel <florian.latzel@is-loesungen.de>
+sub   rsa4096 2023-07-06 [E] [verfällt: 2025-07-05]
+```
+
+Wenn wir unseren Schlüssel bearbeiten, steht die primäre User-ID jetzt
+an erster Stelle und ist mit einem Punkt hinter der Uid gekennzeichnet.
+
+	gpg --edit-key florian@latzel.io
+
+```
+gpg (GnuPG) 2.2.27; Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Geheimer Schlüssel ist vorhanden.
+
+sec  rsa4096/0A341CC78C16A22B
+     erzeugt: 2023-07-06  verfällt: 2025-07-05  Nutzung: SC  
+     Vertrauen: ultimativ     Gültigkeit: ultimativ
+ssb  rsa4096/09CECAEE0F0A0039
+     erzeugt: 2023-07-06  verfällt: 2025-07-05  Nutzung: E   
+[ ultimativ ] (1). Florian Latzel <florian@latzel.io>
+[ ultimativ ] (2)  Florian Latzel <florian.latzel@is-loesungen.de>
+```
+
+	quit
 
 ### Unterschlüssel (User-ID) entfernen
 
