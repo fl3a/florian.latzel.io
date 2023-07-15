@@ -11,7 +11,7 @@ permalink: blog.html
   {% unless forloop.first %}
   </ul>
   {% endunless %}
-  <h2 class=".no-anchor">{{ currentDate }}</h2>
+  <h2 class="no-anchor">{{ currentDate }}</h2>
   <ul>
     {% assign myDate = currentDate %}
   {% endif %}
