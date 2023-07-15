@@ -2,9 +2,10 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-07-15 14:18
+last_modified_at: 2023-07-15 17:05
 ---
-Hier und da am [Micro GnuPG Howto](/gnupg-micro-howto.html) schleifen.
+- Hin und wieder an Struktur und Portfolio dieser Seite arbeiten.
+- Hier und da am [Micro GnuPG Howto](/gnupg-micro-howto.html) schleifen.
 
 ## Auf Jobsuche
 
