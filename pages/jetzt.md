@@ -2,14 +2,22 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-06-26 16:41
+last_modified_at: 2023-07-15 14:18
 ---
 Hier und da am [Micro GnuPG Howto](/gnupg-micro-howto.html) schleifen.
 
+## Auf Jobsuche
+
+Ich suche gerade aktiv nach einem neuem Job 
+als Scrum Master / Agile Master / Agile Team Coach / Agile Coach.
+Bewerbungen und Gespräche laufen und das ist fast ein eigener Job😆.
+
+Wenn du glaubst, dass ich (hier mein [CV](/cv/))
+zu dir und deiner Firma passen könnte,   
+dann [kontaktiere](/kontakt.html) mich gerne!
+
 ## Lernen
 
-- Vorbereitung auf die Prüfungen zum ~~SAFe® Scrum Master und~~ 
-SAFe Product Owner / Product Manager
 - Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](/tags/pencak-silat)
 
 ## Lesen
