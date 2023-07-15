@@ -4,23 +4,21 @@ layout: page
 permalink: /themen.html
 ---
 <section class="themen">
-  <ul class="tags">
+  {% assign alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | split: "" %}
+  {% for letter in alphabet %}	  
     {% for tag in site.tags %}
-    <li>
-      <a href="#{{ tag[0] | slugify }}" class="tag">{{ tag[0] | escape }} ({{tag[1] | size}})</a>
-    </li>
+    {% assign firstletter = tag[0] | truncate: 1, '' %}
+      {% if letter == firstletter %}
+      {% comment %}
+      Inspiration: https://stackoverflow.com/questions/57504741/how-do-i-group-items-by-initial-letter-with-liquid
+      Ideas
+      - Populate tags array via capture, e.g. https://stackoverflow.com/questions/1408824/an-easy-way-to-support-tags-in-a-jekyll-blog
+      - Check if empty, skip, else h2 + ul
+      - Modifiy home.html or use create new template for tag pages
+      {% endcomment %}
+      <h2 class="no-anchor">{{ letter }}</h2>
+        {{ tag[0]}}
+      {% endif %}
     {% endfor %}
-  </ul>
-  <div class="tags-list">
-    {% for tag in site.tags %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] | escape }}</h2>
-    <ul>
-      {% for post in tag[1] %}
-      <li> 
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-    {% endfor %}
-  </div>
+  {% endfor %}
 </section>
