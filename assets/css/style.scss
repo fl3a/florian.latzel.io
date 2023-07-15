@@ -162,3 +162,46 @@ figure.highlight {
     margin-bottom: 0;
   }
 }
+
+/* Blog/Archiv */
+section.archive-post-list {
+  h2 {
+    text-align: right;
+    padding: 0;
+  }	  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+    li {
+      display: flex;
+      flex-wrap: nowrap;
+      grid-gap: .6em;
+      margin: .6em 0;
+      // font-size: 90%
+      a {
+        text-decoration: none;
+	white-space: no-wrap;
+	word-spacing: 1px;
+      }
+    }
+  }
+  span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex: 0 1 auto;
+  }
+  hr {
+    display: inherit;
+    border: 0;
+    border-bottom: 1px dotted;
+    opacity: .4;
+    min-width: 1.2em;
+    flex: auto;
+  }
+  time {
+    display: inherit;
+    flex: 0 0 auto;
+  }
+}  
