@@ -1,13 +1,13 @@
 header: Blog 
 links:
 
+- title: Blog
+  url: /blog.html
+
 - title: Themen
   url: /themen.html
 
-- title: Archiv
-  url: /archiv.html
-
-- title: RSS Feed
+- title: Feed
   url: /feed.xml  
 
 
