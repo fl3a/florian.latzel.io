@@ -7,15 +7,14 @@ permalink: /themen.html
 Todo:
 - Themen Template bauen
 - in config einbauen
+- Idee: h2 + ul in zweiten Loop + Laufvariable + continue
 Roadmap:
 - h2's und ul's ohne Themen nicht anzeigen
 - nach h2: aria-label="Themen die mit dem Buchstaben {{ letter }} anfangen"
-- Tag Urls umschreiben von /tag/nach /thema
+- Tag Urls umschreiben von /tags/$1 nach /thema/$1
   - in config ändern
   - in Beträgen die Urls ändern
-  - via .htaccess von /tag/$1 nach /thema/$1
-Idee:
-- h2 + ul in zweiten Loop + Laufvariable + continue
+  - via .htaccess von /tags/$1 nach /thema/$1
 {% endcomment %}
 
 <section class="themen">
@@ -27,7 +26,7 @@ Idee:
     {% assign firstletter = tag[0] | slugify | upcase | truncate: 1, '' %}
       {% if letter == firstletter %}
       <li> 
-        <a href="/tag/{{ tag[0] | slugify }}">{{ tag[0] | escape }}</a> ({{tag[1] | size}})
+        <a href="/tags/{{ tag[0] | slugify }}">{{ tag[0] | escape }}</a> ({{tag[1] | size}})
       </li>
       {% endif %}
     {% endfor %}
