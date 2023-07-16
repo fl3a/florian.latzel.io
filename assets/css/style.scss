@@ -94,7 +94,14 @@ ul.pager {
   }
 }
 
-/* Tags */
+/* Themen Page */
+.themen ul {
+  list-style-type: none;
+  columns: 3;
+  margin-left: 0;
+}
+
+/* Tags in Artikelansicht */
 ul.tags {
   list-style: none;
   margin-left: 0;
@@ -204,4 +211,6 @@ section.archive-post-list {
     display: inherit;
     flex: 0 0 auto;
   }
-}  
+} 
+
+
