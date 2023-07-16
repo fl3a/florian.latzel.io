@@ -3,22 +3,34 @@ title: Themen
 layout: page
 permalink: /themen.html
 ---
+{% comment %}
+Todo:
+- Themen Template bauen
+- in config einbauen
+Roadmap:
+- h2's und ul's ohne Themen nicht anzeigen
+- nach h2: aria-label="Themen die mit dem Buchstaben {{ letter }} anfangen"
+- Tag Urls umschreiben von /tag/nach /thema
+  - in config ändern
+  - in Beträgen die Urls ändern
+  - via .htaccess von /tag/$1 nach /thema/$1
+Idee:
+- h2 + ul in zweiten Loop + Laufvariable + continue
+{% endcomment %}
+
 <section class="themen">
   {% assign alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | split: "" %}
   {% for letter in alphabet %}	  
+    <h2 class="no-anchor">{{ letter }}</h2>
+    <ul>
     {% for tag in site.tags %}
-    {% assign firstletter = tag[0] | truncate: 1, '' %}
+    {% assign firstletter = tag[0] | slugify | upcase | truncate: 1, '' %}
       {% if letter == firstletter %}
-      {% comment %}
-      Inspiration: https://stackoverflow.com/questions/57504741/how-do-i-group-items-by-initial-letter-with-liquid
-      Ideas
-      - Populate tags array via capture, e.g. https://stackoverflow.com/questions/1408824/an-easy-way-to-support-tags-in-a-jekyll-blog
-      - Check if empty, skip, else h2 + ul
-      - Modifiy home.html or use create new template for tag pages
-      {% endcomment %}
-      <h2 class="no-anchor">{{ letter }}</h2>
-        {{ tag[0]}}
+      <li> 
+        <a href="/tag/{{ tag[0] | slugify }}">{{ tag[0] | escape }}</a> ({{tag[1] | size}})
+      </li>
       {% endif %}
     {% endfor %}
+    </ul>
   {% endfor %}
 </section>
