@@ -3,7 +3,7 @@ title: Blog
 layout: page
 permalink: blog.html
 ---
-<section class="archive-post-list">
+<div id="blog" class="archiv">
 
 {% for post in site.posts %}
 {% assign currentDate = post.date | date: "%Y" %}
@@ -29,4 +29,4 @@ permalink: blog.html
   {% endif %}
 {% endfor %}
 
-</section> 
+</div> 
