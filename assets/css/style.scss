@@ -94,7 +94,7 @@ ul.pager {
 
 /* Themen Page */
 @media all and (min-width: 640px) {
-  .themen ul {
+  #themen ul {
     margin-left: 0;
     list-style-type: none;
     columns: 3;
@@ -155,12 +155,12 @@ figure.highlight {
 }
 
 /* Blog/Archiv */
-section.archive-post-list time,
-section.archive-post-list hr {
+.archiv time,
+.archiv hr {
  display:none
 }
 @media (min-width: 640px) {
-  section.archive-post-list {
+  .archiv {
     h2 {
       text-align: right;
       padding: 0;
