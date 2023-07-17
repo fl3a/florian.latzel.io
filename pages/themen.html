@@ -14,7 +14,7 @@ Roadmap:
   - via .htaccess von /tags/$1 nach /thema/$1
 {% endcomment %}
 
-<section class="themen">
+<div id="themen">
 {% assign alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | split: "" %}
 {% for letter in alphabet %}	  
   {% assign i = 0 %}
@@ -37,4 +37,4 @@ Roadmap:
      </ul>
   {% endif %}
 {% endfor %}
-</section>
+</div>
