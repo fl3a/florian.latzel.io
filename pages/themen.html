@@ -23,18 +23,20 @@ Roadmap:
     {% if letter == firstletter %}
       {% assign i = i | plus: 1 %}  
       {% if i == 1 %}
+      <section>
         <h2 aria-label="Themen die mit dem Buchstaben {{ letter }} anfangen" class="no-anchor">
-	  {{ letter }}
+          {{ letter }}
         </h2>
         <ul>
       {% endif %}
-        <li> 
-          <a href="/tags/{{ tag[0] | slugify }}">{{ tag[0] | escape }}</a> ({{tag[1] | size}})
-        </li>
+          <li> 
+            <a href="/tags/{{ tag[0] | slugify }}">{{ tag[0] | escape }}</a> ({{tag[1] | size}})
+          </li>
     {% endif %}
   {% endfor %}
   {% if i != 0 %}
-     </ul>
+        </ul>
+      </section>  
   {% endif %}
 {% endfor %}
 </div>
