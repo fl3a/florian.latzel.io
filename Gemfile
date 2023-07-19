@@ -8,14 +8,13 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 4"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
+gem "minima"
 
 # Installation issue: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h. #806
 # https://github.com/rmagick/rmagick/issues/806 
-# gem "rmagick", "4.1.0.rc2"    
 gem "rmagick"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -24,7 +23,7 @@ gem "rmagick"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed"
 
   # XMLSitemap for SEO indexing
   gem 'jekyll-sitemap'
@@ -40,12 +39,12 @@ group :jekyll_plugins do
 
   # Pagination & Tags
   # https://jekyllrb.com/docs/pagination/
-  gem 'jekyll-paginate-v2', '2.0.0'
+  gem 'jekyll-paginate-v2'
 
   # https://github.com/wildlyinaccurate/jekyll-responsive-image
   gem 'jekyll-responsive-image'
 
-  gem 'rouge', '3.3.0'
+  gem 'rouge'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
