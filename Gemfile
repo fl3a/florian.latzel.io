@@ -8,15 +8,14 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~>4.3.2"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
+gem "minima", "~>2.5.1"
 
 # Installation issue: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h. #806
 # https://github.com/rmagick/rmagick/issues/806 
-# gem "rmagick", "4.1.0.rc2"    
-gem "rmagick"
+gem "rmagick", "~>4.3.0"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -24,28 +23,30 @@ gem "rmagick"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed", "~>0.17.0"
 
   # XMLSitemap for SEO indexing
-  gem 'jekyll-sitemap'
+  gem "jekyll-sitemap", "~>1.4.0"
 
   # Adds the following meta tags to your site:
   # Fork of https://github.com/jekyll/jekyll-seo-tag
   # Adds 'article:modified_time' from last_modified_at
-  gem 'jekyll-seo-tag', git: 'https://github.com/fl3a/jekyll-seo-tag', branch: 'master'
+  gem "jekyll-seo-tag", "~>2.8.0" , git: 'https://github.com/fl3a/jekyll-seo-tag', branch: 'master'
  
   # jekyll-toc - Table of Contents
   # https://github.com/toshimaru/jekyll-toc
-  gem 'jekyll-toc'
+  gem "jekyll-toc", "~>0.18.0"
 
   # Pagination & Tags
   # https://jekyllrb.com/docs/pagination/
-  gem 'jekyll-paginate-v2', '2.0.0'
+  gem "jekyll-paginate-v2", "~>3.0.0"
 
   # https://github.com/wildlyinaccurate/jekyll-responsive-image
-  gem 'jekyll-responsive-image'
+  gem "jekyll-responsive-image", "~>1.6.0"
 
-  gem 'rouge', '3.3.0'
+  # Syntax highlightning
+  # https://github.com/rouge-ruby/rouge
+  gem "rouge", "~>4.1.2" 
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

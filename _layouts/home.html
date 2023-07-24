@@ -11,7 +11,7 @@ layout: default
         <img src="/assets/imgs/florian-latzel-300x300.jpg" 
           alt="Florian Latzel, Reinblau Teamtreffen, Mai 2017, Foto © Ronald Krentz" />
       </figure>
-      <h1>{{ site.head }}</h1>
+      <h2>{{ site.head }}</h2>
       <p>
         Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter<br />
         und begleite Individuen, Gruppen, Teams und Organisationen in Veränderung.
@@ -21,21 +21,21 @@ layout: default
   {%- endif -%}   
   {{ site.posts.site }}
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: page.autopage.display_name | escape | default: "Blog" }}
+    <h1 class="post-list-heading post-title">{{ page.list_title | default: page.autopage.display_name | escape | default: "Blog" }}
       <a id="blog" class="anchor" href="#blog" aria-hidden="true">
         <span class="octicon octicon-link"></span>
       </a>
-    </h2>
+    </h1>
     <ul class="post-list">
       {%- for post in paginator.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
+        <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
+        </h2>
         {%- if post.tags.size > 0 -%}
           {%- include tags.html -%}
         {%- endif -%}  
