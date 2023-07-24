@@ -4,7 +4,7 @@
     Blog, Seite {{ paginator.page }} von {{ paginator.total_pages }} - {{ site.title | escape }}
     {%- endcapture -%}
   {%- endif -%}
-  {%- if page.url contains "/tags/" -%}
+  {%- if page.url contains "/thema/" -%}
     {%- if paginator.page and paginator.total_pages > 1 and paginator.page > 1  -%}
       {%- capture title -%}
       {{ page.autopages.display_name }}, Seite {{ paginator.page }} von {{ paginator.total_pages }} - {{ site.title | escape }}
