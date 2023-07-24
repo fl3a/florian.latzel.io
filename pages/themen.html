@@ -30,7 +30,7 @@ Roadmap:
         <ul>
       {% endif %}
           <li> 
-            <a href="/tags/{{ tag[0] | slugify: 'latin' }}">{{ tag[0] | escape }}</a> ({{tag[1] | size}})
+            <a href="/thema/{{ tag[0] | slugify: 'latin' }}">{{ tag[0] | escape }}</a> ({{tag[1] | size}})
           </li>
     {% endif %}
   {% endfor %}
