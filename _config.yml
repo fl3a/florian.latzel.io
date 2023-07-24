@@ -59,8 +59,8 @@ autopages:
       mode:  latin
       cased: true
     layouts:
-      - "home.html"
-    permalink  : "/tags/:tag"
+      - "thema.html"
+    permalink  : "/thema/:tag"
 
 # jekyll-seo-tag 
 # https://github.com/jekyll/jekyll-seo-tag
