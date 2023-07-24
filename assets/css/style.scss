@@ -205,10 +205,10 @@ figure.highlight {
 
 /* Footer */
 .footer-col {
-  margin-bottom: $spacing-unit / 3;
+  margin-bottom: calc($spacing-unit / 3);
 }
 .footer-col-1,.footer-col-2, .footer-col-3 {
-  width: calc(30% - (#{$spacing-unit} / 3));
+  width: calc(30% - calc(#{$spacing-unit} / 3));
 }
 footer {
   ul.social-media-list {
