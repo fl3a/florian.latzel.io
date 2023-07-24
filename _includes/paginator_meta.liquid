@@ -12,4 +12,7 @@
   {% if paginator.next_page %}
   <link rel="next" href="{{ paginator.next_page_path | prepend: site.url }}" />
   {% endif %}
+  {% if paginator.page > 1 %}
+  <meta name="robots" content="noindex, follow" />
+  {% endif %}
 
