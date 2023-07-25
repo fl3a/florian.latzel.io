@@ -1,18 +1,15 @@
-- title: Coaching 
-  url: coaching.html
-
-- title: Wildnistraining
-  url: wildnistraining.html 
+- title: Angebot
+  url: /index.html#angebot
 
 - title: Über
-  url: ueber.html
+  url: /ueber
 
 - title: Jetzt
-  url: jetzt.html  
+  url: /jetzt  
    
 - title: Blog 
-  url: /index.html#blog # /blog 
+  url: /blog 
 
 - title: Kontakt
-  url: /kontakt.html 
+  url: /kontakt 
   class: kontakt
