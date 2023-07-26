@@ -177,11 +177,14 @@ figure.highlight {
 	margin-right: 4%;
       }
     }
+    h2 {
+      text-align: center;
+    }
   }
 }
 // Startseite
 #front {
-  #intro, #kontakt, h2 {
+  #intro, #kontakt {
     text-align:center;
   }
   .social-media-list {
