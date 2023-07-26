@@ -1,8 +1,8 @@
-- title: Angebot
-  url: /index.html#angebot
+- title: Mein Angebot
+  url: /#mein-angebot
 
-- title: Über
-  url: /ueber
+- title: Über mich
+  url: /ueber-mich
 
 - title: Jetzt
   url: /jetzt  
