@@ -65,7 +65,7 @@ blog_posts: 5
         </span>
         <hr>
         <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%S"}}">
-          {{ post.date | date: "%Y.%m.%d"  }}
+          {{ post.date | date: site.date_format }}
         </time>
       </li>
     {% if i == page.blog_posts %}
