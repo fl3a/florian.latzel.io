@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+blog_posts: 5
 ---
 <div id="front">
   <div id="intro">
@@ -12,13 +13,13 @@ layout: page
     <h2>Hi, ich heiße Florian👋</h2>
     <p>Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter
     und begleite Individuen, Gruppen, Teams und Organisationen in Veränderung.
+    <a href="/ueber">Mehr über mich</a>.
     </p>
     {% include social.html %}
-    <a class="page-link kontakt" href="/ueber">Florian kennenlernen</a>
   </div>
 
   <div id="portfolio">
-    <h2>Angebot</h2>
+    <h2>Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="/coaching">Coaching</a></h3>
       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
@@ -67,7 +68,7 @@ layout: page
           {{ post.date | date: "%Y.%m.%d"  }}
         </time>
       </li>
-    {% if i == 10 %}
+    {% if i == page.blog_posts %}
     </ul>
       {% break %}
     {% endif %}
