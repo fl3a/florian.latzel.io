@@ -22,12 +22,18 @@ blog_posts: 5
     <h2>Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="/coaching">Coaching</a></h3>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+        sed diam nonumy eirmod tempor invidunt ut.
+        <a href="/coaching">Mehr erfahren.</a>
+      </p>
     </div>
 
     <div class="angebot-1-2 angebot-2 wildnistraining">
       <h3><a href="/wildnistraining">Wildnistraining</a></h3>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+        sed diam nonumy eirmod tempor invidunt ut.
+        <a href="/wildnistraining">Mehr erfahren.</a>
+      </p>
     </div>
 
     <div class="angebot-1-2 angebot-1 team-coaching">
@@ -74,7 +80,15 @@ blog_posts: 5
     {% endif %}
   {% endfor %}
     </div>
-    <a href="/blog">Alle Blogeinträge</a>
+    <p class="blog-link">
+      <a href="/blog">Alle Blogeinträge</a>
+    </p>
+    <p class="feed-subscribe">
+      <svg class="svg-icon orange">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+      </svg>
+      <a href="{{ "/feed.xml" | relative_url }}">Abonieren</a>
+    </p>
   </div>
 
 </div>
