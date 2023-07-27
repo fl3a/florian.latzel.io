@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Über mich 
+title: Über mich
 permalink: /ueber-mich.html
 image: /assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg
 last_modified_at: 2019-10-30
@@ -28,14 +28,56 @@ und ist gerne [draußen](/tags/draussen/index.html).
 - glaubt an [Open Source](/tags/open-source/index.html), 
 humaneres Arbeiten, Selbstorganisation und Karma
 
+Inhaltsverzeichnis
+- Inhaltsverzeichnis
+{:toc}
+
+## Aus- und Weiterbildung <a href="#" rel="edu" class="up-down">+</a>
+
+<div id="edu">
+<ul>
+  <li><a href="/2023/01/16/hallo-coaches.html">Systemischer NLP Coach</a>, 
+    <a href="https://www.tomandreas.de/">Institut Tom Andreas</a> 
+  (05.2022 - 11.2022)</li>
+    <li><a href="/2022/03/31/nlp-practitioner.html">Neuro Linguistisches Programmieren</a>,
+  <a href="https://www.tomandreas.de/">Institut Tom Andreas</a> 
+  (09.2021 - 03.2022)</li>
+    <li><a href="/2020/12/14/november-draussen.html#ich-bin-wildnisp%C3%A4dagoge">Wildnispädagogik</a>, 
+  <a href="https://www.wildnistraining.de/">wildnistraining.de</a> x 
+  <a href="https://www.naturschule.de/">Naturschule Deutschland</a> (03.2020 - 11.2020)</li>
+    <li>Staatl. gepr. Informatiker Softwaretechnologie, 
+  <a href="https://www.bib.de/">bib International College</a> (10.2002 - 10.2004)</li>
+</ul>
+</div>
+
+
+## Zertifikate <a href="#" rel="certs" class="up-down">+</a>
+
+<div id="certs">
+<ul>
+  <li>Certified SAFe® 6 Product Owner/Product Manager, 
+Scaled Agile (07.2023 - heute)</li>
+  <li>Certified SAFe® 6 Scrum Master, Scaled Agile (06.2023 - heute)</li>
+  <li><a href="/2022/03/31/nlp-practitioner.html">NLP Practitioner</a>, 
+  DVNLP (03.2022 - heute)</li>
+  <li><a href="/2018/03/31/certified-scrum-professional-csp.html">Certified Scrum Professional</a>, 
+  Scrum Alliance (02.2018 - heute)</li>
+  <li><a href="/2018/03/03/scrum-starter-kit.html">Certified Scrum Product Owner</a>,
+  Scrum Alliance (12.2017 - heute)</li>
+  <li><a href="/neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html">Professional Scrum Master I</a>, 
+  Scrum.org (02.2015 - heute)</li>
+</ul>
+</div>
+
+## Tätigkeiten und praktische Erfahrungen <a href="#" rel="work" class="up-down">+</a>
+
+<div id="certs">
+</div>
+
 Hier findest du [Referenzen](/referenzen.html), 
 [Talks](/talks.html) und [Projekte](/projekte.html).   
 In meinem [Blog](/#blog) und in meinem [CV](https://florian.latzel.io/cv)
 erfährst du noch mehr über mich.
-
-Inhaltsverzeichnis
-- Inhaltsverzeichnis
-{:toc}
 
 ## Wegbegleiter
 
@@ -64,7 +106,7 @@ Transformationsbegleitung und Unterstützung in einer komplexen Welt
 - [GzEvD](https://www.gesellschaft-zur-entwicklung-von-dingen.de/de),
 Nachhaltige IT Lösungen von den Open Source Evangelisten aus Berlin
 
-## Kolophon
+## Über diese Website
 
 ### Software
 
@@ -79,7 +121,7 @@ https://github.com/fl3a/jekyll_deployment).
 
 Die Datenbasis des [Blogs](/archiv.html) stammt aus Jahr 2004 und lief bis Ende 2018 
 mit dem [Drupal](/tags/drupal/) CMS.   
-Ich schreibe dort über [diverse Themen](/themen.html), die mich beschäftigen.
+Ich schreibe dort über [diverse Themen](/themen), die mich beschäftigen.
 Blogposts zu Updates dieser Website finden sich [hier](/tags/netzaffe). 
 
 ### Lizenz
