@@ -28,13 +28,11 @@ und ist gerne [draußen](/tags/draussen/index.html).
 - glaubt an [Open Source](/tags/open-source/index.html), 
 humaneres Arbeiten, Selbstorganisation und Karma
 
-Inhaltsverzeichnis
-- Inhaltsverzeichnis
-{:toc}
-
-## Aus- und Weiterbildung <a href="#" rel="edu" class="up-down">+</a>
-
-<div id="edu">
+<div style="display:flex;flex-direction:row;">
+  <div><h2 class="no-anchor">Aus- und Weiterbildung</h2></div>
+  <div id="edu" class="trigger" style="cursor:pointer;padding-left:5px;font-size:32px;color:#2a7ae2;">+</div>
+</div>
+<div class="up-down" id="edu-div">
 <ul>
   <li><a href="/2023/01/16/hallo-coaches.html">Systemischer NLP Coach</a>, 
     <a href="https://www.tomandreas.de/">Institut Tom Andreas</a> 
@@ -50,10 +48,11 @@ Inhaltsverzeichnis
 </ul>
 </div>
 
-
-## Zertifikate <a href="#" rel="certs" class="up-down">+</a>
-
-<div id="certs">
+<div style="display:flex;flex-direction:row;">
+  <div><h2 class="no-anchor">Zertifikate</h2></div>
+  <div id="certs" class="trigger">+</div>
+</div>
+<div class="up-downs" id="certs-div">
 <ul>
   <li>Certified SAFe® 6 Product Owner/Product Manager, 
 Scaled Agile (07.2023 - heute)</li>
@@ -69,9 +68,11 @@ Scaled Agile (07.2023 - heute)</li>
 </ul>
 </div>
 
-## Tätigkeiten und praktische Erfahrungen <a href="#" rel="work" class="up-down">+</a>
-
-<div id="certs">
+## Tätigkeiten und praktische Erfahrungen <a href="#" rel="work" class="trigger">+</a>
+{: .no-anchor}
+<div class="up-down" id="certs">
+klpkswf
+lüfwüfw
 </div>
 
 Hier findest du [Referenzen](/referenzen.html), 
