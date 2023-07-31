@@ -1,11 +1,15 @@
 ---
-title: Blog
-layout: page
-permalink: blog.html
+layout: default
+pagination: 
+  enabled: true
+  limit: 0
+  per_page: 1000
 ---
-<div id="blog" class="archiv">
+{{ content }}
+<h1 class="thema">{{ page.autopage.display_name | escape }}</h1>
+<div id="thema" class="archiv">
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 {% assign currentDate = post.date | date: "%Y" %}
   {% if currentDate != myDate %}
   {% unless forloop.first %}
@@ -17,7 +21,9 @@ permalink: blog.html
   {% endif %}
     <li class="h-entry">
       <span class="title p-name">
-        <a class="u-url" href="{{ post.url }}">{{ post.title }}</a>
+        <a class="u-url" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+	</a>
       </span>
       <hr>
       <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%S"}}">
@@ -28,11 +34,5 @@ permalink: blog.html
   </ul>
   {% endif %}
 {% endfor %}
-<p class="feed-subscribe">
-  <svg class="svg-icon orange">
-    <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-  </svg>
-  <a href="{{ "/feed.xml" | relative_url }}">Abonieren</a>
-</p>
 
 </div> 

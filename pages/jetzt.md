@@ -2,7 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-07-15 17:05
+last_modified_at: 2023-07-25 10:35
 ---
 - Hin und wieder an Struktur und Portfolio dieser Seite arbeiten.
 - Hier und da am [Micro GnuPG Howto](/gnupg-micro-howto.html) schleifen.
@@ -11,7 +11,8 @@ last_modified_at: 2023-07-15 17:05
 
 Ich suche gerade aktiv nach einem neuem Job 
 als Scrum Master / Agile Master / Agile Team Coach / Agile Coach.
-Bewerbungen und Gespräche laufen und das ist fast ein eigener Job😆.
+Bewerbungen und Gespräche laufen. 
+Das ist an sich ein eigener Job😆.
 
 Wenn du glaubst, dass ich (hier mein [CV](/cv/))
 zu dir und deiner Firma passen könnte,   
@@ -26,8 +27,6 @@ dann [kontaktiere](/kontakt.html) mich gerne!
 - Fragen können wie Küsse schmecken - 
 Systemische Fragetechniken für Anfänger und Fortgeschrittene
 von Carmen Kindl Beilfuß
-- How To Bullsh\*t Your Way To Number 1: 
-An Unorthodox Guide To 21st Century Success von Oobah Buttler
 - Die Coaching-Schatzkiste von Martin Wehrle
 von Mechtild Erpenbeck 
 
