@@ -24,7 +24,7 @@ blog_posts: 5
       <h3><a href="/coaching">Coaching</a></h3>
       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
         sed diam nonumy eirmod tempor invidunt ut.
-        <a href="/coaching">Mehr erfahren.</a>
+        <a href="/coaching">Coaching</a>
       </p>
     </div>
 
@@ -32,29 +32,50 @@ blog_posts: 5
       <h3><a href="/wildnistraining">Wildnistraining</a></h3>
       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
         sed diam nonumy eirmod tempor invidunt ut.
-        <a href="/wildnistraining">Mehr erfahren.</a>
+        <a href="/wildnistraining">Wildnistraining</a>
       </p>
     </div>
 
-    <div class="angebot-1-2 angebot-1 team-coaching">
+    <div class="angebot-1-2 angebot-1 coach-and-walk">
+      <h3><a href="/coach-and-walk">Coach &amp; Walk</a></h3>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
+        <a href="/coach-and-walk">Coach &amp; Walk</a>
+      </p>
+    </div>
+
+    <div class="angebot-1-2 angebot-2 team-coaching">
       <h3>Team Coaching</h3>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+    </div>
+
+     <div class="angebot-1-2 angebot-1 facilitierung">
+      <h3>Facilitierung</h3>
+      <p>Retrospektiven, Open Space und Team-Workshops und -Retreats.</p>
     </div>
 
     <div class="angebot-1-2 angebot-2 agile-coaching">
       <h3>Agile Coaching</h3>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
     </div>
+
   </div>
   
-  <div id="kontakt">
+  <div id="kontakt-1">
     <a class="page-link kontakt" href="/kontakt">Kontakt</a>
   </div>
   
   <div id="kunden">
-    <p>Eine Reihe Logos in Grau, mit Hover auf Farbig, ggf eine Slideshow</p>
+    <h2>Zufriedene Kunden &amp; Erfolgreiche Projekte</h2>
+    <ul class="kunden-logos">
+      <li id=""><img src="" data-src="" alt="" /></li>
+    </ul>
+    <p>Möchtest du dabei sein?</p>
   </div>
 
+  <div id="kontakt-2">
+    <a class="page-link kontakt" href="/kontakt">Kontakt</a>
+  </div>
+ 
   <div id="blog-posts">
     <h2>Aktuelle Blogeinträge</h2>
     <div class="archiv">
