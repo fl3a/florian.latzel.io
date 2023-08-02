@@ -57,6 +57,11 @@ RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
 
+# Sitemap
+RedirectMatch 301 /sitemap /sitemap.xml
+RedirectMatch 301 /sitemap.txt /sitemap.xml
+
+
 # Redirect all Drupal legacy tag urls to tag page
 RedirectMatch 301 ^/taxonomy/term/\d+$ /themen.html
 RedirectMatch 301 ^/taxonomy/term/\d+/\d+$ /themen.html
