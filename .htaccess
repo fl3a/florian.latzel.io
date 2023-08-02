@@ -51,11 +51,11 @@ RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 # -> /2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html
 RedirectMatch 301 ^/blog/(.*).html$ /$1.html
 
-# Redirect tag urls ending with .html
-# /tags/scrum.html -> /tags/scrum/index.html
-# RedirectMatch 301 ^/tags/([^/]+)\.html$ /tags/$1/index.html
-# RedirectMatch 301 ^/tags/([^/]+)\.html$ /tags/$1/index.html
-RedirectMatch 301 ^/tags/([^/]+)\.html$ /tags/$1/
+# Redirect tag urls 
+RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
 
 # Redirect all Drupal legacy tag urls to tag page
 RedirectMatch 301 ^/taxonomy/term/\d+$ /themen.html
