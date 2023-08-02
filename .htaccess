@@ -42,14 +42,10 @@ AddOutputFilterByType DEFLATE application/atom+xml \
 
 # BEGIN Rules
 
-# Redirect all requests with HTTP_HOST != florian.latzel.io to florian.latzel.io
+# Redirect all requests with HTTP_HOST != florian.latzel.io 
+# to florian.latzel.io
 RewriteCond %{HTTP_HOST} !^florian\.latzel\.io$
 RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
-
-# Redirect urls starting with /blog/ (Drupal imported) to jekylls standard url schema,
-# eg.: /blog/2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html
-# -> /2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html
-RedirectMatch 301 ^/blog/(.*).html$ /$1.html
 
 # Redirect tag urls 
 RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
@@ -61,33 +57,14 @@ RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
 RedirectMatch 301 /sitemap /sitemap.xml
 RedirectMatch 301 /sitemap.txt /sitemap.xml
 
-
-
-# Redirect all Drupal legacy tag urls to tag page
-RedirectMatch 301 ^/taxonomy/term/\d+$ /themen.html
-RedirectMatch 301 ^/taxonomy/term/\d+/\d+$ /themen.html
-# Redirect all Drupal legacy tag feeds to /feed.xml
-RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
-
-# Redirect all Drupal legacy image galery urls to <front>
-RedirectMatch 301 ^/fotos/(.*) /
-
-# Redirect all Drupal file paths urls to <front>
-RedirectMatch 301 ^/sites/netzaffe.de/files/(.*) /
-
-# Redirect all Drupal tagadelic urls to /themen.html
-RedirectMatch 301 ^/tagadelic/(.*) /themen.html
-
-# END Rules
+# END Rules 
 
 # BEGIN Book pages
 
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 RedirectMatch 301 /gnupg-micro-howto/(.*) /gnupg-micro-howto.html
-
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 RedirectMatch 301 /git-gitosis-gitweb-the-debian-way/(.*) /git-gitosis-gitweb-the-debian-way.html
-
 Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 RedirectMatch 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/(.*) /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 
@@ -95,23 +72,18 @@ RedirectMatch 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/(.*)
 
 # BEGIN misc
 
-Redirect 301 /node/1630 /2014/08/28/facebook-tschoe-mit-oe-mit-oe.html 
 Redirect 301 /php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren /2016/03/13/php_codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren.html 
 Redirect 301 /php-properties-klassenvariablen-doxygen-dokumentieren /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html
 Redirect 301 /ein-experiment-drupalcamp-goes-barcamp /2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html 
 Redirect 301 /scrum-starter-kit /2018/03/03/scrum-starter-kit.html
 Redirect 301 /ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren /2015/03/01/ueberprfung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren.html
 Redirect 301 /pear-phpunit-composer-und-drupal /2015/02/28/pear-phpunit-de-composer-und-drupal.html
-Redirect 301 /blog http://netzaffe.de 
-Redirect 301 /blog?page=1 http://netzaffe.de/
-Redirect 301 /node?page=1 http://netzaffe.de/
 Redirect 301 /blog/2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-angeben.html /2014/11/26/svnssh-unter-linux-username-bei-svn-checkout-angeben.html
 Redirect 301 /rss.xml /feed.xml
 Redirect 301 /autocompletition-fuer-drush-aktivieren /2013/04/21/autocompletition-fuer-drush-aktivieren.html
 Redirect 301 /2019/04/05/daily-scrum-daily-questions.html /2019/04/05/daily-scrum-fragen.html
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html
 Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
-Redirect 301 /florian-latzel.html /ueber.html
 Redirect 301 /eine-einfuehrung-scrum-vortrag-auf-dem-drupalcamp-muenchen-2016.html /scrum-45-minuten-drupalcamp-muenchen-2016.html
 Redirect 301 /copy-n-paste-bei-gpg-passwoertern-und-pinentry /2015/11/14/copy-n-paste-bei-gpg-passwoertern-und-pinentry.html
 Redirect 301 /2009/02/20/drush-mm-adminrole-workaround-und-tabs-in-firefox.html /2009/02/20/drush_mm-adminrole-workaround-und-tabs-in-firefox.html
