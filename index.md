@@ -63,19 +63,62 @@ blog_posts: 5
   <div id="kontakt-1">
     <a class="page-link kontakt" href="/kontakt">Kontakt</a>
   </div>
+
+<style>
+
+ul.kunden-logos {
+  list-style: none;
+  margin-left: 0; 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+ul.kunden-logos li {
+  width: 25%;
+  text-align: center;
+}
+ul.kunden-logos li img {
+  width: 70%;
+  height: auto;
+  webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: gray;
+  filter: grayscale(100%);
+}
+ul.kunden-logos li img:hover {
+  webkit-filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+#rzfnrw img {
+  width: 98%;
+}
+
+
+
+</style>
+
   
   <div id="kunden">
-    <h2>Zufriedene Kunden &amp; Erfolgreiche Projekte</h2>
+    <h2>Erfolgreiche Projekte &amp; Glückliche Kunden</h2>
     {% assign logo-path = "/assets/imgs/kunden" %}
-    <ul class="kunden-logos" style="list-style: none;display: inline-flex;align-items:center;">
+    <ul class="kunden-logos">
       <li id="rewe-digital"><img src="{{ logo-path }}/rewe-digital-logo.svg" alt="REWE digital Logo" /></li>
       <li id="axa"><img src="{{ logo-path }}/axa-logo.svg" alt="AXA Logo" /></li>
       <li id="burda"><img src="{{ logo-path }}/burda-logo.png" alt="Hubert Burda Media Logo" /></li>
       <li id="reinblau"><img src="{{ logo-path }}/reinblau-logo.svg" alt="Reinblau Logo" /></li>
       <li id="koeln"><img src="{{ logo-path }}/stadt-koeln-logo.svg" alt="Stadt Köln Logo" /></li>
+      <li id="rzfnrw"><img src="{{ logo-path }}/ministerium-der-finanzen-des-landes-nrw-logo.png" alt="Ministerium der Finanzen des Landes NRW Logo" /></li>
+      <li id="naturzeit"><img src="{{ logo-path }}/naturzeitclub-logo.webp" alt="Naturzeitclub Logo" /></li>
+      <li id="pixelpark"><img src="{{ logo-path }}/digitas-pixelpark-logo.png" alt="Digitas Pixelpark Logo" /></li>
+      <li id="walkaboutyou"><img src="{{ logo-path }}/walkaboutyou-logo.webp" alt="walkaboutyou Logo" /></li>
+      <li id="platine"><img src="{{ logo-path }}/platine-logo.png" alt="platine-logo.png" /></li>
       <li id=""><img src="{{ logo-path }}" alt="" /></li>
     </ul>
-    <p>Möchtest du dabei sein?</p>
+    <p>Möchtest du dazugehören?</p>
   </div>
 
   <div id="kontakt-2">
