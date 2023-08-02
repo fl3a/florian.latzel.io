@@ -120,6 +120,14 @@ Redirect 301 /2012/10/16/hnlichkeiten-in-sql-drupal-db-query-like.html /2012/10/
 Redirect 301 /2009/12/08/drush-und-mulisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html
 Redirect 301 /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface.html /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface-drupal-user-group-kln-bonn.html
 Redirect 301 /2008/10/03/koeln-muelheim-net-herzlichen-glueckwunsch-nachtraeglich-zum-dritten.html /2008/10/03/kln-mlheim-net-herzlichen-glckwunsch-nachtrglich-zum-dritten.html
+Redirect 301 /tags/drupalcamp-ruhr/index.html /thema/drupalcamp/
+Redirect 301 /2020/04/07/responsive-image.html /2020/04/07/co2-sparen-responsive-images-lazyload-jekyll.html
+Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-psm1 /neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html
+Redirect 301 /scrum-master/ /thema/scrum-master/
+Redirect 301 /thema/opensource/ /thema/open-source/ 
+Redirect 301 /2010/12/11/arbeit-sparen-mit-cluster-ssh.html /2010/12/10/arbeit-sparen-mit-cluster-ssh.html
+Redirect 301 /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html
+
 
 # END misc
 
