@@ -66,8 +66,14 @@ blog_posts: 5
   
   <div id="kunden">
     <h2>Zufriedene Kunden &amp; Erfolgreiche Projekte</h2>
-    <ul class="kunden-logos">
-      <li id=""><img src="" data-src="" alt="" /></li>
+    {% assign logo-path = "/assets/imgs/kunden" %}
+    <ul class="kunden-logos" style="list-style: none;display: inline-flex;align-items:center;">
+      <li id="rewe-digital"><img src="{{ logo-path }}/rewe-digital-logo.svg" alt="REWE digital Logo" /></li>
+      <li id="axa"><img src="{{ logo-path }}/axa-logo.svg" alt="AXA Logo" /></li>
+      <li id="burda"><img src="{{ logo-path }}/burda-logo.png" alt="Hubert Burda Media Logo" /></li>
+      <li id="reinblau"><img src="{{ logo-path }}/reinblau-logo.svg" alt="Reinblau Logo" /></li>
+      <li id="koeln"><img src="{{ logo-path }}/stadt-koeln-logo.svg" alt="Stadt Köln Logo" /></li>
+      <li id=""><img src="{{ logo-path }}" alt="" /></li>
     </ul>
     <p>Möchtest du dabei sein?</p>
   </div>
