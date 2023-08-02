@@ -62,6 +62,7 @@ RedirectMatch 301 /sitemap /sitemap.xml
 RedirectMatch 301 /sitemap.txt /sitemap.xml
 
 
+
 # Redirect all Drupal legacy tag urls to tag page
 RedirectMatch 301 ^/taxonomy/term/\d+$ /themen.html
 RedirectMatch 301 ^/taxonomy/term/\d+/\d+$ /themen.html
@@ -123,7 +124,8 @@ Redirect 301 /2008/10/03/koeln-muelheim-net-herzlichen-glueckwunsch-nachtraeglic
 # END misc
 
 # Temp: Umlaute
-Redirect 301 /tags/scrumtisch-koeln/index.html /tags/scrumtisch-koln/index.html 
-Redirect 301 /tags/duesseldorf/index.html /tags/dusseldorf/index.html
-Redirect 301 /tags/koeln/index.html /tags/koln/index.html
+Redirect 301 /tags/scrumtisch-koeln/index.html /thema/scrumtisch-koln/ 
+Redirect 301 /tags/duesseldorf/index.html /thema/dusseldorf/
+Redirect 301 /tags/koeln/index.html /thema/koln/
+Redirect 301 /tags/muellem/index.html /thema/mullem
 
