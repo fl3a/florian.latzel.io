@@ -22,24 +22,23 @@ blog_posts: 5
     <h2>Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="/coaching">Coaching</a></h3>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-        sed diam nonumy eirmod tempor invidunt ut.
-        <a href="/coaching">Coaching</a>
+      <p>Systemisches Coaching. 
+        <a href="/coaching">Mehr</a>.
       </p>
     </div>
 
     <div class="angebot-1-2 angebot-2 wildnistraining">
       <h3><a href="/wildnistraining">Wildnistraining</a></h3>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-        sed diam nonumy eirmod tempor invidunt ut.
-        <a href="/wildnistraining">Wildnistraining</a>
+      <p>Bushcraft, Survival und eine tiefe Naturverbindung,
+        die darüber hinausgeht.
+        <a href="/wildnistraining">Mehr</a>.
       </p>
     </div>
 
     <div class="angebot-1-2 angebot-1 coach-and-walk">
       <h3><a href="/coach-and-walk">Coach &amp; Walk</a></h3>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
-        <a href="/coach-and-walk">Coach &amp; Walk</a>
+      <p>Coachings Draußen, im Gehen und auf Wunsch auch in der Natur.
+        <a href="/coach-and-walk">Mehr</a>.
       </p>
     </div>
 
@@ -50,7 +49,8 @@ blog_posts: 5
 
      <div class="angebot-1-2 angebot-1 facilitierung">
       <h3>Facilitierung</h3>
-      <p>Retrospektiven, Open Space und Team-Workshops und -Retreats.</p>
+      <p>Retrospektiven, Open Space, Team-Workshops und -Retreats.
+      Drinnen und Draußen.</p>
     </div>
 
     <div class="angebot-1-2 angebot-2 agile-coaching">
