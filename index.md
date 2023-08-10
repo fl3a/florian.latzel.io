@@ -55,7 +55,8 @@ blog_posts: 5
 
     <div class="angebot-1-2 angebot-2 agile-coaching">
       <h3>Agile Coaching</h3>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+      <p>Für die Organisation, Product Owner und Team, 
+      als Scrum Master und Agile Coach.</p>
     </div>
 
   </div>
