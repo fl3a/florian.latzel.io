@@ -19,6 +19,8 @@ pagination:
   <ul>
     {% assign myDate = currentDate %}
   {% endif %}
+  {% assign m = post.date | date: "%-m" | minus: 1 %}
+  {% assign month = site.data.de.months[m] | truncate: 3, "" %}
     <li class="h-entry">
       <span class="title p-name">
         <a class="u-url" href="{{ post.url | relative_url }}">
@@ -26,8 +28,7 @@ pagination:
 	</a>
       </span>
       <hr>
-      <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%S"}}">
-        {{ post.date | date: "%m.%d"  }}
+      <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%S"}}">{{ month }} {{ post.date | date: "%d"  }}
       </time>
     </li>
   {% if forloop.last %}

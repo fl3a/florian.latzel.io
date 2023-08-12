@@ -15,7 +15,7 @@ nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2023-04-28
+last_modified_at: 2023-08-03
 image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
 <figure>
@@ -86,7 +86,7 @@ ein Format von [paragraph eins](https://www.paragraph1.de/)
 ### Agile Meetups und Events in Bonn
 
 - [Bonn Agile Meetup](https://www.meetup.com/de-DE/Bonn-Agile/), am ersten Dienstag des Monats in wechselden Locations, Anmeldung über meetup
-- [Bonner Scrumtisch](https://www.linkedin.com/groups/12547480/), am zweiten Dienstag des Monats in wechselnden Locations, 
+- Bonner Scrumtisch, Anmeldung via [linkedin](https://www.linkedin.com/groups/12547480/) oder [meetup](https://www.meetup.com/de-DE/scrumtisch-bonn/), am zweiten Dienstag des Monats in wechselnden Locations, 
 Anmeldung über linkedin
 
 ### Agile Meetups und Events in Düsselorf
