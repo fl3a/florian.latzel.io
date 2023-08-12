@@ -19,6 +19,7 @@ blog_posts: 5
   </div>
 
   <div id="portfolio">
+
     <h2>Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="/coaching">Coaching</a></h3>
@@ -37,33 +38,37 @@ blog_posts: 5
 
     <div class="angebot-1-2 angebot-1 coach-and-walk">
       <h3><a href="/coach-and-walk">Coach &amp; Walk</a></h3>
-      <p>Coachings Draußen, im Gehen und auf Wunsch auch in der Natur.
+      <p>Coachings im Gehen und draußen. Auf Wunsch in nahegelegenem Wald und Flur.
         <a href="/coach-and-walk">Mehr</a>.
       </p>
     </div>
 
     <div class="angebot-1-2 angebot-2 team-coaching">
       <h3>Team Coaching</h3>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+      <p>Von einer Gruppe aus Individuen zum High Performing Team.
+        Teambuilding und -coaching.
+      </p>
     </div>
 
      <div class="angebot-1-2 angebot-1 facilitierung">
       <h3>Facilitierung</h3>
-      <p>Retrospektiven, Open Space, Team-Workshops und -Retreats.
-      Drinnen und Draußen.</p>
+      <p>Retrospektiven, Open Space, Team-Workshops 
+        und -Retreats, Offsites, Kickoffs und Walkabouts.
+      </p>
     </div>
 
     <div class="angebot-1-2 angebot-2 agile-coaching">
       <h3>Agile Coaching</h3>
-      <p>Für die Organisation, Product Owner und Team, 
-      als Scrum Master und Agile Coach.</p>
+      <p>Für die Organisation, Product Owner und Team. 
+        Als Scrum Master und Agile Coach.
+      </p>
     </div>
 
   </div>
   
-  <div id="kontakt-1">
+  <p id="kontakt-1">
     <a class="page-link kontakt" href="/kontakt">Kontakt</a>
-  </div>
+  </p>
 
 <style>
 
@@ -108,6 +113,9 @@ ul.kunden-logos li img:hover {
 }
 #naturzeit img, #p1 img, #bib img, #koeln img {
   width: 80%;
+}
+#kontakt-1 {
+  clear: left;
 }
 </style>
 
