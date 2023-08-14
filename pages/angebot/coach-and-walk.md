@@ -6,7 +6,7 @@ image: /assets/imgs/portfolio/weg-2.JPG
 ---
 {% responsive_image alt: "Wegbegleiter, Foto © Tina Urban." path: assets/imgs/portfolio/weg-2.JPG %}
 
-Coachings im Gehen und Draußen in der Natur.
+[Coachings]({% link pages/angebot/coaching.md %}) im Gehen und Draußen in der Natur.
 
 Warum im Gehen? 
 Bereits seit der Antike stehen Gehen und Erkenntnis in einem kausalen Zusammenhang.
@@ -25,8 +25,8 @@ Wir entschleunigen, weiten den Blick für Neues und stärken dabei auch noch uns
 
 Fußnoten 
 
-Die Bilder auf dieser Seite sind von [Tina Urban](https://tinaurban.de) 
-und Urheberrechtlich&copy; geschützt. Danke!
+Das Bild auf dieser Seite stammt von [Tina Urban](https://tinaurban.de) 
+und ist urheberrechtlich&copy; geschützt. Danke!
 {: .footnotes}
 
 [^naturgesundheit]: [Wie wirken Natur und Landschaft auf Gesundheit, Wohlbefinden und Lebensqualität?, Prof. Dr. Ulrich Gebhard, Universität Hamburg](https://b6b1804a-fbf0-47c4-b778-3deada707163.filesusr.com/ugd/07922c_3ed56f11bfe74d0ab6b0e1e32ee6dd78.pdf)
@@ -35,6 +35,6 @@ und Urheberrechtlich&copy; geschützt. Danke!
 [^waldbaden]: [Waldbaden zum Stressabbau, quarks.de](https://www.quarks.de/gesundheit/waldbaden-zum-stressabbau/)
 [^waldgesundheit]: [Wie Wald auf unsere Gesundheit wirkt, derStandard.de](https://www.derstandard.de/story/2000116617740/wie-wald-auf-unsere-gesundheit-wirkt)
 [^emotionalinteligenz]: [Warum emotionale Intelligenz im Job so wichtig ist, MichaelPage](https://www.michaelpage.de/advice/management-tipps/leadership/warum-emotionale-intelligenz-im-job-so-wichtig-ist)
-[^gehen]: Das Zitat stammt von Jens Kleinert, Professor für Sport- und Gesundheitspsychologie, aus dem Artikel [Spazierengehen: Einfach mal raus und bewegen! - Spektrum der Wissenschaft](https://www.spektrum.de/news/spazierengehen-einfach-mal-raus-und-bewegen/1824811). 
+[^gehen]: Prof. Dr. Jens Kleinert, Professor für Sport- und Gesundheitspsychologie, [Spazierengehen: Einfach mal raus und bewegen! - Spektrum der Wissenschaft](https://www.spektrum.de/news/spazierengehen-einfach-mal-raus-und-bewegen/1824811). 
 
 
