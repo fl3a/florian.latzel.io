@@ -18,7 +18,7 @@ Meine Coaching Ausbildung bei Tom Andreas hat mich und meine Coaching Mitschüle
 zum 35. Metaforum Summercamp[^mfp] in Abano Terme[^abano] geführt. 
 
 Zwei Module der Ausbildung, 
-zum einen [*Lösungsfokussierendes Coaching*](/coaching.html)
+zum einen [*Lösungsfokussierendes Coaching*][coaching]
 nach Steve de Shazer[^steve] und Insoo Kim Berg bei [Tom Andreas](/tags/tom-andreas/) 
 und *der provokative Ansatz* nach Frank Farelly[^ff] 
 bei Dr. Noni Höffner und ihrer Tochter Dr. Charlotte Cordes[^provo] 
@@ -61,13 +61,13 @@ alt: "Abendessen im Hotel Orvieto" %}
 
 {%responsive_image figure:true 
 path: assets/imgs/metaforum22/eveline-nicolai-regine-babara-teilnehmer-metaforum-summercamp-2022.jpg
-alt: "Selfie: Eveline, Nicolai, Regine, Babara und Metaforum Crowd. Foto © Eveline Matyschoki." %}
+alt: "Selfie: Eveline, Nicolai, Regine, Babara und Metaforum Crowd. Foto © Eveline Matyschok." %}
 
 Während ich in der Ankunftshalle des Flughafen Venedig 
 versuchte meinen Namen irgendwo zu finden,
 las ich auf einem Schild den von [Magdalena](
 https://maera.de/ueber-uns/magdalena-richtarski/)
-und versuchte dann meine [Agile Coach](/coaching.html)
+und versuchte dann meine [Agile Coach][coaching])
 Kollegin aus Köln zu finden.
 Es stellte sich raus, dass ihr Ziel ebenfalls das Metaforum ist
 und dass sie sich mit die Woche mit dem ZRM beschäftigt.
@@ -109,7 +109,7 @@ Spätestens dann aber Abends, bei gutem Essen in größerer Runde.
 ## Bücher Uwe 
 
 Der reisende Buchhändler Uwe Böhm, oder einfach *Bücher Uwe*[^bnlp]
-hatte einen Raum um seine Bücher zu z.B. [Coaching](/coaching.html), 
+hatte einen Raum um seine Bücher zu z.B. [Coaching][coaching]), 
 Aufstellungen oder NLP unters Volk zu bringen.
 Uwe kennt die Bücher, die er auf dem Tisch hat.
 Ich durfte Uwes Beratungskompenz das erste Mal im Rahmen 
@@ -129,7 +129,8 @@ Das war eine Woche Weiterbildungsurlaub im Süden.
 Tatsächlich fand ich die lange Siesta angemessen.
 Die passten nicht nur gut zu den Temperaturen, 
 sondern auch zur Intensität mancher Themen,
-die man entweder als [Coach](/coaching.html) begleitet oder als Coachee selbst bearbeitet.
+die man entweder als [Coach][coaching] begleitet 
+oder als [Coachee][coaching] selbst bearbeitet.
 
 Das war eine Woche Lernen in einer tollen Kulisse. 
 Lernen von und mit tollen Menschen.
@@ -164,6 +165,8 @@ So etwas im Repertoire zu haben kann auf jeden Fall nicht schaden.
 [^sparrer]: [Insa Sparrer](https://de.wikipedia.org/wiki/Insa_Sparrer)
 [^sys]: [Beratung ohne Ratschlag : systemisches Coaching für Führungskräfte und BeraterInnen von Soja Radatz](https://portal.dnb.de/opac.htm?referrer=Wikipedia&method=enhancedSearch&index=num&term=9783902155016&operator=and)
 [^bnlp]: <https://wwww.bookmark-nlp.de>
+
+[coaching]: {% link pages/angebot/coaching.md %} 
 
 *[ZRM]: Züricher Resourcen Modell
 *[LKW]: Liebevolle Karikieren des Weltbildes der Klienten/Patienten
