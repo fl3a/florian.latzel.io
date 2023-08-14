@@ -13,7 +13,7 @@ blog_posts: 5
     <h2>Hi, ich heiße Florian👋</h2>
     <p>Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter
     und begleite Individuen, Gruppen, Teams und Organisationen in Veränderung.
-    <a href="/ueber">Mehr über mich</a>.
+    <a href="/ueber-mich">Mehr über mich</a>.
     </p>
     {% include social.html %}
   </div>
@@ -49,7 +49,7 @@ blog_posts: 5
         Teambuilding und -coaching.
       </p>
     </div>
-
+{% comment %}
      <div class="angebot-1-2 angebot-1 facilitierung">
       <h3>Facilitierung</h3>
       <p>Retrospektiven, Open Space, Team-Workshops 
@@ -63,6 +63,7 @@ blog_posts: 5
         Als Scrum Master und Agile Coach.
       </p>
     </div>
+{% endcomment %}
 
   </div>
   
