@@ -89,9 +89,9 @@ Aber was mache ich jetzt mit der Ausbildung? Mal ins Blaue gedacht:
 
 - Nächstes Jahr noch *Wildnispädagogik 2*[^wp] dranhängen und das Gerlernte vertiefen
 - Wissen pro bono mit Paul zusammen an seine ehemalige Pfadfindergruppe vermitteln
-- [Wildnis, Bushcraft und Survival für Manager, Führungskräfte und Coaches](
-/wildnistraining.html) gewürzt mit [tiefen Naturerleben](
-/wildnistraining.html) und einer Prise Achtsamkeit
+- [Wildnis, Bushcraft und Survival für Manager, Führungskräfte und Coaches][
+wildnistraining] gewürzt mit [tiefen Naturerleben][wildnistraining] 
+und einer Prise Achtsamkeit
 
 ## November ohne Twitter
 
@@ -171,4 +171,4 @@ und Paul für den Trip und das Teihabenlassen!
 [^eifel8]: [Eifelsteig-Etappe 08](https://www.eifelsteig.de/a-eifelsteig-etappe-8)
 [^tina]: [Tina Urban, Zeichnungen & Gemälde](http://www.tinaurban.com)
 
-
+[wildnistraining]: {% link pages/angebot/wildnistraining.md %}
