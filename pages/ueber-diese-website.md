@@ -23,7 +23,7 @@ https://github.com/fl3a/florian.latzel.io).
 Diese Website wird auf [uberspace](https://uberspace.de) gehosted. 
 
 Dorthin deployed wird via [Git Bare Repository und post-receive Hook](
-/jekyll-deployment-via-bare-repository-und-post-receive-hook.html) 
+{% post_url 2021-03-30-jekyll-deployment-via-bare-repository-und-post-receive-hook %}) 
 mit dem [Jekyll Deployment Shell Skript](
 https://github.com/fl3a/jekyll_deployment).
 
@@ -34,5 +34,11 @@ die mich beschäftigen.
 Die Datenbasis des [Blogs](/archiv.html) stammt aus Jahr 2004 und lief bis Ende 2018 
 mit dem [Drupal](/tags/drupal/) CMS.   
 Blogposts zu Updates dieser Website finden sich [hier](/thema/netzaffe). 
+
+## Lizenz
+
+Die Inhalte dieser Website, soweit nicht anders angegeben, 
+sind unter der [CC BY-SA 4.0]({% link pages/copyleft.md %}) 
+lizensiert. Siehe [Copyleft 🄯]({% link pages/copyleft.md %}) für weitere Details.
 
 
