@@ -277,12 +277,11 @@ dann wären es die drei, die mir als erstes einfallen:
 - Feedback aber richtig (mit dem *EPIQ Modell[^epiq]*) mit Conrad Giller
 
 Ich habe am Sonntag die Session ["Leadershiptraining goes wild"](
-/wildnistraining.html#leadershiptraining-goes-wild) eingebracht 
+/angebot/wildnistraining.html#leadershiptraining-goes-wild) eingebracht 
 und stilgerecht draussen in der Lenné-Anlage, im herbstlichen Sonnenschein 
-über die Mixtur von [Trainings für Führungskräfte in Naturräumen](
-/wildnistraining.htm)
-mit Elebniselementen aus den Bereichen [Survival, Bushcraft](/wildnistraining.html) 
-und [Coaching](/coaching.html) diskutiert.
+über die Mixtur von [Trainings für Führungskräfte in Naturräumen][
+wildnistraining.htm] mit Elebniselementen aus den Bereichen [Survival, Bushcraft][
+wildnistraining]) und [Coaching](% link angebot/coaching.md %}) diskutiert.
 
 Ich war viel im Austausch, habe viel diskutiert. 
 Ich durfte einige Irritationen erfahren, 
@@ -361,6 +360,8 @@ Fußnoten
 [^spotify2]: [Doch wie Spotify werden (II) - On Lean and Agility](https://www.lean-agility.de/2022/12/doch-wie-spotify-werden-ii.html)
 [^rs1]: [Der Anstieg nach der Marksburg \(mit Timecode\) - Doppelknoten](https://www.youtube.com/watch?v=ob-fpXzWWsA&t=98s)
 [^epiq]: [Mit dem EPIQ-Modell besser Feedback geben - t2informatik](https://t2informatik.de/blog/mit-dem-epiq-modell-besser-feedback-geben/)
+
+[wildnistraining]: {% link pages/angebot/wildnistraining.md %}
 
 *[HCJ]: Health Care Journey
 *[RD]: REWE digital
