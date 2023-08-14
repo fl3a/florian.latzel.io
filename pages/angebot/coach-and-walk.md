@@ -1,7 +1,7 @@
 ---
 title: Coach & Walk
 layout: page
-permalink: /coach-and-walk
+permalink: /angebot/coach-and-walk
 image: /assets/imgs/portfolio/weg-2.JPG
 ---
 {% responsive_image alt: "Wegbegleiter, Foto © Tina Urban." path: assets/imgs/portfolio/weg-2.JPG %}

@@ -1,7 +1,7 @@
 ---
 title: Wildnistraining
 layout: page
-permalink: /wildnistraining.html
+permalink: /angebot/wildnistraining
 ---
 {% responsive_image 
 alt: "Abends gemeinsam am Lagerfeuer. Foto © Tina Urban."
