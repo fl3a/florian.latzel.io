@@ -225,15 +225,14 @@ Ein Ziel, das aus der [Eifelsteigwanderung im November 2020](
 /2020/12/14/november-draussen.html#winterbackpacking-learnings) 
 mit meinen [Wildnispädagogik](/tags/wildnispadagogik) Alumnis entstanden ist,
 war es mein Wissen im Bereich [Bushcraft, Survival](/wildnistraining.html), 
-Wahrnehmung und sich in der Draußen [in der Natur heimisch zu fühlen](
-/wildnistraining.html) weiterzugeben.
+Wahrnehmung und sich in der Draußen [in der Natur heimisch zu fühlen][
+wildnistrainig] weiterzugeben.
 Damit auch ein paar Euros zu verdienen wäre auch schön.
 
 Mitte Oktober habe ich mit [Witali](https://www.witali.org/) 
 als Coach die [Walkaboutyou](https://walkaboutyou.org) 
 durch den Königsforst facilitiert 
-und einen Teil mit Wahrnehmung und [tiefem Naturempfinden](
-/wildnistraining.html) angeboten. \\
+und einen Teil mit Wahrnehmung und [tiefem Naturempfinden][wildnistrainig] angeboten. \\
 Das war das Feedback einer Teilnehmerin nach diesem besagten Teil:
 
 > Ich fühle mich gerade wie ein Baum, so als würde ich hier einfach dazu gehören.[^walk-ln]
@@ -419,6 +418,8 @@ Hallo Zwanzigzweiundzwanzig!
 [^pos3]: Barbara Fredrickson, Positivity: Top-Notch Research Reveals the 3-to-1 Ratio That Will Change Your Life, [ISBN 9780307393746]()
 [^mas-joko]: [Youtube Suche nach Pendakar Joko Suseno](https://www.youtube.com/results?search_query=pendakar+joko+suseno)
 [^res]: [Podcast Führung im Fokus, Folge #14, Resilienz: Die DNA nachhaltiger Unternehmensentwicklung \| Im Gespräch mit Katja Maas](https://www.pta-team.com/podcast-episode-14-resilienz-dna-nachhaltiger-unternehmensentwicklung)
+
+[wildnistraining]: {% link pages/angebot/wildnistraining.md %}
 
 *[RSS]: Rich Site Summary 
 *[IFFT]: IF This Than That
