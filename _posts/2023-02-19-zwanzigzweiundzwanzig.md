@@ -279,9 +279,9 @@ dann wären es die drei, die mir als erstes einfallen:
 Ich habe am Sonntag die Session ["Leadershiptraining goes wild"](
 /angebot/wildnistraining.html#leadershiptraining-goes-wild) eingebracht 
 und stilgerecht draussen in der Lenné-Anlage, im herbstlichen Sonnenschein 
-über die Mixtur von [Trainings für Führungskräfte in Naturräumen][
-wildnistraining.htm] mit Elebniselementen aus den Bereichen [Survival, Bushcraft][
-wildnistraining]) und [Coaching](% link angebot/coaching.md %}) diskutiert.
+über die Mixtur von [Trainings für Führungskräfte in Naturräumen][wildnistraining] 
+mit Elebniselementen aus den Bereichen [Survival, Bushcraft][wildnistraining] 
+und [Coaching](% link angebot/coaching.md %}) diskutiert.
 
 Ich war viel im Austausch, habe viel diskutiert. 
 Ich durfte einige Irritationen erfahren, 
