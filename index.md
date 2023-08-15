@@ -23,7 +23,7 @@ blog_posts: 5
     <h2>Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="/angebot/coaching">Coaching</a></h3>
-      <p>Systemisches Coaching. 
+      <p>Hilfe zur Selbsterkenntnis. Systemisch und Lösungsfokussiert. 
         <a href="/angebot/coaching">Mehr</a>.
       </p>
     </div>
@@ -45,11 +45,11 @@ blog_posts: 5
 
     <div class="angebot-1-2 angebot-2 team-coaching">
       <h3>Team Coaching</h3>
-      <p>Von einer Gruppe aus Individuen zum High Performing Team.
+      <p>Von einer Gruppe zum High-Performing-Team.
         Teambuilding und -coaching.
       </p>
     </div>
-{% comment %}
+
      <div class="angebot-1-2 angebot-1 facilitierung">
       <h3>Facilitierung</h3>
       <p>Retrospektiven, Open Space, Team-Workshops 
@@ -59,11 +59,10 @@ blog_posts: 5
 
     <div class="angebot-1-2 angebot-2 agile-coaching">
       <h3>Agile Coaching</h3>
-      <p>Für die Organisation, Product Owner und Team. 
+      <p>Für Organisation, Leadership, Product Owner und Team. 
         Als Scrum Master und Agile Coach.
       </p>
     </div>
-{% endcomment %}
 
   </div>
   
@@ -80,6 +79,12 @@ ul.kunden-logos {
   flex-wrap: wrap;
   align-items: center;
 }
+{% comment %}
+  //bei mobile:
+  width: 50%;
+  padding-bottom: 5px;
+
+{% comment %}
 ul.kunden-logos li {
   width: 25%;
   text-align: center;
