@@ -21,6 +21,7 @@ https://github.com/fl3a/florian.latzel.io).
 ## Hosting
 
 Diese Website wird auf [uberspace](https://uberspace.de) gehosted. 
+Die Server bei uberspace werden mit Ökostrom betrieben.
 
 Dorthin deployed wird via [Git Bare Repository und post-receive Hook](
 {% post_url 2021-03-30-jekyll-deployment-via-bare-repository-und-post-receive-hook %}) 
