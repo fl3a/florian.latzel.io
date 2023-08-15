@@ -215,9 +215,9 @@ figure.highlight {
 .footer-col-1,.footer-col-2, .footer-col-3 {
   width: calc(30% - calc(#{$spacing-unit} / 3));
 }
-footer {
-  ul.social-media-list {
-    padding-top: 25px;
-  }
+.footer-last {
+  color:#828282;
+  font-size:15px;
+  text-align: center;
 }
 
