@@ -84,7 +84,7 @@ ul.kunden-logos {
   width: 50%;
   padding-bottom: 5px;
 
-{% comment %}
+{% endcomment %}
 ul.kunden-logos li {
   width: 25%;
   text-align: center;
