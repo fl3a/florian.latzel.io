@@ -123,12 +123,6 @@ ul.kunden-logos li img:hover {
 #kontakt-1 {
   clear: left;
 }
-.footer-last {
-  color:#828282;
-  font-size:15px;
-  text-align: center;
-}
-
 </style>
 
   
