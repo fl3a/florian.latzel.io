@@ -8,7 +8,7 @@ blog_posts: 5
 <div id="front">
   <div id="intro">
     <figure role="group">
-      <img src="/assets/imgs/florian-latzel-300x300.jpg" alt="Florian Latzel, Reinblau Teamtreffen, Mai 2017, Foto © Ronald Krentz">
+      <img src="/assets/imgs/florian-latzel-300x300.jpg" alt="Florian Latzel, Reinblau Teamtreffen, Mai 2017, Foto © Ronald Krentz" loading="lazy" />
     </figure>
     <h2>Hi, ich heiße Florian👋</h2>
     <p>Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter
@@ -123,6 +123,12 @@ ul.kunden-logos li img:hover {
 #kontakt-1 {
   clear: left;
 }
+.footer-last {
+  color:#828282;
+  font-size:15px;
+  text-align: center;
+}
+
 </style>
 
   
@@ -130,22 +136,22 @@ ul.kunden-logos li img:hover {
     <h2>Erfolgreiche Projekte &amp; Glückliche Kunden</h2>
     {% assign logo-path = "/assets/imgs/kunden" %}
     <ul class="kunden-logos">
-      <li id="rewe-digital"><img src="{{ logo-path }}/rewe-digital-logo.svg" alt="REWE digital Logo" /></li>
-      <li id="axa"><img src="{{ logo-path }}/axa-logo.svg" alt="AXA Logo" /></li>
-      <li id="myt"><img src="{{ logo-path }}/mytoys-group-logo.jpg" alt="MYTOYS GROUP Logo" /></li>
-      <li id="naturzeit"><img src="{{ logo-path }}/naturzeitclub-logo.webp" alt="Naturzeitclub Logo" /></li>
-      <li id="walkaboutyou"><img src="{{ logo-path }}/walkaboutyou-logo.webp" alt="walkaboutyou Logo" /></li>
-      <li id="koeln"><img src="{{ logo-path }}/stadt-koeln-logo.svg" alt="Stadt Köln Logo" /></li>
-      <li id="init"><img src="{{ logo-path }}/init-logo.svg" alt="INIT Logo" /></li>
-      <li id="reinblau"><img src="{{ logo-path }}/reinblau-logo.svg" alt="Reinblau Logo" /></li>
-      <li id="p1"><img src="{{ logo-path }}/paragraph-eins-logo.svg" alt="paragraph eins Logo" /></li>
-      <li id="startplatz"><img src="{{ logo-path }}/startplatz-accelerator-logo.png" alt="Startplatz Accelerator Logo" /></li>
-      <li id="paltine"><img src="{{ logo-path }}/platine-logo.png" alt="Platine Logo" /></li>
-      <li id="visitberlin"><img src="{{ logo-path }}/visitberlin-logo.svg" alt="VisitBerlin Logo" /></li>
-      <li id="pixelpark"><img src="{{ logo-path }}/digitas-pixelpark-logo.png" alt="Digitas Pixelpark Logo" /></li>
-      <li id="burda"><img src="{{ logo-path }}/burda-logo.png" alt="Hubert Burda Media Logo" /></li>
-      <li id="rzfnrw"><img src="{{ logo-path }}/ministerium-der-finanzen-des-landes-nrw-logo.png" alt="Ministerium der Finanzen des Landes NRW Logo" /></li>
-      <li id="bib"><img src="{{ logo-path }}/bib-international-college-logo.svg" alt="bib International College Logo" /></li>
+      <li id="rewe-digital"><img src="{{ logo-path }}/rewe-digital-logo.svg" alt="REWE digital Logo" loading="lazy" /></li>
+      <li id="axa"><img src="{{ logo-path }}/axa-logo.svg" alt="AXA Logo" loading="lazy" /></li>
+      <li id="myt"><img src="{{ logo-path }}/mytoys-group-logo.jpg" alt="MYTOYS GROUP Logo" loading="lazy" /></li>
+      <li id="naturzeit"><img src="{{ logo-path }}/naturzeitclub-logo.webp" alt="Naturzeitclub Logo" loading="lazy" /></li>
+      <li id="walkaboutyou"><img src="{{ logo-path }}/walkaboutyou-logo.webp" alt="walkaboutyou Logo" loading="lazy" /></li>
+      <li id="koeln"><img src="{{ logo-path }}/stadt-koeln-logo.svg" alt="Stadt Köln Logo" loading="lazy" /></li>
+      <li id="init"><img src="{{ logo-path }}/init-logo.svg" alt="INIT Logo" loading="lazy" /></li>
+      <li id="reinblau"><img src="{{ logo-path }}/reinblau-logo.svg" alt="Reinblau Logo" loading="lazy" /></li>
+      <li id="p1"><img src="{{ logo-path }}/paragraph-eins-logo.svg" alt="paragraph eins Logo" loading="lazy" /></li>
+      <li id="startplatz"><img src="{{ logo-path }}/startplatz-accelerator-logo.png" alt="Startplatz Accelerator Logo" loading="lazy" /></li>
+      <li id="paltine"><img src="{{ logo-path }}/platine-logo.png" alt="Platine Logo"  loading="lazy" /></li>
+      <li id="visitberlin"><img src="{{ logo-path }}/visitberlin-logo.svg" alt="VisitBerlin Logo" loading="lazy"/></li>
+      <li id="pixelpark"><img src="{{ logo-path }}/digitas-pixelpark-logo.png" alt="Digitas Pixelpark Logo" loading="lazy" /></li>
+      <li id="burda"><img src="{{ logo-path }}/burda-logo.png" alt="Hubert Burda Media Logo" loading="lazy" /></li>
+      <li id="rzfnrw"><img src="{{ logo-path }}/ministerium-der-finanzen-des-landes-nrw-logo.png" alt="Ministerium der Finanzen des Landes NRW Logo" loading="lazy" /></li>
+      <li id="bib"><img src="{{ logo-path }}/bib-international-college-logo.svg" alt="bib International College Logo" loading="lazy" /></li>
     </ul>
     <p>Möchtest du auch dazugehören?</p>
   </div>
