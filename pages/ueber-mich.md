@@ -52,13 +52,19 @@ dann musst du mit anderen zusammen gehen.
 <figcaption>Afrikanisches Sprichwort</figcaption>
 </figure>
 
-- [Kerstin Boljahn](https://www.kerstin-coaching.com/), Wohlfühlcoach, Yoga Lehrerin 
-und [Wildnispädagogin](/tags/wildnispadagogik/) im Norden
+- [Sybille Vosberg, Praxis für Konfliktheilung](
+https://www.konfliktheilung.de/naturcoaching/),
+[Naturcoaching]({% link pages/angebot/coach-and-walk.md %}), Leipzig.	 
 - [Walkaboutyou](https://walkaboutyou.org/),
 Wander-Workshops in der Natur für mehr Fokus, Resilienz und Wir-Gefühl 
+- [Kerstin Boljahn](https://www.kerstin-coaching.com/), Wohlfühlcoach, Yoga Lehrerin 
+und [Wildnispädagogin](/thema/wildnispadagogik/) im Norden
 - [naturzeit.club](https://naturzeit.club),
 Kleine und große Menschen in die Verbindung mit der Natur bringen
 - [Komplexitäter](https://www.komplexitaeter.de/), 
 Transformationsbegleitung und Unterstützung in einer komplexen Welt
 - [GzEvD](https://www.gesellschaft-zur-entwicklung-von-dingen.de/de),
 Nachhaltige IT Lösungen von den Open Source Evangelisten aus Berlin
+
+Die Bilder auf dieser Seite stammen von <a href="https://tinaurban.de">Tina Urban</a> 
+und ist urheberrechtlich© geschützt. Danke!
