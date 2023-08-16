@@ -23,7 +23,7 @@ blog_posts: 5
     <h2>Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="/angebot/coaching">Coaching</a></h3>
-      <p>Hilfe zur Selbsterkenntnis. Systemisch und Lösungsfokussiert. 
+      <p>Hilfe zur Selbsterkenntnis.<br />Systemisch und Lösungsfokussiert. 
         <a href="/angebot/coaching">Mehr</a>.
       </p>
     </div>
@@ -38,14 +38,14 @@ blog_posts: 5
 
     <div class="angebot-1-2 angebot-1 coach-and-walk">
       <h3><a href="/angebot/coach-and-walk">Coach &amp; Walk</a></h3>
-      <p>Coachings im Gehen und draußen. Auf Wunsch in nahegelegenem Wald und Flur.
+      <p>Coachings im Gehen und Draußen. Auf Wunsch in nahegelegenem Wald und Flur.
         <a href="/angebot/coach-and-walk">Mehr</a>.
       </p>
     </div>
 
     <div class="angebot-1-2 angebot-2 team-coaching">
       <h3>Team Coaching</h3>
-      <p>Von einer Gruppe zum High-Performing-Team.
+      <p>Von einer Gruppe zum High Performing Team.
         Teambuilding und -coaching.
       </p>
     </div>
@@ -60,7 +60,7 @@ blog_posts: 5
     <div class="angebot-1-2 angebot-2 agile-coaching">
       <h3>Agile Coaching</h3>
       <p>Für Organisation, Leadership, Product Owner und Team. 
-        Als Scrum Master und Agile Coach.
+        Als Agile Coach und Scrum Master.  
       </p>
     </div>
 
