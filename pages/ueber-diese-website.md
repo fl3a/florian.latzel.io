@@ -21,12 +21,20 @@ https://github.com/fl3a/florian.latzel.io).
 ## Hosting
 
 Diese Website wird auf [uberspace](https://uberspace.de) gehosted. 
-Die Server bei uberspace werden mit Ökostrom betrieben.
 
 Dorthin deployed wird via [Git Bare Repository und post-receive Hook](
 {% post_url 2021-03-30-jekyll-deployment-via-bare-repository-und-post-receive-hook %}) 
 mit dem [Jekyll Deployment Shell Skript](
 https://github.com/fl3a/jekyll_deployment).
+
+## Nachhaltig
+
+Diese Website produziert 0,04 Gramm CO<sub>2</sub> pro Seitenaufruf 
+und ist laut [Website Carbon Calculator ](
+https://www.websitecarbon.com/website/florian-latzel-io/)   
+96% sauberer als andere Seiten.
+
+Die Server bei uberspace werden mit Ökostrom betrieben.
 
 ## Blog
 
