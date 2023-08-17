@@ -2,14 +2,14 @@
   url: /#mein-angebot
 
 - title: Über mich
-  url: /ueber-mich
+  url: /ueber-mich.html
 
 - title: Jetzt
-  url: /jetzt  
+  url: /jetzt.html
    
 - title: Blog 
-  url: /blog 
+  url: /blog.html
 
 - title: Kontakt
-  url: /kontakt 
+  url: /kontakt.html
   class: kontakt
