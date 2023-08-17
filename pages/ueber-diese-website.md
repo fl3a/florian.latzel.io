@@ -42,7 +42,8 @@ In meinem [Blog](/blog) schreibe ich über [diverse Themen](/themen),
 die mich beschäftigen.   
 Die Datenbasis des [Blogs](/archiv.html) stammt aus Jahr 2004 und lief bis Ende 2018 
 mit dem [Drupal](/tags/drupal/) CMS.   
-Blogposts zu Updates dieser Website finden sich [hier](/thema/netzaffe). 
+Blogposts zu Updates dieser Website finden sich [hier](/thema/netzaffe).   
+Den Blog kannst du via [RSS Feed](/feed.xml) mit dem Feedreader deiner Wahl abonnieren.
 
 ## Lizenz
 
