@@ -18,12 +18,21 @@ und das [Minima Theme](https://github.com/jekyll/minima).
 Gespeist wird das ganze aus [Textdateien in einem Git-Repository](
 https://github.com/fl3a/florian.latzel.io).  
 
+## Blog
+
+In meinem [Blog](/blog) schreibe ich über [diverse Themen](/themen), 
+die mich beschäftigen.   
+Die Datenbasis des [Blogs](/archiv.html) stammt aus Jahr 2004 und lief bis Ende 2018 
+mit dem [Drupal](/tags/drupal/) CMS.   
+Blogposts zu Updates dieser Website finden sich [hier](/thema/netzaffe).   
+Den Blog kannst du via [RSS Feed](/feed.xml) z.B. mit dem Feedreader deiner Wahl abonnieren.
+
 ## Hosting
 
 Diese Website wird auf [uberspace](https://uberspace.de) gehosted. 
 
 Dorthin deployed wird via [Git Bare Repository und post-receive Hook](
-{% post_url 2021-03-30-jekyll-deployment-via-bare-repository-und-post-receive-hook %}) 
+{% post_url 2021-03-30-jekyll-deployment-via-bare-repository-und-post-receive-hook %})   
 mit dem [Jekyll Deployment Shell Skript](
 https://github.com/fl3a/jekyll_deployment).
 
@@ -37,15 +46,6 @@ Durch die Nutzung eines statischen Seitengenerators
 finden abgesehen von der Auslieferung der HTML-Seiten
 serverseitig zudem keine weiteren Rechenoperationen oder Datenbankzugriffe statt.   
 Die Server bei uberspace werden mit Ökostrom betrieben.
-
-## Blog
-
-In meinem [Blog](/blog) schreibe ich über [diverse Themen](/themen), 
-die mich beschäftigen.   
-Die Datenbasis des [Blogs](/archiv.html) stammt aus Jahr 2004 und lief bis Ende 2018 
-mit dem [Drupal](/tags/drupal/) CMS.   
-Blogposts zu Updates dieser Website finden sich [hier](/thema/netzaffe).   
-Den Blog kannst du via [RSS Feed](/feed.xml) mit dem Feedreader deiner Wahl abonnieren.
 
 ## Lizenz
 
