@@ -22,24 +22,24 @@ blog_posts: 5
 
     <h2>Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
-      <h3><a href="/angebot/coaching">Coaching</a></h3>
+      <h3><a href="/angebot/coaching.html">Coaching</a></h3>
       <p>Hilfe zur Selbsterkenntnis.<br />Systemisch und Lösungsfokussiert. 
-        <a href="/angebot/coaching">Mehr</a>.
+        <a href="/angebot/coaching.html">Mehr</a>.
       </p>
     </div>
 
     <div class="angebot-1-2 angebot-2 wildnistraining">
-      <h3><a href="/angebot/wildnistraining">Wildnistraining</a></h3>
+      <h3><a href="/angebot/wildnistraining.html">Wildnistraining</a></h3>
       <p>Bushcraft, Survival und eine tiefe Naturverbindung,
         die darüber hinausgeht.
-        <a href="/angebot/wildnistraining">Mehr</a>.
+        <a href="/angebot/wildnistraining.html">Mehr</a>.
       </p>
     </div>
 
     <div class="angebot-1-2 angebot-1 coach-and-walk">
-      <h3><a href="/angebot/coach-and-walk">Coach &amp; Walk</a></h3>
+      <h3><a href="/angebot/coach-and-walk.html">Coach &amp; Walk</a></h3>
       <p>Coachings im Gehen und Draußen. Auf Wunsch in nahegelegenem Wald und Flur.
-        <a href="/angebot/coach-and-walk">Mehr</a>.
+        <a href="/angebot/coach-and-walk.html">Mehr</a>.
       </p>
     </div>
 
