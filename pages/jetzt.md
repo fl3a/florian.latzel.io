@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jetzt
-permalink: /jetzt.html
+permalink: /jetzt
 last_modified_at: 2023-08-16 16:55
 ---
 - Hin und wieder an Struktur und Portfolio dieser Seite arbeiten.
