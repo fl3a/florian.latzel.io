@@ -1,6 +1,6 @@
 ---
 title: Impressum
-permalink: /impressum
+permalink: /impressum.html
 layout: page
 last_modified_at: 2022-10-31
 ---

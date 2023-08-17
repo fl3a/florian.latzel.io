@@ -1,7 +1,7 @@
 ---
 title: Talks
 layout: page
-permalink: talks.html
+permalink: /talks.html
 ---
 Präsentationen, Podcasts, Sessions und Interviews 
 
