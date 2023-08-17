@@ -1,6 +1,6 @@
 ---
 title: Projekte
-permalink: projekte.html
+permalink: /projekte.html
 layout: page
 last_modified_at: 2023-02-10 10:15
 ---

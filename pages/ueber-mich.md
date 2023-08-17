@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Über mich
-permalink: /ueber-mich
+permalink: /ueber-mich.html
 image: /assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg
-last_modified_at: 2019-10-30
+last_modified_at: 2023-08-16
 ---
 {% responsive_image 
 alt: "Florian Latzel, Eifelsteig bei Minusgraden, Dezember 2020. Foto © Tina Urban."

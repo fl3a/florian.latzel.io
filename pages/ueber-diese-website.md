@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Über diese Website 
-permalink: /ueber-diese-website
+permalink: /ueber-diese-website.html
 image: /assets/imgs/gears-of-industry.jpg
-last_modified_at: 2023-08-14
+last_modified_at: 2023-08-17
 ---
 {% responsive_image figure: true 
 path: assets/imgs/gears-of-industry.jpg 
