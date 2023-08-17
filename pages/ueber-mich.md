@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Über mich
-permalink: /ueber-mich.html
+permalink: /ueber-mich
 image: /assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg
 last_modified_at: 2019-10-30
 ---
