@@ -32,8 +32,10 @@ https://github.com/fl3a/jekyll_deployment).
 Diese Website produziert 0,04 Gramm CO<sub>2</sub> pro Seitenaufruf 
 und ist laut [Website Carbon Calculator ](
 https://www.websitecarbon.com/website/florian-latzel-io/)   
-96% sauberer als andere Seiten.
-
+96 % sauberer als andere Seiten. 
+Durch die Nutzung eines statischen Seitengenerators 
+finden abgesehen von der Auslieferung der HTML-Seiten
+serverseitig zudem keine weiteren Rechenoperationen oder Datenbankzugriffe statt.   
 Die Server bei uberspace werden mit Ökostrom betrieben.
 
 ## Blog
