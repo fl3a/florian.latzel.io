@@ -47,11 +47,22 @@ AddOutputFilterByType DEFLATE application/atom+xml \
 RewriteCond %{HTTP_HOST} !^florian\.latzel\.io$
 RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 
+# Redirect legacy urls
+RedirectMatch 301 ^/blog/(.*)$ /$1
+RedirectMatch 301 ^/taxonomy/term/\d+$ /themen.html
+RedirectMatch 301 ^/taxonomy/term/\d+/\d+$ /themen.html
+RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
+
 # Redirect tag urls 
 RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
+RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
+RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
+
+# Feed
+Redirect 301 /rss.xml /feed.xml
 
 # Sitemap
 RedirectMatch 301 /sitemap /sitemap.xml
@@ -79,7 +90,6 @@ Redirect 301 /scrum-starter-kit /2018/03/03/scrum-starter-kit.html
 Redirect 301 /ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren /2015/03/01/ueberprfung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren.html
 Redirect 301 /pear-phpunit-composer-und-drupal /2015/02/28/pear-phpunit-de-composer-und-drupal.html
 Redirect 301 /blog/2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-angeben.html /2014/11/26/svnssh-unter-linux-username-bei-svn-checkout-angeben.html
-Redirect 301 /rss.xml /feed.xml
 Redirect 301 /autocompletition-fuer-drush-aktivieren /2013/04/21/autocompletition-fuer-drush-aktivieren.html
 Redirect 301 /2019/04/05/daily-scrum-daily-questions.html /2019/04/05/daily-scrum-fragen.html
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html
