@@ -65,7 +65,7 @@ RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
 Redirect 301 /rss.xml /feed.xml
 
 # Sitemap
-RedirectMatch 301 /sitemap /sitemap.xml
+RedirectMatch 301 ^/sitemap$ /sitemap.xml
 RedirectMatch 301 /sitemap.txt /sitemap.xml
 
 # END Rules 
