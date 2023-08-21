@@ -18,7 +18,7 @@ Graf-Adolf-Str. 66
 
 [Link zum Impressum]({% link pages/impressum.md %})
 
-**Auf dieser Seite:**
+Auf dieser Seite:
 - toc
 {:toc}
 
