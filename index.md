@@ -50,6 +50,7 @@ blog_posts: 5
       </p>
     </div>
 
+{% comment %}
      <div class="angebot-1-2 angebot-1 facilitierung">
       <h3>Facilitierung</h3>
       <p>Retrospektiven, Open Space, Team-Workshops 
@@ -63,15 +64,19 @@ blog_posts: 5
         Als Agile Coach und Scrum Master.  
       </p>
     </div>
+{% endcomment %}
 
-  </div>
-  
+    <p class="teaser">Hast du Interesse oder offene Fragen?</p>
+
   <p id="kontakt-1">
     <a class="page-link kontakt" href="/kontakt">Kontakt</a>
   </p>
+  </div>
 
 <style>
-
+p.teaser {
+  text-align: center;
+}
 ul.kunden-logos {
   list-style: none;
   margin-left: 0; 
@@ -132,7 +137,7 @@ ul.kunden-logos li img:hover {
     <ul class="kunden-logos">
       <li id="rewe-digital"><img src="{{ logo-path }}/rewe-digital-logo.svg" alt="REWE digital Logo" loading="lazy" /></li>
       <li id="axa"><img src="{{ logo-path }}/axa-logo.svg" alt="AXA Logo" loading="lazy" /></li>
-      <li id="myt"><img src="{{ logo-path }}/mytoys-group-logo.jpg" alt="MYTOYS GROUP Logo" loading="lazy" /></li>
+      <li id="bib"><img src="{{ logo-path }}/bib-international-college-logo.svg" alt="bib International College Logo" loading="lazy" /></li>
       <li id="naturzeit"><img src="{{ logo-path }}/naturzeitclub-logo.webp" alt="Naturzeitclub Logo" loading="lazy" /></li>
       <li id="walkaboutyou"><img src="{{ logo-path }}/walkaboutyou-logo.webp" alt="walkaboutyou Logo" loading="lazy" /></li>
       <li id="koeln"><img src="{{ logo-path }}/stadt-koeln-logo.svg" alt="Stadt Köln Logo" loading="lazy" /></li>
@@ -142,17 +147,22 @@ ul.kunden-logos li img:hover {
       <li id="startplatz"><img src="{{ logo-path }}/startplatz-accelerator-logo.png" alt="Startplatz Accelerator Logo" loading="lazy" /></li>
       <li id="paltine"><img src="{{ logo-path }}/platine-logo.png" alt="Platine Logo"  loading="lazy" /></li>
       <li id="visitberlin"><img src="{{ logo-path }}/visitberlin-logo.svg" alt="VisitBerlin Logo" loading="lazy"/></li>
+
+{% comment %}
       <li id="pixelpark"><img src="{{ logo-path }}/digitas-pixelpark-logo.png" alt="Digitas Pixelpark Logo" loading="lazy" /></li>
       <li id="burda"><img src="{{ logo-path }}/burda-logo.png" alt="Hubert Burda Media Logo" loading="lazy" /></li>
       <li id="rzfnrw"><img src="{{ logo-path }}/ministerium-der-finanzen-des-landes-nrw-logo.png" alt="Ministerium der Finanzen des Landes NRW Logo" loading="lazy" /></li>
-      <li id="bib"><img src="{{ logo-path }}/bib-international-college-logo.svg" alt="bib International College Logo" loading="lazy" /></li>
+      <li id="myt"><img src="{{ logo-path }}/mytoys-group-logo.jpg" alt="MYTOYS GROUP Logo" loading="lazy" /></li>
+{% endcomment %}
     </ul>
-    <p>Möchtest du auch dazugehören?</p>
+
+    <p class="teaser">Möchtest du auch dazugehören?</p>
+    
+    <div id="kontakt-2">
+      <a class="page-link kontakt" href="/kontakt">Kontakt</a>
+    </div>
   </div>
 
-  <div id="kontakt-2">
-    <a class="page-link kontakt" href="/kontakt">Kontakt</a>
-  </div>
  
   <div id="blog-posts">
     <h2>Aktuelle Blogeinträge</h2>
