@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: page
 blog_posts: 5
 ---
@@ -19,7 +16,6 @@ blog_posts: 5
   </div>
 
   <div id="portfolio">
-
     <h2>Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="/angebot/coaching.html">Coaching</a></h3>
@@ -56,64 +52,6 @@ blog_posts: 5
       <a class="page-link kontakt" href="/kontakt">Kontakt</a>
     </p>
   </div>
-
-<style>
-p.teaser {
-  text-align: center;
-}
-ul.kunden-logos {
-  list-style: none;
-  margin-left: 0; 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-{% comment %}
-  //bei mobile:
-  width: 50%;
-  padding-bottom: 5px;
-
-{% endcomment %}
-ul.kunden-logos li {
-  width: 25%;
-  text-align: center;
-}
-ul.kunden-logos li img {
-  width: 70%;
-  height: auto;
-  webkit-filter: grayscale(1);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: gray;
-  filter: grayscale(100%);
-}
-ul.kunden-logos li img:hover {
-  webkit-filter: grayscale(0);
-  -webkit-filter: grayscale(0);
-  -moz-filter: grayscale(0);
-  filter: grayscale(0);
-  transform: scale(1.05);
-}
-#rzfnrw img {
-  width: 98%;
-}
-#axa img {
-  width: 50%;
-}
-#reinblau img, #pixelpark img{
-  width: 55%;
-}
-#pixelpark img{
-  width: 60%;
-}
-#naturzeit img, #p1 img, #bib img, #koeln img {
-  width: 80%;
-}
-#kontakt-1 {
-  clear: left;
-}
-</style>
-
   
   <div id="kunden">
     <h2>Erfolgreiche Projekte &amp; Glückliche Kunden</h2>

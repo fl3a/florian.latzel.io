@@ -65,15 +65,6 @@ a.page-link.kontakt {
   }
 }
 
-/* Themen Page */
-@media all and (min-width: 640px) {
-  #themen ul {
-    margin-left: 0;
-    list-style-type: none;
-    columns: 3;
-  }    
-}
-
 /* Tags in Artikelansicht */
 ul.tags {
   list-style: none;
@@ -117,13 +108,117 @@ figure.highlight {
   }
 }
 
-/* Blog/Archiv */
+// Blog/Archiv 
 .archiv time,
 .archiv hr {
  display:none
 }
 
-@media (min-width: 640px) {
+// Startseite/Bild
+figure {
+  img {
+    display: inline;
+    border-radius: 50%;
+  }
+}
+
+// Startseite/Kunden 
+ul.kunden-logos {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+// 2 pro Reihe
+ul.kunden-logos li {
+  width: 50%;
+  text-align: center;
+  padding-bottom: 5px;
+
+}
+ul.kunden-logos li img {
+  width: 70%;
+  height: auto;
+  webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: gray;
+  filter: grayscale(100%);
+}
+ul.kunden-logos li img:hover {
+  webkit-filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+#axa img {
+  width: 50%;
+}
+#reinblau img {
+  width: 55%;
+}
+#naturzeit img, #p1 img, #bib img, #koeln img {
+  width: 80%;
+}
+#intro, p.teaser, #footer-last  {
+  text-align: left;
+}
+#kontakt-1 {
+  clear: left;
+}
+
+// Footer
+.footer-col {
+  margin-bottom: calc($spacing-unit / 3);
+}
+.footer-col-1,.footer-col-2, .footer-col-3 {
+  width: calc(30% - calc(#{$spacing-unit} / 3));
+}
+.footer-last {
+  color:#828282;
+  font-size:15px;
+  text-align: left;
+}
+
+// Fullscreen
+@media all and (min-width: 640px) {
+  // Startseite
+  #front {
+    #intro, #kontakt-1, #kontakt-2, #kunden p {
+      text-align:center;
+    }
+    .social-media-list {
+      padding-bottom: 10px
+    }
+    #portfolio, #kontakt, #kunden, #blog-posts {
+      padding-top: 2em;
+    }
+    // Zweispaltig mit Abstand von erster zu zweiter Spalte	  
+    #portfolio {
+      .angebot-1-2 {
+        float: left;
+        width: 48%;
+      }
+      .angebot-1 {
+	margin-right: 4%;
+      }
+    }
+
+    h2 {
+      text-align: center;
+    }
+    .blog-link {
+      padding-top: 10px;
+    }
+    
+    // Startseite/Kunden, 4 pro Reihe
+    ul.kunden-logos li {
+      width: 25%;
+    }
+  }
+
   // Blog/Archiv
   .archiv {
     h2 {
@@ -168,56 +263,17 @@ figure.highlight {
       padding-top: 10px;
     }
   } 
-  // Startseite
-  // Zweispaltig mit Abstand von erster zu zweiter Spalte	  
-  #front {
-    #portfolio {
-      .angebot-1-2 {
-        float: left;
-        width: 48%;
-      }
-      .angebot-1 {
-	margin-right: 4%;
-      }
-    }
-    h2 {
-      text-align: center;
-    }
-    .blog-link {
-      padding-top: 10px;
-    }
+  
+  // Themen
+  #themen ul {
+    margin-left: 0;
+    list-style-type: none;
+    columns: 3;
   }
-}
-// Startseite
-#front {
-  #intro, #kontakt-1, #kontakt-2, #kunden p {
-    text-align:center;
-  }
-  .social-media-list {
-    padding-bottom: 10px
-  }
-  #portfolio, #kontakt, #kunden, #blog-posts {
-    padding-top: 2em;
-  }
-  figure {
-    img {
-      display: inline;
-      border-radius: 50%;
-    }
-  }
-}
 
-
-/* Footer */
-.footer-col {
-  margin-bottom: calc($spacing-unit / 3);
-}
-.footer-col-1,.footer-col-2, .footer-col-3 {
-  width: calc(30% - calc(#{$spacing-unit} / 3));
-}
-.footer-last {
-  color:#828282;
-  font-size:15px;
-  text-align: center;
+  // Footer
+  .footer-last {
+    text-align: left;
+  }
 }
 
