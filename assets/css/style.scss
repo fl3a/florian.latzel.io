@@ -114,59 +114,61 @@ figure.highlight {
  display:none
 }
 
-// Startseite/Bild
-figure {
-  img {
-    display: inline;
-    border-radius: 50%;
+// Startseite
+#front {
+// Bild
+  figure {
+    img {
+      display: inline;
+      border-radius: 50%;
+    }
   }
-}
 
-// Startseite/Kunden 
-ul.kunden-logos {
-  list-style: none;
-  margin-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-// 2 pro Reihe
-ul.kunden-logos li {
-  width: 50%;
-  text-align: center;
-  padding-bottom: 5px;
-
-}
-ul.kunden-logos li img {
-  width: 70%;
-  height: auto;
-  webkit-filter: grayscale(1);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: gray;
-  filter: grayscale(100%);
-}
-ul.kunden-logos li img:hover {
-  webkit-filter: grayscale(0);
-  -webkit-filter: grayscale(0);
-  -moz-filter: grayscale(0);
-  filter: grayscale(0);
-  transform: scale(1.05);
-}
-#axa img {
-  width: 50%;
-}
-#reinblau img {
-  width: 55%;
-}
-#naturzeit img, #p1 img, #bib img, #koeln img {
-  width: 80%;
-}
-#intro, p.teaser, #footer-last  {
-  text-align: left;
-}
-#kontakt-1 {
-  clear: left;
+  // Kunden 
+  ul.kunden-logos {
+    list-style: none;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  // 2 pro Reihe
+  ul.kunden-logos li {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  ul.kunden-logos li img {
+    width: 70%;
+    height: auto;
+    webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%);
+  }
+  ul.kunden-logos li img:hover {
+    webkit-filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }
+  #axa img {
+    width: 50%;
+  }
+  #reinblau img {
+    width: 55%;
+  }
+  #naturzeit img, #p1 img, #bib img, #koeln img {
+    width: 80%;
+  }
+  #intro, p.teaser  {
+    text-align: left;
+  }
+  #kontakt-1 {
+    clear: left;
+  }
 }
 
 // Footer
