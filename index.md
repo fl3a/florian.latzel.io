@@ -13,7 +13,7 @@ blog_posts: 5
     <h2>Hi, ich heiße Florian👋</h2>
     <p>Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter
     und begleite Individuen, Gruppen, Teams und Organisationen in Veränderung.
-    <a href="/ueber-mich">Mehr über mich</a>.
+    <a href="/ueber-mich.html">Mehr über mich</a>.
     </p>
     {% include social.html %}
   </div>
