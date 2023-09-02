@@ -13,10 +13,11 @@ caption: '<a href="https://www.flickr.com/photos/housephotography/953871961/">Ge
 ## Software
 
 Diese Website wird von [*freier Software*](/thema/open-source/) angetrieben. Danke🙏!   
-Die Basis bilden der statische Seitengenerator [Jekyll](/tags/jekyll/)
+Die Basis bilden der statische Seitengenerator [Jekyll](/thema/jekyll/)
 und das [Minima Theme](https://github.com/jekyll/minima).   
 Gespeist wird das ganze aus [Textdateien in einem Git-Repository](
 https://github.com/fl3a/florian.latzel.io).  
+Bis Ende 2019 lief diese Website mit dem [Drupal](/thema/drupal/).
 
 ## Blog
 
