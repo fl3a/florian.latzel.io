@@ -50,27 +50,11 @@ blog_posts: 5
       </p>
     </div>
 
-{% comment %}
-     <div class="angebot-1-2 angebot-1 facilitierung">
-      <h3>Facilitierung</h3>
-      <p>Retrospektiven, Open Space, Team-Workshops 
-        und -Retreats, Offsites, Kickoffs und Walkabouts.
-      </p>
-    </div>
-
-    <div class="angebot-1-2 angebot-2 agile-coaching">
-      <h3>Agile Coaching</h3>
-      <p>Für Organisation, Leadership, Product Owner und Team. 
-        Als Agile Coach und Scrum Master.  
-      </p>
-    </div>
-{% endcomment %}
-
     <p class="teaser">Hast du Interesse oder offene Fragen?</p>
 
-  <p id="kontakt-1">
-    <a class="page-link kontakt" href="/kontakt">Kontakt</a>
-  </p>
+    <p id="kontakt-1">
+      <a class="page-link kontakt" href="/kontakt">Kontakt</a>
+    </p>
   </div>
 
 <style>
@@ -147,13 +131,6 @@ ul.kunden-logos li img:hover {
       <li id="startplatz"><img src="{{ logo-path }}/startplatz-accelerator-logo.png" alt="Startplatz Accelerator Logo" loading="lazy" /></li>
       <li id="paltine"><img src="{{ logo-path }}/platine-logo.png" alt="Platine Logo"  loading="lazy" /></li>
       <li id="visitberlin"><img src="{{ logo-path }}/visitberlin-logo.svg" alt="VisitBerlin Logo" loading="lazy"/></li>
-
-{% comment %}
-      <li id="pixelpark"><img src="{{ logo-path }}/digitas-pixelpark-logo.png" alt="Digitas Pixelpark Logo" loading="lazy" /></li>
-      <li id="burda"><img src="{{ logo-path }}/burda-logo.png" alt="Hubert Burda Media Logo" loading="lazy" /></li>
-      <li id="rzfnrw"><img src="{{ logo-path }}/ministerium-der-finanzen-des-landes-nrw-logo.png" alt="Ministerium der Finanzen des Landes NRW Logo" loading="lazy" /></li>
-      <li id="myt"><img src="{{ logo-path }}/mytoys-group-logo.jpg" alt="MYTOYS GROUP Logo" loading="lazy" /></li>
-{% endcomment %}
     </ul>
 
     <p class="teaser">Möchtest du auch dazugehören?</p>
