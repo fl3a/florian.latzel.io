@@ -20,11 +20,10 @@ https://github.com/fl3a/florian.latzel.io).
 
 ## Blog
 
-In meinem [Blog](/blog) schreibe ich über [diverse Themen](/themen), 
+In meinem [Blog](/blog) schreibe ich seit 2004 über [diverse Themen](/themen), 
 die mich beschäftigen.   
-Die Datenbasis des [Blogs](/archiv.html) stammt aus Jahr 2004 und lief bis Ende 2018 
-mit dem [Drupal](/tags/drupal/) CMS.   
 Blogposts zu Updates dieser Website finden sich [hier](/thema/netzaffe).   
+
 Den Blog kannst du via [RSS Feed](/feed.xml) z.B. mit dem Feedreader deiner Wahl abonnieren.
 
 ## Hosting
@@ -38,16 +37,16 @@ https://github.com/fl3a/jekyll_deployment).
 
 ## Nachhaltig
 
-Diese Website produziert 0,04 Gramm CO<sub>2</sub> pro Seitenaufruf 
+Diese Website produziert 0,03 Gramm CO<sub>2</sub> pro Seitenaufruf 
 und ist laut [Website Carbon Calculator ](
 https://www.websitecarbon.com/website/florian-latzel-io/)   
-96 % sauberer als andere Seiten. 
+97 % sauberer als andere Seiten. 
 Durch die Nutzung eines statischen Seitengenerators 
 finden abgesehen von der Auslieferung der HTML-Seiten
 serverseitig zudem keine weiteren Rechenoperationen oder Datenbankzugriffe statt.   
 Die Server bei uberspace werden mit Ökostrom betrieben.
 
-## Lizenz
+## Lizenz der Inhalte
 
 Die Inhalte dieser Website, soweit nicht anders angegeben, 
 sind unter der [CC BY-SA 4.0]({% link pages/copyleft.md %}) 
