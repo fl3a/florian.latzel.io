@@ -46,7 +46,7 @@ blog_posts: 5
       </p>
     </div>
 
-    <p class="teaser">Hast du Interesse oder offene Fragen?</p>
+    <p class="teaser">Hast du Interesse oder Fragen?</p>
 
     <p id="kontakt-1">
       <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Kontakt</a>
