@@ -3,7 +3,7 @@ title: Kontakt
 layout: page
 permalink: /kontakt.html
 ---
-Du bist an meinem [Angebot](/#angebot) interessiert,   
+Du bist an meinem [Angebot](/#mein-angebot) interessiert,   
 hast Anregungen oder Feedback zu meinen [Blog-Beiträgen](/blog.html),    
 oder möchtest einfach nur "Hallo sagen👋": 
 
