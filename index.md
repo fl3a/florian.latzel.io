@@ -49,7 +49,7 @@ blog_posts: 5
     <p class="teaser">Hast du Interesse oder offene Fragen?</p>
 
     <p id="kontakt-1">
-      <a class="page-link kontakt" href="/kontakt">Kontakt</a>
+      <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Kontakt</a>
     </p>
   </div>
   
@@ -74,7 +74,7 @@ blog_posts: 5
     <p class="teaser">Möchtest du auch dazugehören?</p>
     
     <div id="kontakt-2">
-      <a class="page-link kontakt" href="/kontakt">Kontakt</a>
+      <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Kontakt</a>
     </div>
   </div>
 
