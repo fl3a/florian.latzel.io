@@ -2,21 +2,14 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-08-16 16:55
+last_modified_at: 2023-09-25 19:53
 ---
 - Hin und wieder an Struktur und Portfolio dieser Seite arbeiten.
 - Hier und da am [Micro GnuPG Howto](/gnupg-micro-howto.html) schleifen.
 
-## Auf Jobsuche
+## Den Altweibersommer genießen
 
-Ich suche gerade aktiv nach einem neuem Job 
-als Scrum Master / Agile Master / Agile Team Coach / Agile Coach.
-Bewerbungen und Gespräche laufen. 
-Das ist an sich ein eigener Job😆.
-
-Wenn du glaubst, dass ich (hier mein [CV](/cv/))
-zu dir und deiner Firma passen könnte,   
-dann [kontaktiere](/kontakt.html) mich gerne!
+Den Altweibersommer bis zum Start des neuen Jobs genießen.
 
 ## Lernen
 
