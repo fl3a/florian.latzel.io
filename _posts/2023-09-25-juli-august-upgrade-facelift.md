@@ -51,7 +51,9 @@ So habe ich das jetzt mal nachgebaut.
 Neben der ganzen Technik hat die [Startseite](/) ein komplett neues Gesicht bekommen.
 Ich habe wieder mal Startseite, Navigation und einige Seiten überarbeitet.
 Mein [Portfolio](/#mein-angebot) als [Coach]({%link pages/angebot/coaching.md %}) 
-und [Wildnistrainer]({% link pages/angebot/coaching.md %}) stehen jetzt Vorgrund
+und [Wildnispädagoge](
+https://florian.latzel.io/2020/12/14/november-draussen.html#ich-bin-wildnisp%C3%A4dagoge)
+stehen jetzt Vorgrund 
 und bekommen auf der Startseite jetzt den entsprechenden Raum. 
 
 ## CO₂ Ausstoß der Website stark reduziert
