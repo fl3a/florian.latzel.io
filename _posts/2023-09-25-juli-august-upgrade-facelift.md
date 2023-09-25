@@ -80,10 +80,10 @@ Interne *broken links* ade.
 In Punkto Frontend habe ich sehr viel Neues gelernt und angewandt.
 Gerade was HTML und CSS angeht, zum Beispiele Mediaqueries,
 filter + Transitions, Listen mit Columns oder display-flex und Prozentangabe.
-Seitdem ich in den frühen Zweitausendern mit HTML gestartet bin,
-hat sich doch einiges getan.
 Während meiner Zeit als Softwareentwickler habe ich mich 
 diesem Themenkomplex immer verschlossen.
+Seitdem ich in den frühen Zweitausendern mit HTML gestartet bin,
+hat sich doch einiges getan.
 
 > Ich mache kein Frontend.
 
