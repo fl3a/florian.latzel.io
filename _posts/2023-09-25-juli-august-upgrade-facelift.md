@@ -50,9 +50,8 @@ So habe ich das jetzt mal nachgebaut.
 
 Neben der ganzen Technik hat die [Startseite](/) ein komplett neues Gesicht bekommen.
 Ich habe wieder mal Startseite, Navigation und einige Seiten überarbeitet.
-Mein [Portfolio](/#mein-angebot) als [Coach]({%link pages/angebot/coaching.md %}) 
-und [Wildnispädagoge](
-https://florian.latzel.io/2020/12/14/november-draussen.html#ich-bin-wildnisp%C3%A4dagoge)
+Mein [Portfolio](/#mein-angebot) als [Coach]({% post_url 2023-01-16-hallo-coaches %}) 
+und [Wildnispädagoge](/thema/wildnispadagogik/) 
 stehen jetzt Vorgrund 
 und bekommen auf der Startseite jetzt den entsprechenden Raum. 
 
