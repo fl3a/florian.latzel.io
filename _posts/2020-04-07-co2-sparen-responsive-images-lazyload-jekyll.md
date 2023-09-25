@@ -4,6 +4,7 @@ title: 'C02 sparen: Responsive Images und Lazyload bei Jekyll'
 toc: true
 tags:
 - Jekyll
+- Liquid
 - howto
 - Nachhaltigkeit
 - SEO
