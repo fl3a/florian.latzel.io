@@ -105,7 +105,7 @@ blog_posts: 5
   {% endfor %}
     </div>
     <p class="blog-link">
-      <a href="/blog">Alle Blogeinträge</a>
+      <a href="{% link pages/blog.html %}">Alle Blogeinträge</a>
     </p>
     <p class="feed-subscribe">
       <svg class="svg-icon orange">
