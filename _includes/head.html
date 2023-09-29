@@ -11,12 +11,10 @@
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
 
-  <link rel="icon" href="">
-  <link rel="apple-touch-icon">
-  <meta name="msapplication-TileImage" content="">
+  {% include favicon.html %}
 
   <script src="{{ '/assets/js/lazysizes.min.js'| relative_url }}"></script> 
-  {%- if page.url == "/index.html" and paginator.page == 1 -%}
+  {%- if page.url == "/index.html" -%}
   <meta property="og:image" content="{{ "/assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg" | absolute_url }}">
   {%- endif -%}
 </head>
