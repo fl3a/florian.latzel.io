@@ -19,7 +19,7 @@ CC BY-NC-ND 2.0, House Photography' %}
 
 Im Juli und August habe ich viel Zeit im kühlen Maschinenraum verbracht 
 und dieser Site gearbeitet. 
-Sowohl unter der Haube als auch am Antlitz.
+Sowohl unter der Haube als auch am Antlitz.<!--break-->
 
 ## Upgrade auf Jekyll 4.x
 
