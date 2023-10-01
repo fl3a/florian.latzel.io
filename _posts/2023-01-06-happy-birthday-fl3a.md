@@ -6,6 +6,7 @@ tags:
 - Open Source
 - Linuxtag
 - just me
+- Drupalcamp
 - Community
 - luckow
 - Danksagung
@@ -182,7 +183,8 @@ Danke an einige Wegbegleiter aus dieser bewegten und aufregenden Zeit:
 
 Robert, Jeffrey (Jam), Thomas, Jürgen, Daniel, Bettina und Walter
 für eine tolle Zeit bei der *Kölner Drupal User Group*.
-Aus dieser Runde heraus haben wir das Drupalcamp und den Drupal e.V auf die Beine gestellt.
+Aus dieser Runde heraus haben wir das [Drupalcamp](thema/drupalcamp/) 
+und den Drupal e.V auf die Beine gestellt.
 
 Ramiro, für den Post durch den ich nach Berlin gefunden habe 
 und für das ein oder andere Bier.
