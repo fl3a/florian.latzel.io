@@ -3,6 +3,7 @@ title: "Juli + August: Upgrade und Facelift"
 tags:
 - Jekyll
 - netzaffe
+- Dries
 - Liquid
 - Portfolio
 - Nachhaltigkeit
@@ -68,7 +69,7 @@ sind das jetzt 0,03 Gramm CO₂ pro Seitenaufruf.
 
 Mal schauen, ob ich den mit dem [Picture Plugin](
 https://rbuchberger.github.io/jekyll_picture_tag/)
-und dem Ausbau vom Lazyload-Skript und dem TOC Plugin (geht ja auch via Kramdown[^toc]
+und dem Ausbau vom Lazyload-Skript und dem TOC Plugin (geht ja auch via Kramdown[^toc])
 noch weiter drücken kann.
 
 ## Learnings
