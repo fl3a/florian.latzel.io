@@ -1,0 +1,31 @@
+---
+layout: null
+---     
+/* TEAM */                            
+Author: Florian Latzel                        
+Contact: florian [ät] latzel [dot] io
+From: Cologne, Germany
+
+Feedback and correction: Monique Wenta
+From: Cologne, Germany
+
+Feedback and correction: Dr. Georg Latzel
+Site: https://dl6gl.de
+From: Wasserlos, Germany
+							
+/* THANKS */
+
+Monique Wenta
+
+Dr. Georg Latzel
+
+Free/Libre Open Source Software
+                                             
+/* SITE */
+                           
+Last update: {{ site.time | date:"%Y/%m/%d"  }}                          
+Launched: 2004 
+Language: Deutsch
+Built with: Jekyll, Minima, Vim, Git, Bash, Linux
+Repository: https://github.com/fl3a/florian.latzel.io
+More: https://florian.latzel.io/ueber-diese-website.html
