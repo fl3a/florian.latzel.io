@@ -23,5 +23,5 @@ angesprochen.
 <ul>
 <li><a href="http://tiswww.case.edu/php/chet/bash/NEWS">Neuerungen in v. 4</a></li>
 <li><a href="http://tiswww.case.edu/php/chet/bash/CHANGES">Changelog</a></li>
-<li><a href="/2008/12/14/arrays-der-bash.html">Arrays in der BASH</a></li>
+<li><a href="/arrays-in-der-bash.html">Arrays in der BASH</a></li>
 </ul>
