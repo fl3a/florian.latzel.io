@@ -63,6 +63,7 @@ RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
 
 # Feed
 Redirect 301 /rss.xml /feed.xml
+Redirect 301 /blogs/floh/feed /feed.xml
 
 # Sitemap
 RedirectMatch 301 ^/sitemap$ /sitemap.xml
