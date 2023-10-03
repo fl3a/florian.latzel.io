@@ -33,10 +33,6 @@ group :jekyll_plugins do
   # Adds 'article:modified_time' from last_modified_at
   gem "jekyll-seo-tag", "~>2.8.0" , git: 'https://github.com/fl3a/jekyll-seo-tag', branch: 'master'
  
-  # jekyll-toc - Table of Contents
-  # https://github.com/toshimaru/jekyll-toc
-  gem "jekyll-toc", "~>0.18.0"
-
   # Pagination & Tags
   # https://jekyllrb.com/docs/pagination/
   gem "jekyll-paginate-v2", "~>3.0.0"
