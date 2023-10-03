@@ -3,33 +3,28 @@ title: Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
 layout: post
 permalink: /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 date: 2008-09-30 08:36
-toc: true
 tags:
 - Drupal 
 - Multisite 
+- drush
 - howto 
 - Open Source 
 - "<?php ?>"
 - PostgreSQL
-# Redirect /book/export/html/520
+last_modified_at: 2023-10-03
 ---
-Installation und Einrichtung von 
-<ul>
-<li>Drupal6</li>
-<li>PHP5</li>
-<li>PostgreSQL</li>
-<li>Apache2</li>
-<li>phppgadmin</li>
-<li>Suchmaschinenfreundlichen URL's</li>
-<li>deutscher Lokalisierung</li>
-</ul>
-in einer Multisiteumgebung auf einem lokalen Rechner  unter Debian 4(etch).
+Installation und Einrichtung von Drupal6, PHP5, PostgreSQL, Apache2, phppgadmin, 
+Suchmaschinenfreundlichen URL's und deutscher Lokalisierung
+als Multisiteumgebung auf einem lokalen Rechner unter Debian 4 (etch).
+
 Verwendet wurden die Pakete PHP5 in der Version 5.2.0-8+etch11 
 und apache2 in der Version 2.2.3-4+etch5, 
 drupal in der Version 6.4 in deutsch von <a href="http://www.drupalcenter.de">drupalcenter.de</a> 
 und PostgreSQL in der Version 8.1.11.
 <!--break--> 
-s="book-heading">Installation der benötigten Pakete
+* toc
+{:toc}
+## Installation der benötigten Pakete
   <p>
 Die folgenden Pakete werden ben&#246;tigt:
 </p>
@@ -39,7 +34,7 @@ Die folgenden Pakete werden ben&#246;tigt:
 <li>php5 und php5-common - Den PHP-Interpreter</li>
 <li>php5-gd - Die GD Grafikbibliothek f&#252;r PHP5</li>
 <li>php5-pgsql - Das PHP-Modul f&#252;r den Zugriff auf die PostgreSQL Datenbank</li>
-<li>php5-<acronym title="Command-Line Interpreter">cli</acronym> - PHP für die Kommandozeile, benötigt von <acronym title="Drupal Shell"><a href="/tags/drush.html">drush</a></acronym></li>
+<li>php5-<acronym title="Command-Line Interpreter">cli</acronym> - PHP für die Kommandozeile, benötigt von <acronym title="Drupal Shell"><a href="/thema/drush">drush</a></acronym></li>
 <li>postgresql-8.1 - Der PostgreSQL Datenbankserver</li>
 <li>phppgadmin - Webbasiertes Administrationswerkzeug für PostgreSQL(ähnlich phpmyadmin für mysql)</li>
 </ul>
