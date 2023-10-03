@@ -1,7 +1,6 @@
 ---
 layout: post
 image:
-toc: true
 tags:
 - GoAccess
 - Linux
@@ -14,7 +13,7 @@ tags:
 - Datenbank 
 title: "GoAccess: Inkrementelle Persistierung von Access Logs in Tokyo Cabinet On-Disk Datenbank"
 image: /assets/imgs/goaccess-web-frontend.png
-last_modified_at: 2020-02-03
+last_modified_at: 2023-10-03
 ---
 <figure role="group">
  {% responsive_image path: assets/imgs/goaccess-web-frontend.png 
@@ -35,6 +34,9 @@ In meinem Artikel über den [GoAccess Web Log Analyzer](/2019/05/02/goaccess-auf
 habe ich den Abschnitt [Installation von GoAccess](/2019/05/02/goaccess-auf-uberspace.html#installation-von-goaccess) 
 um die Abhängigkeit zur _Tokyo Cabinet Datenbank_ entsprechend ergänzt. 
 <!--break-->
+* toc
+{:toc}
+
 ## Vorbereitungen
 
 ### Anknipsen der Access Logs auf U7

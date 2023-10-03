@@ -1,15 +1,15 @@
 ---
 layout: post
 title: 'C02 sparen: Responsive Images und Lazyload bei Jekyll'
-toc: true
 tags:
+- howto
 - Jekyll
 - Liquid
-- howto
 - Nachhaltigkeit
 - SEO
 - uberspace
 image: /assets/imgs/carbon-calculator-netzaffe-76-percent.png
+last_modified_at: 2023-10-03
 ---
 
 Netzwerkdaten vorher:[^fnet] [^front]
@@ -47,6 +47,9 @@ Ich beschreibe die Installation und Konfiguration von *jekyll-responsive-images[
 im Zusammenspiel mit einem neuen Template und einen Lazyload Skript, 
 eingebunden in [Jekylls](/tags/jekyll.html) *Standardtheme* miminma[^minima] 
 unter [Linux](/tags/linux.html), hier CentOS auf [uberspace](/tags/uberspace) 7.<!--break-->
+
+* toc
+{:toc}
 
 ## Installation
 

@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2019-04-02 12:23
+last_modified_at: 2023-10-03
 date: 2010-03-13 17:26
 tags:
 - Debian
@@ -10,7 +10,6 @@ tags:
 layout: post
 permalink: /git-gitosis-gitweb-the-debian-way.html
 image: /assets/imgs/1024px-Git-logo-2007.svg.png
-toc: true
 title: Git, Gitosis, Gitweb (the Debian way)
 ---
 <figure role="group">
@@ -39,6 +38,9 @@ Das folgende Setup erstreckt sich über 3 Rechner:
 Warum man seinen Code versionieren sollte, müsste eigentlich jedem
 Entwickler klar sein, [dass Drupal in Zukunft auf Git setzen wird](http://groups.drupal.org/node/48818#comment-133893), dürfte wohl
 der Anreiz für Drupalentwickler sein sich frühzeitig mit dem Thema Git zu auseinanderzusetzen.<!--break-->
+
+* toc
+{:toc} 
 
 **Hätte, würde, wäre** 
 

@@ -12,8 +12,7 @@ tags:
 - Draussen
 - Session
 image: /assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg
-toc: true
-last_modified_at: 2021-12-01
+last_modified_at: 2023-10-03
 ---
 <figure>
 {% responsive_image path: assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg alt: "Stecktafel, Aufschrift: Welcome to Barcamp #4⭐😘😄" %}
@@ -34,6 +33,9 @@ Also habe ich kurzum Leipzig gebucht und Köln storniert, um mich mal auf etwas 
 
 Das ist mein Erfahrungsbericht zur \#agileipzig 2019 und zu den von mir besuchten Sessions.
 <!--break-->
+
+* toc
+{:toc}
 
 # Tag 1
 
