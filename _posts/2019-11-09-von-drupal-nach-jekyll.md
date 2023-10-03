@@ -8,8 +8,7 @@ tags:
 - netzaffe
 - uberspace
 layout: post
-toc: true
-last_modified_at: 2021-05-27
+last_modified_at: 2023-10-03
 image: /assets/imgs/jekyll-logo-dark-solid.png
 ---
 <figure role="group">
@@ -23,7 +22,10 @@ Dieser Artikel beschreibt,
 warum ich nach fast 15 Jahren *Drupal CMS Framework*[^drupal] 
 durch *Jekyll SSG* als zugrundeliegende Technologie ersetzt habe.<!--break-->
 
-# Kleiner Geschichtsabriss
+* toc
+{:toc}
+
+## Kleiner Geschichtsabriss
 
 Ich betreibe dieses Blog, oder genauer gesagt,
 das Stück Software, aus dem dieses Blog hervorgegangen ist, seit 2004.
@@ -58,20 +60,20 @@ welches seit Anfang 2016 in meinem Backlog stand
 Im Winter 2018 bin ich dann endlich dazu gekommen, 
 Jekyll zu installieren und das Step by Step Tutorial[^sbst] durchzugehen.
 
-# Warum Jekyll?
+## Warum Jekyll?
 
 Was hat mich an Jekyll so begeistert und mich dazu bewegt auf diesen SSG zu wechseln?
 
-## Drupal-Importer
+### Drupal-Importer
 
 Jekyll hat einen *Drupal Importer* für die Versionen 6 und 7, 
 das ist natürlich weniger ein Beweggrund, 
 als eine Grundvorraussetzung, 
 da ich meine *Nodes*, also meine geschriebenen Beiträge natürlich mitnehmen wollte.
 
-## KISS - Jekyll ist einfach.  
+### KISS - Jekyll ist einfach.  
 
-### Einfacher Start
+#### Einfacher Start
 
 Mit bereits installiertem *Ruby* und *Ruby Gems* sind es nur ein `gem install jekyll bundler`  
 für die Installation,  
@@ -80,7 +82,7 @@ und ein `bundle exec jekyll serve --drafts` das *Hochfahren* des lokalen Webserv
 der dann unter <http://127.0.0.1:4000> erreichbar ist notwendig,
 um mit einem lokalem Jekyll auf Tuchfühlung zu gehen.
 
-### Einfache Struktur
+#### Einfache Struktur
 
 Jekylls einfache Funktionsweise spiegelt sich auch seiner Verzeichnisstruktur[^dir] wider:
 
@@ -119,7 +121,7 @@ Den Posts muss noch ein Datumsprefix vorangestellt werden.
 - *_site* Die von Jekyll erzeugte Website bestehend aus statischen HTML-Dateien.
 Also das was am Ende durch einen Webserver oder `jekyll serve` ausgeliefert wird.
 
-### Geringe Komplexität
+#### Geringe Komplexität
 
 Jekyll benötigt im Vergleich zu einem CMS wie Drupal keine Datenbank
 und damit verbunden auch keine Programmiersprache wie PHP, 
@@ -131,7 +133,7 @@ und einzelnen Stellschrauben wie bei LAMP in Setup und Betrieb mehr.
 
 Das alles führt zu einer deutlichen Veringerung der Komplexität.
 
-### Markdown
+#### Markdown
 
 Markdown[^md] ist eine vereinfachte Auszeichnungssprache.  
 Ein erklärtes Ziel bei der Entstehung von Markdown war die leichte Lesbarkeit.
@@ -144,7 +146,7 @@ Im Gegensatz zum HTML ist Markdown nicht nur viel leichter lesbar,
 sondern auch wesentlich schlanker und entsprechend einfach 
 und auch ohne WYSIWYG Editor gut und recht intuitiv bearbeitbar.
 
-## Geschwindigkeit 
+### Geschwindigkeit 
 
 Bei Drupal erfolgt zuerst der sogenannte *Bootstrap Prozess*[^boot1] [^boot2],
 welcher für das Laden der Konfiguration, 
@@ -159,7 +161,7 @@ für die dynamische Auslieferung einer Seite durch einen Request.
 Im Vergleich zum CMS werden beim SSG direkt statische HTML Dateien ausgespielt.
 Das ist wesentlich performanter.
 
-## Keine Sicherheits-Updates
+### Keine Sicherheits-Updates
 
 Durch die Verwendung einer serverseitigen Skriptsprache,
 egal ob es nun PHP, Python oder Perl im Beispiel des Apache Webservers ist, 
@@ -177,7 +179,7 @@ fällt dieser Angriffsvektor weg.
 Spätestens seit dem letzten Drupalgeddon[^sa1] [^sa2], bin ich heilfroh, 
 dass Sicherheits-Updates nichts mehr sind, worum ich mich (zeitnah) kümmern muss!
 
-## Viele Plugins & Themes 
+### Viele Plugins & Themes 
 
 Jekyll ist weit verbreitet, das ist bestimmt nicht nur darin begründet,
 dass die kostenlosen *GitHub Pages*[^githubpages] auch mit Jekyll betrieben werden können,
@@ -196,7 +198,7 @@ Themes
 - <https://jekyllthemes.org>
 - <https://jekyllthemes.io>
 
-## Arbeitsweise
+### Arbeitsweise
 
 Begünstigt dadurch, dass eine Jekyll Installation nur aus Dateien besteht, 
 lassen sich Erstellung und Änderung von Inhalt, 
@@ -217,7 +219,7 @@ Ich habe das Gefühl effizienter zu arbeiten
 und kann mich wesentlich mehr auf die eigentliche Arbeit, 
 der Erstellung von Inhalt, konzentrieren.
 
-## Ein neues Spielzeug
+### Ein neues Spielzeug
 
 Ein neues Stück Software und ein sich daraus erschließender Mikrokosmos.  
 Es fing alles mit einer *Sandbox Installation* und dem *Jekyll Step by Step Tutoriali*[^sbst] an.  
@@ -229,7 +231,7 @@ Inkludieren von Logik via *Liquid Template Engine*[^liquid], alles neue Spielzeu
 Viel Neues und Unbekanntes, viel ausprobieren und experimentieren 
 und die immens große Freude über erzielte Erfolge.
 
-## FLOSS
+### FLOSS
 
 Klar, Jekyll ist mit MIT Lizenz FLOSS.
 Und klar, die Lizenz ist wichtig, 
@@ -243,13 +245,13 @@ gibt viele öffentlich verfügbare Repositories auf GitHub und Co.
 Das hat einen großen Lerneffekt, spart viel Zeit und noch mehr Frust.
 Man muss das Rad ja nicht immer wieder neu erfinden.
 
-# Negatives
+## Negatives
 
 Last but not least, etwas Negatives: Geschwindigkeit.  
 Es dauert lange,  bis eine Änderung (Inhalt, Theme, etc.)
 von `jekyll serve --draft` erkannt wird und die Seite "regeneriert" wird.
 
-# To be continued
+## To be continued
 
 Ich habe noch 2 verwandte Artikel in *_draft*, die bald folgen werden:
 

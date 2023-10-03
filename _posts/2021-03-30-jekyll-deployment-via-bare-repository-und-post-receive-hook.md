@@ -10,10 +10,9 @@ tags:
 - git
 - snippet
 layout: post
-toc: true
 permalink: /jekyll-deployment-via-bare-repository-und-post-receive-hook.html 
 image: /assets/imgs/gears-of-industry.jpg
-last_modified_at: 2021-09-04
+last_modified_at: 2023-10-03
 ---
 {% responsive_image figure: true 
 path: assets/imgs/gears-of-industry.jpg 
@@ -33,6 +32,9 @@ das entsprechende HTML,
 dass dann der Welt 
 in der *DocumentRoot*[^docroot] deines *Webservers*, 
 in meinem Fall einem [Uberspace](http://uberspace.de) ausgeliefert wird.<!--break-->
+
+* toc
+{:toc}
 
 ## Vorbereitungen auf dem Zielserver
 
