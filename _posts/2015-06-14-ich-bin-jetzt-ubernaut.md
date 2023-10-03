@@ -12,7 +12,6 @@ tags:
 - <?php ?>
 layout: post
 last_modified_at: 2019-04-04
-toc: true
 ---
 Nach fast einer Dekade mit eigenen Linux-Root-Servern, bin ich mit meinen Domains nach uberspace[^uberspace] umgezogen 
 und überlasse das Root-Sein jetzt anderen und zwar Jonas Pasche[^pasche] und seinem Team.
