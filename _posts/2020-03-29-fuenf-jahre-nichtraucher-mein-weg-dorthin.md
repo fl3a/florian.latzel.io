@@ -1,7 +1,6 @@
 ---
 title: Fünf Jahre Nichtraucher, mein Weg dorthin
 layout: post
-toc: true
 tags:
 - Draussen
 - Jubiläum

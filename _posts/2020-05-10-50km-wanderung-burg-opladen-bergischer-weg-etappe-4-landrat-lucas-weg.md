@@ -7,7 +7,6 @@ tags:
 - Fründe
 - Julian
 - Trail
-toc: true
 image: /assets/imgs/50km/landrat-lucas-etappe-4-weg-bach-tal.jpg
 ---
 {% responsive_image figure: true path: assets/imgs/50km/landrat-lucas-etappe-4-weg-bach-tal.jpg 

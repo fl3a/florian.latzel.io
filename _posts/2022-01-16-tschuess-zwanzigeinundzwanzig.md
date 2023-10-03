@@ -11,7 +11,6 @@ tags:
 - Pencak Silat
 - Kampfkunst
 - Danksagung
-toc: true
 date: 2022-01-16 23:01
 last_modified_at: 2023-02-19 10:34 
 image: /assets/imgs/21/blick-auf-den-rhein-boss-tempel-hattenheim.png 
