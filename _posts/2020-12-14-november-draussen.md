@@ -88,8 +88,8 @@ Aber was mache ich jetzt mit der Ausbildung? Mal ins Blaue gedacht:
 
 - Nächstes Jahr noch *Wildnispädagogik 2*[^wp] dranhängen und das Gerlernte vertiefen
 - Wissen pro bono mit Paul zusammen an seine ehemalige Pfadfindergruppe vermitteln
-- [Wildnis, Bushcraft und Survival für Manager, Führungskräfte und Coaches][
-wildnistraining] gewürzt mit [tiefen Naturerleben][wildnistraining] 
+- [Wildnis, Bushcraft und Survival für Manager, Führungskräfte und Coaches][wildnistraining] 
+gewürzt mit [tiefen Naturerleben][wildnistraining] 
 und einer Prise Achtsamkeit
 
 ## November ohne Twitter
