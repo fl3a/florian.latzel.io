@@ -1,0 +1,40 @@
+# _data/picture.yml
+# https://rbuchberger.github.io/jekyll_picture_tag/users/presets/
+
+# These are used in several places. You likely want to enter whatever CSS media queries your site
+# uses here.
+media_queries:
+    full_width: 'min-width: 801px'
+    mobile: 'max-width: 480px'
+
+presets:
+  # This entry is purely an example. It is not the default JPT preset, nor is it available as a
+  # built-in.
+  default:
+    # Image Formats
+    # https://rbuchberger.github.io/jekyll_picture_tag/users/presets/writing_presets.html#4-choose-a-set-of-image-formats  
+    formats: [avif, webp, original]
+    
+    # Image widths, in pixels.
+    widths: [400,740] 
+
+    #fallback_width: 740
+    fallback_format: original
+
+    strip_metadata: true # Default
+    link_source: true # wrap images in a link to the original source image.
+
+    sizes: 
+      full_width: 740px
+      mobile: 400px
+     
+      # size: calc(100vw - 60px)         
+    
+    # You can add any HTML attribute you like, to any HTML element which JPT creates:
+    attributes:
+      # parent refers to the outermost tag; <picture> if it's present, otherwise the <img>.
+      parent: 'data-downloadable="true"'
+      a: 'class="image-link"'
+      img: 'loading="lazy"'
+
+

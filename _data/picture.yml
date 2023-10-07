@@ -1,0 +1,12 @@
+# _data/picture.yml
+# https://rbuchberger.github.io/jekyll_picture_tag/users/presets/
+
+presets:
+  default:
+    formats: [avif, webp, original]
+    widths: [200,400,600,800] 
+
+    attributes:
+      parent: 'data-downloadable="true"'
+      a: 'class="image-link"'
+      img: 'loading="lazy"'
