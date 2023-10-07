@@ -140,6 +140,17 @@ responsive_image:
     - assets/bgs/*.png
     - assets/avatars/*.{jpeg,jpg}
 
+# Jekyll Picture Tag
+# https://rbuchberger.github.io/jekyll_picture_tag/users/configuration/
+picture:
+  source: assets/imgs
+  output: assets/imgs/generated
+  suppress_warnings: false           # Default
+  fast_build: false                  # Default
+  ignore_missing_images: delevopment # Default: false
+  disabled: nopics                   # Default: false
+  nomarkdown: true                   # Default
+
 # Minify CSS during build
 sass:
   sass_dir: _sass
