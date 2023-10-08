@@ -1,12 +1,24 @@
 # _data/picture.yml
 # https://rbuchberger.github.io/jekyll_picture_tag/users/presets/
 
+media_queries:
+  mobile: 'max-width: 430px'
+  full_width: 'min-width: 801px'
+
 presets:
   default:
     formats: [avif, webp, original]
-    widths: [200,400,600,800] 
+    widths: [200,400,600,740] 
+
+    link_source: true # wrap images in a link to the original source image.
 
     attributes:
       parent: 'data-downloadable="true"'
       a: 'class="image-link"'
       img: 'loading="lazy"'
+  
+    #sizes: 
+    #   mobile: 400px
+    #   full_width: 740px
+
+    #size: calc(100vw -30px)
