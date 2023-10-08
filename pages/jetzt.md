@@ -2,18 +2,25 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-09-25 19:53
+last_modified_at: 2023-10-08 09:45
 ---
-- Hin und wieder an Struktur und Portfolio dieser Seite arbeiten.
-- Hier und da am [Micro GnuPG Howto](/gnupg-micro-howto.html) schleifen.
+## Neuer Job
 
-## Den Altweibersommer genießen
+Ich habe seit Oktober einen neuen Job und arbeite als Agility Master 
+bei der DB Systel. 
+Das aktuelle Onboarding und die Glückwünsche zu Arbeitgeber aus meinem Netzwerk[^in]
+bestätigen nochmal meine Entscheidung für die DB Systel.
 
-Den Altweibersommer bis zum Start des neuen Jobs genießen.
+Daran (an der Entscheidung und der daraus erwachsenen Vorfreude) 
+war auch meine AM-Kollegin Anna-Lena, 
+die wie ein roter Faden in meinem Recruitingprozess war, maßgeblich beteiligt.   
+Danke dafür🙏!
+
 
 ## Lernen
 
-- Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](/tags/pencak-silat)
+- Kennenlernen der DB Systel
+- Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](/thema/pencak-silat/)
 
 ## Lesen
 
@@ -24,3 +31,5 @@ von Carmen Kindl Beilfuß
 
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).   
+
+[^in]: <https://www.linkedin.com/feed/update/urn:li:activity:7116379200265048064/>
