@@ -8,7 +8,7 @@ media_queries:
 presets:
   default:
     formats: [avif, webp, original]
-    widths: [200,400,600,740] 
+    widths: [400,600,740] 
 
     link_source: true # wrap images in a link to the original source image.
 
@@ -17,8 +17,11 @@ presets:
       a: 'class="image-link"'
       img: 'loading="lazy"'
   
-    #sizes: 
-    #   mobile: 400px
-    #   full_width: 740px
+    sizes: 
+       mobile: 400px
+       full_width: 740px
 
     #size: calc(100vw -30px)
+    #media_widths:
+    #  mobile: [400, 600]
+    #  full_width: [740]

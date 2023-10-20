@@ -11,7 +11,7 @@ tags:
 ---
 In 2023
 
-{% picture gears-of-industry.jpg --alt Foo %}
+{% picture gears-of-industry.jpg --alt "Foo foo" %}
 <!--break-->
 ## libvips 
 
