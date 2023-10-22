@@ -54,12 +54,16 @@ RedirectMatch 301 ^/taxonomy/term/\d+/\d+$ /themen.html
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
 
 # Redirect tag urls 
-RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
-RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
-RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/index.html
+RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/index.html
+RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/index.html
+RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/index.html
+RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/index.html
+RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/index.html
+
+# Canonical urls ends with index.html
+RedirectMatch 301 ^/thema/([^/]+)/$ /thema/$1/index.html
+RedirectMatch 301 ^/thema/([^/]+)$ /thema/$1/index.html
 
 # Feed
 Redirect 301 /rss.xml /feed.xml
@@ -114,8 +118,7 @@ Redirect 301 /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html /2009/1
 # END misc
 
 # Temp: Umlaute
-Redirect 301 /tags/scrumtisch-koeln/index.html /thema/scrumtisch-koln/ 
-Redirect 301 /tags/duesseldorf/index.html /thema/dusseldorf/
-Redirect 301 /tags/koeln/index.html /thema/koln/
-Redirect 301 /tags/muellem/index.html /thema/mullem
-
+Redirect 301 /tags/scrumtisch-koeln/index.html /thema/scrumtisch-koln/index.html
+Redirect 301 /tags/duesseldorf/index.html /thema/dusseldorf/index.html
+Redirect 301 /tags/koeln/index.html /thema/koln/index.html
+Redirect 301 /tags/muellem/index.html /thema/mullem/index.html
