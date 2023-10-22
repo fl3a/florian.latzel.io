@@ -1,8 +1,7 @@
 Sitemap: https://florian.latzel.io/sitemap.xml
-User-agent: *
-Allow: /
 
 User-agent: *
+Disallow:
 Disallow: /tags/
 # Drupal legacy urls
 Disallow: /taxonomy/
