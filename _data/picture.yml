@@ -25,3 +25,9 @@ presets:
     #media_widths:
     #  mobile: [400, 600]
     #  full_width: [740]
+  
+  # This is an example of how you'd get a single generated image, a URL, and nothing else.
+  direct:
+    markup: direct_url
+    fallback_format: webp
+    fallback_width: 740
