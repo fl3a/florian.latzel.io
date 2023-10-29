@@ -113,7 +113,7 @@ Das Fichtensterben hat das Gesicht von einigen Etappen stark verändert.
 
 {%responsive_image figure: true
 alt: "Mark in einer Mondlandschaft. Schleife um Herchen im September 2020"
-path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-06-fichtenwald-mark.jpg%}
+path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-06-fichtenwald-mark.jpg %}
 
 Im Sommer 2022 waren die Etappen hinter Wissen dran.
 
@@ -127,7 +127,7 @@ path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-14-erzquell-stollen--ans
 
 {%responsive_image figure: true
 alt: "Wo sind die Wegzeichen? Etappe 14, Julian unterhalb der Freusburg in Juni 2022"
-path: assets/imgs/natursteigsieg/natursteig-sieg-etappe14-freusburg-orientierung%}
+path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-14-freusburg-orientierung.jpg %}
 
 
 {%responsive_image figure: true
@@ -144,7 +144,7 @@ Das Finale war die Etappe *Rund um Wissen*.
 
 {%responsive_image figure: true
 alt: "Eine handvoll Brombeeren, Etappe 10 im August 2022"
-path: assets/imgs/natursteigsieg/handvoll-brombeeren.jpg%}
+path: assets/imgs/natursteigsieg/handvoll-brombeeren.jpg %}
 
 Geburtstagszeit ist Brombeerenzeit. 
 Das viele Sammeln ging leicht zu Lasten der Durchschnittsgeschwindigkeit.
@@ -168,7 +168,7 @@ Das sind meine Top 3 Etappen des Natursteig Sieg:
 
 {%responsive_image figure: true
 alt: "Juni 2022: Ausklang nach den Etappen 14 bis 12 mit Julian beim Au Imbiss. Foto: Julian Schreyer, CC BY-SA 4.0"
-path: assets/imgs/natursteigsieg/au-imbiss-wissen-ausklang.jpg%}
+path: assets/imgs/natursteigsieg/au-imbiss-wissen-ausklang.jpg %}
 
 Trail-Kater[^tk]: Leicht erschöpft, resümierend und traurig, 
 dass der Trip vorbei ist 
