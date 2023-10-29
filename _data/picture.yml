@@ -1,33 +1,43 @@
 # _data/picture.yml
 # https://rbuchberger.github.io/jekyll_picture_tag/users/presets/
-
-media_queries:
-  mobile: 'max-width: 430px'
-  full_width: 'min-width: 801px'
-
 presets:
-  default:
-    formats: [avif, webp, original]
-    widths: [400,600,740] 
-
-    link_source: true # wrap images in a link to the original source image.
-
-    attributes:
-      parent: 'data-downloadable="true"'
-      a: 'class="image-link"'
-      img: 'loading="lazy"'
   
-    sizes: 
-       mobile: 400px
-       full_width: 740px
-
-    #size: calc(100vw -30px)
-    #media_widths:
-    #  mobile: [400, 600]
-    #  full_width: [740]
+  ri-mobile:
+    markup: direct_url
+    fallback_format: webp
+    fallback_width: 400
   
-  # This is an example of how you'd get a single generated image, a URL, and nothing else.
-  direct:
+  ri-middle:
+    markup: direct_url
+    fallback_format: webp
+    fallback_width: 600
+  
+  ri-full:
+    markup: direct_url
+    fallback_format: webp
+    fallback_width: 740
+  
+  ri-fallback:
+    markup: direct_url
+    fallback_format: original
+    fallback_width: 740
+
+  mobile:
+    markup: direct_url
+    fallback_format: avif
+    fallback_width: 400
+  
+  middle:
+    markup: direct_url
+    fallback_format: avif
+    fallback_width: 600
+  
+  full:
+    markup: direct_url
+    fallback_format: avif
+    fallback_width: 740
+  
+  fallback:
     markup: direct_url
     fallback_format: webp
     fallback_width: 740
