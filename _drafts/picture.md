@@ -11,7 +11,16 @@ tags:
 ---
 In 2023
 
-{% picture gears-of-industry.jpg --alt "Foo foo" %}
+<picture>
+  <source media="(max-width:450px)" srcset="{% picture mobile-webp gears-of-industry.jpg %}">
+  <source media="(min-width:451px) and (max-width:660px)" srcset="{% picture middle-webp gears-of-industry.jpg %}">
+  <source media="(min-width:661px)" srcset="{% picture full-webp gears-of-industry.jpg %}">
+  <img src="{% picture fallback-webp gears-of-industry.jpg %}" alt="alt">
+</picture>
+  Direct + webp
+  <img src="{% picture full-webp lpic-2-certification-florian-latzel.png %}" alt="alt">
+  jPT Default
+  {%picture lpic-2-certification-florian-latzel.png %}
 <!--break-->
 ## libvips 
 
