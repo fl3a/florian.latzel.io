@@ -1,16 +1,20 @@
-{% capture srcset %}
-{% for i in resized %}
-    /{{ i.path }} {{ i.width }}w,
-{% endfor %}
+{% assign image =  path | remove: 'assets/imgs/' %}
+
+{% capture picture %}
+<picture>
+  <source media="(max-width:450px)" srcset="{% picture ri-mobile {{ image }} %}">
+  <source media="(min-width:451px) and (max-width:660px)" srcset="{% picture ri-middle {{ image }} %}">
+  <source media="(min-width:661px)" srcset="{% picture ri-full {{ image }} %}">
+  <img src="{% picture ri-fallback {{ image }} %}" alt="{{ alt }}">
+</picture>
 {% endcapture %}
 
-{% assign smallest = resized | sort: 'width' | first %}
 
 {% if figure %}
 <figure role="group">
-  <img width="740px" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines | lstrip }}" sizes="(min-width:800px) 740px,(min-width:450px) 400px" class="blur-up lazyautosizes lazyload {{ class }}" />
+{{ picture }}
 <figcaption>{% if caption %}{{ caption }}{% else %}{{ alt }}{% endif %}</figcaption>
 </figure>
 {% else %}
-<img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="(min-width:800px) 740px,(min-width: 4500px) 400px" class="blur-up lazyautosizes lazyload {{ class }}" />
+{{ picture }}
 {% endif %}
