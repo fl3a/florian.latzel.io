@@ -2,42 +2,42 @@
 # https://rbuchberger.github.io/jekyll_picture_tag/users/presets/
 presets:
   
-  ri-mobile:
+  mobile-webp:
     markup: direct_url
     fallback_format: webp
     fallback_width: 400
   
-  ri-middle:
+  middle-webp:
     markup: direct_url
     fallback_format: webp
     fallback_width: 600
   
-  ri-full:
+  full-webp:
     markup: direct_url
     fallback_format: webp
     fallback_width: 740
   
-  ri-fallback:
+  fallback-webp:
     markup: direct_url
     fallback_format: original
     fallback_width: 740
 
-  mobile:
+  mobile-avif:
     markup: direct_url
     fallback_format: avif
     fallback_width: 400
   
-  middle:
+  middle-avif:
     markup: direct_url
     fallback_format: avif
     fallback_width: 600
   
-  full:
+  full-avif:
     markup: direct_url
     fallback_format: avif
     fallback_width: 740
   
-  fallback:
+  fallback-avif:
     markup: direct_url
     fallback_format: webp
     fallback_width: 740

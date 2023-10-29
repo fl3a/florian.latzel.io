@@ -1,14 +1,17 @@
 {% assign image =  path | remove: 'assets/imgs/' %}
 
+{% if format == nil %}
+  {% assign format = 'webp' %}  
+{% endif %}
+
 {% capture picture %}
 <picture>
-  <source media="(max-width:450px)" srcset="{% picture ri-mobile {{ image }} %}">
-  <source media="(min-width:451px) and (max-width:660px)" srcset="{% picture ri-middle {{ image }} %}">
-  <source media="(min-width:661px)" srcset="{% picture ri-full {{ image }} %}">
-  <img src="{% picture ri-fallback {{ image }} %}" alt="{{ alt }}">
+  <source media="(max-width:450px)" srcset="{% picture mobile-{{ format }} {{ image }} %}">
+  <source media="(min-width:451px) and (max-width:660px)" srcset="{% picture middle-{{ format }} {{ image }} %}">
+  <source media="(min-width:661px)" srcset="{% picture full-{{ format }} {{ image }} %}">
+  <img src="{% picture fallback-{{ format }} {{ image }} %}" alt="{{ alt }}">
 </picture>
 {% endcapture %}
-
 
 {% if figure %}
 <figure role="group">
@@ -16,5 +19,5 @@
 <figcaption>{% if caption %}{{ caption }}{% else %}{{ alt }}{% endif %}</figcaption>
 </figure>
 {% else %}
-{{ picture }}
+  {{ picture }}
 {% endif %}
