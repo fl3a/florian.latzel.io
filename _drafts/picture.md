@@ -17,10 +17,13 @@ In 2023
   <source media="(min-width:661px)" srcset="{% picture full-webp gears-of-industry.jpg %}">
   <img src="{% picture fallback-avif gears-of-industry.jpg %}" alt="alt">
 </picture>
-  Direct + webp
-  <img src="{% picture full-avif lpic-2-certification-florian-latzel.png %}" alt="alt">
-  jPT Default
-  {%picture lpic-2-certification-florian-latzel.png %}
+
+Direct + full-avif
+<img src="{% picture full-avif lpic-2-certification-florian-latzel.png %}" alt="alt">
+
+Resp. Image + avif
+{%responsive_image format: avif path: assets/imgs/lpic-2-certification-florian-latzel.png alt: 'ey Alter!' %}
+  
 <!--break-->
 ## libvips 
 
