@@ -12,13 +12,13 @@ tags:
 In 2023
 
 <picture>
-  <source media="(max-width:450px)" srcset="{% picture mobile-webp gears-of-industry.jpg %}">
-  <source media="(min-width:451px) and (max-width:660px)" srcset="{% picture middle-webp gears-of-industry.jpg %}">
+  <source media="(max-width:450px)" srcset="{% picture mobile-avif gears-of-industry.jpg %}">
+  <source media="(min-width:451px) and (max-width:660px)" srcset="{% picture middle-avif gears-of-industry.jpg %}">
   <source media="(min-width:661px)" srcset="{% picture full-webp gears-of-industry.jpg %}">
-  <img src="{% picture fallback-webp gears-of-industry.jpg %}" alt="alt">
+  <img src="{% picture fallback-avif gears-of-industry.jpg %}" alt="alt">
 </picture>
   Direct + webp
-  <img src="{% picture full-webp lpic-2-certification-florian-latzel.png %}" alt="alt">
+  <img src="{% picture full-avif lpic-2-certification-florian-latzel.png %}" alt="alt">
   jPT Default
   {%picture lpic-2-certification-florian-latzel.png %}
 <!--break-->
