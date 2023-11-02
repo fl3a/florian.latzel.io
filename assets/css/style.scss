@@ -175,6 +175,9 @@ figure.highlight {
 .footer-col {
   margin-bottom: calc($spacing-unit / 3);
   white-space: nowrap;
+  ul, li { 
+    margin-bottom: 15px;
+  }
 }
 .footer-col-1,.footer-col-2, .footer-col-3 {
   width: calc(30% - calc(#{$spacing-unit} / 3));
@@ -277,6 +280,11 @@ figure.highlight {
   // Footer
   .footer-last {
     text-align: center;
+  }
+  .footer-col {
+    ul, li {
+      margin-bottom: 0;
+    }
   }
 }
 
