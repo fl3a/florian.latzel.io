@@ -5,7 +5,7 @@ blog_posts: 5
 <div id="front">
   <div id="intro">
     <figure role="group">
-      <img src="/assets/imgs/florian-latzel-300x300.jpg" alt="Florian Latzel, Reinblau Teamtreffen, Mai 2017, Foto © Ronald Krentz" loading="lazy" />
+      <img src="/assets/imgs/florian-latzel-300x300.jpg" alt="Florian Latzel, Reinblau Teamtreffen, Mai 2017, Foto © Ronald Krentz" />
     </figure>
     <h2>Hi, ich heiße Florian👋</h2>
     <p>Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter

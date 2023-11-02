@@ -8,6 +8,7 @@ tags:
 - Nachhaltigkeit
 - SEO
 - uberspace
+- netzaffe
 image: /assets/imgs/carbon-calculator-netzaffe-76-percent.png
 last_modified_at: 2023-10-03
 ---
