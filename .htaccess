@@ -62,6 +62,8 @@ RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/index.html
 RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/index.html
 RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/index.html
 RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/index.html
+Redirect 301 /thema/opensource/ /thema/open-source/ 
+Redirect 301 /tags/drupalcamp-ruhr/index.html /thema/drupalcamp/
 
 # Canonical urls ends with index.html
 RedirectMatch 301 ^/thema/([^/]+)/$ /thema/$1/index.html
@@ -106,16 +108,24 @@ Redirect 301 /copy-n-paste-bei-gpg-passwoertern-und-pinentry /2015/11/14/copy-n-
 Redirect 301 /2009/02/20/drush-mm-adminrole-workaround-und-tabs-in-firefox.html /2009/02/20/drush_mm-adminrole-workaround-und-tabs-in-firefox.html
 Redirect 301 /drupal-und-apache-2-4-x-unter-debian-testing-jessie /2014/10/20/drupal-und-apache-2-4-x-unter-debian-testing-jessie.html
 Redirect 301 /2012/10/16/hnlichkeiten-in-sql-drupal-db-query-like.html /2012/10/16/aehnlichkeiten-in-sql-drupal-db_query-like.html
-Redirect 301 /2009/12/08/drush-und-mulisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html
+Redirect 301 /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html
 Redirect 301 /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface.html /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface-drupal-user-group-kln-bonn.html
 Redirect 301 /2008/10/03/koeln-muelheim-net-herzlichen-glueckwunsch-nachtraeglich-zum-dritten.html /2008/10/03/kln-mlheim-net-herzlichen-glckwunsch-nachtrglich-zum-dritten.html
-Redirect 301 /tags/drupalcamp-ruhr/index.html /thema/drupalcamp/
 Redirect 301 /2020/04/07/responsive-image.html /2020/04/07/co2-sparen-responsive-images-lazyload-jekyll.html
 Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-psm1 /neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html
 Redirect 301 /scrum-master/ /thema/scrum-master/
-Redirect 301 /thema/opensource/ /thema/open-source/ 
 Redirect 301 /2010/12/11/arbeit-sparen-mit-cluster-ssh.html /2010/12/10/arbeit-sparen-mit-cluster-ssh.html
-Redirect 301 /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html
+Redirect 301 /2008/12/14/arrays-der-bash.html /arrays-in-der-bash.html
+
+Redirect 301 /kontakt /kontakt.html
+Redirect 301 /contact /kontakt.html
+Redirect 301 /archiv.html /blog.html
+Redirect 301 /partner.html /ueber-mich.html#wegbegleiter
+
+Redirect 301 /angebot /
+Redirect 301 /angebot/coach-and-walk /angebot/coach-and-walk.html
+Redirect 301 /angebot/coaching /angebot/coaching.html
+Redirect 301 /wildnistraining.html /angebot/wildnistraining.html
 
 # END misc
 
