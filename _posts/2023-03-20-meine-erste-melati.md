@@ -5,7 +5,7 @@ tags:
 - Pencak Silat
 - Learnings
 - Kampfkunst
-image: /assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png %}
+image: /assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png 
 ---
 {%responsive_image path: assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png
 alt: "Tapak Suci Anzug mit gelbem Grürtel und einer Melati"  %}
