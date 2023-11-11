@@ -117,6 +117,15 @@ Redirect 301 /thema/opensource/ /thema/open-source/
 Redirect 301 /2010/12/11/arbeit-sparen-mit-cluster-ssh.html /2010/12/10/arbeit-sparen-mit-cluster-ssh.html
 Redirect 301 /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html
 
+Redirect 301 /kontakt /kontakt.html
+Redirect 301 /contact /kontakt.html
+Redirect 301 /archiv.html /blog.html
+Redirect 301 /partner.html /ueber-mich.html#wegbegleiter
+
+Redirect 301 /angebot/coach-and-walk /angebot/coach-and-walk.html
+Redirect 301 /angebot/coaching /angebot/coaching.html
+Redirect 301 /wildnistraining.html /angebot/wildnistraining.html
+
 # END misc
 
 # Temp: Umlaute
