@@ -38,8 +38,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2", "~>3.0.0"
 
   # https://github.com/wildlyinaccurate/jekyll-responsive-image
-  gem "jekyll-responsive-image", "~>1.6.0"
-
+  
   # https://github.com/rbuchberger/jekyll_picture_tag
   gem 'jekyll_picture_tag', '~> 2.0.4'
 
