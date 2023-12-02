@@ -8,11 +8,6 @@ presets:
     fallback_format: webp
     fallback_width: 400
 
-  between:      
-    markup: direct_url
-    fallback_format: webp
-    fallback_width: 600
-  
   full:
     markup: direct_url
     fallback_format: webp
