@@ -8,14 +8,14 @@
   {%- else -%}
     {%- seo -%}
   {%- endif -%}
-  
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
 
   {% include favicon.html %}
 
-  <script src="{{ '/assets/js/lazysizes.min.js'| relative_url }}"></script> 
   {%- if page.url == "/index.html" -%}
   <meta property="og:image" content="{{ "/assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg" | absolute_url }}">
   {%- endif -%}
+
   <link type="text/plain" rel="author" href="{{ "/humans.txt" | absolute_url }}" />
 </head>
