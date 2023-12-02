@@ -4,6 +4,31 @@
 
 @import "minima";
 
+/* Start Responsive Image, lazyload */
+/* https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ */
+.no-js img.lazyload {
+  display: none;
+}
+
+.blur-up {
+  filter: blur(10px);
+  transition: filter 400ms;
+}
+
+.blur-up.lazyloaded {
+  filter: blur(0);
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 400ms;
+}
+
+.fade-in.lazyloaded {
+  opacity: 1;
+}
+/* End Responsive Image, lazyload */
+
 .site-nav {
   z-index: 1;
 }
@@ -150,7 +175,7 @@ figure.highlight {
 .footer-col {
   margin-bottom: calc($spacing-unit / 3);
   white-space: nowrap;
-  ul, li {
+  ul, li { 
     margin-bottom: 15px;
   }
 }
