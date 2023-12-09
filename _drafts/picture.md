@@ -98,11 +98,51 @@ ruby-vips 2.0.17
 
 ### Presets
 
-## Plugin für das respsonsive_image Tag
+ _data/picture.yml
+ https://rbuchberger.github.io/jekyll_picture_tag/users/presets/
+
+```yml
+presets:
+  
+  mobile:
+    markup: direct_url
+    fallback_format: webp
+    fallback_width: 400 
+
+  full:
+    markup: direct_url
+    fallback_format: webp
+    fallback_width: 740 
+  
+  fallback:
+    markup: direct_url
+    fallback_format: original
+    fallback_width: 740 
+```
+
+
+## Plugin für das responsive_image Tag
+
+https://github.com/fl3a/florian.latzel.io/tree/picture/_plugins
+
+```
+_plugins
+└── jekyll_my_responsive_image
+    └── lib
+        ├── jekyll_my_responsive_image
+        │   ├── config.rb
+        │   ├── renderer.rb
+        │   └── tag.rb
+        └── jekyll_my_responsive_image.rb
+```
+
+
+### _config
 
 ### Template
 
-```
+```liquid
+{% raw %}
 {% assign image =  path | remove: 'assets/imgs/' %}
 
 {% capture picture %}
@@ -123,6 +163,7 @@ ruby-vips 2.0.17
 {% else %}
   {{ picture }}
 {% endif %}
+{% endraw %}
 ```
 
 ### Config
