@@ -64,8 +64,8 @@ RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/index.html
 RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/index.html
 
 # Canonical urls ends with index.html
-RedirectMatch 301 ^/thema/([^/]+)/$ /thema/$1/index.html
-RedirectMatch 301 ^/thema/([^/]+)$ /thema/$1/index.html
+#RedirectMatch 301 ^/thema/([^/]+)/$ /thema/$1/index.html
+# RedirectMatch 301 ^/thema/([^/]+)$ /thema/$1/index.html
 
 # Feed
 Redirect 301 /rss.xml /feed.xml
