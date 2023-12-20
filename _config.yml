@@ -55,7 +55,7 @@ autopages:
   tags:
     layouts:
       - 'thema.html'
-    permalink: '/thema/:tag'
+    permalink: '/thema/:tag/'
     silent: false
     slugify:
       mode: 'latin'
