@@ -53,13 +53,13 @@ autopages:
   collections:
     enabled    : false
   tags:
-    enabled    : true
-    slugify:
-      mode:  latin
-      case: true
     layouts:
-      - "thema.html"
+      - 'thema.html'
     permalink: '/thema/:tag'
+    silent: false
+    slugify:
+      mode: 'latin'
+      case: true
 
 # jekyll-seo-tag 
 # https://github.com/jekyll/jekyll-seo-tag
