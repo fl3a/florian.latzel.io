@@ -56,10 +56,10 @@ autopages:
     enabled    : true
     slugify:
       mode:  latin
-      cased: true
+      case: true
     layouts:
       - "thema.html"
-    permalink  : "/thema/:tag/index.html"
+    permalink: '/thema/:tag'
 
 # jekyll-seo-tag 
 # https://github.com/jekyll/jekyll-seo-tag
