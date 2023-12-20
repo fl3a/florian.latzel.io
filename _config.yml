@@ -59,7 +59,7 @@ autopages:
       cased: true
     layouts:
       - "thema.html"
-    permalink  : "/thema/:tag"
+    permalink  : "/thema/:tag/index.html"
 
 # jekyll-seo-tag 
 # https://github.com/jekyll/jekyll-seo-tag
