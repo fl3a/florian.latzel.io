@@ -24,11 +24,6 @@ Das Todo TOC Plugin war trotz kleiner händischer Eingriffe fix erledigt.
 Das Todo Picture Plugin war etwas arbeitsintensiver. 
 Meine Weg und Erkenntnisse beschreibe ich in diesem Artikel.
 <!--break-->
-
-
-  
-
-
 <figure>
 <figcaption>Lighthouse Audit, Absschnitt Performance zu moderneren Bildformaten</figcaption>
 <blockquote>
