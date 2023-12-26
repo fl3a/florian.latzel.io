@@ -15,6 +15,19 @@ path: assets/imgs/gears-of-industry.jpg
 caption: '<a href="https://www.flickr.com/photos/housephotography/953871961/">Gears of industry</a>,
 CC BY-NC-ND 2.0, House Photography' %}
 
+Nachdem ich Mitte des Jahres [den CO₂ Ausstoß der Website stark reduziert habe](
+/2023/09/25/juli-august-upgrade-facelift.html#co-aussto%C3%9F-der-website-stark-reduziert),
+waren noch zwei Todos offen: 
+Ersetzung des TOC-Plugins durch Kramdown Boardmittel und das Picture Plugin.
+
+Das Todo TOC Plugin war trotz kleiner händischer Eingriffe fix erledigt.
+Das Todo Picture Plugin war etwas arbeitsintensiver. 
+Meine Weg und Erkenntnisse beschreibe ich in diesem Artikel.
+<!--break-->
+
+
+  
+
 
 <figure>
 <figcaption>Lighthouse Audit, Absschnitt Performance zu moderneren Bildformaten</figcaption>
@@ -30,7 +43,6 @@ https://github.com/wildlyinaccurate/jekyll-responsive-image 3320 Stars, 13, Cont
 
 in 2023 [C02 sparen: Responsive Images und Lazyload bei Jekyll]({%link _posts/2020-04-07-co2-sparen-responsive-images-lazyload-jekyll.md %})
 
-<!--break-->
 ## Installation von libvips 
 
 libpng, libwebp, libjpeg, and libheif 
