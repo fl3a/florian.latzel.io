@@ -1,0 +1,20 @@
+# _data/picture.yml
+# https://rbuchberger.github.io/jekyll_picture_tag/users/presets/
+ 
+presets:
+  
+  mobile:
+    markup: direct_url
+    fallback_format: webp
+    fallback_width: 400
+
+  full:
+    markup: direct_url
+    fallback_format: webp
+    fallback_width: 740
+  
+  fallback:
+    markup: direct_url
+    fallback_format: original
+    fallback_width: 740
+
