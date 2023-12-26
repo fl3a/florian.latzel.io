@@ -121,7 +121,6 @@ Redirect 301 /kontakt /kontakt.html
 Redirect 301 /contact /kontakt.html
 Redirect 301 /archiv.html /blog.html
 Redirect 301 /partner.html /ueber-mich.html#wegbegleiter
- 
 Redirect 301 /angebot/coach-and-walk /angebot/coach-and-walk.html
 Redirect 301 /angebot/coaching /angebot/coaching.html
 Redirect 301 /wildnistraining.html /angebot/wildnistraining.html
