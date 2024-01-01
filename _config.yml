@@ -112,8 +112,9 @@ exclude:
 - gemfiles/
 - Gemfile
 - Gemfile.lock
+- deploy.conf  
 - node_modules/
 - vendor/bundle/
 - vendor/cache/
 - vendor/gems/
-- vendor/ruby/
+- vendor/ruby/  
