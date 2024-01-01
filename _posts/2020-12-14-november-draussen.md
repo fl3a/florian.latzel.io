@@ -75,9 +75,9 @@ path: assets/imgs/florian-latzel-wildnispaedagogik-zertifikat-web.png %}
 
 Ich habe die in [Kalenderwoche 10](/2020/03/12/2020-kalenderwoche-10.html) 
 begonnene Ausbildung zum Wildnispädagogen trotz COVID-19 abschließen können.
-Das Lernen von Naturkunde, Bushcraft- und Survialfertigkeiten und das [Draußensein](/tags/draussen/index.html) 
+Das Lernen von Naturkunde, Bushcraft- und Survialfertigkeiten und das [Draußensein](/thema/draussen/index.html)
 waren für mich der Motivator 
-und viel wichtiger als Abschluss und das dazugehörige [Zertifikat](/tags/zertifikat/index.html).
+und viel wichtiger als Abschluss und das dazugehörige [Zertifikat](/thema/zertifikat/index.html).
 Ich habe während diese Zeit wirklich tolle Leute kennengelernt, 
 mit denen ich dazwischen und drüber hinaus Kontakt halte.
 *Das Camp*[^camp] ist ein toller Ort und das ist auch schon der dritte Kurs,

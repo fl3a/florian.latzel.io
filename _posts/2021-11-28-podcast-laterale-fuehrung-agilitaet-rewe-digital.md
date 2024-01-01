@@ -21,8 +21,8 @@ Ich bin Marks Einladung zu einem gemeinsamen Podcastfolge in
 https://www.pta-team.com/podcast-fuehrung-im-fokus) gefolgt
 und habe mich mit ihm über [Laterale Führung und Agilität bei der REWE Digital](
 https://www.pta-team.com/podcast-episode-8-laterale-fuehrung-agilitaet-rewedigital),   
-meine [Wildnispädagogikausbildung](/tags/wildnispadagogik/)
-und meinen Alltag als [Scrum Master](/tags/scrum-master) unterhalten.
+meine [Wildnispädagogikausbildung](/thema/wildnispadagogik/)
+und meinen Alltag als [Scrum Master](/thema/scrum-master) unterhalten.
 
 [Mark Eichberger](https://www.linkedin.com/in/mark-eichberger/) 
 ist Berater bei der PTA. 

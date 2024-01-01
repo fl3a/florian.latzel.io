@@ -51,8 +51,8 @@ kann man locker eine ganze Session halten und die Besucher der Session in ein ti
 
 **Gut zu wissen**
 
-[Scrum](/tags/scrum/) ist ein Vorgehensmodell für Projekt- und Produktmanagement 
-und wird häufig als Synonym für [Agile Softwareentwicklung](/tags/agile/) benutzt.
+[Scrum](/thema/scrum/) ist ein Vorgehensmodell für Projekt- und Produktmanagement
+und wird häufig als Synonym für [Agile Softwareentwicklung](/thema/agile/) benutzt.
 
 Scrum ist leichtgewichtig (im Sinne von Lean) und besteht aus aus einem kleinen Set an Regeln,  
 nämlich 3 Rollen, fünf Aktivitäten und drei Artefakten.

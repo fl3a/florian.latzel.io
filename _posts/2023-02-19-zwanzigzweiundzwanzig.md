@@ -152,7 +152,7 @@ Von Lissabon ging es mit dem Mietwagen weiter über Sintra, Nazare, Ovar, Aveiro
 und einen kleinen Abstecher über die [Lupum Brauerei](https://lupum.beer/) nach Porto.
 
 In Porto blieben wir nochmal ein paar Tage und flogen von dort nach Deutschland 
-via BER zurück und hingen noch einen Tag in Berlin bei [Luckow](/tags/luckow/) dran.
+via BER zurück und hingen noch einen Tag in Berlin bei [Luckow](/thema/luckow/) dran.
 
 ## März, April
 
@@ -172,9 +172,9 @@ und den unterschriebenen Arbeitsvertrag der AXA in den Briefkasten geschmissen.
 path: assets/imgs/2022/framework-laptop-ersatzschrauben-luckow.jpeg
 alt: "Innenleben des Framework Laptops: Ersatzschrauben. Foto CC-BY Stephan Luckow, GzEvD mbH." %}
 
-Am 08. Mai war der der erste [Todestag meiner Mama](/tags/tod/),
-an diesem Wochenende habe ich meine [Coaching](/tags/coaching/) Ausbildung 
-bei [Tom Andreas](/tags/tom-andreas/) begonnen.
+Am 08. Mai war der der erste [Todestag meiner Mama](/thema/tod/),
+an diesem Wochenende habe ich meine [Coaching](/thema/coaching/) Ausbildung
+bei [Tom Andreas](/thema/tom-andreas/) begonnen.
 
 Da durch den Jobwechsel auch die Abgabe meines beruflich 
 und privat genutzten Thinkpads absehbar wurde,
@@ -304,7 +304,7 @@ Fast wie am Anfang, konnte ich das Jahr mit einem weiteren Walkaboutyou abschlie
 Diesmal wieder für das Accelerator Programs des Startplatz,
 mit dem Unterschied, dass ich das Community Building diesmal alleine facilitierte.
 
-Die [Trauer](/tags/trauer/), die letztes Jahr großflächig und fast permanent
+Die [Trauer](/thema/trauer/), die letztes Jahr großflächig und fast permanent
 zugegen war, kam dieses Jahr punktuell und manchmal wie aus dem Nichts.
 Ein Satz, ein Gedanke lösten Erinnnerungen und die ein oder Träne aus.
 
@@ -344,7 +344,7 @@ Neben meiner ersten *Natto[^natto] Erfahrung* waren die Sushis einfach grandios.
 Die kulinarische Wiederentdeckung des Jahres 
 und häufig von uns frequentiert wurde das [Da Enzo](
 https://www.daenzo-ristorante.de/).
-Bester Italiener in [Köln-Mülheim](/tags/mullem/).
+Bester Italiener in [Köln-Mülheim](/thema/mullem/).
 Dort steht der Chef, Enzo, selbst in der Küche,
 während seine Frau Anna den großen Rest macht.
 Einfach sehr gutes Essen.

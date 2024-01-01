@@ -15,7 +15,7 @@ path: assets/imgs/gears-of-industry.jpg
 alt: "Zahnräder" 
 caption: '<a href="https://www.flickr.com/photos/housephotography/953871961/">Gears of industry</a>, 
 CC BY-NC-ND 2.0, House Photography' %}
-Dieses Wochenende habe ich nach circa dreieinhalb Jahren [Jekyll](/tags/jekyll/)
+Dieses Wochenende habe ich nach circa dreieinhalb Jahren [Jekyll](/thema/jekyll/)
 und entsprechend auch dreieinhalb Jahren *Jekyll Deployments* 
 auf meinen [uberspace🚀](https://uberspace.de)
 vom gleichnamigen Skript [jekyll-deployment](https://github.com/fl3a/jekyll_deployment)

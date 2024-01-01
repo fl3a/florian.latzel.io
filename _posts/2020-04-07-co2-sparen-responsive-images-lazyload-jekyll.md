@@ -41,13 +41,13 @@ sondern Google mag es auch noch gerne.
 So empfahl mir *Google PageSpeed Insights* zur Verbesserung der Performance von netzaffe.de
 auch die richtige Dimensionierung vom Bildern.
 
-Dieses *[Howto](/tags/howto.html)* hat das Ziel die übertragene Datenmenge von Bildern
+Dieses *[Howto](/thema/howto.html)* hat das Ziel die übertragene Datenmenge von Bildern
 und somit den CO2-Ausstoß dieser Website mimimieren.
 
 Ich beschreibe die Installation und Konfiguration von *jekyll-responsive-images[^resp]*,
 im Zusammenspiel mit einem neuen Template und einen Lazyload Skript, 
-eingebunden in [Jekylls](/tags/jekyll.html) *Standardtheme* miminma[^minima] 
-unter [Linux](/tags/linux.html), hier CentOS auf [uberspace](/tags/uberspace) 7.<!--break-->
+eingebunden in [Jekylls](/thema/jekyll.html) *Standardtheme* miminma[^minima]
+unter [Linux](/thema/linux.html), hier CentOS auf [uberspace](/thema/uberspace) 7.<!--break-->
 
 * toc
 {:toc}
