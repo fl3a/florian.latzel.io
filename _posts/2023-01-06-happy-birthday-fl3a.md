@@ -46,11 +46,11 @@ und stellte ein ganz wesentliches Fundament meiner Selbstständigkeit dar.
 Und das nicht nur wirtschaftlich.
 Drupal war für mich auch Identifikation 
 und _Contributing_[^contrib] mit 
-und für [*Free/Libre Open Source Software*](/tags/opensource).
+und für [*Free/Libre Open Source Software*](/thema/opensource).
 
 Ich habe mich recht intensiv mit Drupal beschäftigt 
 und entsprechend darüber hier auch am meisten geschrieben.
-Mit diesem Artikel sind es 60 [mit Drupal getaggte Posts](/tags/drupal/index.html).
+Mit diesem Artikel sind es 60 [mit Drupal getaggte Posts](/thema/drupal/index.html).
 
 ## Mein drupal.org Account fl3a
 
@@ -62,7 +62,7 @@ einen *Postfix Mailserver* mit *MySQL Backend*
 mit der Mandatenfähigkeit Drupals zu verbinden.
 Wir (damals wollten wir uns zu zweit selbstständig machen) 
 wollten unseren Kunden ein komplettes Hosting in verschiedenen Paketen 
-auf unseren [Linux-Servern](/tags/linux/) anbieten.
+auf unseren [Linux-Servern](/thema/linux/) anbieten.
 Mit dem postfix Modul haben wir uns und unseren Kunden eine Administrationsoberfläche 
 via in *Drupal 4.7* eingeführter *Forms API* bereitgestellt,
 um den Mail-Server mit allen Stellschrauben zu verwalten.
@@ -76,7 +76,7 @@ um das Modul auf drupal.org zu bekommen.
 Als frischgebackener Selbstständiger musste ich ja auch noch Geld verdienen.
 Erst Ende 2009 hatte ich dann den Nerv und entwickelte [drush_multi](
 https://www.drupal.org/project/drush_multi), 
-eine [Drush](/tags/drush/) Erweiterung für die Aktualisierung von [Drupal Multisites](
+eine [Drush](/thema/drush/) Erweiterung für die Aktualisierung von [Drupal Multisites](
 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#die-drupal-multisite-umgebung).
 Darauf folgten die ersten Patches für andere Module.
 
@@ -88,7 +88,7 @@ caption: "Ein Teil des Orgateams vom Drupalcamp Köln 2009. Flickr, Robert Happe
 
 Je mehr ich mich mit Drupal auseinandersetzte, 
 desto wichtiger wurde für mich die entsprechende *Peer Group*.
-Gleichgesinnte treffen, über das beste [CMS](/tags/cms/) fachsimpeln 
+Gleichgesinnte treffen, über das beste [CMS](/thema/cms/) fachsimpeln
 und sich als Teil von etwas Größerem begreifen.
 Und so stieß ich irgendwann in 2007 zur [Drupal Usergroup Köln/Bonn](
 /tags/drupal-user-group-koln-bonn/), 
@@ -97,10 +97,10 @@ die damals noch sehr aktiv war, dazu.
 Als ich in 2008 auf [drupalcenter](https://drupalcenter.de) 
 [den Post von Ramiro zum geplanten Drupalstand auf dem Linuxtag](
 https://www.drupalcenter.de/node/8277) las, war mir sofort klar, da muss ich hin.
-Das beste CMS der Welt auf dem [Linuxtag](/tags/linuxtag/)!   
+Das beste CMS der Welt auf dem [Linuxtag](/thema/linuxtag/)!
 So fuhr nach Berlin um die [Berliner Drupal User Group](
 /tags/drupal-user-group-berlin/index.html) am Drupalstand zu unterstützen.
-So kam ich das erste Mal nach [Berlin](/tags/berlin), 
+So kam ich das erste Mal nach [Berlin](/thema/berlin),
 lernte unter anderem Stephan, Bob, Tobias, Leon, 
 Valentin, Natascha, Ramiro und Marko kennen
 und kam mit meinem ersten [Drupal Shirt](
@@ -108,10 +108,10 @@ und kam mit meinem ersten [Drupal Shirt](
 zurück, welches ich wie eine Auszeichnung trug bis es auseinanderfiel.
 
 Durch das Teilen von Wissen mit [Vorträgen](/talks.html) 
-und [Sessions](/tags/session/)
+und [Sessions](/thema/session/)
 auf Usergroup Treffen und Konferenzen
 habe ich versucht Drupal und seiner tollen Community etwas zurückzugeben. 
-So wie hier mit Stephan, nach unseren ersten Erfahrungen mit [Scrum](/tags/scrum/).
+So wie hier mit Stephan, nach unseren ersten Erfahrungen mit [Scrum](/thema/scrum/).
 
 {%responsive_image figure: true alt: 'Hörsaal, Session Scrum aus der Praxis' 
 path: assets/imgs/florian-latzel-stephan-luckow-scrum-drupaldevdays-munich-2010-1.jpg
@@ -126,8 +126,8 @@ mitorganisiert
 und die [German Drupal Association, Drupal e.V](https://verein.drupal.de) 
 mitgegründet.
 War für und mit Drupal auf Messen und Events, 
-wie dem [Linuxtag](/tags/linuxtag/index.html), 
-[Cebit](/tags/cebit/) und [FrosCon](/tags/froscon/) unterwegs.
+wie dem [Linuxtag](/thema/linuxtag/index.html),
+[Cebit](/thema/cebit/) und [FrosCon](/thema/froscon/) unterwegs.
 Habe versucht die Drupalcon 2010 nach Berlin zu holen
 und habe [das erste DrupalCamp im Open Space (Barcamp) Format](
 /2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html) 
@@ -141,7 +141,7 @@ caption: "Mein letztes Daily Scrum bei BerlinOnline, Mai 2009. Foto: &copy; Olf 
 
 Um 2009 wurden aus Websites größere Projekte, 
 von da an wuchs mit jedem Vorhaben die Teamgröße und Komplexität.
-In dieser Zeit durfte ich erstmals in einen [Scrum Team](/tags/team/) arbeiten.
+In dieser Zeit durfte ich erstmals in einen [Scrum Team](/thema/team/) arbeiten.
 Das war für mich absolut wegweisend 
 und ich bin für diese Erfahrungen bis heute sehr dankbar!\\
 Mit dem [Usecase zu berliner.de](
@@ -165,7 +165,7 @@ Mittlerweile habe ich kaum noch Berührungspunkte mit Drupal.
 
 Mein professioneller Fokus liegt seit Mitte 2016 auf der [Scrum Masterei](
 /tags/scrum/) und seinen vielen Facetten,
-wie Selbstorganisation, Führung und [Coaching](/tags/coaching/).
+wie Selbstorganisation, Führung und [Coaching](/thema/coaching/).
 Dieses Blog habe ich 2019 [von Drupal nach Jekyll migriert](
 /2019/11/09/von-drupal-nach-jekyll.html)
 und das [Amateurfunkprojekt meines Vaters](

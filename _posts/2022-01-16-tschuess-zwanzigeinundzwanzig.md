@@ -222,7 +222,7 @@ die Strecke von Rüdeshein nach Wiesbaden mit ihr nochmal entgegengesetzt zu lau
 
 Ein Ziel, das aus der [Eifelsteigwanderung im November 2020](
 /2020/12/14/november-draussen.html#winterbackpacking-learnings) 
-mit meinen [Wildnispädagogik](/tags/wildnispadagogik) Alumnis entstanden ist,
+mit meinen [Wildnispädagogik](/thema/wildnispadagogik) Alumnis entstanden ist,
 war es mein Wissen im Bereich [Bushcraft, Survival](/wildnistraining.html), 
 Wahrnehmung und sich in der Draußen [in der Natur heimisch zu fühlen][
 wildnistrainig] weiterzugeben.

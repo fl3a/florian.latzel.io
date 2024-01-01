@@ -16,7 +16,7 @@ last_modified_at: 2022-03-22
 figure: true alt: "Mein letztes Daily Scrum bei BerlinOnline" 
 caption: "Mein letztes Daily Scrum bei BerlinOnline, Foto: &copy; Olf Dziadek" %}
 
-Mein letztes [Daily Scrum](/tags/daily-scrum/) bei [BerlinOnline](http://berlinonline.de)
+Mein letztes [Daily Scrum](/thema/daily-scrum/) bei [BerlinOnline](http://berlinonline.de)
 
 v.l.n.r: Jan,  (Product Owner/Chicken), Meinereiner (Pig/Team), 
 Andreas, (Pig/Team) und Jens (Scrum Master).

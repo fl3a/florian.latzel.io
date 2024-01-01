@@ -179,7 +179,7 @@ wieder zurück in die Zivilsation und den Alltag geht.
 
 Was als nächstes wandern? Angefangen mit den bereits begonnenen Trails in der Nähe:
 
-- [Rheinsteig](/tags/rheinsteig/): 2019 Gestartet als Couplegoal haben Monique und ich, 
+- [Rheinsteig](/thema/rheinsteig/): 2019 Gestartet als Couplegoal haben Monique und ich,
 Stand September 2022 ca. die Hälfte komplett.
  Alleine fehlen mir mit 6 Etappen weniger als 1/3 (siehe [100 Km Rheinsteig (wie ich an meinen Trailnamen kam)](
 /2022/01/16/tschuess-zwanzigeinundzwanzig.html#100-km-rheinsteig-wie-ich-an-meinen-trailnamen-kam).
@@ -202,7 +202,7 @@ und den Impuls mit dem Trekkingschirm. Der Schirm ist seit dem immer dabei.
 
 Danke auch an Hikingfrog für die angenehme Begleitung auf dem Ahrsteig, dem Rheinsteig und dem Natursteig Sieg.
 
-Einen Dank an meinen alten Freund [Julian](/tags/julian/), 
+Einen Dank an meinen alten Freund [Julian](/thema/julian/),
 mit dem ich auch schon beim Bergischen Weg, die am weitest entfernten Etappen gelaufen bin.
 
 Danke auch an Mark, Sebastian, Tina und Monique, mit denen ich ebenfalls eine oder mehrere Etappen gelaufen bin.

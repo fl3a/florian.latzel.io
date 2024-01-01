@@ -78,7 +78,7 @@ Wen verwundet es dann, wenn man die Urväter von XP, Kent Beck und Ward Cunningh
 Von der Theorie in die Praxis: 
 2009 habe ich bei BerlinOnline [berliner.de](https://www.drupal.org/node/622158) 
 als Teil des Entwicklerteams in einem Scrum-Projekts mitwirken dürfen. 
-In dem Projekt fanden sich Praktiken einige Praktiken wie [Standup Meeting (Daily Scrum)](/tags/daily-scrum/), 
+In dem Projekt fanden sich Praktiken einige Praktiken wie [Standup Meeting (Daily Scrum)](/thema/daily-scrum/),
 das Buzzword Sustainable Pace[^s-pace] (U.a. keine Überstunden. Ja, wirklich, das war sogar vertraglich festgehalten.) 
 und das Planning-Game (Planungspoker) wieder.  
 Das ganze fühlte sich auch in der Praxis nicht nur unglaublich gut an, 

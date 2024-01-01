@@ -21,7 +21,7 @@ zum 35. Metaforum Summercamp[^mfp] in Abano Terme[^abano] geführt.
 
 Zwei Module der Ausbildung, 
 zum einen [*Lösungsfokussierendes Coaching*][coaching]
-nach Steve de Shazer[^steve] und Insoo Kim Berg bei [Tom Andreas](/tags/tom-andreas/) 
+nach Steve de Shazer[^steve] und Insoo Kim Berg bei [Tom Andreas](/thema/tom-andreas/)
 und *der provokative Ansatz* nach Frank Farelly[^ff] 
 bei Dr. Noni Höffner und ihrer Tochter Dr. Charlotte Cordes[^provo] 
 zum anderen, fanden auf dem Metaforum Summercamp[^mfp] statt.
