@@ -1,7 +1,8 @@
 ---
 title: Coaching
 layout: page
-permalink: /angebot/coaching.html
+permalink: /coaching.html
+last_modified_at: 2024-01-01
 image: /assets/imgs/november-draussen/waldlicht.jpg
 ---
 {% responsive_image

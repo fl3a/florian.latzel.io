@@ -1,5 +1,6 @@
 ---
 title: Hallo Coaches!
+permalink: /hallo-coaches.html
 tags:
 - Coaching
 - Zertifikat
@@ -8,6 +9,7 @@ tags:
 layout: post
 image: /assets/imgs/systemischer-nlp-coach-zertifikat-florian-latzel.png
 date: 2023-01-16
+last_modified_at: 2024-01-01
 ---
 {%responsive_image figure: true
 path: assets/imgs/systemischer-nlp-coach-zertifikat-florian-latzel.png
