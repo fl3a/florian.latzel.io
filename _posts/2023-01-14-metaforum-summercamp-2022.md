@@ -1,5 +1,6 @@
 ---
 title: Metaforum Summercamp 2022
+permalink: metaforum-summercamp-2022.html
 tags:
 - Coaching
 - Draussen
@@ -7,7 +8,8 @@ tags:
 - Italien
 layout: post
 date: 2023-01-14
-last_modified_at: 2023-02-27
+last_modified_at: 2024-01-01
+
 image: /assets/imgs/metaforum22/metaforum-summercamp-2022-stage-tom-andreas-trainer.jpg
 ---
 {%responsive_image figure:true 
