@@ -18,24 +18,24 @@ blog_posts: 5
   <div id="portfolio">
     <h2>Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
-      <h3><a href="/coaching.html">Coaching</a></h3>
+      <h3><a href="{% link pages/angebot/coaching.md  %}">Coaching</a></h3>
       <p>Hilfe zur Selbsterkenntnis.<br />Systemisch und Lösungsfokussiert. 
-        <a href="/coaching.html">Mehr</a>.
+        <a href="{% link pages/angebot/coaching.md  %}">Mehr</a>.
       </p>
     </div>
 
     <div class="angebot-1-2 angebot-2 wildnistraining">
-      <h3><a href="/wildnistraining.html">Wildnistraining</a></h3>
+      <h3><a href="{% link pages/angebot/wildnistraining.md %}">Wildnistraining</a></h3>
       <p>Bushcraft, Survival und eine tiefe Naturverbindung,
         die darüber hinausgeht.
-        <a href="/wildnistraining.html">Mehr</a>
+        <a href="{% link pages/angebot/wildnistraining.md %}">Mehr</a>
       </p>
     </div>
 
     <div class="angebot-1-2 angebot-1 coach-and-walk">
-      <h3><a href="/coach-and-walk.html">Coach &amp; Walk</a></h3>
+      <h3><a href="{% link pages/angebot/coach-and-walk.md %}">Coach &amp; Walk</a></h3>
       <p>Coachings im Gehen und Draußen. Auf Wunsch in nahegelegenem Wald und Flur.
-        <a href="/coach-and-walk.html">Mehr</a>.
+        <a href="{% link pages/angebot/coach-and-walk.md %}">Mehr</a>.
       </p>
     </div>
 
