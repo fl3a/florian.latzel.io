@@ -11,14 +11,32 @@ layout: post
 
 ## Pinguin in der Wüste
 
--- Nur Arbeitsbilder, Change, TAM Offsite, Leadership Offsite, Tribe Retro
--- Februar ein Wanderbild, Ort ka
--- Ende 03 Fotos von der AU
-- Unwohlsein, ständig an Arbeit gedacht
-- 3 Wochen schlaf
-- abgenommen
-- Spirale
-- Klemmfokus, Stuckstate
+Als ich meine Fotos der ersten Monate von 2023 so duchging, 
+sah ich nur Arbeitsbilder. 
+Vom Change Management Training, vom TAM Offsite, vom Leadership Offsite
+und von der Retrospektive des Leadership Teams meiner Tribes.   
+Die Ausnahme bildete ein Bild mit einem gelb blühende Gewächs im Vordergrund
+und einem Fachwerkwerkhaus im Hintergrund. 
+Ort unbekannt, wahrscheinlich von einer Wanderung.
+So ähnlich war es mit meinen Gedanken in zu dieser Zeit. 
+Die drehten sich auch fast ausschließlich um Arbeit
+und ich war mit meiner Arbeit überhaupt nicht glücklich.
+Bis zu diesem Zeitpunkt habe ich seit drei Wochen nicht mehr durchgeschlafen.
+Die Gedanken an Arbeit erzeugten negative Gefühle und wurden Körperlich.
+Gedankenspiralen, Klemmfokus[^klemm], *Stuck State*[^stuck].
+
+Diese Zustände kannte ich bisher nur aus meiner NLP und Coaching Ausbildungen.
+Ich wollte da raus. Coaching, Freunde und Kollegen, Leadership, Termin 01. April.bei Silke.
+Ende März das Foto von einer AU.
+Auf die Frage, was ich denn tun könnte, 
+sagte er mir, dass sich etwas Grundlegendes, wie die Arbeit ändern muss
+und dass, wenn ich z.B. auf Bali das Problem mit dem Schlaf auf schnell wieder weg wäre.
+Coaching. Telefonat, Termin. Leadership Coaching letzter Termin.
+
+
+
+
+
 - Coaching
 - Gedanken an Kündigung
 <!--break-->
@@ -96,12 +114,13 @@ Bild Pilzkorb
 ## Erkenntnisse
 
 - Ignoriere nicht die signale deines Körpers
-- Proklamiertes Chillen hat nicht geklappt
-- Schottland im Grauschleier, Alleine sein, Es dauert
-- Bewerbungen im Summer
 - Blick nach vorne (Kai)
-- überforderung zugeben
-- Stellen auf die ich Bock habe (und die nicht auf dem Schirm hatte) 
+- überforderung zugeben. 18.08
+- Schottland im Grauschleier, Alleine sein, Es dauert
+- Proklamiertes Chillen hat nicht geklappt
+- Bewerbungen im Summer
+-- Zeitpunkt
+-- Stellen auf die ich Bock habe (und die nicht auf dem Schirm hatte) 
 
 ## 2024?
 
@@ -130,6 +149,7 @@ zusammen mit [Julian](/thema/julian/)
 -- TAM: Jürgen, Gosia, die Olis, Sarah, Stefan, Julia, Markus, Markus
 --- Sebastian
 -- Misc: Kai und Tobias, Daniel
+- Für Jobs: Patrick, Jenny, Dominik und Martin
 -- Tribe: Klaus, Matthias, Katja, Heike und Markus 
 -- Hansjörg (EnBW) und, Marie + Nico (HDI)
 - DB Systel1: Michael. 
@@ -139,3 +159,8 @@ zusammen mit [Julian](/thema/julian/)
 [^b-curve]: [The Burnout-Growth Curve](https://www.linkedin.com/feed/update/urn:li:activity:7104554982787452928/)
 [^b-org]: [The High Burnout Organization](https://www.linkedin.com/pulse/high-burnout-organization-nick-petrie/)
 [^b-ind]: [Indiviual Burnout Factors](https://www.linkedin.com/posts/nick-petrie-1b60156_why-do-some-hard-workers-burnout-and-others-activity-6967925751706787840-qVj_/)
+[^klemm]: Klemmfokus nach Tom Andreas, Teil des sogennannten *Stuck State* im NLP.  
+[^stuck]: 
+
+*[TAM]: Tribe Agile Master
+*[NLP]: Neuro-Linguistische Programmieren
