@@ -1,6 +1,5 @@
 ---
 title: NLP Practitioner
-permalink: /nlp-practitioner.html
 layout: post
 tags:
 - NLP
@@ -11,7 +10,6 @@ tags:
 - Learnings
 - Danksagung
 image: /assets/imgs/nlp-practitioner-zertifkat-florian-latzel-web.png
-last_modified_at: 2024-01-01
 ---
 {% responsive_image figure: true
 path: assets/imgs/nlp-practitioner-zertifkat-florian-latzel-web.png 

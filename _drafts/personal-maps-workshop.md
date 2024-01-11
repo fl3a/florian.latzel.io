@@ -1,6 +1,5 @@
 ---
 title: Personal Maps Workshop
-permalink: /personal-maps-workshop.html
 tags: 
 - Tuckman Phasenmodell
 - Forming
