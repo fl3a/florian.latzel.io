@@ -1,6 +1,5 @@
 ---
 title: PHP_CodeSniffer und PHP Mess Detector mit Syntastic in Vim integrieren
-permlink: /php-codesniffer-php-mess-detector-syntastic-vim.html
 tags:
 - vim
 - "<?php ?>"
@@ -12,7 +11,6 @@ nid: 1640
 image: "/assets/imgs/bad-code-php-vim-syntastic.png"
 layout: post
 created: 1457865294
-last_modified_at: 2024-01-01
 ---
 <figure role="group">
   <img src="/assets/imgs/bad-code-php-vim-syntastic.png" alt="VIM mit Syntastic for PHP  and Drupal development"/>

@@ -1,15 +1,13 @@
 ---
 title: "Von Gräfrath nach Opladen, 50km entlang der Wupper: Bergischer Weg Etappe 4 + Landrat-Lucas-Weg"
-permalink: wanderung-bergischer-weg-etappe-4-landrat-lucas-weg.html
 layout: post
 tags:
 - Wandern
 - Draussen
 - Fründe
 - Julian
-- Trai
+- Trail
 image: /assets/imgs/50km/landrat-lucas-etappe-4-weg-bach-tal.jpg
-last_modified_at: 2024-01-01
 ---
 {% responsive_image figure: true path: assets/imgs/50km/landrat-lucas-etappe-4-weg-bach-tal.jpg 
 alt: "Landrat-Lucas-Weg, Tal mit Bach oberhalb der Wupper" 

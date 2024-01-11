@@ -10,10 +10,7 @@ tags:
 nid: '1631'
 image: /assets/imgs/doxygen-var-doxygen-notation.png
 title: PHP Properties/Klassenvariablen in Doxygen dokumentieren
-permalink: /php-properties-klassenvariablen-doxygen-dokumentieren.html
 created: 1412931876
-last_modified_at: 2024-01-01
-
 ---
 Zur Dokumentation von Klassenvariablen, auch  Properties[^1] oder Member genannt
 wird in Doxygen[^2] (u.a.) und PHPDoc[^3] (phpDocumentor 2) das Tag `@var`[^4] [^5] verwendet. 
