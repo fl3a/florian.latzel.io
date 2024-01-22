@@ -79,14 +79,23 @@ Dritte Etappe, Inverness als Basis.
 Tagestrips und zu Stephanies Geburtstagsüberraschung beitragen.  
 Von Inverness nach Berlin, noch ein paar Tage für die Hochzeit von Maria und Stefan.
 
-Leith, Trainspotting
-[Moonwake](https://moonwakebeer.com/), [Newbarns](https://moonwakebeer.com/),
- Krishan, Fish'n'Chips, 
-[The Scotch Malt Whisky Society (the Vaults(](https://smws.eu/), Pubs in Leith
+Wir hatten unser Unterkunft in Leith den Handlungsort von Trainspotting.
+Nach dem Checkin in unserem runtergerockten AirBNB 
+besuchten wir die Taprooos von [Moonwake](https://moonwakebeer.com/)
+und [Newbarns](https://newbarnsbrewery.com/), 
+später stieß Krishan zu uns.
+Krishan ist ein Local, 
+den wir auf auf dem Billes[^billies] 2019 kennengelernt haben.
+Nach einer kleinen Stärkung mit Fish and Chips 
+führte uns Krishan in die  
+[The Scotch Malt Whisky Society (the Vaults)](https://smws.eu/) ein. 
+Danach gings es weiter mit seinen Best Pubs of Leith.
 
-Bild Zapfen Teuchters Landing
+**Bild Zapfen Teuchters Landing**
 
-Bild Breakfast, 
+-- Breakfast, Leith, „Greasy Spoon“-Café, Sea Breeze Cafe
+
+**Bild Breakfast** 
 
 -- Breakfast, Leith, „Greasy Spoon“-Café, Sea Breeze Cafe
 
@@ -238,6 +247,7 @@ zusammen mit [Julian](/thema/julian/)
 [^b-curve]: [The Burnout-Growth Curve](https://www.linkedin.com/feed/update/urn:li:activity:7104554982787452928/)
 [^b-org]: [The High Burnout Organization](https://www.linkedin.com/pulse/high-burnout-organization-nick-petrie/)
 [^b-ind]: [Indiviual Burnout Factors](https://www.linkedin.com/posts/nick-petrie-1b60156_why-do-some-hard-workers-burnout-and-others-activity-6967925751706787840-qVj_/)
+[^billies]: [Billies Craft Beer Fest Antwerpen](https://www.billiescraftbeerfest.com/) 
 [^klemm]: **Klemmfokus**, nach [Tom Andreas](/thema/tom/), Teil des sogennannten *Stuck State* im NLP.  
 [^stuck]: **Stuck State**, 
 
