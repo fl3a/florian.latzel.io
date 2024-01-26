@@ -1,12 +1,8 @@
 Sitemap: https://florian.latzel.io/sitemap.xml
 
 User-agent: *
-Disallow:
-Disallow: /tags/
 # Drupal legacy urls
 Disallow: /taxonomy/
 Disallow: /tagadelic/
 Disallow: /fotos/
 Disallow: /blog/
-Disallow: /gnupg-micro-howto/
-Disallow: /git-gitosis-gitweb-the-debian-way/
