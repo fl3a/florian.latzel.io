@@ -64,7 +64,13 @@ RedirectMatch gone ^/assets/imgs/resized/(.*)$
 RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
 
 # Redirect tag urls 
-RedirectMatch gone ^/tags/(.*)
+RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
+RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
+RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
+#RedirectMatch gone ^/tags/(.*)
 
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
