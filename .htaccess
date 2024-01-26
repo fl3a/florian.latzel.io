@@ -54,21 +54,17 @@ RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 # Alte Bild URLs via responsive_image Plugin mit 410
 RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
 
+# Legacy pagination
+RedirectMatch gone ^/page/(.*)
+
+# Bilder
+# Umstellung Responsive image nach JPT (kein 301er möglich)
+RedirectMatch gone ^/assets/imgs/resized/(.*)$
 # Änderung in JPT Setting (output)
 RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
 
-# Redirect legacy urls
-#RedirectMatch 301 ^/blog/(.*)$ /blog.html
-#RedirectMatch 301 ^/taxonomy/term/\d+$ /themen.html
-#RedirectMatch 301 ^/taxonomy/term/\d+/\d+$ /themen.html
-
 # Redirect tag urls 
-#RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/index.html
-#RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/index.html
-#RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/index.html
-#RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/index.html
-#RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/index.html
-#RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/index.html
+RedirectMatch gone ^/tags/(.*)
 
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
