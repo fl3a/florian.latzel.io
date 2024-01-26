@@ -51,6 +51,9 @@ ErrorDocument 404 /404.html
 RewriteCond %{HTTP_HOST} !^florian\.latzel\.io$
 RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 
+# Alte Bild URLs via responsive_image Plugin
+# RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
+
 # Redirect legacy urls
 #RedirectMatch 301 ^/blog/(.*)$ /blog.html
 #RedirectMatch 301 ^/taxonomy/term/\d+$ /themen.html
