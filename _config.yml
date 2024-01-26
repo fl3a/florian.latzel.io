@@ -81,7 +81,7 @@ my_responsive_image:
 # https://rbuchberger.github.io/jekyll_picture_tag/users/configuration/
 picture:
   source: assets/imgs
-  output: assets/imgs/generated
+  output: assets/imgs/
   suppress_warnings: false           # Default
   fast_build: false                  # Default
   ignore_missing_images: delevopment # Default: false
