@@ -1,8 +1,4 @@
-Sitemap: https://florian.latzel.io/sitemap.xml
-
 User-agent: *
-# Drupal legacy urls
-Disallow: /taxonomy/
-Disallow: /tagadelic/
-Disallow: /fotos/
-Disallow: /blog/
+Allow: /
+Disallow: /tags/
+Sitemap: https://florian.latzel.io/sitemap.xml
