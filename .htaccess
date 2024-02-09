@@ -57,6 +57,9 @@ RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
 # Legacy pagination
 RedirectMatch gone ^/page/(.*)
 
+# Legacy tags
+RedirectMatch gone ^/taxonomy/term/\d+/\d+$ 
+
 # Bilder
 # Umstellung Responsive image nach JPT (kein 301er möglich)
 RedirectMatch gone ^/assets/imgs/resized/(.*)$
@@ -64,15 +67,15 @@ RedirectMatch gone ^/assets/imgs/resized/(.*)$
 RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
 
 # Redirect tag urls 
-RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
-RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
-RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
-#RedirectMatch gone ^/tags/(.*)
+#RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
+#RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
+#RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
+RedirectMatch gone ^/tags/(.*)
 
-# Feed
+# Legacy Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
 Redirect 301 /rss.xml /feed.xml
 Redirect 301 /blogs/floh/feed /feed.xml
@@ -85,12 +88,12 @@ RedirectMatch 301 /sitemap.txt /sitemap.xml
 
 # BEGIN Book pages
  
-Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
-RedirectMatch 301 /gnupg-micro-howto/(.*) /gnupg-micro-howto.html
-Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
-RedirectMatch 301 /git-gitosis-gitweb-the-debian-way/(.*) /git-gitosis-gitweb-the-debian-way.html
-Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-RedirectMatch 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/(.*) /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+#Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
+#RedirectMatch 301 /gnupg-micro-howto/(.*) /gnupg-micro-howto.html
+#Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
+#RedirectMatch 301 /git-gitosis-gitweb-the-debian-way/(.*) /git-gitosis-gitweb-the-debian-way.html
+#Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+#RedirectMatch 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/(.*) /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 
 # END Book pages 
 
@@ -101,7 +104,6 @@ Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-ps
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html 
 Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
 Redirect 301 /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html
-Redirect 301 /eine-einfuehrung-scrum-vortrag-auf-dem-drupalcamp-muenchen-2016.html /scrum-45-minuten-drupalcamp-muenchen-2016.html
 # Redirect 301 
 
 # END misc
