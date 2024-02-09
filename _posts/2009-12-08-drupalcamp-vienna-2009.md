@@ -18,7 +18,8 @@ alt: "DCVIE Registration"
 caption: 'Foto von Christian Ziegler, CC BY 2.0 DEED' %}
 Da ich erst am Mittwoch erfahren habe, dass ich aufgrund eines Ausfalls, gute Besserung <a href="http://felix.delattre.de/">Felix</a>, eine Session halten kann,
 konnte ich die ca. 10 Stunden Zugfahrt für die Erstellung der Slides zu 
-*Drupal Shell und Multisites: [drush_multi](http://drupal.org/project/drush_multi) nutzen.
+*[Drupal Shell und Multisites]({% post_url 2009-12-08-drush-und-multisite-drush_multi-dcvie-2009 %}): 
+[drush_multi](http://drupal.org/project/drush_multi)* nutzen.
 
 In Wien angekommen habe ich noch etwa 20 Minuten auf Daniel (dereine) 
 und <a href="http://florian-klare">Floh (SirFiChi)</a>, die mit dem Zug aus Süddeutschland kamen gewartet.
