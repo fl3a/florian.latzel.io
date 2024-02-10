@@ -25,7 +25,6 @@ Danke dafür🙏!
 ## Lesen
 
 - Regen von Ferdinand von Schirach
-- Der Golem von Gustav Meyrink
 - Fragen können wie Küsse schmecken - 
 Systemische Fragetechniken für Anfänger und Fortgeschrittene
 von Carmen Kindl Beilfuß
