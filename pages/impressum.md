@@ -15,7 +15,7 @@ Graf-Adolf-Str. 66
 51065 Köln
    
 **Kontakt**    
-Telefon: +49 221 61 101 24   
+Telefon: <a href="tel:{{ site.phone }}">{{ site.phone }}</a>   
 E-Mail: <{{ site.email }}>  
 OpenPGP Key-ID: [0xC3BA4866](
 /assets/files/3F9F644542DD63E82165D376F4F62999C3BA4866.asc)  
