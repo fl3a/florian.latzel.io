@@ -2,18 +2,24 @@
 title: Impressum
 permalink: /impressum.html
 layout: page
-last_modified_at: 2022-10-31
+last_modified_at: 2024-03-10
 ---
-**Pflichtangaben nach dem Telemediengesetz (TMG) § 5**
-
+**Angaben gemäß § 5 Telemediengesetz**   
 Florian Latzel  
 Graf-Adolf-Str. 66  
 51065 Köln
 
+**Verantwortlich für den Inhalt nach § 55 Abs. 2 Rundfunkstaatsvertrag**   
+Florian Latzel  
+Graf-Adolf-Str. 66   
+51065 Köln
+   
+**Kontakt**    
 Telefon: +49 221 61 101 24   
 E-Mail: <{{ site.email }}>  
 OpenPGP Key-ID: [0xC3BA4866](
 /assets/files/3F9F644542DD63E82165D376F4F62999C3BA4866.asc)  
-Umsatzsteuer-Identifikationsnummer: DE 814 723 558
 
-Verantwortlich für den Inhalt: Florian Latzel
+**Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz**   
+DE 814 723 558
+
