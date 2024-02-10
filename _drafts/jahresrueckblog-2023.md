@@ -10,7 +10,13 @@ tags:
 - Draussen
 - Trauer
 layout: post
+image: /assets/imgs/2023/scotland-2023.jpg
 ---
+{% responsive_image 
+figure: true
+path: 2023/scotland-2023.jpg
+alt: "Straße durch Schottland"
+caption: 'Zwischen Edinburgh und Fort William. Foto Monique Wenta, CC BY-SA 4.0' %}
 
 ## Pinguin in der Wüste
 
@@ -80,59 +86,122 @@ Nach dem Checkin in unserem runtergerockten AirBNB auf der Pilrig Street
 besuchten wir die Taprooms von [Moonwake](https://moonwakebeer.com/)
 und [Newbarns](https://newbarnsbrewery.com/).
 Später stieß Krishan zu uns.
-Krishan ist ein Local aus Edinburgh
+Kishan ist ein Local aus Edinburgh
 den wir auf auf dem Billes[^billies] 2019 kennengelernt haben.
 Nach einer kleinen Stärkung mit Fish and Chips 
 führte uns Krishan in die  
 [The Scotch Malt Whisky Society (the Vaults)](https://smws.eu/) ein. 
 Danach gings es weiter mit seinen Best Pubs of Leith.
 
-**Bild Zapfen Teuchters Landing**
+{% responsive_image
+figure: true
+path: 2023/monique-behind-the-bar-teuchters-landing.jpg
+alt: 'Monique hinterm Tresen im Teuchters Landing' %}
 
+{% responsive_image
+figure: true
+path: 2023/full-scotch-breakfast-sea-breeze-cafe-leith-edinburgh.jpg
+alt: 'Full scotch breakfast im Sea Breeze Cafe, Leith Walk, Edinburgh'
+caption: 'Full Scotch Breakfast im Sea Breeze Cafe, Leith Walk. Foto Monique Wenta, CC BY-SA 4.0' %}
 
--- Breakfast, Leith, „Greasy Spoon“-Café, Sea Breeze Cafe
-
-**Bild Breakfast** 
+-- Breakfast, Leith, à la „Greasy Spoon“, Sea Breeze Cafe
 
 
 Water of Leith Walk, Royal Botanic Garden Edinburgh,  National Museum of Scotland, Greyfriars Kirkyard, Jolly Judge Pub,
 [The Scotch Malt Whisky Society in der Queen Street ](https://smws.eu/)
 
+{% responsive_image
+figure: true
+path: 2023/scotch-malt-whisky-society-queen-street-monique-florian.jpg
+alt: 'Whisky probieren in der Scotch Malt Whisky Society, Queen Street, Edinburgh'
+caption: 'Monique und ich verkosten Whisky in der Scotch Malt Whisky Society, Queen Street. Foto &copy; Kishan' %}
 
-
-Bild Malt 1
-
-Bild Malt 2 [The Scotch Malt Whisky Society in der Queen Street ](https://smws.eu/)
+{% responsive_image
+figure: true
+path: 2023/scotch-malt-whisky-society-queen-street-kishan-monique.jpg
+alt: 'Über Whisky fachsimpeln in der Scotch Malt Whisky Society, Queen Street, Edinburgh'
+caption: 'Kishan und Monique reden über Whisky, Scotch Malt Whisky Society, Queen Street.' %}
 
 - Leihwagen, Automatic + Linksverkehr, Verspätung, on the Road
 einen Roadtrip durch die Highlands zu meiner Schwester und Familie nach Inverness.
 
-Bild on the Road
+{% responsive_image
+figure: true
+path: 2023/on-the-road-in-scotland.jpg
+alt: 'Ein Straße in Schottland zwischen Edinburgh und Fort Wiliam.'
+caption: 'On the Road, Richtung Fort Wiliam. Foto Monique Wenta, CC BY-SA 4.0' %}
 
--- Doune Castle
-- Fort William/Ben Nevis,
+
+-- Doune Castle, Ritter der Kokosnuss
+- Fort William/Ben Nevis
+
+{% responsive_image
+figure: true
+path: 2023/ben-nevis-half-way-loch.jpg
+alt: 'Das Half Way Loch, Ben Nevis'
+caption: 'Das Half Way Loch, Ben Nevis. Foto Monique Wenta, CC BY-SA 4.0' %}
+
+
+
 Single Trail nach Glen Roy
 
 - Aviemore/Glenmore, An Lochan Uaine (Green Loch), Cairngorm Mountain
 
-- Dritte Etappe  Inverness. Basis für Tagestrips.
-- Moray Firth,- Black Isle Brewery
-- Geburtstag Gairloch (vorab gebucht), Essen, Greifvogel
- und zu Stephanies Geburtstagsüberraschung beitragen.  
 
-Bilder Loch Alt An Daraic
+{% responsive_image
+figure: true
+path: 2023/ness-inverness.jpg 
+alt: 'Die Ness und Inverness'
+caption: 'Die Ness und Inverness. Foto Monique Wenta, CC BY-SA 4.0' %}
 
-Bild Meer           
+Dritte Etappe  Inverness. Basis für Tagestrips.
+Moray Firth,- Black Isle Brewery
+
+Geburtstag Gairloch (vorab gebucht),
+{% responsive_image
+figure: true
+path: 2023/mountain-trail-blick-auf-loch-maree.jpg 
+alt: 'Mountain Trail, Blick auf Loch Maree' %}
+
+{% responsive_image
+figure: true
+path: 2023/mountain-trail-beinn-eighe.jpg 
+alt: 'Mountain Trail, Beinn Eighe' %}
+
+{% responsive_image
+figure: true
+path: 2023/loch-alt-an-daraic-mountain-trail..jpg
+alt: 'Loch Alt-An Daraic, Mountain Trail'
+caption: 'Loch Alt An Daraic. Foto Monique Wenta, CC BY-SA 4.0' %}
+
+{% responsive_image
+figure: true
+path: 2023/nordsee-horizont-gairloch.jpg
+alt: 'Nordsee Horizont bei Gairloch'
+caption: 'Blick auf die Nordsee bei Gairlloch. Foto Monique Wenta, CC BY-SA 4.0' %}
+
+Essen, Greifvogel
+und zu Stephanies Geburtstagsüberraschung beitragen.  
+
+
 
 - Dundreggan Rewilding Centre, https://visitdundreggan.co.uk/
 nach  Eilean Donan Castle
 
+{% responsive_image
+figure: true
+path: 2023/eilean-donan-castle-bruecke-monique.jpg
+alt: 'Monique auf der Brücke von Eilean Donan Castle' %}
 
-Bild Monique Eilean Donan Castle
 
 Von Inverness nach Berlin, noch ein paar Tage für die Hochzeit von Maria und Stefan.
 
-Bild Hochzeit
+{% responsive_image
+figure: true
+path: 2023/hochzeit-maria-stefan.jpg
+alt: 'Hochzeit'
+caption: 'Hochzeit von Maria und Stefan in Berlin Köpenick. Foto Monique Wenta, CC BY-SA 4.0'  %}
+
 
 
 ## Nextlevelshit
