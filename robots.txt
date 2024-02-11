@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /tags/
 Sitemap: https://florian.latzel.io/sitemap.xml
