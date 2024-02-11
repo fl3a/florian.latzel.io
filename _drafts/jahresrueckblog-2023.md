@@ -165,17 +165,6 @@ alt: 'Mountain Trail, Blick auf Loch Maree' %}
 
 {% responsive_image
 figure: true
-path: 2023/mountain-trail-beinn-eighe.jpg 
-alt: 'Mountain Trail, Beinn Eighe' %}
-
-{% responsive_image
-figure: true
-path: 2023/loch-alt-an-daraic-mountain-trail..jpg
-alt: 'Loch Alt-An Daraic, Mountain Trail'
-caption: 'Loch Alt An Daraic. Foto Monique Wenta, CC BY-SA 4.0' %}
-
-{% responsive_image
-figure: true
 path: 2023/nordsee-horizont-gairloch.jpg
 alt: 'Nordsee Horizont bei Gairloch'
 caption: 'Blick auf die Nordsee bei Gairlloch. Foto Monique Wenta, CC BY-SA 4.0' %}
@@ -206,6 +195,13 @@ caption: 'Hochzeit von Maria und Stefan in Berlin Köpenick. Foto Monique Wenta,
 
 ## Nextlevelshit
 
+{% responsive_image
+figure: true
+path: 2023/verlobungsringe-rheinsteig.jpg 
+alt: 'Gemalte Verlobungsringe'
+caption: 'Verlobungsringe. Heiratsantrag auf dem Rheinsteig. Foto Monique Wenta, CC BY-SA 4.0' %}
+
+
 Bild Ringe Rheinsteig 
 
 - Fast 5 Jahre zusammen, lebten seit 3 1/2 Jahren zusammen, mit 3 Todesfällen und Corona genug Krisen.
@@ -214,6 +210,12 @@ Bild Ringe Rheinsteig
 - der eine Moment
 
 ## Endless Vacation II[^ev1]
+
+{% responsive_image
+figure: true
+path: 2023/nudelsosse-gaskocher-zelt.jpeg
+alt: 'Nudelsoße auf Campinggaskocher, Zelt an der Seite'
+caption: 'Nudelsoße auf Gaskocher. Foto Mark Lundershausen &copy;' %}
 
 - Leipzig für Jans Abschied
 - SAFe SM
@@ -244,7 +246,10 @@ Bild Ringe Rheinsteig
 
 ## Herbst
 
-Bild Pilzkorb
+{% responsive_image
+figure: true
+path: 2023/korb-voll-maronen-roehrlinge.jpg
+alt: 'Korb voller Maronenröhrlingen' %}
 
 - DB Systel
 - Kiel Familienfeier
@@ -261,7 +266,19 @@ Bild Pilzkorb
 
 ## Abschiede
 
+{% responsive_image
+figure: true
+path: 2023/jan-caracan-2022.jpg
+alt: 'Jan und Wir im Caracan im Sommer 2022.' %}
+
+
 - Jan
+
+{% responsive_image
+figure: true
+path: 2023/auf-den-schultern-von-tio-1980.jpg
+alt: 'Ich auf den Schulttern von Tio. 1980.' %}
+
 - Tio, Karl Ingwer
 - Tia, MYRIAN
 
@@ -281,6 +298,11 @@ Bild Pilzkorb
 - Beste Anschaffungen des Jahres: Trailrunningshuhe, Meditationskissen
 
 ## 2024?
+
+{% responsive_image
+figure: true
+path: 2023/sleaford-mods-koeln-muelheim-2023.jpg
+alt: 'Die Sleaford Mode in Köln-Mülheim, Oktober 2023' %}
 
 - Im Job und in meiner Rolle ankommen
 - Das [Scout Seminar](https://www.wildnistraining.de/seminare-camps/scout/)
