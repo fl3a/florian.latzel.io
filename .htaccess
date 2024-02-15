@@ -98,13 +98,16 @@ RedirectMatch 301 /sitemap.txt /sitemap.xml
 # END Book pages 
 
 # BEGIN misc
+
 Redirect 301 /ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren /2015/03/01/ueberprfung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren.html
 Redirect 301 /php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren /2016/03/13/php_codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren.html
 Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-psm1 /neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html 
 Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
 Redirect 301 /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html
-# Redirect 301 
+
+Redirect gone /ueber.html
+Redirect gone /wiki.ubuntuusers.de/GnuPG
 
 # END misc
 
