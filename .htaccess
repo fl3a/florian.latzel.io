@@ -59,21 +59,23 @@ RedirectMatch gone ^/page/(.*)
 
 # Legacy tags
 RedirectMatch gone ^/taxonomy/term/\d+/\d+$ 
+# Redirect tag urls 
+RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
+RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
+RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
+#RedirectMatch gone ^/tags/(.*)
+
+# Legacy blog urls
+RedirectMatch 301 ^/blog/(.*)$ /$1
 
 # Bilder
 # Umstellung Responsive image nach JPT (kein 301er möglich)
 RedirectMatch gone ^/assets/imgs/resized/(.*)$
 # Änderung in JPT Setting (output)
 RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
-
-# Redirect tag urls 
-#RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
-#RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
-#RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
-#RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
-#RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
-#RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
-RedirectMatch gone ^/tags/(.*)
 
 # Legacy Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
@@ -86,16 +88,6 @@ RedirectMatch 301 /sitemap.txt /sitemap.xml
 
 # END Rules 
 
-# BEGIN Book pages
- 
-#Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
-#RedirectMatch 301 /gnupg-micro-howto/(.*) /gnupg-micro-howto.html
-#Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
-#RedirectMatch 301 /git-gitosis-gitweb-the-debian-way/(.*) /git-gitosis-gitweb-the-debian-way.html
-#Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-#RedirectMatch 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/(.*) /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-
-# END Book pages 
 
 # BEGIN misc
 
@@ -108,6 +100,10 @@ Redirect 301 /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentiere
 
 Redirect gone /ueber.html
 Redirect gone /wiki.ubuntuusers.de/GnuPG
+
+Redirect 301 /angebot/coaching.html /coaching
+Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
+Redirect 301 /florian-latzel.html /ueber-mich.html
 
 # END misc
 
