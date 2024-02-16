@@ -46,29 +46,30 @@ ErrorDocument 404 /404.html
 
 # BEGIN Rules
 
+# Domain
 # Redirect all requests with HTTP_HOST != florian.latzel.io 
 # to florian.latzel.io
 RewriteCond %{HTTP_HOST} !^florian\.latzel\.io$
 RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 
+# Bilder
 # Alte Bild URLs via responsive_image Plugin mit 410
 RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
 
-# Legacy pagination
+# Pagination
 RedirectMatch gone ^/page/(.*)
 
-# Legacy tags
-RedirectMatch gone ^/taxonomy/term/\d+/\d+$ 
-# Redirect tag urls 
+# Tags
 RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
 RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
 RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
-#RedirectMatch gone ^/tags/(.*)
+# RedirectMatch gone ^/tags/(.*)
+RedirectMatch gone ^/taxonomy/term/\d+/\d+$ 
 
-# Legacy blog urls
+# Blog urls
 RedirectMatch 301 ^/blog/(.*)$ /$1
 
 # Bilder
@@ -77,9 +78,10 @@ RedirectMatch gone ^/assets/imgs/resized/(.*)$
 # Änderung in JPT Setting (output)
 RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
 
-# Legacy Feed
+# Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
-Redirect 301 /rss.xml /feed.xml
+# Redirect 301 /rss.xml /feed.xml
+Redirect gone /rss.xml
 Redirect 301 /blogs/floh/feed /feed.xml
 
 # Sitemap
@@ -88,22 +90,27 @@ RedirectMatch 301 /sitemap.txt /sitemap.xml
 
 # END Rules 
 
-
-# BEGIN misc
-
+# 301er
 Redirect 301 /ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren /2015/03/01/ueberprfung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren.html
 Redirect 301 /php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren /2016/03/13/php_codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren.html
 Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-psm1 /neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html 
 Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
 Redirect 301 /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html
+Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 
+# 410er
 Redirect gone /ueber.html
 Redirect gone /wiki.ubuntuusers.de/GnuPG
-
-Redirect 301 /angebot/coaching.html /coaching
-Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
-Redirect 301 /florian-latzel.html /ueber-mich.html
+Redirect gone /blog
+Redirect gone /kontakt
+Redirect gone /rss.xml
+#Redirect gone /book/export/html/667 # /gnupg-micro-howto.html
+#Redirect gone /book/export/html/978 # /git-gitosis-gitweb-the-debian-way.html
+Redirect gone /angebot/coaching.html 
+Redirect gone /angebot/wildnistraining.html
+Redirect gone /florian-latzel.html 
 
 # END misc
 
