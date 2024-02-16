@@ -7,7 +7,7 @@ Präsentationen, Podcasts, Sessions und Interviews
 
 ## 2022
 
-- 2022-09: Leadershiptraining goes wild[^lead], agiLE Barcamp, Leipzig
+- 2022-09: Leadershiptraining goes wild, agiLE Barcamp, Leipzig
 - 2022-03: [Codes und schmerzlos - Scrum Master](
 https://open.spotify.com/episode/1CLjuetb79gnhK6V7lVd4g) (Podcast)
 
@@ -19,7 +19,7 @@ https://open.spotify.com/episode/1CLjuetb79gnhK6V7lVd4g) (Podcast)
 
 ## 2019
 
-- 2019-10; Vom Stein des Sisyphos und Seedbombs[^sys-il], agILe barcamp, Ilmenau
+- 2019-10; Vom Stein des Sisyphos und Seedbombs, agILe barcamp, Ilmenau
 - 2019-09: [Vom Stein des Sisyphos und Seedbombs](
 /2019/09/22/rueckblick-auf-das-4-agile-leipzig-barcamp.html#von-stein-des-sisyphos-und-seedbombs), 
 agiLE barcamp, Leipzig
@@ -48,7 +48,7 @@ drupalcamp.ruhr, Essen
 ## 2017
 
 - 2017-11: Agiles Onboarding[^onboarding], Scrumtisch  Köln
-- 2017-10: Neues Team — Was nun[^neu1] [^neu2], Scrumtisch Köln
+- 2017-10: Neues Team — Was nun, Scrumtisch Köln
 
 ## 2016
 
@@ -114,9 +114,6 @@ Fußnoten
 [^onboarding]: Session "Agiles Onboarding", Scrumtisch Köln: <https://twitter.com/fl3a/status/930894977533607936>
 [^bassets-camp]: mitternachtssession #bassets #drupalcamping #dam für tagsüber to hot <https://twitter.com/reinblau/status/363779316955353089>
 [^cebit]: CMSGarden - CeBIT 2013 - Drupal am Tag der Administration <https://www.youtube.com/watch?v=LSzIFz4-u5c>
-[^sys-il]: Fotokopien unserer Sessions zu @rewedigital Meetings und Tools als kleine Bausteine, die immer wieder verändert werden können. #bcagile19 <https://twitter.com/fl3a/status/1188096216778858497>
-[^neu1]: Heute #scrumtischkoeln und ich trau mich mal #team #scrum <https://twitter.com/fl3a/status/920730960643133441>
-[^neu2]: Neues #Team -- was nun (und was tun)? #teambuilding #scrum #tuckmann usw. <https://twitter.com/fl3a/status/920731690519101440>
 [^scrum-lmu]: Video Aufzeichnung der Session <https://videoonline.edu.lmu.de/de/node/9207>
 [^lead]: Miro: Sessionboard agiLE Barcamp 2022, Sonntag, Anliegen <https://miro.com/app/board/uXjVPTz2JXo=/?moveToWidget=3458764534350041383&cot=10>
 [^dcgn]: Session Proposal "Multisite System Maintanance": <https://web.archive.org/web/20090205041755/http://drupalcamp.de/node/45>
