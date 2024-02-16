@@ -19,18 +19,19 @@ Todo: Einwilligung zur Nutzung der Logos einholen
 * Inhalt
 {:toc}
 
-Für Referenzen als **Scrum Master und Coach**, 
-sowie Schlüsselprojekte und Kunden aus über einer Dekade als freiberuflicher **IT Berater** 
-siehe [Curriculum Vitae](https://florian.latzel.io/cv/).      
-**Code** und [**Open Source**](/tags/open-source/) Contributions 
-findest du auf meinen [drupal.org](https://www.drupal.org/u/fl3a) 
-und [github](https://github.com/fl3a) Account.
+## Als Coach 
+
+- Mitglied des Coach Pools, AXA (01.2023 - 06.2023)
+- Agile Team Coach 
+(Scrum Master, Tribe Agile Master, Agility Master, etc) (07.2016 - heute)
 
 ## Als Facilitator
 
 - Outdoor-Facilitator, [walkaboutyou](https://walkaboutyou.org) (10.2021 - heute)
   - u.a. für die  Community-Building-Walks der STARTPLATZ ACCELERATOR Batches in 2022[^ab1] [^ab2]
 - Zusammenarbeit und Teambuildung
+  - div Workshops und Retrospektiven zur Verbesserung der tribeübergreifenden Zusammenarbeit    ,   
+AXA (08.2022 - 06.2023)
   - div. Retrospektiven, REWE digital und REWE GROUP (2017 - 2022)
   - div. Teambuildbuildings, REWE digital und REWE Group  (2020 - 2022)
   - Team Wide Agreements, IT Verticals, REWE digital (11.2018)
@@ -41,10 +42,11 @@ und [github](https://github.com/fl3a) Account.
 - (Wieder)Aufbau und Professionalisierung der Moderatorengruppe, REWE digital (2020)
 - Nachhaltigkeit 2.0 im Web, Kreativworkshop, REWE Group (10.2019)
 - Open Space 
+  - Boxenstop der S & I Company, ca. 25 Personen, DB Systel (10.2023)
   - CMS Garden Unconference, remote, englisch (03.2021)
   - [drupalcamp.ruhr](/2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html), 
-    ca. 250 Teilnehmer, englisch (03.2018)
-  - Reinblau Team Retreats, 15-20 Teilnehmer (05.2017 - 05.2018)
+    ca. 250 Personen, englisch (03.2018)
+  - Reinblau Team Retreats, 15-20 Personen (05.2017 - 05.2018)
 
 ## Als Trainer
 
@@ -72,26 +74,15 @@ u.a. für die [Naturzeitclub](https://naturzeit.club/) Coaches (02.2022 - heute)
    - UNIX System V und Shellskriping, In-House Training, IAL CAMPUS (07.2008 - 08.2008)
    - Linux, Vorbereitung auf die Zertifizierungen des LPI, IAL und DAA (2007 - 2009)
 
-{% comment %}
-## Kunden 
+## Als IT-Berater
 
-Ich war für über 50 Kunden aus verschiedenen Branchen tätig.
+Schlüsselprojekte und Kunden aus über einer Dekade als freiberuflicher IT-Berater
+findest du in meinem [Curriculum Vitae](https://florian.latzel.io/cv/).
+Code und [Open Source](/thema/open-source/) Contributions 
+findest du auf meinen [drupal.org](https://www.drupal.org/u/fl3a) 
+und [github](https://github.com/fl3a) Account.
 
-- darunter AXA, REWE digital, paragraph eins, 
-Telefunken, MYTOYS GROUP, Hubert Burda Media, 
-Deutsche Gesellschaft für Auswärtige Politik, Stadt Köln, STARTPLATZ ACCELERATOR, 
-Berlin Tourismus & Kongress GmbH, Rechenzentrum der Finanzverwaltung NRW, 
-Wirtschaftsförderung Land Brandenburg, BerlinOnline Stadtportal GmbH & Co. KG, 
-RESET gemeinnützige Stiftungs-GmbH, Chancenwerk e.V., Dox Box e.V., Platine, Kunstraum BLAST
-- Digitalagenturen wie Digitas Pixelpark AG, 
-]init[ AG für digitale Kommunikation, Silpion GmbH, brainbits GmbH, RMH MEDIA GmbH, 
-DOM Digital Online Media GmbH, pluusdesign GmbH, conceptfour GmbH, 
-TrafficDesign GmbH, erdfisch GbR, motionfx GmbH, UCS Ultima Computer Service GmbH
-- Schulungsanbieter wie bib International College, 
-IAL Institut für angewandte Logistik GmbH, IAL CAMPUS, 
-DAA Deutsche Angestellten-Akademie GmbH, 
-BBQ Baumann Bildung und Qualifizierung GmbH, Eduvision Opleidingen B.V. 
-{% endcomment %}
+Weitere [Projekte][projekte] findest du [hier][projekte]. 
 
 Fußnoten
 {:.footer}
@@ -101,9 +92,12 @@ Fußnoten
 [^ab1]: [Eindrücke von STARTPLATZ ACCELERATOR Batch im Februar 2022](https://z-p3-upload.facebook.com/StartPlatz/posts/4975109995887672)
 [^ab2]: [Eindrücke von STARTPLATZ ACCELERATOR Batch im November 2022](https://www.linkedin.com/feed/update/urn:li:activity:7008421642859077632/)
 
+[projekte]: {% link pages/projekte.md %}
+
 *[IAL]: Institut für angewandte Logistik
 *[BBQ]: Baumann Bildung und Qualifizierung
 *[DAA]: Deutsche Angestellten Akademie
 *[HWW]: How We Workshop
 *[LPI]: Linux Professional Institute
 *[OKR]: Objectives and Key Results
+*[S & I]: Search und Identity
