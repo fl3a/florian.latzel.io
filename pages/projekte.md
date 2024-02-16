@@ -64,10 +64,10 @@ https://web.archive.org/web/20220000000000*/koeln-muelheim.net) (2005 - 2015)
 des [INA - Institut für Neue Arbeit e.V.](https://www.ina-koeln.org/)   
 
 Weitere Projekte von mir findest du auf [drupal.org](
-https://www.drupal.org/user/51103), 
-[Github](
-https://github.com/fl3a?tab=repositories)
-und unter dem [Tag *howto*](/thema/howto/).
+https://www.drupal.org/user/51103)
+und [Github](
+https://github.com/fl3a?tab=repositories).
+Weitere Howtos sind mit [*howto*](/thema/howto/) verschlagwortet.
 
 *[D-A-CH]: Deutschland, Österreich(Austria), Schweiz(Confoederatio Helvetica)
 *[NRW]: Nordrhein-Westfalen
