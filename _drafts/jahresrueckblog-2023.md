@@ -3,11 +3,11 @@ title: Jahresrückblog 2023
 permalink: /jahresrueckblog-2023.html
 tags:
 - Draussen
+- Coaching
 - Scotland
 - Wandern
 - Rheinsteig
 - Craftbeer
-- Draussen
 - Trauer
 layout: post
 image: /assets/imgs/2023/scotland-2023.jpg
@@ -22,50 +22,58 @@ caption: 'Zwischen Edinburgh und Fort William. Foto Monique Wenta, CC BY-SA 4.0'
 
 Als ich meine Fotos der ersten Monate von 2023 so duchging, 
 sah ich nur Arbeitsbilder. 
-Vom Change Management Training, vom TAM Offsite, vom Leadership Offsite
-und von der Retrospektive des Leadership Teams meiner Tribes.
+Vom Change Management Training, vom TAM Offsite
+und vom Leadership Offsite
+sowie der Retrospektive des Leadership Teams meiner Tribes.
 Eine Ausnahme, ein Bild mit einem gelb blühende Gewächs im Vordergrund
 und einem Fachwerkwerkhaus im Hintergrund. 
-Ort unbekannt, wahrscheinlich von einer Wanderung.
+Ort unbekannt, wahrscheinlich von irgendeiner Wanderung.
 So ähnlich war es mit meinen Gedanken in zu dieser Zeit. 
-Die drehten sich auch fast ausschließlich um Arbeit[^b-curve] [^b-ind] 
-und dort fühlte sich wie ein permanenter Kampf an vielen Fronten an.
-Ich war mit meiner Arbeit[^b-org] ziemlich unglücklich.
-Bis zu diesem Zeitpunkt habe ich seit drei Wochen nicht mehr durchgeschlafen.
+Die drehten sich auch fast ausschließlich um Arbeit[^b-curve] [^b-ind]. 
+Ich war mit meiner neuen Rolle, meinen Aufgaben
+und in meiner Umwelt[^b-org] ziemlich unglücklich.
+Das führte mich zu einem Punkt, 
+an dem  ich seit drei Wochen nicht mehr durchgeschlafen habe.
+Ich verlor mich in Gedankenspiralen und bekam einen Klemmfokus[^klemm]. 
 Die Gedanken an Arbeit erzeugten negative Gefühle und wurden Körperlich.
-Gedankenspiralen, Klemmfokus[^klemm], *Stuck State*[^stuck].
 
-Diese Zustände kannte ich  bisher nur aus der Theorie meinen NLP und Coaching Ausbildungen.
-Diese Selbsterfahrung häßlich und ich wollte da schnell wieder raus. 
-Hilfe zur Selbsthilfe. 
-Ich versuchte bei einer Kollegin, 
-meiner Coaching Alumni und meiner Leadership Coachin,
-bei der ich seit 2022 Coachee war, 
-so schnell wie möglich einen Termin für ein Coaching zu bekommen.
-Erster April...   
+Diesen sogenannt Stuck State[^stuck] kannte ich bisher nur 
+aus der Theorie meiner NLP und Coaching Ausbildungen.
+Diese Selbsterfahrung war nicht sonderlich angenehm.
+Ich wollte da schnell wieder raus. 
+Ich suchte mir Hilfe. Hilfe zur Selbsthilfe. 
+Zuerst versuchte ich so schnell wie möglich einen Termin für ein Coaching zu bekommen.
+Trotz verschiedener Optionen wurde es erst der erste April.
 Ende 27. März folgte das nächste Foto mit einer AU. 
-Lange genug ausgehalten. Einmal aus dem Spiel nehmen bitte.
+Lange genug ausgehalten.
 
-Faktotum[^faktotum]
-Ich fragte auch den Arzt, was ich denn tun könnte.
-Er sagte er mir, dass sich etwas Grundlegende Rahmenbedingen, wie die Arbeit ändern müssen
+Im Wartezimmer begann ich Faktotum[^faktotum] zu lesen.
+Auf den ersten Seite kündigte der Protagonist seinen Job
+und verlor kurz darauf den Nächsten.
+Dieser lachse Umgang mit der Arbeit
+und der rauhe und explizite Stil von Bukowski heiterten mich etwas auf.
+Ich fragte den Arzt um rat.
+Er sagte er mir, dass sich grundlegende Rahmenbedingen, 
+wie die Arbeit ändern müssen
 und dass, wenn ich jetzt für einen Urlaub nach Bali fliegen würde,
-dann wäre das Problem mit dem Schlaf schnell wieder weg.
+das Problem mit dem Schlaf dann schnell wieder weg wäre.
 Am nächsten Tag rief ich meine meine Führungskraft an
-und versucht mich und meinen Zustand zuerklären.
+und versucht mich und meinen Zustand zu erklären.
 Ein oder 2 Tage später rief ich bei einem Gesundheitsservice an,
-und bekam schnell einen Termin für eine Beratung, 
-der mir fürs erste geholfen hat und den Kontakt zu einen Coach für weiteres.
+und bekam schnell einen Termin für eine telefonische Beratung, 
+die mir fürs erste geholfen hat 
+und den Kontakt zu einen Coach für weitere Schritte/Behandlung.
 Am Samstag darauf war dann endlich das Coaching bei meiner Coaching Alumi Silke. 
-Sie hatte ihre wahre Mühe meinen Klemmfokus etwas zu lösen 
+Sie hatte ihre wahre Mühe meinen Klemmfokus[^klemm] etwas zu lösen 
 und ein paar Resourcen aus mir raus zu kitzeln.
 
-Obwohl ich gerade nicht mehr im Spiel war, 
-merkte ich, dass meine Gedanken sehr oft um die Arbeit kreisten,
+Obwohl ich zu dem Zeitpunkt krankgeschriben war, 
+merkte ich, dass meine Gedanken immernoch sehr oft um die Arbeit kreisten.
+So taten sie das auch während einer Wanderung auf dem [Natursteig Sieg](
+{%post_url 2022-09-12-natursteig-sieg %}),
 statt den zaghaft ankommenden Frühling und die Ausblicke zu genießen. 
-wie zum Besipiel während einer Wanderung auf dem [Natursteig Sieg]().
-Etwas später, während ich krankgeschrieben war,
-habe ich gemerkt, das der Gedanke einer Kündigung einen Unterschied macht.
+Etwas später in dieser Zeit, habe ich gemerkt, 
+dass der Gedanke an eine Kündigung einen Unterschied macht.
 Als ich nach Ostern wieder auf der Arbeit war kümmerte ich mich um meinen Exit.
 Es lief auf einen Aufhebungsvertrag hinaus. 
 Von da ab, lief es gefühlt schonal wesentlich leichter.
@@ -81,11 +89,12 @@ Im Mai flogen Monique und ich nach Schottland.
 (Der Trip war eigentlich schon für Mai 2020 angedacht.)
 Unsere erster Stop war Edinburgh.
 
-Wir hatten unser Unterkunft in Leith den Handlungsort von Trainspotting.
+Wir hatten unser Unterkunft in Leith,
+dem Handlungsort von Trainspotting.
 Nach dem Checkin in unserem runtergerockten AirBNB auf der Pilrig Street 
 besuchten wir die Taprooms von [Moonwake](https://moonwakebeer.com/)
 und [Newbarns](https://newbarnsbrewery.com/).
-Später stieß Krishan zu uns.
+Später stieß Kishan zu uns.
 Kishan ist ein Local aus Edinburgh
 den wir auf auf dem Billes[^billies] 2019 kennengelernt haben.
 Nach einer kleinen Stärkung mit Fish and Chips 
@@ -214,8 +223,8 @@ Bild Ringe Rheinsteig
 {% responsive_image
 figure: true
 path: 2023/nudelsosse-gaskocher-zelt.jpeg
-alt: 'Nudelsoße auf Campinggaskocher, Zelt an der Seite'
-caption: 'Nudelsoße auf Gaskocher. Foto Mark Lundershausen &copy;' %}
+alt: 'Zwiebeln für die Nudelsoße auf dem Campinggaskocher anschwitzen. Zelt an der Seite.'
+caption: 'Zwiebeln für die Nudelsoße auf dem Campinggaskocher anschwitzen. Foto Mark Lundershausen &copy;' %}
 
 - Leipzig für Jans Abschied
 - SAFe SM
@@ -264,12 +273,12 @@ alt: 'Korb voller Maronenröhrlingen' %}
 --- Schwester besuchen, Weihnachtsmann verschenkt
 --- Kudo Karte und Räucherhäuschen -kerzen
 
-## Abschiede
+## Goodbye
 
 {% responsive_image
 figure: true
 path: 2023/jan-caracan-2022.jpg
-alt: 'Jan und Wir im Caracan im Sommer 2022.' %}
+alt: 'Jan, Lukas, Monique und ich im Caracan, Sommer 2022.' %}
 
 
 - Jan
