@@ -183,7 +183,7 @@ Danke an einige Wegbegleiter aus dieser bewegten und aufregenden Zeit:
 
 Robert, Jeffrey (Jam), Thomas, Jürgen, Daniel, Bettina und Walter
 für eine tolle Zeit bei der *Kölner Drupal User Group*.
-Aus dieser Runde heraus haben wir das [Drupalcamp](thema/drupalcamp/) 
+Aus dieser Runde heraus haben wir das [Drupalcamp](/thema/drupalcamp/) 
 und den Drupal e.V auf die Beine gestellt.
 
 Ramiro, für den Post durch den ich nach Berlin gefunden habe 
@@ -192,7 +192,7 @@ und für das ein oder andere Bier.
 Bob für die Weiterempfehlung nach BerlinOnline und vieles was daraus erwuchs.
 
 Bei BerlinOnline: Andreas für die wirklich geschmeidige Zusammenarbeit 
-und Jens, meinem ersten [Scrum Master](/scrum-master/) 
+und Jens, meinem ersten [Scrum Master](/thema/scrum-master/) 
 für diese erste und positiv besetzte Erfahrung mit Scrum.
 
 Valentin und Natascha für einen Monat Coachsurfing im Berliner Winter 2010[^2010] 
