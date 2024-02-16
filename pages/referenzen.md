@@ -3,19 +3,6 @@ title: Referenzen
 layout: page
 permalink: /referenzen.html
 ---
-{% comment %}
-
-Todo: Einwilligung zur Nutzung der Logos einholen
-
-- Logo REWE digital
-- Logo MYTOYS GROUP
-- Logo visitberlin
-- Logo paragraph eins
-- Logo ]init\[
-- Logo pixelpark
-
-{% endcomment %}
-
 * Inhalt
 {:toc}
 
@@ -30,7 +17,7 @@ Todo: Einwilligung zur Nutzung der Logos einholen
 - Outdoor-Facilitator, [walkaboutyou](https://walkaboutyou.org) (10.2021 - heute)
   - u.a. für die  Community-Building-Walks der STARTPLATZ ACCELERATOR Batches in 2022[^ab1] [^ab2]
 - Zusammenarbeit und Teambuildung
-  - div Workshops und Retrospektiven zur Verbesserung der tribeübergreifenden Zusammenarbeit    ,   
+  - div Workshops und Retrospektiven zur Verbesserung der tribeübergreifenden Zusammenarbeit
 AXA (08.2022 - 06.2023)
   - div. Retrospektiven, REWE digital und REWE GROUP (2017 - 2022)
   - div. Teambuildbuildings, REWE digital und REWE Group  (2020 - 2022)
