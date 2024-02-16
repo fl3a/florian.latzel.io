@@ -107,17 +107,21 @@ figure: true
 path: 2023/monique-behind-the-bar-teuchters-landing.jpg
 alt: 'Monique hinterm Tresen im Teuchters Landing' %}
 
+Ein Full Scotch Breakfast à la „Greasy Spoon“ 
+hilft gegen Hangover und schafft eine gute Grundlage.
+
 {% responsive_image
 figure: true
 path: 2023/full-scotch-breakfast-sea-breeze-cafe-leith-edinburgh.jpg
 alt: 'Full scotch breakfast im Sea Breeze Cafe, Leith Walk, Edinburgh'
 caption: 'Full Scotch Breakfast im Sea Breeze Cafe, Leith Walk. Foto Monique Wenta, CC BY-SA 4.0' %}
 
--- Breakfast, Leith, à la „Greasy Spoon“, Sea Breeze Cafe
 
-
-Water of Leith Walk, Royal Botanic Garden Edinburgh,  National Museum of Scotland, Greyfriars Kirkyard, Jolly Judge Pub,
-[The Scotch Malt Whisky Society in der Queen Street ](https://smws.eu/)
+Als Touristen hatten wir unter anderem die folgenden Attraktionen auf dem Programm: 
+*Water of Leith Walk* zum *Royal Botanic Garden Edinburgh*, das *National Museum of Scotland*
+und *Greyfriars Kirkyard* (inkl. Suche nach Namen aus den Harry Potters Romanen).
+Von Kishan gab es noch viel Kontext, Informationen, weitere Pub Empfehlungen, 
+wie das *Jolly Judge Pub* und den Besuch der *Scotch Malt Whisky Society* in der Queen Street.
 
 {% responsive_image
 figure: true
@@ -131,8 +135,9 @@ path: 2023/scotch-malt-whisky-society-queen-street-kishan-monique.jpg
 alt: 'Über Whisky fachsimpeln in der Scotch Malt Whisky Society, Queen Street, Edinburgh'
 caption: 'Kishan und Monique reden über Whisky, Scotch Malt Whisky Society, Queen Street.' %}
 
-- Leihwagen, Automatic + Linksverkehr, Verspätung, on the Road
-einen Roadtrip durch die Highlands zu meiner Schwester und Familie nach Inverness.
+Am vierten Tag holten wir bei Waverley unseren Leihwagen
+und wir starteten unseren Roadtrip mit Automatik und Linksverkehr
+durch die Highlands zu meiner Schwester und Familie nach Inverness.
 
 {% responsive_image
 figure: true
@@ -140,9 +145,7 @@ path: 2023/on-the-road-in-scotland.jpg
 alt: 'Ein Straße in Schottland zwischen Edinburgh und Fort Wiliam.'
 caption: 'On the Road, Richtung Fort Wiliam. Foto Monique Wenta, CC BY-SA 4.0' %}
 
-
--- Doune Castle, Ritter der Kokosnuss
-- Fort William/Ben Nevis
+Auf dem Weg nach Fort William machten wir einen Abstecher nach Doune Castle (Ritter der Kokosnuss).
 
 {% responsive_image
 figure: true
@@ -151,11 +154,13 @@ alt: 'Das Half Way Loch, Ben Nevis'
 caption: 'Das Half Way Loch, Ben Nevis. Foto Monique Wenta, CC BY-SA 4.0' %}
 
 
+Tag zwei on the Road ging nach Aviemore
+und führte uns zu *Glen Roy*[^gr]. 
+Schon die Single Track Road dort hin war beeindruckend.
 
-Single Trail nach Glen Roy
-
-- Aviemore/Glenmore, An Lochan Uaine (Green Loch), Cairngorm Mountain
-
+An Tag drei machten wir eine kleine Wanderung nach *An Lochan Uaine* (Green Loch)
+und fuhren den Cairngorm Mountain hoch,
+bevor es weiter nach Inverness ging.
 
 {% responsive_image
 figure: true
@@ -351,6 +356,7 @@ zusammen mit [Julian](/thema/julian/)
 [^stuck]: Stuck State 
 [^ev1]: Bezug auf den gleichnamigen Abschnitt **Endless Vacation** aus meinem [Jahresrückblick 2022]({% post_url 2023-02-19-zwanzigzweiundzwanzig %}) 
 [^faktotum]: [Faktotum, wikipedia.org](https://de.wikipedia.org/wiki/Faktotum_(Hilfskraft))
+[^gr]: [Glen Roy auf wikipedia.de](https://de.wikipedia.org/wiki/Glen_Roy)
 
 *[TAM]: Tribe Agile Master
 *[NLP]: Neuro-Linguistische Programmieren
