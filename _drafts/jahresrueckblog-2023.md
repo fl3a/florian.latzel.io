@@ -120,7 +120,7 @@ caption: 'Full Scotch Breakfast im Sea Breeze Cafe, Leith Walk. Foto Monique Wen
 Als Touristen hatten wir unter anderem die folgenden Attraktionen auf dem Programm: 
 *Water of Leith Walk* zum *Royal Botanic Garden Edinburgh*, das *National Museum of Scotland*
 und *Greyfriars Kirkyard* (inkl. Suche nach Namen aus den Harry Potters Romanen).
-Von Kishan gab es noch viel Kontext, Informationen, weitere Pub Empfehlungen, 
+Von Kishan gab es dazu noch viel Kontext, Informationen, weitere Pub Empfehlungen, 
 wie das *Jolly Judge Pub* und den Besuch der *Scotch Malt Whisky Society* in der Queen Street.
 
 {% responsive_image
@@ -135,8 +135,8 @@ path: 2023/scotch-malt-whisky-society-queen-street-kishan-monique.jpg
 alt: 'Über Whisky fachsimpeln in der Scotch Malt Whisky Society, Queen Street, Edinburgh'
 caption: 'Kishan und Monique reden über Whisky, Scotch Malt Whisky Society, Queen Street.' %}
 
-Am vierten Tag holten wir bei Waverley unseren Leihwagen
-und wir starteten unseren Roadtrip mit Automatik und Linksverkehr
+Am vierten Tag holten wir bei der Waverley Station unseren Leihwagen.
+Mit Linksverkehr und Automatik starteten wir unseren Roadtrip
 durch die Highlands zu meiner Schwester und Familie nach Inverness.
 
 {% responsive_image
@@ -145,7 +145,8 @@ path: 2023/on-the-road-in-scotland.jpg
 alt: 'Ein Straße in Schottland zwischen Edinburgh und Fort Wiliam.'
 caption: 'On the Road, Richtung Fort Wiliam. Foto Monique Wenta, CC BY-SA 4.0' %}
 
-Auf dem Weg nach Fort William machten wir einen Abstecher nach Doune Castle (Ritter der Kokosnuss).
+Auf dem Weg nach Fort William machten wir einen Abstecher nach Doune Castle,
+mit der bekanntesten Kulisse von Ritter der Kokosnuss.
 
 {% responsive_image
 figure: true
@@ -153,59 +154,55 @@ path: 2023/ben-nevis-half-way-loch.jpg
 alt: 'Das Half Way Loch, Ben Nevis'
 caption: 'Das Half Way Loch, Ben Nevis. Foto Monique Wenta, CC BY-SA 4.0' %}
 
-
-Tag zwei on the Road ging nach Aviemore
-und führte uns zu *Glen Roy*[^gr]. 
+An Tag zwei führte uns das Tagesziel Aviemore
+nach *Glen Roy*[^gr]. 
 Schon die Single Track Road dort hin war beeindruckend.
 
-An Tag drei machten wir eine kleine Wanderung nach *An Lochan Uaine* (Green Loch)
-und fuhren den Cairngorm Mountain hoch,
-bevor es weiter nach Inverness ging.
+Tag drei starteten wir mit einer kleinen Wanderung nach *An Lochan Uaine* (Green Loch)
+und fuhren den Cairngorm Mountain hoch 
+um die Aussicht zu genießen,
+bevor es weiter nach Inverness zu Stephanie, Falk und Lewis ging.
 
 {% responsive_image
 figure: true
-path: 2023/ness-inverness.jpg 
-alt: 'Die Ness und Inverness'
-caption: 'Die Ness und Inverness. Foto Monique Wenta, CC BY-SA 4.0' %}
+path: 2023/falk-monique-ich-stephanie-inverness-2023.jpeg
+alt: 'Selfie: Falk, Monique, ich und Stephanie in Inverness'
+caption: 'Falk, Monique, ich und Stephanie beim BBQ im Garten, Inverness. Foto Stephanie Kiel &copy;' %}
 
-Dritte Etappe  Inverness. Basis für Tagestrips.
-Moray Firth,- Black Isle Brewery
+Die dritte Etappe unserer Schottland Reise war Inverness. 
+Dort erkundigten wir die Stadt, besuchten die Black Isle Bar
+und machten Tagestrips, wie z.B, zu Moray Firth.
+Und wir besuchten die nahegelegene [*Black Isle Brewery*](
+https://www.blackislebrewery.com/), 
+um uns für das nächste BBQ mit gutem, heimischen Bier einzudecken.
 
-Geburtstag Gairloch (vorab gebucht),
+Ein Teil dieser Etappe war Stephanies Geburtstagsüberaschung:
+Trip nach Gairloch mit Übernachtung, formidablen Essen im Old Inn
+und exklusiver Greifvogelexkursion,
+in die Falk uns vorab einbezogen hat.
 {% responsive_image
 figure: true
-path: 2023/mountain-trail-blick-auf-loch-maree.jpg 
-alt: 'Mountain Trail, Blick auf Loch Maree' %}
+path: 2023/beinn-eighe-mountain-trail-blick-auf-loch-maree.jpg 
+alt: 'Kleine Rast mit Blick auf Loch Maree. Mountain Trail, Beinn Eighe.' %}
 
 {% responsive_image
 figure: true
 path: 2023/nordsee-horizont-gairloch.jpg
 alt: 'Nordsee Horizont bei Gairloch'
-caption: 'Blick auf die Nordsee bei Gairlloch. Foto Monique Wenta, CC BY-SA 4.0' %}
-
-Essen, Greifvogel
-und zu Stephanies Geburtstagsüberraschung beitragen.  
-
-
-
-- Dundreggan Rewilding Centre, https://visitdundreggan.co.uk/
-nach  Eilean Donan Castle
+caption: 'Blick auf die Nordsee bei Gairloch. Foto Monique Wenta, CC BY-SA 4.0' %}
 
 {% responsive_image
 figure: true
 path: 2023/eilean-donan-castle-bruecke-monique.jpg
 alt: 'Monique auf der Brücke von Eilean Donan Castle' %}
 
-
-Von Inverness nach Berlin, noch ein paar Tage für die Hochzeit von Maria und Stefan.
+Von Inverness ging es noch eine paar Tage nach Berlin für die Hochzeit von Maria und Stefan.
 
 {% responsive_image
 figure: true
 path: 2023/hochzeit-maria-stefan.jpg
 alt: 'Hochzeit'
 caption: 'Hochzeit von Maria und Stefan in Berlin Köpenick. Foto Monique Wenta, CC BY-SA 4.0'  %}
-
-
 
 ## Nextlevelshit
 
@@ -233,7 +230,8 @@ caption: 'Zwiebeln für die Nudelsoße auf dem Campinggaskocher anschwitzen. Fot
 
 - Leipzig für Jans Abschied
 - SAFe SM
-- GPG Micro Howto
+- [GPG Micro Howto](
+{% post_url 2008-11-26-gnupg-micro-howto %})
 - Arbeitssuchend. 
 -- 03.07 Arge
 
@@ -311,7 +309,7 @@ alt: 'Ich auf den Schulttern von Tio. 1980.' %}
 - Coaching hat geholfen
 - Beste Anschaffungen des Jahres: Trailrunningshuhe, Meditationskissen
 
-## 2024?
+## 2024
 
 {% responsive_image
 figure: true
