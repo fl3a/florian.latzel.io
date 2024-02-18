@@ -11,7 +11,7 @@ tags:
 - Open Source 
 - "<?php ?>"
 - PostgreSQL
-last_modified_at: 2023-10-03
+last_modified_at: 2024-02-18
 ---
 Installation und Einrichtung von Drupal6, PHP5, PostgreSQL, Apache2, phppgadmin, 
 Suchmaschinenfreundlichen URL's und deutscher Lokalisierung
@@ -488,12 +488,13 @@ lrwxrwxrwx 1 florian server   11 2009-02-27 10:22 6.x -> drupal-6.10
   Nach <a href="http://drupal.org/project/drush_nagios">drush_nagios </a> ausgelagert
 
 #### Dokumentation
-<ul>
-<li>Jedes Kommando besitzt eine Hilfe, z.B. <span class="geshifilter"><code class="text geshifilter-text">drush help multi-drupalupdate</code></span></li>
-<li>zudem gibt es eine <a href="http://is-loesungen.de/docu/drush_multi/index.html" rel="nofollow">drush_multi Doxygen Dokumentation</a>..</li>
-<li><a href="http://de.slideshare.net/fl3a/ddd-drush-multi">Slides zu drush_multi</a> von den drupaldevDays 2010 in München.</li>
-<li><a href="http://de.slideshare.net/fl3a/drush-und-multisite-drushmulti?related=1">Slides zu "Drush und Multisite: drush_multi"</a>, DrupalCamp Vienna 2009</li>
-</ul>
+
+- Jedes Kommando besitzt eine Hilfe, z.B. <span class="geshifilter"><code class="text geshifilter-text">drush help multi-drupalupdate</code></span>
+- <a href="https://web.archive.org/web/20211130214503/https://is-loesungen.de/docu/drush_multi/index.html">drush_multi Doxygen Dokumentation</a>.
+- [Slides zu drush_multi von den drupaldevDays 2010 in München](
+{% link /assets/pdfs/drush_multi-drupaldevdays-2010.pdf %})
+- [Slides zu "Drush und Multisite: drush_multi", DrupalCamp Vienna 2009](
+{% link /assets/pdfs/drush-und-multisite-drush_multi-drupalcamp-vienna-2009.pdf %})
   
 ## Drush in einer Multisite-Umgebung
 
