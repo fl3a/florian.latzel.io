@@ -40,10 +40,6 @@
 
 ErrorDocument 404 /404.html
  
-#
-# Redirects
-#
-
 # BEGIN Rules
 
 # Domain
@@ -60,13 +56,13 @@ RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
 RedirectMatch gone ^/page/(.*)
 
 # Tags
-RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
-RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
-RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
-# RedirectMatch gone ^/tags/(.*)
+#RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
+#RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
+#RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
+RedirectMatch gone ^/tags/(.*)
 RedirectMatch gone ^/taxonomy/term/\d+/\d+$ 
 
 # Blog urls
@@ -80,7 +76,6 @@ RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /asset
 
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
-# Redirect 301 /rss.xml /feed.xml
 Redirect gone /rss.xml
 Redirect 301 /blogs/floh/feed /feed.xml
 
@@ -96,7 +91,6 @@ Redirect 301 /php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integri
 Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-psm1 /neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html 
 Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
-Redirect 301 /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 
