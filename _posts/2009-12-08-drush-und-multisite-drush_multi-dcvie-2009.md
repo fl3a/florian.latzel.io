@@ -13,7 +13,7 @@ nid: 974
 layout: post
 title: 'Drush und Multisite: drush_multi @ dcvie 2009'
 created: 1260285392
-last_modified_at: 2024-02-09
+last_modified_at: 2024-02-18
 image: /assets/imgs/2009-drupalcamp-vienna-florian-latzel-drush_multi-presentation.jpg" 
 ---
 "Drush und Multisite: drush_multi",<br />
@@ -26,6 +26,7 @@ figure: true path: assets/imgs/2009-drupalcamp-vienna-florian-latzel-drush_multi
 alt: "Florian Latzel bei der drush_multi Session, DrupalCamp Vienna, November 2009"
 caption: 'Demonstration des Nagios Kommandos, drush_multi Session, Drupalcamp Wien 2009. Foto © <a href="http://florian-klare.de">Florian Klare</a>'
 %}
-Zu den Slides: <https://www.slideshare.net/fl3a/drush-und-multisite-drushmulti>
+Zu den Slides: [drush-und-multisite-drush_multi-drupalcamp-vienna-2009](
+{% link /assets/pdfs/drush-und-multisite-drush_multi-drupalcamp-vienna-2009.pdf %})
 <!--break-->
 
