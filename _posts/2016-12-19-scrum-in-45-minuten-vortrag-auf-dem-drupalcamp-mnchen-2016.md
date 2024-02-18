@@ -13,7 +13,7 @@ permalink: "/scrum-45-minuten-drupalcamp-muenchen-2016.html"
 layout: post
 title: Scrum in 45 Minuten - Vortrag auf dem Drupalcamp München 2016
 created: 1482169913
-last_modified_at: 2025-02-18
+last_modified_at: 2024-02-18
 image: /assets/imgs/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg
 ---
 <figure>
