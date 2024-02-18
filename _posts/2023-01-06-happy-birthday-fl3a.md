@@ -6,8 +6,8 @@ tags:
 - Open Source
 - Linuxtag
 - just me
-- Drupalcamp
 - Community
+- "Drupal User Group Köln/Bonn"
 - luckow
 - Danksagung
 image: /assets/imgs/linuxtag09/linuxtag-2009-drupal-standparty-ballons.jpg
