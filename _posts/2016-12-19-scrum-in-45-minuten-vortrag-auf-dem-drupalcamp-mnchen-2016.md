@@ -13,7 +13,7 @@ permalink: "/scrum-45-minuten-drupalcamp-muenchen-2016.html"
 layout: post
 title: Scrum in 45 Minuten - Vortrag auf dem Drupalcamp München 2016
 created: 1482169913
-last_modified_at: 2021-04-23
+last_modified_at: 2025-02-18
 image: /assets/imgs/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg
 ---
 <figure>
@@ -58,6 +58,9 @@ Scrum ist leichtgewichtig (im Sinne von Lean) und besteht aus aus einem kleinen 
 nämlich 3 Rollen, fünf Aktivitäten und drei Artefakten.
 
 Die Definition von Scrum und seinen Regeln findest du im offiziellen Scrum-Guide[^sg] beschrieben.
+
+Hier findest du die Slides: [eine-einfuehrung-in-scrum-drupalcamp-munic-2016.pdf](
+{% link /assets/pdfs/eine-einfuehrung-in-scrum-drupalcamp-munic-2016.pdf %})
 
 * * *
 
