@@ -240,6 +240,7 @@ caption: 'Zwiebeln für die Nudelsoße auf dem Campinggaskocher anschwitzen. Fot
 -- 3 Headhunter
 --- mehrfach die gleiche Stelle
 -- 1 Active Sourcing
+-- 150 Emails
 -- 38 Seiten Notizen
 -- Reaktion (Nettoarbeitstage)
 -- 3 Tage schnellste Resonz
@@ -355,6 +356,12 @@ zusammen mit [Julian](/thema/julian/)
 [^ev1]: Bezug auf den gleichnamigen Abschnitt **Endless Vacation** aus meinem [Jahresrückblick 2022]({% post_url 2023-02-19-zwanzigzweiundzwanzig %}) 
 [^faktotum]: [Faktotum, wikipedia.org](https://de.wikipedia.org/wiki/Faktotum_(Hilfskraft))
 [^gr]: [Glen Roy auf wikipedia.de](https://de.wikipedia.org/wiki/Glen_Roy)
+[^hm]: Vom Stress zum Burnout - Verstehen, Vorbeugen, Verarbeiten, 12 Stufen eines Burnouts nach Freudenberger & North https://hanjo-meinhardt.de/blog/2024/02/16/Vom-Stress-zum-Burnout-Verstehen-Vorbeugen-Verarbeiten/ 
+
+
+
+
+
 
 *[TAM]: Tribe Agile Master
 *[NLP]: Neuro-Linguistische Programmieren
