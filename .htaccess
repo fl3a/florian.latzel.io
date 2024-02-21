@@ -65,7 +65,7 @@ RedirectMatch gone ^/page/(.*)
 RedirectMatch gone ^/tags/(.*)
 RedirectMatch gone ^/taxonomy/term/\d+/\d+$ 
 
-# Blog urls
+# Drupal blog urls
 RedirectMatch 301 ^/blog/(.*)$ /$1
 
 # Bilder
@@ -76,8 +76,8 @@ RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /asset
 
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
-Redirect gone /rss.xml
 Redirect 301 /blogs/floh/feed /feed.xml
+Redirect gone /rss.xml
 
 # Sitemap
 RedirectMatch 301 ^/sitemap$ /sitemap.xml
@@ -91,6 +91,7 @@ Redirect 301 /php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integri
 Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-psm1 /neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html 
 Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
+# Drupal book pages
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 
@@ -99,12 +100,10 @@ Redirect gone /ueber.html
 Redirect gone /wiki.ubuntuusers.de/GnuPG
 Redirect gone /blog
 Redirect gone /kontakt
-Redirect gone /rss.xml
-#Redirect gone /book/export/html/667 # /gnupg-micro-howto.html
-#Redirect gone /book/export/html/978 # /git-gitosis-gitweb-the-debian-way.html
 Redirect gone /angebot/coaching.html 
 Redirect gone /angebot/wildnistraining.html
 Redirect gone /florian-latzel.html 
+#Redirect gone /book/export/html/667 # /gnupg-micro-howto.html
+#Redirect gone /book/export/html/978 # /git-gitosis-gitweb-the-debian-way.html
 
-# END misc
 
