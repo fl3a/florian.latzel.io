@@ -212,13 +212,8 @@ path: 2023/verlobungsringe-rheinsteig.jpg
 alt: 'Gemalte Verlobungsringe'
 caption: 'Verlobungsringe. Heiratsantrag auf dem Rheinsteig. Foto Monique Wenta, CC BY-SA 4.0' %}
 
+Nach fast fünf Jahren zusammensein und dreieinhalb Jahren zusammenleben.
 
-Bild Ringe Rheinsteig 
-
-- Fast 5 Jahre zusammen, lebten seit 3 1/2 Jahren zusammen, mit 3 Todesfällen und Corona genug Krisen.
-- Rheinsteig 
-- Ringgröße
-- der eine Moment
 
 ## Endless Vacation II[^ev1]
 
@@ -228,33 +223,26 @@ path: 2023/nudelsosse-gaskocher-zelt.jpeg
 alt: 'Zwiebeln für die Nudelsoße auf dem Campinggaskocher anschwitzen. Zelt an der Seite.'
 caption: 'Zwiebeln für die Nudelsoße auf dem Campinggaskocher anschwitzen. Foto Mark Lundershausen &copy;' %}
 
-- Leipzig für Jans Abschied
-- SAFe SM
-- [GPG Micro Howto](
-{% post_url 2008-11-26-gnupg-micro-howto %})
-- Arbeitssuchend. 
--- 03.07 Arge
+Ich machte die Jobsuche ab Juli zu meinem Job.
+Der Status Arbeitssuchend und die damit verbundenen Tätigkeit  
+rückte fast alles in den Hintergrund.
+Die Reaktionen auf die Bewerbungen (in Nettoarbeitstagen)
+lagen zwischen  3 und 29 Tagen. 
+Der Ausreisser liegt bei 147 Tagen (24.02.2024).
+Laut Kalender waren das 22 Termine 
+und in Summe 27:05 Stunden.
+Dabei betrug der Kürzeste Termin 5 Minuten
+und die Längsten 3 Stunden.
+Das erzeugte 150 Emails und und 38 Seiten Notizen.
+Und trotz der Notizen kam verwechselt ich manchmal Stellen. 
 
-- Jobsuche
--- 17 Bewerbungsprozesse
--- 3 Headhunter
---- mehrfach die gleiche Stelle
--- 1 Active Sourcing
--- 150 Emails
--- 38 Seiten Notizen
--- Reaktion (Nettoarbeitstage)
--- 3 Tage schnellste Resonz
--- 29 Tage Langsamste    
--- 114 Tag (02.01.2024) 
--- 22 Termine, 27:05h lt Cal
---- 5 Min. der Kürzeste
---- 180 (2x) die längste
---- i.d.R 3/W
---- Vertrag am 30 im Briefkasten
 
-- SAFe PO
+Mitte August hatte ich das mündliche Angebot von der Systel.
+Bis zun 
+Ein meinem --- Vertrag am 30 im Briefkasten
 
-- Kölnpfad beendet
+
+Der zweite Handlungsstrang Wandern- Kölnpfad beendet
 - KEV, Wandern bis zu 40Km/w
 
 ## Herbst
