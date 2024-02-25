@@ -1,6 +1,6 @@
 ---
 date: 2008-11-26 07:43
-last_modified_at: 2023-07-08 16:07
+last_modified_at: 2024-02-25
 tags:
 - howto 
 - gpg 
@@ -1130,7 +1130,7 @@ für das erste Feedback zum Skript und die Checks auf Ubuntu, openSuSE 11 und Wi
 
 ## Fußnoten
 
-[^1]: [Public-Key Verschlüsselungsverfahren](https://de.wikipedia.org/wiki/Public-Key-Verschl%C3%BCsselungsverfahren)
+[^1]: [Asymmetrische Verschlüsselung einfach erklärt](https://www.privacytutor.de/blog/asymmetrische-verschluesselung/)
 [^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel)
 [^3]: [Privater Schlüssel](https://de.wikipedia.org/wiki/Geheimer_Schl%C3%BCssel)
 [^rfc4880]: [RFC 4880 - OpenPGP Message Format](https://datatracker.ietf.org/doc/html/rfc4880)
