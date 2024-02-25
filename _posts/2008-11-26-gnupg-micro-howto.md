@@ -49,7 +49,7 @@ Inhaltverzeichnis
 
 ## Konzept und Terminologie
 
-GnuPG verwendet das sog. Public-Key-Verschlüsselungsverfahren[^1], 
+GnuPG verwendet das sogenannte *Asymmetrische Verschlüsselungsverfahren[^1]*, 
 das heißt, dass es 2 Arten von Schlüssel gibt, 
 Öffentliche- (Public Keys)[^2] und Private Schlüssel (private Keys)[^3]. 
 Jeder Schlüssel hat sein dazugehöriges Gegenstück, allgemein als Schlüsselpaar bezeichnet.
@@ -60,7 +60,7 @@ und muss deinem Kommunikationspartner zur Verfügung stehen,
 damit er diese Aktionen ausführen kann. 
 Öffentliche Schlüssel können z.B. 
 über  [Keyserver](#arbeiten-mit-keyservern) 
-oder [WKD](#web-key-directory-wkd) verbreitet werden.
+oder [Web Key Directory (WKD)](#web-key-directory-wkd) verbreitet werden.
 
 Der private Schlüssel wird hingegen zum Signieren 
 und Entschlüsseln genutzt und sollte, 
@@ -559,20 +559,11 @@ debug-level basic
 
 WKD[^wkd] ist einfaches Konzept zur Verteilung öffentlicher PGP-Schlüssel via HTTPS.
 
-Viele Mailcients[^mcl] wie z.B. Thunderbird, Outlook (GpgOL) 
-oder Failmail (via OpenKeychain) nutzen WKD automatisch 
-und einige Email-Provider (die cooleren[^emailwkd]) haben WKD im Funktionsumfang. 
-
-WKD bietet zwei Methoden um öffentliche Schlüssel Schlüssel abzurufen,
+WKD bietet zwei Methoden um öffentliche Schlüssel abzurufen,
 die *direct method* und die *advanced method*. 
 Neben einer unterschiedlichen Verzeichnisstruktur 
 benötigt die *advanced method* zusätzlich eine Subdomain namens *openpgpkey* 
 und einen entsprechenden TXT-Eintrag hierfür.   
-
-Die folgende Schritte befassen sich mit der 
-[Einrichtung von WKD in der direct method](#wkd-einrichten). 
-
-### WKD einrichten 
 
 Die *WKD direct method* nutzt folgendes Schema für URLs:    
 
@@ -580,6 +571,15 @@ Die *WKD direct method* nutzt folgendes Schema für URLs:
 
 für florian@latzel.io ergibt sich daraus die folgende URL:   
 <https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb>
+
+Viele Mailcients[^mcl] wie z.B. Thunderbird, Outlook (GpgOL) 
+oder Failmail (via OpenKeychain) nutzen WKD automatisch 
+und einige Email-Provider (die cooleren[^emailwkd]) haben WKD im Funktionsumfang. 
+
+Die folgende Schritte befassen sich mit der 
+[Einrichtung von WKD in der direct method](#wkd-einrichten). 
+
+### WKD einrichten 
 
 So sieht die entsprechende Verzeichnisstruktur,
 für meine im Beispiel genutzte Emailadresse florian@latzel.io aus.   
