@@ -8,6 +8,7 @@ tags:
 - Julian
 - Trail
 image: /assets/imgs/50km/landrat-lucas-etappe-4-weg-bach-tal.jpg
+last_modified_at: 2024-02-25
 ---
 {% responsive_image figure: true path: assets/imgs/50km/landrat-lucas-etappe-4-weg-bach-tal.jpg 
 alt: "Landrat-Lucas-Weg, Tal mit Bach oberhalb der Wupper" 

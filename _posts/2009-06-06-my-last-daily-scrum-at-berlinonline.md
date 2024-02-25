@@ -10,7 +10,7 @@ permalink: "/my-last-daily-scrum-at-berlinonline.html"
 layout: post
 title: My last Daily Scrum at BerlinOnline
 image: /assets/imgs/daily-scrum-berlinonline.jpg
-last_modified_at: 2022-03-22
+last_modified_at: 2024-02-25
 ---
 {%responsive_image path: assets/imgs/daily-scrum-berlinonline.jpg
 figure: true alt: "Mein letztes Daily Scrum bei BerlinOnline" 

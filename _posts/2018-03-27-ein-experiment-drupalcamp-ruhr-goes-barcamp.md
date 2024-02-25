@@ -11,6 +11,7 @@ tags:
 nid: 1648
 layout: post 
 created: 1522137428
+last_modified_at: 2024-02-25
 image: /assets/imgs/dcruhr18/haben-alle-das-session-board-fotografiert-tag2-rokr-dcruhr18.jpg
 ---
 <figure role="group">

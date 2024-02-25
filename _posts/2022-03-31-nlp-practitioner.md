@@ -10,6 +10,7 @@ tags:
 - Learnings
 - Danksagung
 image: /assets/imgs/nlp-practitioner-zertifkat-florian-latzel-web.png
+last_modified_at: 2024-02-25
 ---
 {% responsive_image figure: true
 path: assets/imgs/nlp-practitioner-zertifkat-florian-latzel-web.png 

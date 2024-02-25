@@ -10,6 +10,7 @@ tags:
 - Selbstorganisation
 - Session
 image: /assets/imgs/florian-latzel-mark-eichberger-podcast.png
+last_modified_at: 2024-02-25
 ---
 {% responsive_image path: assets/imgs/florian-latzel-mark-eichberger-podcast.png
 figure: true alt: "Florian Latzel und Mark Eichberger haben Spaß in einer Videokonferenz"

@@ -12,7 +12,7 @@ tags:
 - Danksagung
 image: /assets/imgs/linuxtag09/linuxtag-2009-drupal-standparty-ballons.jpg
 date: 2023-01-06 21:24
-last_modified_at: 2023-01-07 19:44
+last_modified_at: 2024-02-25
 ---
 {% responsive_image: path: assets/imgs/linuxtag09/linuxtag-2009-drupal-standparty-ballons.jpg figure: true
 alt: 'Drupalstand auf dem Linuxtag 2009'.

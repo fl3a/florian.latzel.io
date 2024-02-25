@@ -8,7 +8,8 @@ nid: 340
 layout: post
 title: LPIC 2 - 2 Tage vor Weihnachten
 created: 1166812247
-image: /assets/imgs/lpic-2-certification-florian-latzel.png 
+image: /assets/imgs/lpic-2-certification-florian-latzel.png
+last_modified_at: 2024-02-25
 ---
 {% responsive_image path: assets/imgs/lpic-2-certification-florian-latzel.png
 figure: true alt: "LPIC 2 Zertifikat Florian Latzel" %}

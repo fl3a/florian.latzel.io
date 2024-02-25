@@ -14,6 +14,7 @@ nid: 1650
 permalink: /neues-team-was-nun.html
 title: Neues Team - Was nun?
 created: 1526567413
+last_modified_at: 2024-02-25
 ---
 <figure role="group">
 {% responsive_image alt: "Flipchart Tuckman Phasenmodell, Teambildung" path: assets/imgs/dcruhr18/florian-latzel-neues-team-was-nun-dcruhr18-jkl.jpg %}

@@ -9,7 +9,7 @@ tags:
 - SEO
 layout: post
 image: /assets/imgs/fehler-umleitungsfehler.png
-last_modified_at: 2021-05-23
+last_modified_at: 2024-02-25
 ---
 {%responsive_image 
 figure: true path: assets/imgs/fehler-umleitungsfehler.png 

@@ -10,7 +10,7 @@ tags:
 - Coaching
 layout: post
 image: /assets/imgs/kernthemen.jpg
-last_modified_at: 2021-06-19 10:18
+last_modified_at: 2024-02-25
 ---
 {% responsive_image figure: true path: assets/imgs/kernthemen.jpg
 alt: "Meine Kernthemen. Anfang Mai 2021." %}

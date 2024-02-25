@@ -9,6 +9,7 @@ tags:
 layout: post
 date: 2022-04-25 22:53
 image: /assets/imgs/gears-of-industry.jpg
+last_modified_at: 2024-02-25
 ---
 {% responsive_image figure: true 
 path: assets/imgs/gears-of-industry.jpg 

@@ -10,7 +10,7 @@ nid: 1635
 permalink: "/neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html"
 layout: post
 created: 1456837559
-last_modified_at: 2021-02-29
+last_modified_at: 2024-02-25
 image: /assets/imgs/psm1-scrum-org-certificate-florian-latzel.png
 ---
 {% responsive_image path: assets/imgs/psm1-scrum-org-certificate-florian-latzel.png

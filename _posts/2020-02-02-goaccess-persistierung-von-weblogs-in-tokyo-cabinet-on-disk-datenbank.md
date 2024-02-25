@@ -13,7 +13,7 @@ tags:
 - Datenbank 
 title: "GoAccess: Inkrementelle Persistierung von Access Logs in Tokyo Cabinet On-Disk Datenbank"
 image: /assets/imgs/goaccess-web-frontend.png
-last_modified_at: 2023-10-03
+last_modified_at: 2024-02-25
 ---
 <figure role="group">
  {% responsive_image path: assets/imgs/goaccess-web-frontend.png 

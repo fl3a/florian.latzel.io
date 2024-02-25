@@ -6,6 +6,7 @@ tags:
 - Learnings
 - Kampfkunst
 image: /assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png 
+last_modified_at: 2024-02-25
 ---
 {%responsive_image path: assets/imgs/tapak-suci-anzug-siswa-satu-guertel-melati.png
 alt: "Tapak Suci Anzug mit gelbem Grürtel und einer Melati"  %}
