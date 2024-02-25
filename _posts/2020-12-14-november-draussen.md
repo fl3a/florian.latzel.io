@@ -10,7 +10,7 @@ tags:
 - Zertifikat
 - Internet
 image: assets/imgs/november-draussen/waldmorgen.jpg
-last_modified_at: 2023-02-19
+last_modified_at: 2024-02-25
 ---
 {% responsive_image figure: true
 caption: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach. Foto © Tina Urban." 

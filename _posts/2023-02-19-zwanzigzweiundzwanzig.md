@@ -11,6 +11,7 @@ tags:
 - Projekt Googlefrei
 - Craft Beer
 image: /assets/image/2022/monique-schaukel-nazare-sitio.jpg
+last_modified_at: 2024-02-25
 ---
 {%responsive_image path: assets/imgs/2022/monique-schaukel-nazare-sitio.jpg
 figure: true alt: "Monique auf der Schaukel mit Blick auf Nazaré, Portugal" %}

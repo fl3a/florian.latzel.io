@@ -10,7 +10,7 @@ tags:
 - uberspace
 - netzaffe
 image: /assets/imgs/carbon-calculator-netzaffe-76-percent.png
-last_modified_at: 2023-10-03
+last_modified_at: 2024-02-25
 ---
 
 Netzwerkdaten vorher:[^fnet] [^front]

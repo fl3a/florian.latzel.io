@@ -12,7 +12,7 @@ tags:
 - cron
 layout: post
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2023-10-03
+last_modified_at: 2024-02-25
 ---
 <figure>
   {% responsive_image path: assets/imgs/goaccess-ncurces-console-screenshot.png alt: "Screenshot: GoAccess Web-Analytics auf der Konsole" %}

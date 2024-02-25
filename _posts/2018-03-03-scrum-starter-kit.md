@@ -8,7 +8,7 @@ nid: 1645
 layout: post
 title: Scrum Starter Kit
 created: 1520099535
-last_modified_at: 2021-10-11
+last_modified_at: 2024-02-25
 image: /assets/imgs/florian-latzel-scrumalliance-cspo-certificate.png
 ---
 {% responsive_image figure: true 

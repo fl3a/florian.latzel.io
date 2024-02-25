@@ -12,7 +12,7 @@ tags:
 - Draussen
 - Session
 image: /assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg
-last_modified_at: 2023-10-03
+last_modified_at: 2024-02-25
 ---
 <figure>
 {% responsive_image path: assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg alt: "Stecktafel, Aufschrift: Welcome to Barcamp #4⭐😘😄" %}
@@ -37,14 +37,14 @@ Das ist mein Erfahrungsbericht zur \#agileipzig 2019 und zu den von mir besuchte
 * toc
 {:toc}
 
-# Tag 1
+## Tag 1
 
-## Keynote 1
+### Keynote 1
 
 Nadine Nobile begann Tag 1 mit *New Pay – Alternative Arbeits- und Vergütungsmodelle*,
 setzte Impulse für Diskussionen und lieferte einen erergiereichen Auftakt für die Konferenz.
 
-## Das Agile Mindset
+### Das Agile Mindset
 
 Conrad Giller über einen pragmatischen Ansatz für ein philosophisches Thema:
 
@@ -54,7 +54,7 @@ Conrad Giller über einen pragmatischen Ansatz für ein philosophisches Thema:
 > die beste Lösung 
 > für alle Beteiligten[^mindset]
 
-## Remote
+### Remote
 
 @die_netzente auf twitter[^remoteQuote]:
 
@@ -68,7 +68,7 @@ ihre Erfahrungen über die Einbindung des REWE digital Außenstandorts Ilmenau.
 
 Hier Das Fotokoll der Remote Session[^remoteFotokoll].
 
-## Kampf aus dem Suppenkoma
+### Kampf aus dem Suppenkoma
 
 <figure role="group">
   <img src="/assets/imgs/agileipzig19/energizer-schnick-schnack-schnuck-tournament-agileipzip19-philipp-staat.jpg" />
@@ -83,7 +83,7 @@ Energizer/Warmups, um wieder in Fahrt zu kommen. Die folgenden hat Philipp uns e
 - Menschliches Vier gewinnt
 - Das IMHO beste, Overload[^overload]
 
-## Personal Maps
+### Personal Maps
 
 {% responsive_image path: assets/imgs/agileipzig19/florian-latzel-personalmaps-agileleipzig19.jpg
 figure: true alt: "Florian Latzel zu Personal Maps Session auf dem Agile Leipzig Barcamp 2019"
@@ -96,14 +96,14 @@ Ich habe versucht, sehr viel auf Interaktion und Co-Kreativität zu setzten,
 so sind weitere Formate für das Teambuilding, insbesondere das Kennenlernen zu Tage gefördert worden.
 Diese findest Du auch im Fotokoll zu meiner Personal Maps Session[^personalmapsFotokoll].
 
-## Sexy Ingnoranz
+### Sexy Ingnoranz
 
 *Sexy Ingnoranz, du kannst nur mit denen arbeiten, die wollen.
 Was ist mit den anderen?*
 
 Eine Fishbowl Debatte von und mit Alexander Krause.
 
-## Social Event
+### Social Event
 
 <figure role="group">
   <img src="/assets/imgs/agileipzig19/cliffs-bier-im-becher-agileipzig19-friederike-schmidt.jpg" />
@@ -115,9 +115,9 @@ von [Cliffs Brauwerk](https://www.cliffs-brauwerk-leipzig.de/), ausklingen,
 führten interessante Gespräche und schmiedeten bereits eine gemeinsame 
 Session-Idee[^session-idee] für den nächsten Tag.
 
-# Tag 2
+## Tag 2
 
-## Keynote 2
+### Keynote 2
 
 <figure role="group">
   <img src="/assets/imgs/agileipzig19/wilddueck-in-aktion-agileipzig19-alexander-zabara.jpg" />
@@ -138,12 +138,12 @@ Die Essenz des Agile Manifesto nach Wild Dueck:
 
 Hier findest Du auch noch Visuelle Notizen von Aline zu Wild Dueck's Keynote[^wilddueck-gn].
 
-## Meetings ohne Nerv
+### Meetings ohne Nerv
 
 Ein Erfahrungsbericht und Austausch von Simon zu hocheffizienten agilen Hands on Meetings,
 was zu einer Reduzierung der Meetingdauer um den Faktor 3 geführt hat.
 
-## Von Stein des Sisyphos und Seedbombs
+### Von Stein des Sisyphos und Seedbombs
 
 <figure role="group">
   <img src="/assets/imgs/agileipzig19/vom-stein-des-sisyphos-und-seedbombs-agileipzig19-friederike-schmidt.jpg" />
@@ -160,13 +160,13 @@ durch die Themen gegangen.
 
 Hier das Fotokoll und Mitschrift zu unserer Seedbomb Session[^seedbombs].
 
-## Mission Impossible? Agilisierung von Führungsteams
+### Mission Impossible? Agilisierung von Führungsteams
 
 Ein sehr Interessantes Thema von Jana und Christian mit zwei noch interessanteren Fallbeispielen. 
 Bereits zu Beginn der Gruppenarbeit merkte ich, dass mir dieses Format gerade nicht zusagt
 und befolgte *das Gesetz der Zwei Füße*.
 
-## Flight Level -> Produktboard
+### Flight Level -> Produktboard
 
 Eine Session über die Erfahrung mit der Einführung von *Kanban Flight Level* 
 nach Klaus Leopold[^flightlevel] von Dagmar.
@@ -174,7 +174,7 @@ nach Klaus Leopold[^flightlevel] von Dagmar.
 Eine deutliche Verbesserung erzielte in ihrem Beispiel die Einführung eines Level 2 Board (Koordination),
 also die Darstellung der Interaktion der Teams.
 
-## Consens vs Consent
+### Consens vs Consent
 
 Entscheidungsfindung im Team, Hashtag \#killthedotvoting. 
 Eine Session Nicole Röttger und Tal Uscher, zu Konsenz, Konsent und konkreten Methoden dahin zu kommen.
@@ -194,7 +194,7 @@ und wir spielten den Prozess mit Hilfe dem Beispiel Wandern einmal durch.
 Als nächstes nahmen wir *Systemisches Konsensieren[^sk]*, welches sich gut für mehrere Optionen eignet,
 und verwendeten als Beispiel die Suche nach einem geeigneteten Zeitpunkt für den Team-Event.
 
-# Kleiner Werbeblock: AgILE Barcamp am 26.10 in Ilmenau 
+## Kleiner Werbeblock: AgILE Barcamp am 26.10 in Ilmenau 
 
 An dieser Stelle möchte ich noch Werbung für das [von REWE digital und proagile.de veranstaltete 
 AgILe Barcamp 2019, welches am 26. Oktober 2019 in Ilmenau, Thüringen](
@@ -205,7 +205,7 @@ Tickets und weitere Informationen findest du hier[^AgILE].
 
 Ich würde mich freuen euch dort zu sehen!
 
-# Fazit
+## Fazit
 
 Die ursprüngliche Idee ging auf. Statt auf meine fünfte AgileCologne zu gehen, 
 habe ich was neues ausprobiert und hatte eine tolle Konferenz in Leipzig.
@@ -238,7 +238,7 @@ für die Durchführung und das Möglichmachen!
 Andere Rückblicke und Wahrnehmungen findest du auch bei Vanessa Giese[^vg],
 Saskia Brintrup[^sb] und Hanjo Meinhardt[^bunix] im Blog, liebe Grüße.
 
-# Fußnoten und Weiterführendes
+## Fußnoten und Weiterführendes
 
 *[WOL]: Working Out Loud
 *[CTO]: Chief Technical Officer

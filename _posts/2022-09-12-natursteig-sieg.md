@@ -8,6 +8,7 @@ tags:
 - Julian
 - Danksagung
 image: /assets/imgs/natursteigsieg/natursteig-sieg-etappe-13-jungwald-florian.jpg
+last_modified_at: 2024-02-25
 ---
 {%responsive_image 
 path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-13-jungwald-florian.jpg

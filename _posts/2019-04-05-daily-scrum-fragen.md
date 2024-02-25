@@ -8,7 +8,7 @@ tags:
 - Agile
 - Team
 layout: post
-last_modified_at: 2022-02-22
+last_modified_at: 2024-02-25
 image: /assets/imgs/daily-scrum-questions-title.jpg
 ---
 {% responsive_image path: assets/imgs/daily-scrum-questions-title.jpg
