@@ -24,7 +24,7 @@ Danke dafür🙏!
 
 ## Lesen
 
-- Regen von Ferdinand von Schirach
+- Schuld von Ferdinand von Schirach
 - Fragen können wie Küsse schmecken - 
 Systemische Fragetechniken für Anfänger und Fortgeschrittene
 von Carmen Kindl Beilfuß
