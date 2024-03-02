@@ -97,8 +97,8 @@ Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 
-Redirect 301 /blog /blog.html
-Redirect 301 /kontakt
+Redirect 301 /blog /blog.htm
+Redirect 301 /kontakt /kontakt.html
 
 Redirect 301 /angebot/coaching.html /coaching.html 
 Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
