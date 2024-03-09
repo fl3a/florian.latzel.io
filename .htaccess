@@ -53,7 +53,7 @@ RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
 
 # Pagination
-RedirectMatch gone ^/page/(.*)
+# RedirectMatch gone ^/page/(.*)
 
 # Tags
 #RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
@@ -78,7 +78,6 @@ RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
 Redirect 301 /blogs/floh/feed /feed.xml
 Redirect gone /rss.xml
 
-/taxonomy/term/# Sitemap
 RedirectMatch 301 ^/sitemap$ /sitemap.xml
 RedirectMatch 301 /sitemap.txt /sitemap.xml
 
