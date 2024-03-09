@@ -56,13 +56,13 @@ RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
 RedirectMatch gone ^/page/(.*)
 
 # Tags
-RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
-RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
-RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
-RedirectMatch ^/taxonomy/term/(.*)$ /themen.html
+#RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
+#RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
+#RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
+#RedirectMatch ^/taxonomy/term/(.*)$ /themen.html
 
 # Drupal blog urls
 RedirectMatch 301 ^/blog/(.*)$ /$1
@@ -78,7 +78,7 @@ RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
 Redirect 301 /blogs/floh/feed /feed.xml
 Redirect gone /rss.xml
 
-# Sitemap
+/taxonomy/term/# Sitemap
 RedirectMatch 301 ^/sitemap$ /sitemap.xml
 RedirectMatch 301 /sitemap.txt /sitemap.xml
 
