@@ -309,20 +309,22 @@ alt: 'Ich auf den Schulttern von Tio. 1980.' %}
 ## Erkenntnisse
 
 Coaching als Coachee
-- Ignoriere nicht die signale deines Körpers
 Wir arbeiten unter anderem daran, 
 was ich tun kann, damit so etwas nicht mehr passiert.
 Und daran, welches Umfeld ich ich für mich brauche um wirksam zu sein,
-- überforderung zugeben. 18.08
+Level bzw. Phasen
 
 - Autofahren in Schottland trotz Linkverkehr entspannt. Automatik. 70 mph (umgerechnet 115 km/h),
  die Meiste Zeit Landstraßen sind auf 60 mph (umgerechnet 100 km/h)
-- Schottland im Grauschleier, Alleine sein, Es dauert
+
+- Es dauert, Alleine sein,Schottland im Grauschleier, 
+- überforderung zugeben. 18.08
 
 - Proklamiertes Chillen hat nicht geklappt
 - Bewerbungen im Summer
 -- Zeitpunkt
 -- Stellen auf die ich Bock habe (und die nicht auf dem Schirm hatte) 
+
 
 - Beste Anschaffungen des Jahres: Trailrunningshuhe, Meditationskissen
 
