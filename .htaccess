@@ -53,16 +53,16 @@ RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
 
 # Pagination
-# RedirectMatch gone ^/page/(.*)
+RedirectMatch gone ^/page/(.*)
 
 # Tags
-#RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
-#RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
-#RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
-#RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
-#RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
-#RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
-#RedirectMatch ^/taxonomy/term/(.*)$ /themen.html
+RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
+RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
+RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
+RedirectMatch ^/taxonomy/term/(.*)$ /themen.html
 
 # Drupal blog urls
 RedirectMatch 301 ^/blog/(.*)$ /$1
@@ -104,5 +104,3 @@ Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
 
 Redirect 301 /florian-latzel.html /ueber-mich.html
 Redirect 301 /ueber.html /ueber-mich.html
-
-
