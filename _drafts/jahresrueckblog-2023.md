@@ -78,9 +78,6 @@ Als ich nach Ostern wieder auf der Arbeit war kümmerte ich mich um meinen Exit.
 Es lief auf einen Aufhebungsvertrag hinaus. 
 Von da ab, lief es gefühlt schonal wesentlich leichter.
 Es folgten die Coachings über den Gesundheitsservice mit Silke.
-Wir arbeiten unter anderem daran, 
-was ich tun kann, damit so etwas nicht mehr passiert.
-Und daran, welches Umfeld ich ich für mich brauche um wirksam zu sein,
 in diesem Kontext droppte Maike den *"Pinguin in der Wüste"*.
 
 ## Schottland-Berlin
@@ -226,6 +223,7 @@ caption: 'Zwiebeln für die Nudelsoße auf dem Campinggaskocher anschwitzen. Fot
 Ich machte die Jobsuche ab Juli zu meinem Job.
 Der Status Arbeitssuchend und die damit verbundenen Tätigkeit  
 rückte fast alles in den Hintergrund.
+Ich ging bei den Bewerbungen auf Quantität.
 Die Reaktionen auf die Bewerbungen (in Nettoarbeitstagen)
 lagen zwischen  3 und 29 Tagen. 
 Der Ausreisser liegt bei 147 Tagen (24.02.2024).
@@ -234,16 +232,25 @@ und in Summe 27:05 Stunden.
 Dabei betrug der Kürzeste Termin 5 Minuten
 und die Längsten 3 Stunden.
 Das erzeugte 150 Emails und und 38 Seiten Notizen.
-Und trotz der Notizen kam verwechselt ich manchmal Stellen. 
+Und trotz der Notizen verwechselte ich manchmal Daten der verschiedenen Prozesse.
 
+Mitte August hatte ich das mündliche Angebot von der DB Systel.
+Obwohl es das beste Gesamtpaket war 
+habe ich mir vorgenommen, 
+mir bis ich den Vertrag in der Hand halte,
+weitere, für mich ebenfalls vielversprechende Optionen weiterzuverfolgen.
+An meinem Geburtstag war dann der Vertrag im Briefkasten.
 
-Mitte August hatte ich das mündliche Angebot von der Systel.
-Bis zun 
-Ein meinem --- Vertrag am 30 im Briefkasten
-
-
-Der zweite Handlungsstrang Wandern- Kölnpfad beendet
-- KEV, Wandern bis zu 40Km/w
+Der zweite Handlungsstrang in Sommer war das Wandern.
+Ich habe den [Kölnpfad](
+https://www.koelner-eifelverein.de/koelnpfad/) 
+beendet. 
+Und als ich mit ihm fertig war,
+bin ich die weiteren Wanderwege des [Kölner Eifelverein](
+https://www.koelner-eifelverein.de/unsere-wanderwege/) 
+gewandert. 
+Teilweise 3 Touren die Woche.
+Von jeder Tour habe ich einen Strauß Johanneskraut mitgebracht,  
 
 ## Herbst
 
@@ -252,16 +259,32 @@ figure: true
 path: 2023/korb-voll-maronen-roehrlinge.jpg
 alt: 'Korb voller Maronenröhrlingen' %}
 
-- DB Systel
-- Kiel Familienfeier
--- Manage Agile
--- Boxenstopp
---- 7 Kudo Karten
--- Letzter Arbeitstag
---- 2 OnOOnes in FFM
----Etappenwechel Data Vision
---- Weihnachtsnmarkt
--- Auschlafen im Hotel
+Im Oktober habe ich meinen Job bei der DB Systel angefangen.
+Die vielen Kommentare auf meinen Linkedin Post
+und auch das Onboarding haben mich nochmal bestärkt,
+dass meine Entscheidung für die Systel eine gute war.
+Eine Feuertaufe und gleichzeitig wichtig für meinen Einstand 
+war die Planung und Facilitierung des *Search & Identity* Offsites Ende Oktober.
+Dort habe ich 7 Kudo Karten bekommen, wovon vier für Moderation waren.
+
+Ebenfalls in Oktober war die Kiel Familienfeier.
+Für mich das erste Zusammenkommen seit Volker Beerdigung.
+Zwischen Bierseeligkeit und Zusammensein und Erinnerungen 
+die mittlerweile um die 30 Jahre zurückliegen
+kam der ein oder andere melancholiche Gedanke an Mama und Volker hoch.
+
+Der Letzte Arbeitstag führt mich wieder nach FFM.
+Ich machte zwei OneOones, 
+das Wetter lud förmlich zum Gehen am Main ein.
+Der ursprüngliche Grund der Reise war derzweite Teil: 
+der Etappenwechel von Data Vision, 
+und der Ausklang auf dem Weihnachtsnmarkt,
+später bei *Dim Sungs*. 
+Eine schöne Gelegenheit weitere Kollegen kennenzulernen und etwas zu netzwerken. 
+
+Mein Weihnachtsurlaub startete mit Auschlafen im Hotel,
+einen ausgedehnten Frühstück und ebenso ausgedehnten Spaziergang nach Bornheim
+zum Laden meiner Schwester[^koeterei].
 --- Schwester besuchen, Weihnachtsmann verschenkt
 --- Kudo Karte und Räucherhäuschen -kerzen
 
@@ -285,17 +308,22 @@ alt: 'Ich auf den Schulttern von Tio. 1980.' %}
 
 ## Erkenntnisse
 
+Coaching als Coachee
 - Ignoriere nicht die signale deines Körpers
-- Blick nach vorne (Kai)
+Wir arbeiten unter anderem daran, 
+was ich tun kann, damit so etwas nicht mehr passiert.
+Und daran, welches Umfeld ich ich für mich brauche um wirksam zu sein,
+- überforderung zugeben. 18.08
+
 - Autofahren in Schottland trotz Linkverkehr entspannt. Automatik. 70 mph (umgerechnet 115 km/h),
  die Meiste Zeit Landstraßen sind auf 60 mph (umgerechnet 100 km/h)
 - Schottland im Grauschleier, Alleine sein, Es dauert
+
 - Proklamiertes Chillen hat nicht geklappt
 - Bewerbungen im Summer
 -- Zeitpunkt
 -- Stellen auf die ich Bock habe (und die nicht auf dem Schirm hatte) 
-- überforderung zugeben. 18.08
-- Coaching hat geholfen
+
 - Beste Anschaffungen des Jahres: Trailrunningshuhe, Meditationskissen
 
 ## 2024
@@ -345,7 +373,8 @@ zusammen mit [Julian](/thema/julian/)
 [^faktotum]: [Faktotum, wikipedia.org](https://de.wikipedia.org/wiki/Faktotum_(Hilfskraft))
 [^gr]: [Glen Roy auf wikipedia.de](https://de.wikipedia.org/wiki/Glen_Roy)
 [^hm]: Vom Stress zum Burnout - Verstehen, Vorbeugen, Verarbeiten, 12 Stufen eines Burnouts nach Freudenberger & North https://hanjo-meinhardt.de/blog/2024/02/16/Vom-Stress-zum-Burnout-Verstehen-Vorbeugen-Verarbeiten/ 
-
+[^koeterei]: Die Köterei, Nützliches, Gesundes und Schönes für den Hund, Spessartstraße 20, 60385 Frankfurt-Bornheim
+<https://www.instagram.com/die_koeterei/>
 
 
 
