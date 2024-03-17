@@ -2,7 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2024-01-04
+last_modified_at: 2024-03-17
 ---
 ## Neuer Job
 
@@ -24,6 +24,8 @@ Danke dafür🙏!
 
 ## Lesen
 
+- Agile Teams lösungsfokussiert coachen 
+von Verenika Kotrba und Ralph Miarka
 - Schuld von Ferdinand von Schirach
 - Fragen können wie Küsse schmecken - 
 Systemische Fragetechniken für Anfänger und Fortgeschrittene
