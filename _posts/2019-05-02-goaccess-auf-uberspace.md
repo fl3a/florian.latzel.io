@@ -306,7 +306,7 @@ Noch mehr Beispiele findest du via `goaccess --help` oder in der Manpage[^man].
 [^ureact]: <https://twitter.com/ubernauten/status/1124018556922888196>
 [^1-4]: <https://goaccess.io/release-notes#release-1.4>
 [^toast1]: [toast - packageless package manager for Unix systems and non-root users](https://wiki.uberspace.de/system:toast) 
-[^toast2]: [toast homepage]([http://www.toastball.net/toast/)
+[^toast2]: [toast homepage](http://www.toastball.net/toast/)
 [^logs]: [Webserver Logs, access_log](https://wiki.uberspace.de/webserver:logs#access_log)
 [^man]: [GoAccess Manual Page](https://goaccess.io/man)
 *[FLOSS]: Free/Libre Open Source Software

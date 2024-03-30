@@ -46,8 +46,8 @@ und somit den CO2-Ausstoß dieser Website mimimieren.
 
 Ich beschreibe die Installation und Konfiguration von *jekyll-responsive-images[^resp]*,
 im Zusammenspiel mit einem neuen Template und einen Lazyload Skript, 
-eingebunden in [Jekylls](/thema/jekyll.html) *Standardtheme* miminma[^minima]
-unter [Linux](/thema/linux.html), hier CentOS auf [uberspace](/thema/uberspace) 7.<!--break-->
+eingebunden in [Jekylls](/thema/jekyll/) *Standardtheme* miminma[^minima]
+unter [Linux](/thema/linux/), hier CentOS auf [uberspace](/thema/uberspace/) 7.<!--break-->
 
 * toc
 {:toc}
