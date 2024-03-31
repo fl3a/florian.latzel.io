@@ -51,6 +51,12 @@ RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 # Bilder
 # Alte Bild URLs via responsive_image Plugin mit 410
 RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
+# Umstellung Responsive image nach JPT (kein 301er möglich)
+RedirectMatch gone ^/assets/imgs/resized/(.*)$
+# Änderung in JPT Setting (output)
+RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
+# Drupal files/images
+RedirectMatch gone ^/sites/(.*)/files/(.*)$	
 
 # Pagination
 RedirectMatch gone ^/page/(.*)
@@ -62,16 +68,10 @@ RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
 RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
 RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/
-RedirectMatch ^/taxonomy/term/(.*)$ /themen.html
+RedirectMatch gone ^/taxonomy/term/(.*)$ 
 
 # Drupal blog urls
 RedirectMatch 301 ^/blog/(.*)$ /$1
-
-# Bilder
-# Umstellung Responsive image nach JPT (kein 301er möglich)
-RedirectMatch gone ^/assets/imgs/resized/(.*)$
-# Änderung in JPT Setting (output)
-RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
 
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
@@ -94,13 +94,18 @@ Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldor
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
-Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
+
+RedirectMatch 301 ^(.*)/git-gitosis-gitweb-the-debian-way/(.*) /git-gitosis-gitweb-the-debian-way.html
+RedirectMatch 301 ^(.*)/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/(.*)$ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html	
+RedirectMatch 301 ^(.*)/gnupg-micro-howto/(.*)$ /gnupg-micro-howto.html
+ 	
 
 Redirect 301 /blog /blog.htm
 Redirect 301 /kontakt /kontakt.html
 
 Redirect 301 /angebot/coaching.html /coaching.html 
 Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
+Redirect 301 /angebot/coach-and-walk.html /coach-and-walk.html	
 
 Redirect 301 /florian-latzel.html /ueber-mich.html
 Redirect 301 /ueber.html /ueber-mich.html
