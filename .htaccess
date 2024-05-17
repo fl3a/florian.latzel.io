@@ -42,6 +42,12 @@ ErrorDocument 404 /404.html
  
 # BEGIN Rules
 
+# Domain
+# Redirect all requests with HTTP_HOST != florian.latzel.io 
+# to florian.latzel.io
+RewriteCond %{HTTP_HOST} !^florian\.latzel\.io$
+RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
+
 # Bilder
 # Alte Bild URLs via responsive_image Plugin mit 410
 RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
