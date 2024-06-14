@@ -2,7 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2024-05-10 17:26
+last_modified_at: 2024-06-14 10:25
 ---
 Gerade genieße ich den Frühling mit seinem zarten Grün.
 
@@ -16,14 +16,11 @@ und die Veränderung zum dunkleren, satten Grün bewusst mitzubekommen.
 
 ## Lesen
 
-- Alte Sorten von Ewald Arenz
-- Agile Teams lösungsfokussiert coachen 
-von Verenika Kotrba und Ralph Miarka
 - Fragen können wie Küsse schmecken - 
 Systemische Fragetechniken für Anfänger und Fortgeschrittene
 von Carmen Kindl Beilfuß
+- Agile Teams lösungsfokussiert coachen 
+von Verenika Kotrba und Ralph Miarka
 
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).   
-
-[^in]: <https://www.linkedin.com/feed/update/urn:li:activity:7116379200265048064/>
