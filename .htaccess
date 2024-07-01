@@ -63,7 +63,12 @@ RedirectMatch gone ^/fotos/(.*)$
 RedirectMatch gone ^/page/(.*)
 
 # Tags
-RedirectMatch gone ^/tags/(.*)$ 
+RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
+RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
+RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/ 
 RedirectMatch gone ^/taxonomy/term/(.*)$ 
 
 # Drupal blog urls

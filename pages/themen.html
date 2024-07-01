@@ -7,11 +7,6 @@ permalink: /themen.html
 Todo:
 - Themen Template bauen
 - in config einbauen
-Roadmap:
-- Tag Urls umschreiben von /tags/$1 nach /thema/$1
-  - in config ändern
-  - in Beträgen die Urls ändern
-  - via .htaccess von /tags/$1 nach /thema/$1
 {% endcomment %}
 
 <div id="themen">
@@ -30,7 +25,7 @@ Roadmap:
         <ul>
       {% endif %}
           <li> 
-            <a href="/thema/{{ tag[0] | slugify: 'latin' }}">{{ tag[0] | escape }}</a> ({{tag[1] | size}})
+            <a href="/thema/{{ tag[0] | slugify: 'latin' }}/">{{ tag[0] | escape }}</a> ({{tag[1] | size}})
           </li>
     {% endif %}
   {% endfor %}
