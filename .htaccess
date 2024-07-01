@@ -86,7 +86,7 @@ RedirectMatch 301 /sitemap.txt /sitemap.xml
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 RedirectMatch 301 ^(.*)/gnupg-micro-howto/(.*)$ /gnupg-micro-howto.html
 
-Redirect 301 /node/990/node/990 debian-way.html#ssh-port-und-git-urls
+Redirect 301 /node/990/node/990 /debian-way.html#ssh-port-und-git-urls
 
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 RedirectMatch 301 ^(.*)/git-gitosis-gitweb-the-debian-way/(.*) /git-gitosis-gitweb-the-debian-way.html
@@ -102,7 +102,8 @@ Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-ps
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html 
 Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
 Redirect 301 /php-properties-klassenvariablen-doxygen-dokumentieren /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html
-Redirect 301 /node/515 /2004/12/22/install-postgres-0-07-sh.html 
+Redirect 301 /node/515 /2004/12/22/install-postgres-0-07-sh.html
+Redirect 301 /wanderung-bergischer-weg-etappe-4-landrat-lucas-weg.html /2020/05/10/50km-wanderung-burg-opladen-bergischer-weg-etappe-4-landrat-lucas-weg.html
 	
 # 301er: Pages
 Redirect 301 /blog /blog.htm
@@ -112,9 +113,6 @@ Redirect 301 /impressung /impressum.html
 Redirect 301 /florian-latzel.html /ueber-mich.html
 Redirect 301 /ueber.html /ueber-mich.html
 Redirect 301 /partner.html /ueber-mich.html#wegbegleiter
-
 Redirect 301 /angebot/coaching.html /coaching.html 
 Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
-Redirect 301 /angebot/coach-and-walk.html /coach-and-walk.html	
-
-
+Redirect 301 /angebot/coach-and-walk.html /coach-and-walk.html
