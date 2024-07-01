@@ -70,6 +70,6 @@ Hier findest du die Slides: [eine-einfuehrung-in-scrum-drupalcamp-munic-2016.pdf
 [^agilem1]: [Agiles Manifest](http://agilemanifesto.org/)
 [^agilem2]: Agiles Manifest, [Werte](http://agilemanifesto.org/iso/de/manifesto.html)
 [^agilem3]: Agiles Manifest, [Prinipien](http://agilemanifesto.org/iso/de/principles.html)
-[^sg]: [Scrum Guide](<http://www.scrumguides.org)
+[^sg]: [Scrum Guide](http://www.scrumguides.org)
 
 *[LMU]: Ludwig-Maximilians-Universität
