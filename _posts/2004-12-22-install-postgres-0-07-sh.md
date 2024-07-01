@@ -1,7 +1,6 @@
 ---
 title: install_postgres0.07.sh
 layout: post
-permalink: /node/515
 date: 2004-12-22 11:18
 tags:
 - '#!/bin/bash'
