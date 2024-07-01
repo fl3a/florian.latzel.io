@@ -104,6 +104,7 @@ Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldor
 Redirect 301 /php-properties-klassenvariablen-doxygen-dokumentieren /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html
 Redirect 301 /node/515 /2004/12/22/install-postgres-0-07-sh.html
 Redirect 301 /wanderung-bergischer-weg-etappe-4-landrat-lucas-weg.html /2020/05/10/50km-wanderung-burg-opladen-bergischer-weg-etappe-4-landrat-lucas-weg.html
+Redirect /2012/11/16/drush-sql-dump-hold.html /2012/11/17/drush-sql-dump-hold.html
 	
 # 301er: Pages
 Redirect 301 /blog /blog.htm
