@@ -6,20 +6,9 @@ last_modified_at: 2023-02-10 10:15
 ---
 ## Aktuelle Projekte
 
-- [*Leadershiptraing goes wild*](
-/wildnistraining.html#leadershiptraining-goes-wild) - 
-Training für Führungskräfte in Naturräumen, 
-Elebniselemente aus den Bereichen [Bushcraft und Survival](
-{% link pages/angebot/wildnistraining.md %})   
-/angebot.html#bushcraft-und-survival-wildnistraining),
-Peer Group und [individuelles Coaching](
-{% link pages/angebot/coaching.md %})   
-Bei Interesse schreib mir an [florian@latzel.io](
-mailto:florian@latzel.io?subject=Leadershiptraining goes wild)!
-- [Agile Meetups & Events in NRW](
+- [Sammlung von Scrumtischen, Agile Meetups und (Un-)Konferenzen 
+in Köln, Bonn, Düsseldorf, Ruhrgebiet und Umgebung](
 {% post_url  2016-10-29-agile-scrum-lean-und-kanban-events-in-koeln-bonn-duesseldorf-und-umgebung %}) (seit 2016)
-Liste von Scrumtischen, Agile Meetups und (Un-)Konferenzen 
-in Köln, Bonn, Düsseldorf, Ruhrgebiet und Umgebung
 - Das [GnuPG Micro Howto](
 {% post_url  2008-11-26-gnupg-micro-howto %}) (seit 2008)
 - [Rheinsteig](/thema/rheinsteig/) als Couple Goal (seit 2019)  
@@ -40,9 +29,9 @@ Digitalagentur [Reinblau](/thema/reinblau/) (2012 - 2020)
 - Mitorganisation und Facilitierung des ersten [Open Space](
 /thema/open-space/) DrupalCamps,   
  [drupalcamp.ruhr 2018](
-{% post_url 2020-04-07-co2-sparen-responsive-images-lazyload-jekyll  %})
+{% post_url  2018-03-27-ein-experiment-drupalcamp-ruhr-goes-barcamp %})
 - Mitorganisator und Gastgeber der [Drupal User Group Köln/Bonn](
-https://groups.drupal.org/k%C3%B6ln-bonn)
+https://groups.drupal.org/k%C3%B6ln-bonn) (2011 - 2014)
 - Entwicklung von diversen Modulen und Patches für das [Drupal](/thema/drupal/) CMS
 - Mitorganisation des *Berlin Proposals* für die europäische Drupalcon 2010
 - [Howto: Git, Gitosis, Gitweb (the Debian way)](
