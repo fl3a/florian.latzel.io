@@ -43,8 +43,7 @@ ErrorDocument 404 /404.html
 # BEGIN Rules
 
 # Domain
-# Redirect all requests with HTTP_HOST != florian.latzel.io 
-# to florian.latzel.io
+# Redirect all requests with HTTP_HOST != florian.latzel.io to florian.latzel.io
 RewriteCond %{HTTP_HOST} !^florian\.latzel\.io$
 RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 
@@ -62,7 +61,7 @@ RedirectMatch gone ^/fotos/(.*)$
 # Pagination
 RedirectMatch gone ^/page/(.*)
 
-# Tags
+# Tags: s/tags/thema
 RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
@@ -82,15 +81,12 @@ Redirect gone /rss.xml
 RedirectMatch 301 ^/sitemap$ /sitemap.xml
 RedirectMatch 301 /sitemap.txt /sitemap.xml
 
-# Drupal book pages
+# 301er: Drupal book pages
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 RedirectMatch 301 ^(.*)/gnupg-micro-howto/(.*)$ /gnupg-micro-howto.html
-
-Redirect 301 /node/990/node/990 /debian-way.html#ssh-port-und-git-urls
-
+Redirect 301 /node/990 /git-gitosis-gitweb-the-debian-way.html#ssh-port-und-git-urls
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 RedirectMatch 301 ^(.*)/git-gitosis-gitweb-the-debian-way/(.*) /git-gitosis-gitweb-the-debian-way.html
-
 RedirectMatch 301 ^(.*)/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/(.*)$ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html	
  
 # END Rules 
@@ -105,6 +101,7 @@ Redirect 301 /php-properties-klassenvariablen-doxygen-dokumentieren /2014/10/10/
 Redirect 301 /node/515 /2004/12/22/install-postgres-0-07-sh.html
 Redirect 301 /wanderung-bergischer-weg-etappe-4-landrat-lucas-weg.html /2020/05/10/50km-wanderung-burg-opladen-bergischer-weg-etappe-4-landrat-lucas-weg.html
 Redirect /2012/11/16/drush-sql-dump-hold.html /2012/11/17/drush-sql-dump-hold.html
+Redirect 301 /nlp-practitioner.html /2022/03/31/nlp-practitioner.html
 	
 # 301er: Pages
 Redirect 301 /blog /blog.htm
