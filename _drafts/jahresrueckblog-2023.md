@@ -23,67 +23,53 @@ caption: 'Zwischen Edinburgh und Fort William. Foto Monique Wenta, CC BY-SA 4.0'
 Als ich meine Fotos der ersten Monate von 2023 so duchging, 
 sah ich nur Arbeitsbilder. 
 Vom Change Management Training, vom TAM Offsite
-und vom Leadership Offsite
-sowie der Retrospektive des Leadership Teams meiner Tribes.
+und vom Leadership Offsite und der Retrospektive des Leadership Teams meiner Tribes.
 Eine Ausnahme, ein Bild mit einem gelb blühende Gewächs im Vordergrund
 und einem Fachwerkwerkhaus im Hintergrund. 
 Ort unbekannt, wahrscheinlich von irgendeiner Wanderung.
 So ähnlich war es mit meinen Gedanken in zu dieser Zeit. 
-Die drehten sich auch fast ausschließlich um Arbeit[^b-curve] [^b-ind]. 
+Die drehten sich auch fast ausschließlich um Arbeit. 
 Ich war mit meiner neuen Rolle, meinen Aufgaben
-und in meiner Umwelt[^b-org] ziemlich unglücklich.
-Das führte mich zu einem Punkt, 
-an dem  ich seit drei Wochen nicht mehr durchgeschlafen habe.
-Ich verlor mich in Gedankenspiralen und bekam einen Klemmfokus[^klemm]. 
+und in meiner Umwelt ziemlich unglücklich.
+Das führte mich an einem Punkt, 
+an dem ich seit drei Wochen nicht mehr durchgeschlafen habe.
+Ich verlor mich in Gedankenspiralen. 
 Die Gedanken an Arbeit erzeugten negative Gefühle und wurden Körperlich.
 
-Diesen sogenannt Stuck State[^stuck] kannte ich bisher nur 
+Diesen sogenannte *Stuck State* kannte ich bisher nur 
 aus der Theorie meiner NLP und Coaching Ausbildungen.
-Diese Selbsterfahrung war nicht sonderlich angenehm.
+Und diese Selbsterfahrung war nicht sonderlich angenehm.
 Ich wollte da schnell wieder raus. 
 Ich suchte mir Hilfe. Hilfe zur Selbsthilfe. 
-Zuerst versuchte ich so schnell wie möglich einen Termin für ein Coaching zu bekommen.
-Trotz verschiedener Optionen wurde es erst der erste April.
-Ende 27. März folgte das nächste Foto mit einer AU. 
+Ich versuchte ich so schnell wie möglich einen Termin für ein Coaching zu bekommen.
+Ende 27. März folgte ein Foto mit einer AU. 
 Lange genug ausgehalten.
 
-Im Wartezimmer begann ich Faktotum[^faktotum] zu lesen.
-Auf den ersten Seite kündigte der Protagonist seinen Job
-und verlor kurz darauf den Nächsten.
-Dieser lachse Umgang mit der Arbeit
-und der rauhe und explizite Stil von Bukowski heiterten mich etwas auf.
-Ich fragte den Arzt um rat.
-Er sagte er mir, dass sich grundlegende Rahmenbedingen, 
-wie die Arbeit ändern müssen
-und dass, wenn ich jetzt für einen Urlaub nach Bali fliegen würde,
-das Problem mit dem Schlaf dann schnell wieder weg wäre.
-Am nächsten Tag rief ich meine meine Führungskraft an
+Ich rief ich meine meine Führungskraft an
 und versucht mich und meinen Zustand zu erklären.
-Ein oder 2 Tage später rief ich bei einem Gesundheitsservice an,
-und bekam schnell einen Termin für eine telefonische Beratung, 
-die mir fürs erste geholfen hat 
+Ein oder zwei Tage später rief ich bei einem Gesundheitsservice an
+und bekam schnell einen Termin für eine telefonische Beratung 
 und den Kontakt zu einen Coach für weitere Schritte/Behandlung.
+Diese hat mir geholfen.
 Am Samstag darauf war dann endlich das Coaching bei meiner Coaching Alumi Silke. 
-Sie hatte ihre wahre Mühe meinen Klemmfokus[^klemm] etwas zu lösen 
-und ein paar Resourcen aus mir raus zu kitzeln.
-
-Obwohl ich zu dem Zeitpunkt krankgeschriben war, 
-merkte ich, dass meine Gedanken immernoch sehr oft um die Arbeit kreisten.
-So taten sie das auch während einer Wanderung auf dem [Natursteig Sieg](
+Obwohl ich krankgeschrieben war, 
+kreisten meine Gedanken immernoch sehr oft um die Arbeit.
+Auch während einer Wanderung auf dem [Natursteig Sieg](
 {%post_url 2022-09-12-natursteig-sieg %}),
-statt den zaghaft ankommenden Frühling und die Ausblicke zu genießen. 
+überlagerten die Gedanken an die Arbeit den zaghaft ankommenden Frühling 
+und die Ausblicke. 
 Etwas später in dieser Zeit, habe ich gemerkt, 
 dass der Gedanke an eine Kündigung einen Unterschied macht.
-Als ich nach Ostern wieder auf der Arbeit war kümmerte ich mich um meinen Exit.
-Es lief auf einen Aufhebungsvertrag hinaus. 
-Von da ab, lief es gefühlt schonal wesentlich leichter.
-Es folgten die Coachings über den Gesundheitsservice mit Silke.
-in diesem Kontext droppte Maike den *"Pinguin in der Wüste"*.
+Als ich nach Ostern wieder auf der Arbeit war,
+kümmerte ich mich direkt um meinen Exit.
+Von da ab lief es alles wesentlich leichter.
+Es folgten einige Coachings über den Gesundheitsservice.
+Aus diesem Kontext stammt das *"Pinguin in der Wüste"*.
 
 ## Schottland-Berlin
 
 Im Mai flogen Monique und ich nach Schottland.
-(Der Trip war eigentlich schon für Mai 2020 angedacht.)
+(Der Trip war eigentlich für Mai 2020 angedacht.)
 Unsere erster Stop war Edinburgh.
 
 Wir hatten unser Unterkunft in Leith,
@@ -93,7 +79,7 @@ besuchten wir die Taprooms von [Moonwake](https://moonwakebeer.com/)
 und [Newbarns](https://newbarnsbrewery.com/).
 Später stieß Kishan zu uns.
 Kishan ist ein Local aus Edinburgh
-den wir auf auf dem Billes[^billies] 2019 kennengelernt haben.
+den wir auf auf dem *Bille's Craft Beer Fest* 2019 kennengelernt haben.
 Nach einer kleinen Stärkung mit Fish and Chips 
 führte uns Krishan in die  
 [The Scotch Malt Whisky Society (the Vaults)](https://smws.eu/) ein. 
@@ -112,7 +98,6 @@ figure: true
 path: 2023/full-scotch-breakfast-sea-breeze-cafe-leith-edinburgh.jpg
 alt: 'Full scotch breakfast im Sea Breeze Cafe, Leith Walk, Edinburgh'
 caption: 'Full Scotch Breakfast im Sea Breeze Cafe, Leith Walk. Foto Monique Wenta, CC BY-SA 4.0' %}
-
 
 Als Touristen hatten wir unter anderem die folgenden Attraktionen auf dem Programm: 
 *Water of Leith Walk* zum *Royal Botanic Garden Edinburgh*, das *National Museum of Scotland*
@@ -133,7 +118,7 @@ alt: 'Über Whisky fachsimpeln in der Scotch Malt Whisky Society, Queen Street, 
 caption: 'Kishan und Monique reden über Whisky, Scotch Malt Whisky Society, Queen Street.' %}
 
 Am vierten Tag holten wir bei der Waverley Station unseren Leihwagen.
-Mit Linksverkehr und Automatik starteten wir unseren Roadtrip
+Mit ungewohntem Linksverkehr und Automatik starteten wir unseren Roadtrip
 durch die Highlands zu meiner Schwester und Familie nach Inverness.
 
 {% responsive_image
@@ -169,14 +154,14 @@ caption: 'Falk, Monique, ich und Stephanie beim BBQ im Garten, Inverness. Foto S
 Die dritte Etappe unserer Schottland Reise war Inverness. 
 Dort erkundigten wir die Stadt, besuchten die Black Isle Bar
 und machten Tagestrips, wie z.B, zu Moray Firth.
-Und wir besuchten die nahegelegene [*Black Isle Brewery*](
+Und wir besuchten die nahegelegene [Black Isle Brewery](
 https://www.blackislebrewery.com/), 
 um uns für das nächste BBQ mit gutem, heimischen Bier einzudecken.
 
-Ein Teil dieser Etappe war Stephanies Geburtstagsüberaschung:
-Trip nach Gairloch mit Übernachtung, formidablen Essen im Old Inn
-und exklusiver Greifvogelexkursion,
+Ein Teil dieser Etappe war Stephanies Geburtstagsüberaschung, 
 in die Falk uns vorab einbezogen hat.
+Ein Trip nach Gairloch mit Übernachtung, formidablen Essen im *Old Inn*
+und exklusiver Greifvogelexkursion,
 {% responsive_image
 figure: true
 path: 2023/beinn-eighe-mountain-trail-blick-auf-loch-maree.jpg 
@@ -250,7 +235,7 @@ bin ich die weiteren Wanderwege des [Kölner Eifelverein](
 https://www.koelner-eifelverein.de/unsere-wanderwege/) 
 gewandert. 
 Teilweise 3 Touren die Woche.
-Von jeder Tour habe ich einen Strauß Johanneskraut mitgebracht,  
+Von jeder Tour habe ich einen Strauß Johanniskraut mitgebracht,  
 
 ## Herbst
 
@@ -273,13 +258,12 @@ Zwischen Bierseeligkeit und Zusammensein und Erinnerungen
 die mittlerweile um die 30 Jahre zurückliegen
 kam der ein oder andere melancholiche Gedanke an Mama und Volker hoch.
 
-Der Letzte Arbeitstag führt mich wieder nach FFM.
+Der Letzte Arbeitstag des Jahres führte mich wieder nach FFM.
 Ich machte zwei OneOones, 
 das Wetter lud förmlich zum Gehen am Main ein.
-Der ursprüngliche Grund der Reise war derzweite Teil: 
-der Etappenwechel von Data Vision, 
-und der Ausklang auf dem Weihnachtsnmarkt,
-später bei *Dim Sungs*. 
+Der ursprüngliche Grund der Reise war der zweite Teil: 
+der Etappenwechel von meine Einheit, 
+und der Ausklang auf dem Weihnachtsnmarkt und später beim gemeinsamen Essen. 
 Eine schöne Gelegenheit weitere Kollegen kennenzulernen und etwas zu netzwerken. 
 
 Mein Weihnachtsurlaub startete mit Auschlafen im Hotel,
@@ -295,7 +279,6 @@ figure: true
 path: 2023/jan-caracan-2022.jpg
 alt: 'Jan, Lukas, Monique und ich im Caracan, Sommer 2022.' %}
 
-
 - Jan
 
 {% responsive_image
@@ -309,6 +292,8 @@ alt: 'Ich auf den Schulttern von Tio. 1980.' %}
 ## Erkenntnisse
 
 Coaching als Coachee
+Sie hatte ihre wahre Mühe meinen Klemmfokus[^klemm] etwas zu lösen 
+und ein paar Resourcen aus mir raus zu kitzeln.
 Wir arbeiten unter anderem daran, 
 was ich tun kann, damit so etwas nicht mehr passiert.
 Und daran, welches Umfeld ich ich für mich brauche um wirksam zu sein,
@@ -325,38 +310,33 @@ Level bzw. Phasen
 -- Zeitpunkt
 -- Stellen auf die ich Bock habe (und die nicht auf dem Schirm hatte) 
 
-
 - Beste Anschaffungen des Jahres: Trailrunningshuhe, Meditationskissen
 
-## 2024
+## 2024?
 
 {% responsive_image
 figure: true
 path: 2023/sleaford-mods-koeln-muelheim-2023.jpg
 alt: 'Die Sleaford Mode in Köln-Mülheim, Oktober 2023' %}
 
-- Im Job und in meiner Rolle ankommen
-- Das [Scout Seminar](https://www.wildnistraining.de/seminare-camps/scout/)
-zusammen mit [Julian](/thema/julian/)
-- Den *"Coaching Ball"* wieder aufnehmen, Zert
+Ein großes Ziel ist es, in meinem neuem Job und der neuen Rolle ankommen
+
+Ich freue mich jetzt schon auf das bereits gebuchte [Scout Seminar](
+https://www.wildnistraining.de/seminare-camps/scout/) mit [Julian](/thema/julian/).
+
+Ich möchte den *"Coaching Ball"* wieder aufnehmen und Zert
 - Routinen: Arm-/Beinstrecken im Vierfüßlerstand (Bird-Dog), Dehnen, Mit den Fingerspitzen den Boden berühren
-- Syst in Abano
-- Den Rheinsteig beenden
-- mehr lesen (4 , 3 Bellitrisik und ein Fachbuch)
-- mehr Konzerte als im Vorjahr (4)
-- mehr Blogartikel als im Vorjahr (6), dafür Kleinere
-- Urlaubstage 
+Ich möchte mit Monique zusammen, die uns verbleibenden Etappen des Rheinsteig laufen.
+
+Ich möchte mehr Bücher als im Vorjahr (4  Bücher, davon 3 Bellitrisik und ein Fachbuch) lesen
+und meine Urlaubstage (6 mehr gegen Gehaltsumwandlung) gut nutzen. 
 
 ## Danke
 
 - Louisa Dellert, offen über Burnout
 - Mark, Wanderungen
 - Lars, viele Spaziergänge am Rhein
-- Kamil Wanderung
-- Stephan mit f und ph
-- AXA
--- Sebastian, Kai und Tobias
--- Klaus und Matthias
+- Stefan 
 - Coaches: Conny, Silke, Maike
 - Krishan
 - Für Jobs: Patrick, Jenny, Dominik und Martin
@@ -365,12 +345,6 @@ zusammen mit [Julian](/thema/julian/)
 - S&I  Anke, Angela, Charis, Rüdiger, Alex. DV: Mario
 - Anna-Lena
 
-[^b-curve]: [The Burnout-Growth Curve](https://www.linkedin.com/feed/update/urn:li:activity:7104554982787452928/)
-[^b-org]: [The High Burnout Organization](https://www.linkedin.com/pulse/high-burnout-organization-nick-petrie/)
-[^b-ind]: [Indiviual Burnout Factors](https://www.linkedin.com/posts/nick-petrie-1b60156_why-do-some-hard-workers-burnout-and-others-activity-6967925751706787840-qVj_/)
-[^billies]: [Billies Craft Beer Fest Antwerpen](https://www.billiescraftbeerfest.com/) 
-[^klemm]: Klemmfokus, nach [Tom Andreas](/thema/tom/), Teil des sogennannten *Stuck State* im NLP.  
-[^stuck]: Stuck State 
 [^ev1]: Bezug auf den gleichnamigen Abschnitt **Endless Vacation** aus meinem [Jahresrückblick 2022]({% post_url 2023-02-19-zwanzigzweiundzwanzig %}) 
 [^faktotum]: [Faktotum, wikipedia.org](https://de.wikipedia.org/wiki/Faktotum_(Hilfskraft))
 [^gr]: [Glen Roy auf wikipedia.de](https://de.wikipedia.org/wiki/Glen_Roy)
