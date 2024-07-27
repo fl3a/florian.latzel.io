@@ -18,20 +18,21 @@ So gesehen auf der Mülheimer Brücke in Fahrtrichtung [Köln-Mülheim](/thema/m
 und der Hohenzollernbrücke in Richtung Köln-Deutz.
 Etwas später fand ich dann ein dazugehöriges Plakat unter der Zoobrücke.<!--break-->
 
-> Armut macht krank
->
-> Menschen in Lindenthal leben 6 Jahre länger als in Kalk*
->
-> Arme Menschen werden strukturell benachteiligt und ausgegrent.
-> Sie werden aus der Stadt in die Randbezirke verdrängt und leben unter schlechten Bedingungen.
-> Sie werden kulturell und sozial ausgeschlossen
-> 
-> ...Und erhalten trotz vermehrt körperlicher und psychischer Einschränkung
-> eine schlechtere Gesundheitsversorgung.
->
-> Armut bekämfen - statt Armut verdrängen! 
->
-> \* durch schnittliche Lebenserwartung
+<figure>
+<blockquote>
+<p>Armut macht krank</p>
+<p>Menschen in Lindenthal leben 6 Jahre länger als in Kalk*</p>
+<p>Arme Menschen werden strukturell benachteiligt und ausgegrent.<br />
+Sie werden aus der Stadt in die Randbezirke verdrängt 
+und leben unter schlechten Bedingungen.<br />
+Sie werden kulturell und sozial ausgeschlossen</p>
+<p>...Und erhalten trotz vermehrt körperlicher und psychischer Einschränkung
+eine schlechtere Gesundheitsversorgung.</p>
+<p>Armut bekämfen - statt Armut verdrängen!</p> 
+<p>* durch schnittliche Lebenserwartung</p>
+</blockquote>
+<figcaption>Inhalt des oben genannten Plakates</figcaption>
+</figure>
 
 Ebenfalls auf dem Plakat ist ein Barcode, der auf 
 <https://solimed-koeln.de/wp-content/uploads/2020/11/Gesundheitsatlas.pdf> verweist.
