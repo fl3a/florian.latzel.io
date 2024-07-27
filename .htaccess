@@ -62,6 +62,8 @@ RedirectMatch gone ^/fotos/(.*)$
 RedirectMatch gone ^/page/(.*)
 
 # Tags: s/tags/thema
+# $ uberspace web header set florian.latzel.io/tags X-Robots-Tag "noindex"
+# >Set header "X-Robots-Tag: noindex" for florian.latzel.io/tags
 RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
@@ -107,10 +109,15 @@ Redirect 301 /nlp-practitioner.html /2022/03/31/nlp-practitioner.html
 Redirect 301 /blog /blog.htm
 Redirect 301 /kontakt /kontakt.html
 Redirect 301 /jetzt /jetzt.html
-Redirect 301 /impressung /impressum.html
 Redirect 301 /florian-latzel.html /ueber-mich.html
 Redirect 301 /ueber.html /ueber-mich.html
 Redirect 301 /partner.html /ueber-mich.html#wegbegleiter
 Redirect 301 /angebot/coaching.html /coaching.html 
 Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
+Redirect 301 /wildnistraining.htm /wildnistraining.html
 Redirect 301 /angebot/coach-and-walk.html /coach-and-walk.html
+Redirect 301 /scrum-master/ /thema/scrum-master/
+
+# 410er: Pages
+Redirect 410 /node/1608	
+
