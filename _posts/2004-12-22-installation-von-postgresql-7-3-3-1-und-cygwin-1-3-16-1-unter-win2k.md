@@ -80,4 +80,4 @@ Informationen:<br/>
  <a href="http://cygutils.fruitbat.org/" title="http://cygutils.fruitbat.org/">[3] cygipc 1.14-1</a><br/>
  <a href="http://www.dynawell.com/reskit/microsoft/win2000/ntrights.zip" title="http://www.dynawell.com/reskit/microsoft/win2000/ntrights.zip">[4] ntrights.zip:</a><br/>
  <a href="http://www.tishler.net/jason/software/postgresql/postgresql-7.3.3.README" title="http://www.tishler.net/jason/software/postgresql/postgresql-7.3.3.README">[5] postgresql-7.3.3.README</a><br/>
- <a href="/node/515" title="">[6] install_postgres0.07.bz2</a>
+ <a href="/2004/12/22/install-postgres-0-07-sh.html" title="">[6] install_postgres0.07.bz2</a>

@@ -50,6 +50,6 @@ div.email-hover a:hover {/* IE FIX */
 ```
 Und so siehts aus:
 <br />
-<div class="email-hover">  <a href="/contact"><img src="/assets/imgs/floh-at-netzaffe-punkt-de.gif" alt="floh-at-netzaffe-punkt-de" height="12" width="114" /></a></div>
+<div class="email-hover">  <a href="/kontakt.html"><img src="/assets/imgs/floh-at-netzaffe-punkt-de.gif" alt="floh-at-netzaffe-punkt-de" height="12" width="114" /></a></div>
 <br />
 <!--break-->
