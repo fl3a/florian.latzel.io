@@ -202,7 +202,7 @@ Dazu kam noch mein Resturlaub.
 Ich hatte frei, so viel wie lange nicht mehr und das am Stück.
 
 In dieser Zeit war die [Verabschiedung von meinem alten Arbeitgeber](
-{%link 2022-08-15-5-jahre-rewe-digital-danke-auf-wiedersehen.md %}) ein Thema.
+{%post_url 2022-08-15-5-jahre-rewe-digital-danke-auf-wiedersehen.md %}) ein Thema.
 Neben meinem Ausstand traf ich mich in diesem Zeitraum mit ein paar Kolleg\*innen
 um dem Abschied bewusst einen Raum zu geben. 
 
