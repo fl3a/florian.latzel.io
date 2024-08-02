@@ -44,7 +44,7 @@ und nach 10 Minuten war ich durch den Sicherheitsbereich.
 Die Spuren des Vortags waren in Form von Müllbergen und Absperrungen noch deutlich sichtbar.
 Mein Flug ging um 15:10.   
 Ich hatte jetzt etwas Zeit: lesen, schlafen, [Blogartikel schreiben](
-{%link 2022-08-15-5-jahre-rewe-digital-danke-auf-wiedersehen.md %}) und Menschen beobachten.
+{%post_url 2022-08-15-5-jahre-rewe-digital-danke-auf-wiedersehen %}) und Menschen beobachten.
 
 Der Flug kam ungefähr mit 45 Minuten Verspätung in Venedig an. 
 Mein Shuttle nach Abano hat nicht gewartet.
