@@ -53,7 +53,7 @@ Google+, ich habe schließlich einen Google-Account und habe dort ja auch schon 
 bei Instagramm anmelden oder mal Diaspora ausprobieren? 
 Hmm, ello<fn>https://ello.co/</fn> scheint gerade viel Wind als datenschutzfreundlichere Alternative zu machen,? 
 Nein, keine Substituierung, am ehesten lasse ich mal wieder im IRC blicken und bei den "Business Social-Networks", 
-wie [XING](http://www.xing.com/profile/Florian_Latzel) und [linkedin](fn>http://www.linkedin.com/in/florianlatzel) 
+wie [XING](http://www.xing.com/profile/Florian_Latzel) und [linkedin](http://www.linkedin.com/in/florianlatzel) 
 bin ich ja bereits und werde auch dort bleiben. 
 Ich versuche einfach mal meinem Vorsatz, mehr draussen zu sein nachzukommen und das Werkzeug, mit dem ich arbeite, 
 also den Rechner auch mal auschalten, bin ja eh genug "online". 

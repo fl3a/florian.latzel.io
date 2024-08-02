@@ -37,7 +37,7 @@ https://www.amazon.de/Scrum-Agiles-Projektmanagement-erfolgreich-einsetzen/dp/38
 
 Falls dein Arbeitgeber in deine Weiterbildung (und somit auch dich) investiert 
 oder du dir selbst eine [Zertifizierungen](/thema/zertifikat/) leisten möchtest,
-dann empfehle ich dir die Teilnahme an einem [Scrum Master](/tags&scrum-master/), 
+dann empfehle ich dir die Teilnahme an einem [Scrum Master](/thema/scrum-master/), 
 Product Owner oder Scrum Grundlagen Training. 
 Neben der Fachlichkeit und dem Scrum-Rollen Spezifischen Wissen 
 wird dort in der Regel auch der Agile Grundgedanke lebendig gepaart mit viel Spaß vermittelt.

@@ -41,7 +41,7 @@ sondern Google mag es auch noch gerne.
 So empfahl mir *Google PageSpeed Insights* zur Verbesserung der Performance von netzaffe.de
 auch die richtige Dimensionierung vom Bildern.
 
-Dieses *[Howto](/thema/howto.html)* hat das Ziel die übertragene Datenmenge von Bildern
+Dieses *[Howto](/thema/howto/)* hat das Ziel die übertragene Datenmenge von Bildern
 und somit den CO2-Ausstoß dieser Website mimimieren.
 
 Ich beschreibe die Installation und Konfiguration von *jekyll-responsive-images[^resp]*,
@@ -210,7 +210,7 @@ Innerhalb der Figure-Variante wird per Default das Alt-Attribute
 als `<figcaption>` genutzt, 
 kann aber via Belegung der Variable `caption` überschrieben werden.
 
-Siehe auch [Benutzung des Templates](/2020/04/07/responsive-image.html#benutzung).
+Siehe auch [Benutzung des Templates](#benutzung).
 
 ```liquid
 {% raw %}

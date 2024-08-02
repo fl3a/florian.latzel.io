@@ -46,7 +46,7 @@ und stellte ein ganz wesentliches Fundament meiner Selbstständigkeit dar.
 Und das nicht nur wirtschaftlich.
 Drupal war für mich auch Identifikation 
 und _Contributing_[^contrib] mit 
-und für [*Free/Libre Open Source Software*](/thema/opensource).
+und für [*Free/Libre Open Source Software*](/thema/open-source).
 
 Ich habe mich recht intensiv mit Drupal beschäftigt 
 und entsprechend darüber hier auch am meisten geschrieben.
