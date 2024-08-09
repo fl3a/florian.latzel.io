@@ -2,7 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2024-06-14 10:25
+last_modified_at: 2024-08-09 11:44
 ---
 Gerade genieße ich den Sommer mit seinem satten Grün. 
 Ich versuche möglichst Zeit draußen und in guter Gesellschaft zu verbringen.
