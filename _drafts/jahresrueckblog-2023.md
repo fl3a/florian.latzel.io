@@ -20,10 +20,10 @@ caption: 'Zwischen Edinburgh und Fort William. Foto Monique Wenta, CC BY-SA 4.0'
 
 ## Pinguin in der Wüste
 
-Als ich meine Fotos der ersten Monate von 2023 so duchging, 
+Als ich meine Fotos der ersten Monate von 2023 duchging, 
 sah ich nur Arbeitsbilder. 
 Vom Change Management Training, vom TAM Offsite
-und vom Leadership Offsite und der Retrospektive des Leadership Teams meiner Tribes.
+und von dem Leadership Offsite und der Retrospektive des Leadership Teams meiner Tribes.
 Eine Ausnahme, ein Bild mit einem gelb blühende Gewächs im Vordergrund
 und einem Fachwerkwerkhaus im Hintergrund. 
 Ort unbekannt, wahrscheinlich von irgendeiner Wanderung.
@@ -38,7 +38,7 @@ Die Gedanken an Arbeit erzeugten negative Gefühle und wurden Körperlich.
 
 Diesen sogenannte *Stuck State* kannte ich bisher nur 
 aus der Theorie meiner NLP und Coaching Ausbildungen.
-Und diese Selbsterfahrung war nicht sonderlich angenehm.
+Diese Selbsterfahrung war nicht sonderlich angenehm.
 Ich wollte da schnell wieder raus. 
 Ich suchte mir Hilfe. Hilfe zur Selbsthilfe. 
 Ich versuchte ich so schnell wie möglich einen Termin für ein Coaching zu bekommen.
@@ -54,10 +54,10 @@ Diese hat mir geholfen.
 Am Samstag darauf war dann endlich das Coaching bei meiner Coaching Alumi Silke. 
 Obwohl ich krankgeschrieben war, 
 kreisten meine Gedanken immernoch sehr oft um die Arbeit.
-Auch während einer Wanderung auf dem [Natursteig Sieg](
+Selbst während einer Wanderung auf dem [Natursteig Sieg](
 {%post_url 2022-09-12-natursteig-sieg %}),
 überlagerten die Gedanken an die Arbeit den zaghaft ankommenden Frühling 
-und die Ausblicke. 
+und die einladenden Ausblicke. 
 Etwas später in dieser Zeit, habe ich gemerkt, 
 dass der Gedanke an eine Kündigung einen Unterschied macht.
 Als ich nach Ostern wieder auf der Arbeit war,
@@ -70,18 +70,17 @@ Aus diesem Kontext stammt das *"Pinguin in der Wüste"*.
 
 Im Mai flogen Monique und ich nach Schottland.
 (Der Trip war eigentlich für Mai 2020 angedacht.)
-Unsere erster Stop war Edinburgh.
-
+Unsere erster Stop war Edinburgh. 
 Wir hatten unser Unterkunft in Leith,
 dem Handlungsort von Trainspotting.
 Nach dem Checkin in unserem runtergerockten AirBNB auf der Pilrig Street 
 besuchten wir die Taprooms von [Moonwake](https://moonwakebeer.com/)
 und [Newbarns](https://newbarnsbrewery.com/).
 Später stieß Kishan zu uns.
-Kishan ist ein Local aus Edinburgh
-den wir auf auf dem *Bille's Craft Beer Fest* 2019 kennengelernt haben.
+Kishan lebt in Edinburgh, 
+Monique und ich haben ihn 2019 auf auf dem *Bille's Craft Beer Fest* kennengelernt.
 Nach einer kleinen Stärkung mit Fish and Chips 
-führte uns Krishan in die  
+führte uns Krishan in die   
 [The Scotch Malt Whisky Society (the Vaults)](https://smws.eu/) ein. 
 Danach gings es weiter mit seinen Best Pubs of Leith.
 
@@ -128,7 +127,7 @@ alt: 'Ein Straße in Schottland zwischen Edinburgh und Fort Wiliam.'
 caption: 'On the Road, Richtung Fort Wiliam. Foto Monique Wenta, CC BY-SA 4.0' %}
 
 Auf dem Weg nach Fort William machten wir einen Abstecher nach Doune Castle,
-mit der bekanntesten Kulisse von Ritter der Kokosnuss.
+der bekannten Kulisse aus die Ritter der Kokosnuss.
 
 {% responsive_image
 figure: true
@@ -136,9 +135,8 @@ path: 2023/ben-nevis-half-way-loch.jpg
 alt: 'Das Half Way Loch, Ben Nevis'
 caption: 'Das Half Way Loch, Ben Nevis. Foto Monique Wenta, CC BY-SA 4.0' %}
 
-An Tag zwei führte uns das Tagesziel Aviemore
-nach *Glen Roy*[^gr]. 
-Schon die Single Track Road dort hin war beeindruckend.
+An Tag zwei unseres Roadtrips fuhren über *Glen Roy*[^gr] nach Aviemore. 
+Bereits die Single Track Road dort hinauf war beeindruckend.
 
 Tag drei starteten wir mit einer kleinen Wanderung nach *An Lochan Uaine* (Green Loch)
 und fuhren den Cairngorm Mountain hoch 
@@ -159,9 +157,9 @@ https://www.blackislebrewery.com/),
 um uns für das nächste BBQ mit gutem, heimischen Bier einzudecken.
 
 Ein Teil dieser Etappe war Stephanies Geburtstagsüberaschung, 
-in die Falk uns vorab einbezogen hat.
+in die Falk uns vorab einbezogen hat:
 Ein Trip nach Gairloch mit Übernachtung, formidablen Essen im *Old Inn*
-und exklusiver Greifvogelexkursion,
+und exklusiver Greifvogelexkursion.
 {% responsive_image
 figure: true
 path: 2023/beinn-eighe-mountain-trail-blick-auf-loch-maree.jpg 
