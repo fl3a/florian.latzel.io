@@ -1,4 +1,8 @@
 {% assign image =  path | remove: 'assets/imgs/' %}
+{% comment %}
+Legacy path variable: Remove trailing path which was used for responsive_image gem.
+See config.picture.source.
+{% endcomment %}
 
 {% capture picture %}
 <picture>
