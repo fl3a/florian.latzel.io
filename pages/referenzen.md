@@ -14,7 +14,7 @@ permalink: /referenzen.html
 
 ## Als Facilitator
 
-- Outdoor-Facilitator, [walkaboutyou](https://walkaboutyou.org) (10.2021 - heute)
+- Outdoor-Facilitator, [walkaboutyou](https://walkaboutyou.org) (10.2021 - 11.2022)
   - u.a. für die  Community-Building-Walks der STARTPLATZ ACCELERATOR Batches in 2022[^ab1] [^ab2]
 - Zusammenarbeit und Teambuildung
   - div Workshops und Retrospektiven zur Verbesserung der tribeübergreifenden Zusammenarbeit
@@ -58,7 +58,7 @@ u.a. für die [Naturzeitclub](https://naturzeit.club/) Coaches (02.2022 - heute)
    - Datenbanken, Ausbildung von Fachinformatikern, BBQ (09.2014)
    - Drupal Entwicklung, In-House Trainings, Eduvision (07.2011 - 02.2013)
    - Linux, Ausbildung von Fachinformatikern, IAL gGmbH (2012)
-   - UNIX System V und Shellskriping, In-House Training, IAL CAMPUS (07.2008 - 08.2008)
+   - UNIX System V und Shellskripting, In-House Training, IAL CAMPUS (07.2008 - 08.2008)
    - Linux, Vorbereitung auf die Zertifizierungen des LPI, IAL und DAA (2007 - 2009)
 
 ## Als IT-Berater
