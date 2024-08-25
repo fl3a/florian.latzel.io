@@ -19,7 +19,18 @@
 
         <div class="trigger">
           {% for item in site.data.main_navigation %}
-	  <a class="page-link {{ item.class }}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+	    {% if page.url contains item.url %} 
+	      {% assign active = 'active' %}
+	      {% assign aria-current = 'aria-current="page"' %}
+	    {% else %}
+	      {% assign active = '' %}
+	      {% assign aria-current = '' %}
+	    {% endif %}
+
+	    <a class="page-link {{ item.class }} {{ active }}" {{ aria-current }} 
+	       href="{{ item.url | relative_url }}">
+	    {{ item.title }}
+	  </a>
           {% endfor %}
         </div>
       </nav>
