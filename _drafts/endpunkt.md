@@ -17,7 +17,7 @@ unter der Einbeziehung möglichst vieler relevanter Zielfaktoren.
 </figure>
 
 Es gibt einige Formulierungshilfen für mess- und überprüfbare Ziele, 
-wie zum Beispiel SMART, PURE oder CLEAR. 
+wie zum Beispiel SMART[^drucker], PURE oder CLEAR. 
 Doch selbst die Kombination aus allen dreien 
 lässt für das Coaching noch wesentliche Aspekte von Zielen außer acht.
 
@@ -54,7 +54,8 @@ und konkret
 
 Fußnoten
 
-[^loefo]: Veronika Kotrba und Ralph Miarka, Agile Team lösungsfokussiert coachen, erste Auflage, 2015, S. 69 ff.
+[^drucker]: Das Konzept hinter SMART geht auf den Managementforscher und Unternehmensberater Peter Drucker (1909–2005) zurück.
+[^loefo]: Veronika Kotrba und Ralph Miarka, [Agile Team lösungsfokussiert coachen](https://sinnvoll-fuehren.com/agile-teams-loesungsfokussiert-coachen/), erste Auflage, 2015, S. 69 ff.
 
 *[SMART]: Specific Measurable Achievable Relevant Time-Bound 
 *[CLEAR]: Challenging Legal Exciting Agreed Recorded
