@@ -1,11 +1,9 @@
 ---
 title: Personal Maps Workshop
 tags: 
+- Team Coaching
 - Tuckman Phasenmodell
-- Forming
 - Teambuilding
-- Kennenlernen 
-- Vertrauen
 - Management 3.0
 - Personal Maps
 layout: post
