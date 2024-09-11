@@ -81,7 +81,8 @@ ein Format von [access2agile](https://access2agile.com/)
 - [Lean Coffee Retrospektiven](https://www.linkedin.com/groups/12536756/)
 - [Agiles Picknick](https://www.paragraph1.de/trainings/agiles-picknick), 
 ein Format von [paragraph eins](https://www.paragraph1.de/)
-
+- [Liberating Structures Connect](https://ls-connect.de/),  
+Das Liberating Structures German Gathering
 
 ### Agile Meetups und Events in Bonn
 
