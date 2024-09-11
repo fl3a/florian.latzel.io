@@ -79,7 +79,6 @@ ein Format der [Agile Academy](https://www.agile-academy.com/de/).
 ein Format von [access2agile](https://access2agile.com/)
 - [team. thesen. temperamente.](https://www.linkedin.com/groups/9059568/)
 - [Lean Coffee Retrospektiven](https://www.linkedin.com/groups/12536756/)
-- [Agiles Picknick](https://www.paragraph1.de/trainings/agiles-picknick), 
 ein Format von [paragraph eins](https://www.paragraph1.de/)
 - [Liberating Structures Connect](https://ls-connect.de/),  
 Das Liberating Structures German Gathering
