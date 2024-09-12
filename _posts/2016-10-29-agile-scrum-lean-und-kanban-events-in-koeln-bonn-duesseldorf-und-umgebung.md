@@ -15,7 +15,7 @@ nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2023-08-03
+last_modified_at: 2024-09-12
 image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
 <figure>
@@ -79,7 +79,7 @@ ein Format der [Agile Academy](https://www.agile-academy.com/de/).
 ein Format von [access2agile](https://access2agile.com/)
 - [team. thesen. temperamente.](https://www.linkedin.com/groups/9059568/)
 - [Lean Coffee Retrospektiven](https://www.linkedin.com/groups/12536756/)
-- [Liberating Structures Connect](https://ls-connect.de/),  
+- [Liberating Structures Connect](https://ls-connect.de/),
 Das Liberating Structures German Gathering
 
 ### Agile Meetups und Events in Bonn
