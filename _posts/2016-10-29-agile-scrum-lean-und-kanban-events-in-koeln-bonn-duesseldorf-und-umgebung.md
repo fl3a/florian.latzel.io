@@ -119,18 +119,26 @@ jeden vierten Donnerstag im Monat, Anmeldung über xing
   findet im Duisburger Innenhafen oder auf Zeche Zollverein (Triple-Z) in Essen statt
 - [Liberating Structures Ruhrgebiet](https://www.meetup.com/de-DE/Liberating-Structures-RUHRGEBIET/members/)
 
+## Münster
+
+- [Münster macht Agil](https://www.meetup.com/de-DE/muenster-macht-agil/)
+
+
 ## Dein Agile Event oder Meetup fehlt?
 
 Diese [mit viel Liebe und Mühe kuratierte Liste](
 https://github.com/fl3a/netzaffe.de/commits/master/_posts/2016-10-29-agile-scrum-lean-und-kanban-events-in-koeln-bonn-duesseldorf-und-umgebung.md) 
 ist wahrscheinlich nicht komplett.
 
-- Du kennst noch weitere regelmäßig stattfindende 
-**Agile Meetups und Veranstaltungen in Nordrhein-Westfalen**?
-- Ein **Agile Meetup** ist schon länger inaktiv oder ein Link führt ins Leere?
+- Kennst du noch weitere regelmäßig stattfindende 
+**Agile Veranstaltungen in Nordrhein-Westfalen**?
+- Hast du ein **Agile Meetup oder eine Konferenz**, 
+die schon länger inaktiv oder ein Link führt ins Leere gefunden?
 
-Lass es mich bitte durch eine kurze Mail wissen, dann aktualisiere ich gerne die Liste!  
-Alternativ kannst Du auch gerne einen *Pull Request* auf [diese Seite](https://github.com/fl3a/netzaffe.de/blob/master/_posts/2016-10-29-agile-scrum-lean-und-kanban-events-in-koeln-bonn-duesseldorf-und-umgebung.md) stellen!
+Lass es mich bitte durch eine kurze [Mail]() wissen, 
+dann aktualisiere ich gerne die Liste!  
+Alternativ kannst Du auch gerne einen *Pull Request* auf [diese Seite](https://github.com/fl3a/netzaffe.de/blob/master/_posts/2016-10-29-agile-scrum-lean-und-kanban-events-in-koeln-bonn-duesseldorf-und-umgebung.md) stellen!    
+
 
 Fußnoten:
 
