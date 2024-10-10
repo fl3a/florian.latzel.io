@@ -1,33 +1,56 @@
 ---
-title: Dotfiles managen mit GNU Stow
+title: Dotfiles managen mit Git und GNU Stow
 layout: post
+tags:
+- howto
+- config
+- git
+- Linux
+- vimrc
 ---
 
 Symlink farm manager
 
-    apt install stow
-^
-    mkdir ~/dotfiles
-^
-    cd ~/dotfiles
-^
-   git init                                   
-^
-    Leeres Git-Repository in /home/florian/repos/dotfiles/.git/ initialisiert
-^
+Wir installieren *GNU Stow* (unter Debian und Derivaten wie z.B. Ubuntu)
+
+    sudo apt install stow
+
+## Voraussetzungen
+
+Ein Remote Repository für deine dotfiles z.B. bei Github oder Gitlab.
+
+## Erzeugung des Dotfile Repositories
+
+Dann legen wir den Ordner *dotfiles* in unserem Home Verzeichnis an,
+
+    mkdir ~/.dotfiles
+
+wechseln hinein...
+
+    cd ~/.dotfiles
+
+und erzeugen darin unser Repository für die Versionierung via Git. 
+
+    git init                                   
+
+Als Beispiel starten wir mit der Überführung von [vim](/themen/vim/)
+in Dotfiles Repo.    
+Hierzu legen wir den Ordner *vim* an, 
+wobei *vim* später auch das sogenannte Package im Stow-Sprech ist.
+
     mkdir vim
-^
-    mv ~/.vim/ vim/
 
-Datei umbenennen und leeres, nicht benötigtes Verzeichnis löschen
+Wir verschieben hier die *vimrc* 
 
-    mv vim/.vim/vimrc vim/.vimrc
-    rmdir vim/.vim
-^
+    mv ~/.vim/vimrc vim/.vimrc
+^ 
     git add vim 
 ^
     git commit -m 'Initial commit.'
 ^
+
+## Arbeiten mit GNU Stow
+
     stow vim
 ^   
     ls -la ~/.vimrc
