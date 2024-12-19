@@ -18,13 +18,13 @@ path: 2023/scotland-2023.jpg
 alt: "Straße durch Schottland"
 caption: 'Zwischen Edinburgh und Fort William. Foto Monique Wenta, CC BY-SA 4.0' %}
 
-## Pinguin in der Wüste
+## Stuck
 
 Als ich meine Fotos der ersten Monate von 2023 duchging, 
 sah ich nur Arbeitsbilder. 
-Vom Change Management Training, vom TAM Offsite
+Vom Change Management Training, vom *Tribe Agile Master* Offsite
 und von dem Leadership Offsite und der Retrospektive des Leadership Teams meiner Tribes.
-Eine Ausnahme, ein Bild mit einem gelb blühende Gewächs im Vordergrund
+Eine Ausnahme bildete ein Bild mit einem gelb blühende Gewächs im Vordergrund
 und einem Fachwerkwerkhaus im Hintergrund. 
 Ort unbekannt, wahrscheinlich von irgendeiner Wanderung.
 So ähnlich war es mit meinen Gedanken in zu dieser Zeit. 
@@ -57,14 +57,12 @@ kreisten meine Gedanken immernoch sehr oft um die Arbeit.
 Selbst während einer Wanderung auf dem [Natursteig Sieg](
 {%post_url 2022-09-12-natursteig-sieg %}),
 überlagerten die Gedanken an die Arbeit den zaghaft ankommenden Frühling 
-und die einladenden Ausblicke. 
+und die einladenden Ausblicke des Westerwalds. 
 Etwas später in dieser Zeit, habe ich gemerkt, 
 dass der Gedanke an eine Kündigung einen Unterschied macht.
 Als ich nach Ostern wieder auf der Arbeit war,
 kümmerte ich mich direkt um meinen Exit.
 Von da ab lief es alles wesentlich leichter.
-Es folgten einige Coachings über den Gesundheitsservice.
-Aus diesem Kontext stammt das *"Pinguin in der Wüste"*.
 
 ## Schottland-Berlin
 
@@ -227,13 +225,12 @@ An meinem Geburtstag war dann der Vertrag im Briefkasten.
 Der zweite Handlungsstrang in Sommer war das Wandern.
 Ich habe den [Kölnpfad](
 https://www.koelner-eifelverein.de/koelnpfad/) 
-beendet. 
+komplettiert. 
 Und als ich mit ihm fertig war,
 bin ich die weiteren Wanderwege des [Kölner Eifelverein](
 https://www.koelner-eifelverein.de/unsere-wanderwege/) 
 gewandert. 
 Teilweise 3 Touren die Woche.
-Von jeder Tour habe ich einen Strauß Johanniskraut mitgebracht,  
 
 ## Herbst
 
@@ -251,7 +248,7 @@ war die Planung und Facilitierung des *Search & Identity* Offsites Ende Oktober.
 Dort habe ich 7 Kudo Karten bekommen, wovon vier für Moderation waren.
 
 Ebenfalls in Oktober war die Kiel Familienfeier.
-Für mich das erste Zusammenkommen seit Volker Beerdigung.
+Für mich das erste Zusammenkommen seit Volkers Beerdigung.
 Zwischen Bierseeligkeit und Zusammensein und Erinnerungen 
 die mittlerweile um die 30 Jahre zurückliegen
 kam der ein oder andere melancholiche Gedanke an Mama und Volker hoch.
@@ -260,15 +257,15 @@ Der Letzte Arbeitstag des Jahres führte mich wieder nach FFM.
 Ich machte zwei OneOones, 
 das Wetter lud förmlich zum Gehen am Main ein.
 Der ursprüngliche Grund der Reise war der zweite Teil: 
-der Etappenwechel von meine Einheit, 
-und der Ausklang auf dem Weihnachtsnmarkt und später beim gemeinsamen Essen. 
+der Etappenwechel meiner Einheit, 
+der Ausklang auf dem Weihnachtsmarkt und das spätere gemeinsame Essen. 
 Eine schöne Gelegenheit weitere Kollegen kennenzulernen und etwas zu netzwerken. 
 
-Mein Weihnachtsurlaub startete mit Auschlafen im Hotel,
-einen ausgedehnten Frühstück und ebenso ausgedehnten Spaziergang nach Bornheim
+Mein erster Weihnachtsurlaubtag startete mit Auschlafen im Hotel,
+einen ausgedehnten Frühstück
+und ebenso ausgedehnten Spaziergang nach Bornheim
 zum Laden meiner Schwester[^koeterei].
---- Schwester besuchen, Weihnachtsmann verschenkt
---- Kudo Karte und Räucherhäuschen -kerzen
+Einen Weihnachtsmann weiter verschenken.
 
 ## Goodbye
 
@@ -277,19 +274,20 @@ figure: true
 path: 2023/jan-caracan-2022.jpg
 alt: 'Jan, Lukas, Monique und ich im Caracan, Sommer 2022.' %}
 
-- Jan
+Unser Freund Jan. 
+Wir werden dich vermissen!
 
 {% responsive_image
 figure: true
 path: 2023/auf-den-schultern-von-tio-1980.jpg
-alt: 'Ich auf den Schulttern von Tio. 1980.' %}
+alt: 'Ich auf den Schultern von Tio. 1980.' %}
 
-- Tio, Karl Ingwer
-- Tia, MYRIAN
+Tio, mein Onkel aus Brasilien, 
+und Tia Myrian, die ihm kurz vor Weihnachten folgte
 
 ## Erkenntnisse
 
-Coaching als Coachee
+Coaching als Coachee.
 Sie hatte ihre wahre Mühe meinen Klemmfokus[^klemm] etwas zu lösen 
 und ein paar Resourcen aus mir raus zu kitzeln.
 Wir arbeiten unter anderem daran, 
@@ -297,7 +295,13 @@ was ich tun kann, damit so etwas nicht mehr passiert.
 Und daran, welches Umfeld ich ich für mich brauche um wirksam zu sein,
 Level bzw. Phasen
 
-- Autofahren in Schottland trotz Linkverkehr entspannt. Automatik. 70 mph (umgerechnet 115 km/h),
+Das Autofahren in Schottland fand ich trotz Linkverkehr 
+überaschenderweise entspannt. 
+Das mag zum einen an Automatik liegen, 
+zum anderen an den geringeren Tempolimits 
+und :w
+
+von 70 mph (umgerechnet 115 km/h),
  die Meiste Zeit Landstraßen sind auf 60 mph (umgerechnet 100 km/h)
 
 - Es dauert, Alleine sein,Schottland im Grauschleier, 
@@ -354,5 +358,4 @@ und meine Urlaubstage (6 mehr gegen Gehaltsumwandlung) gut nutzen.
 
 
 
-*[TAM]: Tribe Agile Master
 *[NLP]: Neuro-Linguistische Programmieren
