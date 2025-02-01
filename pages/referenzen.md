@@ -29,7 +29,7 @@ AXA (08.2022 - 06.2023)
 - (Wieder)Aufbau und Professionalisierung der Moderatorengruppe, REWE digital (2020)
 - Nachhaltigkeit 2.0 im Web, Kreativworkshop, REWE Group (10.2019)
 - Open Space 
-  - Boxenstop der S & I Company, ca. 25 Personen, DB Systel (10.2023)
+  - Boxenstops der S & I Company, ca. 25 Personen, DB Systel (10.2023 - heute)
   - CMS Garden Unconference, remote, englisch (03.2021)
   - [drupalcamp.ruhr](/2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html), 
     ca. 250 Personen, englisch (03.2018)
@@ -37,10 +37,13 @@ AXA (08.2022 - 06.2023)
 
 ## Als Trainer
 
-- Ausbildung von OKR Moderatoren, AXA (12.2022)
 - [Survival-, Bushcraft- und Wildnistraining](
-/wildnistraining.html),    
-u.a. für die [Naturzeitclub](https://naturzeit.club/) Coaches (02.2022 - heute)
+{% link pages/angebot/wildnistraining.md %}) (02.2022 - heute) 
+  - u.a. Ausbildung der [Naturzeitclub](https://naturzeit.club/) Coaches
+- [Trainer Assistenz NLP Practitioner](
+{%post_url 2024-11-11-trainer-assistenz-bei-tom-andreas %}), 
+[Institut Tom Andreas](https://www.tomandreas.de/) (10.2024 - heute)
+- Ausbildung von OKR Moderatoren, AXA (12.2022)
 - Agiles Arbeiten 
   - HWW, monatliches Bootcamp für neue Mitarbeiter, REWE digital (2017 - 2022)
   - Workshops, verschiedene Abteilungen, REWE GROUP (2018 - 2022)
