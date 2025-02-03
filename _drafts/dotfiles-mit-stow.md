@@ -26,7 +26,7 @@ und bequemes Werkzeug zur Verwaltung von Dotfiles verwendet wird.
 > Home is where your dotfiles are!
 
 Als Dotfiles bezeichnet Dateien (und Verzeichnisse) mit vorangestellten `.`
-im Namen, die Konfigurationen beziehungsweise Einstellungen für Programme.
+im Namen.  die Konfigurationen beziehungsweise Einstellungen für Programme.
 
 ## Installation von GNU Stow
 
@@ -78,7 +78,6 @@ home/florian/.dotfiles
 │   └── .irssi
 │       ├── config
 │       ├── default.theme
-│       ├── irc.prison.net.crt
 │       └── scripts
 │           ├── autorun
 │           │   └── [...] -> ../[...]
