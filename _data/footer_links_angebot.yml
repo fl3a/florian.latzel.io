@@ -2,13 +2,13 @@ header: "Angebot"
 links:
 
 - title: Coaching
-  url: /angebot/coaching.html
+  url: /coaching.html
 
 - title: Wildnistraining
-  url: /angebot/wildnistraining.html
+  url: /wildnistraining.html
 
 - title: Coach & Walk
-  url: /angebot/coach-and-walk.html
+  url: /coach-and-walk.html
 
 - title: Team Coaching
   url: /#team-coaching
