@@ -24,8 +24,11 @@ dazu formidable IPA's und Stouts in guter Gesellschaft
 haben wir drüber geredet, ob wir dieses Jahr eine Ausnahme von der Ausnahme machen.
 - Firmenreise mit Hotelübernachtung: Das gemeinsame Hot-Pot-Essen 
 nach der teils recht emotionalen Retrospektive unseres Orga-Teams.
-- Italienisch Essen mit Tom und meinen Assistenztrainerkolleg*innen: 
-Die hatten sogar das [Bier mit Salz](https://it.wikipedia.org/wiki/Birra_Messina#/media/File:BirraMessina2019.jpeg). Tom folgte meiner Bier-Empfehlung, 
+- Italienisch Essen mit [Tom und meinen Assistenztrainerkolleg*innen](
+{%post_url 2024-11-11-trainer-assistenz-bei-tom-andreas %}): 
+Die hatten sogar das [Bier mit Salz](
+https://it.wikipedia.org/wiki/Birra_Messina#/media/File:BirraMessina2019.jpeg). 
+Tom folgte meiner Bier-Empfehlung, 
 die anderen genossen ihren Rotwein. 
 - Date Night: Monique hat schon im Vorfeld gefragt, ob es OK ist, 
 wenn sie Wein trinkt.
