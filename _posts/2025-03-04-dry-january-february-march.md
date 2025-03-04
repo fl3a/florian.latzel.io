@@ -6,7 +6,7 @@ tags:
 - Fasten
 - Alkohol
 - Leipzig
-image: /assets/img/the-harp-london-2019.jpg
+image: /assets/imgs/the-harp-london-2019.jpg
 ---
 {% responsive_image figure: true 
 path: assets/imgs/the-harp-london-2019.jpg
