@@ -1,27 +1,29 @@
 ---
 title: Bushcraft-Training für die Naturzeitclub Coaches im Bergischen Land
 layout: post
+permalink: /bushcraft-training-naturzeitclub-coaches-bergischen-land.html
+date: 2025-03-20 23:30
 tags:
 - Bushcraft
 - Wildnistraining
 - Draussen
 - Laubhütte
-- Waldschule Solingen
 - Bowdrill
 - Glutbrennen
 ---
 Im Februar 2022 leitete ich für die Ausbildung der ersten Gruppe von [Naturzeitclub](https://naturzeit.club)
 -Coaches den Bushcraft-Teil.
-Das Training fand in der **Waldschule Solingen** im Bergischen Land statt.
+Das Training fand in der [Waldschule Solingen](https://waldschule-solingen.de/) 
+im *Bergischen Land* statt.
 Auf dem Programm standen der **Bau einer Laubhütte**,
 theoretische und praktische Übungen zum **Feuermachen**,
-insbesondere das Feuerbohren mit dem Drillbogen (Bowdrill), sowie das **Glutbrennen einer Holzschale**.
+insbesondere das **Feuerbohren mit dem Drillbogen (Bowdrill)**, sowie das **Glutbrennen einer Holzschale**.
 <!--break-->
 Hier ein paar Eindrücke:
 - Inhalt
 {:toc}
 
-## Laubhütte bauen
+## Bau einer Laubhütte
 
 Der Bau einer **Laubhütte**, auch als *Debris Hut* bekannt, ist eine grundlegende Fähigkeit im Bushcraft. Diese Art von Unterschlupf bietet Schutz vor den Elementen und kann mit minimalen Werkzeugen errichtet werden.
 
@@ -40,11 +42,11 @@ path: assets/imgs/bushcraft-training-2022/modell-laubhuette-ansicht-von-oben.jpg
 alt: "Florian und Judy bauen das Modell einer Laubhütte zusammen"
 caption: 'Modell einer Laubhütte, Ansicht von oben. © Naturzeitclub.' %}
 
-**Rückgrat erstellen:**
+Rückgrat erstellen:
 - Suche einen stabilen Ast oder Stamm, der als zentrale Stütze dient. Dieser sollte etwa **1,5-mal so lang sein wie deine Körpergröße**.
 - Ein Ende wird auf einen stabilen Punkt gelegt (z. B. Baumstumpf), das andere auf den Boden, sodass ein Winkel entsteht.
 
-**Seitliche Rippen hinzufügen:**
+Seitliche Rippen hinzufügen:
 - Lege kürzere Äste in einem **Winkel von ca. 45°** entlang des zentralen Stammes an, um die Seitenwände zu formen.
 - Achte darauf, dass zwischen den Ästen keine großen Lücken entstehen.
 
@@ -53,32 +55,32 @@ path: assets/imgs/bushcraft-training-2022/laubhuette-geruest.jpg
 alt: "Das Gerüst der Laubhütte"
 caption: 'Das Gerüst der Laubhütte steht. © Naturzeitclub.' %}
 
-**Abdeckung mit Isolationsmaterial:**
+Abdeckung mit Isolationsmaterial:
 - Bedecke die Struktur großzügig mit **Laub**, um eine isolierende Schicht zu schaffen.
 - Diese Schicht sollte mindestens **30 cm dick** sein, um vor Regen und Kälte zu schützen.
 
 {% responsive_image figure: true
 path: assets/imgs/bushcraft-training-2022/laubhuette-decken.jpg
-alt: "Decken der Laubhütte"
-caption: 'Decken der Laubhütte. © Naturzeitclub.' %}
+alt: "Abdecken der Laubhütte"
+caption: 'Abdecken der Laubhütte. © Naturzeitclub.' %}
 
-**Eingang gestalten:**
+Eingang gestalten:
 - Verkleinere den Eingangsbereich, um Wärmeverlust zu minimieren.
 
-**Boden isolieren:**
+Boden isolieren:
 - Lege den Boden der Laubhütte mit **dünnem Reisig und darüber Laub** aus, um eine bequeme und isolierende Liegefläche zu schaffen.
 
 {% responsive_image figure: true
 path: assets/imgs/bushcraft-training-2022/laubhuette-eingang.jpg
 alt: "Bau des Eingangs der Laubhütte"
-caption: 'Der Eingang der Laubhütte. © Naturzeitclub.' %}
+caption: 'Verkleinerung des Eingang der Laubhütte. © Naturzeitclub.' %}
 
 {% responsive_image figure: true
 path: assets/imgs/bushcraft-training-2022/laubhuette-probeliegen-judy.jpg
 alt: "Judy liegt in der Laubhütte Probe"
 caption: 'Judy liegt in der Laubhütte Probe. © Naturzeitclub.' %}
 
-## Feuermachen mit dem Bowdrill
+## Feuerbohren mit dem Drillbogen (Bowdrill)
 
 Das Feuermachen mit dem **Drillbogen (Bowdrill)** ist eine traditionelle Methode,
 die Geschicklichkeit und Geduld erfordert.
@@ -90,7 +92,7 @@ alt: "Neues Loch in Bohrbrett bohren"
 caption: 'Bohren eines neuen Lochs in das Bohrbrett. © Naturzeitclub.' %}
 
 {% responsive_image figure: true
-path: assets/imgs/bushcraft-training-2022/bowdrill-neues-loch-bohrbrett-einbrennen.jpg
+path: assets/imgs/bushcraft-training-2022/bowdril-neues-loch-bohrbrett-einbrennen.jpg
 alt: "Einbrennen des neuen Lochs"
 caption: 'Einbrennen des neuen Lochs in das Bohrbrett. © Naturzeitclub.' %}
 
@@ -111,7 +113,7 @@ Das **Glutbrennen** ist eine Technik, um mit Hilfe von Glut Vertiefungen in Holz
 {% responsive_image figure: true
 path: assets/imgs/bushcraft-training-2022/glutbrennen-schale-loeffel.jpg
 alt: "Durch Glutbrennen erstellte Schale und Löffel"
-caption: 'Meine Schale und Löffel. © Naturzeitclub.' %}
+caption: 'Meine fertige Schale und Löffel als Inspiration. © Naturzeitclub.' %}
 
 Die Teilnehmer konnten durch diese Methode ihre individuelle **Holzschale** herstellen
 und dabei ihre handwerklichen Fähigkeiten vertiefen.
