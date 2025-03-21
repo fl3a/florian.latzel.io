@@ -11,6 +11,7 @@ tags:
 - Laubhütte
 - Bowdrill
 - Glutbrennen
+- just me
 image: /assets/imgs/bushcraft-training-2022/bushcraft-training-naturzeitclub-coaches-bergischen-land.png
 last_modified_at: 2025-03-21
 ---
@@ -44,7 +45,7 @@ Anschließend errichteten wir die tatsächliche Struktur,
 wobei alle Teilnehmer aktiv mitwirkten.
 
 {% responsive_image figure: true
-path: assets/imgs/bushcraft-training-2022/modell-laubhuette.jpg
+path: assets/imgs/bushcraft-training-2022/florian-latzel-baut-modell-einer-laubhuette.jpg
 alt: "Florian baut das Modell einer Laubhütte"
 caption: 'Modell einer Laubhütte. © Naturzeitclub.' %}
 
