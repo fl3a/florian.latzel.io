@@ -33,10 +33,15 @@ Hier ein paar Eindrücke:
 
 ## Bau einer Laubhütte
 
-Der Bau einer **Laubhütte**, auch als *Debris Hut* bekannt, ist eine grundlegende Fähigkeit im Bushcraft. Diese Art von Unterschlupf bietet Schutz vor den Elementen und kann mit minimalen Werkzeugen errichtet werden.
+Der Bau einer **Laubhütte**, auch als *Debris Hut* bekannt, 
+ist eine grundlegende Fähigkeit im Bushcraft. 
+Diese Art von Unterschlupf bietet Schutz vor den Elementen 
+und kann auch ohne Werkzeuge errichtet werden.
 
-Während des Trainings bauten wir zunächst ein Modell der Laubhütte, um die Konstruktion zu veranschaulichen.
-Anschließend errichteten wir die tatsächliche Struktur, wobei alle Teilnehmer aktiv mitwirkten.
+Während des Trainings bauten wir zunächst ein Modell der Laubhütte, 
+um die Konstruktion zu veranschaulichen.
+Anschließend errichteten wir die tatsächliche Struktur, 
+wobei alle Teilnehmer aktiv mitwirkten.
 
 {% responsive_image figure: true
 path: assets/imgs/bushcraft-training-2022/modell-laubhuette.jpg
