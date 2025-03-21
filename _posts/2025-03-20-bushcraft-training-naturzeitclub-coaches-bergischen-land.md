@@ -10,7 +10,14 @@ tags:
 - Laubhütte
 - Bowdrill
 - Glutbrennen
+image: /assets/imgs/bushcraft-training-2022/bushcraft-training-naturzeitclub-coaches-bergischen-land.png
+last_modified_at: 2025-03-21
 ---
+{% responsive_image figure: true
+path: assets/imgs/bushcraft-training-2022/bushcraft-training-naturzeitclub-coaches-bergischen-land.png
+alt: "Collage, Eindrücke des Bushcraft-Trainings"
+caption: 'Eindrücke des Bushcraft-Trainings für die Naturzeitclub Coaches. © Naturzeitclub.' %}
+
 Im Februar 2022 leitete ich für die Ausbildung der ersten Gruppe von [Naturzeitclub](https://naturzeit.club)
 -Coaches den Bushcraft-Teil.
 Das Training fand in der [Waldschule Solingen](https://waldschule-solingen.de/) 
