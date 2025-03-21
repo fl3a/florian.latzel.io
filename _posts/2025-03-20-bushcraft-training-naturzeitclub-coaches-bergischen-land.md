@@ -110,11 +110,6 @@ alt: "Einbrennen des neuen Lochs"
 caption: 'Einbrennen des neuen Lochs in das Bohrbrett. © Naturzeitclub.' %}
 
 {% responsive_image figure: true
-path: assets/imgs/bushcraft-training-2022/bowdrill-judy.jpg
-alt: "Judy beim Feuerbohren mit dem Bowdrill"
-caption: 'Judy beim Feuerbohren mit dem Bowdrill. © Naturzeitclub.' %}
-
-{% responsive_image figure: true
 path: assets/imgs/bushcraft-training-2022/bowdrill-justin.jpg
 alt: "Justin beim Feuerbohren mit dem Bowdrill"
 caption: 'Justin beim Feuerbohren mit dem Bowdrill. © Naturzeitclub.' %}
