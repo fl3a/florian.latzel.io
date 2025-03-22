@@ -1,60 +1,95 @@
 ---
-title: Feuermachen mit dem Bowdrill (Feuerbohrer)
+title: "Feuermachen ohne Feuerzeug lernen – Bowdrill-Seminar für Bushcraft & Survival 🔥"
 layout: page
-permalink: /angebot/bowdrill-seminar.html
+permalink: /seminare/bowdrill-feuermachen.html
+description: "Lerne im Bowdrill-Seminar, Feuer ohne Feuerzeug zu entfachen! Perfekt für Bushcraft, Survival & Outdoor-Abenteuer. Jetzt Platz sichern!"
 ---
-![Justin bort feuer mit dem Drillbogen"](/images/justin-bowdrill-action.jpg)
-Foto © Naturzeitclub
 
-In diesem Seminar lernst du in Theorie und Praxis, 
-wie man auf archaische Arten Feuer entfacht. 
-Dazu gehören das Funkenschlagen und das erzeugen von Glut durch Reibung.
-Und du wirst **dein eigenes Bowdrill-Set** (welches du auch mit Hause nehmen kannst) bauen 
-und versuchen damit feuer zu machen.
+## Bowdrill-Feuermachen – Werde zum Feuermeister!
 
-**Inhalte**
-- Material und Werkzeugkunde
-- Zundernest
-- Funkenschlagen mit Feuerstein
-- Bau eines Bowdrill-Sets
-- Exkurs: Handdrill
+Feuer ohne Feuerzeug oder Streichhölzer entfachen – klingt unmöglich? Ist es
+nicht! In unserem praxisnahen **Bowdrill-Seminar** lernst du, wie du mit
+natürlichen Materialien wie Holz und Zunder Feuer erzeugst – genau wie unsere
+Vorfahren, moderne Survival-Experten und Outdoor-Trainer.
 
-Dauer ca. 3 Stunden  
+Ob du deine **Bushcraft-Skills** verbessern möchtest oder einfach nur neugierig
+bist – hier bekommst du echtes **Outdoor-Wissen**, das dich unabhängig macht.
 
-![Übertragung der erzeugten Glut in das Glutnest](
-/images/bowdrill-glut-uebertragung-glutnest.png "Übertragung der erzeugten Glut in das Glutnest")
-Foto © Florian Latzel
+🕒 **Dauer:** ca. 3 Stunden
 
-**Muss du mitbringen musst**
+### Warum solltest du teilnehmen?
 
-- Die Volljährigkeit oder eine erwachsene Begleitperson
-- Ein Messer mit dem du mühelos längere Zeit schnitzen kannst. 
-Optimal eignen sich festehende Messer mit einem sogenannte Bushcraft Messer 
-mit einem Scandi Anschliff. Für Einsteiger empfehlen wir die Messer von Mora.
-- Eine Sitzunterlage, wie ein Sitzkissen oder eine einfache Isomatte aus Schaumstoff
-- Je nach Witterung: Wetter- (z.B. Poncho) und Sonnenschtz 
-- Verpflegung: Essen und trinken
-- Neugier :D
+- **Traditionelles Handwerk erleben**: Entdecke die uralte Kunst des
+  Feuermachens mit natürlichen Materialien.
+- **Praktische Fähigkeiten erwerben**: Baue dein eigenes Bowdrill-Set und
+  erlerne die richtige Technik für ein zuverlässiges Feuer.
+- **Mitreden bei "7 vs. Wild"**: Schluss mit gefährlichem Halbwissen! Nach
+  diesem Seminar weißt du genau, warum die Kandidaten so schwitzen, wenn sie
+  versuchen, mit einem Bowdrill Feuer zu machen. Beim nächsten Serienmarathon
+  kannst du entspannt zurücklehnen und sagen: „Also ICH hätte das hinbekommen!“
+  😏
+- **Gemeinschaft erleben**: Teile deine Erfahrungen mit Gleichgesinnten und
+  tausche dich über Techniken und Erlebnisse aus.
 
-Material für Bohrbrett und Spindel werden sowie Schnur für den Bogen werden gestellt. 
-Sägen und Beil können in begrenztem Umfang geliehen werden.
+👉 [**Melde dich jetzt an und werde zum Feuerprofi!**](#termine--anmeldung) 👈
 
-**Was du mitbringen kannst**
+### Was erwartet dich im Seminar?
 
-Wenn du möchtest, dann kannst du sehr gerne dein eigenes Werkzeug (Säge und Beil) mitbringen.
+- **Einführung in die Kunst des Feuermachens**: Geschichte, Techniken und
+  kulturelle Bedeutung des Feuers.
+- **Material- und Werkzeugkunde**: Welche Hölzer und Seile eignen sich am
+  besten? Was sind typische Fehler und wie vermeidest du sie?
+- **Umgang mit dem Messer**: Du lernst grundlegende Schnitztechniken für den
+  Bau deines Bowdrill-Sets und den sicheren Umgang mit dem Messer im
+  Outdoor-Bereich.
+- **Bau eines eigenen Bowdrill-Sets**: Schritt-für-Schritt-Anleitung zum Bau
+  deines persönlichen Feuerbohrers – natürlich zum Mitnehmen!
+- **Praxisübungen**: Unter Anleitung übst du den Umgang mit dem Bowdrill und
+  lernst, wie du effektiv Glut erzeugst und ein Feuer entfachst.
+- **Exkurs: Handdrill-Technik**: Einführung in eine noch anspruchsvollere
+  traditionelle Methode des Feuermachens.
 
-Wenn du Lust ein richtiges Side-Quest hast, 
-dann kannst du dir auch das Material für das Bowdrill-Set selber mitbringen.
-Als Holz für Bohrbrett und Spindel (Durchmesser ca. 20 bis 30 mm) haben gute Erfahrungen mit weicherem Laubholz, 
-speziell Pappel und Weide gemacht.
-Bedenke jedoch , dass beides trocken sein muss.    
-Für das Druckstück (Handbreit, Durchmesser ca. 50 mm) eignet sich härteres Holz wie Buche oder Hasel.
+**Material wird gestellt!**
 
-**Termine 2025**
+Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
+- **Holz für Bohrbrett und Spindel** (passende, gut trockene Hölzer)
+- **Paracord für den Drillbogen**
+- **Material für das Zundernest**
 
-- 13.04, 11:00 Uhr. Decksteiner Weiher, Köln. [Buchung]() 
-- 27.04, 11:00 Uhr. Decksteiner Weiher, Köln. [Buchung]() 
-- 18.05, 11:00 Uhr. Decksteiner Weiher, Köln. [Buchung]()
+### Was musst du mitbringen?
 
+- **Ein geeignetes Messer**: Am besten ein Messer mit Scandi-Schliff und
+  feststehender Klinge (z. B. von Mora).
+- **Sitzunterlage**: Eine Isomatte oder ein Sitzkissen für den Komfort.
+- **Wettergerechte Kleidung**: Zieh dich wetterfest an – egal ob Sonne, Regen
+  oder Wind!
+- **Verpflegung**: Ausreichend Essen und Trinken für den Tag.
+- **Neugier & Geduld**: Der Schlüssel zum Erfolg! 
 
- 
+**Optional**
+- **Dein eigenes Bushcraft-Werkzeug**: Falls du möchtest, kannst du natürlich
+  eigene Säge oder dein eigenes Beil mitbringen.
+- **Material für das Bowdrill-Set**: Für diejenigen, die sich einer besonderen
+  Herausforderung stellen möchten, besteht die Möglichkeit, eigenes Material
+  für das Bowdrill-Set zu sammeln und mitzubringen. Gut geeignet sind weiche
+  Laubhölzer wie Pappel oder Weide für Bohrbrett und Spindel (Ast oder Baumstamm,
+  mindestens 50 mm Durchmesser). Wichtig ist, dass das Holz trocken ist. Für
+  das Druckstück eignen sich härtere Hölzer wie Buche oder Hasel (Handbreit,
+  Durchmesser ca. 50 mm).
+
+### Termine & Anmeldung
+
+**Ort:** Decksteiner Weiher, Köln, 
+**Uhrzeit: 11 Uhr**, 
+**Dauer:** ca. 3 Stunden
+
+- **13.04.2025** – [Jetzt Platz sichern!]()
+- **27.04.2025** – [Jetzt Platz sichern!]()
+- **18.05.2025** – [Jetzt Platz sichern!]()
+
+**Mach mit und erweitere dein Wissen!** Ob du dich auf dein nächstes Abenteuer 
+vorbereiten möchtest, deine Bushcraft-Skills vertiefen willst oder einfach die 
+Verbindung zur Natur intensivieren möchtest – dieses Seminar gibt dir wertvolle 
+Fähigkeiten, um im Einklang mit der Natur zu agieren. Lerne, wie du mit deinen 
+Händen und natürlichen Materialien Feuer entfachst.
+
