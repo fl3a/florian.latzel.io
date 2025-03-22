@@ -4,6 +4,7 @@ layout: page
 permalink: /seminare/bowdrill-feuermachen.html
 description: "Lerne im Bowdrill-Seminar, Feuer ohne Feuerzeug zu entfachen! Perfekt für Bushcraft, Survival & Outdoor-Abenteuer. Jetzt Platz sichern!"
 ---
+!["Collage"](/assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png)
 ## Bowdrill-Feuermachen – Werde zum Feuermeister!
 
 Feuer ohne Feuerzeug oder Streichhölzer entfachen – klingt unmöglich? Ist es 
@@ -21,17 +22,17 @@ in der Natur.
 
 ### Warum solltest du teilnehmen?
 
-- **Traditionelles Handwerk erleben**: Entdecke die uralte Kunst des
-  Feuermachens mit natürlichen Materialien.
-- **Praktische Fähigkeiten erwerben**: Baue dein eigenes Bowdrill-Set und
-  erlerne die richtige Technik für ein zuverlässiges Feuer.
-- **Mitreden bei "7 vs. Wild"**: Schluss mit gefährlichem Halbwissen! Nach
-  diesem Seminar weißt du genau, warum die Kandidaten so schwitzen, wenn sie
-  versuchen, mit einem Bowdrill Feuer zu machen. Beim nächsten Serienmarathon
-  kannst du entspannt zurücklehnen und sagen: „Also ICH hätte das hinbekommen!“
-  😏
-- **Gemeinschaft erleben**: Teile deine Erfahrungen mit Gleichgesinnten und
-  tausche dich über Techniken und Erlebnisse aus.
+
+- **Feuer als Lebensenergie verstehen**: Lerne, wie du das uralte Handwerk des 
+  Feuermachens meisterst – eine Fähigkeit, die uns schon seit Jahrhunderten 
+  begleitet.
+- **Praktisches Wissen für die Natur**: Baue dein eigenes Bowdrill-Set, lerne, wie 
+  du mit minimalen Ressourcen ein Feuer entfachst und trainiere den sicheren Umgang 
+  mit Werkzeugen.
+- **Mitreden bei "7 vs. Wild"**: Mit diesem Wissen kannst du bei der nächsten Folge 
+  mitreden und genau erklären, wie man es richtig macht. 😉
+- **Erlebe Outdoor-Gemeinschaft**: Tausche dich mit anderen Teilnehmern aus, lerne 
+  von ihren Erfahrungen und teile deine eigenen.
 
 👉 [**Melde dich jetzt an und werde zum Feuerprofi!**](#termine--anmeldung) 👈
 
@@ -51,7 +52,7 @@ in der Natur.
 - **Exkurs: Handdrill-Technik**: Einführung in eine noch anspruchsvollere
   traditionelle Methode des Feuermachens.
 
-**Material wird gestellt!**
+💡 **Material wird gestellt!**
 
 Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
 - **Holz für Bohrbrett und Spindel** (passende, gut trockene Hölzer)
@@ -60,13 +61,13 @@ Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
 
 ### Was musst du mitbringen?
 
-- **Ein geeignetes Messer**: Am besten ein Messer mit Scandi-Schliff und
-  feststehender Klinge (für Einsteiger z.B. von Mora).
+- **Ein geeignetes Messer**: Ein Messer mit feststehender Klinge und Scandi-Schliff 
+  ist ideal für die Bearbeitung von Holz (für den Einstieg z.B. von Mora).
 - **Sitzunterlage**: Eine Isomatte oder ein Sitzkissen für den Komfort.
-- **Wettergerechte Kleidung**: Zieh dich wetterfest an – egal ob Sonne, Regen
-  oder Wind!
-- **Verpflegung**: Ausreichend Essen und Trinken für den Tag.
-- **Neugier & Geduld**: Der Schlüssel zum Erfolg! 
+- **Wettergerechte Kleidung**: Für jedes Wetter vorbereitet – Sonne, Regen oder Wind.
+- **Verpflegung**: Denke daran, ausreichend Essen und Trinken für den Tag mitzunehmen.
+- **Geduld und Neugier**: Ein bisschen Ausdauer ist gefragt, aber du wirst 
+  mit einem Erfolgserlebnis belohnt!
 
 **Optional**
 - **Dein eigenes Bushcraft-Werkzeug**: Falls du möchtest, kannst du natürlich
@@ -81,17 +82,15 @@ Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
 
 ### Termine & Anmeldung
 
-**Ort:** Decksteiner Weiher, Köln, 
-**Uhrzeit: 11 Uhr**, 
-**Dauer:** ca. 4 Stunden
+📍 **Ort:** Decksteiner Weiher, Köln     
+🕒 **Dauer:** ca. 4 Stunden
 
-- **13.04.2025** – [Jetzt Platz sichern!]()
-- **27.04.2025** – [Jetzt Platz sichern!]()
-- **18.05.2025** – [Jetzt Platz sichern!]()
+- 📅 **13.04., 11:00 Uhr** – [Jetzt Platz sichern!]()
+- 📅 **27.04., 11:00 Uhr** – [Jetzt Platz sichern!]()
+- 📅 **18.05., 11:00 Uhr** – [Jetzt Platz sichern!]()
 
 **Mach mit und erweitere dein Wissen!** Ob du dich auf dein nächstes Abenteuer 
 vorbereiten möchtest, deine Bushcraft-Skills vertiefen willst oder einfach die 
 Verbindung zur Natur intensivieren möchtest – dieses Seminar gibt dir wertvolle 
 Fähigkeiten, um im Einklang mit der Natur zu agieren. Lerne, wie du mit deinen 
 Händen und natürlichen Materialien Feuer entfachst.
-
