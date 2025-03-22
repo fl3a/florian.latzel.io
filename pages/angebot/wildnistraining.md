@@ -32,7 +32,7 @@ Inhalte unter anderen:
 ## Leadershiptraining goes wild
 
 Trainings für Führungskräfte in Naturräumen.   
-Elebniselemente aus den Bereichen Bushcraft und Survival. 
+Erlebniselemente aus den Bereichen Bushcraft und Survival. 
 Peer Group und [individuelles Coaching]({% link pages/angebot/coaching.md %})   
 
 Prototyp in Arbeit: bei Interesse schreib an [florian@latzel.io](
