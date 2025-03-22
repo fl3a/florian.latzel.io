@@ -4,18 +4,20 @@ layout: page
 permalink: /seminare/bowdrill-feuermachen.html
 description: "Lerne im Bowdrill-Seminar, Feuer ohne Feuerzeug zu entfachen! Perfekt für Bushcraft, Survival & Outdoor-Abenteuer. Jetzt Platz sichern!"
 ---
-
 ## Bowdrill-Feuermachen – Werde zum Feuermeister!
 
-Feuer ohne Feuerzeug oder Streichhölzer entfachen – klingt unmöglich? Ist es
-nicht! In unserem praxisnahen **Bowdrill-Seminar** lernst du, wie du mit
-natürlichen Materialien wie Holz und Zunder Feuer erzeugst – genau wie unsere
-Vorfahren, moderne Survival-Experten und Outdoor-Trainer.
+Feuer ohne Feuerzeug oder Streichhölzer entfachen – klingt unmöglich? Ist es 
+nicht! In unserem praxisnahen **Bowdrill-Seminar** lernst du, wie du mit 
+einfachen Mitteln und natürlichen Materialien Feuer erzeugst – genau wie unsere 
+Vorfahren und moderne Survival-Experten. Dabei bekommst du ein echtes Gefühl 
+für die natürlichen Ressourcen um dich herum und lernst, mit der Natur auf 
+praktische Weise zu arbeiten. 
 
-Ob du deine **Bushcraft-Skills** verbessern möchtest oder einfach nur neugierig
-bist – hier bekommst du echtes **Outdoor-Wissen**, das dich unabhängig macht.
+Ob du deine **Bushcraft-Skills** verbessern möchtest oder einfach nur neugierig 
+bist – dieses Seminar vermittelt dir wertvolle Fähigkeiten für deine Abenteuer 
+in der Natur.
 
-🕒 **Dauer:** ca. 3 Stunden
+🕒 **Dauer:** ca. 4 Stunden
 
 ### Warum solltest du teilnehmen?
 
@@ -59,7 +61,7 @@ Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
 ### Was musst du mitbringen?
 
 - **Ein geeignetes Messer**: Am besten ein Messer mit Scandi-Schliff und
-  feststehender Klinge (z. B. von Mora).
+  feststehender Klinge (für Einsteiger z.B. von Mora).
 - **Sitzunterlage**: Eine Isomatte oder ein Sitzkissen für den Komfort.
 - **Wettergerechte Kleidung**: Zieh dich wetterfest an – egal ob Sonne, Regen
   oder Wind!
@@ -81,7 +83,7 @@ Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
 
 **Ort:** Decksteiner Weiher, Köln, 
 **Uhrzeit: 11 Uhr**, 
-**Dauer:** ca. 3 Stunden
+**Dauer:** ca. 4 Stunden
 
 - **13.04.2025** – [Jetzt Platz sichern!]()
 - **27.04.2025** – [Jetzt Platz sichern!]()
