@@ -7,7 +7,8 @@ image: /assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
 --- 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png 
-alt: "Die Schritte des Feuerbohrens mit dem Bowdrill bis zum Erfolg (mit Julian)" %} 
+alt: "Die Schritte des Feuerbohrens mit dem Bowdrill bis zum Erfolg (mit Julian).
+Fotos &copy; Julian Schreyer" %} 
 
 ## Bowdrill-Feuermachen – Werde zum Feuermeister!
 {:.no_toc}
@@ -30,6 +31,10 @@ Inhalt
 - Inhalt
 {:toc}
 
+{% responsive_image figure: true                                                
+path: assets/imgs/bowdrill/feuerbohren-mit-dem-bowdrill.png                  
+alt: "Julian beim Feuerbohren mit dem Bowdrill. Foto &copy; Julian Schreyer" %} 
+
 ### Warum solltest du teilnehmen?
 
 - **Feuer als Lebensenergie verstehen**: Lerne, wie du das uralte Handwerk des 
@@ -45,13 +50,17 @@ Inhalt
 
 👉 [**Melde dich jetzt an und werde zum Feuerprofi!**](#termine--anmeldung) 👈
 
+{% responsive_image figure: true                                                
+path: assets/imgs/bowdrill/bowdrill-glut-in-das-zundernet-uebertragen.png
+alt: "Übertragung der gebohrten Glut in das Zudernest. Foto &copy; Julian Schreyer" %} 
+
 ### Was erwartet dich im Seminar?
 
 - **Einführung in die Kunst des Feuermachens**: Geschichte, Techniken und
   kulturelle Bedeutung des Feuers – von traditionellen Methoden 
   wie dem **Funkenschlagen** mit Feuerstein und Stahl 
   bis hin zur Kunst des Bowdrill-Feuermachens.
-- **Material- und Werkzeugkunde**: Welche Hölzer und Seile eignen sich am
+- **Material- und Werkzeugkunde**: Welche Hölzer eignen sich am
   besten? Was sind typische Fehler und wie vermeidest du sie?
 - **Umgang mit dem Messer**: Du lernst grundlegende Schnitztechniken für den
   Bau deines Bowdrill-Sets und den sicheren Umgang mit dem Messer im
@@ -62,6 +71,10 @@ Inhalt
   lernst, wie du effektiv Glut erzeugst und ein Feuer entfachst.
 - **Exkurs: Handdrill-Technik**: Einführung in eine noch anspruchsvollere
   traditionelle Methode des Feuermachens.
+
+{% responsive_image figure: true                                                
+path: assets/imgs/bowdrill/bowdrill-zundernest-pusten.png
+alt: "Pusten - Die gebohrte Glut im Zundernest mit Sauerstoff versorgen. Foto &copy; Julian Schreyer" %} 
 
 💡 **Material wird gestellt!**
 
@@ -83,6 +96,10 @@ Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
 - **Geduld und Neugier**: Ein bisschen Ausdauer ist gefragt, aber du wirst 
   mit einem Erfolgserlebnis belohnt!
 
+{% responsive_image figure: true                                                
+path: assets/imgs/bowdrill/bowdrill-zundernest-brennt.png                  
+alt: "Feuer! Das Zundernest ist entzündet. Foto &copy; Julian Schreyer" %} 
+
 #### Optional
 
 - **Dein eigenes Bushcraft-Werkzeug**: Falls du möchtest, kannst du natürlich
@@ -94,6 +111,11 @@ Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
   mindestens 50 mm Durchmesser). Wichtig ist, dass das Holz trocken ist. Für
   das Druckstück eignen sich härtere Hölzer wie Buche oder Hasel (Handbreit,
   Durchmesser ca. 50 mm).
+
+
+{% responsive_image figure: true                                                
+path: assets/imgs/bowdrill/bowdrill-feuer-erfolgstanz.png
+alt: "Ich habe Feuer gemacht! Endlich! Das ist einen Freudentanz wert!. Foto &copy; Julian Schreyer" %} 
 
 ### Termine & Anmeldung
 
