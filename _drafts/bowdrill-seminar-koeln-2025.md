@@ -42,7 +42,9 @@ die ihre **Bushcraft-Skills** erweitern oder einfach die Magie des
 Feuermachens erleben möchten.  
 
 **Mitbringen:** Ein feststehendes Messer, wettergerechte Kleidung & Sitzunterlage.  
-Material für das Bohrbrett, Spindel und Zudernest werden gestellt.  
+Material für das Bohrbrett, Spindel und Zudernest werden gestellt.
+Teilnahme ab 18 Jahren oder in
+Begleitung eines Erziehungs- bzw. Aufsichtsberechtigten.
 
 📍 **Ort:** Decksteiner Weiher, Köln  
 🕒 **Dauer:** ca. 4 Stunden  
@@ -71,8 +73,9 @@ macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
 
 Das [Seminar "Feuermachen ohne Feuerzeug lernen – Bowdrill-Seminar für Bushcraft &  
 Survival 🔥"](/seminare/bowdrill-feuermachen.html) wird vom [Naturzeit.Club](
-https://naturzeit.club/) in Kooperation mit [Globetrotter](
-https://www.globetrotter.de/) organisiert.  
+https://naturzeit.club/) organisiert.  
+Globetrotter unterstützt die Veranstaltung unter anderem durch
+exklusive Rabatte für Club-Mitglieder.
 
 ➡ **Sichere dir jetzt deinen Platz und erlebe das ursprüngliche Feuermachen  
 hautnah!**  
