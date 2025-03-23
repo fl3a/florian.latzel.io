@@ -79,6 +79,7 @@ wo er Kindern täglich die Natur und das ursprüngliche Leben im Freien näherbr
 Seine langjährige Erfahrung in der **Natur- und  Erlebnispädagogik** 
 macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
 {% link pages/angebot/bowdrill-seminar.md %}).  
+Mehr über Julian erfährst du bei [@lone_wolf_and_cubs](https://www.instagram.com/lone_wolf_and_cubs/).
 
 ➡ **Sichere dir jetzt deinen Platz und erlebe das ursprüngliche Feuermachen  
 hautnah!**  
