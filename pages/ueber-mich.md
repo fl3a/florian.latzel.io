@@ -54,7 +54,7 @@ dann musst du mit anderen zusammen gehen.
 
 - [Walkaboutyou](https://walkaboutyou.org/),
 Wander-Workshops in der Natur für mehr Fokus, Resilienz und Wir-Gefühl 
-- [Hannes Leo Meier](https://timeoutcoaching.ch/) - TimeoutCoaching - Schritte, die bewegen 
+- [Hannes Leo Meier](https://timeoutcoaching.ch/), TimeoutCoaching - Schritte, die bewegen 
 - [Kerstin Boljahn](https://www.kerstin-coaching.com/), Wohlfühlcoach, Yoga Lehrerin 
 und [Wildnispädagogin](/thema/wildnispadagogik/) im Norden
 - [naturzeit.club](https://naturzeit.club),
