@@ -12,6 +12,7 @@ tags:
 - Julian
 description: "Lerne im Bowdrill-Seminar 2025 in Köln die Kunst des Feuermachens ohne Feuerzeug. Perfekt für Bushcraft-, Survival- und Outdoor-Fans!"  
 image: /assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
+permalink: /bowdrill-seminare-koeln-2025-feuermachen.html
 --- 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png 
