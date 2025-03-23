@@ -22,28 +22,20 @@ https://rogerpfaff.de/holacracy/) strukturierten
 Digitalagentur [Reinblau](/thema/reinblau/) (2012 - 2020)
 - [Howto: Drupal@Uberlab](https://lab.uberspace.de/guide_drupal/)
 - [Bergischer Weg](https://www.bergisches-wanderland.de/bergischer-weg) (2018 - 2019)
-- [Howto: C02 sparen: Responsive Images und Lazyload bei Jekyll](
-{% post_url 2020-04-07-co2-sparen-responsive-images-lazyload-jekyll  %}) 
 - Mitorganisation des 86\. [Scrumtisch Köln](/thema/scrumtisch-koln/) bei REWE digital
 - Einen (Halb-)Marathon laufen, ankommen und mit der Zeit zufrieden sein
-- Mitorganisation und Facilitierung des ersten [Open Space](
-/thema/open-space/) DrupalCamps,   
- [drupalcamp.ruhr 2018](
+- Mitorganisation und Facilitierung des [ersten Drupal Barcamps](
 {% post_url  2018-03-27-ein-experiment-drupalcamp-ruhr-goes-barcamp %})
 - Mitorganisator und Gastgeber der [Drupal User Group Köln/Bonn](
 https://groups.drupal.org/k%C3%B6ln-bonn) (2011 - 2014)
-- Entwicklung von diversen Modulen und Patches für das [Drupal](/thema/drupal/) CMS
+- Entwicklung von diversen Modulen und Patches für das [Drupal CMS](/thema/drupal/) 
 - Mitorganisation des *Berlin Proposals* für die europäische Drupalcon 2010
-- [Howto: Git, Gitosis, Gitweb (the Debian way)](
-{% post_url 2010-03-13-git-gitosis-gitweb-the-debian-way %}) 
 - Gründungsmitglied des [Drupal e.V](https://verein.drupal.org), 
 der German Drupal Association
 - Mitorganisation des [Drupalstandes auf dem LinuxtagBerlin 2009](
 {% post_url 2009-06-12-be-drupal-again-drupal-auf-dem-linuxtag-2009 %}) 
 - Mitorganisation der [ersten Drupal-Entwickler-Konferenz in D-A-CH](
 https://dri.es/drupalcamp-koln-2008)
-- [Howto: Drupal 6 Multisiteumgebung mit PostgreSQL](
-{% post_url 2008-09-30-drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4 %}) 
 - Deutsche Übersetzung der [Open Source](/thema/open-source/) 
 Customer Service und Billing Software [citrusdb](http://citrusdb.org/) 
 - Mitbetreiber und Entwicker des unkommerziellen Stadtteilportals    
