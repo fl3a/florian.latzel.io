@@ -15,7 +15,8 @@ image: /assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
 --- 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png 
-alt: "Die Schritte des Feuerbohrens mit dem Bowdrill bis zum Erfolg (mit Julian)" %} 
+alt: "Die Schritte des Feuerbohrens mit dem Bowdrill bis zum Erfolg (mit Julian).
+Fotos &copy; Julian Schreyer" %}    
 
 🔥 **Feuer ohne Feuerzeug oder Streichhölzer entfachen?** Genau das lernst du im  
 [**Bowdrill-Seminar**](/seminare/bowdrill-feuermachen.html)!  
