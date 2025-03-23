@@ -52,11 +52,9 @@ dann musst du mit anderen zusammen gehen.
 <figcaption>Afrikanisches Sprichwort</figcaption>
 </figure>
 
-- [Sybille Vosberg, Praxis für Konfliktheilung](
-https://www.konfliktheilung.de/naturcoaching/),
-[Naturcoaching]({% link pages/angebot/coach-and-walk.md %}), Leipzig.	 
 - [Walkaboutyou](https://walkaboutyou.org/),
 Wander-Workshops in der Natur für mehr Fokus, Resilienz und Wir-Gefühl 
+- [Hannes Leo Meier](https://timeoutcoaching.ch/) - TimeoutCoaching - Schritte, die bewegen 
 - [Kerstin Boljahn](https://www.kerstin-coaching.com/), Wohlfühlcoach, Yoga Lehrerin 
 und [Wildnispädagogin](/thema/wildnispadagogik/) im Norden
 - [naturzeit.club](https://naturzeit.club),
