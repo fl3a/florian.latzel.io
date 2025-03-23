@@ -3,8 +3,12 @@ title: "Feuermachen ohne Feuerzeug lernen – Bowdrill-Seminar für Bushcraft & 
 layout: page
 permalink: /seminare/bowdrill-feuermachen.html
 description: "Lerne im Bowdrill-Seminar, Feuer ohne Feuerzeug zu entfachen! Perfekt für Bushcraft, Survival & Outdoor-Abenteuer. Jetzt Platz sichern!"
----
-!["Collage"](/assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png)
+image: /assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
+--- 
+{% responsive_image figure: true                                                
+path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png 
+alt: "Die Schritte des Feuerbohrens mit dem Bowdrill bis zum Erfolg (mit Julian)" %} 
+
 ## Bowdrill-Feuermachen – Werde zum Feuermeister!
 
 Feuer ohne Feuerzeug oder Streichhölzer entfachen – klingt unmöglich? Ist es 
@@ -14,8 +18,9 @@ Vorfahren und moderne Survival-Experten. Dabei bekommst du ein echtes Gefühl
 für die natürlichen Ressourcen um dich herum und lernst, mit der Natur auf 
 praktische Weise zu arbeiten. 
 
-Ob du deine **Bushcraft-Skills** verbessern möchtest oder einfach nur neugierig 
-bist – dieses Seminar vermittelt dir wertvolle Fähigkeiten für deine Abenteuer 
+Ob du deine [**Bushcraft-Skills**]({% link pages/angebot/wildnistraining.md %}) 
+verbessern möchtest oder einfach nur neugierig bist – 
+dieses Seminar vermittelt dir wertvolle Fähigkeiten für deine Abenteuer 
 in der Natur.
 
 🕒 **Dauer:** ca. 4 Stunden
@@ -85,9 +90,12 @@ Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
 📍 **Ort:** Decksteiner Weiher, Köln     
 🕒 **Dauer:** ca. 4 Stunden
 
-- 📅 **13.04., 11:00 Uhr** – [Jetzt Platz sichern!]()
-- 📅 **27.04., 11:00 Uhr** – [Jetzt Platz sichern!]()
-- 📅 **18.05., 11:00 Uhr** – [Jetzt Platz sichern!]()
+- 📅 **13.04., 11:00 Uhr** – [Jetzt Platz sichern!](                            
+https://rausgegangen.de/events/bushcraft-feuerbohrer-kopie-1/)                  
+- 📅 **27.04., 11:00 Uhr** – [Jetzt Platz sichern!](                            
+https://rausgegangen.de/events/bushcraft-feuerbohrer-kopie-0/)                  
+- 📅 **18.05., 11:00 Uhr** – [Jetzt Platz sichern!](                            
+https://rausgegangen.de/events/bushcraft-feuerbohrer-0/)    
 
 **Mach mit und erweitere dein Wissen!** Ob du dich auf dein nächstes Abenteuer 
 vorbereiten möchtest, deine Bushcraft-Skills vertiefen willst oder einfach die 
