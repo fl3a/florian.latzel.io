@@ -20,11 +20,11 @@ alt: "Die Schritte des Feuerbohrens mit dem Bowdrill bis zum Erfolg (mit Julian)
 🔥 **Feuer ohne Feuerzeug oder Streichhölzer entfachen?** Genau das lernst du im  
 [**Bowdrill-Seminar**](/seminare/bowdrill-feuermachen.html)!  
 Mit traditionellen Techniken und natürlichen Materialien baust du dein eigenes  
-**Feuerbohrer-Set** und übst das Feuermachen – eine essenzielle **Survival- und  
-Bushcraft-Skill**.  
+**Feuerbohrer-Set** und übst das Feuermachen – eine essenzielle [**Survival- und  
+Bushcraft-Skill**]({% link pages/angebot/wildnistraining.md %}).  
 
 Für eine **detaillierte Beschreibung** des Seminars, schau dir bitte die  
-[Seminar-Seite an](/seminare/bowdrill-feuermachen.html).  
+[Seminar-Seite an]({% link pages/angebot/bowdrill-seminar.md %}).  
 
 ## Warum solltest du teilnehmen?  
 ✔ **Feuermachen ohne moderne Hilfsmittel** – Werde unabhängig von Feuerzeug & Co.  
@@ -36,8 +36,9 @@ Bowdrill-Technik.
 Abenteuer.  
 
 ## Für wen ist das Seminar geeignet?  
-Ob Anfänger oder erfahrener Outdoor-Fan – unser **Survival-Training** richtet  
-sich an alle, die ihre **Bushcraft-Skills** erweitern oder einfach die Magie des  
+Ob Anfänger oder erfahrener Outdoor-Fan – unser [**Survival-Training**](
+{% link pages/angebot/bowdrill-seminar.md %}) richtet sich an alle, 
+die ihre **Bushcraft-Skills** erweitern oder einfach die Magie des  
 Feuermachens erleben möchten.  
 
 **Mitbringen:** Ein feststehendes Messer, wettergerechte Kleidung & Sitzunterlage.  
@@ -46,9 +47,12 @@ Material für das Bohrbrett, Spindel und Zudernest werden gestellt.
 📍 **Ort:** Decksteiner Weiher, Köln  
 🕒 **Dauer:** ca. 4 Stunden  
 
-- 📅 **13.04., 11:00 Uhr** – [Jetzt Platz sichern!]()  
-- 📅 **27.04., 11:00 Uhr** – [Jetzt Platz sichern!]()  
-- 📅 **18.05., 11:00 Uhr** – [Jetzt Platz sichern!]()  
+- 📅 **13.04., 11:00 Uhr** – [Jetzt Platz sichern!](
+https://rausgegangen.de/events/bushcraft-feuerbohrer-kopie-1/)  
+- 📅 **27.04., 11:00 Uhr** – [Jetzt Platz sichern!](
+https://rausgegangen.de/events/bushcraft-feuerbohrer-kopie-0/)  
+- 📅 **18.05., 11:00 Uhr** – [Jetzt Platz sichern!](
+https://rausgegangen.de/events/bushcraft-feuerbohrer-0/)  
 
 ## Dein Trainer-Team  
 
@@ -58,11 +62,12 @@ alt: "Julian und ich auf der vierten Etappe des Bergischen Wegs im Mai 2019" %}
 
 Als Co-Trainer begleitet mich mein Freund [**Julian**](/thema/julian/), 
 den ich seit über 30 Jahren kenne.
-Er ist [**Wildnispädagoge**](/thema/wildnispadagogik/), 
+Er ist wie ich [**Wildnispädagoge**](/thema/wildnispadagogik/), 
 vierfacher Vater und arbeitet in einem  **Waldkindergarten**, 
 wo er Kindern täglich die Natur und das ursprüngliche Leben im Freien näherbringt. 
 Seine langjährige Erfahrung in der **Natur- und  Erlebnispädagogik** 
-macht ihn zu einem großartigen Mentor für dieses **Bushcraft-Seminar**.  
+macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
+{% link pages/angebot/bowdrill-seminar.md %}).  
 
 Das [Seminar "Feuermachen ohne Feuerzeug lernen – Bowdrill-Seminar für Bushcraft &  
 Survival 🔥"](/seminare/bowdrill-feuermachen.html) wird vom [Naturzeit.Club](
