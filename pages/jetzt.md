@@ -2,8 +2,16 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2024-11-05 11:22
+last_modified_at: 2025-03-23 14:21
 ---
+Beruflich bereite ich aktuell auf mein Assessment als *Agility Master* vor.
+
+## Frühling
+
+Durch Wald und Flur streifen. Bärlauch und Material für das [Bowdrill Seminar](
+{% post_url bowdrill-seminar-koeln-2025 %}) sammeln 
+und die stärker werdende Sonne genießen.
+
 ## Lernen
 
 - Seit November: NLP Practitioner Trainer Assistenz bei Tom Andreas
@@ -11,12 +19,12 @@ last_modified_at: 2024-11-05 11:22
 
 ## Lesen
 
+- Perfektionismus von Raphael Bonelli  
 - Fragen können wie Küsse schmecken - 
 Systemische Fragetechniken für Anfänger und Fortgeschrittene
 von Carmen Kindl Beilfuß
 - Agile Teams lösungsfokussiert coachen 
 von Verenika Kotrba und Ralph Miarka
-- Wenn du es eilig hast, gehe langsam von Lothar J. Seiwert (5. Auflage, 2000)
 
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).   
