@@ -22,7 +22,7 @@ Fotos &copy; Julian Schreyer" %}
 🔥 **Feuer ohne Feuerzeug oder Streichhölzer entfachen?** Genau das lernst du im  
 [**Bowdrill-Seminar**](/seminare/bowdrill-feuermachen.html)!  
 Mit traditionellen Techniken und natürlichen Materialien baust du dein eigenes
-**Feuerbohrer-Set** und übst das Feuermachen – eine essenzielle [**Survival- und 
+**Feuerbohrer-Set** und übst das Feuermachen – eine essenzieller [**Survival- und 
 Bushcraft-Skill**]({% link pages/angebot/wildnistraining.md %}).  
 
 ## In Kooperation mit Naturzeit.Club  
@@ -76,8 +76,7 @@ den ich seit über 30 Jahren kenne.
 Er ist [**Wildnispädagoge**](/thema/wildnispadagogik/), vierfacher Vater
 und arbeitet in einem  **Waldkindergarten**, 
 wo er Kindern täglich die Natur und das ursprüngliche Leben im Freien näherbringt. 
-Seine langjährige Erfahrung in der **Natur- und  Erlebnispädagogik** 
-macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
+Das macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
 {% link pages/angebot/bowdrill-seminar.md %}).  
 Mehr über Julian erfährst du bei [@lone_wolf_and_cubs](https://www.instagram.com/lone_wolf_and_cubs/).
 
