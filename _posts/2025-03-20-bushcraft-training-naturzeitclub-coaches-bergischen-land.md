@@ -13,7 +13,7 @@ tags:
 - Glutbrennen
 - just me
 image: /assets/imgs/bushcraft-training-2022/bushcraft-training-naturzeitclub-coaches-bergischen-land.png
-last_modified_at: 2025-03-21
+last_modified_at: 2025-03-23
 ---
 {% responsive_image figure: true
 path: assets/imgs/bushcraft-training-2022/bushcraft-training-naturzeitclub-coaches-bergischen-land.png
@@ -26,7 +26,9 @@ Das Training fand in der [Waldschule Solingen](https://waldschule-solingen.de/)
 im *Bergischen Land* statt.
 Auf dem Programm standen der **Bau einer Laubhütte**,
 theoretische und praktische Übungen zum **Feuermachen**,
-insbesondere das **Feuerbohren mit dem Drillbogen (Bowdrill)**, sowie das **Glutbrennen einer Holzschale**.
+insbesondere das [**Feuerbohren mit dem Drillbogen (Bowdrill)**](
+{% link pages/angebot/bowdrill-seminar.md %}), 
+sowie das **Glutbrennen einer Holzschale**.
 <!--break-->
 Hier ein paar Eindrücke:
 - Inhalt
@@ -96,8 +98,8 @@ caption: 'Judy liegt in der Laubhütte Probe. © Naturzeitclub.' %}
 
 ## Feuerbohren mit dem Drillbogen (Bowdrill)
 
-Das Feuermachen mit dem **Drillbogen (Bowdrill)** ist eine traditionelle Methode,
-die Geschicklichkeit und Geduld erfordert.
+Das Feuermachen mit dem [**Drillbogen (Bowdrill)**](/thema/bowdrill) 
+ist eine traditionelle Methode, die Geschicklichkeit und Geduld erfordert.
 Es ist eine essentielle Fähigkeit im Bushcraft, um in der Wildnis Feuer zu entfachen.
 
 {% responsive_image figure: true
