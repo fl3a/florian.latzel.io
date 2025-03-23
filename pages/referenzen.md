@@ -2,6 +2,7 @@
 title: Referenzen
 layout: page
 permalink: /referenzen.html
+last_modified_at: 2025-03-23
 ---
 * Inhalt
 {:toc}
@@ -39,7 +40,8 @@ AXA (08.2022 - 06.2023)
 
 - [Survival-, Bushcraft- und Wildnistraining](
 {% link pages/angebot/wildnistraining.md %}) (02.2022 - heute) 
-  - u.a. Ausbildung der [Naturzeitclub](https://naturzeit.club/) Coaches
+  - u.a. [Ausbildung von Naturzeitclub Coaches](
+{% post_url 2025-03-20-bushcraft-training-naturzeitclub-coaches-bergischen-land %})
 - [Trainer Assistenz NLP Practitioner](
 {%post_url 2024-11-11-trainer-assistenz-bei-tom-andreas %}), 
 [Institut Tom Andreas](https://www.tomandreas.de/) (10.2024 - heute)
