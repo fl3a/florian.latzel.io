@@ -20,8 +20,8 @@ Fotos &copy; Julian Schreyer" %}
 
 🔥 **Feuer ohne Feuerzeug oder Streichhölzer entfachen?** Genau das lernst du im  
 [**Bowdrill-Seminar**](/seminare/bowdrill-feuermachen.html)!  
-Mit traditionellen Techniken und natürlichen Materialien baust du dein eigenes  
-**Feuerbohrer-Set** und übst das Feuermachen – eine essenzielle [**Survival- und  
+Mit traditionellen Techniken und natürlichen Materialien baust du dein eigenes
+**Feuerbohrer-Set** und übst das Feuermachen – eine essenzielle [**Survival- und 
 Bushcraft-Skill**]({% link pages/angebot/wildnistraining.md %}).  
 
 Für eine **detaillierte Beschreibung** des Seminars, schau dir bitte die  
@@ -29,23 +29,18 @@ Für eine **detaillierte Beschreibung** des Seminars, schau dir bitte die
 
 ## Warum solltest du teilnehmen?  
 ✔ **Feuermachen ohne moderne Hilfsmittel** – Werde unabhängig von Feuerzeug & Co.  
-✔ **Outdoor-Skills für Survival & Bushcraft** – Lerne, welche Materialien sich  
-eignen.  
-✔ **Praxistraining mit Experten** – Erfolgreich Feuer entfachen mit der  
-Bowdrill-Technik.  
-✔ **Dein eigenes Feuerbohrer-Set bauen** – Direkt einsetzbar für zukünftige  
-Abenteuer.  
+✔ **Outdoor-Skills für Survival & Bushcraft** – Lerne, welche Materialien sich eignen.  
+✔ **Praxistraining mit Experten** – Erfolgreich Feuer entfachen mit der Bowdrill-Technik.  
+✔ **Dein eigenes Feuerbohrer-Set bauen** – Direkt einsetzbar für zukünftige Abenteuer.  
 
 ## Für wen ist das Seminar geeignet?  
 Ob Anfänger oder erfahrener Outdoor-Fan – unser [**Survival-Training**](
 {% link pages/angebot/bowdrill-seminar.md %}) richtet sich an alle, 
-die ihre **Bushcraft-Skills** erweitern oder einfach die Magie des  
-Feuermachens erleben möchten.  
+die ihre **Bushcraft-Skills** erweitern oder einfach die Magie des Feuermachens erleben möchten.  
 
 **Mitbringen:** Ein feststehendes Messer, wettergerechte Kleidung & Sitzunterlage.  
-Material für das Bohrbrett, Spindel und Zudernest werden gestellt.
-Teilnahme ab 18 Jahren oder in
-Begleitung eines Erziehungs- bzw. Aufsichtsberechtigten.
+Material für das Bohrbrett, Spindel und Zudernest werden gestellt.\\
+Teilnahme ab 18 Jahren oder in Begleitung eines Erziehungs- bzw. Aufsichtsberechtigten.
 
 📍 **Ort:** Decksteiner Weiher, Köln  
 🕒 **Dauer:** ca. 4 Stunden  
