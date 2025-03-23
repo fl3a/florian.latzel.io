@@ -3,7 +3,7 @@ title: Wildnistraining
 layout: page
 permalink: /wildnistraining.html
 ---
-{% responsive_image 
+{% responsive_image figure: true
 alt: "Abends gemeinsam am Lagerfeuer. Foto © Tina Urban."
 path: assets/imgs/november-draussen/lagerfeuer.jpg %}
 
@@ -21,23 +21,10 @@ Inhalte unter anderen:
 - Herstellung von Schale & Löffel durch Glutbrennen 
 - Naturwahrnehmung 
 
-{% comment %}
-- Bushcraft und Survival
-  - Feuer, auf archaische Weise emotional
-- Oneness, mit der Natur
-- Vermittlung von primitiven Fähigkeiten
-- Meditation der Hände
-{% endcomment %}
+## Seminare
 
-## Leadershiptraining goes wild
+- [Bowdrill – Feuermachen ohne Feuerzeug lernen](
+{% link pages/angebot/bowdrill-seminar.md %})
+- [Leadershiptraining goes wild](
+{% link pages/angebot/leadershiptraining-goes-wild.md%})
 
-Trainings für Führungskräfte in Naturräumen.   
-Erlebniselemente aus den Bereichen Bushcraft und Survival. 
-Peer Group und [individuelles Coaching]({% link pages/angebot/coaching.md %})   
-
-Prototyp in Arbeit: bei Interesse schreib an [florian@latzel.io](
-mailto:florian@latzel.io?subject=Leadershiptraining goes wild),
-wir benachrichtigen, sobald wir loslegen!
-
-Das Bild auf dieser Seite ist von [Tina Urban](https://tinaurban.de/) 
-und Urheberrechtlich© geschützt. Danke!
