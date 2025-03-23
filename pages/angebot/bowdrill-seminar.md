@@ -52,7 +52,7 @@ alt: "Julian beim Feuerbohren mit dem Bowdrill. Foto &copy; Julian Schreyer" %}
 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-glut-in-das-zundernet-uebertragen.png
-alt: "Übertragung der gebohrten Glut in das Zudernest. Foto &copy; Julian Schreyer" %} 
+alt: "Übertragung der gebohrten Glut in das Zundernest. Foto &copy; Julian Schreyer" %} 
 
 ### Was erwartet dich im Seminar?
 
@@ -83,10 +83,12 @@ Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
 - **Paracord für den Drillbogen**
 - **Material für das Zundernest**
 
+Das Holz für den Bogen und das Druckstück wird gemeinsam vor Ort gesammelt.  
+
 ### Was musst du mitbringen?
 
 - **Ein geeignetes Messer**: Ein Messer mit feststehender Klinge und Scandi-Schliff 
-  ist ideal für die Bearbeitung von Holz (für den Einstieg z.B. von Mora).
+  ist ideal für die Bearbeitung von Holz (für den Einstieg z.B. von der Marke Mora).
 - **Sitzunterlage**: Eine Isomatte oder ein Sitzkissen für den Komfort.
 - **Wettergerechte Kleidung**: Für jedes Wetter vorbereitet – Sonne, Regen oder Wind.
 - **Verpflegung**: Denke daran, ausreichend Essen und Trinken für den Tag mitzunehmen.
@@ -103,7 +105,7 @@ alt: "Feuer! Das Zundernest ist entzündet. Foto &copy; Julian Schreyer" %}
 #### Optional
 
 - **Dein eigenes Bushcraft-Werkzeug**: Falls du möchtest, kannst du natürlich
-  eigene Säge oder dein eigenes Beil mitbringen.
+deine eigene Säge oder dein eigenes Beil mitbringen.
 - **Material für das Bowdrill-Set**: Für diejenigen, die sich einer besonderen
   Herausforderung stellen möchten, besteht die Möglichkeit, eigenes Material
   für das Bowdrill-Set zu sammeln und mitzubringen. Gut geeignet sind weiche
