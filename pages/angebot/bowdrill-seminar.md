@@ -10,6 +10,7 @@ path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
 alt: "Die Schritte des Feuerbohrens mit dem Bowdrill bis zum Erfolg (mit Julian)" %} 
 
 ## Bowdrill-Feuermachen – Werde zum Feuermeister!
+{:.no_toc}
 
 Feuer ohne Feuerzeug oder Streichhölzer entfachen – klingt unmöglich? Ist es 
 nicht! In unserem praxisnahen **Bowdrill-Seminar** lernst du, wie du mit 
@@ -25,8 +26,11 @@ in der Natur.
 
 🕒 **Dauer:** ca. 4 Stunden
 
-### Warum solltest du teilnehmen?
+Inhalt
+- Inhalt
+{:toc}
 
+### Warum solltest du teilnehmen?
 
 - **Feuer als Lebensenergie verstehen**: Lerne, wie du das uralte Handwerk des 
   Feuermachens meisterst – eine Fähigkeit, die uns schon seit Jahrhunderten 
@@ -44,7 +48,9 @@ in der Natur.
 ### Was erwartet dich im Seminar?
 
 - **Einführung in die Kunst des Feuermachens**: Geschichte, Techniken und
-  kulturelle Bedeutung des Feuers.
+  kulturelle Bedeutung des Feuers – von traditionellen Methoden 
+  wie dem **Funkenschlagen** mit Feuerstein und Stahl 
+  bis hin zur Kunst des Bowdrill-Feuermachens.
 - **Material- und Werkzeugkunde**: Welche Hölzer und Seile eignen sich am
   besten? Was sind typische Fehler und wie vermeidest du sie?
 - **Umgang mit dem Messer**: Du lernst grundlegende Schnitztechniken für den
@@ -77,7 +83,8 @@ Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
 - **Geduld und Neugier**: Ein bisschen Ausdauer ist gefragt, aber du wirst 
   mit einem Erfolgserlebnis belohnt!
 
-**Optional**
+#### Optional
+
 - **Dein eigenes Bushcraft-Werkzeug**: Falls du möchtest, kannst du natürlich
   eigene Säge oder dein eigenes Beil mitbringen.
 - **Material für das Bowdrill-Set**: Für diejenigen, die sich einer besonderen
@@ -100,8 +107,10 @@ https://rausgegangen.de/events/bushcraft-feuerbohrer-kopie-0/)
 - 📅 **18.05., 11:00 Uhr** – [Jetzt Platz sichern!](                            
 https://rausgegangen.de/events/bushcraft-feuerbohrer-0/)    
 
-**Mach mit und erweitere dein Wissen!** Ob du dich auf dein nächstes Abenteuer 
-vorbereiten möchtest, deine Bushcraft-Skills vertiefen willst oder einfach die 
-Verbindung zur Natur intensivieren möchtest – dieses Seminar gibt dir wertvolle 
-Fähigkeiten, um im Einklang mit der Natur zu agieren. Lerne, wie du mit deinen 
-Händen und natürlichen Materialien Feuer entfachst.
+**Mach mit und erweitere dein Wissen!**\\
+Ob du dich auf dein nächstes Abenteuer vorbereiten möchtest, 
+deine Bushcraft-Skills vertiefen willst 
+oder einfach die Verbindung zur Natur intensivieren möchtest – 
+dieses Seminar gibt dir wertvolle Fähigkeiten, 
+um im Einklang mit der Natur zu agieren. Lerne, 
+wie du mit deinen Händen und natürlichen Materialien Feuer entfachst.
