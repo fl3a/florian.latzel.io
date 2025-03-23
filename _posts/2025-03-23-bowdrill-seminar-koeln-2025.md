@@ -71,9 +71,9 @@ https://rausgegangen.de/events/bushcraft-feuerbohrer-0/)
 path: assets/imgs/50km/bergischer-weg-etappe-4-julian-schreyer-florian-latzel-mai-2019.jpg
 alt: "Julian und ich auf der vierten Etappe des Bergischen Wegs im Mai 2019" %}
 
-Als Co-Trainer begleitet mich mein Freund [**Julian**](/thema/julian/), 
+Als Co-Trainer begleitet mich mein Freund [**Julian**](/thema/julian/) (Jg. 1977), 
 den ich seit über 30 Jahren kenne.
-Er ist wie ich [**Wildnispädagoge**](/thema/wildnispadagogik/) 
+Er ist [**Wildnispädagoge**](/thema/wildnispadagogik/), vierfacher Vater
 und arbeitet in einem  **Waldkindergarten**, 
 wo er Kindern täglich die Natur und das ursprüngliche Leben im Freien näherbringt. 
 Seine langjährige Erfahrung in der **Natur- und  Erlebnispädagogik** 
