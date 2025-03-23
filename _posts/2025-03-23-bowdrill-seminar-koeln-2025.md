@@ -39,7 +39,8 @@ Ob Anfänger oder erfahrener Outdoor-Fan – unser [**Survival-Training**](
 die ihre **Bushcraft-Skills** erweitern oder einfach die Magie des Feuermachens erleben möchten.  
 
 **Mitbringen:** Ein feststehendes Messer, wettergerechte Kleidung & Sitzunterlage.  
-Material für das Bohrbrett, Spindel und Zudernest werden gestellt.\\
+Material für das Bohrbrett, Spindel und Zundernest werden gestellt.\\
+Das Holz für den Bogen und das Druckstück wird gemeinsam vor Ort gesammelt.\\
 Teilnahme ab 18 Jahren oder in Begleitung eines Erziehungs- bzw. Aufsichtsberechtigten.
 
 📍 **Ort:** Decksteiner Weiher, Köln  
@@ -60,8 +61,8 @@ alt: "Julian und ich auf der vierten Etappe des Bergischen Wegs im Mai 2019" %}
 
 Als Co-Trainer begleitet mich mein Freund [**Julian**](/thema/julian/), 
 den ich seit über 30 Jahren kenne.
-Er ist wie ich [**Wildnispädagoge**](/thema/wildnispadagogik/), 
-vierfacher Vater und arbeitet in einem  **Waldkindergarten**, 
+Er ist wie ich [**Wildnispädagoge**](/thema/wildnispadagogik/) 
+und arbeitet in einem  **Waldkindergarten**, 
 wo er Kindern täglich die Natur und das ursprüngliche Leben im Freien näherbringt. 
 Seine langjährige Erfahrung in der **Natur- und  Erlebnispädagogik** 
 macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
