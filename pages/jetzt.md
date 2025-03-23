@@ -9,8 +9,8 @@ Beruflich bereite ich aktuell auf mein Assessment als *Agility Master* vor.
 ## Frühling
 
 Durch Wald und Flur streifen. Bärlauch und Material für das [Bowdrill Seminar](
-{% post_url bowdrill-seminar-koeln-2025 %}) sammeln 
-und die stärker werdende Sonne genießen.
+{% post_url 2025-03-23-bowdrill-seminar-koeln-2025 %}) sammeln 
+und die länger werdenden Tage sowie die stärker werdende Sonne genießen.
 
 ## Lernen
 
