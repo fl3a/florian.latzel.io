@@ -24,6 +24,17 @@ Mit traditionellen Techniken und natürlichen Materialien baust du dein eigenes
 **Feuerbohrer-Set** und übst das Feuermachen – eine essenzielle [**Survival- und 
 Bushcraft-Skill**]({% link pages/angebot/wildnistraining.md %}).  
 
+## In Kooperation mit Naturzeit.Club  
+
+Dieses Seminar wird vom [**Naturzeit.Club**](https://naturzeit.club/) organisiert,  
+der sich für gemeinschaftliche Naturerlebnisse einsetzt.  
+**Der Naturzeit.Club bietet unvergessliche Naturerlebnisse für Kinder im Alter  
+von 6 bis 12 Jahren**, wie z. B. Feriencamps, Schnitzeljagden und  
+Nachmittagsbetreuungen. **Auch Erwachsene kommen auf ihre Kosten** mit  
+Seminaren zu Wildnistechniken, Bushcraft und Outdoor-Abenteuern.  
+Globetrotter unterstützt die Veranstaltung unter anderem durch exklusive  
+Rabatte für Club-Mitglieder.  
+
 Für eine **detaillierte Beschreibung** des Seminars, schau dir bitte die  
 [Seminar-Seite an]({% link pages/angebot/bowdrill-seminar.md %}).  
 
@@ -67,12 +78,6 @@ wo er Kindern täglich die Natur und das ursprüngliche Leben im Freien näherbr
 Seine langjährige Erfahrung in der **Natur- und  Erlebnispädagogik** 
 macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
 {% link pages/angebot/bowdrill-seminar.md %}).  
-
-Das [Seminar "Feuermachen ohne Feuerzeug lernen – Bowdrill-Seminar für Bushcraft &  
-Survival 🔥"](/seminare/bowdrill-feuermachen.html) wird vom [Naturzeit.Club](
-https://naturzeit.club/) organisiert.  
-Globetrotter unterstützt die Veranstaltung unter anderem durch
-exklusive Rabatte für Club-Mitglieder.
 
 ➡ **Sichere dir jetzt deinen Platz und erlebe das ursprüngliche Feuermachen  
 hautnah!**  
