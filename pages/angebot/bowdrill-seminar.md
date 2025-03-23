@@ -71,6 +71,9 @@ Wir stellen dir das nötige Material für das Bowdrill-Set zur Verfügung:
 - **Sitzunterlage**: Eine Isomatte oder ein Sitzkissen für den Komfort.
 - **Wettergerechte Kleidung**: Für jedes Wetter vorbereitet – Sonne, Regen oder Wind.
 - **Verpflegung**: Denke daran, ausreichend Essen und Trinken für den Tag mitzunehmen.
+- **Mindestalter & Begleitung**: Die Teilnahme ist ab 18 Jahren möglich. 
+  Jüngere Teilnehmer können in Begleitung eines Erziehungs- bzw. 
+  Aufsichtsberechtigten teilnehmen.
 - **Geduld und Neugier**: Ein bisschen Ausdauer ist gefragt, aber du wirst 
   mit einem Erfolgserlebnis belohnt!
 
