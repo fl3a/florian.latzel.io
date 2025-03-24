@@ -26,13 +26,14 @@ Mit traditionellen Techniken und natürlichen Materialien baust du dein eigenes
 Bushcraft-Skill**]({% link pages/angebot/wildnistraining.md %}).  
 
 Für eine **detaillierte Beschreibung**, schau dir 
-[**Feuermachen ohne Feuerzeug lernen – Bowdrill-Seminar für Bushcraft & Survival**](
+[**Bowdrill-Seminar – Feuermachen ohne Feuerzeug**](
 {% link pages/angebot/bowdrill-seminar.md %}) an.  
 
 ## In Kooperation mit Naturzeit.Club  
 
 Der [**Naturzeit.Club**](https://naturzeit.club/) organisiert das Seminar und bietet  
-Naturerlebnisse für Kinder und Erwachsene – von **Feriencamps** bis zu **Wildnistrainings**.  
+Naturerlebnisse für Kinder und Erwachsene – von **Feriencamps** bis zu [**Wildnistrainings**](
+{% link pages/angebot/wildnistraining.md %}).  
 
 Globetrotter unterstützt die Veranstaltung unter anderem durch exklusive  
 Rabatte für Club-Mitglieder.  
