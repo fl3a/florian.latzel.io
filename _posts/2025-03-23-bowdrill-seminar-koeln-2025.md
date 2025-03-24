@@ -25,25 +25,27 @@ Mit traditionellen Techniken und natürlichen Materialien baust du dein eigenes
 **Feuerbohrer-Set** und übst das Feuermachen – eine essenzieller [**Survival- und 
 Bushcraft-Skill**]({% link pages/angebot/wildnistraining.md %}).  
 
+Für eine **detaillierte Beschreibung**, schau dir 
+[**Feuermachen ohne Feuerzeug lernen – Bowdrill-Seminar für Bushcraft & Survival**](
+{% link pages/angebot/bowdrill-seminar.md %}) an.  
+
 ## In Kooperation mit Naturzeit.Club  
 
-Dieses Seminar wird vom [**Naturzeit.Club**](https://naturzeit.club/) organisiert,  
-der sich für gemeinschaftliche Naturerlebnisse einsetzt.  
-**Der Naturzeit.Club bietet unvergessliche Naturerlebnisse für Kinder im Alter  
-von 6 bis 12 Jahren**, wie z. B. Feriencamps, Schnitzeljagden und  
-Nachmittagsbetreuungen. **Auch Erwachsene kommen auf ihre Kosten** mit  
-Seminaren zu Wildnistechniken, Bushcraft und Outdoor-Abenteuern.  
+Der [**Naturzeit.Club**](https://naturzeit.club/) organisiert das Seminar und bietet  
+Naturerlebnisse für Kinder und Erwachsene – von **Feriencamps** bis zu **Wildnistrainings**.  
+
 Globetrotter unterstützt die Veranstaltung unter anderem durch exklusive  
 Rabatte für Club-Mitglieder.  
-
-Für eine **detaillierte Beschreibung** des Seminars, schau dir bitte die  
-[Seminar-Seite an]({% link pages/angebot/bowdrill-seminar.md %}).  
 
 ## Warum solltest du teilnehmen?  
 ✔ **Feuermachen ohne moderne Hilfsmittel** – Werde unabhängig von Feuerzeug & Co.  
 ✔ **Outdoor-Skills für Survival & Bushcraft** – Lerne, welche Materialien sich eignen.  
 ✔ **Praxistraining mit Experten** – Erfolgreich Feuer entfachen mit der Bowdrill-Technik.  
 ✔ **Dein eigenes Feuerbohrer-Set bauen** – Direkt einsetzbar für zukünftige Abenteuer.  
+
+Mehr Infos? Hier geht's zur detaillierten Seminar-Beschreibung: 
+[**Feuermachen ohne Feuerzeug lernen – Bowdrill-Seminar für Bushcraft & Survival**](
+{% link pages/angebot/bowdrill-seminar.md %}).  
 
 ## Für wen ist das Seminar geeignet?  
 Ob Anfänger oder erfahrener Outdoor-Fan – unser [**Survival-Training**](
@@ -78,7 +80,7 @@ und arbeitet in einem  **Waldkindergarten**,
 wo er Kindern täglich die Natur und das ursprüngliche Leben im Freien näherbringt. 
 Das macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
 {% link pages/angebot/bowdrill-seminar.md %}).  
-Mehr über Julian erfährst du bei [@lone_wolf_and_cubs](https://www.instagram.com/lone_wolf_and_cubs/).
+Mehr über Julian erfährst du auf Instagram: [@lone_wolf_and_cubs](https://www.instagram.com/lone_wolf_and_cubs/).
 
 ➡ **Sichere dir jetzt deinen Platz und erlebe das ursprüngliche Feuermachen  
 hautnah!**  
