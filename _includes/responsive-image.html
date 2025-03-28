@@ -8,7 +8,7 @@ See config.picture.source.
 <picture>
   <source media="(max-width:430px)" srcset="{% picture mobile {{ image }} %}">
   <source media="(min-width:431px)" srcset="{% picture full {{ image }} %}">
-  <img src="{% picture fallback {{ image }} %}" alt="{{ alt }}">
+  <img src="{% picture fallback {{ image }} %}" loading="lazy" alt="{{ alt }}">
 </picture>
 {% endcapture %}
 
