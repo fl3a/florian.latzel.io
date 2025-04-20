@@ -38,7 +38,7 @@ Beliebte Zubereitungen:
 - Der Klassiker: **Bärlauchpesto**
 - **Bärlauchbutter**
 - **Bärlauchquark** – gut kombinierbar mit anderen Wildkräutern wie
-  Giersch oder Brennnessel.
+Giersch oder Brennnessel.
 
 Bärlauch verliert beim Erhitzen viel Aroma – am besten roh oder nur
 kurz gegart verwenden.
@@ -56,7 +56,7 @@ verwechselt werden kann. Diese Verwechslung kann lebensgefährlich sein.
 
 Abgesehen vom knoblauchartigen Geruch – der beim Pflücken an den Händen haftet
 und so bei späterem Zerreiben anderer Blätter zu falschen Eindrücken führen kann –
-sind das die wichtigsten Merkmale zur sicheren Unterscheidung:
+sind das die wichtigsten Merkmale zur sicheren Unterscheidung[^floraincognita]:
 
 ### Maiglöckchen (*Convallaria majalis*)
 
@@ -87,14 +87,19 @@ Bärlauch, der Blätter und Blüte gleichzeitig zeigt.
 
 ### Aronstab (*Arum maculatum*)
 
-Der Aronstab[^b-a] hat völlig anders geformte Blätter: Sie sind **pfeilförmig** mit
+{% responsive_image figure: true 
+path: 'assets/imgs/baerlauch/Allium_ursinum,_Arum_maculatum.jpg'
+alt: "Bild: Bärlauch (links) und Gefleckter Aronstab (rechts) am gleichen Standort" 
+caption: 'Bärlauch (links) und Gefleckter Aronstab (rechts) am gleichen Standort.
+Bild: Wikipedia-Nutzer DePoncle, CC-BY-SA 4.0' %}
+
+Der Aronstab hat völlig anders geformte Blätter: Sie sind **pfeilförmig** mit
 deutlich ausgeprägten Spitzen und Einkerbungen. Auch die Blattadern sind
 auffälliger und verlaufen markanter als beim Bärlauch. Die Blätter wachsen
 direkt aus dem Boden und sind meist kräftig und leicht glänzend.
 
 Statt einer Dolde bildet der Aronstab einen **kolbenartigen Blütenstand**,
 umgeben von einem hellgrünen Hüllblatt – ein eindeutiges Erkennungsmerkmal.
-
 
 ## Steckbrief
 
@@ -131,7 +136,7 @@ Bitte beachte jedoch:
 ## Fußnoten
 
 [^heilkraeuter]: Bärlauch hat in der Volksmedizin eine lange Tradition. Weitere Informationen zu den medizinischen Anwendungen findest du in der [Datenbank für Heilpflanzen](https://www.heilpflanzen-online.de/).
+[^floraincognita]: [Flora Incognita](https://floraincognita.de/) ist eine kostenlose App zur sicheren Bestimmung von Pflanzen, die ich selbst nutze um Wildpflanzen wie Bärlauch schnell und zuverlässig zu identifizieren.
 [^maigloeckchen]: Maiglöckchen (*Convallaria majalis*) sind in vielen Regionen giftig. Eine ausführliche Beschreibung der Pflanzen und ihrer Unterschiede zu Bärlauch findest du in der [Pflanzen-Datenbank des BUND](https://www.bund.net/). 
-[^b-a]: [Bild: Bärlauch und Gefleckter Aronstab am gleichen Standort auf Wikipedia](https://de.wikipedia.org/wiki/B%C3%A4rlauch#/media/Datei:Allium_ursinum,_Arum_maculatum.jpg)
 [^mundraub]: [mundraub.org](https://mundraub.org/) ist eine Plattform, auf der Nutzer*innen öffentlich zugängliche Fundorte für essbare Wildpflanzen teilen. Sie hilft dabei, Pflanzen zu finden und verantwortungsvoll zu ernten.
 
