@@ -40,7 +40,8 @@ Beliebte Zubereitungen:
 - **Bärlauchquark** – gut kombinierbar mit anderen Wildkräutern wie
 Giersch oder Brennnessel.
 
-Bärlauch verliert beim Erhitzen viel Aroma – am besten roh oder nur
+Bärlauch schmeckt am besten vor der Blütezeit. 
+Er verliert beim Erhitzen viel Aroma – am besten roh oder nur
 kurz gegart verwenden.
 
 ## Verwechslungsgefahr mit Giftpflanzen
@@ -90,8 +91,8 @@ Bärlauch, der Blätter und Blüte gleichzeitig zeigt.
 {% responsive_image figure: true 
 path: 'assets/imgs/baerlauch/Allium_ursinum,_Arum_maculatum.jpg'
 alt: "Bild: Bärlauch (links) und Gefleckter Aronstab (rechts) am gleichen Standort" 
-caption: 'Bärlauch (links) und Gefleckter Aronstab (rechts) am gleichen Standort.
-Bild: Wikipedia-Nutzer DePoncle, CC-BY-SA 4.0' %}
+caption: 'Bärlauch (links) und Gefleckter Aronstab (rechts) daneben.
+Foto: Wikipedia-Nutzer DePoncle, CC-BY-SA 4.0' %}
 
 Der Aronstab hat völlig anders geformte Blätter: Sie sind **pfeilförmig** mit
 deutlich ausgeprägten Spitzen und Einkerbungen. Auch die Blattadern sind
