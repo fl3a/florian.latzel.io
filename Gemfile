@@ -50,4 +50,4 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # 1.16.3 and 1.17.0 works, above (>=1.17.1) breaks
-gem "ffi", "~> 1.17.0"
+gem "ffi", "~> 1.16.3"
