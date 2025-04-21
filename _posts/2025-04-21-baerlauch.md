@@ -136,7 +136,7 @@ Bitte beachte jedoch:
 
 ## Fußnoten
 
-[^heilkraeuter]: Ausführliche Informationen zu Inhaltsstoffen, Heilwirkungen und Anwendungen von Bärlauch findest du im Heilpflanzenlexikon von AWL.ch: <https://www.awl.ch/heilpflanzen/allium_ursinum/baerlauch.htm]>
+[^heilkraeuter]: Ausführliche Informationen zu Inhaltsstoffen, Heilwirkungen und Anwendungen von Bärlauch findest du im Heilpflanzenlexikon von AWL.ch: <https://www.awl.ch/heilpflanzen/allium_ursinum/baerlauch.htm>
 [^floraincognita]: [Flora Incognita](https://floraincognita.de/) ist eine kostenlose App zur sicheren Bestimmung von Pflanzen, die ich selbst nutze um Wildpflanzen wie Bärlauch schnell und zuverlässig zu identifizieren.
 [^maigloeckchen]: Maiglöckchen (*Convallaria majalis*) sind in vielen Regionen giftig. Eine ausführliche Beschreibung der Pflanzen und ihrer Unterschiede zu Bärlauch findest du in der [Pflanzen-Datenbank des BUND](https://www.bund.net/). 
 [^mundraub]: [mundraub.org](https://mundraub.org/) ist eine Plattform, auf der Nutzer*innen öffentlich zugängliche Fundorte für essbare Wildpflanzen teilen. Sie hilft dabei, Pflanzen zu finden und verantwortungsvoll zu ernten.
