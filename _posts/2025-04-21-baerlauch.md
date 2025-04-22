@@ -1,6 +1,6 @@
 ---
-title: Bärlauch - Allium ursinum
-permalink: /baerlauch-allium-ursinum.html
+title: Bärlauch
+permalink: /baerlauch.html
 layout: post
 tags:
 - Wildkraut
@@ -18,7 +18,7 @@ description: "Bärlauch erkennen, sammeln und verwenden: Tipps zur sicheren Best
 path: assets/imgs/baerlauch/baerlauchfeld-im-wald.jpg
 alt: "Ein Bärlauchfeld im Wald" %}
 
-Der Bärlauch[^heilkraeuter] ist **einer der ersten Frühlingsboten im Wald**. 
+Der Bärlauch[^heilkraeuter] [^wiki] ist **einer der ersten Frühlingsboten im Wald**. 
 Noch bevor sich das Blätterdach der Bäume schließt, 
 bedeckt er in dichten Teppichen feuchte, schattige Laubwälder – 
 und verströmt dabei seinen typischen knoblauchartigen Duft. 
@@ -137,6 +137,7 @@ Bitte beachte jedoch:
 ## Fußnoten
 
 [^heilkraeuter]: Ausführliche Informationen zu Inhaltsstoffen, Heilwirkungen und Anwendungen von Bärlauch findest du im Heilpflanzenlexikon von AWL.ch: <https://www.awl.ch/heilpflanzen/allium_ursinum/baerlauch.htm>
+[^wiki]: [Bärlauch auf Wikipedia.de](https://de.wikipedia.org/wiki/B%C3%A4rlauch)
 [^floraincognita]: [Flora Incognita](https://floraincognita.de/) ist eine kostenlose App zur sicheren Bestimmung von Pflanzen, die ich selbst nutze um Wildpflanzen wie Bärlauch schnell und zuverlässig zu identifizieren.
 [^maigloeckchen]: Maiglöckchen (*Convallaria majalis*) sind in vielen Regionen giftig. Eine ausführliche Beschreibung der Pflanzen und ihrer Unterschiede zu Bärlauch findest du in der [Pflanzen-Datenbank des BUND](https://www.bund.net/). 
 [^mundraub]: [mundraub.org](https://mundraub.org/) ist eine Plattform, auf der Nutzer*innen öffentlich zugängliche Fundorte für essbare Wildpflanzen teilen. Sie hilft dabei, Pflanzen zu finden und verantwortungsvoll zu ernten.

@@ -106,6 +106,7 @@ Redirect 301 /node/679 /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadre
 Redirect 301 /book/export/html/685 /gnupg-micro-howto.html#gnupggpg-agentconf
 
 # 301er: Posts
+Redirect 301 /baerlauch-allium-ursinum.html /baerlauch.html
 Redirect 301 /ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren /2015/03/01/ueberprfung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren.html
 Redirect 301 /php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren /2016/03/13/php_codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren.html
 Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-psm1 /neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html
