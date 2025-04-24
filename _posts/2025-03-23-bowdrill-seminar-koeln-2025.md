@@ -23,7 +23,7 @@ Fotos &copy; Julian Schreyer" %}
 [**Bowdrill-Seminar**](/seminare/bowdrill-feuermachen.html)!  
 Mit traditionellen Techniken und natürlichen Materialien baust du dein eigenes
 **Feuerbohrer-Set** und übst das Feuermachen – eine essenzieller [**Survival- und 
-Bushcraft-Skill**]({% link pages/angebot/wildnistraining.md %}).  
+Bushcraft-Skill**]({% link pages/angebot/wildnistraining.md %}).<!--break-->
 
 Für eine **detaillierte Beschreibung**, schau dir 
 [**Bowdrill-Seminar – Feuermachen ohne Feuerzeug**](
