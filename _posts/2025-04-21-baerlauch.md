@@ -22,7 +22,7 @@ Der Bärlauch[^heilkraeuter] [^wiki] ist **einer der ersten Frühlingsboten im W
 Noch bevor sich das Blätterdach der Bäume schließt, 
 bedeckt er in dichten Teppichen feuchte, schattige Laubwälder – 
 und verströmt dabei seinen typischen knoblauchartigen Duft. 
-Er wächst meist in großen Beständen und ist dadurch relativ leicht zu finden.
+Er wächst meist in großen Beständen und ist dadurch relativ leicht zu finden.<!--break-->
 
 * Inhalt
 {:toc}
@@ -61,7 +61,7 @@ sind das die wichtigsten Merkmale zur sicheren Unterscheidung[^floraincognita]:
 
 ### Maiglöckchen (*Convallaria majalis*)
 
-Das Maiglöckchen[^maigloeckchen] wächst oft an ähnlichen Standorten wie Bärlauch, nämlich in
+Das Maiglöckchen wächst oft an ähnlichen Standorten wie Bärlauch, nämlich in
 schattigen Laubwäldern. Seine Blätter sind jedoch fester, dicker und glänzen
 leicht. Anders als beim Bärlauch wachsen beim Maiglöckchen meist **zwei Blätter
 aus einem Stängel**. Die Blattunterseite ist glänzend und kräftig.
@@ -139,6 +139,5 @@ Bitte beachte jedoch:
 [^heilkraeuter]: Ausführliche Informationen zu Inhaltsstoffen, Heilwirkungen und Anwendungen von Bärlauch findest du im Heilpflanzenlexikon von AWL.ch: <https://www.awl.ch/heilpflanzen/allium_ursinum/baerlauch.htm>
 [^wiki]: [Bärlauch auf Wikipedia.de](https://de.wikipedia.org/wiki/B%C3%A4rlauch)
 [^floraincognita]: [Flora Incognita](https://floraincognita.de/) ist eine kostenlose App zur sicheren Bestimmung von Pflanzen, die ich selbst nutze um Wildpflanzen wie Bärlauch schnell und zuverlässig zu identifizieren.
-[^maigloeckchen]: Maiglöckchen (*Convallaria majalis*) sind in vielen Regionen giftig. Eine ausführliche Beschreibung der Pflanzen und ihrer Unterschiede zu Bärlauch findest du in der [Pflanzen-Datenbank des BUND](https://www.bund.net/). 
 [^mundraub]: [mundraub.org](https://mundraub.org/) ist eine Plattform, auf der Nutzer*innen öffentlich zugängliche Fundorte für essbare Wildpflanzen teilen. Sie hilft dabei, Pflanzen zu finden und verantwortungsvoll zu ernten.
 
