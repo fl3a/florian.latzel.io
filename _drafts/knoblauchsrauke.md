@@ -38,7 +38,7 @@ eine Renaissance – ideal für Einsteiger ins Wildkräutersammeln.
 {% responsive_image figure: true 
 path: assets/imgs/knoblauchsrauke/Knoblauchsrauke_Alliaria_officinalis_Andrz.jpg
 alt: "Alliaria officinalis Andrz. Atlas des plantes de France. 1891"
-caption: 'Alliaria officinalis, Atlas der Pflanzen, Frankreich 1891. 
+caption: 'Historische Darstellung des Knoblauchsrauke aus dem 19. Jahrhundert. 
 Bild: Amédée Masclef, Public domain' %}
 
 Knoblauchsrauke wächst 20 bis 100 cm hoch, aufrecht mit leicht kantigem Stängel.
