@@ -52,12 +52,19 @@ Im Frühling erscheinen kleine, weiße Kreuzblüten in lockeren Trauben.[^wiki]
 
 Alle Pflanzenteile der Knoblauchsrauke sind essbar:
 
-- **Blätter**: Mild-knoblauchartig, ideal für Pesto, Wildkräutersalate oder Sandwiches[^biologieseite]
+- **Blätter**: Mild-knoblauchartig, ideal für Pesto, Wildkräutersalate 
+oder Sandwiches[^biologieseite]
 - **Blüten**: Zart scharf, perfekt als Dekoration
 - **Samen**: Senf-ähnlich[^kostbarenatur] würzig, als Topping für Salate
-- **Wurzel**: Scharf wie Rettich[^kostbarenatur], eignet sich zum Reiben über Kartoffeln oder in Dips
+- **Wurzel**: Scharf wie Rettich[^kostbarenatur], 
+eignet sich zum Reiben über Kartoffeln oder in Dips
 
 Am besten roh genießen! Erhitzt verflüchtigt der pfeffrig-knoblauchartige Geschmack.
+
+**Hinweis:**  
+Die Knoblauchsrauke enthält geringe Mengen an Senfölglykosiden[^senfoelglykoside].  
+Beim Verzehr größerer Mengen kann es in Einzelfällen zu Unverträglichkeiten kommen.
+
 
 ### Als Heilpflanze
 
@@ -74,7 +81,7 @@ und kleinen Verletzungen aufgestrichen.
 |---------------------------|------------------------------------------------------------|
 | **Botanischer Name**      | *Alliaria petiolata*                                       |
 | **Familie**               | Kreuzblütler (Brassicaceae)                                |
-| **Synonyme**              | Knoblauchkräuter, Alliaria, Knoblauchblätter               |
+| **Synonyme**              | Knoblauchskraut, Lauchkraut, Knoblauchhederich             |
 | **Verbreitung**           | Europa, Westasien                                          |
 | **Lebensraum**            | Feuchte, schattige Laubwälder, Auen                        |
 | **Blütenzeit**            | April bis Mai                                              |
@@ -84,7 +91,7 @@ und kleinen Verletzungen aufgestrichen.
 | **Verwendung**            | Küche, Naturheilkunde                                      |
 | **Heilwirkungen**         | Antimikrobiell, entzündungshemmend, verdauungsfördernd     |
 | **Medizinische Anwendungen** | Bei Atemwegserkrankungen, Verdauungsproblemen, Insektenstichen, Wundbehandlung |
-| **Inhaltsstoffe**         | Saponine, Senfölglykoside, Vitamin C, Vitamin A            |
+| **Inhaltsstoffe**         | Saponine, Senfölglykoside[^senfoelglykoside], Vitamin C, Vitamin A            |
 | **Essbar**                | Blätter, Blüten, Samen, Wurzel                             |
 | **Kulturelle Bedeutung**  | Traditionelles Frühlingskraut in Europa, in der Volksmedizin verwendet |
 | **Ökologische Bedeutung** | Nahrungsquelle für Insekten, Zeigerpflanze für nährstoffreiche Böden |
@@ -96,3 +103,4 @@ und kleinen Verletzungen aufgestrichen.
 [^kostbarenatur]: [Kostbare Natur: Knoblauchsrauke, inkl. Rezeptideen](https://www.kostbarenatur.net/pflanzen/knoblauchsrauke/) 
 [^wildfind]: [Wildfind: Knoblauchsrauke](https://wildfind.com/pflanzen/knoblauchsrauke)
 [^biologieseite]: Verwendung als Gewürz und Sandwichfüllung: <https://www.biologie-seite.de/Biologie/Knoblauchsrauke>
+[^senfoelglykoside]: Senfölglykoside sind bioaktive Verbindungen, die in Kreuzblütlern wie der Knoblauchsrauke vorkommen und antibakterielle sowie entzündungshemmende Eigenschaften besitzen, mehr dazu auf [Wikipedia - Senfölglykoside](https://de.wikipedia.org/wiki/Senfölglykoside).
