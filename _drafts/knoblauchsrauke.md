@@ -24,7 +24,7 @@ Die Knoblauchsrauke (*Alliaria petiolata*)
 gehört zu den ersten Wildkräutern, die im Frühling sprießen.
 Mit ihrem milden Knoblaucharoma und der einfachen Bestimmbarkeit 
 ist sie eine vielseitige Wildpflanze für Küche und Hausapotheke.
-Traditionell wurde sie als Heil- und Würzkraut genutzt 
+Traditionell wurde sie als Heil- und Würzkraut[^wiki] genutzt 
 und bereicherte Frühlingsgerichte lange vor der Verbreitung des Kulturknoblauchs.
 Heute erlebt sie als unkompliziertes Wildgemüse und aromatische Würzpflanze 
 eine Renaissance – ideal für Einsteiger ins Wildkräutersammeln.
@@ -53,7 +53,7 @@ Im Frühling erscheinen kleine, weiße Kreuzblüten in lockeren Trauben.[^wiki]
 Alle Pflanzenteile der Knoblauchsrauke sind essbar:
 
 - **Blätter**: Mild-knoblauchartig, ideal für Pesto, Wildkräutersalate 
-oder Sandwiches[^biologieseite]
+oder Sandwiches[^wiki]
 - **Blüten**: Zart scharf, perfekt als Dekoration
 - **Samen**: Senf-ähnlich[^kostbarenatur] würzig, als Topping für Salate
 - **Wurzel**: Scharf wie Rettich[^kostbarenatur], 
@@ -73,8 +73,7 @@ oder Unverträglichkeiten kommen.
 - **Verdauungsfördernd**: Knoblauchsrauke unterstützt die Verdauung und hilft bei Magenbeschwerden.
 - **Entzündungshemmend**: Die Wurzel kann bei Entzündungen im Mund- und Rachenraum eingesetzt werden.
 - **Wundbehandlung**: Ein Aufguss aus den Blättern hilft bei der Heilung kleiner Wunden und Hautreizungen.
-- **Bei Insektenstichen** gemörserte frische, saubere Blätter als Brei[^biologieseite] [^wildfind] [^kostbarenatur]
-und kleinen Verletzungen aufgestrichen.
+- **Bei Insektenstichen und kleinen Vertetzungen** gemörserte frische, saubere Blätter als Brei[^wiki] [^wildfind] [^kostbarenatur] aufgestrichen.
 
 ## Steckbrief
 
@@ -82,7 +81,7 @@ und kleinen Verletzungen aufgestrichen.
 |---------------------------|------------------------------------------------------------|
 | **Botanischer Name**      | *Alliaria petiolata*                                       |
 | **Familie**               | Kreuzblütler (Brassicaceae)                                |
-| **Synonyme**              | Knoblauchskraut, Lauchkraut, Knoblauchhederich             |
+| **Synonyme**              | Knoblauchskraut, Sommerknoblauch, Lauchkraut, Lauchhedderich, Knoblauchhederich |
 | **Verbreitung**           | Europa, Westasien                                          |
 | **Lebensraum**            | Feuchte, schattige Laubwälder, Auen                        |
 | **Blütenzeit**            | April bis Mai                                              |
@@ -95,15 +94,13 @@ und kleinen Verletzungen aufgestrichen.
 | **Inhaltsstoffe**         | Saponine, Senfölglykoside[^senfoelglykoside], Vitamin C, Vitamin A            |
 | **Essbar**                | Blätter, Blüten, Samen, Wurzel                             |
 | **Kulturelle Bedeutung**  | Traditionelles Frühlingskraut in Europa, in der Volksmedizin verwendet |
-| **Ökologische Bedeutung** | Nahrungsquelle für frühe Insekten wie Wildbienen und Schmetterlingsraupen (z. B. Aurorafalter)[^nabu].
- Zeigerpflanze für nährstoffreiche Böden |
+| **Ökologische Bedeutung** | Nahrungsquelle für frühe Insekten wie Wildbienen und Schmetterlingsraupen (z. B. Aurorafalter)[^nabu]. Zeigerpflanze für nährstoffreiche Böden |
 | **Besonderheit**          | Verströmt beim Zerreiben Knoblauchduft                     |
 
 ## Fußnoten und Weiterführendes
 
 [^wiki]: [Wikipedia: Knoblauchsrauke](https://de.wikipedia.org/wiki/Knoblauchsrauke)
-[^kostbarenatur]: [Kostbare Natur: Knoblauchsrauke, inkl. Rezeptideen](https://www.kostbarenatur.net/pflanzen/knoblauchsrauke/) 
-[^wildfind]: [Wildfind: Knoblauchsrauke](https://wildfind.com/pflanzen/knoblauchsrauke)
-[^biologieseite]: Verwendung als Gewürz und Sandwichfüllung: <https://www.biologie-seite.de/Biologie/Knoblauchsrauke>
+[^kostbarenatur]: [Kostbare Natur: Knoblauchsrauke](https://www.kostbarenatur.net/pflanzen/knoblauchsrauke/), inkl. Rezeptideen
+[^wildfind]: [Wildfind: Knoblauchsrauke](https://wildfind.com/pflanzen/knoblauchsrauke), inkl. Erntekalender)
 [^nabu]: [Pflanzenporträt: Knoblauchsrauke - NABU NRW](https://nrw.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/zeit-der-schmetterlinge/wissen/schmetterlingspflanzen/22786.html), Details zur Ökologische Bedeutung.
 [^senfoelglykoside]: Senfölglykoside sind bioaktive Verbindungen, die in Kreuzblütlern wie der Knoblauchsrauke vorkommen und antibakterielle sowie entzündungshemmende Eigenschaften besitzen, mehr dazu auf [Wikipedia - Senfölglykoside](https://de.wikipedia.org/wiki/Senfölglykoside).
