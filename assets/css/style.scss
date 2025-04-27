@@ -6,16 +6,16 @@
 
 .site-nav {
   z-index: 1;
-  a.page-link.active {
-    text-decoration: underline;
-  }
-  a.page-link.kontakt {
-    display: inline-block;
-    padding: 6px 6px;
-    margin: 6px 6px;
-    background-color: #111;
-    color: #fff;
-  }
+}
+a.page-link.active {
+  text-decoration: underline;
+}
+a.page-link.kontakt {
+  display: inline-block;
+  padding: 6px 6px;
+  margin: 6px 6px;
+  background-color: #111;
+  color: #fff;
 }
 
 .social-media-list {
