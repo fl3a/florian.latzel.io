@@ -11,9 +11,8 @@ tags:
 - Personal Maps
 - just me
 - Session
-toc: true
 image: /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg
-last_modified_at: 2019-04-23
+last_modified_at: 2023-10-03
 ---
 <figure role="group">
 {% responsive_image alt: "Vorstellung der Sessions, Open Space, agile.ruhr 19" path: assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg %}
@@ -31,6 +30,9 @@ Nicht nur wegen dem *"Alle guten Dinge sind drei"* Ding
 und weil es sich ein wenig wie ein Familientreffen angefühlt hat,
 ein kleiner Bericht über ein, in meinen Augen durchaus gelungenes agile.ruhr Camp 2019
 mit vielen tollen Sessions und Augenblicken.<!--break-->
+
+* toc
+{:toc}
 
 ## Tag 1
 

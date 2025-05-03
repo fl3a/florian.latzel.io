@@ -2,33 +2,29 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2023-07-25 10:35
+last_modified_at: 2025-03-23 14:21
 ---
-- Hin und wieder an Struktur und Portfolio dieser Seite arbeiten.
-- Hier und da am [Micro GnuPG Howto](/gnupg-micro-howto.html) schleifen.
+Beruflich bereite ich aktuell auf mein Assessment als *Agility Master* vor.
 
-## Auf Jobsuche
+## Frühling
 
-Ich suche gerade aktiv nach einem neuem Job 
-als Scrum Master / Agile Master / Agile Team Coach / Agile Coach.
-Bewerbungen und Gespräche laufen. 
-Das ist an sich ein eigener Job😆.
-
-Wenn du glaubst, dass ich (hier mein [CV](/cv/))
-zu dir und deiner Firma passen könnte,   
-dann [kontaktiere](/kontakt.html) mich gerne!
+Durch Wald und Flur streifen. Bärlauch und Material für das [Bowdrill Seminar](
+{% post_url 2025-03-23-bowdrill-seminar-koeln-2025 %}) sammeln 
+und die länger werdenden Tage sowie die stärker werdende Sonne genießen.
 
 ## Lernen
 
-- Seit Winter 2021 lerne ich [Pencak Silat im Tapak Suci Stil](/tags/pencak-silat)
+- Seit November: NLP Practitioner Trainer Assistenz bei Tom Andreas
+- Seit Winter 2021: [Pencak Silat im Tapak Suci Stil](/thema/pencak-silat/)
 
 ## Lesen
 
+- Perfektionismus von Raphael Bonelli  
 - Fragen können wie Küsse schmecken - 
 Systemische Fragetechniken für Anfänger und Fortgeschrittene
 von Carmen Kindl Beilfuß
-- Die Coaching-Schatzkiste von Martin Wehrle
-von Mechtild Erpenbeck 
+- Agile Teams lösungsfokussiert coachen 
+von Verenika Kotrba und Ralph Miarka
 
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).   

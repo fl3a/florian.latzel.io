@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://florian.latzel.io/sitemap.xml
+Sitemap: https://florian.latzel.io/cv/sitemap.xml

@@ -3,6 +3,7 @@
 title: "Florian Latzel"
 author: "Florian Latzel"
 email: "florian@latzel.io"
+phone: "+49 221 61 101 24"
 head: 'Hi, ich heiße Florian👋'
 description: >- # this means to ignore newlines until "baseurl:"
   Trainer, Berater, Facilitator, Coach und Überzeugungstäter 
@@ -29,11 +30,10 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-toc
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate-v2
-  - jekyll-responsive-image
+    #  - jekyll-my-responsive-image
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2
@@ -54,13 +54,13 @@ autopages:
   collections:
     enabled    : false
   tags:
-    enabled    : true
-    slugify:
-      mode:  latin
-      cased: true
     layouts:
-      - "thema.html"
-    permalink  : "/thema/:tag"
+      - 'thema.html'
+    permalink: '/thema/:tag/'
+    silent: false
+    slugify:
+      mode: 'latin'
+      case: true
 
 # jekyll-seo-tag 
 # https://github.com/jekyll/jekyll-seo-tag
@@ -68,7 +68,6 @@ lang: "de"
 social:
   name: Florian Latzel
   links:
-    - https://twitter.com/fl3a
     - http://de.linkedin.com/in/florianlatzel/en
     - https://github.com/fl3a
     - http://soundcloud.com/florian-latzel
@@ -76,70 +75,19 @@ social:
     - http://de.slideshare.net/fl3a
     - http://www.xing.com/profile/Florian_Latzel
 
-# jekyll-responsive-image
-# https://github.com/wildlyinaccurate/jekyll-responsive-image
-responsive_image:
-  # Path to the image template.
+my_responsive_image:
   template: _includes/responsive-image.html
 
-  # [Optional, Default: 85]
-  # Quality to use when resizing images.
-  default_quality: 80
-
-  # [Optional, Default: []]
-  # An array of resize configuration objects. Each object must contain at least
-  # a `width` value.
-  sizes:
-    - width: 400  # [Required] How wide the resized image will be.
-      quality: 70  # [Optional] Overrides default_quality for this size.
-    - width: 740 
-
-  # [Optional, Default: false]
-  # Rotate resized images depending on their EXIF rotation attribute. Useful for
-  # working with JPGs directly from digital cameras and smartphones
-  auto_rotate: false
-
-  # [Optional, Default: false]
-  # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size and win friends
-  # at Google PageSpeed.
-  strip: true
-
-  # [Optional, Default: assets]
-  # The base directory where assets are stored. This is used to determine the
-  # `dirname` value in `output_path_format` below.
-  base_path: assets/imgs
-
-  # [Optional, Default: assets/resized/%{filename}-%{width}x%{height}.%{extension}]
-  # The template used when generating filenames for resized images. Must be a
-  # relative path.
-  #
-  # Parameters available are:
-  #   %{dirname}     Directory of the file relative to `base_path` (assets/sub/dir/some-file.jpg => sub/dir)
-  #   %{basename}    Basename of the file (assets/some-file.jpg => some-file.jpg)
-  #   %{filename}    Basename without the extension (assets/some-file.jpg => some-file)
-  #   %{extension}   Extension of the file (assets/some-file.jpg => jpg)
-  #   %{width}       Width of the resized image
-  #   %{height}      Height of the resized image
-  #
-  output_path_format: assets/imgs/resized/%{width}/%{basename}
-
-  # [Optional, Default: true]
-  # Whether or not to save the generated assets into the source folder.
-  save_to_source: false
-
-  # [Optional, Default: false]
-  # Cache the result of {% responsive_image %} and {% responsive_image_block %} 
-  # tags. See the "Caching" section of the README for more information.
-  cache: false
-
-  #/ [Optional, Default: []]
-  # By default, only images referenced by the responsive_image and responsive_image_block
-  # tags are resized. Here you can set a list of paths or path globs to resize other
-  # images. This is useful for resizing images which will be referenced from stylesheets.
-  extra_images:
-    - assets/foo/bar.png
-    - assets/bgs/*.png
-    - assets/avatars/*.{jpeg,jpg}
+# Jekyll Picture Tag
+# https://rbuchberger.github.io/jekyll_picture_tag/users/configuration/
+picture:
+  source: assets/imgs
+  output: assets/imgs/
+  suppress_warnings: false           # Default
+  fast_build: false                  # Default
+  ignore_missing_images: delevopment # Default: false
+  disabled: nopics                   # Default: false
+  nomarkdown: true                   # Default
 
 # Minify CSS during build
 sass:
@@ -165,8 +113,9 @@ exclude:
 - gemfiles/
 - Gemfile
 - Gemfile.lock
+- deploy.conf  
 - node_modules/
 - vendor/bundle/
 - vendor/cache/
 - vendor/gems/
-- vendor/ruby/
+- vendor/ruby/  

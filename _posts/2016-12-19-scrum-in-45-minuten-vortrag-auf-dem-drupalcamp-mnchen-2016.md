@@ -13,7 +13,7 @@ permalink: "/scrum-45-minuten-drupalcamp-muenchen-2016.html"
 layout: post
 title: Scrum in 45 Minuten - Vortrag auf dem Drupalcamp München 2016
 created: 1482169913
-last_modified_at: 2021-04-23
+last_modified_at: 2024-02-18
 image: /assets/imgs/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg
 ---
 <figure>
@@ -51,13 +51,16 @@ kann man locker eine ganze Session halten und die Besucher der Session in ein ti
 
 **Gut zu wissen**
 
-[Scrum](/tags/scrum/) ist ein Vorgehensmodell für Projekt- und Produktmanagement 
-und wird häufig als Synonym für [Agile Softwareentwicklung](/tags/agile/) benutzt.
+[Scrum](/thema/scrum/) ist ein Vorgehensmodell für Projekt- und Produktmanagement
+und wird häufig als Synonym für [Agile Softwareentwicklung](/thema/agile/) benutzt.
 
 Scrum ist leichtgewichtig (im Sinne von Lean) und besteht aus aus einem kleinen Set an Regeln,  
 nämlich 3 Rollen, fünf Aktivitäten und drei Artefakten.
 
 Die Definition von Scrum und seinen Regeln findest du im offiziellen Scrum-Guide[^sg] beschrieben.
+
+Hier findest du die Slides: [eine-einfuehrung-in-scrum-drupalcamp-munic-2016.pdf](
+{% link /assets/pdfs/eine-einfuehrung-in-scrum-drupalcamp-munic-2016.pdf %})
 
 * * *
 
@@ -67,6 +70,6 @@ Die Definition von Scrum und seinen Regeln findest du im offiziellen Scrum-Guide
 [^agilem1]: [Agiles Manifest](http://agilemanifesto.org/)
 [^agilem2]: Agiles Manifest, [Werte](http://agilemanifesto.org/iso/de/manifesto.html)
 [^agilem3]: Agiles Manifest, [Prinipien](http://agilemanifesto.org/iso/de/principles.html)
-[^sg]: [Scrum Guide](<http://www.scrumguides.org)
+[^sg]: [Scrum Guide](http://www.scrumguides.org)
 
 *[LMU]: Ludwig-Maximilians-Universität

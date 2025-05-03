@@ -5,16 +5,17 @@ tags:
 - Debian
 - config
 - Linux
-nid: 1615
 permalink: "/howto-setup-gitolite-on-debian-wheezy.html"
 layout: post
 title: 'Howto: Setup Gitolite on Debian Wheezy'
 created: 1354361320
-toc: true
 last_modified_at: 2019-05-30
 ---
 Installation von gitolite (2.3-1) auf Debian Wheezy/unstable.
 
+* toc
+{:toc}
+<!--break-->
 
 ## Erzeugung eines SSH-Kepairs
 ```
@@ -47,7 +48,6 @@ The key's randomart image is:
 ```
 apt-get install gitolite
 ```
-<!--break-->
 ```
 Paketlisten werden gelesen... Fertig
 Abhängigkeitsbaum wird aufgebaut.       

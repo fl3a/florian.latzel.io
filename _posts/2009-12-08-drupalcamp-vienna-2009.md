@@ -9,54 +9,93 @@ tags:
 nid: 973
 layout: post
 title: DrupalCamp Vienna 2009
-created: 1260256987
+last_modified_at: 2024-02-09
+image: /assets/imgs/drupalcamp-vienna-2009/dvcie-registration.jpg
 ---
-<img src="http://farm3.static.flickr.com/2674/4138425131_29e7fb4930.jpg" alt="DCVIE Registration" /><br />
-<small>Foto von <a href="http://zites.net/">Christian Ziegler</a>, by</small><br />
+{% responsive_image figure: true 
+path: drupalcamp-vienna-2009/dvcie-registration.jpg
+alt: "DCVIE Registration" 
+caption: 'Foto von Christian Ziegler, CC BY 2.0 DEED' %}
 Da ich erst am Mittwoch erfahren habe, dass ich aufgrund eines Ausfalls, gute Besserung <a href="http://felix.delattre.de/">Felix</a>, eine Session halten kann,
-konnte ich die ca. 10 Stunden Zugfahrt für die Erstellung der Slides zu <a href="http://drupalcamp.at/sessions/drupal-shell-und-multisites-drushmulti">Drupal Shell und Multisites: drush_multi</a> (<a href="http://drupal.org/project/drush_multi">drush_multi</a>) nutzen.
-<p>In Wien angekommen habe ich noch etwa 20 Minuten auf <a href="http://freeblogger.org">Daniel (dereine)</a> 
+konnte ich die ca. 10 Stunden Zugfahrt für die Erstellung der Slides zu 
+*[Drupal Shell und Multisites]({% post_url 2009-12-08-drush-und-multisite-drush_multi-dcvie-2009 %}): 
+[drush_multi](http://drupal.org/project/drush_multi)* nutzen.
+
+In Wien angekommen habe ich noch etwa 20 Minuten auf Daniel (dereine) 
 und <a href="http://florian-klare">Floh (SirFiChi)</a>, die mit dem Zug aus Süddeutschland kamen gewartet.
-</p>
 <!--break-->
-<p>
-Von dort aus trennten sich die Wege um einzuchecken, sich kurz frischzumachen und sich kurz danch wieder im <a href="http://www.nelsons.at/">Nelsons</a> zu treffen.
-</p>
+Von dort aus trennten sich die Wege um einzuchecken, 
+sich kurz frischzumachen und sich kurz danch wieder im <a href="http://www.nelsons.at/">Nelsons</a> zu treffen.
+
 Und Floh hatte wie verspochen einen Kasten Augustiner Edelstoff im Gepäck.
-<p>
-<img src="/assets/imgs/dcvie/SirFiChi-und-fl3a-im-hotel-tag0.jpeg" alt="Lecker" /><br />
-<small>Foto: Florian Klare, &copy;</small><br />
-</p> 
-<h2>Social Event</h2>
+{% responsive_image figure: true 
+path: drupalcamp-vienna-2009/florian-klare--florian-latzel.jpg
+alt: "Lecker"
+caption: 'Foto: Florian Klare, &copy;' %}
+
+## Social Event
+
 Social Event, Tag 1 im <a href="http://www.downunder.at/">Down Under</a>
-<img src="/assets/imgs/dcvie/thomas-renner-gig-im-down-under-wien.jpeg" alt="Gig im Down Under, Tag1" /><br />
-<small>Foto: Florian Klare, &copy;</small><br />
-Austrian All-Star-Band Yargo featuring Theme-Master <a href="http://www.designpraxis.at/">Markus Hörl</a> and <a href="http://groove.at/">Thomas Renner</a>.
-<img src="/assets/imgs/dcvie/down-under-wien.jpeg" alt="Down Under, Wien" /><br />
-<small>Foto: Florian Klare, &copy;</small><br />
-<img src="http://farm3.static.flickr.com/2725/4141555629_37441ff89f.jpg" alt="DCVIE Afterlunch" /><br />
-<small>Foto: Josef Dabernig, by-nc-sa</small><br />
+{% responsive_image figure: true 
+path: drupalcamp-vienna-2009/thomas-renner-band-yargo.jpg
+alt: "Gig im Down Under, Tag1"
+caption: "Foto: Florian Klare, &copy;" %}
+
+Austrian All-Star-Band Yargo featuring Theme-Master <a href="http://www.designpraxis.at/">Markus Hörl</a> 
+and <a href="http://groove.at/">Thomas Renner</a>.
+
+{% responsive_image figure: true
+path: drupalcamp-vienna-2009/dvcie-party-down-under.jpg
+alt: "Down Under, Wien"
+caption: "Foto: Florian Klare, &copy;" %}
+
+{% responsive_image figure: true
+path: drupalcamp-vienna-2009/dvcie-afterlunch.jpg
+alt: "DCVIE Afterlunch"
+caption: "Foto: Josef Dabernig, by-nc-sa" %}
+
 DCVIE Afterlunch im <a href="http://www.salmbraeu.com/">Salm Bräu</a>.
 
-<h2>Rückfahrt</h2>
-Daniel hat morgens programmiert und seinen ursprünglichen Zug verpasst, so gab es eine kleine Drupal-Nachhilfe...
-<img src="/assets/imgs/dcvie/nachhilfe-von-dereine-im-zug-tag3.jpeg" alt="Nachhilfe von dereine, 1" /><br />
-<small>Foto: Florian Klare, &copy;</small><br />
-<img src="/assets/imgs/dcvie/nachhilfe-von-dereine-im-zug-tag3-2.jpeg" alt="Nachhilfe von dereine, 2" /><br />
-<small>Foto: Florian Klare, &copy;</small><br />
-Leider konnte ich Daniel zum Ausgleich nicht bei seiner Physik-Hausarbeit helfen :D<br />
-<img src="/assets/imgs/dcvie/sirfichi-im-zug-tag3.jpeg" alt="Floh auf der Rückfahrt im Zug" /><br />
-<small>Foto: Florian Klare, &copy;</small><br />
-<h2>Fazit</h2>
+## Rückfahrt
+
+Daniel hat morgens programmiert und seinen ursprünglichen Zug verpasst, 
+so gab es eine kleine Drupal-Nachhilfe...
+
+{% responsive_image figure: true
+path: drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe-1.jpg
+alt: "Nachhilfe von dereine, 1"
+caption: "Foto: Florian Klare, &copy;" %}
+
+{% responsive_image figure: true
+path: drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe-2.jpg
+alt: "Nachhilfe von dereine, 2"
+caption: "Foto: Florian Klare, &copy;" %}
+
+Leider konnte ich Daniel zum Ausgleich nicht bei seiner Physik-Hausarbeit helfen :D
+
+{% responsive_image figure: false
+path: drupalcamp-vienna-2009/florian-klare-ice.jpg
+alt: "Floh auf der Rückfahrt im Zug" %}
+
+## Fazit
+
 Barierefreiheit 2.0: das Thema Barrierefreiheit wurde von den Wienern sehr ernst genommen. 
 Es waren annähernd bei jeder Session mehrere Übersetzer für Gebärdensprache anwesend.
-<p>Die Venue, die technische Universität in Wien hatte natürlich einen sehr akademischer Charakter 
-<img src="/assets/imgs/dcvie/tu-wien-besetzt.jpeg" alt="TU Wien besetzt" /><br />
-<small>Foto: Florian Klare, &copy;</small><br />
-und die Hörsäle waren groß genug für jede Session,<br />was allerdings fehlte war ein Rückzugsort für das "Communitiy Plumbing".<p>
-<p>Wie auf jeder solcher Veranstaltungen gabs es hochkarätige <a href="http://drupalcamp.at/sessions/the-schedule">Sessions</a> und leider liefen diese oft parallel,<br />
-hier meine persönlichen Highlights:</p>
-<p>
+
+Die Venue, die technische Universität in Wien hatte natürlich einen sehr akademischer Charakter 
+
+{% responsive_image figure: true
+path: drupalcamp-vienna-2009/tu-besetzt.jpg
+alt: "TU Wien besetzt" 
+caption 'Foto: Florian Klare, &copy;'%}
+
+und die Hörsäle waren groß genug für jede Session, 
+was allerdings fehlte war ein Rückzugsort für das "Communitiy Plumbing".
+
+Wie auf jeder solcher Veranstaltungen gabs es hochkarätige <a href="http://drupalcamp.at/sessions/the-schedule">Sessions</a> 
+und leider liefen diese oft parallel. 
+Hier meine persönlichen Highlights:
+
 <a href="http://drupalcamp.at/sessions/agile-drupal-development-scrum">Agile Drupal Development with Scrum</a> von Phillip Schroeder, 
 ein Thema das jetzt nicht direkt oder nicht nur mit Drupal zu tun hat sich aber auf Drupal-Projekte anwenden lässt 
 fand ich sehr interessant, da wir <a href="http://berliner.de">Berliner.de</a>

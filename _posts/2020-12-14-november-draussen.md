@@ -10,8 +10,7 @@ tags:
 - Zertifikat
 - Internet
 image: assets/imgs/november-draussen/waldmorgen.jpg
-toc: true
-last_modified_at: 2023-02-19
+last_modified_at: 2024-02-25
 ---
 {% responsive_image figure: true
 caption: "Morgendämmerung im Fichtenwald. Eifelsteig Etappe 8, kurz hinter Mirbach. Foto © Tina Urban." 
@@ -76,9 +75,9 @@ path: assets/imgs/florian-latzel-wildnispaedagogik-zertifikat-web.png %}
 
 Ich habe die in [Kalenderwoche 10](/2020/03/12/2020-kalenderwoche-10.html) 
 begonnene Ausbildung zum Wildnispädagogen trotz COVID-19 abschließen können.
-Das Lernen von Naturkunde, Bushcraft- und Survialfertigkeiten und das [Draußensein](/tags/draussen/index.html) 
+Das Lernen von Naturkunde, Bushcraft- und Survialfertigkeiten und das [Draußensein](/thema/draussen/index.html)
 waren für mich der Motivator 
-und viel wichtiger als Abschluss und das dazugehörige [Zertifikat](/tags/zertifikat/index.html).
+und viel wichtiger als Abschluss und das dazugehörige [Zertifikat](/thema/zertifikat/index.html).
 Ich habe während diese Zeit wirklich tolle Leute kennengelernt, 
 mit denen ich dazwischen und drüber hinaus Kontakt halte.
 *Das Camp*[^camp] ist ein toller Ort und das ist auch schon der dritte Kurs,
@@ -89,8 +88,8 @@ Aber was mache ich jetzt mit der Ausbildung? Mal ins Blaue gedacht:
 
 - Nächstes Jahr noch *Wildnispädagogik 2*[^wp] dranhängen und das Gerlernte vertiefen
 - Wissen pro bono mit Paul zusammen an seine ehemalige Pfadfindergruppe vermitteln
-- [Wildnis, Bushcraft und Survival für Manager, Führungskräfte und Coaches][
-wildnistraining] gewürzt mit [tiefen Naturerleben][wildnistraining] 
+- [Wildnis, Bushcraft und Survival für Manager, Führungskräfte und Coaches][wildnistraining] 
+gewürzt mit [tiefen Naturerleben][wildnistraining] 
 und einer Prise Achtsamkeit
 
 ## November ohne Twitter

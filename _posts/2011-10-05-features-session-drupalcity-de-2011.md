@@ -11,6 +11,7 @@ layout: post
 title: features+ Session @ drupalcity.de 2011
 created: 1317820072
 image: /assets/imgs/2011-drupalcity-berlin-fl3a-features-plus-presentation.jpg 
+last_modified_at: 2024-02-18
 ---
 <figure role="group">
   <img src="/assets/imgs/2011-drupalcity-berlin-fl3a-features-plus-presentation.jpg" alt="features+ Session #dcb11" />
@@ -42,5 +43,6 @@ What this session covers:
  <li>Installation Profiles (in short)</li>
  <li>And "The Plus" (prospects for the future and further possibilities with Features)...</li>
 </ul>
-Here are the slide of my presentation <https://www.slideshare.net/fl3a/features-plusdcb11>
+Here are the slide of my presentation [features-plus-drupalcity-2011.pdf](
+{% link /assets/pdfs/features-plus-drupalcity-2011.pdf %})
 and the video recording <https://vimeo.com/33109955>     

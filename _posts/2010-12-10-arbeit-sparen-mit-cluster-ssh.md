@@ -84,4 +84,4 @@ In Zeile 10 werden unter *all* oben konfigurierten Cluster wieder zu einen Verbu
 
 Bei absehbarer Wiederverwendung spart das, trotz des einmaligen Mehraufwandes der Konfiguration in Zukunft eine Menge unötigen Aufwand. 
 
-Mehr unter [cssh(1) - Linux man page](a href="http://linux.die.net/man/1/cssh) (man cssh).
+Mehr unter [cssh(1) - Linux man page](http://linux.die.net/man/1/cssh) (man cssh).

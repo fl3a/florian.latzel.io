@@ -7,7 +7,7 @@ tags:
 - Italien
 layout: post
 date: 2023-01-14
-last_modified_at: 2023-02-27
+last_modified_at: 2024-02-25
 image: /assets/imgs/metaforum22/metaforum-summercamp-2022-stage-tom-andreas-trainer.jpg
 ---
 {%responsive_image figure:true 
@@ -19,7 +19,7 @@ zum 35. Metaforum Summercamp[^mfp] in Abano Terme[^abano] geführt.
 
 Zwei Module der Ausbildung, 
 zum einen [*Lösungsfokussierendes Coaching*][coaching]
-nach Steve de Shazer[^steve] und Insoo Kim Berg bei [Tom Andreas](/tags/tom-andreas/) 
+nach Steve de Shazer[^steve] und Insoo Kim Berg bei [Tom Andreas](/thema/tom-andreas/)
 und *der provokative Ansatz* nach Frank Farelly[^ff] 
 bei Dr. Noni Höffner und ihrer Tochter Dr. Charlotte Cordes[^provo] 
 zum anderen, fanden auf dem Metaforum Summercamp[^mfp] statt.
@@ -44,7 +44,7 @@ und nach 10 Minuten war ich durch den Sicherheitsbereich.
 Die Spuren des Vortags waren in Form von Müllbergen und Absperrungen noch deutlich sichtbar.
 Mein Flug ging um 15:10.   
 Ich hatte jetzt etwas Zeit: lesen, schlafen, [Blogartikel schreiben](
-/2022/08/15/5-jahre-rewe-digital-danke-auf-wiedersehen.html) und Menschen beobachten.
+{%post_url 2022-08-15-5-jahre-rewe-digital-danke-auf-wiedersehen %}) und Menschen beobachten.
 
 Der Flug kam ungefähr mit 45 Minuten Verspätung in Venedig an. 
 Mein Shuttle nach Abano hat nicht gewartet.

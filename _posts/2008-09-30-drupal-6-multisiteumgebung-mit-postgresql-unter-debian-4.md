@@ -3,33 +3,28 @@ title: Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
 layout: post
 permalink: /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 date: 2008-09-30 08:36
-toc: true
 tags:
 - Drupal 
 - Multisite 
+- drush
 - howto 
 - Open Source 
 - "<?php ?>"
 - PostgreSQL
-# Redirect /book/export/html/520
+last_modified_at: 2024-02-18
 ---
-Installation und Einrichtung von 
-<ul>
-<li>Drupal6</li>
-<li>PHP5</li>
-<li>PostgreSQL</li>
-<li>Apache2</li>
-<li>phppgadmin</li>
-<li>Suchmaschinenfreundlichen URL's</li>
-<li>deutscher Lokalisierung</li>
-</ul>
-in einer Multisiteumgebung auf einem lokalen Rechner  unter Debian 4(etch).
+Installation und Einrichtung von Drupal6, PHP5, PostgreSQL, Apache2, phppgadmin, 
+Suchmaschinenfreundlichen URL's und deutscher Lokalisierung
+als Multisiteumgebung auf einem lokalen Rechner unter Debian 4 (etch).
+
 Verwendet wurden die Pakete PHP5 in der Version 5.2.0-8+etch11 
 und apache2 in der Version 2.2.3-4+etch5, 
 drupal in der Version 6.4 in deutsch von <a href="http://www.drupalcenter.de">drupalcenter.de</a> 
 und PostgreSQL in der Version 8.1.11.
 <!--break--> 
-s="book-heading">Installation der benötigten Pakete
+* toc
+{:toc}
+## Installation der benötigten Pakete
   <p>
 Die folgenden Pakete werden ben&#246;tigt:
 </p>
@@ -39,7 +34,7 @@ Die folgenden Pakete werden ben&#246;tigt:
 <li>php5 und php5-common - Den PHP-Interpreter</li>
 <li>php5-gd - Die GD Grafikbibliothek f&#252;r PHP5</li>
 <li>php5-pgsql - Das PHP-Modul f&#252;r den Zugriff auf die PostgreSQL Datenbank</li>
-<li>php5-<acronym title="Command-Line Interpreter">cli</acronym> - PHP für die Kommandozeile, benötigt von <acronym title="Drupal Shell"><a href="/tags/drush.html">drush</a></acronym></li>
+<li>php5-<acronym title="Command-Line Interpreter">cli</acronym> - PHP für die Kommandozeile, benötigt von <acronym title="Drupal Shell"><a href="/thema/drush">drush</a></acronym></li>
 <li>postgresql-8.1 - Der PostgreSQL Datenbankserver</li>
 <li>phppgadmin - Webbasiertes Administrationswerkzeug für PostgreSQL(ähnlich phpmyadmin für mysql)</li>
 </ul>
@@ -493,12 +488,13 @@ lrwxrwxrwx 1 florian server   11 2009-02-27 10:22 6.x -> drupal-6.10
   Nach <a href="http://drupal.org/project/drush_nagios">drush_nagios </a> ausgelagert
 
 #### Dokumentation
-<ul>
-<li>Jedes Kommando besitzt eine Hilfe, z.B. <span class="geshifilter"><code class="text geshifilter-text">drush help multi-drupalupdate</code></span></li>
-<li>zudem gibt es eine <a href="http://is-loesungen.de/docu/drush_multi/index.html" rel="nofollow">drush_multi Doxygen Dokumentation</a>..</li>
-<li><a href="http://de.slideshare.net/fl3a/ddd-drush-multi">Slides zu drush_multi</a> von den drupaldevDays 2010 in München.</li>
-<li><a href="http://de.slideshare.net/fl3a/drush-und-multisite-drushmulti?related=1">Slides zu "Drush und Multisite: drush_multi"</a>, DrupalCamp Vienna 2009</li>
-</ul>
+
+- Jedes Kommando besitzt eine Hilfe, z.B. <span class="geshifilter"><code class="text geshifilter-text">drush help multi-drupalupdate</code></span>
+- <a href="https://web.archive.org/web/20211130214503/https://is-loesungen.de/docu/drush_multi/index.html">drush_multi Doxygen Dokumentation</a>.
+- [Slides zu drush_multi von den drupaldevDays 2010 in München](
+{% link /assets/pdfs/drush_multi-drupaldevdays-2010.pdf %})
+- [Slides zu "Drush und Multisite: drush_multi", DrupalCamp Vienna 2009](
+{% link /assets/pdfs/drush-und-multisite-drush_multi-drupalcamp-vienna-2009.pdf %})
   
 ## Drush in einer Multisite-Umgebung
 

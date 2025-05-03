@@ -8,6 +8,7 @@ tags:
 layout: post
 image: /assets/imgs/systemischer-nlp-coach-zertifikat-florian-latzel.png
 date: 2023-01-16
+last_modified_at: 2024-02-25
 ---
 {%responsive_image figure: true
 path: assets/imgs/systemischer-nlp-coach-zertifikat-florian-latzel.png
@@ -17,7 +18,7 @@ Dem Tom typischen *"Tach"*,
 folgte am ersten Tag meiner Coach Ausbildung ein *"Hallo Coaches"*.   
 Jetzt sag ich *"Hallo Coaches"*.
 Nach dem ich 2021 mit dem [NLP Practitioner](/2022/03/31/nlp-practitioner.html) 
-bei [Tom](/tags/tom-andreas/) abgeschlossen habe,
+bei [Tom](/thema/tom-andreas/) abgeschlossen habe,
 habe ich alleine bei Tom in Summe fast 400 Unterrichtsstunden an 39 Tagen 
 in meine Coach Ausbildung investiert. 
 Nun darf ich mich als Coach bezeichnen.

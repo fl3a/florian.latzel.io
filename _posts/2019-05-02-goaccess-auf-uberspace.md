@@ -11,9 +11,8 @@ tags:
 - Analytics
 - cron
 layout: post
-toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2021-12-19
+last_modified_at: 2024-02-25
 ---
 <figure>
   {% responsive_image path: assets/imgs/goaccess-ncurces-console-screenshot.png alt: "Screenshot: GoAccess Web-Analytics auf der Konsole" %}
@@ -46,6 +45,9 @@ Die Stellen mit der *Tokyo Cabinet Datenbank* können in dem Fall übersprungen 
 Es sei noch angemerkt, dass GoAccess auch Ausgaben in Realtime erzeugen kann,
 dieses Feature ist allerdings für die Anwendung auf Uberspace 6 irrelvant, da 
 die Access-Logs dort nicht live geschrieben werden[^logs].
+
+* toc
+{:toc}
 
 ## Installation von GoAccess
 ```
@@ -304,7 +306,7 @@ Noch mehr Beispiele findest du via `goaccess --help` oder in der Manpage[^man].
 [^ureact]: <https://twitter.com/ubernauten/status/1124018556922888196>
 [^1-4]: <https://goaccess.io/release-notes#release-1.4>
 [^toast1]: [toast - packageless package manager for Unix systems and non-root users](https://wiki.uberspace.de/system:toast) 
-[^toast2]: [toast homepage]([http://www.toastball.net/toast/)
+[^toast2]: [toast homepage](http://www.toastball.net/toast/)
 [^logs]: [Webserver Logs, access_log](https://wiki.uberspace.de/webserver:logs#access_log)
 [^man]: [GoAccess Manual Page](https://goaccess.io/man)
 *[FLOSS]: Free/Libre Open Source Software

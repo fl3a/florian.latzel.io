@@ -13,10 +13,6 @@ gem "jekyll", "~>4.3.2"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~>2.5.1"
 
-# Installation issue: Can't install RMagick 4.0.0. Can't find magick/MagickCore.h. #806
-# https://github.com/rmagick/rmagick/issues/806 
-gem "rmagick", "~>4.3.0"
-
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -33,16 +29,14 @@ group :jekyll_plugins do
   # Adds 'article:modified_time' from last_modified_at
   gem "jekyll-seo-tag", "~>2.8.0" , git: 'https://github.com/fl3a/jekyll-seo-tag', branch: 'master'
  
-  # jekyll-toc - Table of Contents
-  # https://github.com/toshimaru/jekyll-toc
-  gem "jekyll-toc", "~>0.18.0"
-
   # Pagination & Tags
   # https://jekyllrb.com/docs/pagination/
   gem "jekyll-paginate-v2", "~>3.0.0"
 
   # https://github.com/wildlyinaccurate/jekyll-responsive-image
-  gem "jekyll-responsive-image", "~>1.6.0"
+  
+  # https://github.com/rbuchberger/jekyll_picture_tag
+  gem 'jekyll_picture_tag', '~> 2.0.4'
 
   # Syntax highlightning
   # https://github.com/rouge-ruby/rouge
@@ -54,3 +48,6 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+# 1.16.3 and 1.17.0 works, above (>=1.17.1) breaks
+gem "ffi", "~> 1.16.3"

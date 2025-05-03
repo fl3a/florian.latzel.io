@@ -11,6 +11,7 @@ tags:
 - Projekt Googlefrei
 - Craft Beer
 image: /assets/image/2022/monique-schaukel-nazare-sitio.jpg
+last_modified_at: 2025-04-07
 ---
 {%responsive_image path: assets/imgs/2022/monique-schaukel-nazare-sitio.jpg
 figure: true alt: "Monique auf der Schaukel mit Blick auf Nazaré, Portugal" %}
@@ -54,10 +55,13 @@ Ich konnte bereits recht früh im Jahr an meinem Ziel,
 mehr mit *"Draussendingen"* zu machen, anknüpfen.   
 Kalenderwoche sechs startete mit einen [Walkaboutyou](https://walkaboutyou.org/) 
 mit Kamil für einen Batch des Accelerator Programms vom Startplatz Köln.
-Die Woche endete am Samstag mit einem [Wildnistraining](/wildnistraining.html).
-Ich durfte zu der Ausbildung der ersten Generation 
-von *[Naturclub](https://naturzeit.club) Coaches* 
-mit einem kleinen [*Bushcraft- und Survivaltraining*](/wildnistraining.html) beitragen.
+Die Woche endete am Samstag mit einem [Wildnistraining](
+{%link pages/angebot/wildnistraining.md %}).
+Ich durfte zu der [Ausbildung der ersten Generation 
+von Naturclub Coaches](
+{% post_url 2025-03-20-bushcraft-training-naturzeitclub-coaches-bergischen-land %})[^nc]
+mit einem kleinen [*Bushcraft- und Survivaltraining*](
+{%link pages/angebot/wildnistraining.md %}) beitragen.
 
 Die Etappe fünf des Bergisches Weges lief an unserem Seminarort vorbei.
 So macht ich mich am Sonntagmorgen guter Dinge zu Fuß
@@ -152,7 +156,7 @@ Von Lissabon ging es mit dem Mietwagen weiter über Sintra, Nazare, Ovar, Aveiro
 und einen kleinen Abstecher über die [Lupum Brauerei](https://lupum.beer/) nach Porto.
 
 In Porto blieben wir nochmal ein paar Tage und flogen von dort nach Deutschland 
-via BER zurück und hingen noch einen Tag in Berlin bei [Luckow](/tags/luckow/) dran.
+via BER zurück und hingen noch einen Tag in Berlin bei [Luckow](/thema/luckow/) dran.
 
 ## März, April
 
@@ -172,9 +176,9 @@ und den unterschriebenen Arbeitsvertrag der AXA in den Briefkasten geschmissen.
 path: assets/imgs/2022/framework-laptop-ersatzschrauben-luckow.jpeg
 alt: "Innenleben des Framework Laptops: Ersatzschrauben. Foto CC-BY Stephan Luckow, GzEvD mbH." %}
 
-Am 08. Mai war der der erste [Todestag meiner Mama](/tags/tod/),
-an diesem Wochenende habe ich meine [Coaching](/tags/coaching/) Ausbildung 
-bei [Tom Andreas](/tags/tom-andreas/) begonnen.
+Am 08. Mai war der der erste [Todestag meiner Mama](/thema/tod/),
+an diesem Wochenende habe ich meine [Coaching](/thema/coaching/) Ausbildung
+bei [Tom Andreas](/thema/tom-andreas/) begonnen.
 
 Da durch den Jobwechsel auch die Abgabe meines beruflich 
 und privat genutzten Thinkpads absehbar wurde,
@@ -201,7 +205,7 @@ Dazu kam noch mein Resturlaub.
 Ich hatte frei, so viel wie lange nicht mehr und das am Stück.
 
 In dieser Zeit war die [Verabschiedung von meinem alten Arbeitgeber](
-/2022/08/15/5-jahre-rewe-digital-danke-auf-wiedersehen.html) ein Thema.
+{%post_url 2022-08-15-5-jahre-rewe-digital-danke-auf-wiedersehen %}) ein Thema.
 Neben meinem Ausstand traf ich mich in diesem Zeitraum mit ein paar Kolleg\*innen
 um dem Abschied bewusst einen Raum zu geben. 
 
@@ -304,7 +308,7 @@ Fast wie am Anfang, konnte ich das Jahr mit einem weiteren Walkaboutyou abschlie
 Diesmal wieder für das Accelerator Programs des Startplatz,
 mit dem Unterschied, dass ich das Community Building diesmal alleine facilitierte.
 
-Die [Trauer](/tags/trauer/), die letztes Jahr großflächig und fast permanent
+Die [Trauer](/thema/trauer/), die letztes Jahr großflächig und fast permanent
 zugegen war, kam dieses Jahr punktuell und manchmal wie aus dem Nichts.
 Ein Satz, ein Gedanke lösten Erinnnerungen und die ein oder Träne aus.
 
@@ -344,7 +348,7 @@ Neben meiner ersten *Natto[^natto] Erfahrung* waren die Sushis einfach grandios.
 Die kulinarische Wiederentdeckung des Jahres 
 und häufig von uns frequentiert wurde das [Da Enzo](
 https://www.daenzo-ristorante.de/).
-Bester Italiener in [Köln-Mülheim](/tags/mullem/).
+Bester Italiener in [Köln-Mülheim](/thema/mullem/).
 Dort steht der Chef, Enzo, selbst in der Küche,
 während seine Frau Anna den großen Rest macht.
 Einfach sehr gutes Essen.
@@ -355,6 +359,7 @@ Fußnoten
 [^cv]: Ich habe mich am CV von Carolyn Stransky orientiert bzw. diesen ge-forkt: [Creating a digital CV in Markdown on GitHub](https://workwithcarolyn.com/blog/digital-cv-guide)
 [^natto]: [Natto - Wikipedia](https://de.wikipedia.org/wiki/Natt%C5%8D)
 [^pasteis]: [Pastel de Nata - Wikipedia](https://de.wikipedia.org/wiki/Pastel_de_Nata)
+[^nc]: <https//:naturzeit.club> 
 [^tribes]: [Einblicke in die agile Evolutionsreise von AXA Deutschland - ManagerWissen](https://manager-wissen.com/einblicke-in-die-agile-evolutionsreise-von-axa-deutschland)
 [^spotify1]: [Das Spotify-Modell für die Agile-Skalierung - Atlassian](https://www.atlassian.com/de/agile/agile-at-scale/spotify)
 [^spotify2]: [Doch wie Spotify werden (II) - On Lean and Agility](https://www.lean-agility.de/2022/12/doch-wie-spotify-werden-ii.html)

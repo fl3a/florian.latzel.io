@@ -10,7 +10,7 @@ nid: 1649
 layout: post 
 created: 1522507534
 image: /assets/imgs/florian-latzel-scrumalliance-csp-certificate.png
-last_modified_at: 2021-03-29
+last_modified_at: 2024-02-25
 ---
 {% responsive_image figure: true
 path: assets/imgs/florian-latzel-scrumalliance-csp-certificate.png

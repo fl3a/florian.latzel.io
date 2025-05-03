@@ -1,7 +1,7 @@
 ---
 title: Coach & Walk
 layout: page
-permalink: /angebot/coach-and-walk
+permalink: /coach-and-walk.html
 image: /assets/imgs/portfolio/weg-2.JPG
 ---
 {% responsive_image alt: "Wegbegleiter, Foto © Tina Urban." path: assets/imgs/portfolio/weg-2.JPG %}
@@ -19,7 +19,7 @@ Was damals bereits die Philosophen beschäftige,
 ist heute im Fokus vom Wissenschaft und Forschung.
 
 Warum Draußen? Die Natur tut uns gut.    
-Insbesondere im Wald sinken Cotisol- und Blutdruckspiegel[^waldgesundheit]
+Insbesondere im Wald sinken Cortisol- und Blutdruckspiegel[^waldgesundheit]
 beides Indikatoren für Stress.    
 Wir entschleunigen, weiten den Blick für Neues und stärken dabei auch noch unser Immunsystem[^waldbaden].
 

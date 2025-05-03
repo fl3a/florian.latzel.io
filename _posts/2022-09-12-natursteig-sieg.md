@@ -8,6 +8,7 @@ tags:
 - Julian
 - Danksagung
 image: /assets/imgs/natursteigsieg/natursteig-sieg-etappe-13-jungwald-florian.jpg
+last_modified_at: 2024-02-25
 ---
 {%responsive_image 
 path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-13-jungwald-florian.jpg
@@ -113,7 +114,7 @@ Das Fichtensterben hat das Gesicht von einigen Etappen stark verändert.
 
 {%responsive_image figure: true
 alt: "Mark in einer Mondlandschaft. Schleife um Herchen im September 2020"
-path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-06-fichtenwald-mark.jpg%}
+path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-06-fichtenwald-mark.jpg %}
 
 Im Sommer 2022 waren die Etappen hinter Wissen dran.
 
@@ -127,7 +128,7 @@ path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-14-erzquell-stollen--ans
 
 {%responsive_image figure: true
 alt: "Wo sind die Wegzeichen? Etappe 14, Julian unterhalb der Freusburg in Juni 2022"
-path: assets/imgs/natursteigsieg/natursteig-sieg-etappe14-freusburg-orientierung%}
+path: assets/imgs/natursteigsieg/natursteig-sieg-etappe-14-freusburg-orientierung.jpg %}
 
 
 {%responsive_image figure: true
@@ -144,7 +145,7 @@ Das Finale war die Etappe *Rund um Wissen*.
 
 {%responsive_image figure: true
 alt: "Eine handvoll Brombeeren, Etappe 10 im August 2022"
-path: assets/imgs/natursteigsieg/handvoll-brombeeren.jpg%}
+path: assets/imgs/natursteigsieg/handvoll-brombeeren.jpg %}
 
 Geburtstagszeit ist Brombeerenzeit. 
 Das viele Sammeln ging leicht zu Lasten der Durchschnittsgeschwindigkeit.
@@ -168,7 +169,7 @@ Das sind meine Top 3 Etappen des Natursteig Sieg:
 
 {%responsive_image figure: true
 alt: "Juni 2022: Ausklang nach den Etappen 14 bis 12 mit Julian beim Au Imbiss. Foto: Julian Schreyer, CC BY-SA 4.0"
-path: assets/imgs/natursteigsieg/au-imbiss-wissen-ausklang.jpg%}
+path: assets/imgs/natursteigsieg/au-imbiss-wissen-ausklang.jpg %}
 
 Trail-Kater[^tk]: Leicht erschöpft, resümierend und traurig, 
 dass der Trip vorbei ist 
@@ -177,7 +178,7 @@ wieder zurück in die Zivilsation und den Alltag geht.
 
 Was als nächstes wandern? Angefangen mit den bereits begonnenen Trails in der Nähe:
 
-- [Rheinsteig](/tags/rheinsteig/): 2019 Gestartet als Couplegoal haben Monique und ich, 
+- [Rheinsteig](/thema/rheinsteig/): 2019 Gestartet als Couplegoal haben Monique und ich,
 Stand September 2022 ca. die Hälfte komplett.
  Alleine fehlen mir mit 6 Etappen weniger als 1/3 (siehe [100 Km Rheinsteig (wie ich an meinen Trailnamen kam)](
 /2022/01/16/tschuess-zwanzigeinundzwanzig.html#100-km-rheinsteig-wie-ich-an-meinen-trailnamen-kam).
@@ -200,7 +201,7 @@ und den Impuls mit dem Trekkingschirm. Der Schirm ist seit dem immer dabei.
 
 Danke auch an Hikingfrog für die angenehme Begleitung auf dem Ahrsteig, dem Rheinsteig und dem Natursteig Sieg.
 
-Einen Dank an meinen alten Freund [Julian](/tags/julian/), 
+Einen Dank an meinen alten Freund [Julian](/thema/julian/),
 mit dem ich auch schon beim Bergischen Weg, die am weitest entfernten Etappen gelaufen bin.
 
 Danke auch an Mark, Sebastian, Tina und Monique, mit denen ich ebenfalls eine oder mehrere Etappen gelaufen bin.

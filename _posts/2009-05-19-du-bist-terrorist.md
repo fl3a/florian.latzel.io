@@ -1,9 +1,7 @@
 ---
 tags:
 - Überwachung
-- Netzkultur
 - Internet
-- Datenintegrität
 nid: 843
 layout: post
 title: Du bist Terrorist

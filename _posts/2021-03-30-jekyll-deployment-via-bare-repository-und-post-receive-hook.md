@@ -10,10 +10,9 @@ tags:
 - git
 - snippet
 layout: post
-toc: true
 permalink: /jekyll-deployment-via-bare-repository-und-post-receive-hook.html 
 image: /assets/imgs/gears-of-industry.jpg
-last_modified_at: 2021-09-04
+last_modified_at: 2023-10-03
 ---
 {% responsive_image figure: true 
 path: assets/imgs/gears-of-industry.jpg 
@@ -21,7 +20,7 @@ alt: "Zahnräder"
 caption: '<a href="https://www.flickr.com/photos/housephotography/953871961/">Gears of industry</a>, 
 (CC BY-NC-ND 2.0), House Photography' %}
 
-Deployment einer [Jekyll-Site](/tags/jekyll) via *Git Bare Repository*[^bare] 
+Deployment einer [Jekyll-Site](/thema/jekyll) via *Git Bare Repository*[^bare]
 und *post-receive Hook*[^hooks] auf einen Webserver.
 
 Zielstellung ist, dass ein `git push` auf das *Remote Repository*[^remote] 
@@ -33,6 +32,9 @@ das entsprechende HTML,
 dass dann der Welt 
 in der *DocumentRoot*[^docroot] deines *Webservers*, 
 in meinem Fall einem [Uberspace](http://uberspace.de) ausgeliefert wird.<!--break-->
+
+* toc
+{:toc}
 
 ## Vorbereitungen auf dem Zielserver
 
@@ -313,7 +315,7 @@ und das Skript hat noch etwas Liebe erfahren.
 über meinen [Umstieg von Drupal nach Jekyll](/2019/11/09/von-drupal-nach-jekyll.html) Anfang 2019
 - In `_draft`: *Migration von Drupal 6 nach Jekyll*.
 Vorbereitende Schritte, Anpassung des Jekyll Drupal6 Importers und Nacharbeiten
-- Alle weiteren [Artikel mit dem Tag Jekyll](/tags/jekyll/index.html)
+- Alle weiteren [Artikel mit dem Tag Jekyll](/thema/jekyll/index.html)
 
 ---
 

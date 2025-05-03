@@ -11,9 +11,8 @@ tags:
 - Pencak Silat
 - Kampfkunst
 - Danksagung
-toc: true
 date: 2022-01-16 23:01
-last_modified_at: 2023-02-19 10:34 
+last_modified_at: 2024-02-25
 image: /assets/imgs/21/blick-auf-den-rhein-boss-tempel-hattenheim.png 
 ---
 {%responsive_image path: assets/imgs/21/blick-auf-den-rhein-boss-tempel-hattenheim.png 
@@ -223,7 +222,7 @@ die Strecke von Rüdeshein nach Wiesbaden mit ihr nochmal entgegengesetzt zu lau
 
 Ein Ziel, das aus der [Eifelsteigwanderung im November 2020](
 /2020/12/14/november-draussen.html#winterbackpacking-learnings) 
-mit meinen [Wildnispädagogik](/tags/wildnispadagogik) Alumnis entstanden ist,
+mit meinen [Wildnispädagogik](/thema/wildnispadagogik) Alumnis entstanden ist,
 war es mein Wissen im Bereich [Bushcraft, Survival](/wildnistraining.html), 
 Wahrnehmung und sich in der Draußen [in der Natur heimisch zu fühlen][
 wildnistrainig] weiterzugeben.

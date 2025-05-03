@@ -9,7 +9,7 @@ tags:
 - Veränderung
 - Danksagung
 image: /assets/imgs/rewe-digital-laptop-florian-latzel.png
-last_modified_at: 2022-08-20
+last_modified_at: 2024-02-25
 ---
 {% responsive_image figure: true 
 path: assets/imgs/rewe-digital-laptop-florian-latzel.png
@@ -33,8 +33,8 @@ Nach einen offenen Gespräch und ein paar fachlichen und biografischen Fragen
 ging weiter in die *Werkstatt*, Epizentrum des *Ecom Tribes* 
 und quirlige Heimat vieler Teams. 
 Auf dem Weg dorthin begegneten wir Sabine, 
-die ich vom [Kölner Scrumtisch](/tags/scrumtisch-koln/) kenne
-und dort ebenfalls als [Scrum Master](/tags/scrum-master/) arbeitet. 
+die ich vom [Kölner Scrumtisch](/thema/scrumtisch-koln/) kenne
+und dort ebenfalls als [Scrum Master](/thema/scrum-master/) arbeitet.
 Nach kurzer, herzlicher Begrüßung gings weiter.
 In der Werkstatt trafen wir dann als erstes auf Jan, ebenfalls Scrum Master,
 den ich ein paar Tag zuvor 

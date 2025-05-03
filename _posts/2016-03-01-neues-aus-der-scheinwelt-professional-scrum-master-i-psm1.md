@@ -10,7 +10,7 @@ nid: 1635
 permalink: "/neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html"
 layout: post
 created: 1456837559
-last_modified_at: 2021-02-29
+last_modified_at: 2024-02-25
 image: /assets/imgs/psm1-scrum-org-certificate-florian-latzel.png
 ---
 {% responsive_image path: assets/imgs/psm1-scrum-org-certificate-florian-latzel.png
@@ -78,7 +78,7 @@ Wen verwundet es dann, wenn man die Urväter von XP, Kent Beck und Ward Cunningh
 Von der Theorie in die Praxis: 
 2009 habe ich bei BerlinOnline [berliner.de](https://www.drupal.org/node/622158) 
 als Teil des Entwicklerteams in einem Scrum-Projekts mitwirken dürfen. 
-In dem Projekt fanden sich Praktiken einige Praktiken wie [Standup Meeting (Daily Scrum)](/tags/daily-scrum/), 
+In dem Projekt fanden sich Praktiken einige Praktiken wie [Standup Meeting (Daily Scrum)](/thema/daily-scrum/),
 das Buzzword Sustainable Pace[^s-pace] (U.a. keine Überstunden. Ja, wirklich, das war sogar vertraglich festgehalten.) 
 und das Planning-Game (Planungspoker) wieder.  
 Das ganze fühlte sich auch in der Praxis nicht nur unglaublich gut an, 

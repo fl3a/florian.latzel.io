@@ -1,14 +1,16 @@
 ---
 layout: post
 title: 'C02 sparen: Responsive Images und Lazyload bei Jekyll'
-toc: true
 tags:
-- Jekyll
 - howto
+- Jekyll
+- Liquid
 - Nachhaltigkeit
 - SEO
 - uberspace
+- netzaffe
 image: /assets/imgs/carbon-calculator-netzaffe-76-percent.png
+last_modified_at: 2024-02-25
 ---
 
 Netzwerkdaten vorher:[^fnet] [^front]
@@ -39,13 +41,16 @@ sondern Google mag es auch noch gerne.
 So empfahl mir *Google PageSpeed Insights* zur Verbesserung der Performance von netzaffe.de
 auch die richtige Dimensionierung vom Bildern.
 
-Dieses *[Howto](/tags/howto.html)* hat das Ziel die übertragene Datenmenge von Bildern
+Dieses *[Howto](/thema/howto/)* hat das Ziel die übertragene Datenmenge von Bildern
 und somit den CO2-Ausstoß dieser Website mimimieren.
 
 Ich beschreibe die Installation und Konfiguration von *jekyll-responsive-images[^resp]*,
 im Zusammenspiel mit einem neuen Template und einen Lazyload Skript, 
-eingebunden in [Jekylls](/tags/jekyll.html) *Standardtheme* miminma[^minima] 
-unter [Linux](/tags/linux.html), hier CentOS auf [uberspace](/tags/uberspace) 7.<!--break-->
+eingebunden in [Jekylls](/thema/jekyll/) *Standardtheme* miminma[^minima]
+unter [Linux](/thema/linux/), hier CentOS auf [uberspace](/thema/uberspace/) 7.<!--break-->
+
+* toc
+{:toc}
 
 ## Installation
 
@@ -205,7 +210,7 @@ Innerhalb der Figure-Variante wird per Default das Alt-Attribute
 als `<figcaption>` genutzt, 
 kann aber via Belegung der Variable `caption` überschrieben werden.
 
-Siehe auch [Benutzung des Templates](/2020/04/07/responsive-image.html#benutzung).
+Siehe auch [Benutzung des Templates](#benutzung).
 
 ```liquid
 {% raw %}

@@ -2,23 +2,23 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- if page.url contains "/thema/" or page.url contains "/page/" -%}
+  {%- if paginator and page.url contains "/thema/" -%}
     {% include paginator_title.liquid %}
-    {%- include paginator_meta.liquid -%}
+    {% include paginator_meta.liquid %}
   {%- else -%}
     {%- seo -%}
   {%- endif -%}
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
 
-  <link rel="icon" href="">
-  <link rel="apple-touch-icon">
-  <meta name="msapplication-TileImage" content="">
+  {% include favicon.html %}
 
   {%- if page.url contains "/ueber-mich.html/" -%}
   <script src="{{ '/assets/js/jquery-ui.min.js'| relative_url }}"></script> 
   {%- endif -%}
-  {%- if page.url == "/index.html" and paginator.page == 1 -%}
+  {%- if page.url == "/index.html" -%}
   <meta property="og:image" content="{{ "/assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg" | absolute_url }}">
   {%- endif -%}
+
+  <link type="text/plain" rel="author" href="{{ "/humans.txt" | absolute_url }}" />
 </head>
