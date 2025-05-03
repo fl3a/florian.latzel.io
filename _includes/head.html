@@ -15,8 +15,9 @@
   <link rel="apple-touch-icon">
   <meta name="msapplication-TileImage" content="">
 
-  <script src="{{ '/assets/js/lazysizes.min.js'| relative_url }}"></script> 
-  <script src="{{ '/assets/js/jquery.min.js'| relative_url }}"></script> 
+  {%- if page.url contains "/ueber-mich.html/" -%}
+  <script src="{{ '/assets/js/jquery-ui.min.js'| relative_url }}"></script> 
+  {%- endif -%}
   {%- if page.url == "/index.html" and paginator.page == 1 -%}
   <meta property="og:image" content="{{ "/assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg" | absolute_url }}">
   {%- endif -%}
