@@ -1,5 +1,5 @@
 ---
-title: Coaching
+title: Coaching in der Natur und im Gehen
 layout: page
 permalink: /coaching.html
 image: /assets/imgs/november-draussen/waldlicht.jpg
@@ -12,16 +12,95 @@ Begleitung in Veränderung. Eröffnung neuer Sichtweisen und Strategien.
 Als allparteilicher Gesprächspartner, Zuhörer, Begleiter und Sparringspartner 
 mit professionellen und ehrlichen Feedback.     
 
-Möglichen Themen für das Coaching
-- Führung
-- Authentisches Leben
-- Konflikte
-- Ziele und Perspektiven
-- Lösungen und Strategien
-- Kreative Anstöße
-- ...
+
+**Inhalt**                                                                      
+* Inhalt                                                                        
+{:toc}
+
+## Themen für ein Coaching
+
+Möglichen Themen und Anlässe für ein Coaching
+
+<div id="watz">
+<h3 class="no-anchor">Führung und Verantwortung</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+</div>
+<h3 class="no-anchor">Konfliktmanagement</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+</div>
+<h3 class="no-anchor">Persönlicheitsentwicklung</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+</div>
+<h3 class="no-anchor">Umgang mit Belastung und Stress</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+</div>
+</div>
+
+## Coaching FAQ
+
+Häufig gestellte Fragen (FAQ) rund um das Thema Coaching.
+
+<div id="faq">
+<h3 class="no-anchor">Wie läuft ein Coaching ab?</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+</div>
+<h3 class="no-anchor">Was sind die Grundlagen meines Coachings?</h3>
+<div markdown="1">
+- Lösungsfokussierte Kurzzeittherapie nach Steve de Shazer und Kim Inso Berg
+- Systemische Strukturaufstellungen (SySt&copy;) nach Matthias Varga von Kibéd und Insa Sparrer
+- Systemisch konstruktivistischer Beratungsansatz
+-  Provokative SystemArbeit (ProSA)® nach Dr. Noni E. Höfner 
+und Dr. Charlotte Cordes
+- Neuro Lingistisches Programmieren (NLP) 
+</div>
+<h3 class="no-anchor">Was ist Aufgabe des Coachs?</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+</div>
+<h3 class="no-anchor">Was ist Aufgabe des Klienten?</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+
+</div>
+<h3 class="no-anchor">Was kann Coaching nicht leisten?</h3>
+<div markdown="1">
+- Depression
+- Dauerhafte Schlafstörungen
+- Einnahme von Psychopharmaka
+- Drogensucht
+
+Hausarzt, Psychotherapie  
+</div>
+<h3 class="no-anchor">Was kostet ein Coaching?</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+</div>
+</div>
 
 Ich biete auch [Coachings draußen in der Natur und im Gehen][c-n-w] an.
 Siehe [Coach & Walk][c-n-w]
+
+## Artikel zu Thema Coaching
 
 [c-n-w]: {% link pages/angebot/coach-and-walk.md %} 

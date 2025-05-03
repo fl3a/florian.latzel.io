@@ -13,8 +13,18 @@
 
   {% include favicon.html %}
 
-  {%- if page.url contains "/ueber-mich.html/" -%}
-  <script src="{{ '/assets/js/jquery-ui.min.js'| relative_url }}"></script> 
+  {%- if page.url contains "/coaching.html" -%}
+  <script src="{{ '/assets/js/jquery.min.js'| relative_url }}"></script>
+  <script src="{{ '/assets/js/jquery-ui.min.js'| relative_url }}"></script>
+  <link rel="stylesheet" href="{{ "/assets/js/jquery-ui-1.14.1.custom/jquery-ui.theme.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/js/jquery-ui-1.14.1.custom/jquery-ui.structure.min.css" | relative_url }}">
+  <script>
+  $( function() {
+    $("#watz,#faq").accordion()({
+      heightStyle: "content"
+    })
+  });
+  </script>	      
   {%- endif -%}
   {%- if page.url == "/index.html" -%}
   <meta property="og:image" content="{{ "/assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg" | absolute_url }}">
