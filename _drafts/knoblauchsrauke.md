@@ -22,12 +22,13 @@ caption: 'Knoblauchsrauke. Foto: Chris Zwick, CC BY-SA 4.0' %}
 
 Die Knoblauchsrauke (*Alliaria petiolata*) 
 gehört zu den ersten Wildkräutern, die im Frühling sprießen.
-Mit ihrem milden Knoblaucharoma und der einfachen Bestimmbarkeit 
-ist sie eine vielseitige Wildpflanze für Küche und Hausapotheke.
+Mit ihrem milden Knoblaucharoma ist sie eine vielseitige Wildpflanze für Küche und Hausapotheke.
 Traditionell wurde sie als Heil- und Würzkraut[^wiki] genutzt 
 und bereicherte Frühlingsgerichte lange vor der Verbreitung des Kulturknoblauchs.
 Heute erlebt sie als unkompliziertes Wildgemüse und aromatische Würzpflanze 
-eine Renaissance – ideal für Einsteiger ins Wildkräutersammeln.
+eine Renaissance.
+Sie ist einfach zu bestimmen und ideal für Einsteiger ins Wildkräutersammeln.
+<!--break-->
 
 **Inhalt**
 * Inhalt
@@ -53,11 +54,15 @@ Im Frühling erscheinen kleine, weiße Kreuzblüten in lockeren Trauben.[^wiki]
 Alle Pflanzenteile der Knoblauchsrauke sind essbar:
 
 - **Blätter**: Mild-knoblauchartig, ideal für Pesto, Wildkräutersalate 
-oder Sandwiches[^wiki]
-- **Blüten**: Zart scharf, perfekt als Dekoration
-- **Samen**: Senf-ähnlich[^kostbarenatur] würzig, als Topping für Salate
+oder Sandwiches[^wiki].\\
+Sammelzeit: März bis Juli
+- **Blüten**: Zart scharf, perfekt als Dekoration\\
+Sammelzeit: April bis Juni
+- **Samen**: Senf-ähnlich[^kostbarenatur] würzig, als Topping für Salate\\
+Sammelzeit: Juli bis Oktober
 - **Wurzel**: Scharf wie Rettich[^kostbarenatur], 
-eignet sich zum Reiben über Kartoffeln oder in Dips
+eignet sich zum Reiben über Kartoffeln oder in Dips\\
+Sammelzeit: Frühjahr und Herbst
 
 Am besten roh genießen! Erhitzt verflüchtigt der pfeffrig-knoblauchartige Geschmack.
 
@@ -65,6 +70,7 @@ Am besten roh genießen! Erhitzt verflüchtigt der pfeffrig-knoblauchartige Gesc
 Die Knoblauchsrauke enthält geringe Mengen an Senfölglykosiden[^senfoelglykoside].  
 Beim Verzehr größerer Mengen kann es in Einzelfällen zu Magenreizungen 
 oder Unverträglichkeiten kommen.
+In Samen und Wurzeln ist die Konzentration stärker als in den Blättern.
 
 
 ### Als Heilpflanze
@@ -73,7 +79,7 @@ oder Unverträglichkeiten kommen.
 - **Verdauungsfördernd**: Knoblauchsrauke unterstützt die Verdauung und hilft bei Magenbeschwerden.
 - **Entzündungshemmend**: Die Wurzel kann bei Entzündungen im Mund- und Rachenraum eingesetzt werden.
 - **Wundbehandlung**: Ein Aufguss aus den Blättern hilft bei der Heilung kleiner Wunden und Hautreizungen.
-- **Bei Insektenstichen und kleinen Vertetzungen** gemörserte frische, saubere Blätter als Brei[^wiki] [^wildfind] [^kostbarenatur] aufgestrichen.
+- **Bei Insektenstichen und kleinen Vertetzungen** Breiumschläge aus den Blättern[^wiki] [^wildfind] [^kostbarenatur].
 
 ## Steckbrief
 
@@ -81,10 +87,10 @@ oder Unverträglichkeiten kommen.
 |---------------------------|------------------------------------------------------------|
 | **Botanischer Name**      | *Alliaria petiolata*                                       |
 | **Familie**               | Kreuzblütler (Brassicaceae)                                |
-| **Synonyme**              | Knoblauchskraut, Sommerknoblauch, Lauchkraut, Lauchhedderich, Knoblauchhederich |
+| **Synonyme**              | Lauchhedderich, Knoblauchskraut, Sommerknoblauch, Lauchkraut, Knoblauchhederich |
 | **Verbreitung**           | Europa, Westasien                                          |
 | **Lebensraum**            | Feuchte, schattige Laubwälder, Auen                        |
-| **Blütenzeit**            | April bis Mai                                              |
+| **Blütenzeit**            | April bis Juni                                             |
 | **Blütenfarbe**           | Weiß                                                       |
 | **Wuchshöhe**             | 20–100 cm                                                  |
 | **Lebensdauer**           | Zweijährig                                                 |
@@ -104,3 +110,6 @@ oder Unverträglichkeiten kommen.
 [^wildfind]: [Wildfind: Knoblauchsrauke](https://wildfind.com/pflanzen/knoblauchsrauke), inkl. Erntekalender)
 [^nabu]: [Pflanzenporträt: Knoblauchsrauke - NABU NRW](https://nrw.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/zeit-der-schmetterlinge/wissen/schmetterlingspflanzen/22786.html), Details zur Ökologische Bedeutung.
 [^senfoelglykoside]: Senfölglykoside sind bioaktive Verbindungen, die in Kreuzblütlern wie der Knoblauchsrauke vorkommen und antibakterielle sowie entzündungshemmende Eigenschaften besitzen, mehr dazu auf [Wikipedia - Senfölglykoside](https://de.wikipedia.org/wiki/Senfölglykoside).
+
+[Bushfunkistan auf youtube: Essbare Wildpflanzen: Die Knoblauchsrauke (Alliaria petiolata) - Bestimmung, Verwendung, Geschichte](https://www.youtube.com/watch?v=W4N1btNSv0U)
+
