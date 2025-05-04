@@ -1,6 +1,5 @@
 ---
 title: Knoblauchsrauke
-date: 2025-04-27
 layout: post
 tags:
 - Wildkraut
