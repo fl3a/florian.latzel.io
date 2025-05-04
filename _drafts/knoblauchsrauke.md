@@ -21,13 +21,15 @@ path: 'assets/imgs/knoblauchsrauke/knoblauchsrauke.jpg'
 caption: 'Knoblauchsrauke. Foto: Chris Zwick, CC BY-SA 4.0' %}
 
 Die Knoblauchsrauke (*Alliaria petiolata*) 
-gehört zu den ersten Wildkräutern, die im Frühling sprießen.
-Mit ihrem milden Knoblaucharoma ist sie eine vielseitige Wildpflanze für Küche und Hausapotheke.
-Traditionell wurde sie als Heil- und Würzkraut[^wiki] genutzt 
-und bereicherte Frühlingsgerichte lange vor der Verbreitung des Kulturknoblauchs.
-Heute erlebt sie als unkompliziertes Wildgemüse und aromatische Würzpflanze 
-eine Renaissance.
-Sie ist einfach zu bestimmen und ideal für Einsteiger ins Wildkräutersammeln.
+gehört im Anschluss an den [Bärlauch]({% post_url 2025-04-21-baerlauch %})
+zu den ersten Wildkräutern, die im Frühling sprießen.
+Mit ihrem **milden Knoblaucharoma** ist sie eine vielseitige Wildpflanze 
+für Küche und Hausapotheke.
+Traditionell wurde sie als **Heil- und Würzkraut**[^wiki] genutzt 
+und bereicherte Gerichte schon lange, bevor der Kulturknoblauch verbreitet war.
+Heute erlebt sie als unkompliziertes Wildgemüse eine Renaissance.\\
+Sie ist **häufig zu finden**, **einfach zu bestimmen** 
+und daher **ideal für den Einstieg** ins Wildkräutersammeln.
 <!--break-->
 
 **Inhalt**
@@ -57,7 +59,7 @@ oder Sandwiches[^wiki].\\
 Sammelzeit: März bis Juli
 - **Blüten**: Zart scharf, perfekt als Dekoration\\
 Sammelzeit: April bis Juni
-- **Samen**: Senf-ähnlich[^kostbarenatur] würzig, als Topping für Salate\\
+- **Samen**: Würzig, mit senfartigem Aroma[^kostbarenatur], als Topping für Salate\\
 Sammelzeit: Juli bis Oktober
 - **Wurzel**: Scharf wie Rettich[^kostbarenatur], 
 eignet sich zum Reiben über Kartoffeln oder in Dips\\
@@ -82,7 +84,7 @@ In Samen und Wurzeln ist die Konzentration stärker als in den Blättern.
 | **Lebensraum**            | Feuchte, schattige Laubwälder, Auen                        |
 | **Blütenzeit**            | April bis Juni                                             |
 | **Blütenfarbe**           | Weiß                                                       |
-| **Wuchshöhe**             | 20–100 cm                                                  |
+| **Wuchshöhe**             | 30–100 cm                                                  |
 | **Lebensdauer**           | Zweijährig                                                 |
 | **Verwendung**            | Küche, Naturheilkunde                                      |
 | **Heilwirkungen**         | Antimikrobiell, entzündungshemmend, verdauungsfördernd     |
