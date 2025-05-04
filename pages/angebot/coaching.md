@@ -17,35 +17,51 @@ mit professionellen und ehrlichen Feedback.
 * Inhalt                                                                        
 {:toc}
 
-## Themen für ein Coaching
+## Anlässe und Themen für ein Coaching
 
-Möglichen Themen und Anlässe für ein Coaching
+Möglichen Themen und Anlässe für ein Coaching können unter anderem sein:
 
 <div id="watz">
+
+<h3 class="no-anchor">Umgang mit Veränderung</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. 
+Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae 
+neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+</div>
+
 <h3 class="no-anchor">Führung und Verantwortung</h3>
 <div markdown="1">
 <p>
-Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. 
+Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae 
+neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
 </p>
 </div>
+
 <h3 class="no-anchor">Konfliktmanagement</h3>
 <div markdown="1">
 <p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
 </p>
 </div>
+
 <h3 class="no-anchor">Persönlicheitsentwicklung</h3>
 <div markdown="1">
 <p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
 </p>
 </div>
-<h3 class="no-anchor">Umgang mit Belastung und Stress</h3>
+
+<h3 class="no-anchor">Stressmanagement und Burnout-Vorbeugung</h3>
 <div markdown="1">
 <p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
 </p>
 </div>
+
 </div>
 
 ## Coaching FAQ
@@ -53,12 +69,28 @@ Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumq
 Häufig gestellte Fragen (FAQ) rund um das Thema Coaching.
 
 <div id="faq">
+
 <h3 class="no-anchor">Wie läuft ein Coaching ab?</h3>
 <div markdown="1">
 <p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
 </p>
 </div>
+
+<h3 class="no-anchor">Was ist Aufgabe des Coachs?</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+</div>
+
+<h3 class="no-anchor">Was ist Aufgabe des Klienten?</h3>
+<div markdown="1">
+<p>
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+</p>
+</div>
+
 <h3 class="no-anchor">Was sind die Grundlagen meines Coachings?</h3>
 <div markdown="1">
 - Lösungsfokussierte Kurzzeittherapie nach Steve de Shazer und Kim Inso Berg
@@ -68,19 +100,7 @@ Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumq
 und Dr. Charlotte Cordes
 - Neuro Lingistisches Programmieren (NLP) 
 </div>
-<h3 class="no-anchor">Was ist Aufgabe des Coachs?</h3>
-<div markdown="1">
-<p>
-Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
-</div>
-<h3 class="no-anchor">Was ist Aufgabe des Klienten?</h3>
-<div markdown="1">
-<p>
-Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
 
-</div>
 <h3 class="no-anchor">Was kann Coaching nicht leisten?</h3>
 <div markdown="1">
 - Depression
@@ -90,17 +110,16 @@ Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumq
 
 Hausarzt, Psychotherapie  
 </div>
+
 <h3 class="no-anchor">Was kostet ein Coaching?</h3>
 <div markdown="1">
 <p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
 </p>
 </div>
-</div>
 
-Ich biete auch [Coachings draußen in der Natur und im Gehen][c-n-w] an.
-Siehe [Coach & Walk][c-n-w]
+</div>
 
 ## Artikel zu Thema Coaching
 
-[c-n-w]: {% link pages/angebot/coach-and-walk.md %} 
+*[FAQ]: Frequently Asked Questions
