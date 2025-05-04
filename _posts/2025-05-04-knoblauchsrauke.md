@@ -102,7 +102,7 @@ In Samen und Wurzeln ist die Konzentration stärker als in den Blättern.
 [^nabu]: [Pflanzenporträt: Knoblauchsrauke - NABU NRW](https://nrw.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/zeit-der-schmetterlinge/wissen/schmetterlingspflanzen/22786.html), Details zur Ökologische Bedeutung.
 [^senfoelglykoside]: Senfölglykoside sind bioaktive Verbindungen, die in Kreuzblütlern wie der Knoblauchsrauke vorkommen und antibakterielle sowie entzündungshemmende Eigenschaften besitzen, mehr dazu auf [Wikipedia - Senfölglykoside](https://de.wikipedia.org/wiki/Senfölglykoside).
 
-- Pflanzliche Notnahrung, Survivalwissen für Extremsituationen von Joe Vogel (1. Auflage)
+- Pflanzliche Notnahrung, Survivalwissen für Extremsituationen von Johannes Vogel (1. Auflage)
 - Essbare Wildpflanzen: 200 Arten bestimmen und verwenden von Steffen Guido Fleischhauer, Jürgen Guthmannutor), Roland Spiegelberger (14. Auflage)
 - [Bushfunkistan auf youtube: Essbare Wildpflanzen: Die Knoblauchsrauke (Alliaria petiolata) - Bestimmung, Verwendung, Geschichte](https://www.youtube.com/watch?v=W4N1btNSv0U)
 
