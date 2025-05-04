@@ -44,16 +44,15 @@ Bild: Amédée Masclef, Public domain' %}
 
 Knoblauchsrauke wächst 20 bis 100 cm hoch, aufrecht mit leicht kantigem Stängel.
 Die unteren Blätter sind nierenförmig, die oberen herzförmig und grob gezähnt.
-Zerreibt man die Blätter zwischen den Fingern, verströmen sie einen charakteristischen Knoblauchgeruch.
+Zerreibt man die Blätter zwischen den Fingern, 
+verströmen sie einen charakteristischen Knoblauchgeruch.
 Im Frühling erscheinen kleine, weiße Kreuzblüten in lockeren Trauben.[^wiki]
 
 ## Nutzung 
 
-###  In der Frühlingsküche
-
 Alle Pflanzenteile der Knoblauchsrauke sind essbar:
 
-- **Blätter**: Mild-knoblauchartig, ideal für Pesto, Wildkräutersalate 
+- **Blätter**: Mild-knoblauchartig, ideal für Pesto, Wildkräutersalate, Quark,
 oder Sandwiches[^wiki].\\
 Sammelzeit: März bis Juli
 - **Blüten**: Zart scharf, perfekt als Dekoration\\
@@ -71,15 +70,6 @@ Die Knoblauchsrauke enthält geringe Mengen an Senfölglykosiden[^senfoelglykosi
 Beim Verzehr größerer Mengen kann es in Einzelfällen zu Magenreizungen 
 oder Unverträglichkeiten kommen.
 In Samen und Wurzeln ist die Konzentration stärker als in den Blättern.
-
-
-### Als Heilpflanze
-
-- **Atemwegserkrankungen**: Die Pflanze wirkt schleimlösend und wird bei Erkältungen und Husten eingesetzt.
-- **Verdauungsfördernd**: Knoblauchsrauke unterstützt die Verdauung und hilft bei Magenbeschwerden.
-- **Entzündungshemmend**: Die Wurzel kann bei Entzündungen im Mund- und Rachenraum eingesetzt werden.
-- **Wundbehandlung**: Ein Aufguss aus den Blättern hilft bei der Heilung kleiner Wunden und Hautreizungen.
-- **Bei Insektenstichen und kleinen Vertetzungen** Breiumschläge aus den Blättern[^wiki] [^wildfind] [^kostbarenatur].
 
 ## Steckbrief
 
