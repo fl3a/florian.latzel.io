@@ -1,8 +1,8 @@
 <div id="blog-posts">                                                         
   <div class="archiv">                                                        
 {% assign i = 0 %}                                                            
-{% assign tag_slug = include.tag | slugify: 'latin' %}                                                            
 {% if include.tag %}
+  {% assign tag_slug = include.tag | slugify: 'latin' %}                                   
   {% assign collection = site.tags[include.tag] %}
 {% else %}
   {% assign collection = site.posts %}
