@@ -21,7 +21,10 @@ Möglichen Themen für das Coaching
 - Kreative Anstöße
 - ...
 
-Ich biete auch [Coachings draußen in der Natur und im Gehen][c-n-w] an.
+Ich biete meine [Coachings draußen in der Natur und im Gehen][c-n-w] an.
 Siehe [Coach & Walk][c-n-w]
 
+## Artikel zum Thema Coaching
+
+{% include blog.html tag="Coaching" blog_posts=5 %}                                          
 [c-n-w]: {% link pages/angebot/coach-and-walk.md %} 
