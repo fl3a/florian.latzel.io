@@ -13,6 +13,7 @@ tags:
 description: "Die Knoblauchsrauke ist ein vielseitiges Wildkraut mit feinem Knoblauchgeschmack. Erfahre alles über Erkennung, Nutzung in der Küche und Heilwirkung."
 image: /assets/images/knoblauchsrauke/knoblauchsrauke.jpg
 permalink: /knoblauchsrauke.html
+last_modified_at: 2025-05-09
 ---
 {% responsive_image figure: true 
 alt: "Knoblauchsrauke"
@@ -96,8 +97,8 @@ In Samen und Wurzeln ist die Konzentration stärker als in den Blättern.
 
 ## Fußnoten und Weiterführendes
 
-- Pflanzliche Notnahrung, Survivalwissen für Extremsituationen von Johannes Vogel (1. Auflage)
-- Essbare Wildpflanzen: 200 Arten bestimmen und verwenden von Steffen Guido Fleischhauer, Roland Spiegelberger und Jürgen Guthmann (14. Auflage)
+- Pflanzliche Notnahrung, Survivalwissen für Extremsituationen von Johannes Vogel (1. Auflage), S. 166 f.
+- Essbare Wildpflanzen: 200 Arten bestimmen und verwenden von Steffen Guido Fleischhauer, Roland Spiegelberger und Jürgen Guthmann (14. Auflage), S. 104 f.
 - [Bushfunkistan auf youtube: Essbare Wildpflanzen: Die Knoblauchsrauke (Alliaria petiolata) - Bestimmung, Verwendung, Geschichte](https://www.youtube.com/watch?v=W4N1btNSv0U)
 
 [^wiki]: [Wikipedia: Knoblauchsrauke](https://de.wikipedia.org/wiki/Knoblauchsrauke)
