@@ -25,41 +25,31 @@ Möglichen Themen und Anlässe für ein Coaching können unter anderem sein:
 
 <h3 class="no-anchor">Umgang mit Veränderung</h3>
 <div markdown="1">
-<p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. 
 Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae 
 neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
 </div>
 
 <h3 class="no-anchor">Führung und Verantwortung</h3>
 <div markdown="1">
-<p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. 
 Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae 
 neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
 </div>
 
 <h3 class="no-anchor">Konfliktmanagement</h3>
 <div markdown="1">
-<p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
 </div>
 
 <h3 class="no-anchor">Persönlicheitsentwicklung</h3>
 <div markdown="1">
-<p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
 </div>
 
 <h3 class="no-anchor">Stressmanagement und Burnout-Vorbeugung</h3>
 <div markdown="1">
-<p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
 </div>
 
 </div>
@@ -72,23 +62,28 @@ Häufig gestellte Fragen (FAQ) rund um das Thema Coaching.
 
 <h3 class="no-anchor">Wie läuft ein Coaching ab?</h3>
 <div markdown="1">
-<p>
-Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
+1. Du vereinbarst einen Termin mit mir für ein kostenloses Kennenlerngespräch.
+Dort betrachten wir dein Anliegen, besprechen ein mögliches Vorgehen 
+und können herausfinden, ob wir harmonieren.
+2. Der passende Rahmen deinem Anliegen
+3. Wir machen uns gemeinsam auf den Weg, vereinbaren einen erstern Coaching Termin
+und arbeien in die 
+4. Weitere Sitzungen
 </div>
 
 <h3 class="no-anchor">Was ist Aufgabe des Coachs?</h3>
 <div markdown="1">
-<p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
 </div>
 
 <h3 class="no-anchor">Was ist Aufgabe des Klienten?</h3>
 <div markdown="1">
-<p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
+</div>
+
+<h3 class="no-anchor">Wie vertraulich ist ein Coaching?</h3>
+<div markdown="1">
+Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
 </div>
 
 <h3 class="no-anchor">Was sind die Grundlagen meines Coachings?</h3>
@@ -113,13 +108,14 @@ Hausarzt, Psychotherapie
 
 <h3 class="no-anchor">Was kostet ein Coaching?</h3>
 <div markdown="1">
-<p>
 Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumque aut et nobis atque inventore aperiam. Enim excepturi nihil molestiae neque quam at ut voluptatem. Quisquam placeat eum quia ut. Suscipit est sit quasi.…
-</p>
 </div>
 
 </div>
 
 ## Artikel zu Thema Coaching
+
+{% include blog.html tag="Coaching" blog_posts=5 %}
+
 
 *[FAQ]: Frequently Asked Questions
