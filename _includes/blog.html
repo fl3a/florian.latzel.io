@@ -28,7 +28,7 @@
     {% break %}                                                               
   {% endif %}                                                                 
 {% endfor %}                                                                  
-  </div>                                                                      
+  </div>{% comment %} End archiv {% endcomment %}
   <p class="blog-link">                                                       
 {% if include.tag %}                                                            
     <a href="/thema/{{ tag_slug }}/">Alle Blogeinträge zum Thema {{ include.tag }}</a>     
@@ -42,4 +42,5 @@
     </svg>                                                                    
     <a href="{{ "/feed.xml" | relative_url }}">Abonieren</a>                  
   </p>                                                                        
-</div>
+</div>{% comment %} End blog-posts {% endcomment %}
+
