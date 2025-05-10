@@ -77,42 +77,8 @@ blog_posts: 5
       <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Kontakt</a>
     </div>
   </div>
-
  
-  <div id="blog-posts">
-    <h2>Aktuelle Blogeinträge</h2>
-    <div class="archiv">
-  {% assign i = 0 %}
-  {% for post in site.posts %}
-    {% unless forloop.first %}
-    </ul>
-    {% endunless %}
-    {% assign i = i | plus: 1 %}
-    <ul>
-      <li class="h-entry">
-        <span class="title p-name">
-          <a class="u-url" href="{{ post.url }}">{{ post.title }}</a>
-        </span>
-        <hr>
-        <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%S"}}">
-          {{ post.date | date: site.date_format }}
-        </time>
-      </li>
-    {% if i == page.blog_posts %}
-    </ul>
-      {% break %}
-    {% endif %}
-  {% endfor %}
-    </div>
-    <p class="blog-link">
-      <a href="{% link pages/blog.html %}">Alle Blogeinträge</a>
-    </p>
-    <p class="feed-subscribe">
-      <svg class="svg-icon orange">
-        <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-      </svg>
-      <a href="{{ "/feed.xml" | relative_url }}">Abonieren</a>
-    </p>
-  </div>
+  <h2>Aktuelle Blogeinträge</h2>
+  {% include blog.html blog_posts=5 %}
 
 </div>

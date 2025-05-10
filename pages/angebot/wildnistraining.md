@@ -28,3 +28,6 @@ Inhalte unter anderen:
 - [Leadershiptraining goes wild](
 {% link pages/angebot/leadershiptraining-goes-wild.md%})
 
+## Artikel zum Thema Wildnistraining
+
+{% include blog.html tag="Wildnistraining" blog_posts=5 %}

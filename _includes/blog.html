@@ -1,0 +1,46 @@
+<div id="blog-posts">                                                         
+  <div class="archiv">                                                        
+{% assign i = 0 %}                                                            
+{% if include.tag %}
+  {% assign tag_slug = include.tag | slugify: 'latin' %}                                   
+  {% assign collection = site.tags[include.tag] %}
+{% else %}
+  {% assign collection = site.posts %}
+{% endif %}
+
+{% for post in collection %}                                                  
+  {% unless forloop.first %}                                                  
+  </ul>                                                                       
+  {% endunless %}                                                             
+  {% assign i = i | plus: 1 %}                                                
+  <ul>                                                                        
+    <li class="h-entry">                                                      
+      <span class="title p-name">                                             
+        <a class="u-url" href="{{ post.url }}">{{ post.title }}</a>           
+      </span>                                                                 
+      <hr>                                                                    
+      <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%S"}}">
+        {{ post.date | date: site.date_format }}                              
+      </time>                                                                 
+    </li>                                                                     
+  {% if i == include.blog_posts %}                                               
+  </ul>                                                                       
+    {% break %}                                                               
+  {% endif %}                                                                 
+{% endfor %}                                                                  
+  </div>{% comment %} End archiv {% endcomment %}
+  <p class="blog-link">                                                       
+{% if include.tag %}                                                            
+    <a href="/thema/{{ tag_slug }}/">Alle Blogeinträge zum Thema {{ include.tag }}</a>     
+{% else %}
+    <a href="{% link pages/blog.html %}">Alle Blogeinträge</a>
+{% endif %}
+  </p>                                                                        
+  <p class="feed-subscribe">                                                  
+    <svg class="svg-icon orange">                                             
+      <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+    </svg>                                                                    
+    <a href="{{ "/feed.xml" | relative_url }}">Abonieren</a>                  
+  </p>                                                                        
+</div>{% comment %} End blog-posts {% endcomment %}
+

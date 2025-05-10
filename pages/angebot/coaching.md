@@ -13,6 +13,7 @@ Als allparteilicher Gesprächspartner, Zuhörer, Begleiter und Sparringspartner
 mit professionellen und ehrlichen Feedback.     
 
 
+<<<<<<< HEAD
 **Inhalt**                                                                      
 * Inhalt                                                                        
 {:toc}
@@ -117,5 +118,5 @@ Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. Cumq
 
 {% include blog.html tag="Coaching" blog_posts=5 %}
 
-
 *[FAQ]: Frequently Asked Questions
+

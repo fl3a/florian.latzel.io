@@ -1,6 +1,5 @@
 ---
 title: Knoblauchsrauke
-date: 2025-04-27
 layout: post
 tags:
 - Wildkraut
@@ -14,6 +13,7 @@ tags:
 description: "Die Knoblauchsrauke ist ein vielseitiges Wildkraut mit feinem Knoblauchgeschmack. Erfahre alles über Erkennung, Nutzung in der Küche und Heilwirkung."
 image: /assets/images/knoblauchsrauke/knoblauchsrauke.jpg
 permalink: /knoblauchsrauke.html
+last_modified_at: 2025-05-09
 ---
 {% responsive_image figure: true 
 alt: "Knoblauchsrauke"
@@ -21,13 +21,15 @@ path: 'assets/imgs/knoblauchsrauke/knoblauchsrauke.jpg'
 caption: 'Knoblauchsrauke. Foto: Chris Zwick, CC BY-SA 4.0' %}
 
 Die Knoblauchsrauke (*Alliaria petiolata*) 
-gehört zu den ersten Wildkräutern, die im Frühling sprießen.
-Mit ihrem milden Knoblaucharoma ist sie eine vielseitige Wildpflanze für Küche und Hausapotheke.
-Traditionell wurde sie als Heil- und Würzkraut[^wiki] genutzt 
-und bereicherte Frühlingsgerichte lange vor der Verbreitung des Kulturknoblauchs.
-Heute erlebt sie als unkompliziertes Wildgemüse und aromatische Würzpflanze 
-eine Renaissance.
-Sie ist einfach zu bestimmen und ideal für Einsteiger ins Wildkräutersammeln.
+gehört im Anschluss an den [Bärlauch]({% post_url 2025-04-21-baerlauch %})
+zu den ersten Wildkräutern, die im Frühling sprießen.
+Mit ihrem **milden Knoblaucharoma** ist sie eine vielseitige Wildpflanze 
+für Küche und Hausapotheke.
+Traditionell wurde sie als **Heil- und Würzkraut**[^wiki] genutzt 
+und bereicherte Gerichte schon lange, bevor der Kulturknoblauch verbreitet war.
+Heute erlebt sie als unkompliziertes Wildgemüse eine Renaissance.\\
+Sie ist **häufig zu finden**, **einfach zu bestimmen** 
+und daher **ideal für den Einstieg** ins Wildkräutersammeln.
 <!--break-->
 
 **Inhalt**
@@ -44,21 +46,20 @@ Bild: Amédée Masclef, Public domain' %}
 
 Knoblauchsrauke wächst 20 bis 100 cm hoch, aufrecht mit leicht kantigem Stängel.
 Die unteren Blätter sind nierenförmig, die oberen herzförmig und grob gezähnt.
-Zerreibt man die Blätter zwischen den Fingern, verströmen sie einen charakteristischen Knoblauchgeruch.
+Zerreibt man die Blätter zwischen den Fingern, 
+verströmen sie einen charakteristischen Knoblauchgeruch.
 Im Frühling erscheinen kleine, weiße Kreuzblüten in lockeren Trauben.[^wiki]
 
 ## Nutzung 
 
-###  In der Frühlingsküche
-
 Alle Pflanzenteile der Knoblauchsrauke sind essbar:
 
-- **Blätter**: Mild-knoblauchartig, ideal für Pesto, Wildkräutersalate 
+- **Blätter**: Mild-knoblauchartig, ideal für Pesto, Wildkräutersalate, Quark,
 oder Sandwiches[^wiki].\\
 Sammelzeit: März bis Juli
 - **Blüten**: Zart scharf, perfekt als Dekoration\\
 Sammelzeit: April bis Juni
-- **Samen**: Senf-ähnlich[^kostbarenatur] würzig, als Topping für Salate\\
+- **Samen**: Würzig, mit senfartigem Aroma[^kostbarenatur], als Topping für Salate\\
 Sammelzeit: Juli bis Oktober
 - **Wurzel**: Scharf wie Rettich[^kostbarenatur], 
 eignet sich zum Reiben über Kartoffeln oder in Dips\\
@@ -72,15 +73,6 @@ Beim Verzehr größerer Mengen kann es in Einzelfällen zu Magenreizungen
 oder Unverträglichkeiten kommen.
 In Samen und Wurzeln ist die Konzentration stärker als in den Blättern.
 
-
-### Als Heilpflanze
-
-- **Atemwegserkrankungen**: Die Pflanze wirkt schleimlösend und wird bei Erkältungen und Husten eingesetzt.
-- **Verdauungsfördernd**: Knoblauchsrauke unterstützt die Verdauung und hilft bei Magenbeschwerden.
-- **Entzündungshemmend**: Die Wurzel kann bei Entzündungen im Mund- und Rachenraum eingesetzt werden.
-- **Wundbehandlung**: Ein Aufguss aus den Blättern hilft bei der Heilung kleiner Wunden und Hautreizungen.
-- **Bei Insektenstichen und kleinen Vertetzungen** Breiumschläge aus den Blättern[^wiki] [^wildfind] [^kostbarenatur].
-
 ## Steckbrief
 
 | **Eigenschaft**           | **Beschreibung**                                           |
@@ -92,7 +84,7 @@ In Samen und Wurzeln ist die Konzentration stärker als in den Blättern.
 | **Lebensraum**            | Feuchte, schattige Laubwälder, Auen                        |
 | **Blütenzeit**            | April bis Juni                                             |
 | **Blütenfarbe**           | Weiß                                                       |
-| **Wuchshöhe**             | 20–100 cm                                                  |
+| **Wuchshöhe**             | 30–100 cm                                                  |
 | **Lebensdauer**           | Zweijährig                                                 |
 | **Verwendung**            | Küche, Naturheilkunde                                      |
 | **Heilwirkungen**         | Antimikrobiell, entzündungshemmend, verdauungsfördernd     |
@@ -105,11 +97,12 @@ In Samen und Wurzeln ist die Konzentration stärker als in den Blättern.
 
 ## Fußnoten und Weiterführendes
 
+- Pflanzliche Notnahrung, Survivalwissen für Extremsituationen von Johannes Vogel (1. Auflage), S. 166 f.
+- Essbare Wildpflanzen: 200 Arten bestimmen und verwenden von Steffen Guido Fleischhauer, Roland Spiegelberger und Jürgen Guthmann (14. Auflage), S. 104 f.
+- [Bushfunkistan auf youtube: Essbare Wildpflanzen: Die Knoblauchsrauke (Alliaria petiolata) - Bestimmung, Verwendung, Geschichte](https://www.youtube.com/watch?v=W4N1btNSv0U)
+
 [^wiki]: [Wikipedia: Knoblauchsrauke](https://de.wikipedia.org/wiki/Knoblauchsrauke)
 [^kostbarenatur]: [Kostbare Natur: Knoblauchsrauke](https://www.kostbarenatur.net/pflanzen/knoblauchsrauke/), inkl. Rezeptideen
 [^wildfind]: [Wildfind: Knoblauchsrauke](https://wildfind.com/pflanzen/knoblauchsrauke), inkl. Erntekalender)
 [^nabu]: [Pflanzenporträt: Knoblauchsrauke - NABU NRW](https://nrw.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/zeit-der-schmetterlinge/wissen/schmetterlingspflanzen/22786.html), Details zur Ökologische Bedeutung.
 [^senfoelglykoside]: Senfölglykoside sind bioaktive Verbindungen, die in Kreuzblütlern wie der Knoblauchsrauke vorkommen und antibakterielle sowie entzündungshemmende Eigenschaften besitzen, mehr dazu auf [Wikipedia - Senfölglykoside](https://de.wikipedia.org/wiki/Senfölglykoside).
-
-[Bushfunkistan auf youtube: Essbare Wildpflanzen: Die Knoblauchsrauke (Alliaria petiolata) - Bestimmung, Verwendung, Geschichte](https://www.youtube.com/watch?v=W4N1btNSv0U)
-
