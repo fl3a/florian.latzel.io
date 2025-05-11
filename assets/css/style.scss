@@ -151,6 +151,10 @@ figure.highlight {
 }
 
 // Footer
+.footer-col-1 ul {
+  list-style: none;
+  margin-left: 10px;
+}
 .footer-col {
   margin-bottom: calc($spacing-unit / 3);
   white-space: nowrap;
@@ -174,9 +178,18 @@ figure.highlight {
     #intro, #kontakt-1, #kontakt-2, #kunden p, p.teaser {
       text-align:center;
     }
-    .social-media-list {
-      padding-bottom: 10px
-    }
+  .social-media-list {
+    padding-bottom: 10px;
+      li {
+        a {
+          svg {
+            width: 30px;
+            height: 30px;
+    	  }
+        }
+      }
+   }
+
     #portfolio, #kontakt, #kunden, #blog-posts {
       padding-top: 2em;
     }
@@ -258,8 +271,21 @@ figure.highlight {
 
   // Footer
   .footer-last {
-    text-align: center;
-  }
+      .text-line {
+        display:inline;
+	float: left;
+      }
+      ul#meta {
+        display:inline;
+        float: left;
+        li {
+          list-style: none;
+          float: left;
+          padding-left: 10px;
+        }
+      }
+    }
+
   .footer-col {
     ul, li {
       margin-bottom: 0;
