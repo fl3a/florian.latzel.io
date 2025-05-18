@@ -10,9 +10,6 @@ path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
 alt: "Die Schritte des Feuerbohrens mit dem Bowdrill bis zum Erfolg (mit Julian).
 Fotos &copy; Julian Schreyer" %} 
 
-## Bowdrill-Feuermachen – Werde zum Feuermeister!
-{:.no_toc}
-
 Feuer ohne Feuerzeug oder Streichhölzer entfachen – klingt unmöglich? Ist es 
 nicht! In unserem praxisnahen **Bowdrill-Seminar** lernst du, wie du mit 
 einfachen Mitteln und natürlichen Materialien Feuer erzeugst – genau wie unsere 
