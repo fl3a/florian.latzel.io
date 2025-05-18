@@ -13,7 +13,7 @@ tags:
 - Glutbrennen
 - just me
 image: /assets/imgs/bushcraft-training-2022/bushcraft-training-naturzeitclub-coaches-bergischen-land.png
-last_modified_at: 2025-03-23
+last_modified_at: 2025-05-18
 ---
 {% responsive_image figure: true
 path: assets/imgs/bushcraft-training-2022/bushcraft-training-naturzeitclub-coaches-bergischen-land.png
@@ -98,7 +98,8 @@ caption: 'Judy liegt in der Laubhütte Probe. © Naturzeitclub.' %}
 
 ## Feuerbohren mit dem Drillbogen (Bowdrill)
 
-Das Feuermachen mit dem [**Drillbogen (Bowdrill)**](/thema/bowdrill) 
+Das [Feuermachen mit dem **Drillbogen (Bowdrill)**](
+{% link pages/angebot/bowdrill-seminar.md %}) 
 ist eine traditionelle Methode, die Geschicklichkeit und Geduld erfordert.
 Es ist eine essentielle Fähigkeit im Bushcraft, um in der Wildnis Feuer zu entfachen.
 
