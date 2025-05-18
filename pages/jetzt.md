@@ -19,8 +19,6 @@ die entweder essbar sind oder der Naturheilkunde Anwendung finden.
 
 ## Coaching Portfolio & Über mich Seite
 
-> Der Glaser hat selbst kaputte Fenster.
-
 Ich überarbeite aktuell meine Über mich und meine Portfolio Seite.
 
 ## Lernen
