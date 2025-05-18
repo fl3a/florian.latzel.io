@@ -48,8 +48,6 @@ alt: "Julian beim Feuerbohren mit dem Bowdrill. Foto &copy; Julian Schreyer" %}
 - **Erlebe Outdoor-Gemeinschaft**: Tausche dich mit anderen Teilnehmern aus, lerne 
   von ihren Erfahrungen und teile deine eigenen.
 
-👉 [**Melde dich jetzt an und werde zum Feuerprofi!**](#termine--anmeldung) 👈
-
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-glut-in-das-zundernet-uebertragen.png
 alt: "Übertragung der gebohrten Glut in das Zundernest. Foto &copy; Julian Schreyer" %} 
@@ -114,22 +112,12 @@ deine eigene Säge oder dein eigenes Beil mitbringen.
   das Druckstück eignen sich härtere Hölzer wie Buche oder Hasel (Handbreit,
   Durchmesser ca. 50 mm).
 
-
-{% responsive_image figure: true                                                
-path: assets/imgs/bowdrill/bowdrill-feuer-erfolgstanz.png
-alt: "Ich habe Feuer gemacht! Endlich! Das ist einen Freudentanz wert!. Foto &copy; Julian Schreyer" %} 
-
 ### Termine & Anmeldung
 
-📍 **Ort:** Decksteiner Weiher, Köln     
-🕒 **Dauer:** ca. 4 Stunden
+Aktuell gibt es **keine Termine** für öffentliche Seminare.
 
-- 📅 **13.04., 11:00 Uhr** – [Jetzt Platz sichern!](                            
-https://rausgegangen.de/events/bushcraft-feuerbohrer-kopie-1/)                  
-- 📅 **27.04., 11:00 Uhr** – [Jetzt Platz sichern!](                            
-https://rausgegangen.de/events/bushcraft-feuerbohrer-kopie-0/)                  
-- 📅 **18.05., 11:00 Uhr** – [Jetzt Platz sichern!](                            
-https://rausgegangen.de/events/bushcraft-feuerbohrer-0/)    
+Für **dein individuelles Bowdrill-Training**
+schreibe mir gerne eine Mail an <florian@latzel.io>!
 
 **Mach mit und erweitere dein Wissen!**\\
 Ob du dich auf dein nächstes Abenteuer vorbereiten möchtest, 
