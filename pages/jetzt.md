@@ -2,19 +2,30 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2025-03-23 14:21
+last_modified_at: 2025-05-18 11:31
 ---
-Beruflich bereite ich aktuell auf mein Assessment als *Agility Master* vor.
-
 ## Frühling
 
-Durch Wald und Flur streifen. Bärlauch und Material für das [Bowdrill Seminar](
-{% post_url 2025-03-23-bowdrill-seminar-koeln-2025 %}) sammeln 
+Ich versuche möglichst viel Zeit Draußen zu verbringen 
 und die länger werdenden Tage sowie die stärker werdende Sonne genießen.
+
+## Pflanzenporträts
+
+Ich habe angefangen [Pflanzenporträts](/thema/pflanzenportrat/) zu schreiben. 
+
+Unter dieser Kategorie werden in meinem [Blog](/blog.html) künftig regelmäßig 
+weitere Steckbriefe zu heimische Pflanzen erscheinen, 
+die entweder essbar sind oder der Naturheilkunde Anwendung finden. 
+
+## Coaching Portfolio & Über mich Seite
+
+> Der Glaser hat selbst kaputte Fenster.
+
+Ich überarbeite aktuell meine Über mich und meine Portfolio Seite.
 
 ## Lernen
 
-- Seit November: NLP Practitioner Trainer Assistenz bei Tom Andreas
+- Pflanzenkunde 
 - Seit Winter 2021: [Pencak Silat im Tapak Suci Stil](/thema/pencak-silat/)
 
 ## Lesen
