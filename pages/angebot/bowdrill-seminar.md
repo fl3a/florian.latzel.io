@@ -45,8 +45,8 @@ alt: "Julian beim Feuerbohren mit dem Bowdrill. Foto &copy; Julian Schreyer" %}
   mit Werkzeugen.
 - **Mitreden bei "7 vs. Wild"**: Mit diesem Wissen kannst du bei der nächsten Folge 
   mitreden und genau erklären, wie man es richtig macht. 😉
-- **Erlebe Outdoor-Gemeinschaft**: Tausche dich mit anderen Teilnehmern aus, lerne 
-  von ihren Erfahrungen und teile deine eigenen.
+- **Erlebe Outdoor-Gemeinschaft**: Tausche dich mit anderen Teilnehmern aus, 
+lerne von ihren Erfahrungen und teile deine eigenen.
 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-glut-in-das-zundernet-uebertragen.png
@@ -114,15 +114,11 @@ deine eigene Säge oder dein eigenes Beil mitbringen.
 
 ### Termine & Anmeldung
 
-Aktuell gibt es **keine Termine** für öffentliche Seminare.
+Aktuell gibt es **keine festen Termine** für öffentliche Seminare.
 
-Für **dein individuelles Bowdrill-Training**
-schreibe mir gerne eine Mail an <florian@latzel.io>!
+Du möchtest beim nächsten Bowdrill-Seminar dabei sein 
+oder hast Interesse an einem **individuellen Training**?
 
-**Mach mit und erweitere dein Wissen!**\\
-Ob du dich auf dein nächstes Abenteuer vorbereiten möchtest, 
-deine Bushcraft-Skills vertiefen willst 
-oder einfach die Verbindung zur Natur intensivieren möchtest – 
-dieses Seminar gibt dir wertvolle Fähigkeiten, 
-um im Einklang mit der Natur zu agieren. Lerne, 
-wie du mit deinen Händen und natürlichen Materialien Feuer entfachst.
+📩 Schreib mir einfach eine Mail an [florian@latzel.io](mailto:florian@latzel.io), 
+damit ich dich in den Verteiler aufnehme 
+oder wir gemeinsam einen persönlichen Termin finden!
