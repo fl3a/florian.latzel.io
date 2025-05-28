@@ -15,7 +15,7 @@ nid: 1642
 permalink: "/agile-meetups-events-koeln-nrw.html"
 created: 1477757270
 layout: post
-last_modified_at: 2024-09-12
+last_modified_at: 2025-05-28
 image: /assets/imgs/Flag_of_North_Rhine-Westphalia.svg
 ---
 <figure>
@@ -49,15 +49,9 @@ dass heisst ein Benutzerkonto dort ist obligatorisch.<!--break-->
 - [Lean Coffee für Product Owner & Product People & Produkt-Manager](https://www.linkedin.com/groups/12524562/)
 - [Limited <acronym title="Work in progress">WIP</acronym> Society Cologne (Kanban)](http://lwscologne.wordpress.com/), 
   jeden zweiten Mittwoch im Monat, Infos und Anmeldung über [LinkedIn Gruppe](https://www.linkedin.com/groups/12700884/)
-- [Agile Cologne](http://www.agilecologne.de/), die jährlich stattfindende (Un)Konferenz in Köln
-- [CoRe, Coach Reflection Day](https://www.coachreflectionday.org/), 
-  Bundesweite Veranstaltungsreihe, findet seit 2017 auch in Köln statt<!--break-->
-- [Intervision für Scrum Master](https://www.paragraph1.de/trainings/intervision-fuer-scrum-master),
-ein Format von [paragraph eins](https://www.paragraph1.de/)
+- [Agile Cologne](http://www.agilecologne.de/), die jährlich stattfindende (Un)Konferenz in Köln<!--break-->
 - [Product Owner Monthly / Tacheles Meetup](https://www.linkedin.com/groups/12695560/) 
-- [Agile QA Cologne](https://www.meetup.com/de-DE/agileqa-cologne/), Quality Assurance in Agilen Projekten
-- [Agile at Scale - Köln Meetup](https://www.meetup.com/de-DE/Agile-at-Scale-Koln-Meetup/)
-- [Köln Liberating Structures Meetup](https://www.meetup.com/de-DE/Koln-Liberating-Structures-Meetup/), 
+- [Köln Liberating Structures Meetup](https://www.linkedin.com/groups/10000254), 
   Meetup zum Ausprobieren und Erfahrungsaustausch der Liberating Structures Toolbox und Strings 
 - [Köln Teal](https://www.meetup.com/de-DE/Koln-Teal-Reinventing-Organizations-Meetup/) Reinventing Organizations - Meetup 
 - [Spielend begreifen - get it through games](https://www.linkedin.com/groups/14136973/) 
@@ -67,16 +61,12 @@ ein Format von [paragraph eins](https://www.paragraph1.de/)
 - [Product People](http://productpeople.net/), seit 2017 stattfindende (Un-)Konferenz für Product Owner, 
   Produkt‑Manager und Business‑Analysten
 - [New Work, Agilität und Co](https://www.eventbrite.de/o/freischwimmer-organisationsentwicklung-20179574093) ein Format von und mit Freischwimmer Organisationsenwicklung
-- [WOL Köln](https://www.meetup.com/de-DE/Working-out-Loud-Leadership-Digitalisierung-Innovationen/), Working Out Loud - Leadership, Digitalisierung, Innovationen, [#WOL0221](https://twitter.com/hashtag/WOL0221?src=hashtag_click)<!--break-->
+- [WOL Köln](https://www.meetup.com/de-DE/Working-out-Loud-Leadership-Digitalisierung-Innovationen/), Working Out Loud - Leadership, Digitalisierung, Innovationen
 - [Agile HR Conference](https://hr-pioneers.com/leistungen/events/agile-hr-conference/), 
   jährliche stattfindende Konferenz zu Agile Transformation, Agile Leadership und Agile HR. Wird von HR Pioneers organisiert.
 - [BetaCodex Meetup Cologne](https://www.linkedin.com/groups/8607856/), 
 das Kölner Meetup rund um das Thema BetaCodex und Unternehmenstransformation. Jeden ersten Montag im Monat.
 - [Flight Club Cologne](https://www.meetup.com/de-DE/flight-club-cologne/), Meetup für *Business Agilität* und die *Flight Level* Interessierte.
-- [Agile Insights](https://www.meetup.com/de-DE/agile-insights/), 
-ein Format der [Agile Academy](https://www.agile-academy.com/de/).
-- [access to agile](https://www.meetup.com/de-DE/access-to-agile/), 
-ein Format von [access2agile](https://access2agile.com/)
 - [team. thesen. temperamente.](https://www.linkedin.com/groups/9059568/)
 - [Lean Coffee Retrospektiven](https://www.linkedin.com/groups/12536756/)
 - [Liberating Structures Connect](https://ls-connect.de/),
