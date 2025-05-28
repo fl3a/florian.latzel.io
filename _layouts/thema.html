@@ -8,8 +8,8 @@ pagination:
 {{ content }}
 <h1 class="thema">{{ page.autopage.display_name | escape }}</h1>
 <div id="thema" class="archiv">
-
-{% for post in paginator.posts %}
+{% assign posts = paginator.posts | reverse %}
+{% for post in posts %}
 {% assign currentDate = post.date | date: "%Y" %}
   {% if currentDate != myDate %}
   {% unless forloop.first %}
