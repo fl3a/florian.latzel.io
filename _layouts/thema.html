@@ -6,16 +6,18 @@ pagination:
   per_page: 1000
 ---
 {{ content }}
-<h1 class="thema">{{ page.autopage.display_name | escape }}</h1>
-<div id="thema" class="archiv">
+<h1 class="post-title">{{ page.autopage.display_name | escape }}</h1>
+<div id="blog" class="archiv">
 {% assign posts = paginator.posts | reverse %}
 {% for post in posts %}
 {% assign currentDate = post.date | date: "%Y" %}
   {% if currentDate != myDate %}
   {% unless forloop.first %}
   </ul>
+  </section>
   {% endunless %}
-  <h2 class="no-anchor">{{ currentDate }}</h2>
+  <section>
+  <h2 aria-lable="Blog posts published in {{ currentDate }}" class="no-anchor">{{ currentDate }}</h2>
   <ul>
     {% assign myDate = currentDate %}
   {% endif %}
@@ -33,6 +35,7 @@ pagination:
     </li>
   {% if forloop.last %}
   </ul>
+  </section>
   {% endif %}
 {% endfor %}
 

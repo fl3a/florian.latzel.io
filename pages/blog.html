@@ -10,8 +10,10 @@ permalink: /blog.html
   {% if currentDate != myDate %}
   {% unless forloop.first %}
   </ul>
+  </section>
   {% endunless %}
-  <h2 class="no-anchor">{{ currentDate }}</h2>
+  <section>
+  <h2 aria-lable="Blog posts published in {{ currentDate }}" class="no-anchor">{{ currentDate }}</h2>
   <ul>
     {% assign myDate = currentDate %}
   {% endif %}
@@ -26,6 +28,7 @@ permalink: /blog.html
     </li>
   {% if forloop.last %}
   </ul>
+  </section>
   {% endif %}
 {% endfor %}
 <p class="feed-subscribe">
