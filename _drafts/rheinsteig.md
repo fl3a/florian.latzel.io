@@ -98,6 +98,10 @@ https://allendorf.de/allendorf/brentanohaus/) in Oestrich-Winkel
 - Empfehlungen: [Drei Hefen](https://www.dreihefen.de/) in Koblenz, 
 [Winzerkeller Schloss Philipsburg](https://winzerkeller-philippsburg.de/) in Braubach
 
+{% responsive_image path:assets/imgs/rheinsteig/glas-riesling.jpg
+figure:true alt:'Glas Reisling, Florian in Hintergrund.'                
+caption:'Mai 2025: Noch ein Gläschen Wein auf der Terasse des Landhotel Becker. 
+Foto: Monique Wenta, CC BY-SA 4.0' %}                           
 
 ## Fazit
 
@@ -109,14 +113,18 @@ caption:'April 2023: Ende Etappe 21, Monique und und vor Schloss Biebrich' %}
   - blah
   - blah
   - blah
-- Höhenmeter nicht unterschätzen
-- Burgen, Weinanbau und am Ende Kloster
+
+- Intensive Zeit, raus aus dem Alltag, viel Zeit ohne Ablenkung, tiefe Gespräche,
+längere Wanderungen sind mir am schönsten in Erinnerung geblieben
+- Der Rhein als Protagonist, eine norme Dichte an Burgen, Weinanbau, am Ende Kloster
+und eine Landschaft, die sich auf 320 Kilometer stark verändert.
 - Fünf Jahre, bei mir 4 verschiedene Trailrunner, fünf Jahre Beziehung, 
 Dokumentation der Veränderung
+- Wie weiter? Mit dem kleinen Bruder des Rheinsteigs, 
 - Bad Honnef nach Linz zusammen
 - Hochzeit auf dem Rheinsteig
-- Wie weiter? Mit dem kleinen Bruder des Rheinsteigs, 
 dem Rheinburgenweg 2024, Moselsteig 
+- Zu guter Letzt: Höhenmeter nicht unterschätzen
 
 [^premium]: [Deutsche Wanderinstitut: Premium-Wanderwege](https://www.wanderinstitut.de/premiumwege/)
 [^rns]: [Rheinsteig gesamt (Nord-Süd)](https://www.romantischer-rhein.de/a-rheinsteig-gesamt-nord-sued)
