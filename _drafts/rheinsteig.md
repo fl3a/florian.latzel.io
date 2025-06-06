@@ -84,7 +84,7 @@ Freibad in Rengsdorf
 Übernachtung in Schlangenbad
 - Etappe 21 Schlangenbad - Wiesbaden-Biebrich 
 - Weinberg und Klosterdichte, Änderung der Landschaft, flacher
-- Highlights:
+- Highlights: Änderung der Landschaft, Weinberge, Abteien und Kloster
 - Empfehlung: [Weinlokal Allendorf im Bretanohaus](
 https://allendorf.de/allendorf/brentanohaus/) in Oestrich-Winkel
 
@@ -101,10 +101,16 @@ https://allendorf.de/allendorf/brentanohaus/) in Oestrich-Winkel
 
 ## Fazit
 
+{% responsive_image path:assets/imgs/rheinsteig/monique-ich-vor-schloss-biebrich.jpg
+figure:true alt:'Monique und und vor Schloss Biebrich'                
+caption:'April 2023: Ende Etappe 21, Monique und und vor Schloss Biebrich' %}                           
+
 - Top3
   - blah
   - blah
   - blah
+- Höhenmeter nicht unterschätzen
+- Burgen, Weinanbau und am Ende Kloster
 - Fünf Jahre, bei mir 4 verschiedene Trailrunner, fünf Jahre Beziehung, 
 Dokumentation der Veränderung
 - Bad Honnef nach Linz zusammen
