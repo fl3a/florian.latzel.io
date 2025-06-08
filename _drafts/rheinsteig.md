@@ -36,16 +36,31 @@ Das nährte unsere Sehsucht und machte uns klar, wo der nächste Trip hingehen m
 
 ## August 2020: St. Goarshausen bis Rüdesheim
 
+{% responsive_image path:assets/imgs/rheinsteig/blick-auf-den-rhein-vor-kaub.jpg
+figure:true alt:'Blick auf den Rhein kurz vor Kaub.'                
+caption:'August 2020: Blick auf den Rhein kurz vor Kaub. 
+Foto: Monique Wenta, CC BY-SA 4.0' %}                           
+
+
 - Etappe 15 (Königsetappe) von St. Goarshausen bis Kaub mit Übernachtung
 - Etappen 16 und 17 bis Assmanshausen mit Übernachtung, 
 - Assmannshausen bis Rüdesheim
 - <http://127.0.0.1:4000/2020/09/27/2020-kalenderwoche-36.html#montag-rheinsteig-etappe-17--ein-geschenk-von-heise>
+
+{% responsive_image path:assets/imgs/rheinsteig/abstieg-nach-lorch.jpg
+figure:true alt:'Abstieg nach Lorch mit Steigbügeln und Stahlseilgeländer.'                
+caption:'August 2020: Abstieg nach Lorch. Foto: Monique Wenta, CC BY-SA 4.0' %}                           
+
 - Highlights: Die Loreley, die Kletterpartie zum Roßstein,
 die Übernachtungstelle von Sacki aus Tag 8 wiederzuerkennen
 - Empfehlungen: [Straßenwirtschaft Andre Bernd](https://www.weingut-bernd.com/)
 in Kaub.
 
 ## August 2022: Etappe 8 und Koblenz-Ehrenbreitstein nach Braubach
+
+{% responsive_image path:assets/imgs/2022/ruppertsklamm-rheinsteig-2022.jpg
+figure:true alt:'Abstieg in der Rupertsklamm.'                
+caption:'August 2020: Abstieg in der Rupertsklamm' %}                           
 
 - Etappe 8 von Sayn bis Vallendar mit Übernachtung in Koblenz-Ehrenbreitstein
 - Etappen 10 und 11 von Koblenz-Ehrenbreitstein nach Braubach
@@ -59,9 +74,7 @@ in Kaub.
 - Spontane Idee
 - Etappe 12 ab Osterspay und Etappe 13 mit Übernachung in Kestert 
 
-{% responsive_image                                                             
-figure: true                                                                    
-path: rheinsteig/verlobungsringe-rheinsteig.jpg                                       
+{% responsive_image figure:true path:assets/imgs/rheinsteig/gemalte-verlobungsringe.jpg                                       
 alt: 'Gemalte Verlobungsringe'                                                  
 caption: 'Mai 2023: Gemalte Verlobungsringe. Heiratsantrag auf dem Rheinsteig. 
 Foto: Monique Wenta, CC BY-SA 4.0' %}
@@ -69,15 +82,28 @@ Foto: Monique Wenta, CC BY-SA 4.0' %}
 - Etappe 14. bis St. Goarshausen
 - Hightlight: Zuweg von Kestert über die Pulsbachklamm, Rabenacksteig (für die Schwindelfreien)
 
+{% responsive_image figure:true path:assets/imgs/rheinsteig/rabennacksteig-passage.jpg
+alt:'Passage des Rabennacksteigs'                                                  
+caption: 'Mai 2023: Passage des Rabennacksteigs. Foto: Monique Wenta, CC BY-SA 4.0' %}
+
 ## 2023, September: Rheinbrohl bis Rengsdorf
+
+{% responsive_image path:assets/imgs/rheinsteig/blick-von-der-rheinbrohler-ley.jpg
+figure:true alt:'Blick von der Rheinbroher Ley auf den Rhein.'                
+caption:'September 2024: Blick von der Rheinbroher Ley auf den Rhein. 
+Foto: Monique Wenta, CC BY-SA 4.0' %}                                           
 
 - Etappe 5 Rheinbrohl - Leutesdorf, Übernachtung in Leutesdorf
 - Etappe 6 Leutesdorf - Rengsdorf, Übernachtung in Engers
 - Highlights: 
-- Empfehlung: Abstecher zur [Brombeerschenke](https://www.brombeerschenke.de/) Leutesdorf, 
-Freibad in Rengsdorf
+- Empfehlung: Abstecher zur [Brombeerschenke](https://www.brombeerschenke.de/) 
+Leutesdorf und zum Freibad in Rengsdorf
 
 ## 2024, April: Rüdesheim bis Wiesbaden-Biebrich
+
+{% responsive_image path:assets/imgs/rheinsteig/abtei-st-hildegard.jpg
+figure:true alt:'Weinberge im Vordergrund, Abtei St. Hildegard im Hintergrund.'                
+caption:'April 2024: Die Abteit St. Hildegard. Foto: Monique Wenta, CC BY-SA 4.0' %}                           
 
 - Etappe 18 Rüdesheim - Johannisberg So-Mo, Übernachtung in Oestrich-Winkel 
 - Etappe 19 Johannisberg - Kiedrich  + Etappe 20. Etappe Kiedrich - Schlangenbad, 
@@ -88,26 +114,35 @@ Freibad in Rengsdorf
 - Empfehlung: [Weinlokal Allendorf im Bretanohaus](
 https://allendorf.de/allendorf/brentanohaus/) in Oestrich-Winkel
 
-## 2025, Mai: Die fehlenden zwei Etappen, 7 und 9
+## 2025, Mai: Die fehlenden zwei Etappen, 7 und 9 und ein Stück von Etappe 12
+
+{% responsive_image 
+path:assets/imgs/rheinsteig/aussichtsplattform-rhein-mosel-blick-ehrenbreitstein.jpg
+figure:true alt:'Die Aussichtsplattform Rhein-Mosel-Blick Ehrenbreistein.'                
+caption:'Mai 2025: Die Aussichtsplattform Rhein-Mosel-Blick im Festungspark Ehrenbreistein.' %}                           
 
 - Etappe 7 Rengsdorf - Sayn, Übernachtung in Koblenz
 - Etappe 9. Vallendar - Koblenz-Ehrenbreitstein, Übernachtung in Braubach
 - Bonus nochmal der Anstieg hinter der Marksbug Etappe 12 Braubach - Kamp-Bornhofen,
 Übernachtung in Kamp-Bornhofen
-- Highlights:
+- Highlights: Den Zecherweg  hinter der Marksburg ein zweites mal zu laufen
 - Empfehlungen: [Drei Hefen](https://www.dreihefen.de/) in Koblenz, 
 [Winzerkeller Schloss Philipsburg](https://winzerkeller-philippsburg.de/) in Braubach
 
-{% responsive_image path:assets/imgs/rheinsteig/glas-riesling.jpg
-figure:true alt:'Glas Reisling, Florian in Hintergrund.'                
-caption:'Mai 2025: Noch ein Gläschen Wein auf der Terasse des Landhotel Becker. 
-Foto: Monique Wenta, CC BY-SA 4.0' %}                           
+{% responsive_image path:assets/imgs/rheinsteig/brauchbach-altstadt-fachwerk.jpg
+figure:true alt:'Fachwerkhäuser in der Altstadt von Braubach.'                
+caption:'Mai 2025: Die Altstadt von Braubach. %}                           
+
+{% responsive_image path:assets/imgs/rheinsteig/fels-eichenwald.jpg
+figure:true alt:'Fels und Eichenwald.'                
+caption:'Mai 2025: Komponenten einer tollen Strecke - 
+Fels, Eichenwald und der nächste Blick auf den Rhein in Sicht.' %}                           
 
 ## Fazit
 
 {% responsive_image path:assets/imgs/rheinsteig/monique-ich-vor-schloss-biebrich.jpg
 figure:true alt:'Monique und und vor Schloss Biebrich'                
-caption:'April 2023: Ende Etappe 21, Monique und und vor Schloss Biebrich' %}                           
+caption:'April 2024: Ende Etappe 21, Monique und und vor Schloss Biebrich' %}                           
 
 - Top3
   - blah
