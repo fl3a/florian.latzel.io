@@ -6,18 +6,18 @@ tags:
 - Monique
 - Wandern
 - Draussen
-description: ''
+description: 'Fünf Jahre zu zweit auf dem 320 km langen Premiumwanderweg. Unsere Highlights und Tipps von Bonn-Mehlem bis Wiesbaden-Biebrich.'
 image: /assets/imgs/2020kw36/rheinsteig-oberes-mittelrheintal-spitznack.jpg
 ---
 {% responsive_image path:assets/imgs/2020kw36/rheinsteig-oberes-mittelrheintal-spitznack.jpg
 figure:true alt: 'August 2020: Rheinsteig Etappe 15, Beim Spitznackfelsen,             
-Blick in Richtung Loreley' %}
+Blick in Richtung Loreley.' %}
 
 Monique und ich sind über Christi Himmelfahrt die zwei uns fehlenden Etappen 
 des [Rheinsteigs](/thema/rheinsteig/) gelaufen 
 und haben jetzt den 320 Kilometer langen Premium-Wanderweg[^premium] komplett.
 
-Wir haben den Rheinsteig von Bonn-Mehlem nach Wiesbaden-Biebrich, 
+Wir sind den Rheinsteig von Bonn-Mehlem nach Wiesbaden-Biebrich, 
 Gehrichtung Nord nach Süd[^rns] gelaufen.
 Bis Rheinbrohl (Anfang Etappe 5) haben wir das mit Tagesetappen gemacht, 
 da diese von Köln aus in einer passablen Zeit mit dem ÖPNV erreichbar waren.
@@ -28,14 +28,15 @@ Das ist eine Chronik aus über fünf Jahren Bewanderung des Rheinsteigs als Paar
 {% responsive_image path:assets/imgs/rheinsteig/monique-mit-poncho.jpg
 figure:true alt:'Frau mit Poncho im Regen auf Wanderweg im Wald'
 caption:'August 2019: Monique mit Poncho auf Etappe 2 (Einmalig in Gegenrichtung)
-von Bad-Honnef nach Königswinter' %} 
+von Bad-Honnef nach Königswinter.' %} 
 
 In 2020 saßen wir gemeinsam auf der Couch und verfolgten Sacki auf youtube,
 der den [Rheinsteig mit einem Wanderwagen](
 https://www.youtube.com/watch?v=8epVsOrYHhc&list=PLiy-Kbpy168Ub_lkElGWevb431NbxZCkT)
 als *Thru-Hike[^thru]* lief um während des ersten Lockdowns möglichst autark mit Lebenmitteln 
 und den Schlafmöglichkeiten zu sein. 
-Das nährte unsere Sehsucht und machte uns klar, wo der nächste Trip hingehen muss. 
+Dies nährte unsere Sehnsucht und ließ uns erkennen, 
+wohin uns unsere erste gemeinsame Fernwanderung führen sollte.
 
 ## August 2020: St. Goarshausen bis Rüdesheim
 
@@ -48,7 +49,7 @@ Foto: Monique Wenta, CC BY-SA 4.0' %}
 - Etappe 15 (Königsetappe) von St. Goarshausen bis Kaub mit Übernachtung
 - Etappen 16 und 17 bis Assmanshausen mit Übernachtung, 
 - Assmannshausen bis Rüdesheim
-- Eine Beschreibung dieser Tour findst du [hier](
+- Eine Beschreibung dieser Tour findest du [hier](
 /2020/09/27/2020-kalenderwoche-36.html#montag-rheinsteig-etappe-17--ein-geschenk-von-heise)
 
 {% responsive_image path:assets/imgs/rheinsteig/abstieg-nach-lorch.jpg
@@ -64,7 +65,7 @@ in Kaub.
 
 {% responsive_image path:assets/imgs/2022/ruppertsklamm-rheinsteig-2022.jpg
 figure:true alt:'Abstieg in der Rupertsklamm.'                
-caption:'August 2020: Abstieg in der Rupertsklamm' %}                           
+caption:'August 2022: Abstieg in der Rupertsklamm.' %}                           
 
 - Etappe 8 von Sayn bis Vallendar mit Übernachtung in Koblenz-Ehrenbreitstein
 - Etappen 10 und 11 von Koblenz-Ehrenbreitstein nach Braubach
@@ -72,7 +73,7 @@ caption:'August 2020: Abstieg in der Rupertsklamm' %}
 - Highlights: Das Kneippbecken vor Vallendar (bei ca. 30 Grad), das Bienhorntal, 
 die Rupertsklamm und der Abstieg nach Braubach
 - Empfehlungen: [Hotel Maaß](https://www.hotelmaass.de/) in Braubach
-- Eine Beschreibung dieser Tour findst du [hier](
+- Eine Beschreibung dieser Tour findest du [hier](
 /2023/02/19/zwanzigzweiundzwanzig.html#alles-neu)
 
 ## 2023, Mai: Osterspay bis St. Goarshausen
@@ -97,12 +98,12 @@ caption: 'Mai 2023: Passage des Rabennacksteigs. Foto: Monique Wenta, CC BY-SA 4
 
 {% responsive_image path:assets/imgs/rheinsteig/blick-von-der-rheinbrohler-ley.jpg
 figure:true alt:'Blick von der Rheinbroher Ley auf den Rhein.'                
-caption:'September 2024: Blick von der Rheinbroher Ley auf den Rhein. 
+caption:'September 2023: Blick von der Rheinbrohler Ley auf den Rhein. 
 Foto: Monique Wenta, CC BY-SA 4.0' %}                                           
 
-- Etappe 5 Rheinbrohl - Leutesdorf, Übernachtung in Leutesdorf
+- Etappe 5 Rheinbrohl - Leutesdorf, Übernachtung in Feldkirchen
 - Etappe 6 Leutesdorf - Rengsdorf, Übernachtung in Engers
-- Highlights: 
+- Highlights: Schöne Aussichten und harte Auf- und Abstiege auf Etappe 6 
 - Empfehlung: Abstecher zur [Brombeerschenke](https://www.brombeerschenke.de/) 
 Leutesdorf und zum Freibad in Rengsdorf
 
@@ -111,14 +112,12 @@ Leutesdorf und zum Freibad in Rengsdorf
 {% responsive_image path:assets/imgs/rheinsteig/abtei-st-hildegard.jpg
 figure:true alt:'Weinberge im Vordergrund, Abtei St. Hildegard im Hintergrund.'                
 caption:'April 2024: Die Abteit St. Hildegard. Foto: Monique Wenta, CC BY-SA 4.0' %}                           
-
-- Etappe 18 Rüdesheim - Johannisberg So-Mo, Übernachtung in Oestrich-Winkel 
+- Etappe 18 Rüdesheim - Johannisberg, Übernachtung in Oestrich-Winkel 
 - Etappe 19 Johannisberg - Kiedrich  + Etappe 20. Etappe Kiedrich - Schlangenbad, 
 Übernachtung in Schlangenbad
 - Etappe 21 Schlangenbad - Wiesbaden-Biebrich 
-- Weinberg und Klosterdichte, Änderung der Landschaft, flacher
 - Highlights: Änderung der Landschaft, Weinberge, Abteien und Kloster
-- Empfehlung: [Weinlokal Allendorf im Bretanohaus](
+- Empfehlung: [Allendorf im Bretanohaus](
 https://allendorf.de/allendorf/brentanohaus/) in Oestrich-Winkel
 
 ## 2025, Mai: Die fehlenden zwei Etappen, 7 und 9 und ein Stück von Etappe 12
@@ -130,15 +129,16 @@ caption:'Mai 2025: Die Aussichtsplattform Rhein-Mosel-Blick im Festungspark Ehre
 
 - Etappe 7 Rengsdorf - Sayn, Übernachtung in Koblenz
 - Etappe 9. Vallendar - Koblenz-Ehrenbreitstein, Übernachtung in Braubach
-- Etappe 12. (nochmal) Braubach - Osterspay, Übernachtung in Kamp-Bornhofen
-- Highlights: Den Zecherweg  hinter der Marksburg ein zweites mal zu laufen
-und Etappe 12. insgesamt
+- Etappe 12. (nochmal) Braubach - Filsen (Abbruch wegen Gewitter), 
+Übernachtung in Kamp-Bornhofen
+- Highlights: Ein zweites Mal den Zecherweg hinter der Marksburg zu laufen
+und insgesamt Etappe 12
 - Empfehlungen: [Drei Hefen](https://www.dreihefen.de/) in Koblenz, 
 [Winzerkeller Schloss Philipsburg](https://winzerkeller-philippsburg.de/) in Braubach
 
 {% responsive_image path:assets/imgs/rheinsteig/brauchbach-altstadt-fachwerk.jpg
-figure:true alt:'Fachwerkhäuser in der Altstadt von Braubach.'                
-caption:'Mai 2025: Die Altstadt von Braubach. %}                           
+figure:true alt:'Fachwerkhäuser in der Altstadt von Braubach'                
+caption:'Mai 2025: Die Altstadt von Braubach.' %}                           
 
 {% responsive_image path:assets/imgs/rheinsteig/fels-eichenwald.jpg
 figure:true alt:'Fels und Eichenwald.'                
@@ -148,12 +148,11 @@ Fels, Eichenwald und der nächste Blick auf den Rhein ist bereits in Sicht.' %}
 ## Fazit
 
 {% responsive_image path:assets/imgs/rheinsteig/monique-ich-vor-schloss-biebrich.jpg
-figure:true alt:'Monique und und vor Schloss Biebrich'                
-caption:'April 2024: Ende Etappe 21, Monique und und vor Schloss Biebrich' %}                           
-
+figure:true alt:'Monique und ich vor Schloss Biebrich'                
+caption:'April 2024: Ende Etappe 21, Monique und und vor Schloss Biebrich.' %}                           
 Die mehrtägigen Wanderungen waren sehr intensiv.
-Viel Zeit ohne Ablenkung des Alltags und tiefe Gespräche. 
-Ein Wechsel von bei sich und beim Gehen, bei einandern und bei der Strecke sein.
+Viel Zeit ohne Ablenkung durch den Alltag und viele tiefe Gespräche – 
+mal bei sich selbst, mal beim Gehen, mal beim anderen und mal ganz bei der Strecke.
 Die Überlegung, welche eigentlich die Top-Etappen des Rheinsteigs waren,
 hat deutlich gemacht, das es die längeren Wanderungen waren,
 die am schönsten in Erinnerung geblieben sind 
@@ -172,7 +171,8 @@ Unsere Geschichte ist auf jedem Fall mit dem Rheinsteig verbunden.
 
 Wie geht es weiter?\
 Mit dem kleinen Bruder des Rheinsteigs, 
-dem [Rheinburgenweg](rheinburgenweg.com/) den wir auch schon im Sommer 2024 gestartet sind.
+dem [Rheinburgenweg](rheinburgenweg.com/), 
+den wir auch schon im Sommer 2024 gestartet sind.
 Es zieht uns aber auch zum  [Moselsteig](https://www.visitmosel.de/wandern/).\
 Analog zu unserer Verlobung planen wir auch unsere Hochzeit auf dem Rheinsteig
 mit Essen im Bretanohaus in Oestrich-Winkel.
