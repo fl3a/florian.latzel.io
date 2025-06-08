@@ -60,6 +60,88 @@ caption:'August 2020: Abstieg nach Lorch. Foto: Monique Wenta, CC BY-SA 4.0' %}
 von Sacki aus Tag 8 wiederzuerkennen
 - Empfehlung: [Straßenwirtschaft Andre Bernd](https://www.weingut-bernd.com/) in Kaub
 
+## August 2022: Etappe 8 und Koblenz-Ehrenbreitstein bis Osterspay
+
+{% responsive_image path:assets/imgs/2022/ruppertsklamm-rheinsteig-2022.jpg
+figure:true alt:'Abstieg in der Rupertsklamm.'
+caption:'August 2022: Abstieg in der Rupertsklamm.' %}
+
+- Etappe 8 von Sayn bis Vallendar mit Übernachtung in Koblenz-Ehrenbreitstein
+- Etappen 10 und 11 von Koblenz-Ehrenbreitstein nach Braubach
+- Etappe 12 bis Osterspay
+- Highlights: Das Kneippbecken vor Vallendar (bei ca. 30 Grad), das Bienhorntal,
+die Rupertsklamm und der Abstieg nach Braubach
+- Empfehlungen: [Hotel Maaß](https://www.hotelmaass.de/) in Braubach
+- Eine Beschreibung dieser Tour findest du [hier](
+/2023/02/19/zwanzigzweiundzwanzig.html#alles-neu)
+
+## 2023, Mai: Osterspay bis St. Goarshausen
+
+{% responsive_image figure:true path:assets/imgs/rheinsteig/gemalte-verlobungsringe.jpg
+alt: 'Gemalte Verlobungsringe'
+caption: 'Mai 2023: Gemalte Verlobungsringe. Heiratsantrag auf dem Rheinsteig.
+Foto: Monique Wenta, CC BY-SA 4.0' %}
+
+- Etappe 12 ab Osterspay und Etappe 13 mit Übernachung in Kestert
+- Etappe 14. bis St. Goarshausen
+- Hightlight: Zuweg von Kestert über die Pulsbachklamm
+und der Rabenacksteig (für die Schwindelfreien)
+
+{% responsive_image figure:true path:assets/imgs/rheinsteig/rabennacksteig-passage.jpg
+alt:'Passage des Rabennacksteigs'
+caption: 'Mai 2023: Passage des Rabennacksteigs. Foto: Monique Wenta, CC BY-SA 4.0' %}
+
+## 2023, September: Rheinbrohl bis Rengsdorf
+
+{% responsive_image path:assets/imgs/rheinsteig/blick-von-der-rheinbrohler-ley.jpg
+figure:true alt:'Blick von der Rheinbroher Ley auf den Rhein.'
+caption:'September 2023: Blick von der Rheinbrohler Ley auf den Rhein.
+Foto: Monique Wenta, CC BY-SA 4.0' %}
+
+- Etappe 5 Rheinbrohl - Leutesdorf, Übernachtung in Feldkirchen
+- Etappe 6 Leutesdorf - Rengsdorf, Übernachtung in Engers
+- Highlights: Schöne Aussichten und harte Auf- und Abstiege auf Etappe 6
+- Empfehlung: Abstecher zur [Brombeerschenke](https://www.brombeerschenke.de/)
+Leutesdorf und zum Freibad in Rengsdorf
+
+## 2024, April: Rüdesheim bis Wiesbaden-Biebrich
+
+{% responsive_image path:assets/imgs/rheinsteig/abtei-st-hildegard.jpg
+figure:true alt:'Weinberge im Vordergrund, Abtei St. Hildegard im Hintergrund.'
+caption:'April 2024: Die Abteit St. Hildegard. Foto: Monique Wenta, CC BY-SA 4.0' %}
+- Etappe 18 Rüdesheim - Johannisberg, Übernachtung in Oestrich-Winkel
+- Etappe 19 Johannisberg - Kiedrich  + Etappe 20. Etappe Kiedrich - Schlangenbad,
+Übernachtung in Schlangenbad
+- Etappe 21 Schlangenbad - Wiesbaden-Biebrich
+- Highlights: Änderung der Landschaft, Weinberge, Abteien und Kloster
+- Empfehlung: [Allendorf im Bretanohaus](
+https://allendorf.de/allendorf/brentanohaus/) in Oestrich-Winkel
+
+## 2025, Mai: Die fehlenden zwei Etappen, 7 und 9 und ein Stück von Etappe 12
+
+{% responsive_image
+path:assets/imgs/rheinsteig/aussichtsplattform-rhein-mosel-blick-ehrenbreitstein.jpg
+figure:true alt:'Die Aussichtsplattform Rhein-Mosel-Blick Ehrenbreistein.'
+caption:'Mai 2025: Die Aussichtsplattform Rhein-Mosel-Blick im Festungspark Ehrenbreistein.' %}
+
+- Etappe 7 Rengsdorf - Sayn, Übernachtung in Koblenz
+- Etappe 9. Vallendar - Koblenz-Ehrenbreitstein, Übernachtung in Braubach
+- Etappe 12. (nochmal) Braubach - Filsen (Abbruch wegen Gewitter),
+Übernachtung in Kamp-Bornhofen
+- Highlights: Ein zweites Mal den Zecherweg hinter der Marksburg zu laufen
+und insgesamt Etappe 12
+- Empfehlungen: [Drei Hefen](https://www.dreihefen.de/) in Koblenz,
+[Winzerkeller Schloss Philipsburg](https://winzerkeller-philippsburg.de/) in Braubach
+
+{% responsive_image path:assets/imgs/rheinsteig/brauchbach-altstadt-fachwerk.jpg
+figure:true alt:'Fachwerkhäuser in der Altstadt von Braubach'
+caption:'Mai 2025: Die Altstadt von Braubach.' %}
+
+{% responsive_image path:assets/imgs/rheinsteig/fels-eichenwald.jpg
+figure:true alt:'Fels und Eichenwald.'
+caption:'Mai 2025: Komponenten einer tollen Strecke:
+Fels, Eichenwald und der nächste Blick auf den Rhein ist bereits in Sicht.' %}
+
 ## Fazit
 
 {% responsive_image path:assets/imgs/rheinsteig/monique-ich-vor-schloss-biebrich.jpg
