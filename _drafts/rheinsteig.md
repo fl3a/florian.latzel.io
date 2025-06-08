@@ -22,15 +22,18 @@ also Gehrichtung Nord nach Süd[^rns] gelaufen.
 Bis Rheinbrohl (Anfang Etappe 5) haben wir das mit Tagesetappen gemacht, 
 die ließen sich von Köln aus recht gut mit dem ÖPNV erreichen.
 
+Das ist eine Chronik aus über fünf Jahren Bewanderung des Rheinsteigs als Paar.
+<!--break-->
+
 {% responsive_image path:assets/imgs/rheinsteig/monique-mit-poncho.jpg
 figure:true alt:'Frau mit Poncho im Regen auf Wanderweg im Wald'
 caption:'August 2019: Monique mit Poncho auf Etappe 2 (Einmalig in Gegenrichtung)
 von Bad-Honnef nach Königswinter' %} 
 
-In 2020 saßen wir gemeinsam auf der Couch  und verfolgten Sacki auf youtube,
-der während des ersten Lockdowns den [Rheinsteig mit einem Wanderwagen](
+In 2020 saßen wir gemeinsam auf der Couch und verfolgten Sacki auf youtube,
+der den [Rheinsteig mit einem Wanderwagen](
 https://www.youtube.com/watch?v=8epVsOrYHhc&list=PLiy-Kbpy168Ub_lkElGWevb431NbxZCkT)
-als *Thru-Hike[^thru]* lief um möglichst autark mit Lebenmitteln 
+als *Thru-Hike[^thru]* lief um während des ersten Lockdowns möglichst autark mit Lebenmitteln 
 und den Schlafmöglichkeiten zu sein. 
 Das nährte unsere Sehsucht und machte uns klar, wo der nächste Trip hingehen muss. 
 
@@ -56,7 +59,7 @@ die Übernachtungstelle von Sacki aus Tag 8 wiederzuerkennen
 - Empfehlungen: [Straßenwirtschaft Andre Bernd](https://www.weingut-bernd.com/)
 in Kaub.
 
-## August 2022: Etappe 8 und Koblenz-Ehrenbreitstein nach Braubach
+## August 2022: Etappe 8 und Koblenz-Ehrenbreitstein bis Osterspay
 
 {% responsive_image path:assets/imgs/2022/ruppertsklamm-rheinsteig-2022.jpg
 figure:true alt:'Abstieg in der Rupertsklamm.'                
@@ -64,8 +67,9 @@ caption:'August 2020: Abstieg in der Rupertsklamm' %}
 
 - Etappe 8 von Sayn bis Vallendar mit Übernachtung in Koblenz-Ehrenbreitstein
 - Etappen 10 und 11 von Koblenz-Ehrenbreitstein nach Braubach
-- Etappe 12 bis Osterspay bzw. Kamp-Bornhofen
-- Highlights: Das Kneippbecken vor Vallendar (bei ca. 30 Grad). Bienhorntal, Rupertsklamm, der Abstieg nach Braubach
+- Etappe 12 bis Osterspay 
+- Highlights: Das Kneippbecken vor Vallendar (bei ca. 30 Grad). Bienhorntal, 
+Rupertsklamm, der Abstieg nach Braubach
 - Empfehlungen: [Hotel Maaß](https://www.hotelmaass.de/) in Braubach
 - <http://127.0.0.1:4000/2023/02/19/zwanzigzweiundzwanzig.html#alles-neu>
 
@@ -123,9 +127,9 @@ caption:'Mai 2025: Die Aussichtsplattform Rhein-Mosel-Blick im Festungspark Ehre
 
 - Etappe 7 Rengsdorf - Sayn, Übernachtung in Koblenz
 - Etappe 9. Vallendar - Koblenz-Ehrenbreitstein, Übernachtung in Braubach
-- Bonus nochmal der Anstieg hinter der Marksbug Etappe 12 Braubach - Kamp-Bornhofen,
-Übernachtung in Kamp-Bornhofen
+- Etappe 12. (nochmal) Braubach - Osterspay, Übernachtung in Kamp-Bornhofen
 - Highlights: Den Zecherweg  hinter der Marksburg ein zweites mal zu laufen
+und Etappe 12. insgesamt
 - Empfehlungen: [Drei Hefen](https://www.dreihefen.de/) in Koblenz, 
 [Winzerkeller Schloss Philipsburg](https://winzerkeller-philippsburg.de/) in Braubach
 
@@ -144,22 +148,37 @@ Fels, Eichenwald und der nächste Blick auf den Rhein in Sicht.' %}
 figure:true alt:'Monique und und vor Schloss Biebrich'                
 caption:'April 2024: Ende Etappe 21, Monique und und vor Schloss Biebrich' %}                           
 
-- Top3
-  - blah
-  - blah
-  - blah
+Die mehrtägigen Wanderungen waren sehr intensiv.
+Viel Zeit ohne Ablenkung des Alltags und tiefe Gespräche. 
+Ein Wechsel von bei sich und beim Gehen, bei einandern und bei der Strecke sein.
+Die Überlegung, welche eigentlich die Top-Etappen des Rheinsteigs waren,
+hat deutlich gemacht, das es die längeren Wanderungen waren,
+die am schönsten in Erinnerung geblieben sind 
+und es nicht an einzelnen Etappe festzumachen ist.
 
-- Intensive Zeit, raus aus dem Alltag, viel Zeit ohne Ablenkung, tiefe Gespräche,
-längere Wanderungen sind mir am schönsten in Erinnerung geblieben
-- Der Rhein als Protagonist, eine norme Dichte an Burgen, Weinanbau, am Ende Kloster
+Alles in allem ist der Rheinsteig ein echt schöner Fernwanderweg: 
+Der Rhein als Protagonist, eine enorme Dichte an Burgen, 
+viel Weinanbau, am Ende Kloster
 und eine Landschaft, die sich auf 320 Kilometer stark verändert.
-- Fünf Jahre, bei mir 4 verschiedene Trailrunner, fünf Jahre Beziehung, 
-Dokumentation der Veränderung
-- Wie weiter? Mit dem kleinen Bruder des Rheinsteigs, 
-- Bad Honnef nach Linz zusammen
-- Hochzeit auf dem Rheinsteig
-dem Rheinburgenweg 2024, Moselsteig 
-- Zu guter Letzt: Höhenmeter nicht unterschätzen
+
+Der Rheinsteig war ein Projekt, dass über fünf Jahre gedauert hat
+und die Bildauswahl aus unserer Fotoalben ist auch eine Dokumentation der Veränderung.
+Abgesehen von so offensichtlichen Dingen, wie bei mir 4 verschiedene Trailrunner,
+ist es auch eine Dokumentation von fünf Jahren Beziehung und Veränderungen im Leben.
+Unsere Geschichte ist auf jedem Fall mit dem Rheinsteig verbunden.
+
+Wie geht es weiter?\
+Mit dem kleinen Bruder des Rheinsteigs, 
+dem [Rheinburgenweg](rheinburgenweg.com/) den wir auch schon im Sommer 2024 gestartet sind.
+Es zieht uns aber auch zum  [Moselsteig](https://www.visitmosel.de/wandern/).\
+Analog zu unserer Verlobung planen wir auch unsere Hochzeit auf dem Rheinsteig
+mit Essen im Bretanohaus in Oestrich-Winkel.
+
+Zu guter Letzt: unterschätzt nur weil es nicht alpin ist die Höhenmeter nicht!
+Im Summe kommt je nach Strecke einiges an Höhenmetern zusammen 
+und die raschen Wechsel von Auf- und Abstiegen gehen auch auf die Waden.
+
+Fußnoten
 
 [^premium]: [Deutsche Wanderinstitut: Premium-Wanderwege](https://www.wanderinstitut.de/premiumwege/)
 [^rns]: [Rheinsteig gesamt (Nord-Süd)](https://www.romantischer-rhein.de/a-rheinsteig-gesamt-nord-sued)
