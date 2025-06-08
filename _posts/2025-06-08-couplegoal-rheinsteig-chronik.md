@@ -71,7 +71,9 @@ caption:'August 2022: Abstieg in der Rupertsklamm.' %}
 - Etappe 12 bis Osterspay
 - Highlights: Das Kneippbecken vor Vallendar (bei ca. 30 Grad), das Bienhorntal,
 die Rupertsklamm und der Abstieg nach Braubach
-- Empfehlungen: [Hotel Maaß](https://www.hotelmaass.de/) in Braubach
+- Empfehlungen: [Hotel Maaß](https://www.hotelmaass.de/) in Braubach -
+schöner Garten (den man beim Abstieg nach Braubach auch sieht) 
+und ein üppiges Frühstück im gleichnamigen Café im Ort.
 - Eine Beschreibung dieser Tour findest du [hier](
 /2023/02/19/zwanzigzweiundzwanzig.html#alles-neu)
 
