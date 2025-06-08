@@ -59,8 +59,10 @@ caption:'August 2020: Abstieg nach Lorch. Foto: Monique Wenta, CC BY-SA 4.0' %}
 - Highlights: Die Loreley, die Kletterpartie zum Roßstein, die Übernachtungsstelle
 von Sacki aus Tag 8 wiederzuerkennen
 - Empfehlung: [Straßenwirtschaft Andre Bernd](https://www.weingut-bernd.com/) in Kaub
+und das [Rheinhotel Lamm](https://rheinhotel-lamm.de/) in Assmmannshausen
+— eine angenehme Unterkunft mit gutem Preis-Leistungs-Verhältnis und hervorragender Gastronomie.
 
-## August 2022: Etappe 8 und Koblenz-Ehrenbreitstein bis Osterspay
+## August 2022: Etappe 8 und Koblenz-Ehrenbreitstein bis Osterspai
 
 {% responsive_image path:assets/imgs/2022/ruppertsklamm-rheinsteig-2022.jpg
 figure:true alt:'Abstieg in der Rupertsklamm.'
@@ -68,7 +70,7 @@ caption:'August 2022: Abstieg in der Rupertsklamm.' %}
 
 - Etappe 8 von Sayn bis Vallendar mit Übernachtung in Koblenz-Ehrenbreitstein
 - Etappen 10 und 11 von Koblenz-Ehrenbreitstein nach Braubach
-- Etappe 12 bis Osterspay
+- Etappe 12 bis Osterspai
 - Highlights: Das Kneippbecken vor Vallendar (bei ca. 30 Grad), das Bienhorntal,
 die Rupertsklamm und der Abstieg nach Braubach
 - Empfehlungen: [Hotel Maaß](https://www.hotelmaass.de/) in Braubach -
@@ -77,14 +79,18 @@ und ein üppiges Frühstück im gleichnamigen Café im Ort.
 - Eine Beschreibung dieser Tour findest du [hier](
 /2023/02/19/zwanzigzweiundzwanzig.html#alles-neu)
 
-## 2023, Mai: Osterspay bis St. Goarshausen
+## 2023, Mai: Osterspai bis St. Goarshausen
 
 {% responsive_image figure:true path:assets/imgs/rheinsteig/gemalte-verlobungsringe.jpg
 alt: 'Gemalte Verlobungsringe'
 caption: 'Mai 2023: Gemalte Verlobungsringe. Heiratsantrag auf dem Rheinsteig.
 Foto: Monique Wenta, CC BY-SA 4.0' %}
 
-- Etappe 12 ab Osterspay und Etappe 13 mit Übernachung in Kestert
+Diese Tour haben wir am langen Christi-Himmelfahrtswochenende sehr spontan geplant. 
+Morgens haben wir realisiert, dass wir ein langes Wochenende vor uns haben, 
+und kurzerhand eine Unterkunft gebucht.
+
+- Etappe 12 ab Osterspai und Etappe 13 mit Übernachung in Kestert
 - Etappe 14. bis St. Goarshausen
 - Hightlight: Zuweg von Kestert über die Pulsbachklamm
 und der Rabenacksteig (für die Schwindelfreien)
@@ -110,7 +116,7 @@ Leutesdorf und zum Freibad in Rengsdorf
 
 {% responsive_image path:assets/imgs/rheinsteig/abtei-st-hildegard.jpg
 figure:true alt:'Weinberge im Vordergrund, Abtei St. Hildegard im Hintergrund.'
-caption:'April 2024: Die Abteit St. Hildegard. Foto: Monique Wenta, CC BY-SA 4.0' %}
+caption:'April 2024: Die Abtei St. Hildegard. Foto: Monique Wenta, CC BY-SA 4.0' %}
 - Etappe 18 Rüdesheim - Johannisberg, Übernachtung in Oestrich-Winkel
 - Etappe 19 Johannisberg - Kiedrich  + Etappe 20. Etappe Kiedrich - Schlangenbad,
 Übernachtung in Schlangenbad
@@ -164,7 +170,7 @@ eine Landschaft, die sich auf 320 Kilometern stark verändert.
 Der Rheinsteig war ein Projekt, das über fünf Jahre gedauert hat, und die
 Bildauswahl aus unseren Fotoalben ist auch eine Dokumentation der Veränderung.
 Abgesehen von so offensichtlichen Dingen wie bei mir vier verschiedenen 
-Trailrunning-Schuhe ist es auch eine Dokumentation von fünf Jahren Beziehung 
+Trailrunning-Schuhen ist es auch eine Dokumentation von fünf Jahren Beziehung 
 und Veränderungen im Leben. 
 Unsere Geschichte ist auf jeden Fall mit dem Rheinsteig verbunden.
 
