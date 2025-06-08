@@ -65,27 +65,29 @@ RedirectMatch gone ^/fotos/(.*)$
 # 410er Pagination
 RedirectMatch gone ^/page/(.*)
 
-# https://web.archive.org/web/2/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#drupals-cronphp-absichern0151231185134/http://netzaffe.de/node/1608
 Redirect gone /node/1608
 Redirect gone /drush-die-drupal-shell/drushrc-php.html
 Redirect gone /thema/drupalcamp-ruhr/
 Redirect gone /wiki.ubuntuusers.de/GnuPG
+
+# 410er Tags
+RedirectMatch gone ^/taxonomy/term/(.*)$ 
+RedirectMatch gone ^/tags/(.*)$ 
+
+Redirect gone /rss.xml
 
 #########
 # 301er #
 #########
 
 # 301er Tags: s/tags/thema
-# $ uberspace web header set florian.latzel.io/tags X-Robots-Tag "noindex"
-# >Set header "X-Robots-Tag: noindex" for florian.latzel.io/tags
-RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
-RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
-RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
-RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/ 
-RedirectMatch gone ^/taxonomy/term/(.*)$ 
-Redirect 301 /thema/scrumtisch-koeln/ /thema/scrumtisch-koln/
+#RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
+#RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
+#RedirectMatch 301 ^/tags/(.*)/page/\d+/$ /thema/$1/
+#RedirectMatch 301 ^/tags/(.*)/page/\d+/index.html$ /thema/$1/ 
+#Redirect 301 /thema/scrumtisch-koeln/ /thema/scrumtisch-koln/
 
 # Drupal blog urls
 RedirectMatch 301 ^/blog/(.*)$ /$1
@@ -93,7 +95,6 @@ RedirectMatch 301 ^/blog/(.*)$ /$1
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
 Redirect 301 /blogs/floh/feed /feed.xml
-Redirect gone /rss.xml
 
 RedirectMatch 301 ^/sitemap$ /sitemap.xml
 RedirectMatch 301 /sitemap.txt /sitemap.xml
