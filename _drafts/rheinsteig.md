@@ -18,9 +18,9 @@ des [Rheinsteigs](/thema/rheinsteig/) gelaufen
 und haben jetzt den 320 Kilometer langen Premium-Wanderweg[^premium] komplett.
 
 Wir haben den Rheinsteig von Bonn-Mehlem nach Wiesbaden-Biebrich, 
-also Gehrichtung Nord nach Süd[^rns] gelaufen.
+Gehrichtung Nord nach Süd[^rns] gelaufen.
 Bis Rheinbrohl (Anfang Etappe 5) haben wir das mit Tagesetappen gemacht, 
-die ließen sich von Köln aus recht gut mit dem ÖPNV erreichen.
+da diese von Köln aus in einer passablen Zeit mit dem ÖPNV erreichbar waren.
 
 Das ist eine Chronik aus über fünf Jahren Bewanderung des Rheinsteigs als Paar.
 <!--break-->
@@ -48,7 +48,8 @@ Foto: Monique Wenta, CC BY-SA 4.0' %}
 - Etappe 15 (Königsetappe) von St. Goarshausen bis Kaub mit Übernachtung
 - Etappen 16 und 17 bis Assmanshausen mit Übernachtung, 
 - Assmannshausen bis Rüdesheim
-- <http://127.0.0.1:4000/2020/09/27/2020-kalenderwoche-36.html#montag-rheinsteig-etappe-17--ein-geschenk-von-heise>
+- Eine Beschreibung dieser Tour findst du [hier](
+/2020/09/27/2020-kalenderwoche-36.html#montag-rheinsteig-etappe-17--ein-geschenk-von-heise)
 
 {% responsive_image path:assets/imgs/rheinsteig/abstieg-nach-lorch.jpg
 figure:true alt:'Abstieg nach Lorch mit Steigbügeln und Stahlseilgeländer.'                
@@ -68,10 +69,11 @@ caption:'August 2020: Abstieg in der Rupertsklamm' %}
 - Etappe 8 von Sayn bis Vallendar mit Übernachtung in Koblenz-Ehrenbreitstein
 - Etappen 10 und 11 von Koblenz-Ehrenbreitstein nach Braubach
 - Etappe 12 bis Osterspay 
-- Highlights: Das Kneippbecken vor Vallendar (bei ca. 30 Grad). Bienhorntal, 
-Rupertsklamm, der Abstieg nach Braubach
+- Highlights: Das Kneippbecken vor Vallendar (bei ca. 30 Grad), das Bienhorntal, 
+die Rupertsklamm und der Abstieg nach Braubach
 - Empfehlungen: [Hotel Maaß](https://www.hotelmaass.de/) in Braubach
-- <http://127.0.0.1:4000/2023/02/19/zwanzigzweiundzwanzig.html#alles-neu>
+- Eine Beschreibung dieser Tour findst du [hier](
+/2023/02/19/zwanzigzweiundzwanzig.html#alles-neu)
 
 ## 2023, Mai: Osterspay bis St. Goarshausen
 
@@ -84,7 +86,8 @@ caption: 'Mai 2023: Gemalte Verlobungsringe. Heiratsantrag auf dem Rheinsteig.
 Foto: Monique Wenta, CC BY-SA 4.0' %}
 
 - Etappe 14. bis St. Goarshausen
-- Hightlight: Zuweg von Kestert über die Pulsbachklamm, Rabenacksteig (für die Schwindelfreien)
+- Hightlight: Zuweg von Kestert über die Pulsbachklamm 
+und der Rabenacksteig (für die Schwindelfreien)
 
 {% responsive_image figure:true path:assets/imgs/rheinsteig/rabennacksteig-passage.jpg
 alt:'Passage des Rabennacksteigs'                                                  
@@ -139,8 +142,8 @@ caption:'Mai 2025: Die Altstadt von Braubach. %}
 
 {% responsive_image path:assets/imgs/rheinsteig/fels-eichenwald.jpg
 figure:true alt:'Fels und Eichenwald.'                
-caption:'Mai 2025: Komponenten einer tollen Strecke - 
-Fels, Eichenwald und der nächste Blick auf den Rhein in Sicht.' %}                           
+caption:'Mai 2025: Komponenten einer tollen Strecke:  
+Fels, Eichenwald und der nächste Blick auf den Rhein ist bereits in Sicht.' %}                           
 
 ## Fazit
 
@@ -175,8 +178,8 @@ Analog zu unserer Verlobung planen wir auch unsere Hochzeit auf dem Rheinsteig
 mit Essen im Bretanohaus in Oestrich-Winkel.
 
 Zu guter Letzt: unterschätzt nur weil es nicht alpin ist die Höhenmeter nicht!
-Im Summe kommt je nach Strecke einiges an Höhenmetern zusammen 
-und die raschen Wechsel von Auf- und Abstiegen gehen auch auf die Waden.
+Im Summe kommt je nach Strecke einiges an positiven und negativen Höhenmetern zusammen.
+Gerade die teilweise raschen Wechsel von Auf- und Abstiegen gehen auch auf die Waden.
 
 Fußnoten
 
