@@ -104,12 +104,11 @@ Einsatz agiler Methoden wie Agile Project Management in Tranformations-Initiativ
 - [Scrumtisch Essen](https://www.linkedin.com/groups/12701486/),
 jeden vierten Donnerstag im Monat, Anmeldung über xing
 - [agile.ruhr](http://agile.ruhr), die zweitägige (Un)Konferenz im zu Agile, Lean und Arbeit auf Augenhöhe im Ruhrgebiet, seit 2018 gibts auch noch den agile-ruhr Day
-- [Scrumtisch Dortmund](https://www.meetup.com/de-DE/Scrumtisch-Dortmund/), ein Format von Adesso
 - [Der Agile Pott](https://www.meetup.com/de-DE/der-agile-pott/), 
   findet im Duisburger Innenhafen oder auf Zeche Zollverein (Triple-Z) in Essen statt
 - [Liberating Structures Ruhrgebiet](https://www.meetup.com/de-DE/Liberating-Structures-RUHRGEBIET/members/)
 
-## Münster
+## Agile Meetups und Events in Münster
 
 - [Münster macht Agil](https://www.meetup.com/de-DE/muenster-macht-agil/)
 
