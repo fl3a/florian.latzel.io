@@ -6,7 +6,7 @@ tags:
 - Monique
 - Wandern
 - Draussen
-description: 'Fünf Jahre zu zweit auf dem 320 km langen Premiumwanderweg. Unsere
+description: 'Fünf Jahre zu zweit auf dem 320km langen Premiumwanderweg. Unsere
 Highlights und Tipps von Bonn-Mehlem bis Wiesbaden-Biebrich.'
 image: /assets/imgs/2020kw36/rheinsteig-oberes-mittelrheintal-spitznack.jpg
 permalink: /couplegoal-rheinsteig-chronik.html
@@ -15,7 +15,7 @@ permalink: /couplegoal-rheinsteig-chronik.html
 figure:true alt:'August 2020: Rheinsteig Etappe 15, Beim Spitznackfelsen,
 Blick in Richtung Loreley.' %}
 
-Monique und ich sind über Christi Himmelfahrt die beiden uns noch fehlenden Etappen des Rheinsteigs gelaufen
+Monique und ich sind über Christi Himmelfahrt die beiden noch fehlenden Etappen des Rheinsteigs gelaufen
 und haben nun den 320 Kilometer langen Premiumwanderweg[^premium] komplett.
 
 Wir sind den Rheinsteig von Bonn-Mehlem nach Wiesbaden-Biebrich,
@@ -59,7 +59,7 @@ caption:'August 2020: Abstieg nach Lorch. Foto: Monique Wenta, CC BY-SA 4.0' %}
 - Highlights: Die Loreley, die Kletterpartie zum Roßstein, die Übernachtungsstelle
 von Sacki aus Tag 8 wiederzuerkennen
 - Empfehlung: [Straßenwirtschaft Andre Bernd](https://www.weingut-bernd.com/) in Kaub
-und das [Rheinhotel Lamm](https://rheinhotel-lamm.de/) in Assmmannshausen
+und das [Rheinhotel Lamm](https://rheinhotel-lamm.de/) in Assmannshausen
 — eine angenehme Unterkunft mit gutem Preis-Leistungs-Verhältnis und hervorragender Gastronomie.
 
 ## August 2022: Etappe 8 und Koblenz-Ehrenbreitstein bis Osterspai
@@ -90,8 +90,8 @@ Diese Tour haben wir am langen Christi-Himmelfahrtswochenende sehr spontan gepla
 Morgens haben wir realisiert, dass wir ein langes Wochenende vor uns haben, 
 und kurzerhand eine Unterkunft gebucht.
 
-- Etappe 12 ab Osterspai und Etappe 13 mit Übernachung in Kestert
-- Etappe 14. bis St. Goarshausen
+- Etappe 12 ab Osterspai und Etappe 13 mit Übernachtung in Kestert
+- Etappe 14 bis St. Goarshausen
 - Hightlight: Zuweg von Kestert über die Pulsbachklamm
 und der Rabenacksteig (für die Schwindelfreien)
 
@@ -133,8 +133,8 @@ figure:true alt:'Die Aussichtsplattform Rhein-Mosel-Blick Ehrenbreistein.'
 caption:'Mai 2025: Die Aussichtsplattform Rhein-Mosel-Blick im Festungspark Ehrenbreistein.' %}
 
 - Etappe 7 Rengsdorf - Sayn, Übernachtung in Koblenz
-- Etappe 9. Vallendar - Koblenz-Ehrenbreitstein, Übernachtung in Braubach
-- Etappe 12. (nochmal) Braubach - Filsen (Abbruch wegen Gewitter),
+- Etappe 9 Vallendar - Koblenz-Ehrenbreitstein, Übernachtung in Braubach
+- Etappe 12 (nochmal) Braubach - Filsen (Abbruch wegen Gewitter),
 Übernachtung in Kamp-Bornhofen
 - Highlights: Ein zweites Mal den Zecherweg hinter der Marksburg zu laufen
 und insgesamt Etappe 12
