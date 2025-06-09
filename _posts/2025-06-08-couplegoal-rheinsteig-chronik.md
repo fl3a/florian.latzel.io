@@ -15,7 +15,8 @@ permalink: /couplegoal-rheinsteig-chronik.html
 figure:true alt:'August 2020: Rheinsteig Etappe 15, Beim Spitznackfelsen,
 Blick in Richtung Loreley.' %}
 
-Monique und ich sind über Christi Himmelfahrt die beiden noch fehlenden Etappen des Rheinsteigs gelaufen
+Monique und ich sind über Christi Himmelfahrt die beiden noch fehlenden Etappen 
+des [Rheinsteigs](/thema/rheinsteig/) gelaufen
 und haben nun den 320 Kilometer langen Premiumwanderweg[^premium] komplett.
 
 Wir sind den Rheinsteig von Bonn-Mehlem nach Wiesbaden-Biebrich,
