@@ -6,7 +6,7 @@ tags:
 - drush
 - drupal-7.x
 - Drupal
-- Deployment
+- deployment
 - config
 nid: 1591
 permalink: "/multisite-features-unter-drupal-7-x.html"
