@@ -121,7 +121,7 @@ caption:'April 2024: Die Abtei St. Hildegard. Foto: Monique Wenta, CC BY-SA 4.0'
 - Etappe 19 Johannisberg - Kiedrich  + Etappe 20. Etappe Kiedrich - Schlangenbad,
 Übernachtung in Schlangenbad
 - Etappe 21 Schlangenbad - Wiesbaden-Biebrich
-- Highlights: Änderung der Landschaft, Weinberge, Abteien und Kloster
+- Highlights: Änderung der Landschaft, Weinberge, Abteien und Klöster
 - Empfehlung: [Allendorf im Bretanohaus](
 https://allendorf.de/allendorf/brentanohaus/) in Oestrich-Winkel
 
@@ -139,7 +139,13 @@ caption:'Mai 2025: Die Aussichtsplattform Rhein-Mosel-Blick im Festungspark Ehre
 - Highlights: Ein zweites Mal den Zecherweg hinter der Marksburg zu laufen
 und insgesamt Etappe 12
 - Empfehlungen: [Drei Hefen](https://www.dreihefen.de/) in Koblenz,
-[Winzerkeller Schloss Philipsburg](https://winzerkeller-philippsburg.de/) in Braubach
+[Winzerkeller Schloss Philipsburg](https://winzerkeller-philippsburg.de/) in Braubach,
+Abendessen im [kleinen Wirtshaus](
+https://www.das-kleine-wirtshaus.de/) in Kamp-Bornhofen 
+und danach ein Glas Wein auf der Terrasse des [Landhotels Becker](
+https://rheinhotelbecker.de/).
+Achtung: Diese Lokale liegen ca. 2 km Fußweg vom Bahnhof Kamp-Bornhofen entfernt.
+
 
 {% responsive_image path:assets/imgs/rheinsteig/brauchbach-altstadt-fachwerk.jpg
 figure:true alt:'Fachwerkhäuser in der Altstadt von Braubach'
