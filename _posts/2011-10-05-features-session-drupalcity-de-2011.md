@@ -5,7 +5,7 @@ tags:
 - features
 - Entwicklung
 - Drupalcamp
-- Deployment
+- deployment
 nid: 1077
 layout: post
 title: features+ Session @ drupalcity.de 2011
