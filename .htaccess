@@ -100,7 +100,7 @@ RedirectMatch 301 ^/sitemap$ /sitemap.xml
 RedirectMatch 301 /sitemap.txt /sitemap.xml
 
 # 301er: Drupal book pages
-RedirectMatch 301 ^(.*)/gnupg-micro-howto/(.*)$ /gnupg-micro-howto.html
+# RedirectMatch 301 ^(.*)/gnupg-micro-howto/(.*)$ /gnupg-micro-howto.html
 RedirectMatch 301 ^(.*)/git-gitosis-gitweb-the-debian-way/(.*) /git-gitosis-gitweb-the-debian-way.html
 RedirectMatch 301 ^(.*)/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/(.*)$ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html	
 
