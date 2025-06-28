@@ -1,4 +1,5 @@
 ---
+sitemap: false
 tags:
 - Überwachung
 - Stasi 2.0
