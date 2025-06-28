@@ -1,4 +1,5 @@
 ---
+sitemap: false
 title: Design Studio Punk Deluxe
 tags:
 - "/dev/null"

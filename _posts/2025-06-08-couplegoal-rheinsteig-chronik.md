@@ -10,6 +10,7 @@ description: 'Fünf Jahre zu zweit auf dem 320km langen Premiumwanderweg. Unsere
 Highlights und Tipps von Bonn-Mehlem bis Wiesbaden-Biebrich.'
 image: /assets/imgs/2020kw36/rheinsteig-oberes-mittelrheintal-spitznack.jpg
 permalink: /couplegoal-rheinsteig-chronik.html
+excerpt: 'Excerpt'
 ---
 {% responsive_image path:assets/imgs/2020kw36/rheinsteig-oberes-mittelrheintal-spitznack.jpg
 figure:true alt:'August 2020: Rheinsteig Etappe 15, Beim Spitznackfelsen,

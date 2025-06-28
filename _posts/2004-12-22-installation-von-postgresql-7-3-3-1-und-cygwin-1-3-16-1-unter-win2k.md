@@ -1,4 +1,5 @@
 ---
+sitemap: false
 title: Installation von postgresql 7.3.3-1 und cygwin 1.3.16-1 unter Win2k
 layout: post
 date: 2004-12-22 12:19
