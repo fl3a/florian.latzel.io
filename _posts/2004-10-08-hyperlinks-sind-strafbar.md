@@ -1,4 +1,5 @@
 ---
+sitemap: false
 tags:
 - Links
 - Köln

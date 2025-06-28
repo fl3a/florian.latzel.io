@@ -1,4 +1,5 @@
 ---
+sitemap: false
 title: install_postgres0.07.sh
 layout: post
 date: 2004-12-22 11:18
