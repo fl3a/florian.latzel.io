@@ -40,8 +40,6 @@
 
 ErrorDocument 404 /404.html
  
-# BEGIN Rules
-
 # Domain
 # Redirect all requests with HTTP_HOST != florian.latzel.io to florian.latzel.io
 RewriteCond %{HTTP_HOST} !^florian\.latzel\.io$
@@ -65,16 +63,21 @@ RedirectMatch gone ^/fotos/(.*)$
 # 410er Pagination
 RedirectMatch gone ^/page/(.*)
 
-Redirect gone /node/1608
-Redirect gone /drush-die-drupal-shell/drushrc-php.html
-Redirect gone /thema/drupalcamp-ruhr/
-Redirect gone /wiki.ubuntuusers.de/GnuPG
-
 # 410er Tags
 RedirectMatch gone ^/taxonomy/term/(.*)$ 
 RedirectMatch gone ^/tags/(.*)$ 
 
+# 410 Misc
+
+# Drupal-Projekte in Git
+Redirect gone /node/1608
+Redirect gone /drush-die-drupal-shell/drushrc-php.html
+Redirect gone /thema/drupalcamp-ruhr/
+Redirect gone /wiki.ubuntuusers.de/GnuPG
 Redirect gone /rss.xml
+Redirect gone /2008/11/28/gnupg-micro-howto/die-schluesselerstellung/wiki.ubuntuusers.de/wiki.ubuntuusers.de/wiki.ubuntuusers.de/wiki.ubuntuusers.de/GnuPG
+Redirect gone /2008/09/27/web2nulliger-projektleiter-sven-plaggemeier-ueber-den-launch-von-beta-koeln-de.html 
+Redirect gone /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-in-einer-multisite-umgebung/multisite-features-unter-drupal-7-x-1
 
 #########
 # 301er #
@@ -89,22 +92,29 @@ Redirect 301 /blogs/floh/feed /feed.xml
 
 # 301er: Drupal book pages 
 
-# git, gitosis...
+# Git, Gitosis, Gitweb (the Debian way)
 Redirect 301 /node/990 /git-gitosis-gitweb-the-debian-way.html#ssh-port-und-git-urls
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /git-gitosis-gitweb-the-debian-way/installation-und-einrichtung-von-gitosis/ssh-port-und-git-urls.html 
 
-# gpg micro howto
+# GnuPG Micro Howto
+Redirect 301 /gpg-micro-howto.html /gnupg-micro-howto.html
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/679 /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen
 Redirect 301 /node/679 /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen
 Redirect 301 /book/export/html/685 /gnupg-micro-howto.html#gnupggpg-agentconf
 Redirect 301 /2008/11/28/gnupg-micro-howto/die-schluesselerstellung/einen-subkey-erstellen.html /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen
+Redirect 301 /gnupg-micro-howto/konfiguration.html /gnupg-micro-howto.html#konfiguration-von-gnupg
+Redirect 301 /gnupg-gpg-micro-howto/erstellung-eines-gnupg-schluesselpaares.html /gnupg-micro-howto.html#erstellung-eines-gnupg-schlüsselpaares
+Redirect 301 /2008/11/27/gnupg-micro-howto/arbeiten-mit-gnupg/arbeiten-mit-private-keys.html /gnupg-micro-howto.html
 
-# Multisite
+# Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
 Redirect 301 /book/export/html/702 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#drupals-changelogtxt-absichern
 Redirect 301 /node/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#drupals-cronphp-absichern
+Redirect 301 /2008/09/30/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/konfiguration/neustart-von-apache /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#neustart-von-apache2
+Redirect /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/die-drupal-multisite-umgebung.html /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#die-drupal-multisite-umgebung
 
-# 301er Posts
+# 301er: Posts
 
 # Meetup Sammlung
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html 
@@ -113,3 +123,19 @@ Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldor
 # Posts
 Redirect 301 /2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-angeben.html /2014/11/26/svnssh-unter-linux-username-bei-svn-checkout-angeben.html
 Redirect 301 /ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren /2015/03/01/ueberprfung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren.html
+Redirect /2010/12/11/arbeit-sparen-mit-cluster-ssh.html /2010/12/10/arbeit-sparen-mit-cluster-ssh.html
+Redirect 301 /drupal-und-apache-2-4-x-unter-debian-testing-jessie /2014/10/20/drupal-und-apache-2-4-x-unter-debian-testing-jessie.html
+Redirect 301 /eine-einfuehrung-scrum-vortrag-auf-dem-drupalcamp-muenchen-2016.html /scrum-45-minuten-drupalcamp-muenchen-2016.html
+Redirect 301 /scrum-in-45-minuten-drupalcamp-muenchen-2016.html /scrum-45-minuten-drupalcamp-muenchen-2016.html
+Redirect 301 /zitate/aboutblank.html /2008/10/09/aboutblank.html
+Redirect 301 /ein-experiment-drupalcamp-goes-barcamp /2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html
+Redirect 301 /scrum-starter-kit /2018/03/03/scrum-starter-kit.html 
+Redirect 301 /php-properties-klassenvariablen-doxygen-dokumentieren.html /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html
+Redirect 301 /php-properties-klassenvariablen-doxygen-dokumentieren /2014/10/10/php-properties-klassenvariablen-in-doxygen-dokumentieren.html
+Redirect 301 /git-gitosis-gitweb-the-debian-way/konfiguraton-von-gitweb/virtual-host-fuer-gitweb-anlegen/htaccess-mit-authentifizierung-an-ein /2010/02/08/htaccess-mit-authentifizierung-an-einer-mysql-datenbank-drupal.html
+Redirect 301 /drupal-und-apache-2-4-x-unter-debian-testing-jessie /2014/10/20/drupal-und-apache-2-4-x-unter-debian-testing-jessie.html
+
+# 301er: Misc
+
+# Bilder
+Redirect 301 /assets/imgs/2010-drupaldevdays-munich-luckow-fl3a-scrum-presentation.jpg /assets/imgs/florian-latzel-stephan-luckow-scrum-drupaldevdays-munich-2010.jpg
