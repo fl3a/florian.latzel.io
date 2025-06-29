@@ -1,0 +1,5 @@
+Contact: mailto:florian@latzel.io
+Expires: 2025-12-31T23:59:00.000Z
+Preferred-Languages: de, en
+Encryption: https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb
+
