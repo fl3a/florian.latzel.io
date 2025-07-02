@@ -46,30 +46,25 @@ RewriteCond %{HTTP_HOST} !^florian\.latzel\.io$
 RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 
 
-######################
-# 403er, avoid Scans #
-######################
+##############################
+# 403er, Blockiere Bot-Scans #
+##############################
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  # Umgebungskonfig & sensible Dateien
+  RewriteCond %{REQUEST_URI} "\.(env|git|aws|svn|hg|bak|old|sql|tar|gz|zip|swp|ini|log)$" [NC,OR]
+  RewriteCond %{REQUEST_URI} "(composer\.json|composer\.lock|yarn\.lock|package\.json|appsettings\.json|web\.config)" [NC,OR]
 
-  # envs, Konfigurationen und Repos
-  RewriteCond %{REQUEST_URI} (^|/)(\.env|\.git|\.aws|\.svn|\.hg|\.DS_Store|\.idea) [NC,OR]
-  RewriteCond %{REQUEST_URI} (composer\.json|composer\.lock|yarn\.lock|package\.json) [NC,OR]
-  RewriteCond %{REQUEST_URI} appsettings\.json [NC,OR]
-  RewriteCond %{REQUEST_URI} wp-config\.php [NC,OR]
-  RewriteCond %{REQUEST_URI} config\.(php|yaml|yml|json|bak|old|txt) [NC,OR]
+  # WordPress & Joomla
+  RewriteCond %{REQUEST_URI} "(^/)?(wp-admin|wp-login\.php|wp-content|wp-includes|xmlrpc\.php|joomla)" [NC,OR]
 
-  # WordPress / Joomla / CMS
-  RewriteCond %{REQUEST_URI} ^/(wp-admin|wp-login\.php|wp-content|wp-includes|xmlrpc\.php|wordpress|joomla) [NC,OR]
+  # Install-/Setup-Zugänge
+  RewriteCond %{REQUEST_URI} "(setup|install|phpinfo|info|adminer)\.php" [NC,OR]
 
-  # PHP-Info, Adminer, Exploits
-  RewriteCond %{REQUEST_URI} (phpinfo|info|adminer|test|setup|install)\.php [NC,OR]
+  # Framework-Verzeichnisse & Backupordner
+  RewriteCond %{REQUEST_URI} "(/vendor/|/storage/|/uploads/|/logs/|/tmp/|/backup|/backups|/dump)" [NC]
 
-  # Frameworks & Backups
-  RewriteCond %{REQUEST_URI} (/vendor/|/storage/|/backups/|/logs/|/old/|/tmp/|/uploads/) [NC,OR]
-  RewriteCond %{REQUEST_URI} \.(bak|old|zip|tar|gz|sql|swp|orig|save)$ [NC]
-
-  # Gebe 403 zurück
+  # Gebe 403 Forbidden zurück (nicht 404)
   RewriteRule .* - [F,L]
 </IfModule>
 
