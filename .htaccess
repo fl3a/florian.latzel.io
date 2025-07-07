@@ -112,6 +112,7 @@ RedirectMatch 301 ^/blog/(.*)$ /$1
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
 Redirect 301 /blogs/floh/feed /feed.xml
+Redirect 301 /rss.xml /feed.xml
 
 # 301er: Drupal book pages 
 
