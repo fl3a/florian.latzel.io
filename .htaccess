@@ -74,21 +74,17 @@ RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 
 # 410er Bilder
 # Alte Bild URLs via responsive_image Plugin mit 410
-RedirectMatch gone /assets/imgs/resized/[48]00/(.*)$
-# Umstellung Responsive image nach JPT (kein 301er möglich)
-RedirectMatch gone ^/assets/imgs/resized/(.*)$
+RedirectMatch gone ^/assets/imgs/resized/
 # Änderung in JPT Setting (output)
 RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
 # Drupal files/images
-RedirectMatch gone ^/sites/(.*)/files/(.*)$	
-RedirectMatch gone ^/fotos/(.*)$	
-
+Redirect gone /sites/netzaffe.de/files/images/
+RedirectMatch gone ^/fotos/	
 # 410er Pagination
 RedirectMatch gone ^/page/(.*)
 
-# 410er Tags
-RedirectMatch gone ^/taxonomy/term/(.*)$ 
-RedirectMatch gone ^/tags/(.*)$ 
+# Drupal taxonomy
+RedirectMatch gone ^/taxonomy/term/ 
 
 # 410 Misc
 
@@ -107,12 +103,20 @@ Redirect gone /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-in
 #########
 
 # Drupal blog urls
-RedirectMatch 301 ^/blog/(.*)$ /$1
+RewriteRule ^blog/(.*)$ /$1 [R=301,L]
+
+# /tags/
+RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
+RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
 
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
 Redirect 301 /blogs/floh/feed /feed.xml
 Redirect 301 /rss.xml /feed.xml
+
+Redirect 301 /themen /themen.html
 
 # 301er: Drupal book pages 
 
@@ -130,14 +134,15 @@ Redirect 301 /book/export/html/685 /gnupg-micro-howto.html#gnupggpg-agentconf
 Redirect 301 /2008/11/28/gnupg-micro-howto/die-schluesselerstellung/einen-subkey-erstellen.html /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen
 Redirect 301 /gnupg-micro-howto/konfiguration.html /gnupg-micro-howto.html#konfiguration-von-gnupg
 Redirect 301 /gnupg-gpg-micro-howto/erstellung-eines-gnupg-schluesselpaares.html /gnupg-micro-howto.html#erstellung-eines-gnupg-schlüsselpaares
-Redirect 301 /2008/11/27/gnupg-micro-howto/arbeiten-mit-gnupg/arbeiten-mit-private-keys.html /gnupg-micro-howto.html
+Redirect 301 /2008/11/27/gnupg-micro-howto/ /gnupg-micro-howto.html
+
 
 # Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
 Redirect 301 /book/export/html/702 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#drupals-changelogtxt-absichern
 Redirect 301 /node/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#drupals-cronphp-absichern
-Redirect 301 /2008/09/30/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/konfiguration/neustart-von-apache /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#neustart-von-apache2
 Redirect /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/die-drupal-multisite-umgebung.html /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#die-drupal-multisite-umgebung
-
+Redirect 301 /2008/09/30/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 # 301er: Posts
 
 # Meetup Sammlung
