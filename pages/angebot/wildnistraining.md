@@ -26,7 +26,7 @@ Inhalte unter anderen:
 - [Bowdrill – Feuermachen ohne Feuerzeug lernen](
 {% link pages/angebot/bowdrill-seminar.md %})
 - [Leadershiptraining goes wild](
-{% link pages/angebot/leadershiptraining-goes-wild.md%})
+{% link pages/angebot/leadershiptraining-goes-wild.md %})
 
 ## Artikel zum Thema Wildnistraining
 
