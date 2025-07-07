@@ -123,10 +123,9 @@ Redirect 301 /themen /themen.html
 # Git, Gitosis, Gitweb (the Debian way)
 Redirect 301 /node/990 /git-gitosis-gitweb-the-debian-way.html#ssh-port-und-git-urls
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
-Redirect 301 /git-gitosis-gitweb-the-debian-way/installation-und-einrichtung-von-gitosis/ssh-port-und-git-urls.html 
+Redirect 301 /git-gitosis-gitweb-the-debian-way/installation-und-einrichtung-von-gitosis/ssh-port-und-git-urls.html /git-gitosis-gitweb-the-debian-way.html#ssh-port-und-git-urls
 
 # GnuPG Micro Howto
-Redirect 301 /gpg-micro-howto.html /gnupg-micro-howto.html
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/679 /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen
 Redirect 301 /node/679 /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen
