@@ -4,6 +4,7 @@ layout: page
 permalink: /seminare/bowdrill-feuermachen.html
 description: "Lerne im Bowdrill-Seminar, Feuer ohne Feuerzeug zu entfachen! Perfekt für Bushcraft, Survival & Outdoor-Abenteuer. Jetzt Platz sichern!"
 image: /assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
+last_modified_at: 2025-07-11                                                    
 --- 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png 
@@ -111,11 +112,12 @@ deine eigene Säge oder dein eigenes Beil mitbringen.
 
 ### Termine & Anmeldung
 
-Aktuell gibt es **keine festen Termine** für öffentliche Seminare.
+Wann & Wo?
 
-Du möchtest beim nächsten Bowdrill-Seminar dabei sein 
-oder hast Interesse an einem **individuellen Training**?
+📅 Samstag, 11. Oktober 2025\
+🕒 11:00 – ca. 15:00 Uhr (4 Stunden)\
+📍 Decksteiner Weiher, Köln\
+[Zur Anmeldung](
+https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0/)
 
-📩 Schreib mir einfach eine Mail an [florian@latzel.io](mailto:florian@latzel.io), 
-damit ich dich in den Verteiler aufnehme 
-oder wir gemeinsam einen persönlichen Termin finden!
+
