@@ -13,6 +13,7 @@ tags:
 description: "Lerne im Bowdrill-Seminar 2025 in Köln die Kunst des Feuermachens ohne Feuerzeug. Perfekt für Bushcraft-, Survival- und Outdoor-Fans!"  
 image: /assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
 permalink: /bowdrill-seminare-koeln-2025-feuermachen.html
+last_modified_at: 2025-07-11
 --- 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png 
@@ -61,12 +62,26 @@ Teilnahme ab 18 Jahren oder in Begleitung eines Erziehungs- bzw. Aufsichtsberech
 📍 **Ort:** Decksteiner Weiher, Köln  
 🕒 **Dauer:** ca. 4 Stunden  
 
-- 📅 **13.04., 11:00 Uhr** – [Jetzt Platz sichern!](
-https://rausgegangen.de/events/bushcraft-feuerbohrer-kopie-1/)  
-- 📅 **27.04., 11:00 Uhr** – [Jetzt Platz sichern!](
-https://rausgegangen.de/events/bushcraft-feuerbohrer-kopie-0/)  
-- 📅 **18.05., 11:00 Uhr** – [Jetzt Platz sichern!](
-https://rausgegangen.de/events/bushcraft-feuerbohrer-0/)  
+## Termine 2025
+
+📅 **Samstag, 11. Oktober 2025**  
+🕒 **11:00 – ca. 15:00 Uhr (4 Stunden)**  
+📍 **Decksteiner Weiher, Köln**
+
+**Hinweis**: Dieser Termin wird unabhängig von Globetrotter und Naturzeitclub  
+von mir persönlich in Kooperation mit Julian organisiert.
+
+👉 [**Jetzt Platz sichern**](
+https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0)
+
+
+**Vergangene Termine**
+
+Diese Termine fanden bereits statt:
+
+- 13\. April 2025 – Decksteiner Weiher, Köln  
+- 27\. April 2025 – Decksteiner Weiher, Köln  
+- 18\. Mai 2025 – Decksteiner Weiher, Köln
 
 ## Dein Trainer-Team  
 
