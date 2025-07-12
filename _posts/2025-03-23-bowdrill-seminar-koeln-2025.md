@@ -71,13 +71,13 @@ Teilnahme ab 18 Jahren oder in Begleitung eines Erziehungs- bzw. Aufsichtsberech
 **Hinweis**: Dieser Termin wird unabhängig von Globetrotter und Naturzeitclub  
 von mir persönlich in Kooperation mit Julian organisiert.
 
-👉 [**Jetzt Platz sichern**](
-https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0)
+👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!             
+                                                                                
+👉 [**Jetzt anmelden und dabei sein!**](                                        
+https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0/) 
 
 
 **Vergangene Termine**
-
-Diese Termine fanden bereits statt:
 
 - 13\. April 2025 – Decksteiner Weiher, Köln  
 - 27\. April 2025 – Decksteiner Weiher, Köln  

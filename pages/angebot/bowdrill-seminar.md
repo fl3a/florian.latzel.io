@@ -117,7 +117,10 @@ Wann & Wo?
 📅 Samstag, 11. Oktober 2025\
 🕒 11:00 – ca. 15:00 Uhr (4 Stunden)\
 📍 Decksteiner Weiher, Köln\
-[Zur Anmeldung](
+
+👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!
+
+👉 [**Jetzt anmelden und dabei sein!**](
 https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0/)
 
 
