@@ -116,7 +116,7 @@ Wann & Wo?
 
 📅 Samstag, 11. Oktober 2025\
 🕒 11:00 – ca. 15:00 Uhr (4 Stunden)\
-📍 Decksteiner Weiher, Köln\
+📍 Decksteiner Weiher, Köln
 
 👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!
 

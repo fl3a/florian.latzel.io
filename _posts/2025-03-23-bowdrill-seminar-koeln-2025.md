@@ -98,6 +98,6 @@ Das macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
 {% link pages/angebot/bowdrill-seminar.md %}).  
 Mehr über Julian erfährst du auf Instagram: [@lone_wolf_and_cubs](https://www.instagram.com/lone_wolf_and_cubs/).
 
-➡ **Sichere dir jetzt deinen Platz und erlebe das ursprüngliche Feuermachen  
-hautnah!**  
+👉 [**Sichere dir jetzt deinen Platz und erlebe das ursprüngliche Feuermachen  
+hautnah!**](https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0/)  
 
