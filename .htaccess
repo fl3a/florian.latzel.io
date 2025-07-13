@@ -72,14 +72,12 @@ RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 # 410er #
 #########
 
-# 410er Bilder
 # Alte Bild URLs via responsive_image Plugin mit 410
 RedirectMatch gone ^/assets/imgs/resized/
-# Änderung in JPT Setting (output)
-RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
-# Drupal files/images
-Redirect gone /sites/netzaffe.de/files/images/
-RedirectMatch gone ^/fotos/	
+# Drupal files und images
+RewriteRule ^sites/netzaffe\.de/files/.*$ - [G,L]
+# Drupal image module
+RewriteRule ^fotos/.*$ - [G,L]
 # 410er Pagination
 RedirectMatch gone ^/page/(.*)
 
@@ -92,15 +90,16 @@ RedirectMatch gone ^/taxonomy/term/
 Redirect gone /node/1608
 Redirect gone /drush-die-drupal-shell/drushrc-php.html
 Redirect gone /thema/drupalcamp-ruhr/
-Redirect gone /wiki.ubuntuusers.de/GnuPG
-Redirect gone /rss.xml
-Redirect gone /2008/11/28/gnupg-micro-howto/die-schluesselerstellung/wiki.ubuntuusers.de/wiki.ubuntuusers.de/wiki.ubuntuusers.de/wiki.ubuntuusers.de/GnuPG
 Redirect gone /2008/09/27/web2nulliger-projektleiter-sven-plaggemeier-ueber-den-launch-von-beta-koeln-de.html 
 Redirect gone /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-in-einer-multisite-umgebung/multisite-features-unter-drupal-7-x-1
+Redirect gone /drush-die-drupal-shell/weiterfuehrende-links-zu-drush.html
 
 #########
 # 301er #
 #########
+
+# Änderung in JPT Setting (output)
+RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
 
 # Drupal blog urls
 RewriteRule ^blog/(.*)$ /$1 [R=301,L]
@@ -110,6 +109,7 @@ RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
+RewriteRule ^tags/([^/]+)/page/[0-9]+/?$ /thema/$1/ [R=301,L]
 
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
@@ -123,32 +123,42 @@ Redirect 301 /themen /themen.html
 # Git, Gitosis, Gitweb (the Debian way)
 Redirect 301 /node/990 /git-gitosis-gitweb-the-debian-way.html#ssh-port-und-git-urls
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
-Redirect 301 /git-gitosis-gitweb-the-debian-way/installation-und-einrichtung-von-gitosis/ssh-port-und-git-urls.html /git-gitosis-gitweb-the-debian-way.html#ssh-port-und-git-urls
+Redirect 301 /book/export/html/987 /git-gitosis-gitweb-the-debian-way.html
+
+RewriteRule ^git-gitosis-gitweb-the-debian-way/.*$ /git-gitosis-gitweb-the-debian-way.html [R=301,L]
 
 # GnuPG Micro Howto
+Redirect 301 /node/679 /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/679 /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen
-Redirect 301 /node/679 /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen
 Redirect 301 /book/export/html/685 /gnupg-micro-howto.html#gnupggpg-agentconf
-Redirect 301 /2008/11/28/gnupg-micro-howto/die-schluesselerstellung/einen-subkey-erstellen.html /gnupg-micro-howto.html#unterschlüssel-mehrere-emailadressen-mit-einem-gpg-key-nutzen
-Redirect 301 /gnupg-micro-howto/konfiguration.html /gnupg-micro-howto.html#konfiguration-von-gnupg
-Redirect 301 /gnupg-gpg-micro-howto/erstellung-eines-gnupg-schluesselpaares.html /gnupg-micro-howto.html#erstellung-eines-gnupg-schlüsselpaares
-Redirect 301 /2008/11/27/gnupg-micro-howto/ /gnupg-micro-howto.html
+Redirect 301 /book/export/html/680 /gnupg-micro-howto.html#ein-gpg-widerrufs-revoke-zertifikat-erstellen
+
+RewriteRule ^2008/11/28/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
+RewriteRule ^gupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 
 
 # Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
-Redirect 301 /book/export/html/702 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#drupals-changelogtxt-absichern
 Redirect 301 /node/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#drupals-cronphp-absichern
-Redirect /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/die-drupal-multisite-umgebung.html /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#die-drupal-multisite-umgebung
-Redirect 301 /2008/09/30/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/702 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#drupals-changelogtxt-absichern
+Redirect 301 /book/export/html/717 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#drupal-update-in-8-schritten
+Redirect 301 /book/export/html/529 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html#php-memory_limit-hochsetzen
+Redirect 301 /book/export/html/522 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/523 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /2009/02/05/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-einer-multisiteumgebung.ht /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+
+RewriteRule ^drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/.*$ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html [R=301,L]
+
+# Multisite Features unter Drupal 7.x
+Redirect 301 /book/export/html/1591 /multisite-features-unter-drupal-7-x.html
+
 # 301er: Posts
 
 # Meetup Sammlung
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html 
 Redirect 301 /2016-10-29-agile-scrum-lean-und-kanban-events-in-kln-bonn-dsseldorf-und-umgebung /agile-meetups-events-koeln-nrw.html
 
-# Posts
+# Andere Posts
 Redirect 301 /2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-angeben.html /2014/11/26/svnssh-unter-linux-username-bei-svn-checkout-angeben.html
 Redirect 301 /ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren /2015/03/01/ueberprfung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren.html
 Redirect /2010/12/11/arbeit-sparen-mit-cluster-ssh.html /2010/12/10/arbeit-sparen-mit-cluster-ssh.html
@@ -167,6 +177,10 @@ Redirect 301 /2009/01/15/schn-sick-on-the-right-side-of-rhine.html /2009/01/15/s
 Redirect 301 /2009/04/24/codefolding-fuer-smb-conf-in-vim.html /2009/04/24/codefolding-fr-smb-conf-in-vim.html
 Redirect 301 /2019/04/05/daily-scrum-daily-questions.html /2019/04/05/daily-scrum-fragen.html
 Redirect 301 /2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-angeben.html /2014/11/26/svnssh-unter-linux-username-bei-svn-checkout-angeben.html
+Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-psm1 /neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html
+Redirect 301 /2012/11/16/drush-sql-dump-hold.html /2012/11/17/drush-sql-dump-hold.html
+Redirect 301 /node/515 /2004/12/22/install-postgres-0-07-sh.html
+Redirect 301 /2020/04/07/responsive-image.html /2020/04/07/co2-sparen-responsive-images-lazyload-jekyll.html
 
 # Pages
 Redirect 301 /florian-latzel.html /ueber-mich.html
