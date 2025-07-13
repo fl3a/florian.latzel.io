@@ -51,21 +51,61 @@ RewriteRule ^(.*)$ https://florian.latzel.io/$1 [L,R=301]
 ##############################
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  # Umgebungskonfig & sensible Dateien
-  RewriteCond %{REQUEST_URI} "\.(env|git|aws|svn|hg|bak|old|sql|tar|gz|zip|swp|ini|log)$" [NC,OR]
-  RewriteCond %{REQUEST_URI} "(composer\.json|composer\.lock|yarn\.lock|package\.json|appsettings\.json|web\.config)" [NC,OR]
 
-  # WordPress & Joomla
-  RewriteCond %{REQUEST_URI} "(^/)?(wp-admin|wp-login\.php|wp-content|wp-includes|xmlrpc\.php|joomla)" [NC,OR]
+  # Kritische Dateien
+  RewriteRule ^\.env$ - [F,L]
+  RewriteRule ^\.env\..*$ - [F,L]
+  RewriteRule ^\.git.*$ - [F,L]
+  RewriteRule ^phpinfo\.php$ - [F,L]
+  RewriteRule ^adminer\.php$ - [F,L]
+  RewriteRule ^xmlrpc\.php$ - [F,L]
+  RewriteRule ^wp-login\.php$ - [F,L]
+  RewriteRule ^wp-config.*$ - [F,L]
+  RewriteRule ^composer\.(json|lock)$ - [F,L]
+  RewriteRule ^package(-lock)?\.json$ - [F,L]
+  RewriteRule ^config\.(php|ya?ml)$ - [F,L]
 
-  # Install-/Setup-Zugänge
-  RewriteCond %{REQUEST_URI} "(setup|install|phpinfo|info|adminer)\.php" [NC,OR]
+  # Verzeichnisse
+  RewriteRule ^vendor/ - [F,L]
+  RewriteRule ^uploads/ - [F,L]
+  RewriteRule ^storage/ - [F,L]
+  RewriteRule ^tmp/ - [F,L]
+  RewriteRule ^logs?/ - [F,L]
+  RewriteRule ^cache/ - [F,L]
+  RewriteRule ^backup/ - [F,L]
+  RewriteRule ^ALFA_DATA/ - [F,L]
+  RewriteRule ^aws/ - [F,L]
+  RewriteRule ^\.aws/ - [F,L]
+  RewriteRule ^\.vscode/ - [F,L]
+  RewriteRule ^\.ftp/ - [F,L]
+  RewriteRule ^cgi-bin/ - [F,L]
+  RewriteRule ^images/ - [F,L]
 
-  # Framework-Verzeichnisse & Backupordner
-  RewriteCond %{REQUEST_URI} "(/vendor/|/storage/|/uploads/|/logs/|/tmp/|/backup|/backups|/dump)" [NC]
+  # WordPress, CMS und Frameworks
+  RewriteRule ^wp-admin/ - [F,L]
+  RewriteRule ^wp-content/ - [F,L]
+  RewriteRule ^wp-includes/ - [F,L]
+  RewriteRule ^wp/ - [F,L]
+  RewriteRule ^wordpress/ - [F,L]
+  RewriteRule ^comment/ - [F,L]
+  RewriteRule ^old/ - [F,L]
+  RewriteRule ^new/ - [F,L]
+  RewriteRule ^main/ - [F,L]
+  RewriteRule ^core/ - [F,L]
+  RewriteRule ^comment/ - [F,L]
+  RewriteRule ^laravel/ - [F,L]
+  RewriteRule ^comment/ - [F,L]
+  RewriteRule ^xmlrpc\.php$ - [F,L]
 
-  # Gebe 403 Forbidden zurück (nicht 404)
-  RewriteRule .* - [F,L]
+  # Weitere bekannte Scanner-Ziele
+  RewriteRule ^dashboard/phpinfo\.php$ - [F,L]
+  RewriteRule ^index\.php\?m=admin$ - [F,L]
+  RewriteRule ^shell\.php$ - [F,L]
+  RewriteRule ^moon\.php$ - [F,L]
+  RewriteRule ^log\.php$ - [F,L]
+  RewriteRule ^404\.php$ - [F,L]
+  RewriteRule ^sftp-config\.json$ - [F,L]
+  RewriteRule ^comment/reply/?$ - [F,L]
 </IfModule>
 
 #########
