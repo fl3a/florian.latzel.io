@@ -11,12 +11,13 @@ in Köln, Bonn, Düsseldorf, Ruhrgebiet und Umgebung](
 {% post_url  2016-10-29-agile-scrum-lean-und-kanban-events-in-koeln-bonn-duesseldorf-und-umgebung %}) (seit 2016)
 - Das [GnuPG Micro Howto](
 {% post_url  2008-11-26-gnupg-micro-howto %}) (seit 2008)
-- [Rheinsteig](/thema/rheinsteig/) als Couple Goal (seit 2019)  
 
 ## Vergangene Projekte
 
+- [Rheinsteig als Couple Goal](
+{% post_url 2025-06-08-couplegoal-rheinsteig-chronik %})  
 - [Natursteig Sieg](
-{% post_url 2022-09-12-natursteig-sieg %}) (2017 - 2022)
+{% post_url 2022-09-12-natursteig-sieg %}) 
 - Gründungsmitglied der genossenschaftlich geführten und [holokratisch](
 https://rogerpfaff.de/holacracy/) strukturierten  
 Digitalagentur [Reinblau](/thema/reinblau/) (2012 - 2020)
