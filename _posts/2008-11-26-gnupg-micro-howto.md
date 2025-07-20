@@ -1211,14 +1211,12 @@ für weitere Details
 
 ## Weiterführende Artikel
 
+- [Einfach erklärt: E-Mail-Verschlüsselung mit PGP](
+https://www.heise.de/ct/artikel/Einfach-erklaert-E-Mail-Verschluesselung-mit-PGP-4006652.html)
 - [GNU Privacy Guard - Wikipedia](
 http://de.wikipedia.org/wiki/GNU_Privacy_Guard)
 - [Das GNU-Handbuch zum Schutze der Privatsphäre (2000)](
 https://www.gnupg.org/gph/de/manual/book1.html)
-- [Einfach erklärt: E-Mail-Verschlüsselung mit PGP](
-https://www.heise.de/ct/artikel/Einfach-erklaert-E-Mail-Verschluesselung-mit-PGP-4006652.html)
-- [Die c't-Krypto-Kampagne - Abhörsichere E-Mail mit PGP](
-https://www.heise.de/security/dienste/Krypto-Kampagne-2111.html)
 - [GnuPG in der Debian-Referenz](
 https://www.debian.org/doc/manuals/debian-reference/ch10.de.html#_data_security_infrastructure)
 - [GnuPG auf ubuntuusers.de](https://wiki.ubuntuusers.de/GnuPG)
