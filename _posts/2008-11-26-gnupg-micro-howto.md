@@ -825,13 +825,13 @@ Das neue Verfallsdatum wird angezeigt:
 
 Das Ganze muss noch mit `j` bestätigt werden.
 
-
-    Ist dies richtig? (j/N) j
-
 Halte die Passphrase deines Schlüssels bereit,
 bei der Änderung erscheint ein Dialog zur Eingabe.
 
-Danach folgt die Ausgabe, in der das neue Verfallsdatums zu sehen ist:
+
+    Ist dies richtig? (j/N) j
+
+Danach folgt die Ausgabe, in der das neue Verfallsdatums des Hauptschlüssels zu sehen ist:
 
 
     sec  rsa4096/0A341CC78C16A22B
