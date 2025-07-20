@@ -796,6 +796,120 @@ Mit dem folgendem Befehl wird Keyring importiert:
 
 	gpg --import <Datei>
 
+### Verfallsdatum des GPG-Schlüssels und seiner Unterschlüssel ändern
+
+    gpg --edit-key florian@latzel.io
+
+Wir starten mit `expire`, um **Verfallsdatums des Hauptschlüssels zu ändern**.
+
+    gpg> expire
+
+Nun werden die Verfallsdatum-Optionen erklärt
+
+    Ändern des Verfallsdatums des Hauptschlüssels.
+    Bitte wählen Sie, wie lange der Schlüssel gültig bleiben soll.
+            0 = Schlüssel verfällt nie
+        <n>  = Schlüssel verfällt nach n Tagen
+        <n>w = Schlüssel verfällt nach n Wochen
+        <n>m = Schlüssel verfällt nach n Monaten
+        <n>y = Schlüssel verfällt nach n Jahren
+
+Der Schlüssel soll in 3 Jahren verfallen: `3y`
+
+
+    Wie lange bleibt der Schlüssel gültig? (0) 3y
+
+Das neue Verfallsdatum wird angezeigt:
+
+    Key verfällt am Mi 19 Jul 2028 10:23:26 CEST
+
+Das Ganze muss noch mit `j` bestätigt werden.
+
+
+    Ist dies richtig? (j/N) j
+
+Halte die Passphrase deines Schlüssels bereit,
+bei der Änderung erscheint ein Dialog zur Eingabe.
+
+Danach folgt die Ausgabe, in der das neue Verfallsdatums zu sehen ist:
+
+
+    sec  rsa4096/0A341CC78C16A22B
+        erzeugt: 2023-07-06  verfällt: 2028-07-19  Nutzung: SC
+        Vertrauen: ultimativ     Gültigkeit: ultimativ
+    ssb  rsa4096/09CECAEE0F0A0039
+        erzeugt: 2023-07-06  verfallen: 2025-07-05  Nutzung: E
+    [ ultimativ ] (1). Florian Alexander Latzel <florian@latzel.io>
+    [ ultimativ ] (2)  Florian Alexander Latzel <florian.latzel@is-loesungen.de>
+    [ ultimativ ] (3)  Florian Alexander Latzel <florian.latzel@gmail.com>
+
+    gpg: WARNUNG: Ihr Unterschlüssel zum Verschlüsseln wird bald verfallen.
+    gpg: Bitte erwägen Sie, dessen Verfallsdatum auch zu ändern.
+
+
+Oh, eine Warnung!
+
+Wir müssen auch das **Verfallsdatum des Unterschlüssels zum Verschlüsseln verlängern**
+(hier `ssb`, erkennbar an `Nutzung: E`, wobei `E` für *Encryption*, also Verschlüsselung steht)
+
+    gpg> key 1
+
+Jetzt ist der Unterschlüssel markiert, sichtbar am Stern hinter `ssb`
+
+    sec  rsa4096/0A341CC78C16A22B
+        erzeugt: 2023-07-06  verfällt: 2028-07-19  Nutzung: SC
+        Vertrauen: ultimativ     Gültigkeit: ultimativ
+    ssb* rsa4096/09CECAEE0F0A0039
+        erzeugt: 2023-07-06  verfallen: 2025-07-05  Nutzung: E
+    [ ultimativ ] (1). Florian Alexander Latzel <florian@latzel.io>
+    [ ultimativ ] (2)  Florian Alexander Latzel <florian.latzel@is-loesungen.de>
+    [ ultimativ ] (3)  Florian Alexander Latzel <florian.latzel@gmail.com>
+
+Hier das gleiche Prozedere wie oben, `expire`
+
+    gpg> expire
+
+Die Verfallsdatum-Optionen...
+
+    Ändern des Verfallsdatums des Unterschlüssels.
+    Bitte wählen Sie, wie lange der Schlüssel gültig bleiben soll.
+            0 = Schlüssel verfällt nie
+        <n>  = Schlüssel verfällt nach n Tagen
+        <n>w = Schlüssel verfällt nach n Wochen
+        <n>m = Schlüssel verfällt nach n Monaten
+        <n>y = Schlüssel verfällt nach n Jahren
+
+Auch hier 3 Jahre, `3y`
+
+    Wie lange bleibt der Schlüssel gültig? (0) 3y
+
+    Key verfällt am Mi 19 Jul 2028 11:00:11 CEST
+
+Bestätigen...
+
+    Ist dies richtig? (j/N) j
+
+Passphrase eingeben und Quittung...
+
+    sec  rsa4096/0A341CC78C16A22B
+        erzeugt: 2023-07-06  verfällt: 2028-07-19  Nutzung: SC
+        Vertrauen: ultimativ     Gültigkeit: ultimativ
+    ssb* rsa4096/09CECAEE0F0A0039
+        erzeugt: 2023-07-06  verfällt: 2028-07-19  Nutzung: E
+    [ ultimativ ] (1). Florian Alexander Latzel <florian@latzel.io>
+    [ ultimativ ] (2)  Florian Alexander Latzel <florian.latzel@is-loesungen.de>
+    [ ultimativ ] (3)  Florian Alexander Latzel <florian.latzel@gmail.com>
+
+Zum Abschluss geben wir `save` ein, um die Änderungen zu speichern und GPG zu verlassen.
+
+    gpg> save
+
+Wenn der öffentliche Schlüssel bereits online veröffentlicht wurde, 
+solltest du ihn nach der Änderung erneut exportieren und hochladen.
+
+Siehe [Public-Key auf keys.openpgp.org veröffentlichen](#public-key-auf-keysopenpgporg-ver%C3%B6ffentlichen)
+und [Upload der Public Keys in das WKD](#upload-der-public-keys-in-das-wkd).
+
 ## Arbeiten mit Keyservern
 
 Key- beziehungsweise Schlüsselserver stellen öffentliche Schlüssel bereit,
@@ -804,7 +918,7 @@ die du oder andere zum Verschlüsseln oder zur Überprüfung von Signaturen brau
 Kleiner geschichtlicher Abriss: 
 Ende Juni 2019 [^sks1] [^sks2] wurde das *SKS Keyserver Netzwerk* wiedermal angegriffen.
 GnuPG in der Version 2.2.17 ignorierte bereits standardmäßig alle Signaturen, die von einem Keyserver stammen. 
-Im Juni 2021 wurde das SKS abgeschaltet[^sks-aus].
+Im Juni 2021 wurde das SKS Netzwerk abgeschaltet[^sks-aus].
 
 Mittlerweile gibt es Keyserver mit Überprüfung der Schlüssel 
 via *Double-Opt-In* und Löschmöglichkeit[^newkeys], 
