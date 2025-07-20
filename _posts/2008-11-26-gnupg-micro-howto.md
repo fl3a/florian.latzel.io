@@ -1180,6 +1180,9 @@ ssb  elg2048/0D12C6401914C2F9
 
 ## Historie dieses Howtos
 
+- 2025-07-20 [Verfallsdatum des GPG-Schlüssels und seiner Unterschlüssel ändern](
+/gnupg-micro-howto.html#verfallsdatum-des-gpg-schlüssels-und-seiner-unterschlüssel-ändern)
+hinzugefügt
 - Seit 2021-07    
 Aktualisierungen und Ergänzungen basierend auf einem im Juli 2021    
 mit gpg 2.2.4 erstellten Schlüssel.
@@ -1193,8 +1196,7 @@ und [Einrichtung von WKD (direct method)](#wkd-einrichten)
   - Neu: [Nutzung von keys.openpgp.org](#public-key-auf-keysopenpgporg-veröffentlichen) 
   - Neu: [User-ID widerrufen (revuid)](#unterschlüssel-user-id-widerrufen)
   - Neu: [Primäre User-id kennzeichnen (primary)](#primäre-user-id-kennzeichnen)
-- 2008-11-26    
-[Veröffentlichung auf netzaffe.de](
+- 2008-11-26 [Veröffentlichung auf netzaffe.de](
 https://web.archive.org/web/20081216082227/http://netzaffe.de/2008/11/26/gnupg-micro-howto.html).    
 Als Grundlage diente ein Skript, welches während meiner Linux Dozententätigkeit um 2007/2008 entstand.
 Dieses Skript basierte auf gpg in der Version 1.4.6 und pinentry 0.7.2 unter Debian Etch   
