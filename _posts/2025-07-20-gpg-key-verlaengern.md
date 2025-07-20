@@ -37,7 +37,7 @@ Neu hinzugekommen sind unter anderem folgende Kapitel:
 - [Nutzung der keys.openpgp.org Keyserver](
 /gnupg-micro-howto.html#public-key-auf-keysopenpgporg-ver%C3%B6ffentlichen)  
 - [User-ID widerrufen (revuid)](
-/gnupg-micro-howto.html#prim%C3%A4re-user-id-kennzeichnen)
+/gnupg-micro-howto.html#schl%C3%BCssel-widerrufen)
 
 Dieses Howto lebt von Aktualität und Praxisbezug.
 Wenn dir beim Verlängern deines Schlüssels etwas aufgefallen ist 
