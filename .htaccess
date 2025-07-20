@@ -134,9 +134,15 @@ Redirect gone /2008/09/27/web2nulliger-projektleiter-sven-plaggemeier-ueber-den-
 Redirect gone /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-in-einer-multisite-umgebung/multisite-features-unter-drupal-7-x-1
 Redirect gone /drush-die-drupal-shell/weiterfuehrende-links-zu-drush.html
 
+# TEMP FIX gegen Redirect
+Redirect gone /thema/doxygen
+
 #########
 # 301er #
 #########
+
+# TEMP FIX gegen 404er 
+Redirect 301 /tags/jekyll/ /thema/jekyll/
 
 # Änderung in JPT Setting (output)
 RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /assets/imgs/$1/$2-[74][40]0-$3.webp
