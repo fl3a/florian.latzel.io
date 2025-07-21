@@ -30,15 +30,6 @@ Für eine **detaillierte Beschreibung**, schau dir
 [**Bowdrill-Seminar – Feuermachen ohne Feuerzeug**](
 {% link pages/angebot/bowdrill-seminar.md %}) an.  
 
-## In Kooperation mit Naturzeit.Club  
-
-Der [**Naturzeit.Club**](https://naturzeit.club/) organisiert das Seminar und bietet  
-Naturerlebnisse für Kinder und Erwachsene – von **Feriencamps** bis zu [**Wildnistrainings**](
-{% link pages/angebot/wildnistraining.md %}).  
-
-Globetrotter unterstützt die Veranstaltung unter anderem durch exklusive  
-Rabatte für Club-Mitglieder.  
-
 ## Warum solltest du teilnehmen?  
 ✔ **Feuermachen ohne moderne Hilfsmittel** – Werde unabhängig von Feuerzeug & Co.  
 ✔ **Outdoor-Skills für Survival & Bushcraft** – Lerne, welche Materialien sich eignen.  
@@ -79,9 +70,11 @@ https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0/)
 
 **Vergangene Termine**
 
-- 13\. April 2025 – Decksteiner Weiher, Köln  
-- 27\. April 2025 – Decksteiner Weiher, Köln  
-- 18\. Mai 2025 – Decksteiner Weiher, Köln
+- 13\. April 2025 – in Kooperation mit Naturzeitclub Köln  
+- 27\. April 2025 – in Kooperation mit Naturzeitclub Köln
+- 18\. Mai 2025 – in Kooperation mit Naturzeitclub Köln
+
+Hinweis: Aktuelle Seminare werden unabhängig und direkt von mir organisiert.
 
 ## Dein Trainer-Team  
 
