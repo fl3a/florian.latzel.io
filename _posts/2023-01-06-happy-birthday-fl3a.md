@@ -91,7 +91,7 @@ desto wichtiger wurde für mich die entsprechende *Peer Group*.
 Gleichgesinnte treffen, über das beste [CMS](/thema/cms/) fachsimpeln
 und sich als Teil von etwas Größerem begreifen.
 Und so stieß ich irgendwann in 2007 zur [Drupal Usergroup Köln/Bonn](
-/tags/drupal-user-group-koln-bonn/), 
+/thema/drupal-user-group-koln-bonn/), 
 die damals noch sehr aktiv war, dazu. 
 
 Als ich in 2008 auf [drupalcenter](https://drupalcenter.de) 
@@ -99,7 +99,7 @@ Als ich in 2008 auf [drupalcenter](https://drupalcenter.de)
 https://www.drupalcenter.de/node/8277) las, war mir sofort klar, da muss ich hin.
 Das beste CMS der Welt auf dem [Linuxtag](/thema/linuxtag/)!
 So fuhr nach Berlin um die [Berliner Drupal User Group](
-/tags/drupal-user-group-berlin/index.html) am Drupalstand zu unterstützen.
+/thema/drupal-user-group-berlin/) am Drupalstand zu unterstützen.
 So kam ich das erste Mal nach [Berlin](/thema/berlin),
 lernte unter anderem Stephan, Bob, Tobias, Leon, 
 Valentin, Natascha, Ramiro und Marko kennen
@@ -164,7 +164,7 @@ und der Relaunch von [bunte.de](http://bunte.de).
 Mittlerweile habe ich kaum noch Berührungspunkte mit Drupal.
 
 Mein professioneller Fokus liegt seit Mitte 2016 auf der [Scrum Masterei](
-/tags/scrum/) und seinen vielen Facetten,
+/thema/scrum/) und seinen vielen Facetten,
 wie Selbstorganisation, Führung und [Coaching](/thema/coaching/).
 Dieses Blog habe ich 2019 [von Drupal nach Jekyll migriert](
 /2019/11/09/von-drupal-nach-jekyll.html)

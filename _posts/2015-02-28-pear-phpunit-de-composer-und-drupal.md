@@ -30,7 +30,7 @@ Discovery of channel "pear.phpunit.de" failed (channel-add: invalid channel.xml 
 ```
 <!--break-->
 
-Lange Suche und Versuche, kurzer Sinn, hat doch im Dezember noch alles funktioniert?! Als letztes stiess ich dann endlich auf "End of Life for PEAR Installation Method"<fn>https://github.com/sebastianbergmann/phpunit/wiki/End-of-Life-for-PEAR-Installation-Method</fn>... ...OK, pear.phpuntit.de wurde zum Jahreswechsel 2014/2015 abgeschaltet...<a href="/tags/gut-zu-wissen.html">Gut zu wissen</a>...
+Lange Suche und Versuche, kurzer Sinn, hat doch im Dezember noch alles funktioniert?! Als letztes stiess ich dann endlich auf "End of Life for PEAR Installation Method"<fn>https://github.com/sebastianbergmann/phpunit/wiki/End-of-Life-for-PEAR-Installation-Method</fn>... ...OK, pear.phpuntit.de wurde zum Jahreswechsel 2014/2015 abgeschaltet...<a href="/thema/gut-zu-wissen/">Gut zu wissen</a>...
 <strong>Composer</strong>
 
 Ok, was ist denn Composer?!
@@ -53,14 +53,14 @@ Aufmerksam wurde ich auf die Drupal und Composer Thematik durch die Slides von F
 Drush-Make<fn>https://www.drupal.org/project/drush_make</fn> ist in Drupal das De-Facto Standard Werkzeug um z.B. Drupal-Distributionen mit seinen Anhängigkeiten, Drupal-Core inklusive  Module, festgepinnt auf Versionsnummern oder gar auf einen SHA1-Commit, inklusive seiner der in vielen Fällen noch benötigten Patches auf Module und ggf. auch Core und der benötigten Bibliotheken zu bauen. Diese "Rezepte" werden in sog. Makefiles hinterlegt, hier das drupal-org.make<fn>http://cgit.drupalcode.org/bassets/tree/drupal-org.make</fn> von <a href="https://www.drupal.org/project/bassets">Bassets</a><fn>https://www.drupal.org/project/bassets</fn> als Beispiel.  
 Im Optimalfall besteht ein Drupal-Projekt dann auch nur noch aus einem Makefile und seinem Custom-Code, also Modulen, Features, Theme und Template-Dateien, die anderen Abhängigkeiten werden über das Makefile erfasst und in der Regel dann über eine Continious Integration Umgebung zusammengebaut. 
 Ade Patches.txt auf Root-Ebene, hallo Patchmanagement inkl. Fehlererkennung und Feedback! 
-Jetzt hat sich in der PHP-Welt auch einiges getan und es heisst runter von der Insel<fn>https://www.acquia.com/blog/using-composer-manager-get-island-now</fn>!
+Jetzt hat sich in der PHP-Welt auch einiges getan und es heisst runter von der Insel <https://www.acquia.com/blog/using-composer-manager-get-island-now>!
 
 <blockquote>
-Meanwhile the PHP Community has gathered around another dependency manager, Composer. It is even used for managing dependencies for Drupal 8 Core.<fn>https://github.com/drupal-composer/drupal-project</fn>
+Meanwhile the PHP Community has gathered around another dependency manager, Composer. It is even used for managing dependencies for Drupal 8 Core.<https://github.com/drupal-composer/drupal-project>
 </blockquote>.
 
 Der in den Slides beschrieben Helige Gral (oder das runter von der Insel), das Drush-Make-Replacement: 
-Seit einiger Zeit ist die Composer Gruppe auf g.d.o<fn>https://groups.drupal.org/composer</fn>&nbsp;neben viel Beteiligung der Deutschen Drupal-Community wie von Florian Weber (webflo), Johannes&nbsp;Haseitl (derhasi) und Tobias Stöckler recht aktiv und es wird einiges <fn>https://github.com/drupal-composer</fn> <fn>http://packagist.drupal-composer.org/</fn> vorangetrieben 
+Seit einiger Zeit ist die Composer Gruppe auf g.d.o<https://groups.drupal.org/composer>&nbsp;neben viel Beteiligung der Deutschen Drupal-Community wie von Florian Weber (webflo), Johannes&nbsp;Haseitl (derhasi) und Tobias Stöckler recht aktiv und es wird einiges <https://github.com/drupal-composer> <http://packagist.drupal-composer.org> vorangetrieben 
 und erfährt erstaunlich viel Beachtung und Akzeptanz.
 
 Schaut mal rein, ich finde diese Entwicklung spannend!

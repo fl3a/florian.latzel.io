@@ -238,7 +238,7 @@ So weit wie August war ich den letzten Jahren schon lange nicht mehr
 außerhalb meiner beruflichen *Komfort Zone*.
 
 Ende August gingen Monique und ich wieder das Projekt [Rheinsteig](
-/tags/rheinsteig/) an. 
+/thema/rheinsteig/) an. 
 Wir starteten an meinem Geburtstag mit Etappe 8, von Sayn nach Vallendar
 mit Übernachtung in Koblenz. 
 Den Tag darauf verbanden wir die Etappen 10 und 11 mit Unterkunft in Braubach.  
