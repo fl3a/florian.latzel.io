@@ -119,7 +119,7 @@ und mich damals bei ihm bereits mit Fachliteratur eingedeckt habe.
 
 So kam ich nicht drum herum und besuchte Uwe am Tag meiner Abreise,
 um etwas zu stöbern. Heraus kamen drei weitere Bücher zum [Thema Coaching](
-/tags/coaching/) und das NLP Practitioner Karteikarten Set, 
+/thema/coaching/) und das NLP Practitioner Karteikarten Set, 
 die ich mir nach Hause schicken liess.
 
 ## Fazit

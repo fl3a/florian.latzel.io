@@ -34,7 +34,7 @@ Die folgenden Pakete werden ben&#246;tigt:
 <li>php5 und php5-common - Den PHP-Interpreter</li>
 <li>php5-gd - Die GD Grafikbibliothek f&#252;r PHP5</li>
 <li>php5-pgsql - Das PHP-Modul f&#252;r den Zugriff auf die PostgreSQL Datenbank</li>
-<li>php5-<acronym title="Command-Line Interpreter">cli</acronym> - PHP für die Kommandozeile, benötigt von <acronym title="Drupal Shell"><a href="/thema/drush">drush</a></acronym></li>
+<li>php5-<acronym title="Command-Line Interpreter">cli</acronym> - PHP für die Kommandozeile, benötigt von <acronym title="Drupal Shell"><a href="/thema/drush/">drush</a></acronym></li>
 <li>postgresql-8.1 - Der PostgreSQL Datenbankserver</li>
 <li>phppgadmin - Webbasiertes Administrationswerkzeug für PostgreSQL(ähnlich phpmyadmin für mysql)</li>
 </ul>
@@ -446,7 +446,7 @@ lrwxrwxrwx 1 florian server   11 2009-02-27 10:22 6.x -> drupal-6.10
  
 ### drush_multi: Drupal Multisite Updates mit nur einem Befehl
 
-<p><a href="https://www.drupal.org/project/drush_multi">Drush Multi</a> ist eine Erweiterung für die <a href="/tags/drush.html">Drupal Shell aka drush</a>. Die eigentliche Kernkomponente, welche aus einem Shellskript hervorgegangen ist behandelt Drupal-Updates von Drupal-Multisite-Umgebungen.</p>
+<p><a href="https://www.drupal.org/project/drush_multi">Drush Multi</a> ist eine Erweiterung für die <a href="/thema/drush/">Drupal Shell aka drush</a>. Die eigentliche Kernkomponente, welche aus einem Shellskript hervorgegangen ist behandelt Drupal-Updates von Drupal-Multisite-Umgebungen.</p>
 
 #### drush multi-drupalupdate
 
