@@ -17,6 +17,7 @@ nid: 856
 layout: post
 title: Drupal@Linuxtag09 - Open Source, Drupal, Linux und Ballons
 created: 1246714726
+last_modified_at: 2025-08-11
 ---
 Auch dieses Jahr war <a href="http://drupal.org">Drupal</a> in Form der <a href="http://drupalberlin.de">Drupal User Group Berlin</a> wieder auf dem <a href="http://www.linuxtag.org/2009/">Linuxtag in Berlin</a>, where  .com meets .org...
 
@@ -87,6 +88,6 @@ Das waren gute Tage mit Ingo, <a href="https://twitter.com/BodoEichstaedt">Bodo<
 
 <ul>
 <li><a href="http://www.flickr.com/photos/stephan_luckow/sets/72157620601709753/">Fotostream von Stephan Luckow</a></li>
-<li><a href="http://linuxoutlaws.com/podcast/99">Linux Outlaws 99 - FUDCast (Linux Tag Special)</a></li>
+<li><a href="https://ia804600.us.archive.org/0/items/linuxoutlaws/linuxoutlaws099.mp3">Linux Outlaws 99 - FUDCast (Linux Tag Special)</a></li>
 <li>Gruppenpool <a href="http://www.flickr.com/groups/drupal-at-linuxtag09/pool/" title="drupal@linuxtag09">"drupal@linuxtag09"</a> auf <a href="http://www.flickr.com/">flickr</a></li>
 </ul>
