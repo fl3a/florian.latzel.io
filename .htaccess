@@ -175,4 +175,4 @@ Redirect 301 /angebot/coach-and-walk.html /coach-and-walk.html
 
 # Bilder
 Redirect 301 /assets/imgs/2010-drupaldevdays-munich-luckow-fl3a-scrum-presentation.jpg /assets/imgs/florian-latzel-stephan-luckow-scrum-drupaldevdays-munich-2010.jpg
-Redirect 301 /assets/imgs/generated/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19-740-899ef22d4.jpg /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jp
+Redirect 301 /assets/imgs/generated/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19-740-899ef22d4.jpg /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg
