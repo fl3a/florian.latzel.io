@@ -5,7 +5,7 @@ blog_posts: 5
 <div id="front">
   <div id="intro">
     <figure role="group">
-      <img src="/assets/imgs/florian-latzel-300x300.jpg" alt="Florian Latzel, Reinblau Teamtreffen, Mai 2017, Foto © Ronald Krentz" />
+      <img src="/assets/imgs/florian-latzel-2025-300px.png" alt="Florian Latzel, Metaforum Summercamp 2025. Foto © Mike Heitmann" />
     </figure>
     <h2>Hi, ich heiße Florian👋</h2>
     <p>Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter
