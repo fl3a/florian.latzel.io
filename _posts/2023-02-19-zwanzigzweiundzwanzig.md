@@ -3,6 +3,7 @@ title: Zwanzigzweiundzwanzig
 layout: post
 tags:
 - Corona
+- Monique
 - Leipzig
 - Draussen
 - Wildnistraining
@@ -11,7 +12,7 @@ tags:
 - Projekt Googlefrei
 - Craft Beer
 image: /assets/image/2022/monique-schaukel-nazare-sitio.jpg
-last_modified_at: 2025-04-07
+last_modified_at: 2025-08-20
 ---
 {%responsive_image path: assets/imgs/2022/monique-schaukel-nazare-sitio.jpg
 figure: true alt: "Monique auf der Schaukel mit Blick auf Nazaré, Portugal" %}
@@ -302,7 +303,7 @@ Danke an Rolf Irion 🔥 und Team für den wiedermal sehr gelungenen Rahmen, ger
 
 {%responsive_image figure: true 
 path: assets/imgs/2022/walkaboutyou-accelerator-11-2023.jpg
-alt: "Walkaboutyou für das Accelertor Program, 28. November. Foto © Janine Schmied, Startplatz %}
+alt: "Walkaboutyou für das Accelertor Program, 28. November. Foto: © Janine Schmied, Startplatz" %}
 
 Fast wie am Anfang, konnte ich das Jahr mit einem weiteren Walkaboutyou abschließen.
 Diesmal wieder für das Accelerator Programs des Startplatz,
