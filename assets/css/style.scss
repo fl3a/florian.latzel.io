@@ -217,8 +217,13 @@ figure.highlight {
     }
   }
 
-  // Blog/Thema/Archiv
+  // Blog & Themen 
   .archiv {
+    div.intro {
+      font-size: 1.5em;
+    }
+  }
+  #blog {  
     h2 {
       text-align: right;
       padding: 0;
@@ -263,11 +268,12 @@ figure.highlight {
     }
   } 
   
-  // Themen
-  #themen ul {
-    margin-left: 0;
-    list-style-type: none;
-    columns: 3;
+  #themen {
+    ul {
+      margin-left: 0;
+      list-style-type: none;
+      columns: 3;
+    }
   }
 
   // Footer

@@ -8,8 +8,12 @@ Todo:
 - Themen Template bauen
 - in config einbauen
 {% endcomment %}
-
-<div id="themen">
+<div id="themen" class="archiv">
+<div class="intro">
+Diese Seite listet alle <em>{{ site.tags | size }}</em> Themen 
+aus <em>{{ site.time | date: '%Y' | minus: 2004 }}</em> Jahren 
+<a href="{% link pages/blog.html %}">Bloggen</a> auf.	
+</div>
 {% assign alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | split: "" %}
 {% for letter in alphabet %}	  
   {% assign i = 0 %}

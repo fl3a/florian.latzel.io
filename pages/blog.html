@@ -4,7 +4,13 @@ layout: page
 permalink: /blog.html
 ---
 <div id="blog" class="archiv">
-
+<div class="intro">
+Hier findest du alle  <em>{{ site.posts | size }}</em> Beiträge
+aus den letzten <em>{{ site.time | date: '%Y' | minus: 2004 }}</em> Jahren.
+Hier findest du eine alphabetische Übersicht 
+meiner <a href="{% link pages/themen.html %}">Lieblingsthemen</a>.
+Meinen Blog kannst du via <a href="/feed.xml">RSS</a> abonnieren.
+</div>
 {% for post in site.posts %}
 {% assign currentDate = post.date | date: "%Y" %}
   {% if currentDate != myDate %}
@@ -15,7 +21,7 @@ permalink: /blog.html
   <section>
   <h2 aria-lable="Blog posts published in {{ currentDate }}" class="no-anchor">{{ currentDate }}</h2>
   <ul>
-    {% assign myDate = currentDate %}
+  {% assign myDate = currentDate %}
   {% endif %}
   {% assign m = post.date | date: "%-m" | minus: 1 %}
   {% assign month = site.data.de.months[m] | truncate: 3, "" %}
@@ -35,7 +41,7 @@ permalink: /blog.html
   <svg class="svg-icon orange">
     <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
   </svg>
-  <a href="{{ "/feed.xml" | relative_url }}">Abonieren</a>
+  <a href="{{ "/feed.xml" | relative_url }}">Abonnieren</a>
 </p>
 
 </div> 
