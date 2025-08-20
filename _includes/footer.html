@@ -29,9 +29,9 @@
 	</ul>
       </div>
       <div class="footer-col footer-col-3">
-        <h2 class="footer-heading">{{ site.data.footer_links_blog.header }}</h2>
+        <h2 class="footer-heading">{{ site.data.footer_links_meta.header }}</h2>
         <ul>
-          {% for item in site.data.footer_links_blog.links %}
+          {% for item in site.data.footer_links_meta.links %}
           <li><a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
 	</ul>
@@ -39,12 +39,6 @@
     </div>
     <div class="footer-col footer-last"> 
       <span class="text-line">2004 - {{ "now" | date: "%Y" }} 🄯 <a href="{{ site.url }}">Florian Latzel</a></span>
-        <ul id="meta">
-          {% for item in site.data.footer_links_meta.links %}
-          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-          {% endfor %}
-	</ul>
-      </p>
     </div>
   </div>
 
