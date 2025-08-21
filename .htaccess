@@ -93,13 +93,13 @@ RewriteRule ^blog/(.*)$ /$1 [R=301,L]
 #RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
 #RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
 #RewriteRule ^tags/([^/]+)/page/[0-9]+/?$ /thema/$1/ [R=301,L]
-# Temporärer Fix für 404er in der Search Console
-Redirect 301 /tags/jekyll/ /thema/jekyll/
 
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
 Redirect 301 /blogs/floh/feed /feed.xml
 Redirect 301 /rss.xml /feed.xml
+
+Redirect 301 /themen /themen.html
 
 # 301er: Drupal book pages 
 
