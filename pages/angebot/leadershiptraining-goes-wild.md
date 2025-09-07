@@ -1,7 +1,7 @@
 ---
 title: Leadershiptraining goes wild
 layout: page
-permalink: /seminare/leadership-goes-wild
+permalink: /seminare/leadership-goes-wild.html
 ---
 {% responsive_image 
 alt: "Abends gemeinsam am Lagerfeuer. Foto © Tina Urban."
