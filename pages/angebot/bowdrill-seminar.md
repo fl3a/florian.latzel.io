@@ -123,4 +123,8 @@ Wann & Wo?
 👉 [**Jetzt anmelden und dabei sein!**](
 https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0/)
 
+### Sicherheit: Kein Alkohol
 
+Für das Seminar schaffen wir einen sicheren und achtsamen Rahmen.
+Deshalb bleibt Alkoholkonsum außen vor – wir arbeiten mit Messern, Beilen, Sägen
+und Feuer, und ein klarer Kopf ist die beste Grundlage, um Unfällen vorzubeugen.
