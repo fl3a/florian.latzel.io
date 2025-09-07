@@ -23,7 +23,7 @@ Inhalte unter anderen:
 
 ## Seminare
 
-- [Bowdrill – Feuermachen ohne Feuerzeug lernen](
+- [Bowdrill Seminar – Feuermachen ohne Feuerzeug lernen](
 {% link pages/angebot/bowdrill-seminar.md %})
 - [Leadershiptraining goes wild](
 {% link pages/angebot/leadershiptraining-goes-wild.md %})

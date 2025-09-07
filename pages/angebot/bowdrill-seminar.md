@@ -1,5 +1,5 @@
 ---
-title: "Feuermachen ohne Feuerzeug lernen – Bowdrill-Seminar für Bushcraft & Survival 🔥"
+title: "Bowdrill Seminar – Feuer machen lernen mit traditioneller Technik"
 layout: page
 permalink: /seminare/bowdrill-feuermachen.html
 description: "Lerne im Bowdrill-Seminar, Feuer ohne Feuerzeug zu entfachen! Perfekt für Bushcraft, Survival & Outdoor-Abenteuer. Jetzt Platz sichern!"

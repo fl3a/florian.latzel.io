@@ -21,13 +21,13 @@ alt: "Die Schritte des Feuerbohrens mit dem Bowdrill bis zum Erfolg (mit Julian)
 Fotos &copy; Julian Schreyer" %}    
 
 🔥 **Feuer ohne Feuerzeug oder Streichhölzer entfachen?** Genau das lernst du im  
-[**Bowdrill-Seminar**](/seminare/bowdrill-feuermachen.html)!  
+[**Bowdrill-Seminar in Köln**](/seminare/bowdrill-feuermachen.html)!  
 Mit traditionellen Techniken und natürlichen Materialien baust du dein eigenes
 **Feuerbohrer-Set** und übst das Feuermachen – eine essenzieller [**Survival- und 
 Bushcraft-Skill**]({% link pages/angebot/wildnistraining.md %}).<!--break-->
 
 Für eine **detaillierte Beschreibung**, schau dir 
-[**Bowdrill-Seminar – Feuermachen ohne Feuerzeug**](
+[**Bowdrill-Kurs in Köln – Feuermachen ohne Feuerzeug**](
 {% link pages/angebot/bowdrill-seminar.md %}) an.  
 
 ## Warum solltest du teilnehmen?  
@@ -37,13 +37,14 @@ Für eine **detaillierte Beschreibung**, schau dir
 ✔ **Dein eigenes Feuerbohrer-Set bauen** – Direkt einsetzbar für zukünftige Abenteuer.  
 
 Mehr Infos? Hier geht's zur detaillierten Seminar-Beschreibung: 
-[**Feuermachen ohne Feuerzeug lernen – Bowdrill-Seminar für Bushcraft & Survival**](
+[**Bowdrill Workshop – Feuer machen lernen mit traditioneller Technik**](
 {% link pages/angebot/bowdrill-seminar.md %}).  
 
 ## Für wen ist das Seminar geeignet?  
 Ob Anfänger oder erfahrener Outdoor-Fan – unser [**Survival-Training**](
-{% link pages/angebot/bowdrill-seminar.md %}) richtet sich an alle, 
-die ihre **Bushcraft-Skills** erweitern oder einfach die Magie des Feuermachens erleben möchten.  
+{% link pages/angebot/wildnistraining.md %}) richtet sich an alle, 
+die ihre [**Bushcraft-Skills**]({% link pages/angebot/wildnistraining.md %}) 
+erweitern oder einfach die Magie des Feuermachens erleben möchten.  
 
 **Mitbringen:** Ein feststehendes Messer, wettergerechte Kleidung & Sitzunterlage.  
 Material für das Bohrbrett, Spindel und Zundernest werden gestellt.\\
@@ -88,7 +89,7 @@ Er ist [**Wildnispädagoge**](/thema/wildnispadagogik/), vierfacher Vater
 und arbeitet in einem  **Waldkindergarten**, 
 wo er Kindern täglich die Natur und das ursprüngliche Leben im Freien näherbringt. 
 Das macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
-{% link pages/angebot/bowdrill-seminar.md %}).  
+{% link pages/angebot/wildnistraining.md %}).  
 Mehr über Julian erfährst du auf Instagram: [@lone_wolf_and_cubs](https://www.instagram.com/lone_wolf_and_cubs/).
 
 👉 [**Sichere dir jetzt deinen Platz und erlebe das ursprüngliche Feuermachen  
