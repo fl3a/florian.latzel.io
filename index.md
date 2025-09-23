@@ -5,6 +5,7 @@ blog_posts: 5
 <div id="front">
   <div id="intro">
     <picture>
+      <source srcset="/assets/imgs/florian-latzel-2025-300px.avif" type="image/avif">
       <source srcset="/assets/imgs/florian-latzel-2025-300px.webp" type="image/webp">
       <img 
         src="/assets/imgs/florian-latzel-2025-300px.png" 
@@ -21,7 +22,7 @@ blog_posts: 5
   </div>
 
   <div id="portfolio">
-    <h2>Mein Angebot</h2>
+    <h2 id="mein-angebot">Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="{% link pages/angebot/coaching.md  %}">Coaching</a></h3>
       <p>Hilfe zur Selbsterkenntnis.<br />Systemisch und Lösungsfokussiert. 
