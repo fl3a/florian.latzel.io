@@ -96,8 +96,8 @@ figure.highlight {
 // Startseite
 #front {
 // Bild
-  figure {
-    img {
+  picture {
+    source,img {
       display: inline;
       border-radius: 50%;
     }
