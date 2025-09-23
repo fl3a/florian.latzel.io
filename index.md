@@ -5,9 +5,10 @@ blog_posts: 5
 <div id="front">
   <div id="intro">
     <picture>
-      <source srcset="/assets/imgs/florian-latzel-2025-300px.webp" type="image/webp">
+      <source srcset="/assets/imgs/me/florian-latzel-2025-300px.avif" type="image/avif">
+      <source srcset="/assets/imgs/me/florian-latzel-2025-300px.webp" type="image/webp">
       <img 
-        src="/assets/imgs/florian-latzel-2025-300px.png" 
+        src="/assets/imgs/me/florian-latzel-2025-300px.png" 
         alt="Florian Latzel, Metaforum Summercamp 2025. Foto © Mike Heitmann" 
         loading="lazy"
       />
