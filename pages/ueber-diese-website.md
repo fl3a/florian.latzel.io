@@ -30,6 +30,7 @@ z.B. mit dem Feedreader deiner Wahl abonnieren.
 ## Software
 
 Diese Website wird von [*freier Software*](/thema/open-source/) angetrieben. Danke🙏!   
+
 Die Basis bilden der statische Seitengenerator [Jekyll](/thema/jekyll/)
 und das [Minima Theme](https://github.com/jekyll/minima).   
 Gespeist wird das ganze aus [Textdateien in einem Git-Repository](
@@ -47,10 +48,10 @@ https://github.com/fl3a/jekyll_deployment).
 
 ## Nachhaltig
 
-Diese Website produziert 0,03 Gramm CO<sub>2</sub> pro Seitenaufruf 
+Diese Website produziert 0,01 Gramm CO<sub>2</sub> pro Seitenaufruf 
 und ist laut [Website Carbon Calculator ](
 https://www.websitecarbon.com/website/florian-latzel-io/)   
-97 % sauberer als andere Seiten. 
+98 % sauberer als andere Seiten. 
 Durch die Nutzung eines statischen Seitengenerators 
 finden abgesehen von der Auslieferung der HTML-Seiten
 serverseitig zudem keine weiteren Rechenoperationen oder Datenbankzugriffe statt.   
@@ -61,5 +62,3 @@ Die Server bei uberspace werden mit Ökostrom betrieben.
 Die Inhalte dieser Website, soweit nicht anders angegeben, 
 sind unter der [CC BY-SA 4.0]({% link pages/copyleft.md %}) 
 lizensiert. Siehe [Copyleft 🄯]({% link pages/copyleft.md %}) für weitere Details.
-
-
