@@ -133,13 +133,16 @@ figure.highlight {
     filter: grayscale(0);
     transform: scale(1.05);
   }
+  #db img {
+    width: 60%;
+  }
   #axa img {
     width: 50%;
   }
   #reinblau img {
     width: 55%;
   }
-  #naturzeit img, #p1 img, #bib img, #koeln img {
+  #naturzeit img, #p1 img, #bib img, #koeln img, #myt img {
     width: 80%;
   }
   #intro, p.teaser  {
