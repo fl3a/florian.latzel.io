@@ -62,14 +62,14 @@ blog_posts: 5
   <div id="kunden">
     <h2>Erfolgreiche Projekte &amp; Glückliche Kunden</h2>
     {% assign logo-path = "/assets/imgs/kunden" %}
-    {% #  3 Zeile a 4 Logos in Vollansicht %}    
+    {% comment %} 3 Zeilen a 4 Logos in Vollansicht {% comment %}
     <ul class="kunden-logos">
-      {% # Zeile 1, Große Marken / Strahlkraft %}
+      {% comment %} Zeile 1, Große Marken / Strahlkraft {% endcomment %}
       <li id="db"><img src="{{ logo-path }}/db-logo-red-rgb.svg" alt="Deutsche Bahn Logo" loading="lazy" /></li>
       <li id="rewe-digital"><img src="{{ logo-path }}/rewe-digital-logo.svg" alt="REWE digital Logo" loading="lazy" /></li>
       <li id="axa"><img src="{{ logo-path }}/axa-logo.svg" alt="AXA Logo" loading="lazy" /></li>
       <li id="myt"><img src="{{ logo-path }}/mytoys-group-logo.svg" alt="MYTOYS Group Logo" loading="lazy" /></li>
-      {% # Zeile 2, Agile / Coaching / Beratung %}
+      {% comment %} Zeile 2, Agile / Coaching / Beratung {% endcomment %}
       <li id="reinblau"><img src="{{ logo-path }}/reinblau-logo.svg" alt="Reinblau Logo" loading="lazy" /></li>
       <li id="p1"><img src="{{ logo-path }}/paragraph-eins-logo.svg" alt="paragraph eins Logo" loading="lazy" /></li>
       <li id="startplatz">
@@ -79,7 +79,7 @@ blog_posts: 5
          </picture>
       </li>
       <li id="init"><img src="{{ logo-path }}/init-logo.svg" alt="INIT Logo" loading="lazy" /></li>
-      {% # Zeile 2, Outdoor & Persönliche / regionale Story %}
+      {% endcomment %} Zeile 2, Outdoor & Persönliche / regionale Story {% endcomment %}
       <li id="walkaboutyou">
         <picture>
           <source type="image/webp" srcset="{{ logo-path }}/walkaboutyou-logo.webp">
