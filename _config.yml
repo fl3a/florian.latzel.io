@@ -83,7 +83,12 @@ picture:
   fast_build: false                  # Default
   ignore_missing_images: development # Default: false
   disabled: nopics                   # Default: false
+  strip_metadata: true               # Default
   nomarkdown: true                   # Default
+  format_quality: 
+    [jpg, png, webp]: 
+      740: 90
+      400: 100
 
 # Minify CSS during build
 sass:
