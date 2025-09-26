@@ -62,26 +62,40 @@ blog_posts: 5
   <div id="kunden">
     <h2>Erfolgreiche Projekte &amp; Glückliche Kunden</h2>
     {% assign logo-path = "/assets/imgs/kunden" %}
+    {% #  3 Zeile a 4 Logos in Vollansicht %}    
     <ul class="kunden-logos">
-      <!-- 1 -->
+      {% # Zeile 1, Große Marken / Strahlkraft %}
       <li id="db"><img src="{{ logo-path }}/db-logo-red-rgb.svg" alt="Deutsche Bahn Logo" loading="lazy" /></li>
       <li id="rewe-digital"><img src="{{ logo-path }}/rewe-digital-logo.svg" alt="REWE digital Logo" loading="lazy" /></li>
       <li id="axa"><img src="{{ logo-path }}/axa-logo.svg" alt="AXA Logo" loading="lazy" /></li>
       <li id="myt"><img src="{{ logo-path }}/mytoys-group-logo.svg" alt="MYTOYS Group Logo" loading="lazy" /></li>
-      <!-- 2 -->
+      {% # Zeile 2, Agile / Coaching / Beratung %}
       <li id="reinblau"><img src="{{ logo-path }}/reinblau-logo.svg" alt="Reinblau Logo" loading="lazy" /></li>
       <li id="p1"><img src="{{ logo-path }}/paragraph-eins-logo.svg" alt="paragraph eins Logo" loading="lazy" /></li>
-      <li id="startplatz"><img src="{{ logo-path }}/startplatz-accelerator-logo.png" alt="Startplatz Accelerator Logo" loading="lazy" /></li>
+      <li id="startplatz">
+        <picture>
+          <source type="image/webp" srcset="{% picture mobile kunden/startplatz-accelerator-logo.png %}">
+          <img src="{{ logo-path }}/startplatz-accelerator-logo.png" alt="Startplatz Accelerator Logo" loading="lazy" />
+         </picture>
+      </li>
       <li id="init"><img src="{{ logo-path }}/init-logo.svg" alt="INIT Logo" loading="lazy" /></li>
-      <!-- 3 -->
-      <li id="walkaboutyou"><img src="{{ logo-path }}/walkaboutyou-logo.webp" alt="walkaboutyou Logo" loading="lazy" /></li>
-      <li id="naturzeit"><img src="{{ logo-path }}/naturzeitclub-logo.webp" alt="Naturzeitclub Logo" loading="lazy" /></li>
+      {% # Zeile 2, Outdoor & Persönliche / regionale Story %}
+      <li id="walkaboutyou">
+        <picture>
+          <source type="image/webp" srcset="{{ logo-path }}/walkaboutyou-logo.webp">
+          <img src="{{ logo-path }}/walkaboutyou-logo.png" alt="walkaboutyou Logo" loading="lazy" />
+        </picture> 
+      </li>
+      <li id="naturzeit">
+        <picture>
+          <source type="image/webp" srcset="{{ logo-path }}/naturzeitclub-logo.webp">
+          <img src="{{ logo-path }}/naturzeitclub-logo.png" alt="Naturzeitclub Logo" loading="lazy" />
+        </picture>
+      </li>
       <li id="bib"><img src="{{ logo-path }}/bib-international-college-logo.svg" alt="bib International College Logo" loading="lazy" /></li>
       <li id="koeln"><img src="{{ logo-path }}/stadt-koeln-logo.svg" alt="Stadt Köln Logo" loading="lazy" /></li>
     </ul>
-
     <p class="teaser">Möchtest du auch dazugehören?</p>
-    
     <div id="kontakt-2">
       <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Kontakt</a>
     </div>

@@ -95,11 +95,13 @@ figure.highlight {
 
 // Startseite
 #front {
-// Bild
-  picture {
-    source,img {
-      display: inline;
-      border-radius: 50%;
+  #intro {
+  // Bild
+    picture {
+      source,img {
+        display: inline;
+        border-radius: 50%;
+      }
     }
   }
 
