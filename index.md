@@ -78,7 +78,7 @@ blog_posts: 5
           <img src="{{ logo-path }}/startplatz-accelerator-logo.png" alt="Startplatz Accelerator Logo" loading="lazy" />
         </picture>
       </li>
-      <li id="init">< img src="{{ logo-path }}/init-logo.svg" alt="INIT Logo" loading="lazy" /></li>
+      <li id="init"><img src="{{ logo-path }}/init-logo.svg" alt="INIT Logo" loading="lazy" /></li>
       {% comment %} Zeile 3, Outdoor & Persönliche / regionale Story {% endcomment %}
       <li id="walkaboutyou">
         <picture>
