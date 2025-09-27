@@ -72,12 +72,7 @@ blog_posts: 5
       {% comment %} Zeile 2, Agile / Coaching / Beratung {% endcomment %}
       <li id="reinblau"><img src="{{ logo-path }}/reinblau-logo.svg" alt="Reinblau Logo" loading="lazy" /></li>
       <li id="p1"><img src="{{ logo-path }}/paragraph-eins-logo.svg" alt="paragraph eins Logo" loading="lazy" /></li>
-      <li id="startplatz">
-        <picture>
-          <source type="image/webp" srcset="{% picture mobile kunden/startplatz-accelerator-logo.png %}">
-          <img src="{{ logo-path }}/startplatz-accelerator-logo.png" alt="Startplatz Accelerator Logo" loading="lazy" />
-        </picture>
-      </li>
+      <li id="startplatz"><img src="{{ logo-path }}/startplatz-accelerator-logo.png" alt="Startplatz Accelerator Logo" loading="lazy" /></li>
       <li id="init"><img src="{{ logo-path }}/init-logo.svg" alt="INIT Logo" loading="lazy" /></li>
       {% comment %} Zeile 3, Outdoor & Persönliche / regionale Story {% endcomment %}
       <li id="walkaboutyou">
