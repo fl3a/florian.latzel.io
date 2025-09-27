@@ -37,28 +37,30 @@ Gespeist wird das ganze aus [Textdateien in einem Git-Repository](
 https://github.com/fl3a/florian.latzel.io).  
 Bis Ende 2019 lief diese Website mit dem [Drupal](/thema/drupal/).
 
-## Hosting
-
-Diese Website wird auf [uberspace](https://uberspace.de) gehosted. 
-
-Dorthin deployed wird via [Git Bare Repository und post-receive Hook](
+Diese Website wird auf [uberspace](https://uberspace.de) gehosted
+und via [Git Bare Repository und post-receive Hook](
 {% post_url 2021-03-30-jekyll-deployment-via-bare-repository-und-post-receive-hook %})   
-mit dem [Jekyll Deployment Shell Skript](
-https://github.com/fl3a/jekyll_deployment).
+mithilfe meines selbst geschriebenen [Jekyll Deployment Shell Skript](
+https://github.com/fl3a/jekyll_deployment) dorthin deployed.
 
 ## Nachhaltig
 
-Diese Website produziert 0,01 Gramm CO<sub>2</sub> pro Seitenaufruf 
+Ich möchte diese Website so ressourcenschonend wie möglich gestalten. 
+Durch den Einsatz eines statischen Seitengenerators fallen abgesehen von der Auslieferung der HTML-Seiten 
+keine serverseitigen Rechenoperationen oder Datenbankzugriffe an.
+
+- Diese Website produziert 0,01 Gramm CO<sub>2</sub> pro Seitenaufruf 
 und ist laut [Website Carbon Calculator ](
-https://www.websitecarbon.com/website/florian-latzel-io/)   
+https://www.websitecarbon.com/website/florian-latzel-io/)[^test_date] 
 98 % sauberer als andere Seiten. 
-Durch die Nutzung eines statischen Seitengenerators 
-finden abgesehen von der Auslieferung der HTML-Seiten
-serverseitig zudem keine weiteren Rechenoperationen oder Datenbankzugriffe statt.   
-Die Server bei uberspace werden mit Ökostrom betrieben.
+- Die Rechenzentren bei [uberspace](
+https://uberspace.de) werden ausschließlich mit Ökostrom betrieben.
 
 ## Lizenz der Inhalte
 
 Die Inhalte dieser Website, soweit nicht anders angegeben, 
 sind unter der [CC BY-SA 4.0]({% link pages/copyleft.md %}) 
-lizensiert. Siehe [Copyleft 🄯]({% link pages/copyleft.md %}) für weitere Details.
+lizensiert.      
+Siehe [Copyleft 🄯]({% link pages/copyleft.md %}) für weitere Details.
+
+[^test_date]: Getestet am 27.09.2025
