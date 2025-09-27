@@ -62,7 +62,7 @@ blog_posts: 5
   <div id="kunden">
     <h2>Erfolgreiche Projekte &amp; Glückliche Kunden</h2>
     {% assign logo-path = "/assets/imgs/kunden" %}
-    {% comment %} 3 Zeilen a 4 Logos in Vollansicht {% comment %}
+    {% comment %} 3 Zeilen a 4 Logos in Vollansicht {% endcomment %}
     <ul class="kunden-logos">
       {% comment %} Zeile 1, Große Marken / Strahlkraft {% endcomment %}
       <li id="db"><img src="{{ logo-path }}/db-logo-red-rgb.svg" alt="Deutsche Bahn Logo" loading="lazy" /></li>
@@ -76,10 +76,10 @@ blog_posts: 5
         <picture>
           <source type="image/webp" srcset="{% picture mobile kunden/startplatz-accelerator-logo.png %}">
           <img src="{{ logo-path }}/startplatz-accelerator-logo.png" alt="Startplatz Accelerator Logo" loading="lazy" />
-         </picture>
+        </picture>
       </li>
-      <li id="init"><img src="{{ logo-path }}/init-logo.svg" alt="INIT Logo" loading="lazy" /></li>
-      {% endcomment %} Zeile 2, Outdoor & Persönliche / regionale Story {% endcomment %}
+      <li id="init">< img src="{{ logo-path }}/init-logo.svg" alt="INIT Logo" loading="lazy" /></li>
+      {% comment %} Zeile 3, Outdoor & Persönliche / regionale Story {% endcomment %}
       <li id="walkaboutyou">
         <picture>
           <source type="image/webp" srcset="{{ logo-path }}/walkaboutyou-logo.webp">
@@ -95,6 +95,7 @@ blog_posts: 5
       <li id="bib"><img src="{{ logo-path }}/bib-international-college-logo.svg" alt="bib International College Logo" loading="lazy" /></li>
       <li id="koeln"><img src="{{ logo-path }}/stadt-koeln-logo.svg" alt="Stadt Köln Logo" loading="lazy" /></li>
     </ul>
+
     <p class="teaser">Möchtest du auch dazugehören?</p>
     <div id="kontakt-2">
       <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Kontakt</a>
