@@ -1,14 +1,14 @@
-header: Meta
+header: Colophon
 links:
+
+- title: "Über diese Website"
+  url: /ueber-diese-website.html
 
 - title: Impressum
   url: /impressum.html
 
 - title: Datenschutz
   url: /datenschutzerklaerung.html
-
-- title: this.website
-  url: /ueber-diese-website.html
 
 - title: Copyleft 🄯
   url: /copyleft.html
