@@ -2,6 +2,7 @@
 title: Coaching FAQ
 layout: page
 permalink: /coaching-faq.html
+description: "Coaching-FAQ: Alles zu Ablauf, Methoden, Natur- und Geh-Coaching und wie Coaching in der Natur Klarheit und Perspektiven schafft."
 ---
 <section class="faq">
   <h2>Allgemeine Coaching-Fragen</h2>
