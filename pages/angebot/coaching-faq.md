@@ -281,14 +281,5 @@ Bewegungselementen, individuell auf dich zugeschnitten.
   </details>
 </section>
 
-<script>
-  document.querySelectorAll('.accordion').forEach((el) => {
-    el.addEventListener('click', () => {
-      document.querySelectorAll('.accordion').forEach((otherEl) => {
-        if (otherEl !== el) {
-          otherEl.removeAttribute('open');
-        }
-      });
-    });
-  });
-</script>
+<script src="{{ '/assets/js/single-accordion.js' | relative_url }}"></script>
+
