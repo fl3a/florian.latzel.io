@@ -36,19 +36,59 @@ oder Neuausrichtung.
   </details>
 
   <details class="accordion">
-    <summary><h3>Wie läuft eine Coaching-Sitzung ab?</h3></summary>
+    <summary><h3>Wie läuft Coaching ab?</h3></summary>
     <div class="faq-body">
-1. Kostenloses Kennenlerngespräch zur Zielklärung
-2. Rahmen passend zu deinem Anliegen
-3. Start mit einem ersten Coaching-Termin
-4. Weitere Sitzungen nach Bedarf
+      <ul>
+        <li>Wir führen eine kostenloses Gespräch zum gegenseitigen Kennenlernen und zur Zielklärung</li>
+        <li>Wir finden einen Rahmen, der zu deinem Anliegen passt</li>
+        <li>Wir starten mit einem ersten Coaching-Termin</li>
+        <li>Und vereinbaren weitere Sitzungen nach Bedarf</li>
+      </ul>  
+    </div>
+  </details>
+
+  <details class="accordion">
+    <summary><h3>Was sind die Grundlagen meines Coachings?</h3></summary>
+    <div class="faq-body">
+       Lösungsfokussierte Kurzzeittherapie nach Steve de Shazer und Kim Inso Berg, 
+       Systemische Strukturaufstellungen (SySt©) nach Matthias Varga von Kibéd und Insa Sparrer, 
+       Systemisch konstruktivistischer Beratungsansatz,
+       Provokative SystemArbeit (ProSA)® nach Dr. Noni E. Höfner und Dr. Charlotte Cordes,
+       Neuro Lingistisches Programmieren (NLP), Achtsamkeit und Outdoor Facilitation
+    </div>
+  </details>
+
+  <details class="accordion">
+    <summary><h3>Was ist Aufgabe des Coaches?</h3></summary>
+    <div class="faq-body">
+      Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. 
+      Cumque aut et nobis atque inventore aperiam. 
+      Enim excepturi nihil molestiae neque quam at ut voluptatem. 
+      Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+    </div>
+  </details>
+
+   <details class="accordion">
+    <summary><h3>Was ist Aufgabe des Coachees/Klient:innen?</h3></summary>
+    <div class="faq-body">
+      Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. 
+      Cumque aut et nobis atque inventore aperiam. 
+      Enim excepturi nihil molestiae neque quam at ut voluptatem. 
+      Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+    </div>
+  </details>
+
+  <details class="accordion">
+    <summary><h3>Was kann Coaching nicht leisten?</h3></summary>
+    <div class="faq-body">
+    Dauerhafte Schlafstörungen, Einnahme von Psychopharmaka, Drogensucht, Hausarzt, Psychotherapie 
     </div>
   </details>
 
   <details class="accordion">
     <summary><h3>Wie lange dauert eine Sitzung?</h3></summary>
     <div class="faq-body">
-Eine Sitzung dauert in der Regel 60 bis 90 Minuten.
+Eine Sitzung dauert in der Regel 60 bis 120 Minuten.
     </div>
   </details>
 
@@ -63,7 +103,7 @@ Klarheit und neue Perspektiven zu gewinnen.
   <details class="accordion">
     <summary><h3>Bietest du auch Online-Coaching an?</h3></summary>
     <div class="faq-body">
-Ja, Sitzungen können auch per Video-Call stattfinden.
+    Nein, mit Ausnahme des Kennenlerngespräches finden finden die Coachings in der Natur statt.t 
     </div>
   </details>
 
@@ -89,6 +129,17 @@ Danach fällt eine Ausfallgebühr an.
 Alles, was im Coaching besprochen wird, bleibt vertraulich.
     </div>
   </details>
+
+  <details class="accordion">
+    <summary><h3>Was bedeutet „systemisches Coaching“?</h3></summary>
+    <div class="faq-body">
+      Sint dolores aspernatur distinctio neque architecto ipsa repudiandae ullam. 
+      Cumque aut et nobis atque inventore aperiam. 
+      Enim excepturi nihil molestiae neque quam at ut voluptatem. 
+      Quisquam placeat eum quia ut. Suscipit est sit quasi.…
+    </div>
+  </details>
+
 
   <h2>Fragen zum Natur-/Geh-Coaching</h2>
 
