@@ -2,36 +2,45 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2025-05-18 11:31
+last_modified_at: 2025-09-29 20:22
 ---
-## Frühling
+## Berufliche Veränderungen
 
-Ich versuche möglichst viel Zeit Draußen zu verbringen 
-und die länger werdenden Tage sowie die stärker werdende Sonne genießen.
+Nach zwei Jahren als Agility Master von *Team Search Services*, 
+der Arbeit im *Search & Identity* Verbund und nach einen Jahr *Team14* 
+(Working Titel: Merge aus Team 1 und Team 4 war) im PO-/AM-Tandem 
+steht ein Wechsel innerhalb der DB Systel an.
+
+Modus: Zwischen Abdschied und Neuanfang.
 
 ## Pflanzenporträts
 
-Ich habe angefangen [Pflanzenporträts](/thema/pflanzenportrat/) zu schreiben. 
+Ich habe im Frühjahr angefangen [Pflanzenporträts](/thema/pflanzenportrat/) zu schreiben. 
 
-Unter dieser Kategorie werden in meinem [Blog](/blog.html) künftig regelmäßig 
+Unter [dieser Kategorie](/thema/pflanzenportrat/) 
+werden in meinem [Blog](/blog.html) künftig regelmäßig 
 weitere Steckbriefe zu heimische Pflanzen erscheinen, 
-die entweder essbar sind oder der Naturheilkunde Anwendung finden. 
+die essbar sind oder der Naturheilkunde Anwendung finden. 
 
 ## Coaching Portfolio & Über mich Seite
 
 Ich überarbeite aktuell meine Über mich und meine Portfolio Seite.
+Dazu kommt ein Coaching FAQ. 
+
+Beides Teile der fehlenden 20% (die 80% der Zeit brauchen😉), 
+die mir für die Coach Zertifizierung noch fehlen.
 
 ## Lernen
 
+- Seit Sommer 2025: Wieder im [Wing Chun Kung-Fu](https://www.directwingchun.com/) aktiv
+(Gary Lam / Wong Shun Leung Lineage)
 - Pflanzenkunde 
 - Seit Winter 2021: [Pencak Silat im Tapak Suci Stil](/thema/pencak-silat/)
 
 ## Lesen
 
+- Den Alltag meistern mit ADHS von Meredith Carder
 - Perfektionismus von Raphael Bonelli  
-- Fragen können wie Küsse schmecken - 
-Systemische Fragetechniken für Anfänger und Fortgeschrittene
-von Carmen Kindl Beilfuß
 - Agile Teams lösungsfokussiert coachen 
 von Verenika Kotrba und Ralph Miarka
 
