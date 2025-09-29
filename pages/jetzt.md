@@ -2,16 +2,14 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2025-09-29 20:22
+last_modified_at: 2025-09-29 20:26
 ---
-## Berufliche Veränderungen
+## Zwischen Abdschied und Neuanfang.
 
 Nach zwei Jahren als Agility Master von *Team Search Services*, 
 der Arbeit im *Search & Identity* Verbund und nach einen Jahr *Team14* 
-(Working Titel: Merge aus Team 1 und Team 4 war) im PO-/AM-Tandem 
-steht ein Wechsel innerhalb der DB Systel an.
-
-Modus: Zwischen Abdschied und Neuanfang.
+(Working Titel: Merge aus Team 1 und Team 4) im PO-/AM-Tandem 
+steht für mich ein Wechsel innerhalb der DB Systel an.
 
 ## Pflanzenporträts
 
