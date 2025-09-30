@@ -22,7 +22,7 @@ blog_posts: 5
   </div>
 
   <div id="portfolio">
-    <h2>Mein Angebot</h2>
+    <h2 id="mein-angebot">Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="{% link pages/angebot/coaching.md  %}">Coaching</a></h3>
       <p>Hilfe zur Selbsterkenntnis.<br />Systemisch und Lösungsfokussiert. 
