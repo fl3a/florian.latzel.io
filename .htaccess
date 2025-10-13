@@ -104,6 +104,7 @@ Redirect 301 /themen /themen.html
 Redirect 301 /node/990 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/987 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/981 /git-gitosis-gitweb-the-debian-way.html
 
 RewriteRule ^git-gitosis-gitweb-the-debian-way/.*$ /git-gitosis-gitweb-the-debian-way.html [R=301,L]
 
@@ -113,23 +114,25 @@ Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/679 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/685 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/680 /gnupg-micro-howto.html
+
 Redirect 301 /2008/11/27/gnupg-micro-howto/die-schluesselerstellung.html /gnupg-micro-howto.html
+Redirect 301 /2008/11/27/gnupg-micro-howto/konfiguration/konfiguration-von-gnupg.html /gnupg-micro-howto.html
+Redirect 301 /2008/11/27/gnupg-micro-howto/arbeiten-mit-gnupg/schluessel-widerrufen.html /gnupg-micro-howto.html
 
 RewriteRule ^2008/11/28/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 RewriteRule ^gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 
-
 # Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
 Redirect 301 /node/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/702 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/717 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/529 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/522 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/523 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /2009/02/05/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-einer-multisiteumgebung.ht /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /2008/09/30/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/konfiguration/neustart-von-apach /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/707 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 
-RewriteRule ^drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/.*$ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html [R=301,L]
+RewriteRule ^(?:[0-9]{4}/[0-9]{2}/[0-9]{2}/)?drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4(?:/.*)?$ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html [R=301,L]
 
 # Multisite Features unter Drupal 7.x
 Redirect 301 /book/export/html/1591 /multisite-features-unter-drupal-7-x.html
@@ -164,12 +167,22 @@ Redirect 301 /2012/11/16/drush-sql-dump-hold.html /2012/11/17/drush-sql-dump-hol
 Redirect 301 /2020/04/07/responsive-image.html /2020/04/07/co2-sparen-responsive-images-lazyload-jekyll.html
 Redirect 301 /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html
 Redirect 301 /php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren /2016/03/13/php_codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren.html
+Redirect 301 /2008/10/08/updates-fr-drupal-5-und-6.html /2008/10/08/updates-fuer-drupal-5-und-6.html
+Redirect 301 /2008/10/03/kln-mlheim-net-herzlichen-glckwunsch-nachtrglich-zum-dritten.html /2008/10/03/koeln-muelheim-net-herzlichen-glueckwunsch-nachtraeglich-zum-dritten.html
 
 # Pages
+Redirect 301 /florian-latzel /ueber-mich.html
 Redirect 301 /florian-latzel.html /ueber-mich.html
 Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
 Redirect 301 /angebot/coach-and-walk.html /coach-and-walk.html
+Redirect 301 /seminare/leadership-goes-wild /seminare/leadership-goes-wild.html
 
 # Bilder
 Redirect 301 /assets/imgs/2010-drupaldevdays-munich-luckow-fl3a-scrum-presentation.jpg /assets/imgs/florian-latzel-stephan-luckow-scrum-drupaldevdays-munich-2010.jpg
 Redirect 301 /assets/imgs/generated/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19-740-899ef22d4.jpg /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg
+
+# Tags/Thema
+Redirect 301 /thema/muellem/ /thema/mullem/
+Redirect 301 /thema/schaeael-sick/ /thema/schaael-sick/
+
+
