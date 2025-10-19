@@ -70,9 +70,8 @@ Redirect gone /thema/drupalcamp-ruhr/
 Redirect gone /2008/09/27/web2nulliger-projektleiter-sven-plaggemeier-ueber-den-launch-von-beta-koeln-de.html 
 Redirect gone /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-in-einer-multisite-umgebung/multisite-features-unter-drupal-7-x-1
 Redirect gone /drush-die-drupal-shell/weiterfuehrende-links-zu-drush.html
+Redirect gone /2008/12/09/2-advent-voll-was-auf-die-ohren.html
 
-# TEMP FIX gegen Redirect
-Redirect gone /thema/doxygen
 
 #########
 # 301er #
@@ -105,6 +104,9 @@ Redirect 301 /node/990 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/987 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/981 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/985 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/983 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/980 /git-gitosis-gitweb-the-debian-way.html
 
 RewriteRule ^git-gitosis-gitweb-the-debian-way/.*$ /git-gitosis-gitweb-the-debian-way.html [R=301,L]
 
@@ -125,12 +127,24 @@ RewriteRule ^gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 # Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
 Redirect 301 /node/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+
+RewriteRule ^2008/11/28/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
+RewriteRule ^2008/11/27/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
+RewriteRule ^gnupg(-gpg)?-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
+
+# Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
+Redirect 301 /node/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+
 Redirect 301 /book/export/html/702 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/707 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/717 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/529 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/522 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/523 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/707 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+
+Redirect 301 /2009/02/05/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-einer-multisiteumgebung.ht /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /2008/09/30/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/konfiguration/neustart-von-apach /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 
 RewriteRule ^(?:[0-9]{4}/[0-9]{2}/[0-9]{2}/)?drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4(?:/.*)?$ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html [R=301,L]
 
@@ -169,6 +183,13 @@ Redirect 301 /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html /2009/1
 Redirect 301 /php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren /2016/03/13/php_codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren.html
 Redirect 301 /2008/10/08/updates-fr-drupal-5-und-6.html /2008/10/08/updates-fuer-drupal-5-und-6.html
 Redirect 301 /2008/10/03/kln-mlheim-net-herzlichen-glckwunsch-nachtrglich-zum-dritten.html /2008/10/03/koeln-muelheim-net-herzlichen-glueckwunsch-nachtraeglich-zum-dritten.html
+Redirect 301 /2007/08/24/drupal-user-group-kln-bonn-grillen-im-netzladen-bonn.html /2007/08/24/drupal-user-group-koeln-bonn-grillen-im-netzladen-bonn.html
+Redirect 301 /2008/10/08/keine-gez-gebuehr-bei-privater-pc-nutzung.html /2008/10/08/keine-gez-gebhr-bei-privater-pc-nutzung.html
+Redirect 301 /2008/10/28/drupalcamp-koeln-17-18-januar-2009.html /2008/10/28/drupalcamp-kln-17-18-januar-2009.html
+Redirect 301 /2009/02/20/drush-mm-adminrole-workaround-und-tabs-in-firefox.html /2009/02/20/drush_mm-adminrole-workaround-und-tabs-in-firefox.html
+Redirect 301 /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface-drupal-user-group-koeln-bonn.html /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface-drupal-user-group-kln-bonn.html
+Redirect 301 /copy-n-paste-bei-gpg-passwoertern-und-pinentry /2015/11/14/copy-n-paste-bei-gpg-passwoertern-und-pinentry.html
+Redirect 301 /2012/10/16/hnlichkeiten-in-sql-drupal-db-query-like.html /2012/10/16/aehnlichkeiten-in-sql-drupal-db_query-like.html
 
 # Pages
 Redirect 301 /florian-latzel /ueber-mich.html
