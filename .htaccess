@@ -120,6 +120,7 @@ Redirect 301 /book/export/html/680 /gnupg-micro-howto.html
 Redirect 301 /2008/11/27/gnupg-micro-howto/die-schluesselerstellung.html /gnupg-micro-howto.html
 Redirect 301 /2008/11/27/gnupg-micro-howto/konfiguration/konfiguration-von-gnupg.html /gnupg-micro-howto.html
 Redirect 301 /2008/11/27/gnupg-micro-howto/arbeiten-mit-gnupg/schluessel-widerrufen.html /gnupg-micro-howto.html
+Redirect 301 /2008/11/26/gnupg-micro-howto/weiterfuehrende-links.html /gnupg-micro-howto.html
 
 RewriteRule ^2008/11/28/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 RewriteRule ^gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
@@ -194,11 +195,13 @@ Redirect /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface-drupal-user-gr
 Redirect 301 /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html
 Redirect 301 /node/1630 /2014/08/28/facebook-tschoe-mit-oe-mit-oe.html
 Redirect 301 /2011/10/05/features-session-dcb11.html /2011/10/05/features-session-drupalcity-de-2011.html
-Redirect 301 /florian-fl3a-latzel.html /ueber-mich.html
+Redirect 301 /2009/12/08/drush-und-mulisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html
+Redirect 301 /wanderung-bergischer-weg-etappe-4-landrat-lucas-weg.html /2020/05/10/50km-wanderung-burg-opladen-bergischer-weg-etappe-4-landrat-lucas-weg.html
 
 # Pages
 Redirect 301 /florian-latzel /ueber-mich.html
 Redirect 301 /florian-latzel.html /ueber-mich.html
+Redirect 301 /florian-fl3a-latzel.html /ueber-mich.html
 Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
 Redirect 301 /angebot/coach-and-walk.html /coach-and-walk.html
 Redirect 301 /seminare/leadership-goes-wild /seminare/leadership-goes-wild.html
@@ -206,6 +209,14 @@ Redirect 301 /seminare/leadership-goes-wild /seminare/leadership-goes-wild.html
 # Bilder
 Redirect 301 /assets/imgs/2010-drupaldevdays-munich-luckow-fl3a-scrum-presentation.jpg /assets/imgs/florian-latzel-stephan-luckow-scrum-drupaldevdays-munich-2010.jpg
 Redirect 301 /assets/imgs/generated/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19-740-899ef22d4.jpg /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg
+Redirect 301 /assets/imgs/dcvie/SirFiChi-und-fl3a-im-hotel-tag0.jpeg /drupalcamp-vienna-2009/florian-klare--florian-latzel.jpg
+Redirect 301 /assets/imgs/flipchart-schatzkiste-tom-andreas-teaser.jpeg /assets/imgs/flipchart-schatzkiste-tom-andreas-full.jpeg
+Redirect 301 /assets/imgs/2009-drupalcamp-vienna-fl3a-drush_multi-presentation.jpg /assets/imgs/2009-drupalcamp-vienna-florian-latzel-drush_multi-presentation.jpg
+Redirect 301 /assets/imgs/dcvie/nachhilfe-von-dereine-im-zug-tag3.jpeg /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe-1.jpg
+Redirect 301 /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe.jpg /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe-1.jpg
+Redirect 301 /assets/imgs/2009-drupalcamp-vienna-fl3a-drush_multi-presentation.jpg /assets/imgs/2009-drupalcamp-vienna-florian-latzel-drush_multi-presentation.jpg
+
+
 
 # Tags/Thema
 Redirect 301 /thema/muellem/ /thema/mullem/
