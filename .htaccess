@@ -54,12 +54,11 @@ RedirectMatch gone ^/assets/imgs/resized/
 # Drupal files und images
 RewriteRule ^sites/netzaffe\.de/files/.*$ - [G,L]
 # Drupal image module
-RewriteRule ^fotos/.*$ - [G,L]
+RedirectMatch 410 ^/fotos/.*$
 # 410er Pagination
-RedirectMatch gone ^/page/(.*)
-
+RedirectMatch gone ^/page/.*$
 # Drupal taxonomy
-RedirectMatch gone ^/taxonomy/term/ 
+RedirectMatch gone ^/taxonomy/term/.*$
 
 # 410 Misc
 
@@ -215,10 +214,6 @@ Redirect 301 /assets/imgs/dcvie/nachhilfe-von-dereine-im-zug-tag3.jpeg /assets/i
 Redirect 301 /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe.jpg /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe-1.jpg
 Redirect 301 /assets/imgs/2009-drupalcamp-vienna-fl3a-drush_multi-presentation.jpg /assets/imgs/2009-drupalcamp-vienna-florian-latzel-drush_multi-presentation.jpg
 
-
-
 # Tags/Thema
 Redirect 301 /thema/muellem/ /thema/mullem/
 Redirect 301 /thema/schaeael-sick/ /thema/schaael-sick/
-
-
