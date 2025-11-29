@@ -2,37 +2,39 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2025-09-29 20:26
+last_modified_at: 2025-11-29 11:47
 ---
-## Zwischen Abdschied und Neuanfang.
+Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
+inspiriert durch [Derek Sivers](https://sive.rs/).  
 
-Nach zwei Jahren als Agility Master von *Team Search Services*, 
-der Arbeit im *Search & Identity* Verbund und nach einen Jahr *Team14* 
-(Working Titel: Merge aus Team 1 und Team 4) im PO-/AM-Tandem 
-steht für mich ein Wechsel innerhalb der DB Systel an.
+## Neuanfang als SAFe&copy; Scrum Master
 
-## Pflanzenporträts
+Nach zwei Jahren als Agility Master bei der DB Systel
+arbeite ich seit Ende Oktober Scrum Master in einem großen Digitalisierungsprojekt 
+bei der DB InfraGo und mache meine ersten praktischen Erfahrungen 
+mit dem SAFe&copy; Skalierungs Framework.
 
-Ich habe im Frühjahr angefangen [Pflanzenporträts](/thema/pflanzenportrat/) zu schreiben. 
-
-Unter [dieser Kategorie](/thema/pflanzenportrat/) 
-werden in meinem [Blog](/blog.html) künftig regelmäßig 
-weitere Steckbriefe zu heimische Pflanzen erscheinen, 
-die essbar sind oder der Naturheilkunde Anwendung finden. 
+Ich lerne gerade ein neues, hochkomplexes Umfeld, ein neues Team 
+und viele neue Menschen kennen.
 
 ## Coaching Portfolio & Über mich Seite
 
-Ich überarbeite aktuell meine Über mich und meine Portfolio Seite.
-Dazu kommt ein Coaching FAQ. 
+Aktuell feile in ich wiedermal an meinem Profil als Coach und überarbeite 
+meine [Über mich]({%link pages/ueber-mich.md %}) Seite
+sowie meine Portfolio Seite. Dazu kommt noch **Coaching FAQ**. 
 
-Beides Teile der fehlenden 20% (die 80% der Zeit brauchen😉), 
+Beides Teile der Fehlenden 20% (die 80% der Zeit brauchen😉), 
 die mir für die Coach Zertifizierung noch fehlen.
 
 ## Lernen
 
+- Seit November 2025: Trainer Assistenz bei der aktuellen Ausbilding 
+zum [Systemischen Coach](/thema/coaching/) bei [Tom Andreas](/thema/tom-andreas/)
+- Seit Oktober 2025: Zehnwöchige GfK Lernreise im Rahmen einer zweiteiligen Fortbildung
 - Seit Sommer 2025: Wieder im [Wing Chun Kung-Fu](https://www.directwingchun.com/) aktiv
 (Gary Lam / Wong Shun Leung Lineage)
-- Pflanzenkunde 
+- Seit Früjahr 2025: Pflanzenkunde, 
+daraus entstehen zum Teil [Pflanzenporträts](/thema/pflanzenportrat/) im [Blog](/blog.html)
 - Seit Winter 2021: [Pencak Silat im Tapak Suci Stil](/thema/pencak-silat/)
 
 ## Lesen
@@ -42,5 +44,4 @@ die mir für die Coach Zertifizierung noch fehlen.
 - Agile Teams lösungsfokussiert coachen 
 von Verenika Kotrba und Ralph Miarka
 
-Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
-inspiriert durch [Derek Sivers](https://sive.rs/).   
+*[GfK]: Gewaltfreie Kommunikation
