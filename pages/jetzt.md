@@ -28,7 +28,7 @@ die mir für die Coach Zertifizierung noch fehlen.
 
 ## Lernen
 
-- Seit November 2025: Trainer Assistenz bei der aktuellen Ausbilding 
+- Seit November 2025: Trainer Assistenz bei der aktuellen Ausbildung 
 zum [Systemischen Coach](/thema/coaching/) bei [Tom Andreas](/thema/tom-andreas/)
 - Seit Oktober 2025: Zehnwöchige GfK Lernreise im Rahmen einer zweiteiligen Fortbildung
 - Seit Sommer 2025: Wieder im [Wing Chun Kung-Fu](https://www.directwingchun.com/) aktiv
