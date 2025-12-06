@@ -62,15 +62,23 @@ RedirectMatch gone ^/taxonomy/term/.*$
 
 # 410 Misc
 
-# Drupal-Projekte in Git
 Redirect gone /node/1608
-Redirect gone /drush-die-drupal-shell/drushrc-php.html
 Redirect gone /thema/drupalcamp-ruhr/
 Redirect gone /2008/09/27/web2nulliger-projektleiter-sven-plaggemeier-ueber-den-launch-von-beta-koeln-de.html 
 Redirect gone /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-in-einer-multisite-umgebung/multisite-features-unter-drupal-7-x-1
-Redirect gone /drush-die-drupal-shell/weiterfuehrende-links-zu-drush.html
 Redirect gone /2008/12/09/2-advent-voll-was-auf-die-ohren.html
-
+Redirect gone /node/15
+Redirect gone /keybase.txt
+Redirect gone /book/export/html/652
+Redirect gone /book/export/html/665
+Redirect gone /book/export/html/669
+Redirect gone /book/export/html/671
+Redirect gone /book/export/html/991
+Redirect gone /node/1651
+Redirect gone /node/1648
+Redirect gone /fotos.html
+Redirect gone /blogs/floh/2008/11/29/1-advent-firefox-commercial.html
+Redirect gone /2012/09/22/dmexco-2012.html
 
 #########
 # 301er #
@@ -96,25 +104,40 @@ Redirect 301 /rss.xml /feed.xml
 
 Redirect 301 /themen /themen.html
 
+# Posts nach Thema
+RedirectMatch 301 ^/drush-die-drupal-shell(.*) /thema/drush/
+
 # 301er: Drupal book pages 
 
 # Git, Gitosis, Gitweb (the Debian way)
 Redirect 301 /node/990 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
-Redirect 301 /book/export/html/987 /git-gitosis-gitweb-the-debian-way.html
-Redirect 301 /book/export/html/981 /git-gitosis-gitweb-the-debian-way.html
-Redirect 301 /book/export/html/985 /git-gitosis-gitweb-the-debian-way.html
-Redirect 301 /book/export/html/983 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/979 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/980 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/981 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/982 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/983 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/984 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/985 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/986 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/987 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/988 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/990 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/1008 /git-gitosis-gitweb-the-debian-way.html
 
 RewriteRule ^git-gitosis-gitweb-the-debian-way/.*$ /git-gitosis-gitweb-the-debian-way.html [R=301,L]
 
 # GnuPG Micro Howto
 Redirect 301 /node/679 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/675 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/678 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/679 /gnupg-micro-howto.html
-Redirect 301 /book/export/html/685 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/680 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/681 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/682 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/684 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/685 /gnupg-micro-howto.html
 
 Redirect 301 /2008/11/27/gnupg-micro-howto/die-schluesselerstellung.html /gnupg-micro-howto.html
 Redirect 301 /2008/11/27/gnupg-micro-howto/konfiguration/konfiguration-von-gnupg.html /gnupg-micro-howto.html
@@ -124,10 +147,6 @@ Redirect 301 /2008/11/26/gnupg-micro-howto/weiterfuehrende-links.html /gnupg-mic
 RewriteRule ^2008/11/28/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 RewriteRule ^gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 
-# Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
-Redirect 301 /node/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-
 RewriteRule ^2008/11/28/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 RewriteRule ^2008/11/27/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 RewriteRule ^gnupg(-gpg)?-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
@@ -135,13 +154,21 @@ RewriteRule ^gnupg(-gpg)?-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 # Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
 Redirect 301 /node/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 
+Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/521 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/522 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/523 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/525 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/529 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/538 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/540 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/596 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/688 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/700 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/702 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/707 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/717 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /book/export/html/529 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /book/export/html/522 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /book/export/html/523 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /book/export/html/707 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 
 Redirect 301 /2009/02/05/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-einer-multisiteumgebung.ht /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /2008/09/30/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/konfiguration/neustart-von-apach /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
@@ -196,6 +223,11 @@ Redirect 301 /node/1630 /2014/08/28/facebook-tschoe-mit-oe-mit-oe.html
 Redirect 301 /2011/10/05/features-session-dcb11.html /2011/10/05/features-session-drupalcity-de-2011.html
 Redirect 301 /2009/12/08/drush-und-mulisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html
 Redirect 301 /wanderung-bergischer-weg-etappe-4-landrat-lucas-weg.html /2020/05/10/50km-wanderung-burg-opladen-bergischer-weg-etappe-4-landrat-lucas-weg.html
+Redirect 301 /certified-scrum-professional-csp.html /2018/03/31/certified-scrum-professional-csp.html
+Redirect 301 /2008/11/07/drupalcamp-2009-kln-call4papers-vorabregistrierung.html /2008/11/07/drupalcamp-2009-koeln-call4papers-vorabregistrierung.html
+Redirect 301 /blogs/floh/2009/01/15/schoen-sick-right-side-rhine.html /2009/01/15/schoen-sick-on-the-right-side-of-rhine.html
+Redirect 301 /2012/09/22/froscon-2012-social-event-die-grillschlange.html /froscon-2012-social-event-die-grillschlange.html
+Redirect 301 /2008/12/14/arrays-der-bash.html /arrays-in-der-bash.html
 
 # Pages
 Redirect 301 /florian-latzel /ueber-mich.html
@@ -213,6 +245,8 @@ Redirect 301 /assets/imgs/2009-drupalcamp-vienna-fl3a-drush_multi-presentation.j
 Redirect 301 /assets/imgs/dcvie/nachhilfe-von-dereine-im-zug-tag3.jpeg /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe-1.jpg
 Redirect 301 /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe.jpg /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe-1.jpg
 Redirect 301 /assets/imgs/2009-drupalcamp-vienna-fl3a-drush_multi-presentation.jpg /assets/imgs/2009-drupalcamp-vienna-florian-latzel-drush_multi-presentation.jpg
+Redirect 301 /assets/image/2022/monique-schaukel-nazare-sitio.jpg /assets/imgs/2022/monique-schaukel-nazare-sitio.jpg
+Redirect 301 /assets/imgs/dcvie/down-under-wien.jpeg /assets/imgs/drupalcamp-vienna-2009/dvcie-party-down-under.jpg
 
 # Tags/Thema
 Redirect 301 /thema/muellem/ /thema/mullem/
