@@ -112,16 +112,13 @@ deine eigene Säge oder dein eigenes Beil mitbringen.
 
 ### Termine & Anmeldung
 
-Wann & Wo?
+Die Planung für die Bowdrill-Seminare 2026 läuft aktuell.  
+Sobald konkrete Termine feststehen, werden sie hier veröffentlicht.
 
-📅 Samstag, 11. Oktober 2025\
-🕒 11:00 – ca. 15:00 Uhr (4 Stunden)\
-📍 Decksteiner Weiher, Köln
+Wenn du vorab informiert werden möchtest, schreib mir gern eine Mail an  
+📧 [florian@latzel.io](mailto:florian@latzel.io).
 
 👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!
-
-👉 [**Jetzt anmelden und dabei sein!**](
-https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0/)
 
 ### Sicherheit: Kein Alkohol
 

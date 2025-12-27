@@ -51,26 +51,21 @@ Material für das Bohrbrett, Spindel und Zundernest werden gestellt.\\
 Das Holz für den Bogen und das Druckstück wird gemeinsam vor Ort gesammelt.\\
 Teilnahme ab 18 Jahren oder in Begleitung eines Erziehungs- bzw. Aufsichtsberechtigten.
 
-📍 **Ort:** Decksteiner Weiher, Köln  
 🕒 **Dauer:** ca. 4 Stunden  
 
-## Termine 2025
+## Termine 2026
 
-📅 **Samstag, 11. Oktober 2025**  
-🕒 **11:00 – ca. 15:00 Uhr (4 Stunden)**  
-📍 **Decksteiner Weiher, Köln**
+Die Planung für die Bowdrill-Seminare 2026 läuft aktuell.  
+Sobald konkrete Termine feststehen, werden sie hier veröffentlicht.
 
-**Hinweis**: Dieser Termin wird unabhängig von Globetrotter und Naturzeitclub  
-von mir persönlich in Kooperation mit Julian organisiert.
+Wenn du vorab informiert werden möchtest, schreib mir gern eine Mail an  
+📧 [florian@latzel.io](mailto:florian@latzel.io).
 
 👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!             
-                                                                                
-👉 [**Jetzt anmelden und dabei sein!**](                                        
-https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0/) 
-
 
 **Vergangene Termine**
 
+- 11\. Oktober 2025
 - 13\. April 2025 – in Kooperation mit Naturzeitclub Köln  
 - 27\. April 2025 – in Kooperation mit Naturzeitclub Köln
 - 18\. Mai 2025 – in Kooperation mit Naturzeitclub Köln
