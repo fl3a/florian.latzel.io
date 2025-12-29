@@ -21,8 +21,9 @@ alt: "Collage, Eindrücke des Bushcraft-Trainings"
 caption: 'Eindrücke des Bushcraft-Trainings für die Naturzeitclub Coaches. © Naturzeitclub.' %}
 
 Im Februar 2022 leitete ich für die Ausbildung der ersten Gruppe von [Naturzeitclub](https://naturzeit.club)
--Coaches den Bushcraft-Teil.
-Das Training fand in der [Waldschule Solingen](https://waldschule-solingen.de/) 
+-Coaches den [**Bushcraft-Teil**](
+{%link pages/angebot/wildnistraining.md %}).
+Dieses **Wildnistraining** fand in der [Waldschule Solingen](https://waldschule-solingen.de/) 
 im *Bergischen Land* statt.
 Auf dem Programm standen der **Bau einer Laubhütte**,
 theoretische und praktische Übungen zum **Feuermachen**,
