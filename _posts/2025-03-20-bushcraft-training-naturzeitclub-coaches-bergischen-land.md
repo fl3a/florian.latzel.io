@@ -13,7 +13,7 @@ tags:
 - Glutbrennen
 - just me
 image: /assets/imgs/bushcraft-training-2022/bushcraft-training-naturzeitclub-coaches-bergischen-land.png
-last_modified_at: 2025-05-18
+last_modified_at: 2025-12-29
 ---
 {% responsive_image figure: true
 path: assets/imgs/bushcraft-training-2022/bushcraft-training-naturzeitclub-coaches-bergischen-land.png
