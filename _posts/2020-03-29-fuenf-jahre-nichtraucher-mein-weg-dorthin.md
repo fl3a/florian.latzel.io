@@ -123,7 +123,7 @@ wie ich mich damals als Anfänger angestellt habe.
 
 ## Auf das Nichtrauchen stolz sein
 
-Den 21. März habe ich im Kalender als *Nichtrauchertag* als Termin, 
+Den 23. März habe ich im Kalender als *Nichtrauchertag* als Termin, 
 der sich monatlich wiederholt, eingetragen. 
 Ich werde jeden Monat daran erinnert, 
 dass ich mal ein starker Raucher war und es jetzt nicht mehr bin.
