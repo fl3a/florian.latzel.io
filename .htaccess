@@ -60,6 +60,69 @@ RedirectMatch gone ^/page/.*$
 # Drupal taxonomy
 RedirectMatch gone ^/taxonomy/term/.*$
 
+# Gelöschte themen Seiten
+Redirect gone /thema/netzkultur/
+Redirect gone /thema/meetup/
+Redirect gone /thema/code-quality/
+Redirect gone /thema/uuid/
+Redirect gone /thema/pear/
+Redirect gone /thema/email/
+Redirect gone /thema/date/
+Redirect gone /thema/cleancode/
+Redirect gone /thema/variablen/
+Redirect gone /thema/undefined/
+Redirect gone /thema/schaael-sick/
+Redirect gone /thema/rheinpark/
+Redirect gone /thema/aarau/
+Redirect gone /thema/subsite/
+Redirect gone /thema/stefan/
+Redirect gone /thema/oop/
+Redirect gone /thema/oesterreich/
+Redirect gone /thema/live-cd/
+Redirect gone /thema/koeln/
+Redirect gone /thema/keynote/
+Redirect gone /thema/fahrrad-sternfahrt/
+Redirect gone /thema/drupalcamp-de-2009-1/
+Redirect gone /thema/dokumentation/
+Redirect gone /thema/datenintegritat/
+Redirect gone /thema/coding-standard/
+Redirect gone /thema/cmds/
+Redirect gone /thema/4-6-x/
+Redirect gone /thema/zoobruecke/
+Redirect gone /thema/whisky/
+Redirect gone /thema/verschluesselung/
+Redirect gone /thema/trash/
+Redirect gone /thema/terminologie/
+Redirect gone /thema/stadtrad/
+Redirect gone /thema/smoke/
+Redirect gone /thema/server/
+Redirect gone /thema/schne:emann/
+Redirect gone /thema/schatten/
+Redirect gone /thema/relauch/
+Redirect gone /thema/netzaffe-de/
+Redirect gone /thema/modrewrite/
+Redirect gone /thema/microsoft/
+Redirect gone /thema/magenta/
+Redirect gone /thema/koeln/
+Redirect gone /thema/holland/
+Redirect gone /thema/gt-zaskar-le/
+Redirect gone /thema/gasthof/
+Redirect gone /thema/fruende/
+Redirect gone /thema/frisbee/
+Redirect gone /thema/frei-wie-bier/
+Redirect gone /thema/freie-software/
+Redirect gone /thema/electronique/
+Redirect gone /thema/drupal-user-group-k-ln-bonn/
+Redirect gone /thema/dom/
+Redirect gone /thema/broilers/
+Redirect gone /thema/bass/
+Redirect gone /thema/anf-nger/
+Redirect gone /thema/adventskalender/
+Redirect gone /thema/4-7-x/
+Redirect gone /thema/2010/
+
+
+
 # 410 Misc
 
 Redirect gone /node/1608
@@ -79,6 +142,8 @@ Redirect gone /node/1648
 Redirect gone /fotos.html
 Redirect gone /blogs/floh/2008/11/29/1-advent-firefox-commercial.html
 Redirect gone /2012/09/22/dmexco-2012.html
+Redirect gone /node/1329
+Redirect gone /node/8
 
 #########
 # 301er #
@@ -96,6 +161,7 @@ RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
 RewriteRule ^tags/([^/]+)/page/[0-9]+/?$ /thema/$1/ [R=301,L]
+Redirect 301 /tagadelic/chunk/7 /themen.html
 
 # Feed
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
@@ -228,6 +294,9 @@ Redirect 301 /2008/11/07/drupalcamp-2009-kln-call4papers-vorabregistrierung.html
 Redirect 301 /blogs/floh/2009/01/15/schoen-sick-right-side-rhine.html /2009/01/15/schoen-sick-on-the-right-side-of-rhine.html
 Redirect 301 /2012/09/22/froscon-2012-social-event-die-grillschlange.html /froscon-2012-social-event-die-grillschlange.html
 Redirect 301 /2008/12/14/arrays-der-bash.html /arrays-in-der-bash.html
+Redirect 301 /node/1596 /angrillen-2012.html
+Redirect 301 /pear-phpunit-composer-und-drupal /2015/02/28/pear-phpunit-de-composer-und-drupal.html
+Redirect 301 /2008/10/12/mehrere-zehntausende-demonstieren-gegen-den-ueberwachungswahn.html /2008/10/12/mehrere-zehntausende-demonstieren-gegen-den-ueberwachungswahn.html
 
 # Pages
 Redirect 301 /florian-latzel /ueber-mich.html
@@ -235,6 +304,7 @@ Redirect 301 /florian-latzel.html /ueber-mich.html
 Redirect 301 /florian-fl3a-latzel.html /ueber-mich.html
 Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
 Redirect 301 /angebot/coach-and-walk.html /coach-and-walk.html
+Redirect 301 /angebot/coaching.html /coaching.html
 Redirect 301 /seminare/leadership-goes-wild /seminare/leadership-goes-wild.html
 
 # Bilder
