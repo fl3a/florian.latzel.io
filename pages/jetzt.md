@@ -2,7 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2026-02-12 20:49
+last_modified_at: 2026-02-12 1:099
 ---
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).  
@@ -28,6 +28,8 @@ die mir für die Coach Zertifizierung noch fehlen.
 
 ## Lernen
 
+- Dotfiles managen mit GNU Stow, Git und Git-crypt (Artikel folgt)
+sowie das Kennenlernen moderner Terminal Produktivitätstools wie Kitty, eza, fzf und yazi (und deren Dotfiles😉).
 - Seit November 2025: Trainer Assistenz bei der aktuellen Ausbildung 
 zum [Systemischen Coach](/thema/coaching/) bei [Tom Andreas](/thema/tom-andreas/). 
 Profilschärfung und der Blick aus der Trainer und Fazilitatoren-Brille. 
