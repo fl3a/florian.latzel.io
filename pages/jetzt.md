@@ -2,7 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2025-11-29 11:47
+last_modified_at: 2026-02-12 20:49
 ---
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).  
@@ -31,7 +31,7 @@ die mir für die Coach Zertifizierung noch fehlen.
 - Seit November 2025: Trainer Assistenz bei der aktuellen Ausbildung 
 zum [Systemischen Coach](/thema/coaching/) bei [Tom Andreas](/thema/tom-andreas/). 
 Profilschärfung und der Blick aus der Trainer und Fazilitatoren-Brille. 
-- Seit Oktober 2025: Zehnwöchige GfK Lernreise im Rahmen einer zweiteiligen Fortbildung
+- Seit Oktober 2025: GfK im Rahmen einer Fortbildung
 - Seit Sommer 2025: Wieder im [Wing Chun Kung-Fu](https://www.directwingchun.com/) aktiv
 (Gary Lam / Wong Shun Leung Lineage)
 - Seit Früjahr 2025: Pflanzenkunde, 
@@ -40,7 +40,9 @@ daraus entstehen zum Teil [Pflanzenporträts](/thema/pflanzenportrat/) im [Blog]
 
 ## Lesen
 
-- Den Alltag meistern mit ADHS von Meredith Carder
+- Mit ADHS erfolgreich im Beruf von Heiner Lachenmeier
+- Wenn die Giraffe mit dem Wolf tanzt - Vier Schritte zu einer einühlsamen Kommuniaktion
+von Serena Rust
 - Perfektionismus von Raphael Bonelli  
 - Agile Teams lösungsfokussiert coachen 
 von Verenika Kotrba und Ralph Miarka
