@@ -2,7 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2026-02-12 1:099
+last_modified_at: 2026-02-12
 ---
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).  
