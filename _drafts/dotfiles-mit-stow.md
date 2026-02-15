@@ -24,9 +24,10 @@ und ich möchte meine teils langjährig erstellten Settings gerne auf viele Kist
 
 ## Wie ist GNU Stow?
 
-Stow beschreibt sich als *symlink farm manager*, 
-welcher gerne auch als zuverlässiges 
-und bequemes Werkzeug zur Verwaltung von Dotfiles verwendet wird.
+[Stow][stow] beschreibt sich selbst als *symlink farm manager*
+und ist das Bindeglied vom Repo nach `$HOME`. 
+Es ist ein bequemes Werkzeug, 
+dass auch im Kontext von Dotfiles angewendet wird.
 
 **Inhalt**
 - Inhalt
