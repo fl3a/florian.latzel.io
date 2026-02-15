@@ -101,13 +101,14 @@ home/florian/.dotfiles
 
 ### stow  [-S | \-\-stow]
 
-Du kannst verschiedene Mengen an Packages *"stowen"*: 
+Du kannst verschiedene Mengen an Packages *"stowen"*, 
+die Kurz- und Lang-Option sind nicht notwendig: 
 
 - Für ein Package, beispielsweise vim `stow vim`
 - Für mehrere Packages,  `stow vim zsh irssi`
 - Für alle Packages: `stow */`
 
-Probe aufs Exempel mit einen Package, hier wie oben mit dem vim Package:
+Probe aufs Exempel, hier mit dem oben *gestowten* vim Package:
    
     ls -la ~/.vimrc
 
@@ -115,7 +116,7 @@ Voila, Symlink da!
 
     lrwxrwxrwx 1 florian florian 19  6. Okt 22:44 /home/florian/.vimrc -> .dotfiles/vim/.vimrc
 
-### stow \-\-override=REGEX
+### \-\-override=REGEX
 
 Falls ein Target[^term] bereits besteht, 
 dann meckert stow das an und quittiert seinen Dienst. 
@@ -127,7 +128,17 @@ dann meckert stow das an und quittiert seinen Dienst.
 
 Mit der Option  `--override=REGEX` kannst du dich über mögliche Konflikte hinwegsetzen.
 
-### stow \-\-adopt
+Beispiele:
+
+Überschreibe `.bashrc` und das `.ssh/`inklusive seiner Inhalte.'
+
+    stow --override='\.bashrc$' --override='^\.ssh/' */
+
+⚠️  Überschreibe alles ⚠️
+
+    stow --override='.*' */
+
+### \-\-adopt
 
 Es ist möglich, den Konflikt aufzulösen, in dem die Datei in das stow Package
 mit `--adopt`[^sao] importiert wird. 
@@ -139,7 +150,7 @@ Hier mit zusätzlichen Verbose, um genauer zu sehen was dann passiert:
 
 Jetzt kann das VCS übernehemen.
 
-### stow -D | \-\-delete
+### -D | \-\-delete
 
 *Unstowed* Pakate aus dem Zielverzeichnis, daß heißt, Symlinks werden werden gelöscht.  
 
@@ -166,10 +177,38 @@ Für Details und mehr Informationen:
 #### Ignore-Lists
 
 [^ign]
+```
+RCS
+.+,v
+
+CVS
+\.\#.+       # CVS conflict files / emacs lock files
+\.cvsignore
+
+\.svn
+_darcs
+\.hg
+
+\.git
+\.gitignore
+\.gitmodules
+
+.*.sw[a-p]   # Vim swap files
+.+~          # emacs backup files
+\#.*\#       # emacs autosave files
+
+^/README.*
+^/LICENSE.*
+^/COPYING
+```
 
 #### Resource-Files
 
 [^rc]
+```
+--verbose=2
+--target=$HOME
+```
 
 ## Bonus Smash: git-crypt
 
@@ -200,19 +239,53 @@ shell/.env.secret filter=git-crypt diff=git-crypt
 
 ### Einen euen *git-crypt collaborator* hinzufügen   
 
-Den GnuPG-Public eines neues *Collaborators* importieren 
-(e.g. vorher via Mail erhalten oder via scp transferiert)     
+Mit dem folgenden Befehl importieren ich den *GnuPG-Public-Key* 
+eines neues *Collaborators* importieren in meinen sog. *GPG-Keyring*.  
 
     gpg --import kdoz@uber.space.asc
+
+Stichwort Vertrauen, der öffentliche GPG Schlüssel 
+hat noch kein von uns festgelegtes Vertrauen.
+Hier wird `git-crypt add-gpg-user` den Dienst verweigern.
+
+Hier eine Ausgabe von `git-crypt add-gpg-user` mit einem Key ohne festgelegtes *Trust-Level*:
+```
+gpg: B4BB663939BFA237: Es gibt keine Garantie, daß dieser Schlüssel wirklich dem angegebenen Besitzer gehört.
+gpg: [stdin]: encryption failed: Unbrauchbarer öffentlicher Schlüssel
+git-crypt: GPG error: Failed to encrypt
+```
+
+Also via `gpg` das *Trust-Level* des *Public-Keys* festlegen 
+(weitere Informationen zur [Benutzung von gpg](
+{%post_url 2008-11-26-gnupg-micro-howto %}) 
+findest du in meinem [GnuPG Micro Howto](
+{%post_url 2008-11-26-gnupg-micro-howto %})):
+
+    gpg --edit-key fl3a@sdfeu.org
 ^
+    trust
+
+Ich nehme das höchste Trust-Level, ich habe den Key ja selbst erzeugt 
+und mir via `scp` geholt.😉
+In anderen Fällen solltet ihr genauer prüfen.
+
+    5
+^
+    quit 
+    
+Jetzt füge ich einen neuen *Collaborator* hinzu und spezifiere diesen via *GPG User ID*:
+
     git-crypt add-gpg-user kdoz@uber.space
 
 
+Das erzeugt die folgende Ausgabe und *added* + *commited* den Key im Hintergrund. 
 ```
 [main 09783d5] Add 1 git-crypt collaborator
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 .git-crypt/keys/default/0/8E168210D78EA1E2DD70619B8AF6587352C1F02E.gpg
 ```
+
+Hier der dazugehörige Commit: 
 
     git log -1
 
@@ -233,34 +306,34 @@ Date:   Fri Feb 13 21:42:53 2026 +0100
 ### Repo entsperren
 
   git-crypt unlock 
-
 ^
-  
   git-crypt unlock /pfad/zum/git-crypt.key
 
 ## Fazit
 
-Als ich das mich das letzte mal mit Dotfiles beschäftigt habe,
-standen einige große Fragen noch im Raum. 
-Die wichtigste war, 
-wie bekomme ich die Syncronisierung zwischen den Dotfiles im Repository und $HOME hin?
-Welches der vielen Tools[^dfu] soll ich denn dafür nutzen?
-Wie umfangreich sind Die, wie kompliziert ist deren Bedienung,
+Als ich das mich vore längerer Zeit mal wieder mit Dotfiles beschäftigt habe,
+standen zwei große Fragen noch im Raum. 
+Die erste war, 
+wie bekomme ich die Syncronisierung zwischen den Dotfiles im Repository und `$HOME` hin?
+und welches der vielen *Dotfile Manager Tools*[^dfu] soll ich denn dafür nutzen?
+Ferner, wie kompliziert ist deren Bedienung,
 wie sieht es mit der Portabilität aus
 und wieviel Abhängigkeiten handle ich mir damit rein?
-Vielleicht doch lieber direkt selber skripten oder Makefile schreiben?
+Dann vielleicht doch lieber direkt selber skripten oder ein *Makefile* schreiben?\
+Gefolgt von: Wie struktiere ich eigentlich meine Dotfiles in einem Git-Repository?
 
-Als ich letztes Wochenende den Talk über Dotfiles verwalten[^fc23] auf der Frocon 2023 
-habe ich das erste von [GNU Stow][stow] erfahren.
-Danach habe ich direkt eine Suche angestoßen 
+Als an einem Wochenende im Oktober 2024 die Aufzeichnung von *"Dotfiles verwalten"*[^fc23] 
+von *stoeps* gesehen habe, erfuhr ich ich das erste von [GNU Stow][stow].
+Im Anschluss daran habe ich direkt eine Suche angestoßen 
 und bin auf den Artikel von Brandon Invergo[^st1] gestoßen.
+Meine zwei Fragen haben sich geklärt und der einfache Ansatz hat mir sehr gut gefallen.
 
-op
-Der Ansatz mit Stow hat mir gefallen
-Symlink farm manager
-
-
-
+Git-crypt kam etwas später für seine dedizierte Aufgabe dazu.
+Ich habe jetzt drei einfache Tools für ihre jeweilige Aufgabe,  
+git für die Versionsverwaltung, stow für die Symlinks nach `$HOME`
+und git-crypt für die Secrets 
+vs einen kompliziertem Framework, dass diese Punkte mit weiteren 
+zu einer großen All-in-one Lösung verbindet verbindet.
 
 **Fußnoten**
 
