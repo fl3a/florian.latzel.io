@@ -117,11 +117,10 @@ Voila, Symlink da!
 
     lrwxrwxrwx 1 florian florian 19  6. Okt 22:44 /home/florian/.vimrc -> .dotfiles/vim/.vimrc
 
-### \-\-override=REGEX
+### stow \-\-override=REGEX
 
 Falls ein Target[^term] bereits besteht, 
 dann meckert stow das an und quittiert seinen Dienst. 
-
 
     WARNING! stowing irssi would cause conflicts:
       * existing target is neither a link nor a directory: .irssi/config
@@ -139,7 +138,7 @@ Beispiele:
 
     stow --override='.*' */
 
-### \-\-adopt
+### stow \-\-adopt
 
 Es ist möglich, den Konflikt aufzulösen, in dem die Datei in das stow Package
 mit `--adopt`[^sao] importiert wird. 
@@ -151,7 +150,7 @@ Hier mit zusätzlichen Verbose, um genauer zu sehen was dann passiert:
 
 Jetzt kann das VCS übernehemen.
 
-### -D | \-\-delete
+### stow -D | \-\-delete
 
 *Unstowed* Pakate aus dem Zielverzeichnis, daß heißt, Symlinks werden werden gelöscht.  
 
@@ -243,7 +242,7 @@ shell/.env.secret filter=git-crypt diff=git-crypt
 Mit dem folgenden Befehl importieren ich den *GnuPG-Public-Key* 
 eines neues *Collaborators* importieren in meinen sog. *GPG-Keyring*.  
 
-    gpg --import kdoz@uber.space.asc
+    gpg --import florian@macbook
 
 Stichwort Vertrauen, der öffentliche GPG Schlüssel 
 hat noch kein von uns festgelegtes Vertrauen.
@@ -262,7 +261,7 @@ Also via `gpg` das *Trust-Level* des *Public-Keys* festlegen
 findest du in meinem [GnuPG Micro Howto](
 {%post_url 2008-11-26-gnupg-micro-howto %})):
 
-    gpg --edit-key fl3a@sdfeu.org
+    gpg --edit-key florian@macbook
 ^
     trust
 
@@ -276,14 +275,14 @@ In anderen Fällen solltet ihr genauer prüfen.
     
 Jetzt füge ich einen neuen *Collaborator* hinzu und spezifiere diesen via *GPG User ID*:
 
-    git-crypt add-gpg-user kdoz@uber.space
+    git-crypt add-gpg-user florian@macbook
 
 
 Das erzeugt die folgende Ausgabe und *added* + *commited* den Key im Hintergrund. 
 ```
-[main 09783d5] Add 1 git-crypt collaborator
+[main fd468da] Add 1 git-crypt collaborator
  1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 .git-crypt/keys/default/0/8E168210D78EA1E2DD70619B8AF6587352C1F02E.gpg
+ create mode 100644 .git-crypt/keys/default/0/326065259A38259B69586201FFD0FF173594003F.gpg
 ```
 
 Hier der dazugehörige Commit: 
@@ -291,24 +290,24 @@ Hier der dazugehörige Commit:
     git log -1
 
 ```
-commit 09783d5bd3a0bb1b062375b7beb4d8613f0992be (HEAD -> main)
+commit fd468dae49670a9b6c75ca0f8a81f919d904be90 (HEAD -> main, origin/main)
 Author: Florian Latzel <florian@latzel.io>
-Date:   Fri Feb 13 21:42:53 2026 +0100
+Date:   Fri Feb 13 18:13:36 2026 +0100
 
     Add 1 git-crypt collaborator
     
     New collaborators:
     
-        8E168210D78EA1E2DD70619B8AF6587352C1F02E
-            Florian Latzel <kdoz@uber.space>
+        326065259A38259B69586201FFD0FF173594003F
+            Florian Latzel <florian@macbook>
 (END)
 ```
 
 ### Repo entsperren
 
-  git-crypt unlock 
+    git-crypt unlock 
 ^
-  git-crypt unlock /pfad/zum/git-crypt.key
+    git-crypt unlock /pfad/zum/git-crypt.key
 
 ## Fazit
 
@@ -338,7 +337,6 @@ zu einer großen All-in-one Lösung verbindet verbindet.
 
 **Fußnoten**
 
-
 [^fc23]: [froscon 2023 -- Dotfiles verwalten,  Christoph Stoettner (stoeps)](https://media.ccc.de/v/froscon2023-2907-dotfiles_verwalten)
 [^dfu]: [General-purpose dotfiles utilities](https://dotfiles.github.io/utilities/)
 [^st1]: <https://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html>
@@ -348,3 +346,5 @@ zu einer großen All-in-one Lösung verbindet verbindet.
 [^term]: [Terminology (Stow)](https://www.gnu.org/software/stow/manual/html_node/Terminology.html)
 
 [stow]: https://www.gnu.org/software/stow/manual/ "stow"
+
+*[VCS]: Version Control System
