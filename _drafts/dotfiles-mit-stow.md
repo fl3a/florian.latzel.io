@@ -303,6 +303,12 @@ Date:   Fri Feb 13 18:13:36 2026 +0100
 (END)
 ```
 
+Wenn du die Key-ID wegen der Kombination von Benutzer und Host nicht preisgeben möchtest, 
+dann nutze `git commit --amend` und schreibe Key-ID um.
+
+Für 
+
+
 ### Repo entsperren
 
     git-crypt unlock 
