@@ -1,5 +1,4 @@
 ---
-sitemap: false
 tags:
 - web0.0
 - netzaffe

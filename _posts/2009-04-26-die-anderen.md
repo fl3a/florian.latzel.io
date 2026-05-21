@@ -1,5 +1,4 @@
 ---
-sitemap: false
 tags:
 - Schilderwald
 - Berlin

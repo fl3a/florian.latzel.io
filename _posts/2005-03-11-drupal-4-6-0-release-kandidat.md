@@ -1,5 +1,4 @@
 ---
-sitemap: false
 tags:
 - drupal-4.6.x
 - Drupal

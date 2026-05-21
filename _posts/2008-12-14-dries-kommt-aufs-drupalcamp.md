@@ -1,5 +1,4 @@
 ---
-sitemap: false
 tags:
 - Weihnachten
 - Logo
