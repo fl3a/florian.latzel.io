@@ -14,7 +14,7 @@ permalink: "/das-war-die-agile-cologne-2017.html"
 layout: post
 title: Das war die Agile Cologne 2017
 created: 1495529504
-last_modified_at: 2019-10-04
+last_modified_at: 2026-05-21
 image: /assets/imgs/agilecologne17/open-space-agile-cologne-2017_0.jpg
 ---
 <figure role="group">
@@ -68,7 +68,7 @@ Auf der Agile Cologne XXL im letzten Herbst hat Boris bereits seine "kreative Ad
 
 > Sketchnoting – ich werde mir wohl bald ein Ohr abschneiden müssen ...
 
-Boris Runte (@bbarunte) [https://twitter.com/bbarunte/status/782918811808833536](3. Oktober 2016)
+Boris Runte (@bbarunte) [3. Oktober 2016](https://twitter.com/bbarunte/status/782918811808833536)
 
 Zuerst ging es um ein paar grundlegende Prinzipien, z.B.:
 
@@ -108,7 +108,7 @@ hat Cynthia eine Session zum Umgang mit Fehlern bzw. Fehlerkultur gehalten.
 > ...betrifft die meisten von uns natürlich nicht, 
 > war aber gut - Umgang mit Fehlern / Erleuchtung vs. Scheitern von @LunaMel801
 
-Boris Runte (@bbarunte) [https://twitter.com/bbarunte/status/845328738975932417](24. März 2017)
+Boris Runte (@bbarunte) [24. März 2017](https://twitter.com/bbarunte/status/845328738975932417)
 
 ## Danke und bis zur Agile Cologne XXL im Herbst!
 
