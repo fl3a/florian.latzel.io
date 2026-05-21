@@ -55,4 +55,5 @@ gem "ffi", "~> 1.16.3"
 # REXML has DoS condition when parsing malformed XML file (>= 3.3.3, <= 3.4.1)
 gem "rexml", "~> 3.4", ">= 3.4.2"
 
-
+# Addressable has a Regular Expression Denial of Service in Addressable templates (>= 2.3.0, < 2.9.0) 
+gem "addressable", "~> 2.9"
