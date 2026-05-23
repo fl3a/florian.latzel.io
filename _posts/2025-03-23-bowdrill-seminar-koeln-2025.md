@@ -54,13 +54,21 @@ Teilnahme ab 18 Jahren oder in Begleitung eines Erziehungs- bzw. Aufsichtsberech
 
 🕒 **Dauer:** ca. 5 Stunden  
 
-## Termine 2026
+## Aktuelle Termine & Angebote
 
-Diese Jahr bieten wir ein gemeinsames Angebot mit dem
-[Neanderthal Museum](https://neanderthal.de/) an.
+
+Weitere Bowdrill-Seminare befinden sich aktuell in Planung.
+
+Am **31. Oktober 2026** wird es außerdem ein gemeinsames
+Bowdrill- und Feuermachen-Seminar mit dem
+[Neanderthal Museum](https://neanderthal.de/)
+in Mettmann geben.
+
+📍 Neanderthal Museum  
+Talstraße 300  
+40822 Mettmann
 
 👉 Informationen, Termine & Anmeldung:
-
 - [Jetzt Termin ansehen & buchen](https://e-shop.neanderthal.de/de/guided-tours/6856)
 - 👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!             
 

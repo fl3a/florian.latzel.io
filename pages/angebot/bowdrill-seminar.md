@@ -115,16 +115,26 @@ deine eigene Säge oder dein eigenes Beil mitbringen.
 
 #### Kooperation mit dem Neanderthal Museum
 
-2026 wird es ein gemeinsames Bowdrill- und Feuermachen-Seminar
-mit dem [Neanderthal Museum](https://neanderthal.de/) geben.
+### Kooperation mit dem Neanderthal Museum
+
+Am **31. Oktober 2026** wird es ein gemeinsames Bowdrill- und
+Feuermachen-Seminar mit dem
+[Neanderthal Museum](https://neanderthal.de/) geben.
+
+📍 Neanderthal Museum  
+Talstraße 300  
+40822 Mettmann
 
 Dort kannst du gemeinsam mit uns die Kunst des traditionellen
-Feuermachens erleben – vom Material über den Bowdrill bis zur
-eigenen Glut.
+Feuermachens erleben – vom passenden Holz über den Bowdrill
+bis zur eigenen Glut.
 
-👉 Anmeldung & Buchung direkt über das Neanderthal Museum:
-- [Jetzt Termin ansehen & buchen](https://e-shop.neanderthal.de/de/guided-tours/6856)
-- 👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!
+Alle benötigten Materialien werden vor Ort gestellt.
+Ein eigenes Messer kannst du optional mitbringen.
+
+👉 Informationen, Termine & Anmeldung:
+
+[Jetzt Termin ansehen & buchen](https://e-shop.neanderthal.de/de/guided-tours/6856)
 
 #### Einzeltrainings & private Gruppen
 
