@@ -10,11 +10,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Trainer, Berater, Facilitator, Coach und Überzeugungstäter 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://florian.latzel.io" # the base hostname & protocol for your site, e.g. http://example.com
+name: "florian.latzel.io" 
 date_format: "%Y-%m-%d"
 date_format_now: "%Y-%m-%d %H:%M"
 last_modified_at: "Zuletzt geändert"
 changelog: "Changelog"  
 git_repo: "https://github.com/fl3a/florian.latzel.io/"
+default_image: "/assets/imgs/florian-latzel-metaforum-summercamp-2025.jpg"
 
 defaults:
   -

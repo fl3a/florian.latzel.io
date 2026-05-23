@@ -9,3 +9,10 @@
 
 <meta property="og:url" content="{{ canonical | absolute_url }}" />
 <meta property="og:type" content="object" />
+
+{%- capture description -%}
+Alle Beiträge zum Thema {{ page.autopages.display_name }} auf {{ site.name }}.
+{%- endcapture -%}
+<meta name="description" content="{{ description }}" />
+<meta property="og:description" content="{{ description }}" />
+<meta property="og:image" content="{{ "site.default_image | absolute_url }}">
