@@ -31,6 +31,7 @@ Für eine **detaillierte Beschreibung**, schau dir
 {% link pages/angebot/bowdrill-seminar.md %}) an.  
 
 ## Warum solltest du teilnehmen?  
+
 ✔ **Feuermachen ohne moderne Hilfsmittel** – Werde unabhängig von Feuerzeug & Co.  
 ✔ **Outdoor-Skills für Survival & Bushcraft** – Lerne, welche Materialien sich eignen.  
 ✔ **Praxistraining mit Experten** – Erfolgreich Feuer entfachen mit der Bowdrill-Technik.  
@@ -39,7 +40,7 @@ Für eine **detaillierte Beschreibung**, schau dir
 Mehr Infos? Hier geht's zur detaillierten Seminar-Beschreibung: 
 [**Bowdrill Workshop – Feuer machen lernen mit traditioneller Technik**](
 {% link pages/angebot/bowdrill-seminar.md %}).  
-i
+
 ## Für wen ist das Seminar geeignet?  
 Ob Anfänger oder erfahrener Outdoor-Fan – unser [**Survival-Training**](
 {% link pages/angebot/wildnistraining.md %}) richtet sich an alle, 
