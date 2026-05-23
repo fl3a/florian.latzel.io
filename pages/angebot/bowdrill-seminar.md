@@ -4,7 +4,7 @@ layout: page
 permalink: /seminare/bowdrill-feuermachen.html
 description: "Lerne im Bowdrill-Seminar, Feuer ohne Feuerzeug zu entfachen! Perfekt für Bushcraft, Survival & Outdoor-Abenteuer. Jetzt Platz sichern!"
 image: /assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
-last_modified_at: 2025-07-11                                                    
+last_modified_at: 2026-05-23                                                    
 --- 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png 
@@ -23,7 +23,7 @@ verbessern möchtest oder einfach nur neugierig bist –
 dieses Seminar vermittelt dir wertvolle Fähigkeiten für deine Abenteuer 
 in der Natur.
 
-🕒 **Dauer:** ca. 4 Stunden
+🕒 **Dauer:** ca. 5 Stunden
 
 Inhalt
 - Inhalt
@@ -51,7 +51,7 @@ path: assets/imgs/bowdrill/bowdrill-glut-in-das-zundernet-uebertragen.png
 alt: "Übertragung der gebohrten Glut in das Zundernest. Foto &copy; Julian Schreyer" %} 
 
 ### Was erwartet dich im Seminar?
-
+i
 - **Einführung in die Kunst des Feuermachens**: Geschichte, Techniken und
   kulturelle Bedeutung des Feuers – von traditionellen Methoden 
   wie dem **Funkenschlagen** mit Feuerstein und Stahl 
@@ -110,17 +110,38 @@ deine eigene Säge oder dein eigenes Beil mitbringen.
   das Druckstück eignen sich härtere Hölzer wie Buche oder Hasel (Handbreit,
   Durchmesser ca. 50 mm).
 
+
 ### Termine & Anmeldung
 
-Die Planung für die Bowdrill-Seminare 2026 läuft aktuell.  
-Sobald konkrete Termine feststehen, werden sie hier veröffentlicht.
+#### Kooperation mit dem Neanderthal Museum
 
-Wenn du vorab informiert werden möchtest, schreib mir gern eine Mail an  
-📧 [florian@latzel.io](mailto:florian@latzel.io).
+2026 wird es ein gemeinsames Bowdrill- und Feuermachen-Seminar
+mit dem [Neanderthal Museum](https://neanderthal.de/) geben.
 
-👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!
+Dort kannst du gemeinsam mit uns die Kunst des traditionellen
+Feuermachens erleben – vom Material über den Bowdrill bis zur
+eigenen Glut.
 
-### Sicherheit: Kein Alkohol
+👉 Anmeldung & Buchung direkt über das Neanderthal Museum:
+- [Jetzt Termin ansehen & buchen](https://e-shop.neanderthal.de/de/guided-tours/6856)
+- 👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!
+
+#### Einzeltrainings & private Gruppen
+
+Du möchtest ein individuelles Bowdrill-Training,
+ein privates Seminar oder ein kleines Gruppenevent buchen?
+
+Dann schreib mir gern direkt eine Mail an
+
+📧 [florian@latzel.io](mailto:florian@latzel.io)
+
+Möglich sind unter anderem:
+- Einzeltrainings
+- private Gruppen
+- Teamevents
+- Bushcraft- & Naturerfahrungstage
+
+### Sicherheit & Teilnahmehinweise: Kein Alkohol
 
 Für das Seminar schaffen wir einen sicheren und achtsamen Rahmen.
 Deshalb bleibt Alkoholkonsum außen vor – wir arbeiten mit Messern, Beilen, Sägen

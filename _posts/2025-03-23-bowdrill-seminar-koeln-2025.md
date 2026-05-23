@@ -13,7 +13,7 @@ tags:
 description: "Lerne im Bowdrill-Seminar 2025 in Köln die Kunst des Feuermachens ohne Feuerzeug. Perfekt für Bushcraft-, Survival- und Outdoor-Fans!"  
 image: /assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
 permalink: /bowdrill-seminare-koeln-2025-feuermachen.html
-last_modified_at: 2025-07-11
+last_modified_at: 2026-05-23
 --- 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png 
@@ -39,7 +39,7 @@ Für eine **detaillierte Beschreibung**, schau dir
 Mehr Infos? Hier geht's zur detaillierten Seminar-Beschreibung: 
 [**Bowdrill Workshop – Feuer machen lernen mit traditioneller Technik**](
 {% link pages/angebot/bowdrill-seminar.md %}).  
-
+i
 ## Für wen ist das Seminar geeignet?  
 Ob Anfänger oder erfahrener Outdoor-Fan – unser [**Survival-Training**](
 {% link pages/angebot/wildnistraining.md %}) richtet sich an alle, 
@@ -51,17 +51,21 @@ Material für das Bohrbrett, Spindel und Zundernest werden gestellt.\\
 Das Holz für den Bogen und das Druckstück wird gemeinsam vor Ort gesammelt.\\
 Teilnahme ab 18 Jahren oder in Begleitung eines Erziehungs- bzw. Aufsichtsberechtigten.
 
-🕒 **Dauer:** ca. 4 Stunden  
+🕒 **Dauer:** ca. 5 Stunden  
 
 ## Termine 2026
 
-Die Planung für die Bowdrill-Seminare 2026 läuft aktuell.  
-Sobald konkrete Termine feststehen, werden sie hier veröffentlicht.
+Diese Jahr bieten wir ein gemeinsames Angebot mit dem
+[Neanderthal Museum](https://neanderthal.de/) an.
 
-Wenn du vorab informiert werden möchtest, schreib mir gern eine Mail an  
-📧 [florian@latzel.io](mailto:florian@latzel.io).
+👉 Informationen, Termine & Anmeldung:
 
-👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!             
+- [Jetzt Termin ansehen & buchen](https://e-shop.neanderthal.de/de/guided-tours/6856)
+- 👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!             
+
+Wenn du Interesse an einem Einzeltraining,
+privaten Seminar oder Gruppenevent hast,
+schreib mir gerne direkt an: [florian@latzel.io](mailto:florian@latzel.io).
 
 **Vergangene Termine**
 
@@ -69,8 +73,6 @@ Wenn du vorab informiert werden möchtest, schreib mir gern eine Mail an
 - 13\. April 2025 – in Kooperation mit Naturzeitclub Köln  
 - 27\. April 2025 – in Kooperation mit Naturzeitclub Köln
 - 18\. Mai 2025 – in Kooperation mit Naturzeitclub Köln
-
-Hinweis: Aktuelle Seminare werden unabhängig und direkt von mir organisiert.
 
 ## Dein Trainer-Team  
 
@@ -81,12 +83,12 @@ alt: "Julian und ich auf der vierten Etappe des Bergischen Wegs im Mai 2019" %}
 Als Co-Trainer begleitet mich mein Freund [**Julian**](/thema/julian/) (Jg. 1977), 
 den ich seit über 30 Jahren kenne.
 Er ist [**Wildnispädagoge**](/thema/wildnispadagogik/), vierfacher Vater
-und arbeitet in einem  **Waldkindergarten**, 
-wo er Kindern täglich die Natur und das ursprüngliche Leben im Freien näherbringt. 
+zudem arbeitete er in einem  **Waldkindergarten**, 
+wo er Kindern täglich die Natur und das ursprüngliche Leben im Freien näherbrachte. 
 Das macht ihn zu einem großartigen Mentor für dieses [**Bushcraft-Seminar**](
 {% link pages/angebot/wildnistraining.md %}).  
 Mehr über Julian erfährst du auf Instagram: [@lone_wolf_and_cubs](https://www.instagram.com/lone_wolf_and_cubs/).
 
 👉 [**Sichere dir jetzt deinen Platz und erlebe das ursprüngliche Feuermachen  
-hautnah!**](https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0/)  
+hautnah!**](https://e-shop.neanderthal.de/de/guided-tours/6856)  
 
