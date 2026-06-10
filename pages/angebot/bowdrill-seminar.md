@@ -4,7 +4,7 @@ layout: page
 permalink: /seminare/bowdrill-feuermachen.html
 description: "Lerne im Bowdrill-Seminar, Feuer ohne Feuerzeug zu entfachen! Perfekt für Bushcraft, Survival & Outdoor-Abenteuer. Jetzt Platz sichern!"
 image: /assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
-last_modified_at: 2026-05-23                                                    
+last_modified_at: 2026-06-10
 --- 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png 
@@ -115,8 +115,6 @@ deine eigene Säge oder dein eigenes Beil mitbringen.
 
 #### Kooperation mit dem Neanderthal Museum
 
-### Kooperation mit dem Neanderthal Museum
-
 Am **31. Oktober 2026** wird es ein gemeinsames Bowdrill- und
 Feuermachen-Seminar mit dem
 [Neanderthal Museum](https://neanderthal.de/) geben.
@@ -125,15 +123,20 @@ Feuermachen-Seminar mit dem
 Talstraße 300  
 40822 Mettmann
 
-Dort kannst du gemeinsam mit uns die Kunst des traditionellen
-Feuermachens erleben – vom passenden Holz über den Bowdrill
-bis zur eigenen Glut.
+Mit dem Bohrdrill erzeugst du durch Reibung deine erste Glut – aus der du dein eigenes Feuer entstehen lässt.
+In kleiner Gruppe gehst du direkt in die Praxis – ruhig, klar und ohne Umwege.
+
+{% responsive_image figure: true
+path: assets/imgs/50km/bergischer-weg-etappe-4-julian-schreyer-florian-latzel-mai-2019.jpg
+alt: "Julian und ich – deine Kursleiter, ausgebildete Wildnispädagogen und erfahrene Bushcrafter." %}
+
+[Julian](/thema/julian/) und ich begleiten dich persönlich durch den Workshop
+und führen dich Schritt für Schritt ins traditionelle Feuerbohren.
 
 Alle benötigten Materialien werden vor Ort gestellt.
 Ein eigenes Messer kannst du optional mitbringen.
 
-👉 Informationen, Termine & Anmeldung:
-
+👉 Informationen, Termine & Anmeldung:   
 [Jetzt Termin ansehen & buchen](https://e-shop.neanderthal.de/de/guided-tours/6856)
 
 #### Einzeltrainings & private Gruppen
@@ -141,8 +144,7 @@ Ein eigenes Messer kannst du optional mitbringen.
 Du möchtest ein individuelles Bowdrill-Training,
 ein privates Seminar oder ein kleines Gruppenevent buchen?
 
-Dann schreib mir gern direkt eine Mail an
-
+Dann schreib mir gern direkt eine Mail an   
 📧 [florian@latzel.io](mailto:florian@latzel.io)
 
 Möglich sind unter anderem:
