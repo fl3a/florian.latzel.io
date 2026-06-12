@@ -121,10 +121,7 @@ Redirect gone /thema/adventskalender/
 Redirect gone /thema/4-7-x/
 Redirect gone /thema/2010/
 
-
-
-# 410 Misc
-
+# 410 Misc 
 Redirect gone /node/1608
 Redirect gone /thema/drupalcamp-ruhr/
 Redirect gone /2008/09/27/web2nulliger-projektleiter-sven-plaggemeier-ueber-den-launch-von-beta-koeln-de.html 
@@ -155,25 +152,43 @@ RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /asset
 # Legacy blog urls: /blog/YYYY/MM/DD/title.html → /YYYY/MM/DD/title.html
 RewriteRule ^blog/(.*)$ /$1 [R=301,L]
 
-# Legacy Tags urls: /tags/jekyll/ → /thema/jekyll/
+##########################
+# Themen: /thema/$THEMA/ #
+##########################
+
+# Drupal Legacy Tags urls: /tags/jekyll/ → /thema/jekyll/
 RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
 RewriteRule ^tags/([^/]+)/page/[0-9]+/?$ /thema/$1/ [R=301,L]
 Redirect 301 /tagadelic/chunk/7 /themen.html
+# Thema und Umlaute
+Redirect 301 /thema/muellem/ /thema/mullem/
+Redirect 301 /thema/schaeael-sick/ /thema/schaael-sick/
 
-# Feed
-RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
-Redirect 301 /blogs/floh/feed /feed.xml
-Redirect 301 /rss.xml /feed.xml
+# /thema/$THEMA/index.html  →  /thema/$THEMA/
+# meta-canonical ist auf /thema/$THEMA/ gesetzt
+RewriteCond %{THE_REQUEST} \s/thema/.+/index\.html[\s?]
+RewriteRule ^thema/(.+)/index\.html$ /thema/$1/ [R=301,L]
 
 Redirect 301 /themen /themen.html
 
 # Posts nach Thema
 RedirectMatch 301 ^/drush-die-drupal-shell(.*) /thema/drush/
 
-# 301er: Drupal book pages 
+########
+# Feed #
+########
+
+# Agregiert von drupalcenter.de:
+RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
+Redirect 301 /blogs/floh/feed /feed.xml
+Redirect 301 /rss.xml /feed.xml
+
+############################
+# 301er: Drupal book pages #
+############################
 
 # Git, Gitosis, Gitweb (the Debian way)
 Redirect 301 /node/990 /git-gitosis-gitweb-the-debian-way.html
@@ -244,7 +259,9 @@ RewriteRule ^(?:[0-9]{4}/[0-9]{2}/[0-9]{2}/)?drupal-6-multisiteumgebung-mit-post
 # Multisite Features unter Drupal 7.x
 Redirect 301 /book/export/html/1591 /multisite-features-unter-drupal-7-x.html
 
-# 301er: Posts
+################
+# 301er: Posts #
+################
 
 # Meetup Sammlung
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html 
@@ -298,7 +315,9 @@ Redirect 301 /node/1596 /angrillen-2012.html
 Redirect 301 /pear-phpunit-composer-und-drupal /2015/02/28/pear-phpunit-de-composer-und-drupal.html
 Redirect 301 /2008/10/12/mehrere-zehntausende-demonstieren-gegen-den-ueberwachungswahn.html /2008/10/12/mehrere-zehntausende-demonstieren-gegen-den-ueberwachungswahn.html
 
-# Pages
+#########
+# Pages #
+#########
 Redirect 301 /florian-latzel /ueber-mich.html
 Redirect 301 /florian-latzel.html /ueber-mich.html
 Redirect 301 /florian-fl3a-latzel.html /ueber-mich.html
@@ -307,7 +326,9 @@ Redirect 301 /angebot/coach-and-walk.html /coach-and-walk.html
 Redirect 301 /angebot/coaching.html /coaching.html
 Redirect 301 /seminare/leadership-goes-wild /seminare/leadership-goes-wild.html
 
-# Bilder
+##########
+# Bilder #
+##########
 Redirect 301 /assets/imgs/2010-drupaldevdays-munich-luckow-fl3a-scrum-presentation.jpg /assets/imgs/florian-latzel-stephan-luckow-scrum-drupaldevdays-munich-2010.jpg
 Redirect 301 /assets/imgs/generated/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19-740-899ef22d4.jpg /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg
 Redirect 301 /assets/imgs/dcvie/SirFiChi-und-fl3a-im-hotel-tag0.jpeg /drupalcamp-vienna-2009/florian-klare--florian-latzel.jpg
@@ -317,7 +338,3 @@ Redirect 301 /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ic
 Redirect 301 /assets/imgs/2009-drupalcamp-vienna-fl3a-drush_multi-presentation.jpg /assets/imgs/2009-drupalcamp-vienna-florian-latzel-drush_multi-presentation.jpg
 Redirect 301 /assets/image/2022/monique-schaukel-nazare-sitio.jpg /assets/imgs/2022/monique-schaukel-nazare-sitio.jpg
 Redirect 301 /assets/imgs/dcvie/down-under-wien.jpeg /assets/imgs/drupalcamp-vienna-2009/dvcie-party-down-under.jpg
-
-# Tags/Thema
-Redirect 301 /thema/muellem/ /thema/mullem/
-Redirect 301 /thema/schaeael-sick/ /thema/schaael-sick/
