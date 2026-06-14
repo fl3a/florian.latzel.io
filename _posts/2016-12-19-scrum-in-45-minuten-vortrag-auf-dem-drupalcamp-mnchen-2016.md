@@ -13,13 +13,14 @@ permalink: "/scrum-45-minuten-drupalcamp-muenchen-2016.html"
 layout: post
 title: Scrum in 45 Minuten - Vortrag auf dem Drupalcamp München 2016
 created: 1482169913
-last_modified_at: 2024-02-18
+last_modified_at: 2026-06-14
 image: /assets/imgs/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg
 ---
-<figure>
-<img  src="/assets/imgs/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg" alt="Folie Scrum-Rolle Development Team, Roger Pfaff und Florian Latzel präsentieren Eine Einführung in Scrum" />
-<figcaption>Scrum Rolle Development Team, CC BY-NC 3.0 DE Katja Heitmann, <a href="https://twitter.com/diekatja/status/805088880705802240">https://twitter.com/diekatja/status/805088880705802240</a></figcaption>
-</figure>
+{% responsive_image 
+path:assets/imgs/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg 
+figure:true alt:'Folie Scrum-Rolle Development Team, Roger Pfaff und Florian Latzel präsentieren Eine Einführung in Scrum' 
+caption:'Scrum Rolle Development Team, CC BY-NC 3.0 DE Katja Heitmann, <a href="https://twitter.com/diekatja/status/805088880705802240">https://twitter.com/diekatja/status/805088880705802240</a>' %}
+
 <a href="http://twitter.com/rogerpfaff">Roger</a> und Ich haben auf dem DrupalCamp München 2016[^dcmuc16] eine Session über das *agile Rahmenwerk Scrum* gehalten,&nbsp;hier die Beschreibung&nbsp;der eingereichten Session[^session] [^session2]:
 <blockquote>
 Scrum ist einer der bekanntesten Vertreter aus dem Umfeld des Agilen Produkt- und Projektmanagements.<br />
