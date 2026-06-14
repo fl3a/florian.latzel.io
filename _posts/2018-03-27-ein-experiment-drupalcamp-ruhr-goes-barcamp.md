@@ -11,7 +11,7 @@ tags:
 nid: 1648
 layout: post 
 created: 1522137428
-last_modified_at: 2024-02-25
+last_modified_at: 2026-06-14
 image: /assets/imgs/dcruhr18/haben-alle-das-session-board-fotografiert-tag2-rokr-dcruhr18.jpg
 ---
 <figure role="group">
@@ -52,7 +52,8 @@ Eine Woche vor dem Camp wurde ich gefragt, ob ich den Open Space auf Englisch fa
 Eine Nacht drüber schlafen, der Planänderung mit neuen Ideen begegnen und die Herausforderung annehmen, 
 Er hat mich bei der Einführung in den Open Space unterstützt und an manchen Stellen sehr humorvoll übersetzt - Danke dafür!
 <figure role="group">
-  <img alt="explaining open space #dcruhr18" src="/assets/imgs/dcruhr18/michael-lenahan-and-florian-latzel-explaining-open-space-dcruhr18-rokr.jpg" title="explaining open space #dcruhr18" />
+{% responsive_image path:assets/imgs/dcruhr18/michael-lenahan-and-florian-latzel-explaining-open-space-dcruhr18-rokr.jpg 
+alt:'explaining open space #dcruhr18' %}
   <figcaption>explaining open space #dcruhr18, © Ronald Krentz, https://twitter.com/rokr/status/974933766383853568</figcaption>
 </figure>
 Am zweiten Tag habe ich den Open Space dann alleine auf Englisch eröffnet, was mich etwas Überwindung gekostet hat, 
@@ -64,7 +65,8 @@ ihre Sessions vorzustellen und sich auf die Markplatzphase einzulassen, um ggf. 
 Dieses Experiment beruhte betont auf Freiwilligkeit. Zu Absicherung waren auf der Rückseite der Anliegezettel die ursprünglichen Räume/Zeiten notiert, 
 um so einfach wie möglich den ursprünglichen Zustand am Board wieder herstellen zu können.
 <figure role="group">
-  <img alt="Open Space Marketplace at #dcruhr18 at day2" src="/assets/imgs/dcruhr18/openspace-marketplace-day2-dcruhr18-dasjo-amazee.jpg" title="Open Space Marketplace at #dcruhr18 at day2" />
+{% responsive_image path:assets/imgs/dcruhr18/openspace-marketplace-day2-dcruhr18-dasjo-amazee.jpg 
+alt:'Open Space Marketplace at #dcruhr18 at day2'  %}
   <figcaption>Open Space Marktplatz, Tag 2, Josef Dabernig, Amazee Labs, CC BY-NC-SA 2.0, https://www.flickr.com/photos/amazeelabs/40843478252/in/album-72157666801398208/</figcaption>
 </figure>
 Für mehr Momentum bei den Code Sprints hat auch die Einladung, wie z.B. UX, Help Desk oder Security der jeweiligen Sprint-Mentoren gesorgt, 
@@ -156,7 +158,8 @@ Es kamen so viele Themen zusammen, dass am Sonntag nur 3 Slots am Board frei bli
 Ich glaube, oben auf dem Teaserbild einen zufriedenen Boris zu sehen, 
 der ebenfalls von dem Momentum und der Energie an Tag 2 positiv überwältigt ist.
 <figure>
-  <img alt="44 Sessions at #dcruhr18 - Highscore! - and special thanks to @MonaMuelder for that beautiful handwriting" src="/assets/imgs/dcruhr18/44-sessions-at-dcruhr18-highscore-bru.jpg" />
+{% responsive_image path:assets/imgs/dcruhr18/44-sessions-at-dcruhr18-highscore-bru.jpg 
+alt:'44 Sessions at #dcruhr18 - Highscore! - and special thanks to @MonaMuelder for that beautiful handwriting' %}
   <figcaption>44 Sessions at #dcruhr18 - Highscore! - and special thanks to @MonaMuelder for that beautiful handwriting, © Boris Runte, https://twitter.com/bbarunte/status/975683701131677696</figcaption>
 </figure>
 Ich würde gerne noch ein Stück weiter gehen und bei einem zukünftigen DrupalCamp, versuchen, 
