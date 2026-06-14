@@ -15,10 +15,9 @@ created: 1273659038
 last_modified_at: 2024-02-18
 image: /assets/imgs/2010-drupaldevdays-munich-luckow-fl3a-scrum-presentation.jpg
 ---
-<figure>
-<img src="/assets/imgs/florian-latzel-stephan-luckow-scrum-drupaldevdays-munich-2010.jpg" alt="@luckow and @fl3a, Scrum aus der Praxis, DrupalDevDays 2010, Munich" />
-<figcaption>@luckow und @fl3a während der Session <em>Scrum aus der Praxis</em>, beta.robot, by-nc-sa, <a href="http://www.flickr.com/photos/beta-robot/4591718950/">http://www.flickr.com/photos/beta-robot/4591718950/</a></figcaption>
-</figure>
+{% responsive_image path:assets/imgs/florian-latzel-stephan-luckow-scrum-drupaldevdays-munich-2010.jpg 
+figure:true alt:'@luckow and @fl3a, Scrum aus der Praxis, DrupalDevDays 2010, Munich' 
+caption:'@luckow und @fl3a während der Session <em>Scrum aus der Praxis</em>, beta.robot, by-nc-sa, <a href="http://www.flickr.com/photos/beta-robot/4591718950/">http://www.flickr.com/photos/beta-robot/4591718950/</a>' %}
 
 Stephan Luckow, <a href="http://twitter.com/luckow">@luckow</a>  und ich während der Session 
 "<a href="http://www.drupal-dev-days.de/de/sessions/scrum-erste-schritte">Scrum aus der Praxis</a>" 
