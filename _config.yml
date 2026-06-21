@@ -81,7 +81,7 @@ my_responsive_image:
 picture:
   source: assets/imgs
   output: assets/imgs/
-  suppress_warnings: false           # Default
+  suppress_warnings: true            # Default: false
   fast_build: false                  # Default
   ignore_missing_images: development # Default: false
   disabled: nopics                   # Default: false
