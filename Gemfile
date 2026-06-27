@@ -57,3 +57,9 @@ gem "rexml", "~> 3.4", ">= 3.4.2"
 
 # Addressable has a Regular Expression Denial of Service in Addressable templates (>= 2.3.0, < 2.9.0) 
 gem "addressable", "~> 2.9"
+
+# Fix: 
+# /home/florian/.local/share/gem/ruby/3.3.0/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:22: 
+# warning: base64 was loaded from the standard library, 
+# but will no longer be part of the default gems starting from Ruby 3.4.0.
+gem "base64" 
