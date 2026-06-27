@@ -5,8 +5,9 @@ tags:
 - howto
 - config
 - git
-- Linux
 - vimrc
+- Linux
+- Open Source
 ---
 ## Was sind Dotfiles?
 
