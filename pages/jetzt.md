@@ -2,7 +2,7 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2026-03-21
+last_modified_at: 2026-06-27 13:53
 ---
 Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
 inspiriert durch [Derek Sivers](https://sive.rs/).  
@@ -30,10 +30,6 @@ daraus entstehen zum Teil [Pflanzenporträts](/thema/pflanzenportrat/) im [Blog]
 
 ## Lesen
 
-- Mit ADHS erfolgreich im Beruf von Heiner Lachenmeier
-- Wenn die Giraffe mit dem Wolf tanzt - Vier Schritte zu einer einühlsamen Kommunikation
-von Serena Rust
-- Perfektionismus von Raphael Bonelli  
+- Wenn das Schlachten vorbei ist von T.C. Boyle
+- Praktische Selbstempathie von Gerlinde R. Fritsch  
 - Agile Teams lösungsfokussiert coachen von Verenika Kotrba und Ralph Miarka
-
-*[GfK]: Gewaltfreie Kommunikation
