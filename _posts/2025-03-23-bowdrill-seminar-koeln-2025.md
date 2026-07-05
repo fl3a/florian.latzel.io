@@ -56,32 +56,11 @@ Teilnahme ab 18 Jahren oder in Begleitung eines Erziehungs- bzw. Aufsichtsberech
 
 ## Aktuelle Termine & Angebote
 
-
-Weitere Bowdrill-Seminare befinden sich aktuell in Planung.
-
-Am **31. Oktober 2026** wird es außerdem ein gemeinsames
-Bowdrill- und Feuermachen-Seminar mit dem
-[Neanderthal Museum](https://neanderthal.de/)
-in Mettmann geben.
-
-📍 Neanderthal Museum  
-Talstraße 300  
-40822 Mettmann
-
-👉 Informationen, Termine & Anmeldung:
-- [Jetzt Termin ansehen & buchen](https://e-shop.neanderthal.de/de/guided-tours/6856)
-- 👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!             
+Aktuell keine öffentlichen Termine geplant.
 
 Wenn du Interesse an einem Einzeltraining,
 privaten Seminar oder Gruppenevent hast,
 schreib mir gerne direkt an: [florian@latzel.io](mailto:florian@latzel.io).
-
-**Vergangene Termine**
-
-- 11\. Oktober 2025
-- 13\. April 2025 – in Kooperation mit Naturzeitclub Köln  
-- 27\. April 2025 – in Kooperation mit Naturzeitclub Köln
-- 18\. Mai 2025 – in Kooperation mit Naturzeitclub Köln
 
 ## Dein Trainer-Team  
 

@@ -113,31 +113,7 @@ deine eigene Säge oder dein eigenes Beil mitbringen.
 
 ### Termine & Anmeldung
 
-#### Kooperation mit dem Neanderthal Museum
-
-Am **31. Oktober 2026** wird es ein gemeinsames Bowdrill- und
-Feuermachen-Seminar mit dem
-[Neanderthal Museum](https://neanderthal.de/) geben.
-
-📍 Neanderthal Museum  
-Talstraße 300  
-40822 Mettmann
-
-Mit dem Bohrdrill erzeugst du durch Reibung deine erste Glut – aus der du dein eigenes Feuer entstehen lässt.
-In kleiner Gruppe gehst du direkt in die Praxis – ruhig, klar und ohne Umwege.
-
-{% responsive_image figure: true
-path: assets/imgs/50km/bergischer-weg-etappe-4-julian-schreyer-florian-latzel-mai-2019.jpg
-alt: "Julian und ich – deine Kursleiter, ausgebildete Wildnispädagogen und erfahrene Bushcrafter." %}
-
-[Julian](/thema/julian/) und ich begleiten dich persönlich durch den Workshop
-und führen dich Schritt für Schritt ins traditionelle Feuerbohren.
-
-Alle benötigten Materialien werden vor Ort gestellt.
-Ein eigenes Messer kannst du optional mitbringen.
-
-👉 Informationen, Termine & Anmeldung:   
-[Jetzt Termin ansehen & buchen](https://e-shop.neanderthal.de/de/guided-tours/6856)
+Aktuell keine öffentlichen Termine geplant.
 
 #### Einzeltrainings & private Gruppen
 
