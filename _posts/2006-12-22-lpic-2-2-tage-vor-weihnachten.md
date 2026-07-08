@@ -1,5 +1,4 @@
 ---
-sitemap: false
 tags:
 - Zertifikat
 - Weihnachten

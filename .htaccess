@@ -54,25 +54,93 @@ RedirectMatch gone ^/assets/imgs/resized/
 # Drupal files und images
 RewriteRule ^sites/netzaffe\.de/files/.*$ - [G,L]
 # Drupal image module
-RewriteRule ^fotos/.*$ - [G,L]
+RedirectMatch 410 ^/fotos/.*$
 # 410er Pagination
-RedirectMatch gone ^/page/(.*)
-
+RedirectMatch gone ^/page/.*$
 # Drupal taxonomy
-RedirectMatch gone ^/taxonomy/term/ 
+RedirectMatch gone ^/taxonomy/term/.*$
 
-# 410 Misc
+# Gelöschte themen Seiten
+Redirect gone /thema/netzkultur/
+Redirect gone /thema/meetup/
+Redirect gone /thema/code-quality/
+Redirect gone /thema/uuid/
+Redirect gone /thema/pear/
+Redirect gone /thema/email/
+Redirect gone /thema/date/
+Redirect gone /thema/cleancode/
+Redirect gone /thema/variablen/
+Redirect gone /thema/undefined/
+Redirect gone /thema/schaael-sick/
+Redirect gone /thema/rheinpark/
+Redirect gone /thema/aarau/
+Redirect gone /thema/subsite/
+Redirect gone /thema/stefan/
+Redirect gone /thema/oop/
+Redirect gone /thema/oesterreich/
+Redirect gone /thema/live-cd/
+Redirect gone /thema/koeln/
+Redirect gone /thema/keynote/
+Redirect gone /thema/fahrrad-sternfahrt/
+Redirect gone /thema/drupalcamp-de-2009-1/
+Redirect gone /thema/dokumentation/
+Redirect gone /thema/datenintegritat/
+Redirect gone /thema/coding-standard/
+Redirect gone /thema/cmds/
+Redirect gone /thema/4-6-x/
+Redirect gone /thema/zoobruecke/
+Redirect gone /thema/whisky/
+Redirect gone /thema/verschluesselung/
+Redirect gone /thema/trash/
+Redirect gone /thema/terminologie/
+Redirect gone /thema/stadtrad/
+Redirect gone /thema/smoke/
+Redirect gone /thema/server/
+Redirect gone /thema/schne:emann/
+Redirect gone /thema/schatten/
+Redirect gone /thema/relauch/
+Redirect gone /thema/netzaffe-de/
+Redirect gone /thema/modrewrite/
+Redirect gone /thema/microsoft/
+Redirect gone /thema/magenta/
+Redirect gone /thema/koeln/
+Redirect gone /thema/holland/
+Redirect gone /thema/gt-zaskar-le/
+Redirect gone /thema/gasthof/
+Redirect gone /thema/fruende/
+Redirect gone /thema/frisbee/
+Redirect gone /thema/frei-wie-bier/
+Redirect gone /thema/freie-software/
+Redirect gone /thema/electronique/
+Redirect gone /thema/drupal-user-group-k-ln-bonn/
+Redirect gone /thema/dom/
+Redirect gone /thema/broilers/
+Redirect gone /thema/bass/
+Redirect gone /thema/anf-nger/
+Redirect gone /thema/adventskalender/
+Redirect gone /thema/4-7-x/
+Redirect gone /thema/2010/
 
-# Drupal-Projekte in Git
+# 410 Misc 
 Redirect gone /node/1608
-Redirect gone /drush-die-drupal-shell/drushrc-php.html
 Redirect gone /thema/drupalcamp-ruhr/
 Redirect gone /2008/09/27/web2nulliger-projektleiter-sven-plaggemeier-ueber-den-launch-von-beta-koeln-de.html 
 Redirect gone /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-in-einer-multisite-umgebung/multisite-features-unter-drupal-7-x-1
-Redirect gone /drush-die-drupal-shell/weiterfuehrende-links-zu-drush.html
-
-# TEMP FIX gegen Redirect
-Redirect gone /thema/doxygen
+Redirect gone /2008/12/09/2-advent-voll-was-auf-die-ohren.html
+Redirect gone /node/15
+Redirect gone /keybase.txt
+Redirect gone /book/export/html/652
+Redirect gone /book/export/html/665
+Redirect gone /book/export/html/669
+Redirect gone /book/export/html/671
+Redirect gone /book/export/html/991
+Redirect gone /node/1651
+Redirect gone /node/1648
+Redirect gone /fotos.html
+Redirect gone /blogs/floh/2008/11/29/1-advent-firefox-commercial.html
+Redirect gone /2012/09/22/dmexco-2012.html
+Redirect gone /node/1329
+Redirect gone /node/8
 
 #########
 # 301er #
@@ -84,57 +152,117 @@ RedirectMatch  301 ^/assets/imgs/generated/(.*)/(.*)-[74][40]0-(.*).webp$ /asset
 # Legacy blog urls: /blog/YYYY/MM/DD/title.html → /YYYY/MM/DD/title.html
 RewriteRule ^blog/(.*)$ /$1 [R=301,L]
 
-# Legacy Tags urls: /tags/jekyll/ → /thema/jekyll/
+##########################
+# Themen: /thema/$THEMA/ #
+##########################
+
+# Drupal Legacy Tags urls: /tags/jekyll/ → /thema/jekyll/
 RedirectMatch 301 ^/tags/([^/]+)/index.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)\.html$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)/$ /thema/$1/
 RedirectMatch 301 ^/tags/([^/]+)$ /thema/$1/
 RewriteRule ^tags/([^/]+)/page/[0-9]+/?$ /thema/$1/ [R=301,L]
+Redirect 301 /tagadelic/chunk/7 /themen.html
+# Thema und Umlaute
+Redirect 301 /thema/muellem/ /thema/mullem/
+Redirect 301 /thema/scrumtisch-koeln/ /thema/scrumtisch-koln/
+Redirect 301 /thema/schaeael-sick/ /thema/schaael-sick/
 
-# Feed
+# /thema/$THEMA/index.html  →  /thema/$THEMA/
+# meta-canonical ist auf /thema/$THEMA/ gesetzt
+RewriteCond %{THE_REQUEST} \s/thema/.+/index\.html[\s?]
+RewriteRule ^thema/(.+)/index\.html$ /thema/$1/ [R=301,L]
+
+Redirect 301 /themen /themen.html
+
+# Posts nach Thema
+RedirectMatch 301 ^/drush-die-drupal-shell(.*) /thema/drush/
+
+########
+# Feed #
+########
+
+# Agregiert von drupalcenter.de:
 RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
 Redirect 301 /blogs/floh/feed /feed.xml
 Redirect 301 /rss.xml /feed.xml
 
-Redirect 301 /themen /themen.html
-
-# 301er: Drupal book pages 
+############################
+# 301er: Drupal book pages #
+############################
 
 # Git, Gitosis, Gitweb (the Debian way)
 Redirect 301 /node/990 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/979 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/980 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/981 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/982 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/983 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/984 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/985 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/986 /git-gitosis-gitweb-the-debian-way.html
 Redirect 301 /book/export/html/987 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/988 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/990 /git-gitosis-gitweb-the-debian-way.html
+Redirect 301 /book/export/html/1008 /git-gitosis-gitweb-the-debian-way.html
 
 RewriteRule ^git-gitosis-gitweb-the-debian-way/.*$ /git-gitosis-gitweb-the-debian-way.html [R=301,L]
 
 # GnuPG Micro Howto
 Redirect 301 /node/679 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/675 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/678 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/679 /gnupg-micro-howto.html
-Redirect 301 /book/export/html/685 /gnupg-micro-howto.html
 Redirect 301 /book/export/html/680 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/681 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/682 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/684 /gnupg-micro-howto.html
+Redirect 301 /book/export/html/685 /gnupg-micro-howto.html
+
 Redirect 301 /2008/11/27/gnupg-micro-howto/die-schluesselerstellung.html /gnupg-micro-howto.html
+Redirect 301 /2008/11/27/gnupg-micro-howto/konfiguration/konfiguration-von-gnupg.html /gnupg-micro-howto.html
+Redirect 301 /2008/11/27/gnupg-micro-howto/arbeiten-mit-gnupg/schluessel-widerrufen.html /gnupg-micro-howto.html
+Redirect 301 /2008/11/26/gnupg-micro-howto/weiterfuehrende-links.html /gnupg-micro-howto.html
 
 RewriteRule ^2008/11/28/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 RewriteRule ^gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 
+RewriteRule ^2008/11/28/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
+RewriteRule ^2008/11/27/gnupg-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
+RewriteRule ^gnupg(-gpg)?-micro-howto/.*$ /gnupg-micro-howto.html [R=301,L]
 
 # Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4
 Redirect 301 /node/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /book/export/html/702 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /book/export/html/717 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
-Redirect 301 /book/export/html/529 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+
+Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/521 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/522 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /book/export/html/523 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/525 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/529 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/538 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/540 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/596 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/688 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/689 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/700 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/702 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/707 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+Redirect 301 /book/export/html/717 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+
 Redirect 301 /2009/02/05/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/drush-einer-multisiteumgebung.ht /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 Redirect 301 /2008/09/30/drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/konfiguration/neustart-von-apach /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 
-RewriteRule ^drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/.*$ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html [R=301,L]
+RewriteRule ^(?:[0-9]{4}/[0-9]{2}/[0-9]{2}/)?drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4(?:/.*)?$ /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html [R=301,L]
 
 # Multisite Features unter Drupal 7.x
 Redirect 301 /book/export/html/1591 /multisite-features-unter-drupal-7-x.html
 
-# 301er: Posts
+################
+# 301er: Posts #
+################
 
 # Meetup Sammlung
 Redirect 301 /agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html /agile-meetups-events-koeln-nrw.html 
@@ -162,14 +290,52 @@ Redirect 301 /2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-ang
 Redirect 301 /2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-psm1 /neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html
 Redirect 301 /2012/11/16/drush-sql-dump-hold.html /2012/11/17/drush-sql-dump-hold.html
 Redirect 301 /2020/04/07/responsive-image.html /2020/04/07/co2-sparen-responsive-images-lazyload-jekyll.html
-Redirect 301 /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html
 Redirect 301 /php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren /2016/03/13/php_codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren.html
+Redirect 301 /2008/10/08/updates-fr-drupal-5-und-6.html /2008/10/08/updates-fuer-drupal-5-und-6.html
+Redirect 301 /2008/10/03/kln-mlheim-net-herzlichen-glckwunsch-nachtrglich-zum-dritten.html /2008/10/03/koeln-muelheim-net-herzlichen-glueckwunsch-nachtraeglich-zum-dritten.html
+Redirect 301 /2007/08/24/drupal-user-group-kln-bonn-grillen-im-netzladen-bonn.html /2007/08/24/drupal-user-group-koeln-bonn-grillen-im-netzladen-bonn.html
+Redirect 301 /2008/10/08/keine-gez-gebuehr-bei-privater-pc-nutzung.html /2008/10/08/keine-gez-gebhr-bei-privater-pc-nutzung.html
+Redirect 301 /2008/10/28/drupalcamp-koeln-17-18-januar-2009.html /2008/10/28/drupalcamp-kln-17-18-januar-2009.html
+Redirect 301 /2009/02/20/drush-mm-adminrole-workaround-und-tabs-in-firefox.html /2009/02/20/drush_mm-adminrole-workaround-und-tabs-in-firefox.html
+Redirect 301 /copy-n-paste-bei-gpg-passwoertern-und-pinentry /2015/11/14/copy-n-paste-bei-gpg-passwoertern-und-pinentry.html
+Redirect 301 /2012/10/16/hnlichkeiten-in-sql-drupal-db-query-like.html /2012/10/16/aehnlichkeiten-in-sql-drupal-db_query-like.html
+Redirect 301 /node/515 /2004/12/22/install-postgres-0-07-sh.html
+Redirect 301 /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface.html /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface-drupal-user-group-koeln-bonn.html
+Redirect /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface-drupal-user-group-kln-bonn.html /2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface-drupal-user-group-koeln-bonn.html
+Redirect 301 /2009/12/08/drush-und-multisite-drush_multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html
+Redirect 301 /node/1630 /2014/08/28/facebook-tschoe-mit-oe-mit-oe.html
+Redirect 301 /2011/10/05/features-session-dcb11.html /2011/10/05/features-session-drupalcity-de-2011.html
+Redirect 301 /2009/12/08/drush-und-mulisite-drush-multi-dcvie-2009.html /2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html
+Redirect 301 /wanderung-bergischer-weg-etappe-4-landrat-lucas-weg.html /2020/05/10/50km-wanderung-burg-opladen-bergischer-weg-etappe-4-landrat-lucas-weg.html
+Redirect 301 /certified-scrum-professional-csp.html /2018/03/31/certified-scrum-professional-csp.html
+Redirect 301 /2008/11/07/drupalcamp-2009-kln-call4papers-vorabregistrierung.html /2008/11/07/drupalcamp-2009-koeln-call4papers-vorabregistrierung.html
+Redirect 301 /blogs/floh/2009/01/15/schoen-sick-right-side-rhine.html /2009/01/15/schoen-sick-on-the-right-side-of-rhine.html
+Redirect 301 /2012/09/22/froscon-2012-social-event-die-grillschlange.html /froscon-2012-social-event-die-grillschlange.html
+Redirect 301 /2008/12/14/arrays-der-bash.html /arrays-in-der-bash.html
+Redirect 301 /node/1596 /angrillen-2012.html
+Redirect 301 /pear-phpunit-composer-und-drupal /2015/02/28/pear-phpunit-de-composer-und-drupal.html
+Redirect 301 /2008/10/12/mehrere-zehntausende-demonstieren-gegen-den-ueberwachungswahn.html /2008/10/12/mehrere-zehntausende-demonstieren-gegen-den-ueberwachungswahn.html
 
-# Pages
+#########
+# Pages #
+#########
+Redirect 301 /florian-latzel /ueber-mich.html
 Redirect 301 /florian-latzel.html /ueber-mich.html
+Redirect 301 /florian-fl3a-latzel.html /ueber-mich.html
 Redirect 301 /angebot/wildnistraining.html /wildnistraining.html
 Redirect 301 /angebot/coach-and-walk.html /coach-and-walk.html
+Redirect 301 /angebot/coaching.html /coaching.html
+Redirect 301 /seminare/leadership-goes-wild /seminare/leadership-goes-wild.html
 
-# Bilder
+##########
+# Bilder #
+##########
 Redirect 301 /assets/imgs/2010-drupaldevdays-munich-luckow-fl3a-scrum-presentation.jpg /assets/imgs/florian-latzel-stephan-luckow-scrum-drupaldevdays-munich-2010.jpg
 Redirect 301 /assets/imgs/generated/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19-740-899ef22d4.jpg /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg
+Redirect 301 /assets/imgs/dcvie/SirFiChi-und-fl3a-im-hotel-tag0.jpeg /drupalcamp-vienna-2009/florian-klare--florian-latzel.jpg
+Redirect 301 /assets/imgs/2009-drupalcamp-vienna-fl3a-drush_multi-presentation.jpg /assets/imgs/2009-drupalcamp-vienna-florian-latzel-drush_multi-presentation.jpg
+Redirect 301 /assets/imgs/dcvie/nachhilfe-von-dereine-im-zug-tag3.jpeg /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe-1.jpg
+Redirect 301 /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe.jpg /assets/imgs/drupalcamp-vienna-2009/florian-latzel-daniel-wehner-ice-drupal-nachhilfe-1.jpg
+Redirect 301 /assets/imgs/2009-drupalcamp-vienna-fl3a-drush_multi-presentation.jpg /assets/imgs/2009-drupalcamp-vienna-florian-latzel-drush_multi-presentation.jpg
+Redirect 301 /assets/image/2022/monique-schaukel-nazare-sitio.jpg /assets/imgs/2022/monique-schaukel-nazare-sitio.jpg
+Redirect 301 /assets/imgs/dcvie/down-under-wien.jpeg /assets/imgs/drupalcamp-vienna-2009/dvcie-party-down-under.jpg

@@ -1,5 +1,4 @@
 ---
-sitemap: false
 tags:
 - Typo3
 - Praktikum

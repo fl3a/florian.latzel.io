@@ -1,27 +1,39 @@
 ---
-title: Wildnistraining
+title: "Wildnistraining, Bushcraft und Survival Skills"
 layout: page
 permalink: /wildnistraining.html
+image: /assets/imgs/november-draussen/lagerfeuer.jpg
+last_modified_at: 2025-12-27 17:50
 ---
 {% responsive_image figure: true
 alt: "Abends gemeinsam am Lagerfeuer. Foto © Tina Urban."
 path: assets/imgs/november-draussen/lagerfeuer.jpg %}
 
-Erlerne zu grundlegenden Bushcraft und Survivalfähigkeiten.
-Von Tagestraining bis zum Wochenend-Seminar. 
-Inhalte unter anderen:
+Auf dieser Seite findest du eine Übersicht über mein **Wildnistraining**:
+praxisnahe **Bushcraft- und Survival-Kurse**, Seminare und Erfahrungswissen rund um
+Feuer, Naturtechnik und Selbstorganisation draußen.
 
-- Werkzeug- und Materialkunde 
-- Feuermachen
-   - Feuerbohren mit dem Drillbogen 
-   - Funkenschlagen
-   - Feuerstelle & Feueraufbau  
-- Bau von Notunterkünften
-- Wildpflanzen (saisonal)
-- Herstellung von Schale & Löffel durch Glutbrennen 
-- Naturwahrnehmung 
+Ob **Bowdrill-Feuermachen**, grundlegende Outdoor-Skills oder persönliche Entwicklung
+in der Natur – hier laufen alle Themen zusammen, die meine Arbeit prägen und verbinden.
 
-## Seminare
+Du erlernst grundlegende **Bushcraft- und Survival-Fähigkeiten** –
+vom kompakten Tagestraining bis hin zum intensiven Wochenend-Seminar.
+Der Fokus liegt auf praktischer Erfahrung, dem Arbeiten mit natürlichen Materialien
+und dem bewussten Aufenthalt draußen.
+
+Typische Inhalte des Wildnistrainings sind unter anderem:
+
+- Werkzeug- und Materialkunde
+- Feuermachen  
+  - Feuerbohren mit dem Drillbogen (Bowdrill)  
+  - Funkenschlagen  
+  - Feuerstelle & Feueraufbau
+- Bau einfacher Notunterkünfte
+- Wildpflanzenkunde (saisonal)
+- Herstellung von Schale & Löffel durch Glutbrennen
+- Naturwahrnehmung und Achtsamkeit draußen
+
+## Wildnistrainings und Seminare
 
 - [Bowdrill Seminar – Feuermachen ohne Feuerzeug lernen](
 {% link pages/angebot/bowdrill-seminar.md %})

@@ -15,6 +15,12 @@ presets:
     fallback_format: webp
     fallback_width: 740
   
+  original:
+    markup: direct_url
+    fallback_format: webp
+    fallback_width: 1920
+    fallback_quality: 93
+
   fallback:
     markup: direct_url
     fallback_format: original

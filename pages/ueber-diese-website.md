@@ -17,7 +17,8 @@ Seit dem geht es inkrementell in Richtung Portfolio Website für mein [Coaching]
 {% link pages/angebot/coaching.md %})
 und [Wildnistraining]( 
 {% link pages/angebot/wildnistraining.md %})
-Angebot.   
+Angebot.  
+
 In meinem [Blog](/blog/) schreibe ich seit 2004 über [diverse Themen](/themen).     
 Mal für mich, um meine Gedanken in schriftlicher Form auszuspeichern
 und zu verarbeiten.     
@@ -35,7 +36,7 @@ Die Basis bilden der statische Seitengenerator [Jekyll](/thema/jekyll/)
 und das [Minima Theme](https://github.com/jekyll/minima).   
 Gespeist wird das ganze aus [Textdateien in einem Git-Repository](
 https://github.com/fl3a/florian.latzel.io).  
-Bis Ende 2019 lief diese Website mit dem [Drupal](/thema/drupal/).
+Bis Ende 2019 lief diese Website mit [Drupal](/thema/drupal/).
 
 Diese Website wird auf [uberspace](https://uberspace.de) gehosted
 und via [Git Bare Repository und post-receive Hook](
@@ -49,10 +50,14 @@ Ich möchte diese Website so ressourcenschonend wie möglich gestalten.
 Durch den Einsatz eines statischen Seitengenerators fallen abgesehen von der Auslieferung der HTML-Seiten 
 keine serverseitigen Rechenoperationen oder Datenbankzugriffe an.
 
-- Diese Website produziert 0,01 Gramm CO<sub>2</sub> pro Seitenaufruf 
+{% responsive_image path:assets/imgs/website-carbon-results-florian-latzel-io.png figure:true 
+alt:'Screenshot Website Carbon Calculator für florian.latzel.io. 0.01 Gramm CO2 je Seitenaufruf' %}
+
+- Diese Website produziert weniger als 0,01 Gramm CO<sub>2</sub> pro Seitenaufruf 
 und ist laut [Website Carbon Calculator ](
 https://www.websitecarbon.com/website/florian-latzel-io/)[^test_date] 
 98 % sauberer als andere Seiten. 
+- Die Website ist im *Team Green (>100kb)* des [512kb Clubs](https://512kb.club/)[^512][^test_date_512]  
 - Die Rechenzentren bei [uberspace](
 https://uberspace.de) werden ausschließlich mit Ökostrom betrieben.
 
@@ -63,4 +68,10 @@ sind unter der [CC BY-SA 4.0]({% link pages/copyleft.md %})
 lizensiert.      
 Siehe [Copyleft 🄯]({% link pages/copyleft.md %}) für weitere Details.
 
-[^test_date]: Getestet am 27.09.2025
+Fußnoten
+
+[^test_date]: Getestet am 14.06.2026
+[^test_date_512]: Aufnahme in den 512KB Club am 28.09.2025 mit einer Seitengröße von 40 KB (unkomprimiert).
+[^512]: Das [*512kb Club*-Projekt](https://512kb.club/), initiiert von [Kev Quirk](https://kevquirk.com), 
+    sammelt Webseiten, deren Gesamtgröße unter 512 KB liegt, um effizientes und nachhaltiges Webdesign zu fördern
+    und einen Gegenentwurf zu aufgeblähten Seiten mit mehreren Megabytes darzustellen. 

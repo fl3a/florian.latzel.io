@@ -51,3 +51,15 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # 1.16.3 and 1.17.0 works, above (>=1.17.1) breaks
 gem "ffi", "~> 1.16.3"
+
+# REXML has DoS condition when parsing malformed XML file (>= 3.3.3, <= 3.4.1)
+gem "rexml", "~> 3.4", ">= 3.4.2"
+
+# Addressable has a Regular Expression Denial of Service in Addressable templates (>= 2.3.0, < 2.9.0) 
+gem "addressable", "~> 2.9"
+
+# Fix: 
+# /home/florian/.local/share/gem/ruby/3.3.0/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:22: 
+# warning: base64 was loaded from the standard library, 
+# but will no longer be part of the default gems starting from Ruby 3.4.0.
+gem "base64" 

@@ -4,7 +4,7 @@ layout: page
 permalink: /seminare/bowdrill-feuermachen.html
 description: "Lerne im Bowdrill-Seminar, Feuer ohne Feuerzeug zu entfachen! Perfekt für Bushcraft, Survival & Outdoor-Abenteuer. Jetzt Platz sichern!"
 image: /assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png
-last_modified_at: 2025-07-11                                                    
+last_modified_at: 2026-06-10
 --- 
 {% responsive_image figure: true                                                
 path: assets/imgs/bowdrill/bowdrill-seminar-collage-julian.png 
@@ -23,7 +23,7 @@ verbessern möchtest oder einfach nur neugierig bist –
 dieses Seminar vermittelt dir wertvolle Fähigkeiten für deine Abenteuer 
 in der Natur.
 
-🕒 **Dauer:** ca. 4 Stunden
+🕒 **Dauer:** ca. 5 Stunden
 
 Inhalt
 - Inhalt
@@ -51,7 +51,7 @@ path: assets/imgs/bowdrill/bowdrill-glut-in-das-zundernet-uebertragen.png
 alt: "Übertragung der gebohrten Glut in das Zundernest. Foto &copy; Julian Schreyer" %} 
 
 ### Was erwartet dich im Seminar?
-
+i
 - **Einführung in die Kunst des Feuermachens**: Geschichte, Techniken und
   kulturelle Bedeutung des Feuers – von traditionellen Methoden 
   wie dem **Funkenschlagen** mit Feuerstein und Stahl 
@@ -110,20 +110,26 @@ deine eigene Säge oder dein eigenes Beil mitbringen.
   das Druckstück eignen sich härtere Hölzer wie Buche oder Hasel (Handbreit,
   Durchmesser ca. 50 mm).
 
+
 ### Termine & Anmeldung
 
-Wann & Wo?
+Aktuell keine öffentlichen Termine geplant.
 
-📅 Samstag, 11. Oktober 2025\
-🕒 11:00 – ca. 15:00 Uhr (4 Stunden)\
-📍 Decksteiner Weiher, Köln
+#### Einzeltrainings & private Gruppen
 
-👥 **Max. 12 Teilnehmende** – sichere dir rechtzeitig deinen Platz!
+Du möchtest ein individuelles Bowdrill-Training,
+ein privates Seminar oder ein kleines Gruppenevent buchen?
 
-👉 [**Jetzt anmelden und dabei sein!**](
-https://rausgegangen.de/events/bowdrill-feuermachen-feuer-machen-wie-fruher-0/)
+Dann schreib mir gern direkt eine Mail an   
+📧 [florian@latzel.io](mailto:florian@latzel.io)
 
-### Sicherheit: Kein Alkohol
+Möglich sind unter anderem:
+- Einzeltrainings
+- private Gruppen
+- Teamevents
+- Bushcraft- & Naturerfahrungstage
+
+### Sicherheit & Teilnahmehinweise: Kein Alkohol
 
 Für das Seminar schaffen wir einen sicheren und achtsamen Rahmen.
 Deshalb bleibt Alkoholkonsum außen vor – wir arbeiten mit Messern, Beilen, Sägen

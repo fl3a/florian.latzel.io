@@ -1,5 +1,4 @@
 ---
-sitemap: false
 tags:
 - Zitate
 - web2.0

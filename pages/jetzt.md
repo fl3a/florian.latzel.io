@@ -2,38 +2,34 @@
 layout: page
 title: Jetzt
 permalink: /jetzt.html
-last_modified_at: 2025-05-18 11:31
+last_modified_at: 2026-06-27 13:53
 ---
-## Frühling
-
-Ich versuche möglichst viel Zeit Draußen zu verbringen 
-und die länger werdenden Tage sowie die stärker werdende Sonne genießen.
-
-## Pflanzenporträts
-
-Ich habe angefangen [Pflanzenporträts](/thema/pflanzenportrat/) zu schreiben. 
-
-Unter dieser Kategorie werden in meinem [Blog](/blog.html) künftig regelmäßig 
-weitere Steckbriefe zu heimische Pflanzen erscheinen, 
-die entweder essbar sind oder der Naturheilkunde Anwendung finden. 
+Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
+inspiriert durch [Derek Sivers](https://sive.rs/).  
 
 ## Coaching Portfolio & Über mich Seite
 
-Ich überarbeite aktuell meine Über mich und meine Portfolio Seite.
+Aktuell feile in ich wiedermal an meinem Profil als Coach und überarbeite 
+meine [Über mich]({%link pages/ueber-mich.md %}) Seite
+sowie meine Portfolio Seite. Dazu kommt noch **Coaching FAQ**. 
+
+Beides Teile der Fehlenden 20% (die 80% der Zeit brauchen😉), 
+die mir für die Coach Zertifizierung noch fehlen.
 
 ## Lernen
 
-- Pflanzenkunde 
+- **Dofiles managen mit GNU Stow, Git und Git-crypt** (Artikel folgt)
+    sowie das Kennenlernen moderner Terminal Produktivitätstools wie Kitty, eza, fzf 
+    und yazi (und deren Dotfiles😉) sowie Vim-Tweaks.
+- Seit Oktober 2025: GfK im Rahmen einer Fortbildung
+- Seit Sommer 2025: Wieder im [Wing Chun Kung-Fu](https://www.directwingchun.com/) aktiv
+(Gary Lam / Wong Shun Leung Lineage)
+- Seit Früjahr 2025: Pflanzenkunde, 
+daraus entstehen zum Teil [Pflanzenporträts](/thema/pflanzenportrat/) im [Blog](/blog.html)
 - Seit Winter 2021: [Pencak Silat im Tapak Suci Stil](/thema/pencak-silat/)
 
 ## Lesen
 
-- Perfektionismus von Raphael Bonelli  
-- Fragen können wie Küsse schmecken - 
-Systemische Fragetechniken für Anfänger und Fortgeschrittene
-von Carmen Kindl Beilfuß
-- Agile Teams lösungsfokussiert coachen 
-von Verenika Kotrba und Ralph Miarka
-
-Das ist eine ["Jetzt Seite"](https://nownownow.com/about), 
-inspiriert durch [Derek Sivers](https://sive.rs/).   
+- Wenn das Schlachten vorbei ist von T.C. Boyle
+- Praktische Selbstempathie von Gerlinde R. Fritsch  
+- Agile Teams lösungsfokussiert coachen von Verenika Kotrba und Ralph Miarka

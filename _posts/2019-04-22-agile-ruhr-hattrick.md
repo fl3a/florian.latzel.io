@@ -12,12 +12,11 @@ tags:
 - just me
 - Session
 image: /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg
-last_modified_at: 2023-10-03
+last_modified_at: 2026-06-14
 ---
-<figure role="group">
-{% responsive_image alt: "Vorstellung der Sessions, Open Space, agile.ruhr 19" path: assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg %}
-  <figcaption>Vorstellung der Sessions, Open Space, agile.ruhr 19</figcaption>
-</figure>
+{% responsive_image alt: "Vorstellung der Sessions, Open Space, agile.ruhr 19" 
+figure:true
+path: assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg %}
 Am Wochenende vom 06. und 07. April 2019 fand die diesjährige agile.ruhr, 
 das Zusammenkommen zu Agile, Lean und Arbeit auf Augenhöhe im Ruhrgebiet statt.
 
@@ -54,10 +53,9 @@ mit Kanban und agilen Methoden in die Schule[^edu].
 Im zweiten Sessionslot habe ich eine Einsteigersession zu Personal Maps gegeben, 
 Personal Maps -- Warum, Was und wie?:
 
-<figure role="group">
-  <img alt="" src="/assets/imgs/agile-ruhr-19/personal-maps-florian-latzel-agile-ruhr-19-daniel-baer.jpg" />
-  <figcaption>Personal Maps Session auf der agile.ruhr 2019 mit Florian Latzel, Foto Daniel Bär CC-BY-SA 4.0</figcaption>
-</figure>
+{% responsive_image path:assets/imgs/agile-ruhr-19/personal-maps-florian-latzel-agile-ruhr-19-daniel-baer.jpg
+figure:true 
+alt:'Personal Maps Session auf der agile.ruhr 2019 mit Florian Latzel, Foto Daniel Bär CC-BY-SA 4.0' %}
 
 In dieser Session habe ich von der Essenz einer Handvoll Personal Maps Worksshops, 
 die ich selbst facilitiert habe, berichtet und meine Erfahrung 
@@ -119,11 +117,13 @@ Als letzte Session des ersten Tags, \#playhard mit Stefan Doll, der ein paar Spi
 Hier ein paar Eindrücke von Lucky Lachs, einem Spiel, das sich gut für den Einsatz nach der Mittagspause eignet,
 da es sehr viel Energie freisetzt:
 
-<figure role="group">
-  <img src="/assets/imgs/agile-ruhr-19/playhard-lucky-lachs-agile-ruhr-19-stefan-doll-1.jpg" style="padding-bottom:10px;" />
-  <img src="/assets/imgs/agile-ruhr-19/playhard-lucky-lachs-agile-ruhr-19-stefan-doll-2.jpg" />
-  <figcaption>Lucky Lachs in Aktion, Fotos &copy; Stefan Doll, Quelle https://twitter.com/GenuineAgile/status/1114571062564544517</figcaption>
-</figure>
+{% responsive_image figure:true 
+path:assets/imgs/agile-ruhr-19/playhard-lucky-lachs-agile-ruhr-19-stefan-doll-1.jpg
+alt:'Lucky Lachs in Aktion, Fotos &copy; Stefan Doll, Quelle https://twitter.com/GenuineAgile/status/1114571062564544517'  %}
+
+{% responsive_image figure:true 
+path:assets/imgs/agile-ruhr-19/playhard-lucky-lachs-agile-ruhr-19-stefan-doll-2.jpg
+alt:'Lucky Lachs in Aktion, Fotos &copy; Stefan Doll, Quelle https://twitter.com/GenuineAgile/status/1114571062564544517'  %}
 
 ## Tag 2
 
@@ -138,10 +138,10 @@ So startete auch ich meinen Tag mit einer Diskussion über *Technische Schulden 
 Nach einem späten Frühstück (oder sehr frühen Mittagsessen) habe ich auf der Dachterasse vom Unperfekthaus die Sonne genossen 
 und mich mit Thimm von NEW WORK SOLUTIONS GmbH über meine Personal Maps Session am Vortag unterhalten.
 
-<figure role="group">
-  <img alt="" src="/assets/imgs/agile-ruhr-19/thimm-spitzer-florian-latzel-personal-maps-interview-agile-ruhr-19-nws.png" />
-  <figcaption>Thimm Spitzer und Florian Latzel zu Personal Maps, &copy; NEW WORK SOLUTIONS GmbH, Mario A. Brückner</figcaption>
-</figure>
+{% responsive_image 
+path:assets/imgs/agile-ruhr-19/thimm-spitzer-florian-latzel-personal-maps-interview-agile-ruhr-19-nws.png 
+figure:true 
+alt:'Thimm Spitzer und Florian Latzel zu Personal Maps, &copy; NEW WORK SOLUTIONS GmbH, Mario A. Brückner' %}
 
 Hier [der dazugehörigen Blogpost](https://agile-innovation-coach.com/agile-ruhr-camp-2019-im-gespraech-mit-einem-der-hauptorganisatoren-und-verschiedenen-teilnehmern-ueber-ihre-gefundenen-lerndiamanten-agileruhr19-agilizer/) 
 und das [Video auf Youtube](https://www.youtube.com/watch?v=n0DS7hRQChk)(Mama, ich bin im Fernsehen).

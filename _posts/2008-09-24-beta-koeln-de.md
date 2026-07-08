@@ -1,5 +1,4 @@
 ---
-sitemap: false
 tags:
 - web2.0
 - Köln

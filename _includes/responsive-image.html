@@ -12,11 +12,22 @@ See config.picture.source.
 </picture>
 {% endcapture %}
 
+
+{% capture picture_linked %}
+<a href="{% picture original {{ image }} %}"
+   target="_blank"
+   rel="noopener"
+   aria-label="{{ alt }} – Originalbild öffnen"
+   class="img-zoom-link">
+  {{ picture }}
+</a>
+{% endcapture %}
+
 {% if figure %}
 <figure role="group">
-{{ picture }}
-<figcaption>{% if caption %}{{ caption }}{% else %}{{ alt }}{% endif %}</figcaption>
+  {{ picture_linked }}
+  <figcaption>{% if caption %}{{ caption }}{% else %}{{ alt }}{% endif %}</figcaption>
 </figure>
 {% else %}
-  {{ picture }}
+  {{ picture_linked }}
 {% endif %}
