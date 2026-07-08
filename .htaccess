@@ -165,6 +165,7 @@ RewriteRule ^tags/([^/]+)/page/[0-9]+/?$ /thema/$1/ [R=301,L]
 Redirect 301 /tagadelic/chunk/7 /themen.html
 # Thema und Umlaute
 Redirect 301 /thema/muellem/ /thema/mullem/
+Redirect 301 /thema/scrumtisch-koeln/ /thema/scrumtisch-koln/
 Redirect 301 /thema/schaeael-sick/ /thema/schaael-sick/
 
 # /thema/$THEMA/index.html  →  /thema/$THEMA/
