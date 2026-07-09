@@ -14,8 +14,9 @@ blog_posts: 5
       />
     </picture>
     <h2>Hi, ich heiße Florian👋</h2>
-    <p>Ich bin Trainer, Berater, Facilitator, Coach und Überzeugungstäter
-    und begleite Individuen, Gruppen, Teams und Organisationen in Veränderung.
+    <p>Ich begleite Menschen und Teams in Veränderung. 
+    Mit systemischem Coaching, langjähriger Führungserfahrung in agilen Organisationen 
+    und der Natur als Erfahrungsraum.
     <a href="/ueber-mich.html">Mehr über mich</a>.
     </p>
     {% include social.html %}
@@ -25,37 +26,41 @@ blog_posts: 5
     <h2 id="mein-angebot">Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="{% link pages/angebot/coaching.md  %}">Coaching</a></h3>
-      <p>Hilfe zur Selbsterkenntnis.<br />Systemisch und Lösungsfokussiert. 
-        <a href="{% link pages/angebot/coaching.md  %}">Mehr</a>.
+      <p>Systemisches Coaching in der Natur für Klarheit, persönliche Entwicklung
+      und Veränderung.<br /><a href="{% link pages/angebot/coaching.md  %}">Mehr</a>.
       </p>
     </div>
-
-    <div class="angebot-1-2 angebot-2 wildnistraining">
-      <h3><a href="{% link pages/angebot/wildnistraining.md %}">Wildnistraining</a></h3>
-      <p>Bushcraft, Survival und eine tiefe Naturverbindung,
-        die darüber hinausgeht.
-        <a href="{% link pages/angebot/wildnistraining.md %}">Mehr</a>
-      </p>
-    </div>
-
-    <div class="angebot-1-2 angebot-1 coach-and-walk">
+    <div class="angebot-1-2 angebot-2 coach-and-walk">
       <h3><a href="{% link pages/angebot/coach-and-walk.md %}">Coach &amp; Walk</a></h3>
-      <p>Coachings im Gehen und Draußen. Auf Wunsch in nahegelegenem Wald und Flur.
-        <a href="{% link pages/angebot/coach-and-walk.md %}">Mehr</a>.
+      <p>Coaching in Bewegung: Walk & Talk, Reflexion und neue Perspektiven
+      beim Gehen in der Natur. <a href="{% link pages/angebot/coach-and-walk.md %}">Mehr</a>.
       </p>
     </div>
-
+    <div class="angebot-1-2 angebot-1 wildnistraining">
+      <h3><a href="{% link pages/angebot/wildnistraining.md %}">Bushcraft und Wildnistraining</a></h3>
+      <p>Bushcraft, Feuer machen und Wildnispädagogik für mehr Naturverbindung,
+      Selbstwirksamkeit und praktische Erfahrungen draußen.  
+      <a href="{% link pages/angebot/wildnistraining.md %}">Mehr</a>
+      </p>
+    </div>
     <div class="angebot-1-2 angebot-2 team-coaching">
       <h3>Team Coaching</h3>
-      <p>Von einer Gruppe zum High Performing Team.
-        Teambuilding und -coaching.
-      </p>
+      <p>Teams entwickeln, Zusammenarbeit stärken und Veränderung nachhaltig gestalten – mit Klarheit, Vertrauen und neuen Perspektiven.</p>
     </div>
-
+    <div class="angebot-1-2 angebot-1 team-offsites">
+      <h3>Team Offsites & Workshops</h3>
+      <p>Wirksame Entwicklungsräume für Teams und Führungskräfte – für mehr Klarheit, 
+      Verbindung und nachhaltige Veränderung in der Natur.</p>
+    </div>
+    <div class="angebot-1-2 angebot-2 coaching-faq">
+    <h3><a href="{% link pages/angebot/coaching-faq.md %}">Coaching FAQ</a></h3>
+    <p>Antworten auf häufige Fragen rund um Coaching:
+    Ablauf, Methoden, Kosten, Themen und ob Coaching in der Natur zu dir passt.
+    <a href="{% link pages/angebot/coaching-faq.md %}">Mehr</a></p>
+    </div>
     <p class="teaser">Hast du Interesse oder Fragen?</p>
-
     <p id="kontakt-1">
-      <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Kontakt</a>
+      <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Lass uns sprechen</a>
     </p>
   </div>
   
@@ -90,10 +95,9 @@ blog_posts: 5
       <li id="bib"><img src="{{ logo-path }}/bib-international-college-logo.svg" alt="bib International College Logo" loading="lazy" /></li>
       <li id="koeln"><img src="{{ logo-path }}/stadt-koeln-logo.svg" alt="Stadt Köln Logo" loading="lazy" /></li>
     </ul>
-
     <p class="teaser">Möchtest du auch dazugehören?</p>
     <div id="kontakt-2">
-      <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Kontakt</a>
+      <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Jetzt kennenlernen</a>
     </div>
   </div>
  

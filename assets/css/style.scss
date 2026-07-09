@@ -254,11 +254,12 @@ figure.highlight {
 }
 
 
-// Footer
-.footer-col-1 ul {
+// Kontakt-Page + footer-col-1
+ul.kontakt {
   list-style: none;
   margin-left: 10px;
 }
+// Footer
 .footer-col {
   margin-bottom: calc($spacing-unit / 3);
   white-space: nowrap;

@@ -1,0 +1,19 @@
+<ul class="kontakt">
+  <li class="email">
+    {% include email.svg %}
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </li>
+  <li class="gnupg>">
+    {% include gnupg.svg %}
+    <a href="https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb">{{ site.gpg_key }}</a>
+  </li>
+  <li class="phone"> 
+    {% include phone.svg %}
+    <a href="tel:{{ site.phone }}" title="anrufen">{{ site.phone }}</a>
+  </li>
+  <li class="linkedin"> 
+    {% include linkedin.svg %}
+    <a href="https://de.linkedin.com/in/florianlatzel/de" title="Linkedin Profil"> LinkedIn Profil</a>
+  </li>
+</ul>
+

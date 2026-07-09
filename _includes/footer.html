@@ -4,29 +4,16 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-      <h2 class="footer-heading">Kontakt</h2>
-	<ul class="kontakt">
-          <li class="email">
-            {% include email.svg %}
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-	  <li class="gnupg>">
-              {% include gnupg.svg %}
-	      <a href="https://latzel.io/.well-known/openpgpkey/hu/qcuniwbujk3zrj7166onyz4t5cxgy3wb">
-              {{ site.gpg_key }}
-	    </a>
-	  </li>
-	  <li class="phone">
-            {% include phone.svg %}
-	    <a href="tel:{{ site.phone }}" title="anrufen">{{ site.phone }}</a></li>
-	</ul>
+        <h2 class="footer-heading">Kontakt</h2>
+          {% include kontakt.html %}
       </div>
       <div class="footer-col footer-col-2">
-   	<h2 class="footer-heading">{{ site.data.footer_links_angebot.header }}</h2>
-        <ul>
-          {% for item in site.data.footer_links_angebot.links %}
-          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-          {% endfor %}
-	</ul>
+       	<h2 class="footer-heading">{{ site.data.footer_links_angebot.header }}</h2>
+          <ul>
+            {% for item in site.data.footer_links_angebot.links %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+      	</ul>
       </div>
       <div class="footer-col footer-col-3">
         <h2 class="footer-heading">{{ site.data.footer_links_meta.header }}</h2>
@@ -34,7 +21,7 @@
           {% for item in site.data.footer_links_meta.links %}
           <li><a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
-	</ul>
+	      </ul>
       </div>
     </div>
     <div class="footer-col footer-last"> 
