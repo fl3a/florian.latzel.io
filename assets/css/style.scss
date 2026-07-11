@@ -10,12 +10,28 @@
 a.page-link.active {
   text-decoration: underline;
 }
+// Kontakt Button Style
+// Menu
 a.page-link.kontakt {
   display: inline-block;
   padding: 6px 6px;
   margin: 6px 6px;
   background-color: #111;
   color: #fff;
+}
+// Frontpage
+a.page-link.kontakt-front {
+  display: inline-block;
+  padding: 6px 6px;
+  margin: 6px 6px;
+  background-color: #111;
+  color: #fff;
+  color: #fff;
+  background-color: lighten($brand-color, 10%);
+  &:hover {
+    background-color: #111;
+    text-decoration: none;
+  }
 }
 
 .social-media-list {
@@ -128,6 +144,18 @@ figure.highlight {
       }
     }
   }
+  // SVGs
+  .svg-icon {
+    color: $brand-color;
+    fill: currentColor;
+  }
+  .linkedin {
+    opacity: 0.75;
+  }
+  a:hover .svg-icon,
+  a:focus .svg-icon {
+    color: $text-color;
+  }
 
   // Kunden 
   ul.kunden-logos {
@@ -146,17 +174,8 @@ figure.highlight {
   ul.kunden-logos li img {
     width: 70%;
     height: auto;
-    webkit-filter: grayscale(1);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: gray;
-    filter: grayscale(100%);
   }
   ul.kunden-logos li img:hover {
-    webkit-filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    filter: grayscale(0);
     transform: scale(1.05);
   }
   #db img {
