@@ -44,23 +44,24 @@ blog_posts: 5
       </p>
     </div>
     <div class="angebot-1-2 angebot-2 team-coaching">
-      <h3>Team Coaching</h3>
-      <p>Teams entwickeln, Zusammenarbeit stärken und Veränderung nachhaltig gestalten – mit Klarheit, Vertrauen und neuen Perspektiven.</p>
+    <h3>Teamcoaching</h3>
+    <p>Teams entwickeln, Zusammenarbeit stärken und Veränderung nachhaltig gestalten. 
+    Mit Raum für Klarheit, Vertrauen und neue Perspektiven.</p>
     </div>
     <div class="angebot-1-2 angebot-1 team-offsites">
-      <h3>Team Offsites & Workshops</h3>
-      <p>Wirksame Entwicklungsräume für Teams und Führungskräfte – für mehr Klarheit, 
-      Verbindung und nachhaltige Veränderung in der Natur.</p>
+      <h3>Offsites & Workshops</h3>
+      <p>Wirksame Entwicklungsräume für Teams und Führungskräfte. 
+      Mit Raum für Klarheit, Verbindung und nachhaltige Veränderung in der Natur.</p>
     </div>
     <div class="angebot-1-2 angebot-2 coaching-faq">
     <h3><a href="{% link pages/angebot/coaching-faq.md %}">Coaching FAQ</a></h3>
     <p>Antworten auf häufige Fragen rund um Coaching:
-    Ablauf, Methoden, Kosten, Themen und ob Coaching in der Natur zu dir passt.
+    Ablauf, Methoden, Themen und ob Coaching in der Natur zu dir passt.
     <a href="{% link pages/angebot/coaching-faq.md %}">Mehr</a></p>
     </div>
     <p class="teaser">Hast du Interesse oder Fragen?</p>
     <p id="kontakt-1">
-      <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Lass uns sprechen</a>
+      <a class="page-link kontakt-front" href="{% link pages/kontakt.md %}">Lass uns sprechen</a>
     </p>
   </div>
   
@@ -97,7 +98,7 @@ blog_posts: 5
     </ul>
     <p class="teaser">Möchtest du auch dazugehören?</p>
     <div id="kontakt-2">
-      <a class="page-link kontakt" href="{% link pages/kontakt.md %}">Jetzt kennenlernen</a>
+      <a class="page-link kontakt-front" href="{% link pages/kontakt.md %}">Jetzt kennenlernen</a>
     </div>
   </div>
  
