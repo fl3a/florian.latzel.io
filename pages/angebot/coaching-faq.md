@@ -2,10 +2,22 @@
 title: Coaching FAQ
 layout: page
 permalink: /coaching-faq.html
-description: "Coaching-FAQ: Alles zu Ablauf, Methoden, Natur- und Geh-Coaching und wie Coaching in der Natur Klarheit und Perspektiven schafft."
+description: "Coaching-FAQ: Antworten zu Ablauf, Methoden, Coaching in der Natur und Coach & Walk – 
+für mehr Klarheit, neue Perspektiven und gute Entscheidungen."
 ---
+Du möchtest wissen, wie Coaching abläuft oder was
+[Coaching in der Natur]({% link pages/angebot/coaching.md %}) und
+[Coach & Walk]({% link pages/angebot/coach-and-walk.md %}) besonders machen?
+Hier findest du Antworten auf die häufigsten Fragen zu meinem Coaching-Angebot.
+
+**Inhalt**
+<ul id="mardown-toc">
+  <li><a href="#allgemeine-coaching-fragen">Allgemeine Coaching-Fragen</a></li>
+  <li><a href="#fragen-naturcoaching-coach-and-walk">Fragen zum Natur-Coaching und Coach & Walk</a></li>
+  <li><a href="#praktische-fragen-von-klientinnen">Praktische Fragen von Klient:innen</a></li>
+</ul>
 <section class="faq">
-  <h2>Allgemeine Coaching-Fragen</h2>
+<h2 id="allgemeine-coaching-fragen">Allgemeine Coaching-Fragen</h2>
 
   <p>Häufig gestellte Fragen (FAQ) rund um das Thema Coaching.</p>
 
@@ -142,7 +154,7 @@ Alles, was im Coaching besprochen wird, bleibt vertraulich.
   </details>
 
 
-  <h2>Fragen zum Natur-/Geh-Coaching</h2>
+  <h2 id="fragen-naturcoaching-coach-and-walk">Fragen zu Natur-Coaching und Coach & Walk</h2>
 
   <details class="accordion">
     <summary><h3>Warum bietest du dein Coaching draußen an?</h3></summary>
@@ -227,7 +239,7 @@ Pause fort.
     </div>
   </details>
 
-  <h2>Praktische Fragen von Klient:innen</h2>
+  <h2 id="praktische-fragen-von-klientinnen">Praktische Fragen von Klient:innen</h2>
 
   <details class="accordion">
     <summary><h3>Wie finde ich heraus, ob dein Coaching zu mir passt?</h3>
