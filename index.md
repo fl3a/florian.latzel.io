@@ -26,14 +26,15 @@ blog_posts: 5
     <h2 id="mein-angebot">Mein Angebot</h2>
     <div class="angebot-1-2 angebot-1 coaching">
       <h3><a href="{% link pages/angebot/coaching.md  %}">Coaching</a></h3>
-      <p>Systemisches Coaching in der Natur für Klarheit, persönliche Entwicklung
-      und Veränderung.<br /><a href="{% link pages/angebot/coaching.md  %}">Mehr</a>.
+      <p>Systemisches Coaching in der Natur für Klarheit und nachhaltige Veränderung. 
+      <a href="{% link pages/angebot/coaching.md  %}">Mehr</a>.
       </p>
     </div>
     <div class="angebot-1-2 angebot-2 coach-and-walk">
       <h3><a href="{% link pages/angebot/coach-and-walk.md %}">Coach &amp; Walk</a></h3>
-      <p>Coaching in Bewegung: Walk & Talk, Reflexion und neue Perspektiven
-      beim Gehen in der Natur. <a href="{% link pages/angebot/coach-and-walk.md %}">Mehr</a>.
+      <p>Coaching im Gehen: Walk & Talk für Reflexion, Perspektivwechsel 
+      und neue Impulse durch Bewegung.
+      <a href="{% link pages/angebot/coach-and-walk.md %}">Mehr</a>.
       </p>
     </div>
     <div class="angebot-1-2 angebot-1 wildnistraining">
@@ -56,7 +57,7 @@ blog_posts: 5
     <div class="angebot-1-2 angebot-2 coaching-faq">
     <h3><a href="{% link pages/angebot/coaching-faq.md %}">Coaching FAQ</a></h3>
     <p>Antworten auf häufige Fragen rund um Coaching:
-    Ablauf, Methoden, Themen und ob Coaching in der Natur zu dir passt.
+    Ablauf, Methoden, Themen und ob Coaching im Gehen und in der Natur zu dir passt.
     <a href="{% link pages/angebot/coaching-faq.md %}">Mehr</a></p>
     </div>
     <p class="teaser">Hast du Interesse oder Fragen?</p>
