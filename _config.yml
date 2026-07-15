@@ -7,7 +7,8 @@ phone: "+49 221 61 101 24"
 gpg_key: "0xC3BA4866"
 head: 'Hi, ich heiße Florian👋'
 description: >- # this means to ignore newlines until "baseurl:"
-  Trainer, Berater, Facilitator, Coach und Überzeugungstäter 
+  Systemisches Coaching in der Natur für Menschen und Teams. 
+  Coaching, Teamentwicklung und Wildnispädagogik mit langjähriger Führungserfahrung.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://florian.latzel.io" # the base hostname & protocol for your site, e.g. http://example.com
 name: "florian.latzel.io" 
