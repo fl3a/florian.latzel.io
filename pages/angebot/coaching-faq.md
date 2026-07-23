@@ -2,10 +2,9 @@
 title: Coaching FAQ
 layout: page
 permalink: /coaching-faq.html
-description: "Coaching-FAQ: Antworten zu Ablauf, Methoden, Coaching in der Natur und Coach & Walk – 
-für mehr Klarheit, neue Perspektiven und gute Entscheidungen."
+description: "Coaching-FAQ: Antworten zu Ablauf, Methoden, Coaching in der Natur und Coach & Walk. Für mehr Klarheit, neue Perspektiven und gute Entscheidungen."
 ---
-Du möchtest wissen, wie Coaching abläuft oder was
+Du möchtest wissen, was Coaching ist, wie es abläuft oder was
 [Coaching in der Natur]({% link pages/angebot/coaching.md %}) und
 [Coach & Walk]({% link pages/angebot/coach-and-walk.md %}) besonders machen?
 Hier findest du Antworten auf die häufigsten Fragen zu meinem Coaching-Angebot.
@@ -18,8 +17,6 @@ Hier findest du Antworten auf die häufigsten Fragen zu meinem Coaching-Angebot.
 </ul>
 <section class="faq">
 <h2 id="allgemeine-coaching-fragen">Allgemeine Coaching-Fragen</h2>
-
-  <p>Häufig gestellte Fragen (FAQ) rund um das Thema Coaching.</p>
 
   <details class="accordion">
     <summary><h3>Was ist Coaching überhaupt?</h3></summary>
@@ -51,12 +48,12 @@ oder Neuausrichtung.
   <details class="accordion">
     <summary><h3>Wie läuft Coaching ab?</h3></summary>
     <div class="faq-body">
-      <ul>
-        <li>Wir führen eine kostenloses Gespräch zum gegenseitigen Kennenlernen und zur Zielklärung</li>
+      <ol>
+        <li>Wir führen eine kostenloses Gespräch zum gegenseitigen Kennenlernen</li>
         <li>Wir finden einen Rahmen, der zu deinem Anliegen passt</li>
         <li>Wir starten mit einem ersten Coaching-Termin</li>
-        <li>Und vereinbaren weitere Sitzungen nach Bedarf</li>
-      </ul>  
+        <li>Und vereinbaren weitere Coachings nach Bedarf</li>
+      </ol>  
     </div>
   </details>
 
