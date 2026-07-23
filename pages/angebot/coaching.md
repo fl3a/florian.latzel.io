@@ -2,10 +2,10 @@
 title: Coaching
 layout: page
 permalink: /coaching.html
-image: /assets/imgs/november-draussen/waldlicht.jpg
+image: /assets/imgs/portfolio/morjen.JPG
 ---
-{% responsive_image
-alt: "Licht am Ende des Wegs, Foto © Tina Urban." 
+{% responsive_image figure:true
+alt: 'Licht am Ende des Wegs, Foto © Tina Urban.' 
 path: assets/imgs/portfolio/morjen.JPG %}
 
 Begleitung in Veränderung. Eröffnung neuer Sichtweisen und Strategien.   
