@@ -19,13 +19,13 @@ alt: 'Florian Latzel, Eifelsteig bei Minusgraden, Dezember 2020. Foto © Tina Ur
 {% post_url 2016-03-01-neues-aus-der-scheinwelt-professional-scrum-master-i-psm1 %}) und
 [zertifizierter Product Owner]({% post_url 2018-03-03-scrum-starter-kit %})
 und [Certified Scrum Professional]({% post_url 2018-03-31-certified-scrum-professional-csp %}) 
-mit über 10 Jahren Erfahrung in Führung und Team-Coaching 
-– mit und ohne Personalverantwortung – für verschiedene Unternehmen. 
+- Über 10 Jahre Erfahrung in Führung und Team-Coaching, 
+mit und ohne Personalverantwortung, für verschiedene Unternehmen. 
 - Über 20 Jahre Erfahrung in der Softwareentwicklung, 
 davon über ein Jahrzehnt als freiberuflicher IT-Berater, 
 Mitgründer einer genossenschaftlich geführten Digitalagentur 
-und überzeugter Anhänger [selbstorganisierten Arbeitens](
-{%post_url 2009-06-06-my-last-daily-scrum-at-berlinonline %}) seit 2009.
+- [Selbstorganisiertes Arbeiten](
+{%post_url 2009-06-06-my-last-daily-scrum-at-berlinonline %}) begleitet mich seit 2009.
 - Irgendwann mal etwas mit Informatik gelernt
 - Mag Rheinblick, Co-Kreativität, Bewegung  und ist gerne [draußen](/thema/draussen/).
 - Glaubt an [Open Source](/thema/open-source/), humaneres Arbeiten und Karma
@@ -35,7 +35,7 @@ stöbere in meinem [CV](https://florian.latzel.io/cv),
 [Referenzen]({% link pages/referenzen.md %}), [Talks](/talks.html), 
 [Projekten]({% link pages/projekte.md %}), [Blog]({% link pages/blog.html %}),
 vernetze dich mit mir auf [LinkedIn](https://www.linkedin.com/in/florianlatzel/?locale=de)
-oder schreib mich via <florian@latzel.io> für einen Kennenlerntermin an.
+und schreib mich via <florian@latzel.io> für einen Kennenlerntermin an.
 
 ## Wegbegleiter
 
