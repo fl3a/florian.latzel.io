@@ -18,9 +18,7 @@ See config.picture.source.
    target="_blank"
    rel="noopener"
    aria-label="{{ alt }} – Originalbild öffnen"
-   class="img-zoom-link">
-  {{ picture }}
-</a>
+   class="img-zoom-link">{{ picture }}</a>
 {% endcapture %}
 
 {% if figure %}
@@ -29,5 +27,11 @@ See config.picture.source.
   <figcaption>{% if caption %}{{ caption }}{% else %}{{ alt }}{% endif %}</figcaption>
 </figure>
 {% else %}
+  {% comment %}
+  Ensure a block-level wrapper around the linked picture when no <figure> is used,
+  to prevent Markdown/Kramdown from breaking the <a> / <picture> HTML structure.
+  {% endcomment %}
+<div class="img-wrapper">  
   {{ picture_linked }}
+</div>  
 {% endif %}
