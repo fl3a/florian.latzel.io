@@ -17,6 +17,13 @@ last_modified_at: 2025-03-23
 
 - Outdoor-Facilitator, [walkaboutyou](https://walkaboutyou.org) (10.2021 - 11.2022)
   - u.a. für die  Community-Building-Walks der STARTPLATZ ACCELERATOR Batches in 2022[^ab1] [^ab2]
+- [Open Space Technology](/thema/open-space/)
+  - DataVision DevOps Summit, ca. 60 Personen, DB Systel (05.2025)
+  - Boxenstops der S & I Company, ca. 25 Personen, DB Systel (10.2023 - 10.2025)
+  - CMS Garden Unconference, remote (englisch) (03.2021)
+  - [drupalcamp.ruhr](/2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html), 
+    ca. 250 Personen (englisch) (03.2018)
+  - Reinblau eG Team Retreats, 15-20 Personen (05.2017 - 05.2018)
 - Zusammenarbeit und Teambuildung
   - div Workshops und Retrospektiven zur Verbesserung der tribeübergreifenden Zusammenarbeit
 AXA (08.2022 - 06.2023)
@@ -29,15 +36,11 @@ AXA (08.2022 - 06.2023)
 - Purpose Workshops, div. Teams, REWE digital und IT Verticals (06.2019)
 - (Wieder)Aufbau und Professionalisierung der Moderatorengruppe, REWE digital (2020)
 - Nachhaltigkeit 2.0 im Web, Kreativworkshop, REWE Group (10.2019)
-- Open Space 
-  - Boxenstops der S & I Company, ca. 25 Personen, DB Systel (10.2023 - heute)
-  - CMS Garden Unconference, remote, englisch (03.2021)
-  - [drupalcamp.ruhr](/2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html), 
-    ca. 250 Personen, englisch (03.2018)
-  - Reinblau Team Retreats, 15-20 Personen (05.2017 - 05.2018)
 
 ## Als Trainer
 
+- Trainer Assistenz Systemischer NLP Coach, 
+[Institut Tom Andreas](https://www.tomandreas.de/) (10.2025 - 02.2026)
 - [Survival-, Bushcraft- und Wildnistraining](
 {% link pages/angebot/wildnistraining.md %}) (02.2022 - heute) 
   - u.a. [Ausbildung von Naturzeitclub Coaches](
@@ -46,12 +49,12 @@ AXA (08.2022 - 06.2023)
 {%post_url 2024-11-11-trainer-assistenz-bei-tom-andreas %}), 
 [Institut Tom Andreas](https://www.tomandreas.de/) (10.2024 - heute)
 - Ausbildung von OKR Moderatoren, AXA (12.2022)
-- Agiles Arbeiten 
+- [Agiles Arbeiten](/thema/agile)
   - HWW, monatliches Bootcamp für neue Mitarbeiter, REWE digital (2017 - 2022)
   - Workshops, verschiedene Abteilungen, REWE GROUP (2018 - 2022)
   - NextYOU[^nextyou], Führungskräfte, REWE GROUP (2018 - 2021)
 - Retrospektiven Training für OKR Master, REWE Group (2021)
-- Kanban
+- [Kanban](/thema/kanban)
   - Kanban Training, Non-IT Abteilung, REWE Group  (2021)
   - Personal Kanban Training, Tag der Assistenz, REWE Group (2019)
 - Moderationstraining, REWE digital + REWE Group (2021 - 2022)
@@ -61,9 +64,9 @@ AXA (08.2022 - 06.2023)
 - Visual Facilitation, REWE digital + REWE Group (2018 - 2022)
 - IT Trainings
    - Datenbanken, Ausbildung von Fachinformatikern, BBQ (09.2014)
-   - Drupal Entwicklung, In-House Trainings, Eduvision (07.2011 - 02.2013)
-   - Linux, Ausbildung von Fachinformatikern, IAL gGmbH (2012)
-   - UNIX System V und Shellskripting, In-House Training, IAL CAMPUS (07.2008 - 08.2008)
+   - [Drupal](/thema/drupal) Entwicklung, In-House Trainings, Eduvision (07.2011 - 02.2013)
+   - [Linux](/thema/linux), Ausbildung von Fachinformatikern, IAL gGmbH (2012)
+   - UNIX System V und [Shellskripting](/thema/bin-bash/), In-House Training, IAL CAMPUS (07.2008 - 08.2008)
    - Linux, Vorbereitung auf die Zertifizierungen des LPI, IAL und DAA (2007 - 2009)
 
 ## Als IT-Berater
