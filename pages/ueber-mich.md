@@ -3,7 +3,7 @@ layout: page
 title: Über mich
 permalink: /ueber-mich.html
 image: /assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg
-last_modified_at: 2023-08-16
+last_modified_at: 2026-09-16
 ---
 {% responsive_image  
 path: assets/imgs/portfolio/florian-latzel-winterwanderung-eifelsteig.jpeg 
@@ -37,7 +37,7 @@ stöbere in meinem [CV](https://florian.latzel.io/cv),
 vernetze dich mit mir auf [LinkedIn](https://www.linkedin.com/in/florianlatzel/?locale=de)
 und schreib mich via <florian@latzel.io> für einen Kennenlerntermin an.
 
-## Wegbegleiter
+## Wegbegleiter:innen
 
 {% responsive_image 
 alt: "Wegbegleiter, Foto © Tina Urban." 
